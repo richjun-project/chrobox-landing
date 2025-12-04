@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Time-Boxing Made Beautiful",
+    "title": "Master Your Day,",
+    "titleHighlight": " One Block at a Time",
+    "subtitle": "Chrobox transforms chaotic schedules into structured success. Plan, prioritize, and conquer your tasks with our intelligent time-boxing system.",
+    "cta": "Start 3-Day Free Trial",
+    "ctaSecondary": "Watch Demo",
+    "stats": {
+      "users": "Active Users",
+      "tasks": "Tasks Completed",
+      "rating": "App Store Rating"
+    }
+  },
+  "features": {
+    "title": "Why Chrobox?",
+    "subtitle": "Everything you need to master your time",
+    "planning": {
+      "title": "Smart Planning Flow",
+      "description": "Our guided 6-step workflow helps you brainstorm, prioritize, and schedule tasks in the most effective order."
+    },
+    "timeline": {
+      "title": "Visual Timeline",
+      "description": "See your entire day at a glance with our beautiful hourly timeline. Track progress in real-time."
+    },
+    "analytics": {
+      "title": "AI-Powered Insights",
+      "description": "Get personalized recommendations and track your productivity patterns with intelligent analytics."
+    },
+    "sync": {
+      "title": "Cross-Platform Sync",
+      "description": "Access your plans anywhere. Seamless sync across iOS, Android, and desktop."
+    },
+    "retrospective": {
+      "title": "Daily Retrospective",
+      "description": "Reflect on your day with mood tracking and performance analysis to continuously improve."
+    },
+    "widget": {
+      "title": "Home Widget",
+      "description": "Quick access to your schedule right from your home screen. Never miss a time block."
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started easily with an intuitive interface",
+    "step1": {
+      "title": "Brainstorm",
+      "description": "List all tasks for your day."
+    },
+    "step2": {
+      "title": "Prioritize",
+      "description": "Select your most important tasks."
+    },
+    "step3": {
+      "title": "Time-Box",
+      "description": "Assign time slots to each task."
+    },
+    "step4": {
+      "title": "Schedule",
+      "description": "Follow your plan and track progress."
+    },
+    "step5": {
+      "title": "Reflect",
+      "description": "Review and record your day."
+    },
+    "step6": {
+      "title": "AI Analysis",
+      "description": "Boost productivity with AI insights."
+    }
+  },
+  "pricing": {
+    "title": "Simple Pricing",
+    "subtitle": "Experience all Pro features with a 3-day free trial",
+    "trialBadge": "3-Day Free Trial",
+    "trialDescription": "Start without payment info",
+    "monthly": {
+      "name": "Monthly",
+      "price": "$4.99",
+      "period": "/month",
+      "features": [
+        "Unlimited tasks",
+        "AI-powered insights",
+        "Advanced statistics",
+        "Home widget",
+        "Priority support",
+        "Ad-free experience"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "yearly": {
+      "name": "Yearly",
+      "price": "$39.99",
+      "period": "/year",
+      "badge": "33% OFF",
+      "monthlyPrice": "$3.33/mo",
+      "features": [
+        "Unlimited tasks",
+        "AI-powered insights",
+        "Advanced statistics",
+        "Home widget",
+        "Priority support",
+        "Ad-free experience"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "lifetime": {
+      "name": "Lifetime",
+      "price": "$99.99",
+      "period": "one-time",
+      "badge": "Best Value",
+      "features": [
+        "Unlimited tasks",
+        "AI-powered insights",
+        "Advanced statistics",
+        "Home widget",
+        "Lifetime updates",
+        "Priority support",
+        "Ad-free experience"
+      ],
+      "cta": "Get Lifetime Access"
+    }
+  },
+  "download": {
+    "title": "Ready to Transform Your Day?",
+    "subtitle": "Download Chrobox now and start your 3-day free trial.",
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play"
+  },
+  "footer": {
+    "tagline": "Master your time, master your life.",
+    "links": {
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}
