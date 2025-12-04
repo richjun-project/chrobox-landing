@@ -300,6 +300,8 @@ export function Hero() {
                       size="xl"
                       variant="outline"
                       leftSection={<IconPlayerPlay size={20} />}
+                      component="a"
+                      href="#how-it-works"
                       style={{
                         borderRadius: '16px',
                         height: '56px',
@@ -309,6 +311,7 @@ export function Hero() {
                         borderColor: tokens.colors.gray200,
                         color: tokens.colors.gray700,
                         borderWidth: '2px',
+                        textDecoration: 'none',
                       }}
                     >
                       {t('hero.ctaSecondary')}

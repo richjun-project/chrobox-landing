@@ -1,0 +1,75 @@
+{
+  "name": "Chrobox - Intelligent Time-Boxing",
+  "short_name": "Chrobox",
+  "description": "Master your time with intelligent time-boxing methodology. Plan, prioritize, and track your daily tasks with AI-powered insights.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A1F36",
+  "theme_color": "#20C997",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "productivity",
+    "utilities",
+    "lifestyle"
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Planning",
+      "short_name": "Plan",
+      "description": "Start your daily planning flow",
+      "url": "/#planning",
+      "icons": [
+        {
+          "src": "/icon-planning.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Timeline",
+      "short_name": "Timeline",
+      "description": "View your daily timeline",
+      "url": "/#timeline",
+      "icons": [
+        {
+          "src": "/icon-timeline.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

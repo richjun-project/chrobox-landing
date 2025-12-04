@@ -1,0 +1,9 @@
+# Chrobox Landing Page - robots.txt
+# https://chrobox.net/robots.txt
+
+# Allow all search engines to crawl all content
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chrobox.net/sitemap.xml
