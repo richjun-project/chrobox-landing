@@ -6,3 +6,4 @@ export { HowItWorks } from './HowItWorks';
 export { Pricing } from './Pricing';
 export { Download } from './Download';
 export { Footer } from './Footer';
+export { BlogSection } from './BlogSection';

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { Box, Group, Text, Button, Container, ActionIcon, Menu } from '@mantine/core';
 import { IconMenu2, IconX, IconLanguage, IconChevronDown } from '@tabler/icons-react';
 import { Logo } from './Logo';
@@ -8,8 +9,12 @@ import { tokens } from '../theme';
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const isHome = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,11 +31,23 @@ export function Navbar() {
   ];
 
   const scrollToSection = (href: string) => {
+    if (!isHome) {
+      navigate('/' + href);
+      return;
+    }
     const element = document.querySelector(href);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
     setMobileMenuOpen(false);
+  };
+
+  const goHome = () => {
+    if (isHome) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate('/');
+    }
   };
 
   return (
@@ -57,7 +74,7 @@ export function Navbar() {
         <Container size="xl">
           <Group justify="space-between" align="center">
             {/* Logo */}
-            <Box onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            <Box onClick={goHome} style={{ cursor: 'pointer' }}>
               <Logo size="md" />
             </Box>
 

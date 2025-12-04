@@ -5,12 +5,44 @@
   <!-- Homepage -->
   <url>
     <loc>https://chrobox.net/</loc>
-    <lastmod>2025-12-05</lastmod>
+    <lastmod>2024-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/?lang=ko"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/"/>
+  </url>
+
+  <!-- Blog List -->
+  <url>
+    <loc>https://chrobox.net/blog</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Blog Post: What is Time-Boxing -->
+  <url>
+    <loc>https://chrobox.net/blog/what-is-time-boxing</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Post: 5 Time-Boxing Strategies -->
+  <url>
+    <loc>https://chrobox.net/blog/5-time-boxing-strategies</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Post: Time-Boxing vs Pomodoro -->
+  <url>
+    <loc>https://chrobox.net/blog/time-boxing-vs-pomodoro</loc>
+    <lastmod>2024-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>

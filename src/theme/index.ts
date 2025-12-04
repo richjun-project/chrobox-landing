@@ -89,6 +89,7 @@ export const tokens = {
     primary: '#0a0a0a',       // Almost black
     foreground: '#0a0a0a',
     background: '#ffffff',
+    backgroundAlt: '#fafafa',
 
     // Gray scale
     gray50: '#fafafa',
