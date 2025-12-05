@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Box, Container, Text, Button, Group, Badge, Stack } from '@mantine/core';
-import { IconPlayerPlay, IconArrowRight, IconUsers, IconCheck, IconStar } from '@tabler/icons-react';
+import { Box, Container, Text, Group, Badge, Stack } from '@mantine/core';
+import { IconUsers, IconCheck, IconStar, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
 import { tokens } from '../theme';
+
+const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
 
 // Animated Time Block Component
 function TimeBlock({
@@ -270,52 +273,71 @@ export function Hero() {
                 </Text>
               </motion.div>
 
-              {/* CTA Buttons */}
+              {/* Store Buttons */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
               >
                 <Group gap={16}>
-                  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                    <Button
-                      size="xl"
-                      rightSection={<IconArrowRight size={20} />}
-                      style={{
-                        background: tokens.colors.gray900,
-                        border: 'none',
-                        borderRadius: '16px',
-                        height: '56px',
-                        padding: '0 32px',
-                        fontWeight: 600,
-                        fontSize: '16px',
-                        boxShadow: '0 4px 16px rgba(0, 0, 0, 0.15)',
-                      }}
-                    >
-                      {t('hero.cta')}
-                    </Button>
-                  </motion.div>
-                  <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                    <Button
-                      size="xl"
-                      variant="outline"
-                      leftSection={<IconPlayerPlay size={20} />}
+                  <motion.div whileHover={{ scale: 1.05, y: -4 }} whileTap={{ scale: 0.98 }}>
+                    <Box
                       component="a"
-                      href="#how-it-works"
+                      href={APP_STORE_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       style={{
-                        borderRadius: '16px',
-                        height: '56px',
-                        padding: '0 28px',
-                        fontWeight: 600,
-                        fontSize: '16px',
-                        borderColor: tokens.colors.gray200,
-                        color: tokens.colors.gray700,
-                        borderWidth: '2px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px',
+                        background: tokens.colors.gray900,
+                        padding: '12px 24px',
+                        borderRadius: '14px',
                         textDecoration: 'none',
+                        boxShadow: '0 4px 16px rgba(0, 0, 0, 0.15)',
+                        cursor: 'pointer',
                       }}
                     >
-                      {t('hero.ctaSecondary')}
-                    </Button>
+                      <IconBrandApple size={28} color="white" />
+                      <Stack gap={0}>
+                        <Text size="xs" style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.2 }}>
+                          Download on the
+                        </Text>
+                        <Text size="md" fw={700} style={{ color: 'white', lineHeight: 1.3 }}>
+                          App Store
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </motion.div>
+                  <motion.div whileHover={{ scale: 1.05, y: -4 }} whileTap={{ scale: 0.98 }}>
+                    <Box
+                      component="a"
+                      href={PLAY_STORE_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px',
+                        background: 'white',
+                        padding: '12px 24px',
+                        borderRadius: '14px',
+                        textDecoration: 'none',
+                        boxShadow: '0 4px 16px rgba(0, 0, 0, 0.1)',
+                        border: `1px solid ${tokens.colors.gray200}`,
+                        cursor: 'pointer',
+                      }}
+                    >
+                      <IconBrandGooglePlay size={26} color={tokens.colors.gray900} />
+                      <Stack gap={0}>
+                        <Text size="xs" style={{ color: tokens.colors.gray500, lineHeight: 1.2 }}>
+                          Get it on
+                        </Text>
+                        <Text size="md" fw={700} style={{ color: tokens.colors.gray900, lineHeight: 1.3 }}>
+                          Google Play
+                        </Text>
+                      </Stack>
+                    </Box>
                   </motion.div>
                 </Group>
               </motion.div>
