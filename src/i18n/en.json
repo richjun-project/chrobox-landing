@@ -13,9 +13,9 @@
     "cta": "Start 3-Day Free Trial",
     "ctaSecondary": "How It Works",
     "stats": {
-      "users": "Active Users",
-      "tasks": "Tasks Completed",
-      "rating": "App Store Rating"
+      "productivity": "Productivity Boost",
+      "timeSaved": "Daily Time Saved",
+      "completion": "Task Completion"
     }
   },
   "features": {

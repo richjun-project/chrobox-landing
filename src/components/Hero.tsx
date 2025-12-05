@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Text, Group, Badge, Stack } from '@mantine/core';
-import { IconUsers, IconCheck, IconStar, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
+import { IconTrendingUp, IconClock, IconTargetArrow, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
 import { tokens } from '../theme';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
@@ -118,7 +118,7 @@ export function Hero() {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
   const scale = useTransform(scrollY, [0, 300], [1, 0.95]);
 
-  const [counts, setCounts] = useState({ users: 0, tasks: 0 });
+  const [counts, setCounts] = useState({ productivity: 0, timeSaved: 0, completion: 0 });
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -129,8 +129,9 @@ export function Hero() {
   }, []);
 
   useEffect(() => {
-    const targetUsers = 25000;
-    const targetTasks = 1200000;
+    const targetProductivity = 40;
+    const targetTimeSaved = 2;
+    const targetCompletion = 85;
     const duration = 2000;
     const steps = 60;
     const interval = duration / steps;
@@ -141,8 +142,9 @@ export function Hero() {
       const progress = step / steps;
       const easeOut = 1 - Math.pow(1 - progress, 3);
       setCounts({
-        users: Math.floor(targetUsers * easeOut),
-        tasks: Math.floor(targetTasks * easeOut),
+        productivity: Math.floor(targetProductivity * easeOut),
+        timeSaved: Math.round(targetTimeSaved * easeOut * 10) / 10,
+        completion: Math.floor(targetCompletion * easeOut),
       });
       if (step >= steps) clearInterval(timer);
     }, interval);
@@ -351,7 +353,7 @@ export function Hero() {
                 <Group gap={40} mt={16}>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconUsers size={20} style={{ color: tokens.colors.accent }} />
+                      <IconTrendingUp size={20} style={{ color: tokens.colors.accent }} />
                       <Text
                         style={{
                           fontSize: '28px',
@@ -360,16 +362,16 @@ export function Hero() {
                           color: tokens.colors.gray900,
                         }}
                       >
-                        {counts.users.toLocaleString()}+
+                        {counts.productivity}%+
                       </Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.users')}
+                      {t('hero.stats.productivity')}
                     </Text>
                   </Box>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconCheck size={20} style={{ color: tokens.colors.accent }} />
+                      <IconClock size={20} style={{ color: tokens.colors.accent }} />
                       <Text
                         style={{
                           fontSize: '28px',
@@ -378,16 +380,16 @@ export function Hero() {
                           color: tokens.colors.gray900,
                         }}
                       >
-                        {(counts.tasks / 1000000).toFixed(1)}M+
+                        {counts.timeSaved}h+
                       </Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.tasks')}
+                      {t('hero.stats.timeSaved')}
                     </Text>
                   </Box>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconStar size={20} style={{ color: tokens.colors.accent, fill: tokens.colors.accent }} />
+                      <IconTargetArrow size={20} style={{ color: tokens.colors.accent }} />
                       <Text
                         style={{
                           fontSize: '28px',
@@ -396,11 +398,11 @@ export function Hero() {
                           color: tokens.colors.gray900,
                         }}
                       >
-                        4.9
+                        {counts.completion}%+
                       </Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.rating')}
+                      {t('hero.stats.completion')}
                     </Text>
                   </Box>
                 </Group>
