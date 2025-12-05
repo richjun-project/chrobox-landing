@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Box, Container, Text, Group, Stack, Badge, Button } from '@mantine/core';
+import { Box, Container, Text, Group, Stack, Badge } from '@mantine/core';
 import { IconCheck, IconSparkles, IconCrown, IconInfinity, IconGift } from '@tabler/icons-react';
 import { tokens } from '../theme';
 
@@ -10,14 +10,13 @@ interface PricingCardProps {
   price: string;
   period: string;
   features: string[];
-  cta: string;
   variant: 'monthly' | 'yearly' | 'lifetime';
   badge?: string;
   monthlyPrice?: string;
   delay: number;
 }
 
-function PricingCard({ name, price, period, features, cta, variant, badge, monthlyPrice, delay }: PricingCardProps) {
+function PricingCard({ name, price, period, features, variant, badge, monthlyPrice, delay }: PricingCardProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
 
@@ -192,30 +191,6 @@ function PricingCard({ name, price, period, features, cta, variant, badge, month
               ))}
             </Stack>
 
-            {/* CTA Button */}
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
-              <Button
-                fullWidth
-                size="lg"
-                style={{
-                  height: '52px',
-                  fontSize: '16px',
-                  fontWeight: 600,
-                  borderRadius: '12px',
-                  background: isHighlighted
-                    ? 'white'
-                    : isLifetime
-                      ? tokens.colors.gray700
-                      : tokens.colors.accent,
-                  color: isHighlighted
-                    ? tokens.colors.gray900
-                    : 'white',
-                  border: 'none',
-                }}
-              >
-                {cta}
-              </Button>
-            </motion.div>
           </Stack>
         </Box>
       </motion.div>
@@ -235,7 +210,6 @@ export function Pricing() {
       price: t('pricing.monthly.price'),
       period: t('pricing.monthly.period'),
       features: t('pricing.monthly.features', { returnObjects: true }) as string[],
-      cta: t('pricing.monthly.cta'),
     },
     {
       variant: 'yearly' as const,
@@ -245,7 +219,6 @@ export function Pricing() {
       badge: t('pricing.yearly.badge'),
       monthlyPrice: t('pricing.yearly.monthlyPrice'),
       features: t('pricing.yearly.features', { returnObjects: true }) as string[],
-      cta: t('pricing.yearly.cta'),
     },
     {
       variant: 'lifetime' as const,
@@ -254,7 +227,6 @@ export function Pricing() {
       period: t('pricing.lifetime.period'),
       badge: t('pricing.lifetime.badge'),
       features: t('pricing.lifetime.features', { returnObjects: true }) as string[],
-      cta: t('pricing.lifetime.cta'),
     },
   ];
 
