@@ -49,9 +49,20 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   line-height: 1.6;
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* 모바일에서만 가로 스크롤 방지 */
+@media (max-width: 768px) {
+  html,
+  body,
+  #root {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Custom scrollbar */
