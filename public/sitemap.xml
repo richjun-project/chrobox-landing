@@ -898,6 +898,26 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/blog/time-boxing-for-creative-professionals"/>
   </url>
 
+  <!-- Blog: Time Audit Guide (English) -->
+  <url>
+    <loc>https://chrobox.net/blog/time-audit-guide</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/blog/time-audit-guide"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/time-audit-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/blog/time-audit-guide"/>
+  </url>
+  <url>
+    <loc>https://chrobox.net/ko/blog/time-audit-guide</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/blog/time-audit-guide"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/time-audit-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/blog/time-audit-guide"/>
+  </url>
+
   <!-- Comparison Pages (English + Korean) -->
   <url>
     <loc>https://chrobox.net/compare</loc>

@@ -103,6 +103,8 @@ const ROUTES = [
   '/ko/blog/beat-procrastination-time-boxing',
   '/ko/blog/daily-review-ritual',
   '/ko/blog/time-boxing-for-creative-professionals',
+  '/blog/time-audit-guide',
+  '/ko/blog/time-audit-guide',
   // Comparisons (EN)
   '/compare',
   '/compare/chrobox-vs-todoist',
