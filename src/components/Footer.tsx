@@ -51,19 +51,19 @@ export function Footer() {
                 marginBottom: '4px',
               }}
             >
-              회사 정보
+              {t('footer.companyInfo')}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              회사명: {COMPANY_INFO.name}
+              {t('footer.companyName')}: {COMPANY_INFO.name}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              대표자: {COMPANY_INFO.ceo}
+              {t('footer.ceo')}: {COMPANY_INFO.ceo}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              사업자등록번호: {COMPANY_INFO.businessNumber}
+              {t('footer.businessNumber')}: {COMPANY_INFO.businessNumber}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              주소: {COMPANY_INFO.address}
+              {t('footer.address')}: {COMPANY_INFO.address}
             </Text>
           </Stack>
 
@@ -79,13 +79,13 @@ export function Footer() {
                 marginBottom: '4px',
               }}
             >
-              연락처
+              {t('footer.contact')}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              이메일: {COMPANY_INFO.email}
+              {t('footer.email')}: {COMPANY_INFO.email}
             </Text>
             <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-              전화번호: {COMPANY_INFO.phone}
+              {t('footer.phone')}: {COMPANY_INFO.phone}
             </Text>
           </Stack>
 
@@ -101,7 +101,7 @@ export function Footer() {
                 marginBottom: '4px',
               }}
             >
-              법적 고지
+              {t('footer.links.legal')}
             </Text>
             <motion.div whileHover={{ x: 4 }}>
               <Anchor
@@ -121,7 +121,7 @@ export function Footer() {
                   e.currentTarget.style.color = tokens.colors.gray500;
                 }}
               >
-                개인정보 처리방침
+                {t('footer.privacy')}
               </Anchor>
             </motion.div>
             <motion.div whileHover={{ x: 4 }}>
@@ -142,7 +142,7 @@ export function Footer() {
                   e.currentTarget.style.color = tokens.colors.gray500;
                 }}
               >
-                서비스 이용약관
+                {t('footer.terms')}
               </Anchor>
             </motion.div>
           </Stack>
@@ -158,7 +158,7 @@ export function Footer() {
       >
         <Container size="xl">
           <Text size="sm" style={{ color: tokens.colors.gray400, textAlign: 'center' }}>
-            © 2024 {COMPANY_INFO.name}. All rights reserved.
+            © {new Date().getFullYear()} {COMPANY_INFO.name}. All rights reserved.
           </Text>
         </Container>
       </Box>

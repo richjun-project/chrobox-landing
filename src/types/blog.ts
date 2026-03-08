@@ -12,6 +12,13 @@ export interface BlogPost {
   lang: 'en' | 'ko';
 }
 
+export interface BlogFaq {
+  question: string;
+  questionKo?: string;
+  answer: string;
+  answerKo?: string;
+}
+
 export interface BlogPostMeta {
   slug: string;
   title: string;
@@ -23,4 +30,5 @@ export interface BlogPostMeta {
   image: string;
   readTime: number;
   lang: 'en' | 'ko';
+  faqs?: BlogFaq[];
 }

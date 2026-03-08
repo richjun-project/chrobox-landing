@@ -130,7 +130,9 @@
     "title": "Ready to Transform Your Day?",
     "subtitle": "Download Chrobox now and start your 3-day free trial.",
     "appStore": "Download on the App Store",
-    "playStore": "Get it on Google Play"
+    "playStore": "Get it on Google Play",
+    "appStoreSub": "Download on the",
+    "playStoreSub": "Get it on"
   },
   "footer": {
     "tagline": "Master your time, master your life.",
@@ -139,10 +141,17 @@
       "company": "Company",
       "legal": "Legal"
     },
+    "companyInfo": "Company Info",
+    "companyName": "Company",
+    "ceo": "CEO",
+    "businessNumber": "Business Number",
+    "address": "Address",
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Phone",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "about": "About Us",
-    "contact": "Contact",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
   }

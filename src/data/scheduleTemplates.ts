@@ -1,0 +1,762 @@
+export interface TimeBlock {
+  time: string;
+  task: string;
+  category: 'focus' | 'meeting' | 'break' | 'admin' | 'creative' | 'learning';
+}
+
+export interface ScheduleTemplate {
+  slug: string;
+  profession: string;
+  professionKo: string;
+  description: string;
+  descriptionKo: string;
+  icon: string;
+  schedule: TimeBlock[];
+  tips: string[];
+  tipsKo: string[];
+  relatedSlugs: string[];
+}
+
+export const scheduleTemplates: ScheduleTemplate[] = [
+  {
+    slug: 'software-developer',
+    profession: 'Software Developer',
+    professionKo: '소프트웨어 개발자',
+    description:
+      'A proven daily schedule for software developers to maximize deep work, code quality, and team collaboration.',
+    descriptionKo:
+      '소프트웨어 개발자를 위한 딥 워크, 코드 품질, 팀 협업을 극대화하는 일일 스케줄 템플릿.',
+    icon: 'IconCode',
+    schedule: [
+      { time: '07:00 - 07:30', task: 'Review GitHub notifications & plan daily tasks', category: 'admin' },
+      { time: '07:30 - 09:30', task: 'Deep Work: Feature development (no interruptions)', category: 'focus' },
+      { time: '09:30 - 10:00', task: 'Stand-up meeting & team sync', category: 'meeting' },
+      { time: '10:00 - 12:00', task: 'Deep Work: Code review & pull requests', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch break & walk', category: 'break' },
+      { time: '13:00 - 14:00', task: 'Bug fixes & ticket triage', category: 'admin' },
+      { time: '14:00 - 16:00', task: 'Deep Work: Architecture & new features', category: 'focus' },
+      { time: '16:00 - 16:30', task: 'Documentation & comments', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Learning: Tech articles, courses, or side projects', category: 'learning' },
+    ],
+    tips: [
+      'Block your first 2 hours for deep work before checking Slack or email.',
+      'Use time-boxing to prevent scope creep on individual tasks.',
+      'Schedule code reviews in batches rather than as constant interruptions.',
+      'End each day by writing tomorrow\'s top 3 priorities.',
+      'Take real breaks — stepping away from screens improves problem-solving.',
+    ],
+    tipsKo: [
+      '슬랙이나 이메일을 확인하기 전에 처음 2시간을 딥 워크로 차단하세요.',
+      '타임박싱을 활용하여 개별 작업의 범위 확장을 방지하세요.',
+      '코드 리뷰는 지속적인 방해 대신 일괄적으로 예약하세요.',
+      '매일 끝날 때 내일의 상위 3가지 우선순위를 적어두세요.',
+      '진정한 휴식을 취하세요 — 화면에서 벗어나면 문제 해결 능력이 향상됩니다.',
+    ],
+    relatedSlugs: ['product-manager', 'data-scientist', 'ux-designer', 'remote-worker'],
+  },
+  {
+    slug: 'product-manager',
+    profession: 'Product Manager',
+    professionKo: '프로덕트 매니저',
+    description:
+      'An optimized daily schedule for product managers balancing strategy, stakeholder meetings, and team alignment.',
+    descriptionKo:
+      '전략, 이해관계자 미팅, 팀 정렬을 균형 있게 조율하는 프로덕트 매니저를 위한 최적화된 일일 스케줄.',
+    icon: 'IconChartBar',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Morning review: metrics, user feedback & KPIs', category: 'admin' },
+      { time: '08:30 - 09:00', task: 'Email & Slack triage', category: 'admin' },
+      { time: '09:00 - 10:00', task: 'Engineering stand-up & sprint planning', category: 'meeting' },
+      { time: '10:00 - 12:00', task: 'Deep Work: PRD writing & feature spec', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch & informal networking', category: 'break' },
+      { time: '13:00 - 14:00', task: 'Stakeholder meeting or user research interview', category: 'meeting' },
+      { time: '14:00 - 15:00', task: 'Cross-functional sync: design, marketing, sales', category: 'meeting' },
+      { time: '15:00 - 16:30', task: 'Roadmap updates & backlog grooming', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Daily wrap-up & next-day prep', category: 'admin' },
+    ],
+    tips: [
+      'Batch all meetings into the afternoon to protect morning deep work.',
+      'Spend 30 minutes daily reading user feedback and support tickets.',
+      'Use a weekly "strategy hour" to revisit your product vision.',
+      'Say no to meetings without a clear agenda or outcome.',
+      'Communicate decisions in writing to keep async teams aligned.',
+    ],
+    tipsKo: [
+      '오전 딥 워크를 보호하기 위해 모든 미팅을 오후로 묶으세요.',
+      '매일 30분을 사용자 피드백과 지원 티켓을 읽는 데 사용하세요.',
+      '주간 "전략 시간"을 활용해 제품 비전을 재검토하세요.',
+      '명확한 의제나 결과 없이 이루어지는 미팅에는 거절하세요.',
+      '비동기 팀이 정렬을 유지할 수 있도록 결정 사항을 서면으로 전달하세요.',
+    ],
+    relatedSlugs: ['software-developer', 'ux-designer', 'project-manager', 'startup-founder'],
+  },
+  {
+    slug: 'graphic-designer',
+    profession: 'Graphic Designer',
+    professionKo: '그래픽 디자이너',
+    description:
+      'A creative daily schedule for graphic designers to fuel inspiration, protect creative flow, and meet client deadlines.',
+    descriptionKo:
+      '영감을 북돋우고, 창의적 흐름을 보호하며, 클라이언트 마감을 지키는 그래픽 디자이너를 위한 창의적 일일 스케줄.',
+    icon: 'IconPalette',
+    schedule: [
+      { time: '08:30 - 09:00', task: 'Inspiration time: Dribbble, Behance, Pinterest', category: 'creative' },
+      { time: '09:00 - 11:30', task: 'Deep Work: Primary design project', category: 'creative' },
+      { time: '11:30 - 12:00', task: 'Client email replies & revision feedback', category: 'admin' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 14:00', task: 'Client call or brief review', category: 'meeting' },
+      { time: '14:00 - 16:00', task: 'Deep Work: Secondary project or revisions', category: 'creative' },
+      { time: '16:00 - 16:30', task: 'Skill building: Typography, motion, new tools', category: 'learning' },
+      { time: '16:30 - 17:00', task: 'File organization & asset export', category: 'admin' },
+    ],
+    tips: [
+      'Start with 30 minutes of inspiration before opening design software.',
+      'Use time-boxing to avoid endless revision loops on single projects.',
+      'Keep a swipe file of designs that inspire you for reference.',
+      'Set "do not disturb" hours for deep creative work.',
+      'Batch client communications rather than responding to every message immediately.',
+    ],
+    tipsKo: [
+      '디자인 소프트웨어를 열기 전에 30분의 영감 시간으로 시작하세요.',
+      '타임박싱을 활용해 단일 프로젝트의 끝없는 수정 루프를 방지하세요.',
+      '참고용으로 영감을 주는 디자인의 스와이프 파일을 유지하세요.',
+      '깊은 창의적 작업을 위해 "방해 금지" 시간을 설정하세요.',
+      '모든 메시지에 즉시 응답하는 대신 클라이언트 커뮤니케이션을 일괄 처리하세요.',
+    ],
+    relatedSlugs: ['ux-designer', 'content-creator', 'freelance-writer', 'marketing-manager'],
+  },
+  {
+    slug: 'marketing-manager',
+    profession: 'Marketing Manager',
+    professionKo: '마케팅 매니저',
+    description:
+      'A high-impact daily schedule for marketing managers to drive campaigns, analyze results, and lead creative teams.',
+    descriptionKo:
+      '캠페인을 주도하고, 결과를 분석하며, 창의적인 팀을 이끄는 마케팅 매니저를 위한 고효율 일일 스케줄.',
+    icon: 'IconSpeakerphone',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Check campaign metrics & social media performance', category: 'admin' },
+      { time: '08:30 - 09:00', task: 'Priority email & urgent responses', category: 'admin' },
+      { time: '09:00 - 11:00', task: 'Deep Work: Campaign strategy & content creation', category: 'creative' },
+      { time: '11:00 - 12:00', task: 'Team meeting: creative briefs & campaign review', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 14:30', task: 'Stakeholder reports & analytics review', category: 'admin' },
+      { time: '14:30 - 15:30', task: 'Agency or vendor meetings', category: 'meeting' },
+      { time: '15:30 - 16:30', task: 'Content calendar & scheduling', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Industry news & competitor research', category: 'learning' },
+    ],
+    tips: [
+      'Review key metrics first thing to ground your decisions in data.',
+      'Block creative time before meetings drain your energy.',
+      'Batch content creation into focused 2-hour sessions.',
+      'Automate repetitive reporting tasks to free up strategic time.',
+      'Schedule a weekly "big picture" session to revisit long-term goals.',
+    ],
+    tipsKo: [
+      '결정을 데이터에 근거하기 위해 가장 먼저 핵심 지표를 검토하세요.',
+      '미팅이 에너지를 소모하기 전에 창의적인 시간을 확보하세요.',
+      '콘텐츠 제작을 집중적인 2시간 세션으로 일괄 처리하세요.',
+      '반복적인 보고 작업을 자동화하여 전략적 시간을 확보하세요.',
+      '장기 목표를 재검토하기 위한 주간 "큰 그림" 세션을 예약하세요.',
+    ],
+    relatedSlugs: ['content-creator', 'graphic-designer', 'product-manager', 'sales-representative'],
+  },
+  {
+    slug: 'data-scientist',
+    profession: 'Data Scientist',
+    professionKo: '데이터 사이언티스트',
+    description:
+      'A structured daily schedule for data scientists to maximize analysis time, model development, and cross-team communication.',
+    descriptionKo:
+      '분석 시간, 모델 개발, 팀 간 커뮤니케이션을 극대화하는 데이터 사이언티스트를 위한 구조화된 일일 스케줄.',
+    icon: 'IconChartDots',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Check model runs & overnight job results', category: 'admin' },
+      { time: '08:30 - 10:30', task: 'Deep Work: Model development & experimentation', category: 'focus' },
+      { time: '10:30 - 11:00', task: 'Data pipeline review & debugging', category: 'admin' },
+      { time: '11:00 - 12:00', task: 'Team meeting & experiment review', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Deep Work: EDA, feature engineering, visualization', category: 'focus' },
+      { time: '15:00 - 15:30', task: 'Stakeholder presentation prep or results sharing', category: 'admin' },
+      { time: '15:30 - 16:30', task: 'Code review & documentation', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Research papers & ML community updates', category: 'learning' },
+    ],
+    tips: [
+      'Run long experiments overnight or during meetings to maximize compute time.',
+      'Document hypotheses before starting analysis to stay focused.',
+      'Schedule stakeholder demos on Fridays to create weekly momentum.',
+      'Use version control for notebooks from day one.',
+      'Reserve 30 minutes daily to stay current with research papers.',
+    ],
+    tipsKo: [
+      '컴퓨팅 시간을 극대화하기 위해 긴 실험을 밤새 또는 미팅 중에 실행하세요.',
+      '집중력을 유지하기 위해 분석을 시작하기 전에 가설을 문서화하세요.',
+      '주간 모멘텀을 만들기 위해 금요일에 이해관계자 데모를 예약하세요.',
+      '첫날부터 노트북에 버전 관리를 사용하세요.',
+      '연구 논문에 대한 최신 정보를 유지하기 위해 매일 30분을 예약하세요.',
+    ],
+    relatedSlugs: ['software-developer', 'product-manager', 'remote-worker', 'college-student'],
+  },
+  {
+    slug: 'freelance-writer',
+    profession: 'Freelance Writer',
+    professionKo: '프리랜서 작가',
+    description:
+      'A disciplined daily schedule for freelance writers to maintain creative output, meet client deadlines, and grow their business.',
+    descriptionKo:
+      '창의적 생산성을 유지하고, 클라이언트 마감을 지키며, 비즈니스를 성장시키는 프리랜서 작가를 위한 규율 있는 일일 스케줄.',
+    icon: 'IconPencil',
+    schedule: [
+      { time: '07:00 - 07:30', task: 'Morning pages: free writing to warm up creativity', category: 'creative' },
+      { time: '07:30 - 10:00', task: 'Deep Work: Primary writing project (first draft)', category: 'focus' },
+      { time: '10:00 - 10:15', task: 'Short break & stretch', category: 'break' },
+      { time: '10:15 - 12:00', task: 'Editing & revision of previous work', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch & reading', category: 'break' },
+      { time: '13:00 - 14:00', task: 'Client emails, pitches & invoicing', category: 'admin' },
+      { time: '14:00 - 15:30', task: 'Secondary project or research', category: 'creative' },
+      { time: '15:30 - 16:00', task: 'Social media & personal brand content', category: 'admin' },
+      { time: '16:00 - 16:30', task: 'Reading: books, articles, craft development', category: 'learning' },
+    ],
+    tips: [
+      'Write your hardest piece first when creative energy is highest.',
+      'Set a daily word count goal and track it — consistency beats inspiration.',
+      'Separate writing and editing sessions; don\'t do both at once.',
+      'Batch client communication to avoid breaking creative flow.',
+      'Keep a running idea file to never start a session with a blank page.',
+    ],
+    tipsKo: [
+      '창의적인 에너지가 가장 높을 때 가장 어려운 작업을 먼저 작성하세요.',
+      '일일 단어 수 목표를 설정하고 추적하세요 — 일관성이 영감을 능가합니다.',
+      '작성과 편집 세션을 분리하세요; 동시에 두 가지를 하지 마세요.',
+      '창의적인 흐름이 끊기지 않도록 클라이언트 커뮤니케이션을 일괄 처리하세요.',
+      '빈 페이지로 세션을 시작하지 않으려면 아이디어 파일을 계속 유지하세요.',
+    ],
+    relatedSlugs: ['content-creator', 'graphic-designer', 'remote-worker', 'college-student'],
+  },
+  {
+    slug: 'teacher',
+    profession: 'Teacher',
+    professionKo: '교사',
+    description:
+      'A balanced daily schedule for teachers to manage classroom time, lesson planning, grading, and personal wellbeing.',
+    descriptionKo:
+      '수업 시간, 수업 계획, 채점, 개인 건강을 관리하는 교사를 위한 균형 잡힌 일일 스케줄.',
+    icon: 'IconSchool',
+    schedule: [
+      { time: '07:00 - 07:30', task: 'Prep & organize classroom materials', category: 'admin' },
+      { time: '07:30 - 08:00', task: 'Review lesson plan for the day', category: 'admin' },
+      { time: '08:00 - 12:00', task: 'Morning classes & student instruction', category: 'focus' },
+      { time: '12:00 - 12:45', task: 'Lunch break', category: 'break' },
+      { time: '12:45 - 14:00', task: 'Afternoon classes', category: 'focus' },
+      { time: '14:00 - 15:00', task: 'Grading & feedback on student work', category: 'admin' },
+      { time: '15:00 - 15:30', task: 'Parent communication & emails', category: 'admin' },
+      { time: '15:30 - 16:30', task: 'Lesson planning for next day/week', category: 'creative' },
+      { time: '16:30 - 17:00', task: 'Professional development & curriculum research', category: 'learning' },
+    ],
+    tips: [
+      'Use time-boxing to keep grading sessions from expanding indefinitely.',
+      'Prepare materials the day before to avoid morning stress.',
+      'Set specific "office hours" for parent communication rather than being always available.',
+      'Batch similar lesson plans together to reduce context switching.',
+      'Protect personal time after 5pm — teacher burnout is real.',
+    ],
+    tipsKo: [
+      '타임박싱을 활용해 채점 세션이 무한정 늘어나지 않도록 하세요.',
+      '아침 스트레스를 피하기 위해 전날 자료를 준비하세요.',
+      '항상 연락 가능한 상태 대신 부모 커뮤니케이션을 위한 특정 "상담 시간"을 설정하세요.',
+      '문맥 전환을 줄이기 위해 비슷한 수업 계획을 함께 묶으세요.',
+      '오후 5시 이후 개인 시간을 보호하세요 — 교사 번아웃은 실제로 일어납니다.',
+    ],
+    relatedSlugs: ['college-student', 'parent-working-from-home', 'freelance-writer', 'content-creator'],
+  },
+  {
+    slug: 'nurse',
+    profession: 'Nurse',
+    professionKo: '간호사',
+    description:
+      'A demanding daily schedule for nurses managing patient care, documentation, and team coordination on shift.',
+    descriptionKo:
+      '교대 근무 중 환자 케어, 문서 작성, 팀 조정을 관리하는 간호사를 위한 일일 스케줄.',
+    icon: 'IconHeartbeat',
+    schedule: [
+      { time: '06:45 - 07:00', task: 'Shift handover: patient status review', category: 'admin' },
+      { time: '07:00 - 08:00', task: 'Morning patient assessments & vital signs', category: 'focus' },
+      { time: '08:00 - 09:00', task: 'Medication administration', category: 'focus' },
+      { time: '09:00 - 10:00', task: 'Doctor rounds & interdisciplinary team meeting', category: 'meeting' },
+      { time: '10:00 - 12:00', task: 'Nursing interventions & patient care', category: 'focus' },
+      { time: '12:00 - 12:30', task: 'Lunch break (protected)', category: 'break' },
+      { time: '12:30 - 14:00', task: 'Documentation & charting', category: 'admin' },
+      { time: '14:00 - 15:00', task: 'Afternoon patient care & family communication', category: 'focus' },
+      { time: '15:00 - 15:30', task: 'Shift wrap-up: notes & handover prep', category: 'admin' },
+    ],
+    tips: [
+      'Chart in real-time when possible to reduce end-of-shift documentation burden.',
+      'Take your breaks — even 15 minutes of rest improves patient care quality.',
+      'Prioritize patient acuity at the start of each shift.',
+      'Use structured communication tools (SBAR) to save time in handovers.',
+      'Set realistic expectations with families at the start of each day.',
+    ],
+    tipsKo: [
+      '교대 종료 시 문서 작업 부담을 줄이기 위해 가능한 한 실시간으로 차트를 작성하세요.',
+      '휴식을 취하세요 — 15분의 휴식만으로도 환자 케어 품질이 향상됩니다.',
+      '각 교대 시작 시 환자 중증도를 우선순위로 두세요.',
+      '인계 시간을 절약하기 위해 구조화된 커뮤니케이션 도구(SBAR)를 사용하세요.',
+      '매일 초반에 가족들에게 현실적인 기대를 설정하세요.',
+    ],
+    relatedSlugs: ['executive', 'project-manager', 'parent-working-from-home', 'remote-worker'],
+  },
+  {
+    slug: 'startup-founder',
+    profession: 'Startup Founder',
+    professionKo: '스타트업 창업자',
+    description:
+      'A high-intensity daily schedule for startup founders to build product, fundraise, and lead teams without burning out.',
+    descriptionKo:
+      '번아웃 없이 제품을 만들고, 자금을 조달하며, 팀을 이끄는 스타트업 창업자를 위한 고강도 일일 스케줄.',
+    icon: 'IconRocket',
+    schedule: [
+      { time: '06:30 - 07:00', task: 'Morning routine: exercise & journaling', category: 'break' },
+      { time: '07:00 - 07:30', task: 'Review OKRs & company metrics dashboard', category: 'admin' },
+      { time: '07:30 - 09:30', task: 'Deep Work: Most critical company bottleneck', category: 'focus' },
+      { time: '09:30 - 11:30', task: 'Investor calls, partnership, or customer meetings', category: 'meeting' },
+      { time: '11:30 - 12:00', task: 'Team standups & hiring review', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch (often with potential hires or partners)', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Product decisions, roadmap & strategy', category: 'focus' },
+      { time: '15:00 - 16:30', task: 'Operational tasks: legal, finance, HR', category: 'admin' },
+      { time: '16:30 - 17:30', task: 'Customer feedback review & support escalations', category: 'admin' },
+    ],
+    tips: [
+      'Identify and eliminate the single biggest bottleneck every morning.',
+      'Protect at least 2 hours of uninterrupted thinking time each day.',
+      'Delegate operational tasks aggressively — focus on what only you can do.',
+      'Schedule investor and sales calls in batches to protect building time.',
+      'Take one full day off each week to maintain long-term judgment.',
+    ],
+    tipsKo: [
+      '매일 아침 가장 큰 병목 지점을 파악하고 제거하세요.',
+      '매일 최소 2시간의 방해받지 않는 사고 시간을 보호하세요.',
+      '운영 작업을 적극적으로 위임하세요 — 오직 당신만 할 수 있는 일에 집중하세요.',
+      '빌딩 시간을 보호하기 위해 투자자 및 영업 통화를 일괄적으로 예약하세요.',
+      '장기적인 판단력을 유지하기 위해 매주 하루는 완전히 쉬세요.',
+    ],
+    relatedSlugs: ['product-manager', 'executive', 'software-developer', 'sales-representative'],
+  },
+  {
+    slug: 'college-student',
+    profession: 'College Student',
+    professionKo: '대학생',
+    description:
+      'A structured daily schedule for college students to balance classes, studying, assignments, and social life.',
+    descriptionKo:
+      '수업, 공부, 과제, 사회생활을 균형 있게 조율하는 대학생을 위한 구조화된 일일 스케줄.',
+    icon: 'IconBook',
+    schedule: [
+      { time: '07:30 - 08:00', task: 'Wake up, breakfast & review day\'s schedule', category: 'admin' },
+      { time: '08:00 - 10:00', task: 'Morning classes', category: 'focus' },
+      { time: '10:00 - 12:00', task: 'Study block: lecture notes review & readings', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch & social time', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Afternoon classes or labs', category: 'focus' },
+      { time: '15:00 - 17:00', task: 'Deep Study: assignments & problem sets', category: 'focus' },
+      { time: '17:00 - 18:00', task: 'Exercise or club activities', category: 'break' },
+      { time: '19:00 - 21:00', task: 'Evening study: review & exam prep', category: 'learning' },
+      { time: '21:00 - 22:00', task: 'Leisure, social, or relaxation', category: 'break' },
+    ],
+    tips: [
+      'Review lecture notes within 24 hours to lock information in memory.',
+      'Use the Pomodoro technique or time-boxing for study sessions.',
+      'Sleep 7-8 hours — it\'s when your brain consolidates learning.',
+      'Schedule study sessions in the library to reduce distractions.',
+      'Plan assignment work at least 3 days before the deadline.',
+    ],
+    tipsKo: [
+      '24시간 이내에 강의 노트를 검토하여 정보를 기억에 고착시키세요.',
+      '공부 세션에 포모도로 기법이나 타임박싱을 사용하세요.',
+      '7-8시간을 자세요 — 뇌가 학습을 통합하는 시간입니다.',
+      '방해를 줄이기 위해 도서관에서 공부 세션을 계획하세요.',
+      '마감일 최소 3일 전에 과제 작업을 계획하세요.',
+    ],
+    relatedSlugs: ['freelance-writer', 'data-scientist', 'teacher', 'remote-worker'],
+  },
+  {
+    slug: 'remote-worker',
+    profession: 'Remote Worker',
+    professionKo: '원격 근무자',
+    description:
+      'A disciplined daily schedule for remote workers to maintain productivity, avoid isolation, and separate work from home life.',
+    descriptionKo:
+      '생산성을 유지하고, 고립감을 피하며, 업무와 가정생활을 분리하는 원격 근무자를 위한 규율 있는 일일 스케줄.',
+    icon: 'IconHome',
+    schedule: [
+      { time: '07:30 - 08:00', task: 'Morning routine: coffee, exercise, get dressed', category: 'break' },
+      { time: '08:00 - 08:30', task: 'Plan the day & set daily intentions', category: 'admin' },
+      { time: '08:30 - 10:30', task: 'Deep Work block: highest priority task', category: 'focus' },
+      { time: '10:30 - 11:00', task: 'Team Slack check & async responses', category: 'admin' },
+      { time: '11:00 - 12:00', task: 'Virtual meetings & video calls', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch (away from desk)', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Focused work: secondary tasks & projects', category: 'focus' },
+      { time: '15:00 - 15:30', task: 'Email & communication catch-up', category: 'admin' },
+      { time: '15:30 - 17:00', task: 'Collaborative work & wrap-up tasks', category: 'focus' },
+    ],
+    tips: [
+      'Create a dedicated workspace — never work from bed or the couch.',
+      'Start work at the same time every day to signal your brain it\'s work time.',
+      'Take real lunch breaks away from your screen.',
+      'Over-communicate with your team to compensate for lack of in-person cues.',
+      'End the workday with a shutdown ritual to mentally switch off.',
+    ],
+    tipsKo: [
+      '전용 작업 공간을 만드세요 — 침대나 소파에서 절대 일하지 마세요.',
+      '뇌에 작업 시간임을 알리기 위해 매일 같은 시간에 업무를 시작하세요.',
+      '화면에서 벗어나 진정한 점심 휴식을 취하세요.',
+      '대면 신호의 부재를 보완하기 위해 팀과 과도하게 소통하세요.',
+      '정신적으로 스위치를 끄기 위한 업무 종료 의식으로 하루를 마무리하세요.',
+    ],
+    relatedSlugs: ['software-developer', 'freelance-writer', 'parent-working-from-home', 'data-scientist'],
+  },
+  {
+    slug: 'project-manager',
+    profession: 'Project Manager',
+    professionKo: '프로젝트 매니저',
+    description:
+      'A structured daily schedule for project managers to keep teams on track, manage risks, and deliver on time.',
+    descriptionKo:
+      '팀이 제때에 납품할 수 있도록 팀을 관리하고, 위험을 관리하며, 제때에 납품하는 프로젝트 매니저를 위한 구조화된 일일 스케줄.',
+    icon: 'IconClipboardList',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Project status review: risks, blockers, milestones', category: 'admin' },
+      { time: '08:30 - 09:00', task: 'Priority email & escalation handling', category: 'admin' },
+      { time: '09:00 - 09:30', task: 'Daily stand-up with project team', category: 'meeting' },
+      { time: '09:30 - 11:00', task: 'Deep Work: Project planning & documentation', category: 'focus' },
+      { time: '11:00 - 12:00', task: 'Stakeholder update & cross-department sync', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 14:30', task: 'Risk assessment & issue resolution', category: 'focus' },
+      { time: '14:30 - 15:30', task: 'Vendor or contractor meetings', category: 'meeting' },
+      { time: '15:30 - 16:30', task: 'Timeline updates & resource allocation', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'End-of-day status report', category: 'admin' },
+    ],
+    tips: [
+      'Hold stand-ups at the same time daily to build team rhythm.',
+      'Use time-boxing for issue resolution to prevent single problems dominating the day.',
+      'Document all decisions in writing for accountability.',
+      'Review the critical path weekly to anticipate delays before they happen.',
+      'Build buffer time into every project phase — things always take longer.',
+    ],
+    tipsKo: [
+      '팀의 리듬을 만들기 위해 매일 같은 시간에 스탠드업을 진행하세요.',
+      '단일 문제가 하루를 지배하지 않도록 문제 해결에 타임박싱을 사용하세요.',
+      '책임감을 위해 모든 결정 사항을 서면으로 문서화하세요.',
+      '지연이 발생하기 전에 예측하기 위해 매주 중요 경로를 검토하세요.',
+      '모든 프로젝트 단계에 버퍼 시간을 구축하세요 — 항상 더 오래 걸립니다.',
+    ],
+    relatedSlugs: ['product-manager', 'software-developer', 'executive', 'startup-founder'],
+  },
+  {
+    slug: 'ux-designer',
+    profession: 'UX Designer',
+    professionKo: 'UX 디자이너',
+    description:
+      'A user-centered daily schedule for UX designers to balance research, design, testing, and cross-functional collaboration.',
+    descriptionKo:
+      '리서치, 디자인, 테스팅, 팀 간 협업을 균형 있게 조율하는 UX 디자이너를 위한 사용자 중심 일일 스케줄.',
+    icon: 'IconLayout',
+    schedule: [
+      { time: '08:30 - 09:00', task: 'Review user research notes & design feedback', category: 'admin' },
+      { time: '09:00 - 11:00', task: 'Deep Work: Wireframing & prototyping', category: 'creative' },
+      { time: '11:00 - 12:00', task: 'Design critique or cross-team review', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 14:00', task: 'User research: interviews or usability testing', category: 'focus' },
+      { time: '14:00 - 15:00', task: 'Product team sync: design specs handoff', category: 'meeting' },
+      { time: '15:00 - 16:30', task: 'Iteration: refining based on feedback', category: 'creative' },
+      { time: '16:30 - 17:00', task: 'Sketch & explore: experimental ideas', category: 'creative' },
+    ],
+    tips: [
+      'Schedule user interviews in the afternoon to preserve morning creative energy.',
+      'Use time-boxing to avoid over-polishing designs before user validation.',
+      'Present rough ideas early and often — perfect kills good.',
+      'Keep a research insights board updated weekly.',
+      'Always tie design decisions back to specific user needs.',
+    ],
+    tipsKo: [
+      '오전 창의적 에너지를 보존하기 위해 오후에 사용자 인터뷰를 예약하세요.',
+      '사용자 검증 전에 디자인을 과도하게 다듬지 않도록 타임박싱을 사용하세요.',
+      '초기에 자주 거친 아이디어를 제시하세요 — 완벽은 좋음을 죽입니다.',
+      '리서치 인사이트 보드를 매주 업데이트하세요.',
+      '항상 디자인 결정을 특정 사용자 요구와 연결하세요.',
+    ],
+    relatedSlugs: ['graphic-designer', 'product-manager', 'software-developer', 'marketing-manager'],
+  },
+  {
+    slug: 'sales-representative',
+    profession: 'Sales Representative',
+    professionKo: '영업 담당자',
+    description:
+      'A high-energy daily schedule for sales representatives to maximize prospect outreach, close deals, and hit quota.',
+    descriptionKo:
+      '잠재 고객 접근을 극대화하고, 거래를 성사시키며, 할당량을 달성하는 영업 담당자를 위한 고에너지 일일 스케줄.',
+    icon: 'IconCurrencyDollar',
+    schedule: [
+      { time: '07:30 - 08:00', task: 'CRM review: pipeline & daily targets', category: 'admin' },
+      { time: '08:00 - 10:00', task: 'Prospecting: cold calls & outreach emails', category: 'focus' },
+      { time: '10:00 - 12:00', task: 'Discovery & demo calls with prospects', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch (occasionally with prospects)', category: 'break' },
+      { time: '13:00 - 14:30', task: 'Follow-up: proposals, contracts & closing calls', category: 'focus' },
+      { time: '14:30 - 15:30', task: 'Account management: existing customer check-ins', category: 'meeting' },
+      { time: '15:30 - 16:00', task: 'CRM updates & activity logging', category: 'admin' },
+      { time: '16:00 - 16:30', task: 'Sales training & product knowledge', category: 'learning' },
+      { time: '16:30 - 17:00', task: 'Next day prep: research prospects & book meetings', category: 'admin' },
+    ],
+    tips: [
+      'Block the first 2 hours for outreach — your energy is highest in the morning.',
+      'Update your CRM daily; incomplete data kills future deals.',
+      'Follow up within 24 hours of every demo or meeting.',
+      'Batch administrative tasks to maximize time selling.',
+      'Track activity metrics daily: calls, emails, meetings booked.',
+    ],
+    tipsKo: [
+      '아침에 에너지가 가장 높을 때 처음 2시간을 아웃리치로 차단하세요.',
+      'CRM을 매일 업데이트하세요; 불완전한 데이터는 미래의 거래를 망칩니다.',
+      '모든 데모나 미팅 후 24시간 이내에 팔로우업하세요.',
+      '판매 시간을 극대화하기 위해 관리 작업을 일괄 처리하세요.',
+      '활동 지표를 매일 추적하세요: 전화, 이메일, 예약된 미팅.',
+    ],
+    relatedSlugs: ['marketing-manager', 'startup-founder', 'real-estate-agent', 'executive'],
+  },
+  {
+    slug: 'accountant',
+    profession: 'Accountant',
+    professionKo: '회계사',
+    description:
+      'A precise daily schedule for accountants to manage financial reporting, client work, and deadline-driven tax season.',
+    descriptionKo:
+      '재무 보고, 고객 업무, 마감 기한이 있는 세금 시즌을 관리하는 회계사를 위한 정밀한 일일 스케줄.',
+    icon: 'IconCalculator',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Daily priority list & deadline check', category: 'admin' },
+      { time: '08:30 - 10:30', task: 'Deep Work: Financial reporting & reconciliation', category: 'focus' },
+      { time: '10:30 - 11:00', task: 'Client emails & urgent queries', category: 'admin' },
+      { time: '11:00 - 12:00', task: 'Client meetings or reviews', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Tax preparation & compliance work', category: 'focus' },
+      { time: '15:00 - 15:30', task: 'Internal team meeting', category: 'meeting' },
+      { time: '15:30 - 16:30', task: 'Billing & accounts payable/receivable', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Professional updates: tax law changes & CPE', category: 'learning' },
+    ],
+    tips: [
+      'Tackle complex work in the morning when focus is sharpest.',
+      'Create checklists for recurring month-end and year-end tasks.',
+      'Set client expectations about turnaround times upfront.',
+      'Batch data entry tasks to reduce errors from constant context switching.',
+      'Schedule a weekly review to ensure no deadlines slip through the cracks.',
+    ],
+    tipsKo: [
+      '집중력이 가장 날카로운 오전에 복잡한 작업을 처리하세요.',
+      '월말 및 연말 반복 작업을 위한 체크리스트를 만드세요.',
+      '처음부터 고객에게 처리 시간에 대한 기대를 설정하세요.',
+      '지속적인 문맥 전환으로 인한 오류를 줄이기 위해 데이터 입력 작업을 일괄 처리하세요.',
+      '마감일이 누락되지 않도록 주간 검토를 예약하세요.',
+    ],
+    relatedSlugs: ['lawyer', 'executive', 'project-manager', 'real-estate-agent'],
+  },
+  {
+    slug: 'content-creator',
+    profession: 'Content Creator',
+    professionKo: '콘텐츠 크리에이터',
+    description:
+      'A creative daily schedule for content creators to produce consistent, high-quality content across multiple platforms.',
+    descriptionKo:
+      '여러 플랫폼에서 일관되고 고품질의 콘텐츠를 제작하는 콘텐츠 크리에이터를 위한 창의적 일일 스케줄.',
+    icon: 'IconVideo',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Check analytics & trending topics', category: 'admin' },
+      { time: '08:30 - 10:30', task: 'Deep Work: Primary content creation (filming/writing)', category: 'creative' },
+      { time: '10:30 - 12:00', task: 'Editing: video, audio, or copy', category: 'creative' },
+      { time: '12:00 - 13:00', task: 'Lunch & community engagement (comments, DMs)', category: 'break' },
+      { time: '13:00 - 14:00', task: 'Posting & scheduling content across platforms', category: 'admin' },
+      { time: '14:00 - 15:00', task: 'Brand deals & sponsorship emails', category: 'admin' },
+      { time: '15:00 - 16:00', task: 'Research & idea generation for upcoming content', category: 'creative' },
+      { time: '16:00 - 16:30', task: 'Short-form content (Reels, Shorts, Tweets)', category: 'creative' },
+      { time: '16:30 - 17:00', task: 'Analytics deep-dive & strategy adjustment', category: 'admin' },
+    ],
+    tips: [
+      'Batch film multiple pieces of content in one session to save setup time.',
+      'Create a content calendar 2 weeks in advance to reduce daily decision fatigue.',
+      'Respond to comments in batches rather than continuously throughout the day.',
+      'Repurpose long-form content into multiple short-form pieces.',
+      'Take one "creative recharge" day per week with no content output.',
+    ],
+    tipsKo: [
+      '설정 시간을 절약하기 위해 하나의 세션에서 여러 콘텐츠를 일괄 촬영하세요.',
+      '일일 결정 피로를 줄이기 위해 2주 전에 콘텐츠 캘린더를 만드세요.',
+      '하루 종일 지속적으로 대신 댓글에 일괄적으로 응답하세요.',
+      '장형 콘텐츠를 여러 단형 콘텐츠로 재활용하세요.',
+      '콘텐츠 출력 없이 주당 하루는 "창의적 재충전" 날로 취하세요.',
+    ],
+    relatedSlugs: ['freelance-writer', 'graphic-designer', 'marketing-manager', 'remote-worker'],
+  },
+  {
+    slug: 'lawyer',
+    profession: 'Lawyer',
+    professionKo: '변호사',
+    description:
+      'A demanding daily schedule for lawyers to manage billable hours, client communication, court preparation, and research.',
+    descriptionKo:
+      '청구 가능 시간, 클라이언트 커뮤니케이션, 법정 준비, 리서치를 관리하는 변호사를 위한 까다로운 일일 스케줄.',
+    icon: 'IconGavel',
+    schedule: [
+      { time: '07:30 - 08:00', task: 'Review case files & court schedule', category: 'admin' },
+      { time: '08:00 - 10:00', task: 'Deep Work: Legal research & brief drafting', category: 'focus' },
+      { time: '10:00 - 11:00', task: 'Client meetings or consultations', category: 'meeting' },
+      { time: '11:00 - 12:00', task: 'Court appearances or preparation', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch (often working through)', category: 'break' },
+      { time: '13:00 - 14:30', task: 'Document review & contract drafting', category: 'focus' },
+      { time: '14:30 - 15:30', task: 'Internal team meetings & case strategy', category: 'meeting' },
+      { time: '15:30 - 16:30', task: 'Client calls & correspondence', category: 'admin' },
+      { time: '16:30 - 17:30', task: 'Time tracking, billing & administrative tasks', category: 'admin' },
+    ],
+    tips: [
+      'Track billable hours in real-time — reconstruction is always inaccurate.',
+      'Schedule uninterrupted deep work for research and drafting.',
+      'Batch non-urgent client calls into afternoon blocks.',
+      'Use templates for routine documents to save time on repetitive drafting.',
+      'Set clear client communication expectations to avoid being always on call.',
+    ],
+    tipsKo: [
+      '실시간으로 청구 가능 시간을 추적하세요 — 재구성은 항상 부정확합니다.',
+      '리서치와 초안 작성을 위해 방해받지 않는 딥 워크를 예약하세요.',
+      '긴급하지 않은 고객 전화를 오후 블록으로 일괄 처리하세요.',
+      '반복적인 초안 작성 시간을 절약하기 위해 일상적인 문서에 템플릿을 사용하세요.',
+      '항상 대기 중인 상태를 피하기 위해 명확한 고객 커뮤니케이션 기대치를 설정하세요.',
+    ],
+    relatedSlugs: ['accountant', 'executive', 'project-manager', 'real-estate-agent'],
+  },
+  {
+    slug: 'real-estate-agent',
+    profession: 'Real Estate Agent',
+    professionKo: '부동산 중개인',
+    description:
+      'A client-focused daily schedule for real estate agents to generate leads, show properties, and close transactions.',
+    descriptionKo:
+      '리드를 생성하고, 매물을 보여주고, 거래를 성사시키는 부동산 중개인을 위한 고객 중심 일일 스케줄.',
+    icon: 'IconBuilding',
+    schedule: [
+      { time: '08:00 - 08:30', task: 'Review MLS listings & market updates', category: 'admin' },
+      { time: '08:30 - 09:30', task: 'Lead generation: calls, emails & follow-ups', category: 'focus' },
+      { time: '09:30 - 10:30', task: 'Client meetings & buyer/seller consultations', category: 'meeting' },
+      { time: '10:30 - 12:00', task: 'Property showings & open house prep', category: 'focus' },
+      { time: '12:00 - 13:00', task: 'Lunch break', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Afternoon property showings', category: 'focus' },
+      { time: '15:00 - 16:00', task: 'Offer negotiation & contract review', category: 'admin' },
+      { time: '16:00 - 16:30', task: 'CRM updates & transaction tracking', category: 'admin' },
+      { time: '16:30 - 17:00', task: 'Marketing: listings, social media, neighborhood reports', category: 'admin' },
+    ],
+    tips: [
+      'Prospect every single day — even 30 minutes of consistent outreach compounds.',
+      'Follow up with leads within 5 minutes to dramatically increase conversion.',
+      'Block Saturday mornings for open houses and prospecting calls.',
+      'Build a referral system — past clients are your best source of new business.',
+      'Master one neighborhood deeply rather than spreading too thin.',
+    ],
+    tipsKo: [
+      '매일 잠재 고객을 찾으세요 — 일관된 30분의 아웃리치도 복리 효과를 가집니다.',
+      '전환율을 극적으로 높이기 위해 5분 이내에 리드를 팔로우업하세요.',
+      '오픈 하우스와 잠재 고객 전화를 위해 토요일 아침을 차단하세요.',
+      '추천 시스템을 구축하세요 — 과거 고객이 새 비즈니스의 최고 원천입니다.',
+      '너무 많이 분산되는 대신 한 동네를 깊이 마스터하세요.',
+    ],
+    relatedSlugs: ['sales-representative', 'accountant', 'lawyer', 'marketing-manager'],
+  },
+  {
+    slug: 'executive',
+    profession: 'Executive (CEO/VP)',
+    professionKo: '임원 (CEO/VP)',
+    description:
+      'A leadership-focused daily schedule for executives to drive strategy, lead teams, and maintain high-level perspective.',
+    descriptionKo:
+      '전략을 주도하고, 팀을 이끌며, 높은 수준의 관점을 유지하는 임원을 위한 리더십 중심 일일 스케줄.',
+    icon: 'IconCrown',
+    schedule: [
+      { time: '06:00 - 07:00', task: 'Morning routine: exercise, reading & reflection', category: 'break' },
+      { time: '07:00 - 07:30', task: 'Business metrics review & priorities', category: 'admin' },
+      { time: '08:00 - 09:00', task: 'Executive team meeting or 1:1s', category: 'meeting' },
+      { time: '09:00 - 11:00', task: 'Deep Work: Strategic planning & critical decisions', category: 'focus' },
+      { time: '11:00 - 12:00', task: 'Board, investor, or key client meetings', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch (often strategic relationship building)', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Department reviews & company-wide issues', category: 'meeting' },
+      { time: '15:00 - 16:00', task: 'Talent: hiring reviews, performance, culture', category: 'admin' },
+      { time: '16:00 - 17:00', task: 'Communication: written decisions & team messages', category: 'admin' },
+    ],
+    tips: [
+      'Guard 2 hours of uninterrupted thinking time each day as non-negotiable.',
+      'Make fewer, higher-quality decisions by batching decision-making time.',
+      'Delegate everything that doesn\'t require your unique judgment.',
+      'Spend time weekly with frontline employees to stay connected to reality.',
+      'Protect time for strategic thinking — it\'s your highest-leverage activity.',
+    ],
+    tipsKo: [
+      '매일 2시간의 방해받지 않는 사고 시간을 협상 불가능한 것으로 보호하세요.',
+      '의사 결정 시간을 일괄 처리하여 더 적지만 더 높은 품질의 결정을 내리세요.',
+      '당신의 고유한 판단이 필요하지 않은 모든 것을 위임하세요.',
+      '현실과 연결을 유지하기 위해 매주 일선 직원들과 시간을 보내세요.',
+      '전략적 사고를 위한 시간을 보호하세요 — 이것이 가장 높은 레버리지 활동입니다.',
+    ],
+    relatedSlugs: ['startup-founder', 'project-manager', 'product-manager', 'lawyer'],
+  },
+  {
+    slug: 'parent-working-from-home',
+    profession: 'Parent Working from Home',
+    professionKo: '재택근무 부모',
+    description:
+      'A realistic daily schedule for parents working from home to balance childcare, household duties, and professional output.',
+    descriptionKo:
+      '육아, 가사, 전문적 생산성을 균형 있게 조율하는 재택근무 부모를 위한 현실적인 일일 스케줄.',
+    icon: 'IconUsers',
+    schedule: [
+      { time: '06:00 - 07:00', task: 'Early morning deep work (before children wake)', category: 'focus' },
+      { time: '07:00 - 08:30', task: 'Family time: breakfast & school prep', category: 'break' },
+      { time: '08:30 - 10:30', task: 'Core work block: priority tasks', category: 'focus' },
+      { time: '10:30 - 11:00', task: 'Email & communications', category: 'admin' },
+      { time: '11:00 - 12:00', task: 'Virtual meetings (kids at school or napping)', category: 'meeting' },
+      { time: '12:00 - 13:00', task: 'Lunch & family time (if kids home)', category: 'break' },
+      { time: '13:00 - 15:00', task: 'Second work block: secondary tasks', category: 'focus' },
+      { time: '15:00 - 17:00', task: 'Family: school pickup, activities, dinner prep', category: 'break' },
+      { time: '20:00 - 21:00', task: 'Evening work catch-up if needed', category: 'focus' },
+    ],
+    tips: [
+      'Wake up 1 hour before your children for uninterrupted deep work.',
+      'Communicate your work schedule clearly with your partner and children.',
+      'Use nap times and school hours as sacred work blocks.',
+      'Batch household tasks — do laundry, dishes on breaks, not sporadically.',
+      'Give yourself grace — some days childcare wins, and that\'s okay.',
+    ],
+    tipsKo: [
+      '방해받지 않는 딥 워크를 위해 자녀보다 1시간 일찍 일어나세요.',
+      '파트너와 자녀에게 업무 스케줄을 명확하게 전달하세요.',
+      '낮잠 시간과 학교 시간을 신성한 작업 블록으로 활용하세요.',
+      '가사 작업을 일괄 처리하세요 — 산발적으로 하지 말고 휴식 시간에 세탁, 설거지를 하세요.',
+      '자신에게 관대하세요 — 어떤 날은 육아가 이기고, 그것도 괜찮습니다.',
+    ],
+    relatedSlugs: ['remote-worker', 'teacher', 'freelance-writer', 'college-student'],
+  },
+];
+
+export function getScheduleTemplate(slug: string): ScheduleTemplate | undefined {
+  return scheduleTemplates.find((t) => t.slug === slug);
+}
+
+export const categoryColors: Record<TimeBlock['category'], string> = {
+  focus: '#20C997',
+  meeting: '#4DABF7',
+  break: '#FFB347',
+  admin: '#9775FA',
+  creative: '#FF6B6B',
+  learning: '#51CF66',
+};
+
+export const categoryLabels: Record<TimeBlock['category'], { en: string; ko: string }> = {
+  focus: { en: 'Focus', ko: '집중' },
+  meeting: { en: 'Meeting', ko: '미팅' },
+  break: { en: 'Break', ko: '휴식' },
+  admin: { en: 'Admin', ko: '행정' },
+  creative: { en: 'Creative', ko: '창의' },
+  learning: { en: 'Learning', ko: '학습' },
+};

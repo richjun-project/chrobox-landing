@@ -14,7 +14,21 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const isHome = location.pathname === '/';
+  const isKo = location.pathname.startsWith('/ko');
+  const isHome = location.pathname === '/' || location.pathname === '/ko';
+
+  const switchLanguage = (targetLang: 'en' | 'ko') => {
+    const path = location.pathname;
+    let newPath: string;
+    if (targetLang === 'ko') {
+      // en -> ko: prepend /ko
+      newPath = path === '/' ? '/ko' : `/ko${path}`;
+    } else {
+      // ko -> en: strip /ko prefix
+      newPath = path === '/ko' ? '/' : path.replace(/^\/ko/, '');
+    }
+    navigate(newPath);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,7 +46,7 @@ export function Navbar() {
 
   const scrollToSection = (href: string) => {
     if (!isHome) {
-      navigate('/' + href);
+      navigate((isKo ? '/ko' : '') + '/' + href);
       return;
     }
     const element = document.querySelector(href);
@@ -46,7 +60,7 @@ export function Navbar() {
     if (isHome) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-      navigate('/');
+      navigate(isKo ? '/ko' : '/');
     }
   };
 
@@ -74,18 +88,31 @@ export function Navbar() {
         <Container size="xl">
           <Group justify="space-between" align="center">
             {/* Logo */}
-            <Box onClick={goHome} style={{ cursor: 'pointer' }}>
+            <Box
+              component="a"
+              href="/"
+              onClick={(e: React.MouseEvent) => {
+                e.preventDefault();
+                goHome();
+              }}
+              style={{ cursor: 'pointer', textDecoration: 'none' }}
+              aria-label="Chrobox Home"
+            >
               <Logo size="md" />
             </Box>
 
             {/* Desktop Navigation */}
-            <Group gap={40} visibleFrom="md">
+            <Group gap={40} component="nav" visibleFrom="md" aria-label="Main navigation">
               {navItems.map((item) => (
-                <motion.div
+                <motion.a
                   key={item.key}
+                  href={isHome ? item.href : `/${item.href}`}
+                  onClick={(e: React.MouseEvent) => {
+                    e.preventDefault();
+                    scrollToSection(item.href);
+                  }}
                   whileHover={{ y: -2 }}
-                  style={{ cursor: 'pointer' }}
-                  onClick={() => scrollToSection(item.href)}
+                  style={{ cursor: 'pointer', textDecoration: 'none' }}
                 >
                   <Text
                     size="sm"
@@ -103,7 +130,7 @@ export function Navbar() {
                   >
                     {t(`nav.${item.key}`)}
                   </Text>
-                </motion.div>
+                </motion.a>
               ))}
             </Group>
 
@@ -129,10 +156,7 @@ export function Navbar() {
                 </Menu.Target>
                 <Menu.Dropdown>
                   <Menu.Item
-                    onClick={() => {
-                      i18n.changeLanguage('en');
-                      localStorage.setItem('language', 'en');
-                    }}
+                    onClick={() => switchLanguage('en')}
                     style={{
                       fontWeight: i18n.language === 'en' ? 600 : 400,
                       color: i18n.language === 'en' ? tokens.colors.accent : undefined,
@@ -141,10 +165,7 @@ export function Navbar() {
                     English
                   </Menu.Item>
                   <Menu.Item
-                    onClick={() => {
-                      i18n.changeLanguage('ko');
-                      localStorage.setItem('language', 'ko');
-                    }}
+                    onClick={() => switchLanguage('ko')}
                     style={{
                       fontWeight: i18n.language === 'ko' ? 600 : 400,
                       color: i18n.language === 'ko' ? tokens.colors.accent : undefined,
@@ -218,23 +239,29 @@ export function Navbar() {
             }}
           >
             {navItems.map((item, index) => (
-              <motion.div
+              <motion.a
                 key={item.key}
+                href={isHome ? item.href : `/${item.href}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
-                onClick={() => scrollToSection(item.href)}
+                onClick={(e: React.MouseEvent) => {
+                  e.preventDefault();
+                  scrollToSection(item.href);
+                }}
                 style={{
                   padding: '16px',
                   borderRadius: '12px',
                   cursor: 'pointer',
                   background: tokens.colors.gray50,
+                  textDecoration: 'none',
+                  display: 'block',
                 }}
               >
                 <Text size="lg" fw={600} style={{ color: tokens.colors.gray900 }}>
                   {t(`nav.${item.key}`)}
                 </Text>
-              </motion.div>
+              </motion.a>
             ))}
             <motion.div
               initial={{ opacity: 0, x: -20 }}

@@ -7,7 +7,16 @@ import { tokens } from '../theme';
 // Get screenshot path based on language
 const getScreenshotPath = (lang: string, num: number) => {
   const folder = lang.startsWith('ko') ? 'ko' : 'en';
-  return `/screenshots/${folder}/${num}.png`;
+  return `/screenshots/${folder}/${num}.webp`;
+};
+
+const SCREENSHOT_ALTS: Record<number, string> = {
+  1: 'Chrobox brainstorming screen - listing tasks for the day',
+  2: 'Chrobox priority selection screen - choosing important tasks',
+  3: 'Chrobox time-boxing screen - assigning time slots to tasks',
+  4: 'Chrobox timeline screen - visual daily schedule overview',
+  5: 'Chrobox retrospective screen - daily mood and performance review',
+  6: 'Chrobox AI insights screen - personalized productivity recommendations',
 };
 
 export function HowItWorks() {
@@ -139,7 +148,8 @@ export function HowItWorks() {
                   >
                     <img
                       src={getScreenshotPath(i18n.language, num)}
-                      alt={`App screenshot ${num}`}
+                      alt={SCREENSHOT_ALTS[num]}
+                      loading="lazy"
                       style={{
                         width: '100%',
                         display: 'block',

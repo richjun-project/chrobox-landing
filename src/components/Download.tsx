@@ -5,11 +5,17 @@ import { Box, Container, Text, Group, Stack } from '@mantine/core';
 import { IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
 import { tokens } from '../theme';
 
-// App screenshots (language-independent) - Reordered: 2->1, 3->2, 1->3
+// App screenshots (language-independent)
 const APP_SCREENSHOTS = [
-  '/IMG_8137.PNG',
-  '/IMG_8138.PNG',
-  '/IMG_8136.PNG',
+  '/app-prioritize.webp',
+  '/app-timeline.webp',
+  '/app-brainstorm.webp',
+];
+
+const SCREENSHOT_ALTS = [
+  'Chrobox app - task prioritization and selection screen',
+  'Chrobox app - time-boxing schedule and timeline view',
+  'Chrobox app - daily brainstorming and task planning screen',
 ];
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
@@ -195,14 +201,14 @@ export function Download() {
           <Group justify="center" gap={20} wrap="wrap">
             <StoreButton
               icon={<IconBrandApple size={32} color={tokens.colors.gray900} />}
-              sublabel="Download on the"
+              sublabel={t('download.appStoreSub')}
               label="App Store"
               delay={0.2}
               href={APP_STORE_URL}
             />
             <StoreButton
               icon={<IconBrandGooglePlay size={28} color={tokens.colors.gray900} />}
-              sublabel="Get it on"
+              sublabel={t('download.playStoreSub')}
               label="Google Play"
               delay={0.3}
               href={PLAY_STORE_URL}
@@ -291,7 +297,7 @@ export function Download() {
                           <motion.img
                             key={currentIndex}
                             src={APP_SCREENSHOTS[currentIndex]}
-                            alt={`App Screenshot ${currentIndex + 1}`}
+                            alt={SCREENSHOT_ALTS[currentIndex]}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -306,7 +312,8 @@ export function Download() {
                       ) : (
                         <img
                           src={screenshot}
-                          alt={`App Screenshot ${index + 1}`}
+                          alt={SCREENSHOT_ALTS[index]}
+                          loading="lazy"
                           style={{
                             width: '100%',
                             height: '100%',

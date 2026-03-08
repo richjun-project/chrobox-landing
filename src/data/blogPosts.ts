@@ -1,4 +1,9 @@
 import type { BlogPostMeta } from '../types/blog';
+import { enBatch1, koBatch1, contentBatch1 } from './blogBatch1';
+import { enBatch2, koBatch2, contentBatch2 } from './blogBatch2';
+import { enBatch3, koBatch3, contentBatch3 } from './blogBatch3';
+import { enBatch4, koBatch4, contentBatch4 } from './blogBatch4';
+import { enBatch5, koBatch5, contentBatch5 } from './blogBatch5';
 
 // English blog posts
 export const enBlogPosts: BlogPostMeta[] = [
@@ -10,9 +15,29 @@ export const enBlogPosts: BlogPostMeta[] = [
     category: 'Productivity',
     tags: ['time-boxing', 'productivity', 'time-management', 'focus'],
     excerpt: 'Discover how time-boxing can transform your productivity. Learn the science behind this powerful technique and how to implement it effectively in your daily routine.',
-    image: '/screenshots/en/1.png',
+    image: '/screenshots/en/1.webp',
     readTime: 8,
     lang: 'en',
+    faqs: [
+      {
+        question: 'What is time-boxing and how does it differ from a to-do list?',
+        questionKo: '타임박싱이란 무엇이며 일반 할 일 목록과 어떻게 다른가요?',
+        answer: 'Time-boxing assigns a fixed duration to each task before you start, so you work within a defined time limit rather than working until a task is "done." A to-do list tells you what to do; time-boxing tells you when and for how long, which eliminates open-ended work and reduces procrastination.',
+        answerKo: '타임박싱은 시작 전에 각 작업에 고정된 시간을 할당하여, 작업이 "완료"될 때까지 작업하는 것이 아니라 정해진 시간 내에서 작업합니다. 할 일 목록은 무엇을 해야 하는지 알려주고, 타임박싱은 언제, 얼마나 오래 해야 하는지 알려줘 끝없이 이어지는 작업을 없애고 미루기를 줄입니다.',
+      },
+      {
+        question: 'How long should a time box be?',
+        questionKo: '타임박스는 얼마나 길어야 하나요?',
+        answer: 'There is no single correct length. Most people find 25–90 minutes effective for focused work. Shorter boxes (15–30 min) work well for administrative tasks, while longer boxes (60–90 min) suit deep creative or analytical work. Start with 30-minute boxes and adjust based on your concentration span.',
+        answerKo: '정해진 정답은 없습니다. 대부분의 사람들은 집중 작업에 25~90분이 효과적임을 발견합니다. 짧은 박스(15~30분)는 행정 업무에 잘 맞고, 긴 박스(60~90분)는 심층적인 창의적 또는 분석적 작업에 적합합니다. 30분 박스로 시작하고 집중 가능한 시간에 따라 조정하세요.',
+      },
+      {
+        question: 'What should I do if a task is not finished when the time box ends?',
+        questionKo: '타임박스가 끝날 때 작업이 완료되지 않으면 어떻게 해야 하나요?',
+        answer: 'Stop working, record where you are, and schedule a new time box for the remaining work. This practice trains you to estimate task durations accurately over time and prevents one task from consuming your entire day.',
+        answerKo: '작업을 중단하고 현재 상태를 기록한 다음 남은 작업을 위한 새 타임박스를 예약하세요. 이 방식은 시간이 지남에 따라 작업 기간을 정확하게 추정하는 능력을 키우고 한 작업이 하루 전체를 차지하는 것을 방지합니다.',
+      },
+    ],
   },
   {
     slug: '5-time-boxing-strategies',
@@ -22,9 +47,29 @@ export const enBlogPosts: BlogPostMeta[] = [
     category: 'Productivity',
     tags: ['time-boxing', 'ceo', 'entrepreneur', 'productivity-tips', 'success'],
     excerpt: 'Learn the exact time-boxing strategies that Elon Musk, Bill Gates, and other successful leaders use to maximize their productivity and achieve extraordinary results.',
-    image: '/screenshots/en/2.png',
+    image: '/screenshots/en/2.webp',
     readTime: 6,
     lang: 'en',
+    faqs: [
+      {
+        question: 'Does Elon Musk really schedule his day in 5-minute blocks?',
+        questionKo: '일론 머스크는 정말 하루를 5분 단위로 예약하나요?',
+        answer: 'Yes. Musk has publicly discussed scheduling meetings and tasks in 5-minute slots to maximize density and minimize wasted time. While this granularity works for him, most people benefit from slightly longer blocks (15–30 minutes) adapted to their own rhythm.',
+        answerKo: '네. 머스크는 밀도를 극대화하고 낭비되는 시간을 최소화하기 위해 5분 단위로 회의와 업무를 예약한다고 공개적으로 이야기한 바 있습니다. 이 세밀한 방식이 그에게는 효과적이지만, 대부분의 사람들은 자신의 리듬에 맞게 조금 더 긴 블록(15~30분)을 사용하는 것이 좋습니다.',
+      },
+      {
+        question: 'Can I combine theme days with time-boxing?',
+        questionKo: '테마 데이와 타임박싱을 결합할 수 있나요?',
+        answer: 'Absolutely. Assigning themes to each day (e.g., Monday for planning, Tuesday for deep work) limits context-switching at the macro level, while time-boxing within each day handles micro-level focus. The combination is one of the most effective productivity systems available.',
+        answerKo: '물론입니다. 각 요일에 테마를 할당하면(예: 월요일은 계획, 화요일은 딥워크) 거시적 수준에서 컨텍스트 전환을 줄이고, 하루 내 타임박싱이 미시적 수준의 집중을 처리합니다. 이 조합은 가장 효과적인 생산성 시스템 중 하나입니다.',
+      },
+      {
+        question: 'How many focus blocks should I schedule per day?',
+        questionKo: '하루에 몇 개의 집중 블록을 예약해야 하나요?',
+        answer: 'Research on cognitive performance suggests 3–5 deep-work blocks of 60–90 minutes per day is a sustainable ceiling for most people. Beyond that, decision fatigue and diminishing returns set in. Schedule your most demanding tasks in the first two blocks when mental energy is highest.',
+        answerKo: '인지 수행에 관한 연구에 따르면 대부분의 사람들에게 하루 60~90분짜리 딥워크 블록 3~5개가 지속 가능한 상한선입니다. 그 이상이 되면 의사결정 피로와 수확 체감이 발생합니다. 정신 에너지가 가장 높은 처음 두 블록에 가장 요구하는 작업을 예약하세요.',
+      },
+    ],
   },
   {
     slug: 'time-boxing-vs-pomodoro',
@@ -34,10 +79,31 @@ export const enBlogPosts: BlogPostMeta[] = [
     category: 'Productivity',
     tags: ['time-boxing', 'pomodoro', 'comparison', 'productivity', 'focus'],
     excerpt: 'A comprehensive comparison of time-boxing and the Pomodoro Technique. Discover which productivity method suits your work style and how to get the most from each approach.',
-    image: '/screenshots/en/3.png',
+    image: '/screenshots/en/3.webp',
     readTime: 7,
     lang: 'en',
+    faqs: [
+      {
+        question: 'Is the Pomodoro Technique the same as time-boxing?',
+        questionKo: '뽀모도로 기법은 타임박싱과 같은 건가요?',
+        answer: 'No. The Pomodoro Technique is a specific implementation of time-boxing with fixed 25-minute intervals and mandatory breaks. Time-boxing is the broader concept of allocating a fixed time to a task — the duration and break structure are entirely up to you, making it more flexible for complex or variable workloads.',
+        answerKo: '아닙니다. 뽀모도로 기법은 고정된 25분 간격과 의무적인 휴식이 있는 타임박싱의 특정 구현 방식입니다. 타임박싱은 작업에 고정된 시간을 할당하는 더 넓은 개념으로, 시간과 휴식 구조는 전적으로 본인이 결정하므로 복잡하거나 가변적인 업무에 더 유연합니다.',
+      },
+      {
+        question: 'Which technique is better for creative work?',
+        questionKo: '창의적인 작업에는 어떤 기법이 더 좋은가요?',
+        answer: 'Time-boxing generally suits creative work better because creative tasks rarely conform to a rigid 25-minute structure. A 60–90 minute time box gives you enough runway to reach a flow state without interruption, while still imposing a boundary that prevents open-ended sessions.',
+        answerKo: '타임박싱은 창의적 작업이 고정된 25분 구조를 따르는 경우가 드물기 때문에 일반적으로 창의적 작업에 더 적합합니다. 60~90분 타임박스는 방해 없이 몰입 상태에 도달하기에 충분한 여유를 제공하면서도 끝없이 이어지는 세션을 방지하는 경계를 부여합니다.',
+      },
+      {
+        question: 'Can I use both techniques together?',
+        questionKo: '두 기법을 함께 사용할 수 있나요?',
+        answer: 'Yes, and many professionals do. A common hybrid approach is to set a 2-hour time box for a project and use Pomodoro intervals (25 min work + 5 min break) within that block. The outer time box maintains schedule integrity while Pomodoros manage momentum and prevent mental fatigue.',
+        answerKo: '네, 많은 전문가들이 그렇게 합니다. 일반적인 하이브리드 방식은 프로젝트에 2시간 타임박스를 설정하고 그 블록 내에서 뽀모도로 간격(25분 작업 + 5분 휴식)을 사용하는 것입니다. 외부 타임박스는 일정 무결성을 유지하는 반면 뽀모도로는 추진력을 관리하고 정신적 피로를 방지합니다.',
+      },
+    ],
   },
+  ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5,
 ];
 
 // Korean blog posts
@@ -50,9 +116,29 @@ export const koBlogPosts: BlogPostMeta[] = [
     category: '생산성',
     tags: ['타임박싱', '생산성', '시간관리', '집중력'],
     excerpt: '타임박싱이 어떻게 생산성을 혁신적으로 바꿀 수 있는지 알아보세요. 이 강력한 기법의 과학적 원리와 일상에서 효과적으로 적용하는 방법을 소개합니다.',
-    image: '/screenshots/ko/1.png',
+    image: '/screenshots/ko/1.webp',
     readTime: 8,
     lang: 'ko',
+    faqs: [
+      {
+        question: 'What is time-boxing and how does it differ from a to-do list?',
+        questionKo: '타임박싱이란 무엇이며 일반 할 일 목록과 어떻게 다른가요?',
+        answer: 'Time-boxing assigns a fixed duration to each task before you start, so you work within a defined time limit rather than working until a task is "done."',
+        answerKo: '타임박싱은 시작 전에 각 작업에 고정된 시간을 할당하여, 작업이 "완료"될 때까지 작업하는 것이 아니라 정해진 시간 내에서 작업합니다. 할 일 목록은 무엇을 해야 하는지 알려주고, 타임박싱은 언제, 얼마나 오래 해야 하는지 알려줘 끝없이 이어지는 작업을 없애고 미루기를 줄입니다.',
+      },
+      {
+        question: 'How long should a time box be?',
+        questionKo: '타임박스는 얼마나 길어야 하나요?',
+        answer: 'Most people find 25–90 minutes effective for focused work.',
+        answerKo: '대부분의 사람들은 집중 작업에 25~90분이 효과적임을 발견합니다. 짧은 박스(15~30분)는 행정 업무에 잘 맞고, 긴 박스(60~90분)는 심층적인 창의적 또는 분석적 작업에 적합합니다. 30분 박스로 시작하고 집중 가능한 시간에 따라 조정하세요.',
+      },
+      {
+        question: 'What should I do if a task is not finished when the time box ends?',
+        questionKo: '타임박스가 끝날 때 작업이 완료되지 않으면 어떻게 해야 하나요?',
+        answer: 'Stop working, record where you are, and schedule a new time box for the remaining work.',
+        answerKo: '작업을 중단하고 현재 상태를 기록한 다음 남은 작업을 위한 새 타임박스를 예약하세요. 이 방식은 시간이 지남에 따라 작업 기간을 정확하게 추정하는 능력을 키우고 한 작업이 하루 전체를 차지하는 것을 방지합니다.',
+      },
+    ],
   },
   {
     slug: '5-time-boxing-strategies',
@@ -62,9 +148,29 @@ export const koBlogPosts: BlogPostMeta[] = [
     category: '생산성',
     tags: ['타임박싱', 'CEO', '기업가', '생산성팁', '성공'],
     excerpt: '일론 머스크, 빌 게이츠 등 성공한 리더들이 생산성을 극대화하고 놀라운 성과를 달성하기 위해 사용하는 정확한 타임박싱 전략을 배워보세요.',
-    image: '/screenshots/ko/2.png',
+    image: '/screenshots/ko/2.webp',
     readTime: 6,
     lang: 'ko',
+    faqs: [
+      {
+        question: 'Does Elon Musk really schedule his day in 5-minute blocks?',
+        questionKo: '일론 머스크는 정말 하루를 5분 단위로 예약하나요?',
+        answer: 'Yes. Musk has publicly discussed scheduling meetings and tasks in 5-minute slots.',
+        answerKo: '네. 머스크는 밀도를 극대화하고 낭비되는 시간을 최소화하기 위해 5분 단위로 회의와 업무를 예약한다고 공개적으로 이야기한 바 있습니다.',
+      },
+      {
+        question: 'Can I combine theme days with time-boxing?',
+        questionKo: '테마 데이와 타임박싱을 결합할 수 있나요?',
+        answer: 'Absolutely. Theme days reduce context-switching at the macro level, while time-boxing handles micro-level focus.',
+        answerKo: '물론입니다. 테마 데이는 거시적 수준에서 컨텍스트 전환을 줄이고, 타임박싱이 미시적 수준의 집중을 처리합니다. 이 조합은 가장 효과적인 생산성 시스템 중 하나입니다.',
+      },
+      {
+        question: 'How many focus blocks should I schedule per day?',
+        questionKo: '하루에 몇 개의 집중 블록을 예약해야 하나요?',
+        answer: '3–5 deep-work blocks of 60–90 minutes per day is a sustainable ceiling for most people.',
+        answerKo: '대부분의 사람들에게 하루 60~90분짜리 딥워크 블록 3~5개가 지속 가능한 상한선입니다. 정신 에너지가 가장 높은 처음 두 블록에 가장 요구하는 작업을 예약하세요.',
+      },
+    ],
   },
   {
     slug: 'time-boxing-vs-pomodoro',
@@ -74,10 +180,31 @@ export const koBlogPosts: BlogPostMeta[] = [
     category: '생산성',
     tags: ['타임박싱', '뽀모도로', '비교', '생산성', '집중력'],
     excerpt: '타임박싱과 뽀모도로 기법의 종합 비교. 어떤 생산성 방법이 당신의 업무 스타일에 맞는지 알아보고 각 접근법에서 최대 효과를 얻는 방법을 발견하세요.',
-    image: '/screenshots/ko/3.png',
+    image: '/screenshots/ko/3.webp',
     readTime: 7,
     lang: 'ko',
+    faqs: [
+      {
+        question: 'Is the Pomodoro Technique the same as time-boxing?',
+        questionKo: '뽀모도로 기법은 타임박싱과 같은 건가요?',
+        answer: 'No. Pomodoro is a specific implementation of time-boxing with fixed 25-minute intervals.',
+        answerKo: '아닙니다. 뽀모도로 기법은 고정된 25분 간격과 의무적인 휴식이 있는 타임박싱의 특정 구현 방식입니다. 타임박싱은 더 넓은 개념으로 복잡하거나 가변적인 업무에 더 유연합니다.',
+      },
+      {
+        question: 'Which technique is better for creative work?',
+        questionKo: '창의적인 작업에는 어떤 기법이 더 좋은가요?',
+        answer: 'Time-boxing generally suits creative work better because creative tasks rarely conform to a rigid 25-minute structure.',
+        answerKo: '타임박싱은 창의적 작업이 고정된 25분 구조를 따르는 경우가 드물기 때문에 일반적으로 창의적 작업에 더 적합합니다. 60~90분 타임박스는 방해 없이 몰입 상태에 도달하기에 충분한 여유를 제공합니다.',
+      },
+      {
+        question: 'Can I use both techniques together?',
+        questionKo: '두 기법을 함께 사용할 수 있나요?',
+        answer: 'Yes. Set a 2-hour time box for a project and use Pomodoro intervals within that block.',
+        answerKo: '네. 프로젝트에 2시간 타임박스를 설정하고 그 블록 내에서 뽀모도로 간격(25분 작업 + 5분 휴식)을 사용하는 것이 일반적인 하이브리드 방식입니다.',
+      },
+    ],
   },
+  ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5,
 ];
 
 export const getBlogPosts = (lang: 'en' | 'ko'): BlogPostMeta[] => {
@@ -92,6 +219,7 @@ export const getBlogPost = (slug: string, lang: 'en' | 'ko'): BlogPostMeta | und
 // Blog post content (markdown)
 export const blogContents: Record<string, Record<string, string>> = {
   en: {
+    ...contentBatch1.en, ...contentBatch2.en, ...contentBatch3.en, ...contentBatch4.en, ...contentBatch5.en,
     'what-is-time-boxing': `
 # What is Time-Boxing? The Ultimate Guide to Mastering Your Time
 
@@ -315,6 +443,7 @@ There's no universally "better" technique—only what works better for you. Expe
     `,
   },
   ko: {
+    ...contentBatch1.ko, ...contentBatch2.ko, ...contentBatch3.ko, ...contentBatch4.ko, ...contentBatch5.ko,
     'what-is-time-boxing': `
 # 타임박싱이란? 시간을 마스터하는 완벽 가이드
 

@@ -104,11 +104,17 @@ function FloatingParticle({ delay, size, x }: { delay: number; size: number; x: 
   );
 }
 
-// App screenshots (language-independent) - Reordered: 2->1, 3->2, 1->3
+// App screenshots (language-independent)
 const APP_SCREENSHOTS = [
-  '/IMG_8137.PNG',
-  '/IMG_8138.PNG',
-  '/IMG_8136.PNG',
+  '/app-prioritize.webp',
+  '/app-timeline.webp',
+  '/app-brainstorm.webp',
+];
+
+const SCREENSHOT_ALTS = [
+  'Chrobox app - task prioritization and selection screen',
+  'Chrobox app - time-boxing schedule and timeline view',
+  'Chrobox app - daily brainstorming and task planning screen',
 ];
 
 export function Hero() {
@@ -303,7 +309,7 @@ export function Hero() {
                       <IconBrandApple size={28} color="white" />
                       <Stack gap={0}>
                         <Text size="xs" style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.2 }}>
-                          Download on the
+                          {t('download.appStoreSub')}
                         </Text>
                         <Text size="md" fw={700} style={{ color: 'white', lineHeight: 1.3 }}>
                           App Store
@@ -333,7 +339,7 @@ export function Hero() {
                       <IconBrandGooglePlay size={26} color={tokens.colors.gray900} />
                       <Stack gap={0}>
                         <Text size="xs" style={{ color: tokens.colors.gray500, lineHeight: 1.2 }}>
-                          Get it on
+                          {t('download.playStoreSub')}
                         </Text>
                         <Text size="md" fw={700} style={{ color: tokens.colors.gray900, lineHeight: 1.3 }}>
                           Google Play
@@ -472,7 +478,7 @@ export function Hero() {
                       <motion.img
                         key={currentImageIndex}
                         src={APP_SCREENSHOTS[currentImageIndex]}
-                        alt={`App Screenshot ${currentImageIndex + 1}`}
+                        alt={SCREENSHOT_ALTS[currentImageIndex]}
                         initial={{ opacity: 0, scale: 1.05 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.95 }}
