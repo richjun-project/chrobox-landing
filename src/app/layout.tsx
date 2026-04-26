@@ -33,6 +33,11 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
     },
   },
+  verification: {
+    other: {
+      'naver-site-verification': 'c5d63ddff9d377db6a5844ea130206946bf593eb',
+    },
+  },
 };
 
 export const viewport: Viewport = {
