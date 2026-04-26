@@ -3,8 +3,10 @@ import { initReactI18next } from 'react-i18next';
 import en from './en.json';
 import ko from './ko.json';
 
-const savedLanguage = localStorage.getItem('language') ||
-  (navigator.language.startsWith('ko') ? 'ko' : 'en');
+const browserLanguage = typeof navigator !== 'undefined' && navigator.language.startsWith('ko') ? 'ko' : 'en';
+const savedLanguage = typeof window !== 'undefined'
+  ? localStorage.getItem('language') || browserLanguage
+  : 'en';
 
 i18n
   .use(initReactI18next)

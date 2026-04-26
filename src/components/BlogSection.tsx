@@ -1,15 +1,20 @@
+'use client';
+
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image, Button } from '@mantine/core';
 import { IconClock, IconArrowRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
+import { contentLanguageForLocale, localeFromPathname, localizedPath } from '../lib/seo';
 
 export function BlogSection() {
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
+  const pathname = usePathname() ?? '/';
+  const locale = localeFromPathname(pathname);
+  const lang = contentLanguageForLocale(locale);
   const posts = getBlogPosts(lang).slice(0, 3);
+  const blogPath = localizedPath(locale, '/blog');
 
   return (
     <Box
@@ -75,7 +80,7 @@ export function BlogSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link to={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+              <Link href={`${blogPath}/${post.slug}`} style={{ textDecoration: 'none' }}>
                 <Card
                   padding={0}
                   radius="lg"
@@ -174,7 +179,7 @@ export function BlogSection() {
           transition={{ duration: 0.5, delay: 0.3 }}
           style={{ textAlign: 'center', marginTop: '48px' }}
         >
-          <Link to="/blog" style={{ textDecoration: 'none' }}>
+          <Link href={blogPath} style={{ textDecoration: 'none' }}>
             <Button
               size="lg"
               variant="outline"

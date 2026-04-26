@@ -1,14 +1,21 @@
+'use client';
+
 import { useEffect } from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import { Box, Container, Text, Group, Badge, Button, SimpleGrid, Card, Anchor } from '@mantine/core';
 import { IconArrowLeft, IconCheck, IconX, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getComparison } from '../data/comparisons';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import {
+  comparisonArticleSeo,
+  contentLanguageForLocale,
+  localizedPath,
+  seoCopy,
+  type SiteLocale,
+} from '../lib/seo';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.chrobox.app';
@@ -65,19 +72,20 @@ function FeatureValue({ value }: { value: boolean | string }) {
   );
 }
 
-export function ComparisonPage() {
-  const { slug } = useParams<{ slug: string }>();
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
+export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
+  const copy = seoCopy(locale);
 
-  const comparison = slug ? getComparison(slug) : undefined;
+  const comparison = getComparison(slug);
+  const comparePath = localizedPath(locale, '/compare');
+  const homePath = localizedPath(locale, '/');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
 
   if (!comparison) {
-    return <Navigate to="/compare" replace />;
+    return null;
   }
 
   const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
@@ -86,64 +94,10 @@ export function ComparisonPage() {
   const chroboxPros = lang === 'ko' ? comparison.chroboxProsKo : comparison.chroboxPros;
   const competitorPros = lang === 'ko' ? comparison.competitorProsKo : comparison.competitorPros;
 
-  const canonicalUrl = lang === 'ko'
-    ? `https://chrobox.net/ko/compare/${comparison.slug}`
-    : `https://chrobox.net/compare/${comparison.slug}`;
-
-  const pageTitle = `Chrobox vs ${comparison.competitor}: Which is Better? [2025 Comparison]`;
-  const ogDescription = lang === 'ko' ? comparison.descriptionKo : comparison.description;
-
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chrobox.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://chrobox.net/compare' },
-      {
-        '@type': 'ListItem',
-        position: 3,
-        name: `Chrobox vs ${comparison.competitor}`,
-        item: `https://chrobox.net/compare/${comparison.slug}`,
-      },
-    ],
-  };
-
-  const faqSchema = comparison.faqs.length > 0
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: comparison.faqs.map((faq) => ({
-          '@type': 'Question',
-          name: lang === 'ko' && faq.questionKo ? faq.questionKo : faq.question,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: lang === 'ko' && faq.answerKo ? faq.answerKo : faq.answer,
-          },
-        })),
-      }
-    : null;
+  const pageSeo = comparisonArticleSeo(locale, competitor, description);
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={ogDescription} />
-        <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="en" href={`https://chrobox.net/compare/${comparison.slug}`} />
-        <link rel="alternate" hrefLang="ko" href={`https://chrobox.net/ko/compare/${comparison.slug}`} />
-        <link rel="alternate" hrefLang="x-default" href={`https://chrobox.net/compare/${comparison.slug}`} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={ogDescription} />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={ogDescription} />
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-        {faqSchema && (
-          <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-        )}
-      </Helmet>
-
       <Navbar />
 
       {/* Hero */}
@@ -173,10 +127,10 @@ export function ComparisonPage() {
                 <Box component="li">
                   <Anchor
                     component={Link}
-                    to="/"
+                    href={homePath}
                     style={{ fontSize: '13px', color: tokens.colors.gray400, textDecoration: 'none' }}
                   >
-                    {lang === 'ko' ? '홈' : 'Home'}
+                    {copy.homeLabel}
                   </Anchor>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -185,10 +139,10 @@ export function ComparisonPage() {
                 <Box component="li">
                   <Anchor
                     component={Link}
-                    to="/compare"
+                    href={comparePath}
                     style={{ fontSize: '13px', color: tokens.colors.gray400, textDecoration: 'none' }}
                   >
-                    {lang === 'ko' ? '비교' : 'Compare'}
+                    {copy.compareLabel}
                   </Anchor>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -211,7 +165,7 @@ export function ComparisonPage() {
               </Box>
             </Box>
 
-            <Link to="/compare" style={{ textDecoration: 'none' }}>
+            <Link href={comparePath} style={{ textDecoration: 'none' }}>
               <Button
                 variant="subtle"
                 leftSection={<IconArrowLeft size={16} />}
@@ -241,9 +195,7 @@ export function ComparisonPage() {
                 marginBottom: '16px',
               }}
             >
-              {lang === 'ko'
-                ? `Chrobox vs ${competitor}: 어떤 앱이 더 좋을까요? [2025 비교]`
-                : pageTitle}
+              {pageSeo.title}
             </Text>
 
             <Text

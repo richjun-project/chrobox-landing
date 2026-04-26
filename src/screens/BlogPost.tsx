@@ -1,7 +1,7 @@
-import { useParams, Link, Navigate } from 'react-router-dom';
+'use client';
+
+import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import { Box, Container, Text, Group, Badge, Button, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowLeft, IconUser, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
@@ -11,100 +11,32 @@ import { Footer } from '../components/Footer';
 import { TableOfContents } from '../components/TableOfContents';
 import ReactMarkdown from 'react-markdown';
 import { useEffect } from 'react';
+import {
+  contentLanguageForLocale,
+  localizedPath,
+  type SiteLocale,
+} from '../lib/seo';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 
-export function BlogPost() {
-  const { slug } = useParams<{ slug: string }>();
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
+export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
 
-  const post = slug ? getBlogPost(slug, lang) : undefined;
-  const content = slug ? getBlogContent(slug, lang) : '';
+  const post = getBlogPost(slug, lang);
+  const content = getBlogContent(slug, lang);
+  const blogLink = localizedPath(locale, '/blog');
+  const homePath = localizedPath(locale, '/');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
 
   if (!post) {
-    return <Navigate to="/blog" replace />;
+    return null;
   }
-
-  const postUrl = lang === 'ko'
-    ? `https://chrobox.net/ko/blog/${post.slug}`
-    : `https://chrobox.net/blog/${post.slug}`;
-
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chrobox.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://chrobox.net/blog' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: postUrl },
-    ],
-  };
-
-  const faqSchema = post.faqs && post.faqs.length > 0
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: post.faqs.map((faq) => ({
-          '@type': 'Question',
-          name: lang === 'ko' && faq.questionKo ? faq.questionKo : faq.question,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: lang === 'ko' && faq.answerKo ? faq.answerKo : faq.answer,
-          },
-        })),
-      }
-    : null;
-
-  const blogLink = lang === 'ko' ? '/ko/blog' : '/blog';
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{post.title} | Chrobox Blog</title>
-        <meta name="description" content={post.excerpt} />
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={post.excerpt} />
-        <meta property="og:image" content={`https://chrobox.net${post.image}`} />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content={postUrl} />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={post.excerpt} />
-        <meta name="twitter:image" content={`https://chrobox.net${post.image}`} />
-        <link rel="canonical" href={postUrl} />
-        <link rel="alternate" hrefLang="en" href={`https://chrobox.net/blog/${post.slug}`} />
-        <link rel="alternate" hrefLang="ko" href={`https://chrobox.net/ko/blog/${post.slug}`} />
-        <link rel="alternate" hrefLang="x-default" href={`https://chrobox.net/blog/${post.slug}`} />
-        {/* Naver / article meta */}
-        <meta property="article:published_time" content={post.date} />
-        <meta property="article:author" content="Chrobox Team" />
-        <meta property="article:section" content={post.category} />
-        {/* BlogPosting schema */}
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'BlogPosting',
-          headline: post.title,
-          description: post.excerpt,
-          image: `https://chrobox.net${post.image}`,
-          author: { '@type': 'Organization', name: post.author },
-          publisher: {
-            '@type': 'Organization',
-            name: 'Chrobox',
-            logo: { '@type': 'ImageObject', url: 'https://chrobox.net/logo.png' },
-          },
-          datePublished: post.date,
-          mainEntityOfPage: postUrl,
-        })}</script>
-        {/* BreadcrumbList schema */}
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-        {/* FAQPage schema */}
-        {faqSchema && (
-          <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-        )}
-      </Helmet>
       <Navbar />
 
       {/* Hero Section */}
@@ -138,7 +70,7 @@ export function BlogPost() {
                 <Box component="li">
                   <Box
                     component="a"
-                    href="/"
+                    href={homePath}
                     style={{
                       fontSize: '13px',
                       color: tokens.colors.gray400,
@@ -154,7 +86,7 @@ export function BlogPost() {
                 <Box component="li">
                   <Box
                     component={Link}
-                    to={blogLink}
+                    href={blogLink}
                     style={{
                       fontSize: '13px',
                       color: tokens.colors.gray400,
@@ -184,7 +116,7 @@ export function BlogPost() {
               </Box>
             </Box>
 
-            <Link to={blogLink} style={{ textDecoration: 'none' }}>
+            <Link href={blogLink} style={{ textDecoration: 'none' }}>
               <Button
                 variant="subtle"
                 leftSection={<IconArrowLeft size={16} />}

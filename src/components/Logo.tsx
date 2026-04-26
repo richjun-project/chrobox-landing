@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { Text } from '@mantine/core';
 import { tokens } from '../theme';
 
@@ -30,9 +31,12 @@ export function Logo({ size = 'md', showText = true, variant = 'dark' }: LogoPro
       whileTap={{ scale: 0.98 }}
     >
       {/* Logo Image */}
-      <img
+      <Image
         src="/logo.png"
         alt="Chrobox Logo"
+        width={s.icon}
+        height={s.icon}
+        priority={size !== 'sm'}
         style={{
           width: s.icon,
           height: s.icon,

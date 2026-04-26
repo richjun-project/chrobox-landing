@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Text } from '@mantine/core';
 import { tokens } from '../theme';
@@ -140,20 +141,20 @@ export function HowItWorks() {
                 >
                   <Box
                     style={{
+                      position: 'relative',
+                      aspectRatio: '9 / 19.5',
                       borderRadius: '20px',
                       overflow: 'hidden',
                       boxShadow: '0 6px 24px rgba(0, 0, 0, 0.1)',
                       background: tokens.colors.gray900,
                     }}
                   >
-                    <img
+                    <Image
                       src={getScreenshotPath(i18n.language, num)}
                       alt={SCREENSHOT_ALTS[num]}
-                      loading="lazy"
+                      fill
+                      sizes="(max-width: 768px) 33vw, 260px"
                       style={{
-                        width: '100%',
-                        display: 'block',
-                        aspectRatio: '9 / 19.5',
                         objectFit: 'cover',
                       }}
                     />

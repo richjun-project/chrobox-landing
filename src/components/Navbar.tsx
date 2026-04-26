@@ -1,33 +1,42 @@
+'use client';
+
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { usePathname, useRouter } from 'next/navigation';
 import { Box, Group, Text, Button, Container, ActionIcon, Menu } from '@mantine/core';
 import { IconMenu2, IconX, IconLanguage, IconChevronDown } from '@tabler/icons-react';
 import { Logo } from './Logo';
 import { tokens } from '../theme';
+import {
+  SEO_LOCALES,
+  englishPathFromLocalizedPath,
+  localeFromPathSegment,
+  localeFromPathname,
+  localizedPath,
+  type SiteLocale,
+} from '../lib/seo';
+
+const NAV_LOCALES = SEO_LOCALES.filter((item) => item.code === 'en' || localeFromPathSegment(item.pathPrefix.slice(1)));
 
 export function Navbar() {
-  const { t, i18n } = useTranslation();
-  const navigate = useNavigate();
-  const location = useLocation();
+  const { t } = useTranslation();
+  const router = useRouter();
+  const pathname = usePathname() ?? '/';
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const isKo = location.pathname.startsWith('/ko');
-  const isHome = location.pathname === '/' || location.pathname === '/ko';
+  const locale = localeFromPathname(pathname);
+  const homePath = localizedPath(locale, '/');
+  const isHome = pathname === homePath;
 
-  const switchLanguage = (targetLang: 'en' | 'ko') => {
-    const path = location.pathname;
-    let newPath: string;
-    if (targetLang === 'ko') {
-      // en -> ko: prepend /ko
-      newPath = path === '/' ? '/ko' : `/ko${path}`;
-    } else {
-      // ko -> en: strip /ko prefix
-      newPath = path === '/ko' ? '/' : path.replace(/^\/ko/, '');
-    }
-    navigate(newPath);
+  const switchLanguage = (targetLocale: SiteLocale) => {
+    const englishPath = englishPathFromLocalizedPath(pathname);
+    const search = typeof window === 'undefined' ? '' : window.location.search;
+    const hash = typeof window === 'undefined' ? '' : window.location.hash;
+    const nextPath = `${localizedPath(targetLocale, englishPath)}${search}${hash}`;
+    router.push(nextPath);
+    setMobileMenuOpen(false);
   };
 
   useEffect(() => {
@@ -46,7 +55,7 @@ export function Navbar() {
 
   const scrollToSection = (href: string) => {
     if (!isHome) {
-      navigate((isKo ? '/ko' : '') + '/' + href);
+      router.push(`${homePath}${href}`);
       return;
     }
     const element = document.querySelector(href);
@@ -60,8 +69,16 @@ export function Navbar() {
     if (isHome) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-      navigate(isKo ? '/ko' : '/');
+      router.push(homePath);
     }
+  };
+
+  const sectionHref = (href: string) => {
+    if (isHome) {
+      return href;
+    }
+
+    return `${homePath}${href}`;
   };
 
   return (
@@ -90,7 +107,7 @@ export function Navbar() {
             {/* Logo */}
             <Box
               component="a"
-              href="/"
+              href={homePath}
               onClick={(e: React.MouseEvent) => {
                 e.preventDefault();
                 goHome();
@@ -106,7 +123,7 @@ export function Navbar() {
               {navItems.map((item) => (
                 <motion.a
                   key={item.key}
-                  href={isHome ? item.href : `/${item.href}`}
+                  href={sectionHref(item.href)}
                   onClick={(e: React.MouseEvent) => {
                     e.preventDefault();
                     scrollToSection(item.href);
@@ -137,7 +154,7 @@ export function Navbar() {
             {/* Right Section */}
             <Group gap={12}>
               {/* Language Switcher */}
-              <Menu shadow="md" width={140}>
+              <Menu shadow="md" width={220}>
                 <Menu.Target>
                   <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                     <Button
@@ -150,29 +167,23 @@ export function Navbar() {
                         fontWeight: 500,
                       }}
                     >
-                      {i18n.language === 'ko' ? '한국어' : 'EN'}
+                      {locale.toUpperCase()}
                     </Button>
                   </motion.div>
                 </Menu.Target>
-                <Menu.Dropdown>
-                  <Menu.Item
-                    onClick={() => switchLanguage('en')}
-                    style={{
-                      fontWeight: i18n.language === 'en' ? 600 : 400,
-                      color: i18n.language === 'en' ? tokens.colors.accent : undefined,
-                    }}
-                  >
-                    English
-                  </Menu.Item>
-                  <Menu.Item
-                    onClick={() => switchLanguage('ko')}
-                    style={{
-                      fontWeight: i18n.language === 'ko' ? 600 : 400,
-                      color: i18n.language === 'ko' ? tokens.colors.accent : undefined,
-                    }}
-                  >
-                    한국어
-                  </Menu.Item>
+                <Menu.Dropdown style={{ maxHeight: '360px', overflowY: 'auto' }}>
+                  {NAV_LOCALES.map((item) => (
+                    <Menu.Item
+                      key={item.code}
+                      onClick={() => switchLanguage(item.code)}
+                      style={{
+                        fontWeight: locale === item.code ? 600 : 400,
+                        color: locale === item.code ? tokens.colors.accent : undefined,
+                      }}
+                    >
+                      {item.nativeLabel} ({item.code})
+                    </Menu.Item>
+                  ))}
                 </Menu.Dropdown>
               </Menu>
 
@@ -241,7 +252,7 @@ export function Navbar() {
             {navItems.map((item, index) => (
               <motion.a
                 key={item.key}
-                href={isHome ? item.href : `/${item.href}`}
+                href={sectionHref(item.href)}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}

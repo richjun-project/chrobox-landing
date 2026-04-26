@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Text, Group, Badge, Stack } from '@mantine/core';
 import { IconTrendingUp, IconClock, IconTargetArrow, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
@@ -76,14 +77,24 @@ function TimeBlock({
 }
 
 // Floating Particle
-function FloatingParticle({ delay, size, x }: { delay: number; size: number; x: number }) {
+function FloatingParticle({
+  delay,
+  size,
+  x,
+  drift,
+}: {
+  delay: number;
+  size: number;
+  x: number;
+  drift: number;
+}) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 100 }}
       animate={{
         opacity: [0, 0.4, 0],
         y: [-50, -200],
-        x: [0, Math.random() * 40 - 20],
+        x: [0, drift],
       }}
       transition={{
         duration: 4,
@@ -116,6 +127,13 @@ const SCREENSHOT_ALTS = [
   'Chrobox app - time-boxing schedule and timeline view',
   'Chrobox app - daily brainstorming and task planning screen',
 ];
+
+const PARTICLES = Array.from({ length: 8 }, (_, i) => ({
+  delay: i * 0.5,
+  size: 6 + ((i * 5) % 8),
+  x: 10 + i * 12,
+  drift: (i % 2 === 0 ? 1 : -1) * (12 + i * 3),
+}));
 
 export function Hero() {
   const { t } = useTranslation();
@@ -206,12 +224,13 @@ export function Hero() {
       />
 
       {/* Floating Particles */}
-      {[...Array(8)].map((_, i) => (
+      {PARTICLES.map((particle) => (
         <FloatingParticle
-          key={i}
-          delay={i * 0.5}
-          size={6 + Math.random() * 8}
-          x={10 + i * 12}
+          key={particle.delay}
+          delay={particle.delay}
+          size={particle.size}
+          x={particle.x}
+          drift={particle.drift}
         />
       ))}
 
@@ -475,23 +494,26 @@ export function Hero() {
 
                     {/* Screenshot Carousel */}
                     <AnimatePresence mode="wait">
-                      <motion.img
+                      <motion.div
                         key={currentImageIndex}
-                        src={APP_SCREENSHOTS[currentImageIndex]}
-                        alt={SCREENSHOT_ALTS[currentImageIndex]}
                         initial={{ opacity: 0, scale: 1.05 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.95 }}
                         transition={{ duration: 0.4 }}
                         style={{
-                          width: '100%',
-                          height: '100%',
-                          objectFit: 'cover',
                           position: 'absolute',
-                          top: 0,
-                          left: 0,
+                          inset: 0,
                         }}
-                      />
+                      >
+                        <Image
+                          src={APP_SCREENSHOTS[currentImageIndex]}
+                          alt={SCREENSHOT_ALTS[currentImageIndex]}
+                          fill
+                          priority={currentImageIndex === 0}
+                          sizes="280px"
+                          style={{ objectFit: 'cover' }}
+                        />
+                      </motion.div>
                     </AnimatePresence>
 
                     {/* Carousel Indicators */}

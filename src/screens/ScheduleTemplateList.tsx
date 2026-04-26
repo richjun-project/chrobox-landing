@@ -1,13 +1,14 @@
+'use client';
+
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge } from '@mantine/core';
 import { IconArrowRight, IconClock } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { scheduleTemplates, categoryColors } from '../data/scheduleTemplates';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import { contentLanguageForLocale, localizedPath, type SiteLocale } from '../lib/seo';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -19,37 +20,11 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.07 } },
 };
 
-export function ScheduleTemplateList() {
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
-
-  const title = lang === 'ko'
-    ? '직업별 하루 일정 템플릿 | Chrobox'
-    : 'Daily Schedule Templates for Every Profession | Chrobox';
-  const metaDesc = lang === 'ko'
-    ? '20가지 직업별 맞춤 하루 일정 템플릿. 소프트웨어 개발자, 간호사, 교사 등을 위한 무료 타임박싱 플랜.'
-    : 'Free daily schedule templates for 20+ professions. Proven time-boxing plans for developers, nurses, teachers, and more.';
+export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={metaDesc} />
-        <link rel="canonical" href="https://chrobox.net/templates" />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={metaDesc} />
-        <meta property="og:url" content="https://chrobox.net/templates" />
-        <meta property="og:type" content="website" />
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'CollectionPage',
-          name: 'Daily Schedule Templates',
-          description: metaDesc,
-          url: 'https://chrobox.net/templates',
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: 'https://chrobox.net' },
-        })}</script>
-      </Helmet>
-
       <Navbar />
 
       {/* Hero */}
@@ -126,7 +101,7 @@ export function ScheduleTemplateList() {
               const categories = [...new Set(template.schedule.map((b) => b.category))].slice(0, 3);
               return (
                 <motion.div key={template.slug} variants={fadeInUp} transition={{ duration: 0.45, delay: index * 0.04 }}>
-                  <Link to={`/templates/${template.slug}`} style={{ textDecoration: 'none' }}>
+                  <Link href={localizedPath(locale, `/templates/${template.slug}`)} style={{ textDecoration: 'none' }}>
                     <Card
                       padding={0}
                       radius="lg"

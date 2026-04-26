@@ -1,0 +1,18 @@
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  images: {
+    unoptimized: true,
+  },
+  typedRoutes: false,
+  turbopack: {
+    root: __dirname,
+  },
+};
+
+export default nextConfig;

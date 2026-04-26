@@ -1,14 +1,20 @@
+'use client';
+
 import { useEffect } from 'react';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Button, Breadcrumbs, Anchor } from '@mantine/core';
 import { IconArrowLeft, IconArrowRight, IconBulb, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getScheduleTemplate, scheduleTemplates, categoryColors, categoryLabels } from '../data/scheduleTemplates';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import {
+  contentLanguageForLocale,
+  localizedPath,
+  seoCopy,
+  type SiteLocale,
+} from '../lib/seo';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.chrobox.app';
@@ -23,37 +29,25 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.08 } },
 };
 
-export function ScheduleTemplate() {
-  const { slug } = useParams<{ slug: string }>();
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
+export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
+  const copy = seoCopy(locale);
 
-  const template = slug ? getScheduleTemplate(slug) : undefined;
+  const template = getScheduleTemplate(slug);
+  const templatesPath = localizedPath(locale, '/templates');
+  const homePath = localizedPath(locale, '/');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
 
   if (!template) {
-    return <Navigate to="/templates" replace />;
+    return null;
   }
 
   const profession = lang === 'ko' ? template.professionKo : template.profession;
   const description = lang === 'ko' ? template.descriptionKo : template.description;
   const tips = lang === 'ko' ? template.tipsKo : template.tips;
-
-  const pageTitle = `${template.profession} Daily Schedule Template | Free Time-Boxing Plan | Chrobox`;
-  const canonicalUrl = `https://chrobox.net/templates/${template.slug}`;
-
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chrobox.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Templates', item: 'https://chrobox.net/templates' },
-      { '@type': 'ListItem', position: 3, name: `${template.profession} Daily Schedule`, item: canonicalUrl },
-    ],
-  };
 
   const relatedTemplates = template.relatedSlugs
     .map((s) => scheduleTemplates.find((t) => t.slug === s))
@@ -62,19 +56,6 @@ export function ScheduleTemplate() {
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{pageTitle}</title>
-        <meta name="description" content={description} />
-        <link rel="canonical" href={canonicalUrl} />
-        <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={description} />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:type" content="article" />
-        <meta name="twitter:title" content={pageTitle} />
-        <meta name="twitter:description" content={description} />
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-      </Helmet>
-
       <Navbar />
 
       {/* Hero */}
@@ -92,18 +73,18 @@ export function ScheduleTemplate() {
               separator={<IconChevronRight size={14} style={{ color: tokens.colors.gray500 }} />}
               mb={32}
             >
-              <Anchor component={Link} to="/" style={{ color: tokens.colors.gray400, fontSize: '14px' }}>
-                Home
+              <Anchor component={Link} href={homePath} style={{ color: tokens.colors.gray400, fontSize: '14px' }}>
+                {copy.homeLabel}
               </Anchor>
-              <Anchor component={Link} to="/templates" style={{ color: tokens.colors.gray400, fontSize: '14px' }}>
-                Templates
+              <Anchor component={Link} href={templatesPath} style={{ color: tokens.colors.gray400, fontSize: '14px' }}>
+                {copy.templatesLabel}
               </Anchor>
               <Text size="sm" style={{ color: tokens.colors.gray300 }}>
-                {template.profession}
+                {profession}
               </Text>
             </Breadcrumbs>
 
-            <Link to="/templates" style={{ textDecoration: 'none' }}>
+            <Link href={templatesPath} style={{ textDecoration: 'none' }}>
               <Button
                 variant="subtle"
                 leftSection={<IconArrowLeft size={16} />}
@@ -471,7 +452,7 @@ export function ScheduleTemplate() {
                     variants={fadeInUp}
                     transition={{ duration: 0.4, delay: index * 0.08 }}
                   >
-                    <Link to={`/templates/${related.slug}`} style={{ textDecoration: 'none' }}>
+                    <Link href={localizedPath(locale, `/templates/${related.slug}`)} style={{ textDecoration: 'none' }}>
                       <Card
                         padding={24}
                         radius="lg"

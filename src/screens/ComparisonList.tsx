@@ -1,13 +1,19 @@
+'use client';
+
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge, Anchor } from '@mantine/core';
 import { IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { comparisons } from '../data/comparisons';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import {
+  contentLanguageForLocale,
+  localizedPath,
+  seoCopy,
+  type SiteLocale,
+} from '../lib/seo';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -19,42 +25,13 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.07 } },
 };
 
-export function ComparisonList() {
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
-
-  const title = lang === 'ko'
-    ? 'Chrobox 대안 & 비교 | 타임박싱 앱'
-    : 'Chrobox Alternatives & Comparisons | Time-Boxing App';
-  const metaDesc = lang === 'ko'
-    ? 'Chrobox를 Todoist, Notion, TickTick, Google 캘린더 등 인기 앱과 비교해보세요. 당신에게 맞는 생산성 앱을 찾아보세요.'
-    : 'Compare Chrobox to Todoist, Notion, TickTick, Google Calendar, and more. Find the best productivity app for your workflow.';
-
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://chrobox.net/' },
-      { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://chrobox.net/compare' },
-    ],
-  };
+export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
+  const copy = seoCopy(locale);
+  const homePath = localizedPath(locale, '/');
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={metaDesc} />
-        <link rel="canonical" href="https://chrobox.net/compare" />
-        <link rel="alternate" hrefLang="en" href="https://chrobox.net/compare" />
-        <link rel="alternate" hrefLang="ko" href="https://chrobox.net/ko/compare" />
-        <link rel="alternate" hrefLang="x-default" href="https://chrobox.net/compare" />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={metaDesc} />
-        <meta property="og:url" content="https://chrobox.net/compare" />
-        <meta property="og:type" content="website" />
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
-      </Helmet>
-
       <Navbar />
 
       {/* Hero */}
@@ -84,10 +61,10 @@ export function ComparisonList() {
                 <Box component="li">
                   <Anchor
                     component={Link}
-                    to="/"
+                    href={homePath}
                     style={{ fontSize: '13px', color: tokens.colors.gray400, textDecoration: 'none' }}
                   >
-                    {lang === 'ko' ? '홈' : 'Home'}
+                    {copy.homeLabel}
                   </Anchor>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -95,7 +72,7 @@ export function ComparisonList() {
                 </Box>
                 <Box component="li" aria-current="page">
                   <Text style={{ fontSize: '13px', color: tokens.colors.gray500 }}>
-                    {lang === 'ko' ? '비교' : 'Compare'}
+                    {copy.compareLabel}
                   </Text>
                 </Box>
               </Box>
@@ -169,7 +146,7 @@ export function ComparisonList() {
                 variants={fadeInUp}
                 transition={{ duration: 0.45, delay: index * 0.04 }}
               >
-                <Link to={`/compare/${comparison.slug}`} style={{ textDecoration: 'none' }}>
+                <Link href={localizedPath(locale, `/compare/${comparison.slug}`)} style={{ textDecoration: 'none' }}>
                   <Card
                     padding={0}
                     radius="lg"

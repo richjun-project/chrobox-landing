@@ -1,32 +1,26 @@
+'use client';
+
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet-async';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
+import {
+  contentLanguageForLocale,
+  localizedPath,
+  type SiteLocale,
+} from '../lib/seo';
 
-export function BlogList() {
-  const { i18n } = useTranslation();
-  const lang = i18n.language === 'ko' ? 'ko' : 'en';
+export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
+  const lang = contentLanguageForLocale(locale);
   const posts = getBlogPosts(lang);
+  const homePath = localizedPath(locale, '/');
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
-      <Helmet>
-        <title>{lang === 'ko' ? '블로그 - 타임박싱과 생산성 팁 | Chrobox' : 'Blog - Time-Boxing & Productivity Tips | Chrobox'}</title>
-        <meta name="description" content={lang === 'ko' ? '타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.' : 'Insights, tips, and strategies on time-boxing and productivity. Master your day with Chrobox.'} />
-        <link rel="canonical" href={lang === 'ko' ? 'https://chrobox.net/ko/blog' : 'https://chrobox.net/blog'} />
-        <link rel="alternate" hrefLang="en" href="https://chrobox.net/blog" />
-        <link rel="alternate" hrefLang="ko" href="https://chrobox.net/ko/blog" />
-        <link rel="alternate" hrefLang="x-default" href="https://chrobox.net/blog" />
-        <meta property="og:title" content={lang === 'ko' ? '블로그 | Chrobox' : 'Blog | Chrobox'} />
-        <meta property="og:description" content={lang === 'ko' ? '타임박싱과 생산성에 대한 인사이트와 전략' : 'Insights and strategies on time-boxing and productivity'} />
-        <meta property="og:url" content={lang === 'ko' ? 'https://chrobox.net/ko/blog' : 'https://chrobox.net/blog'} />
-      </Helmet>
       <Navbar />
 
       {/* Hero Section */}
@@ -59,7 +53,7 @@ export function BlogList() {
                 <Box component="li">
                   <Box
                     component="a"
-                    href="/"
+                    href={homePath}
                     style={{
                       fontSize: '13px',
                       color: tokens.colors.gray400,
@@ -116,7 +110,7 @@ export function BlogList() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Link to={`${lang === 'ko' ? '/ko' : ''}/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+              <Link href={localizedPath(locale, `/blog/${post.slug}`)} style={{ textDecoration: 'none' }}>
                 <Card
                   padding={0}
                   radius="lg"

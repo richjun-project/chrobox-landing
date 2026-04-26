@@ -1,5 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Text, Group, Stack } from '@mantine/core';
 import { IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
@@ -294,29 +295,33 @@ export function Download() {
                       {/* Screenshot */}
                       {isCenter ? (
                         <AnimatePresence mode="wait">
-                          <motion.img
+                          <motion.div
                             key={currentIndex}
-                            src={APP_SCREENSHOTS[currentIndex]}
-                            alt={SCREENSHOT_ALTS[currentIndex]}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             transition={{ duration: 0.4 }}
                             style={{
-                              width: '100%',
-                              height: '100%',
-                              objectFit: 'cover',
+                              position: 'absolute',
+                              inset: 0,
                             }}
-                          />
+                          >
+                            <Image
+                              src={APP_SCREENSHOTS[currentIndex]}
+                              alt={SCREENSHOT_ALTS[currentIndex]}
+                              fill
+                              sizes="200px"
+                              style={{ objectFit: 'cover' }}
+                            />
+                          </motion.div>
                         </AnimatePresence>
                       ) : (
-                        <img
+                        <Image
                           src={screenshot}
                           alt={SCREENSHOT_ALTS[index]}
-                          loading="lazy"
+                          fill
+                          sizes="200px"
                           style={{
-                            width: '100%',
-                            height: '100%',
                             objectFit: 'cover',
                             opacity: 0.9,
                           }}

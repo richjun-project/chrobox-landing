@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Box, Text, UnstyledButton } from '@mantine/core';
 import { IconList, IconChevronDown } from '@tabler/icons-react';
@@ -54,7 +54,7 @@ function extractHeadings(markdown: string): Heading[] {
 }
 
 export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) {
-  const headings = extractHeadings(content);
+  const headings = useMemo(() => extractHeadings(content), [content]);
   const [activeId, setActiveId] = useState<string>('');
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -74,8 +74,11 @@ export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) 
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, { passive: true });
-    handleScroll();
-    return () => window.removeEventListener('scroll', handleScroll);
+    const frame = window.requestAnimationFrame(handleScroll);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, [handleScroll]);
 
   const handleClick = (id: string) => {
@@ -138,7 +141,6 @@ export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) 
       <Box
         style={{
           display: 'none',
-          '@media (min-width: 1200px)': { display: 'block' },
         }}
         className="toc-desktop"
       >
