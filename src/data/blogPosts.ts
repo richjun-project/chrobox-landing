@@ -6,6 +6,10 @@ import { enBatch4, koBatch4, contentBatch4 } from './blogBatch4';
 import { enBatch5, koBatch5, contentBatch5 } from './blogBatch5';
 import { enBatch6, koBatch6, contentBatch6 } from './blogBatch6';
 import { enBatch7, koBatch7, contentBatch7 } from './blogBatch7';
+import {
+  getClusterBySlug,
+  clusterCategoryName,
+} from '../lib/blogTaxonomy';
 
 // English blog posts
 export const enBlogPosts: BlogPostMeta[] = [
@@ -209,13 +213,35 @@ export const koBlogPosts: BlogPostMeta[] = [
   ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7,
 ];
 
+function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
+  const cluster = getClusterBySlug(post.slug);
+  if (!cluster) {
+    return post;
+  }
+  return {
+    ...post,
+    category: clusterCategoryName(post.slug, post.lang),
+    clusterId: cluster.id,
+    clusterSlug: cluster.slug,
+    hubSlug: cluster.hubSlug,
+    isHub: cluster.hubSlug === post.slug,
+  };
+}
+
+const enBlogPostsEnriched = enBlogPosts.map(enrichWithCluster);
+const koBlogPostsEnriched = koBlogPosts.map(enrichWithCluster);
+
 export const getBlogPosts = (lang: 'en' | 'ko'): BlogPostMeta[] => {
-  return lang === 'en' ? enBlogPosts : koBlogPosts;
+  return lang === 'en' ? enBlogPostsEnriched : koBlogPostsEnriched;
 };
 
 export const getBlogPost = (slug: string, lang: 'en' | 'ko'): BlogPostMeta | undefined => {
   const posts = getBlogPosts(lang);
   return posts.find(post => post.slug === slug);
+};
+
+export const getBlogPostsByCluster = (clusterSlug: string, lang: 'en' | 'ko'): BlogPostMeta[] => {
+  return getBlogPosts(lang).filter((post) => post.clusterSlug === clusterSlug);
 };
 
 // Blog post content (markdown)

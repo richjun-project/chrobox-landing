@@ -2,10 +2,12 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
+import { BLOG_CLUSTERS } from '../lib/blogTaxonomy';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
@@ -18,6 +20,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
   const posts = getBlogPosts(lang);
   const homePath = localizedPath(locale, '/');
+  const router = useRouter();
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -100,8 +103,42 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
         </Container>
       </Box>
 
+      {/* Category Pills */}
+      <Container size="lg" pt={48} pb={0}>
+        <Box style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {BLOG_CLUSTERS.map((cluster) => (
+            <Box
+              key={cluster.id}
+              component={Link}
+              href={localizedPath(locale, `/blog/category/${cluster.slug}`)}
+              style={{
+                padding: '8px 16px',
+                borderRadius: '999px',
+                border: `1px solid ${tokens.colors.border}`,
+                background: tokens.colors.background,
+                fontSize: '13px',
+                fontWeight: 500,
+                color: tokens.colors.gray700,
+                textDecoration: 'none',
+                transition: 'all 0.2s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = tokens.colors.accent;
+                e.currentTarget.style.color = tokens.colors.accent;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = tokens.colors.border;
+                e.currentTarget.style.color = tokens.colors.gray700;
+              }}
+            >
+              {cluster.name[lang]}
+            </Box>
+          ))}
+        </Box>
+      </Container>
+
       {/* Blog Posts Grid */}
-      <Container size="lg" py={80}>
+      <Container size="lg" py={48}>
         <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing={32}>
           {posts.map((post, index) => (
             <motion.div
@@ -141,17 +178,46 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                         objectFit: 'cover',
                       }}
                     />
-                    <Badge
-                      style={{
-                        position: 'absolute',
-                        top: '16px',
-                        left: '16px',
-                        background: tokens.colors.accent,
-                        color: 'white',
-                      }}
-                    >
-                      {post.category}
-                    </Badge>
+                    {post.clusterSlug ? (
+                      <Badge
+                        role="link"
+                        tabIndex={0}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          router.push(localizedPath(locale, `/blog/category/${post.clusterSlug}`));
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            router.push(localizedPath(locale, `/blog/category/${post.clusterSlug}`));
+                          }
+                        }}
+                        style={{
+                          position: 'absolute',
+                          top: '16px',
+                          left: '16px',
+                          background: tokens.colors.accent,
+                          color: 'white',
+                          cursor: 'pointer',
+                        }}
+                      >
+                        {post.category}
+                      </Badge>
+                    ) : (
+                      <Badge
+                        style={{
+                          position: 'absolute',
+                          top: '16px',
+                          left: '16px',
+                          background: tokens.colors.accent,
+                          color: 'white',
+                        }}
+                      >
+                        {post.category}
+                      </Badge>
+                    )}
                   </Box>
 
                   {/* Content */}

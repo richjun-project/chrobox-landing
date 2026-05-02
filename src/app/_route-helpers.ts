@@ -1,6 +1,7 @@
 import { comparisons } from '../data/comparisons';
 import { getBlogPosts } from '../data/blogPosts';
 import { scheduleTemplates } from '../data/scheduleTemplates';
+import { BLOG_CLUSTERS } from '../lib/blogTaxonomy';
 import {
   DEFAULT_LOCALE,
   SEO_LOCALES,
@@ -57,5 +58,15 @@ export function comparisonSlugParams() {
 export function localizedComparisonSlugParams() {
   return localizedLocaleParams().flatMap(({ locale }) => (
     comparisonSlugParams().map(({ slug }) => ({ locale, slug }))
+  ));
+}
+
+export function blogCategorySlugParams() {
+  return BLOG_CLUSTERS.map((cluster) => ({ slug: cluster.slug }));
+}
+
+export function localizedBlogCategorySlugParams() {
+  return localizedLocaleParams().flatMap(({ locale }) => (
+    blogCategorySlugParams().map(({ slug }) => ({ locale, slug }))
   ));
 }

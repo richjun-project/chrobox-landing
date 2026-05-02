@@ -31,4 +31,8 @@ export interface BlogPostMeta {
   readTime: number;
   lang: 'en' | 'ko';
   faqs?: BlogFaq[];
+  clusterId?: string;
+  clusterSlug?: string;
+  hubSlug?: string;
+  isHub?: boolean;
 }

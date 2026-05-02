@@ -9,6 +9,7 @@ import { getBlogPost, getBlogContent } from '../data/blogPosts';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { TableOfContents } from '../components/TableOfContents';
+import { RelatedPosts } from '../components/RelatedPosts';
 import ReactMarkdown from 'react-markdown';
 import { useEffect } from 'react';
 import {
@@ -96,6 +97,26 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                     {lang === 'ko' ? '블로그' : 'Blog'}
                   </Box>
                 </Box>
+                {post.clusterSlug && (
+                  <>
+                    <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
+                      <IconChevronRight size={12} style={{ color: tokens.colors.gray600 }} />
+                    </Box>
+                    <Box component="li">
+                      <Box
+                        component={Link}
+                        href={localizedPath(locale, `/blog/category/${post.clusterSlug}`)}
+                        style={{
+                          fontSize: '13px',
+                          color: tokens.colors.gray400,
+                          textDecoration: 'none',
+                        }}
+                      >
+                        {post.category}
+                      </Box>
+                    </Box>
+                  </>
+                )}
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
                   <IconChevronRight size={12} style={{ color: tokens.colors.gray600 }} />
                 </Box>
@@ -129,16 +150,33 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
               </Button>
             </Link>
 
-            <Badge
-              size="lg"
-              style={{
-                background: tokens.colors.accent,
-                color: 'white',
-                marginBottom: '16px',
-              }}
-            >
-              {post.category}
-            </Badge>
+            {post.clusterSlug ? (
+              <Badge
+                component={Link}
+                href={localizedPath(locale, `/blog/category/${post.clusterSlug}`)}
+                size="lg"
+                style={{
+                  background: tokens.colors.accent,
+                  color: 'white',
+                  marginBottom: '16px',
+                  cursor: 'pointer',
+                  textDecoration: 'none',
+                }}
+              >
+                {post.category}
+              </Badge>
+            ) : (
+              <Badge
+                size="lg"
+                style={{
+                  background: tokens.colors.accent,
+                  color: 'white',
+                  marginBottom: '16px',
+                }}
+              >
+                {post.category}
+              </Badge>
+            )}
 
             <Text
               component="h1"
@@ -485,6 +523,9 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                   </Box>
                 </Box>
               )}
+
+              {/* Related Posts (same cluster) */}
+              <RelatedPosts slug={post.slug} locale={locale} />
 
               {/* CTA */}
               <Box

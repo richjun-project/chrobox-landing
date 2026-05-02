@@ -603,3 +603,11 @@ export function comparisonArticleSeo(locale: SiteLocale, competitor: string, des
     description: fillTemplate(copy.comparisonArticleDescription, { competitor }),
   };
 }
+
+export function blogCategorySeo(locale: SiteLocale, name: string, description: string) {
+  const suffix = locale === 'ko' ? 'Chrobox 블로그' : 'Chrobox Blog';
+  return {
+    title: `${name} | ${suffix}`,
+    description,
+  };
+}

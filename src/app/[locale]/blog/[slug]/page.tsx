@@ -13,6 +13,7 @@ import {
   localizedPath,
   seoCopy,
 } from '../../../../lib/seo';
+import { getClusterBySlug } from '../../../../lib/blogTaxonomy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -45,6 +46,7 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
     type: 'article',
     image: post.image,
   });
+  const cluster = getClusterBySlug(post.slug);
 
   return {
     ...metadata,
@@ -54,7 +56,8 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      section: post.category,
+      section: cluster ? cluster.name[lang] : post.category,
+      tags: post.tags,
     },
   };
 }
@@ -78,6 +81,21 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
   const seo = blogArticleSeo(locale, post.title, post.excerpt);
   const postUrl = absoluteUrl(localizedPath(locale, `/blog/${post.slug}`));
   const content = getBlogContent(post.slug, lang);
+  const cluster = getClusterBySlug(post.slug);
+  const articleSection = cluster ? cluster.name[lang] : post.category;
+  const categoryUrl = cluster ? absoluteUrl(localizedPath(locale, `/blog/category/${cluster.slug}`)) : null;
+
+  const breadcrumbItems: Array<Record<string, unknown>> = [
+    { '@type': 'ListItem', position: 1, name: copy.homeLabel, item: absoluteUrl(localizedPath(locale, '/')) },
+    { '@type': 'ListItem', position: 2, name: copy.blogLabel, item: absoluteUrl(localizedPath(locale, '/blog')) },
+  ];
+  if (cluster && categoryUrl) {
+    breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: cluster.name[lang], item: categoryUrl });
+    breadcrumbItems.push({ '@type': 'ListItem', position: 4, name: post.title, item: postUrl });
+  } else {
+    breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: post.title, item: postUrl });
+  }
+
   const faqSchema = post.faqs && post.faqs.length > 0
     ? {
         '@context': 'https://schema.org',
@@ -111,6 +129,8 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           },
           datePublished: post.date,
           mainEntityOfPage: postUrl,
+          articleSection,
+          keywords: post.tags.join(', '),
           articleBody: content.slice(0, 5000),
         }}
       />
@@ -118,11 +138,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         data={{
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
-          itemListElement: [
-            { '@type': 'ListItem', position: 1, name: copy.homeLabel, item: absoluteUrl(localizedPath(locale, '/')) },
-            { '@type': 'ListItem', position: 2, name: copy.blogLabel, item: absoluteUrl(localizedPath(locale, '/blog')) },
-            { '@type': 'ListItem', position: 3, name: post.title, item: postUrl },
-          ],
+          itemListElement: breadcrumbItems,
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}

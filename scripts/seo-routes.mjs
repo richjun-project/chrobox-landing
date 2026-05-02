@@ -47,6 +47,7 @@ const BLOG_SOURCES = discoverBlogSources();
 
 const TEMPLATE_SOURCE = 'src/data/scheduleTemplates.ts';
 const COMPARISON_SOURCE = 'src/data/comparisons.ts';
+const TAXONOMY_SOURCE = 'src/lib/blogTaxonomy.ts';
 
 function readProjectFile(relativePath) {
   const absolutePath = join(PROJECT_ROOT, relativePath);
@@ -69,6 +70,20 @@ function extractSlugs(relativePaths) {
   }
 
   return [...slugs];
+}
+
+function extractCategorySlugs() {
+  const source = readProjectFile(TAXONOMY_SOURCE);
+  const slugs = [];
+  const clusterStartRegex = /\bid:\s*['"`][\w-]+['"`]/g;
+  for (const match of source.matchAll(clusterStartRegex)) {
+    const after = source.slice(match.index, match.index + 400);
+    const slugMatch = after.match(/slug:\s*['"`]([^'"`]+)['"`]/);
+    if (slugMatch) {
+      slugs.push(slugMatch[1]);
+    }
+  }
+  return [...new Set(slugs)];
 }
 
 function latestSourceDate(relativePaths) {
@@ -156,6 +171,9 @@ export function getSeoRouteGroups() {
   const groups = [
     routeGroup('/', { changefreq: 'weekly', priority: '1.0', lastmod: siteLastmod }),
     routeGroup('/blog', { changefreq: 'weekly', priority: '0.9', lastmod: blogLastmod }),
+    ...extractCategorySlugs().map((slug) => (
+      routeGroup(`/blog/category/${slug}`, { changefreq: 'weekly', priority: '0.85', lastmod: blogLastmod })
+    )),
     ...extractSlugs(BLOG_SOURCES).map((slug) => (
       routeGroup(`/blog/${slug}`, { changefreq: 'monthly', priority: '0.8', lastmod: blogLastmod })
     )),
