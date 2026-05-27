@@ -3,6 +3,9 @@
     "features": "기능",
     "howItWorks": "사용 방법",
     "pricing": "요금제",
+    "blog": "블로그",
+    "templates": "템플릿",
+    "compare": "앱 비교",
     "download": "다운로드"
   },
   "hero": {
@@ -139,7 +142,13 @@
     "links": {
       "product": "제품",
       "company": "회사",
-      "legal": "법적 고지"
+      "legal": "법적 고지",
+      "explore": "둘러보기"
+    },
+    "explore": {
+      "blog": "타임박싱 블로그",
+      "templates": "직업별 일정 템플릿",
+      "compare": "타임박싱 앱 비교"
     },
     "companyInfo": "회사 정보",
     "companyName": "회사명",

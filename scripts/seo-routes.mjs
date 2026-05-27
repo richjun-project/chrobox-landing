@@ -141,7 +141,7 @@ function routeGroup(enPath, options = {}) {
 }
 
 export function urlForPath(path) {
-  return path === '/' ? `${BASE_URL}/` : `${BASE_URL}${path}`;
+  return path === '/' ? BASE_URL : `${BASE_URL}${path}`;
 }
 
 export function localeForPath(path) {

@@ -3,6 +3,9 @@
     "features": "Features",
     "howItWorks": "How It Works",
     "pricing": "Pricing",
+    "blog": "Blog",
+    "templates": "Templates",
+    "compare": "Compare",
     "download": "Download"
   },
   "hero": {
@@ -139,7 +142,13 @@
     "links": {
       "product": "Product",
       "company": "Company",
-      "legal": "Legal"
+      "legal": "Legal",
+      "explore": "Explore"
+    },
+    "explore": {
+      "blog": "Time-Boxing Blog",
+      "templates": "Schedule Templates",
+      "compare": "App Comparisons"
     },
     "companyInfo": "Company Info",
     "companyName": "Company",

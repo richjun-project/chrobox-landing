@@ -3,23 +3,23 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://chrobox.net/</loc>
-    <lastmod>2026-04-26</lastmod>
+    <loc>https://chrobox.net</loc>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net"/>
   </url>
 
   <url>
     <loc>https://chrobox.net/ko</loc>
-    <lastmod>2026-04-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net"/>
   </url>
 
   <url>

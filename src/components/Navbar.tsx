@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { Box, Group, Text, Button, Container, ActionIcon, Menu } from '@mantine/core';
 import { IconMenu2, IconX, IconLanguage, IconChevronDown } from '@tabler/icons-react';
@@ -51,6 +52,12 @@ export function Navbar() {
     { key: 'features', href: '#features' },
     { key: 'howItWorks', href: '#how-it-works' },
     { key: 'pricing', href: '#pricing' },
+  ];
+
+  const routeNavItems = [
+    { key: 'blog', href: localizedPath(locale, '/blog') },
+    { key: 'templates', href: localizedPath(locale, '/templates') },
+    { key: 'compare', href: localizedPath(locale, '/compare') },
   ];
 
   const scrollToSection = (href: string) => {
@@ -119,7 +126,7 @@ export function Navbar() {
             </Box>
 
             {/* Desktop Navigation */}
-            <Group gap={40} component="nav" visibleFrom="md" aria-label="Main navigation">
+            <Group gap={32} component="nav" visibleFrom="md" aria-label="Main navigation">
               {navItems.map((item) => (
                 <motion.a
                   key={item.key}
@@ -148,6 +155,31 @@ export function Navbar() {
                     {t(`nav.${item.key}`)}
                   </Text>
                 </motion.a>
+              ))}
+              {routeNavItems.map((item) => (
+                <motion.div key={item.key} whileHover={{ y: -2 }}>
+                  <Link
+                    href={item.href}
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <Text
+                      size="sm"
+                      fw={500}
+                      style={{
+                        color: tokens.colors.gray600,
+                        transition: 'color 0.2s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = tokens.colors.accent;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = tokens.colors.gray600;
+                      }}
+                    >
+                      {t(`nav.${item.key}`)}
+                    </Text>
+                  </Link>
+                </motion.div>
               ))}
             </Group>
 
@@ -273,6 +305,30 @@ export function Navbar() {
                   {t(`nav.${item.key}`)}
                 </Text>
               </motion.a>
+            ))}
+            {routeNavItems.map((item, index) => (
+              <motion.div
+                key={item.key}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: (navItems.length + index) * 0.1 }}
+              >
+                <Link
+                  href={item.href}
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    padding: '16px',
+                    borderRadius: '12px',
+                    background: tokens.colors.gray50,
+                    textDecoration: 'none',
+                    display: 'block',
+                  }}
+                >
+                  <Text size="lg" fw={600} style={{ color: tokens.colors.gray900 }}>
+                    {t(`nav.${item.key}`)}
+                  </Text>
+                </Link>
+              </motion.div>
             ))}
             <motion.div
               initial={{ opacity: 0, x: -20 }}

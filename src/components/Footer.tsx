@@ -1,8 +1,13 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Box, Container, Text, Group, Stack, Anchor } from '@mantine/core';
 import { Logo } from './Logo';
 import { tokens } from '../theme';
+import { localeFromPathname, localizedPath } from '../lib/seo';
 
 const COMPANY_INFO = {
   name: 'silverithm',
@@ -20,6 +25,14 @@ const LEGAL_LINKS = {
 
 export function Footer() {
   const { t } = useTranslation();
+  const pathname = usePathname() ?? '/';
+  const locale = localeFromPathname(pathname);
+
+  const exploreLinks = [
+    { key: 'blog', href: localizedPath(locale, '/blog') },
+    { key: 'templates', href: localizedPath(locale, '/templates') },
+    { key: 'compare', href: localizedPath(locale, '/compare') },
+  ];
 
   return (
     <Box
@@ -37,6 +50,44 @@ export function Footer() {
             <Text size="md" style={{ color: tokens.colors.gray500, lineHeight: 1.7 }}>
               {t('footer.tagline')}
             </Text>
+          </Stack>
+
+          {/* Explore (sitemap hub links) */}
+          <Stack gap={12}>
+            <Text
+              size="sm"
+              fw={700}
+              style={{
+                color: tokens.colors.gray900,
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em',
+                marginBottom: '4px',
+              }}
+            >
+              {t('footer.links.explore')}
+            </Text>
+            {exploreLinks.map((item) => (
+              <motion.div key={item.key} whileHover={{ x: 4 }}>
+                <Link
+                  href={item.href}
+                  style={{
+                    color: tokens.colors.gray500,
+                    fontSize: '14px',
+                    textDecoration: 'none',
+                    transition: 'color 0.2s ease',
+                    display: 'inline-block',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = tokens.colors.accent;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = tokens.colors.gray500;
+                  }}
+                >
+                  {t(`footer.explore.${item.key}`)}
+                </Link>
+              </motion.div>
+            ))}
           </Stack>
 
           {/* Company Info */}
