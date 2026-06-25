@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: SlugParam }): Promi
     notFound();
   }
 
-  const seo = comparisonArticleSeo('en', comparison.competitor, comparison.description);
+  const seo = comparisonArticleSeo('en', comparison.competitor, comparison.metaDescription ?? comparison.description);
 
   return pageMetadata({
     locale: 'en',
@@ -42,7 +42,7 @@ export default async function Page({ params }: { params: SlugParam }) {
   }
 
   const copy = seoCopy('en');
-  const seo = comparisonArticleSeo('en', comparison.competitor, comparison.description);
+  const seo = comparisonArticleSeo('en', comparison.competitor, comparison.metaDescription ?? comparison.description);
   const canonicalUrl = absoluteUrl(localizedPath('en', `/compare/${comparison.slug}`));
   const faqSchema = comparison.faqs.length > 0
     ? {

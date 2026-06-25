@@ -32,7 +32,9 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
 
   const lang = contentLanguageForLocale(locale);
   const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
-  const description = lang === 'ko' ? comparison.descriptionKo : comparison.description;
+  const description = lang === 'ko'
+    ? comparison.metaDescriptionKo ?? comparison.descriptionKo
+    : comparison.metaDescription ?? comparison.description;
   const seo = comparisonArticleSeo(locale, competitor, description);
 
   return pageMetadata({
@@ -56,7 +58,9 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
   const lang = contentLanguageForLocale(locale);
   const copy = seoCopy(locale);
   const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
-  const description = lang === 'ko' ? comparison.descriptionKo : comparison.description;
+  const description = lang === 'ko'
+    ? comparison.metaDescriptionKo ?? comparison.descriptionKo
+    : comparison.metaDescription ?? comparison.description;
   const seo = comparisonArticleSeo(locale, competitor, description);
   const canonicalUrl = absoluteUrl(localizedPath(locale, `/compare/${comparison.slug}`));
   const faqSchema = comparison.faqs.length > 0

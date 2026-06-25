@@ -703,7 +703,7 @@ export const scheduleTemplates: ScheduleTemplate[] = [
   },
   {
     slug: 'parent-working-from-home',
-    profession: 'Parent Working from Home',
+    profession: 'Work-from-Home Parent',
     professionKo: '재택근무 부모',
     description:
       'A realistic daily schedule for parents working from home to balance childcare, household duties, and professional output.',

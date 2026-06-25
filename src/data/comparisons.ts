@@ -9,6 +9,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Todoist: 타임박싱 vs 할일 목록',
     description: 'Chrobox and Todoist both help you manage tasks, but they take fundamentally different approaches. Chrobox uses time-boxing to schedule every task into a specific time block, while Todoist focuses on prioritized task lists. Discover which app fits your productivity style.',
     descriptionKo: 'Chrobox와 Todoist는 모두 작업 관리를 돕지만 근본적으로 다른 방식을 취합니다. Chrobox는 타임박싱으로 모든 작업을 특정 시간 블록에 배정하고, Todoist는 우선순위가 있는 할일 목록에 집중합니다.',
+    metaDescription: 'Chrobox vs Todoist: time-boxing vs prioritized task lists. Compare scheduling, focus, and daily planning to find the productivity app that fits you.',
+    metaDescriptionKo: 'Chrobox vs Todoist 비교 — 타임박싱과 우선순위 할일 목록의 차이, 스케줄링·집중·일일 계획 방식을 알아보세요.',
     features: [
       { name: 'Time-Boxing / Time Blocking', nameKo: '타임박싱 / 시간 블록', chrobox: true, competitor: false },
       { name: 'Task Prioritization', nameKo: '작업 우선순위', chrobox: true, competitor: true },
@@ -74,6 +76,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Google 캘린더: 집중 계획 vs 일정 관리',
     description: 'Google Calendar is the world\'s most popular calendar app, great for scheduling meetings and events. Chrobox goes further by combining time-boxing with a task manager so you can plan deep work blocks alongside your calendar commitments.',
     descriptionKo: 'Google 캘린더는 세계에서 가장 인기 있는 캘린더 앱으로 회의 및 이벤트 예약에 탁월합니다. Chrobox는 타임박싱과 작업 관리자를 결합하여 캘린더 약속과 함께 깊은 작업 블록을 계획할 수 있습니다.',
+    metaDescription: 'Chrobox vs Google Calendar: combine time-boxing with task management to plan deep work blocks right alongside your meetings and events.',
+    metaDescriptionKo: 'Chrobox vs Google 캘린더 비교 — 타임박싱과 작업 관리를 결합해 회의·일정과 함께 집중 작업 블록을 계획하세요.',
     features: [
       { name: 'Time-Boxing for Deep Work', nameKo: '깊은 작업을 위한 타임박싱', chrobox: true, competitor: false },
       { name: 'Event / Meeting Scheduling', nameKo: '이벤트 / 회의 예약', chrobox: true, competitor: true },
@@ -139,6 +143,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Notion: 집중 타임박싱 vs 올인원 워크스페이스',
     description: 'Notion is a powerful all-in-one workspace for notes, databases, and projects. Chrobox is a dedicated time-boxing app built for daily scheduling and focused productivity. Learn which tool is right for your workflow.',
     descriptionKo: 'Notion은 노트, 데이터베이스, 프로젝트를 위한 강력한 올인원 워크스페이스입니다. Chrobox는 일일 스케줄링과 집중 생산성을 위해 만들어진 전용 타임박싱 앱입니다.',
+    metaDescription: 'Chrobox vs Notion: a dedicated time-boxing app for daily scheduling vs an all-in-one workspace. See which tool fits your workflow best.',
+    metaDescriptionKo: 'Chrobox vs Notion 비교 — 일일 스케줄링 전용 타임박싱 앱과 올인원 워크스페이스, 어떤 도구가 맞을지 알아보세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Notes & Docs', nameKo: '노트 & 문서', chrobox: false, competitor: true },
@@ -204,6 +210,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Trello: 타임박싱 vs 칸반 보드',
     description: 'Trello organizes work with visual Kanban boards and cards. Chrobox schedules work into time blocks on your calendar. If you want to know when work will happen — not just what needs to be done — Chrobox is the answer.',
     descriptionKo: 'Trello는 시각적인 칸반 보드와 카드로 작업을 구성합니다. Chrobox는 캘린더의 타임블록에 작업을 예약합니다. 무엇을 해야 하는지뿐만 아니라 언제 할지를 알고 싶다면 Chrobox가 답입니다.',
+    metaDescription: 'Chrobox vs Trello: schedule work into calendar time blocks vs organize tasks on Kanban boards. Know when work happens, not just what.',
+    metaDescriptionKo: 'Chrobox vs Trello 비교 — 캘린더 타임블록 스케줄링과 칸반 보드, 무엇을 언제 할지 정하는 방식을 비교하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Kanban Board', nameKo: '칸반 보드', chrobox: false, competitor: true },
@@ -269,6 +277,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Asana: 개인 타임박싱 vs 팀 프로젝트 관리',
     description: 'Asana is a leading team project management platform with rich features for task dependencies, timelines, and workload management. Chrobox focuses on personal daily scheduling through time-boxing. Compare them to find your perfect fit.',
     descriptionKo: 'Asana는 작업 의존성, 타임라인, 업무량 관리를 위한 풍부한 기능을 갖춘 선도적인 팀 프로젝트 관리 플랫폼입니다. Chrobox는 타임박싱을 통한 개인 일일 스케줄링에 집중합니다.',
+    metaDescription: 'Chrobox vs Asana: personal daily time-boxing vs team project management. Compare features to find the right scheduling tool for you.',
+    metaDescriptionKo: 'Chrobox vs Asana 비교 — 개인 일일 타임박싱과 팀 프로젝트 관리, 나에게 맞는 스케줄링 도구를 찾아보세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Project Timeline (Gantt)', nameKo: '프로젝트 타임라인 (간트)', chrobox: false, competitor: true },
@@ -334,6 +344,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs ClickUp: 단순 타임박싱 vs 기능이 풍부한 프로젝트 허브',
     description: 'ClickUp tries to be everything for everyone — tasks, docs, goals, sprints, and more. Chrobox does one thing exceptionally well: time-boxing your day for maximum focus. Find out which is right for you.',
     descriptionKo: 'ClickUp은 작업, 문서, 목표, 스프린트 등 모든 것을 제공하려 합니다. Chrobox는 최대한의 집중을 위해 하루를 타임박싱하는 한 가지를 탁월하게 수행합니다.',
+    metaDescription: 'Chrobox vs ClickUp: focused time-boxing for your day vs an all-in-one tool for tasks, docs, and goals. See which one fits you best.',
+    metaDescriptionKo: 'Chrobox vs ClickUp 비교 — 하루를 타임박싱하는 집중형 앱과 올인원 도구, 어느 쪽이 더 잘 맞는지 확인하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Multiple Views (List, Board, Gantt)', nameKo: '다양한 보기 (목록, 보드, 간트)', chrobox: false, competitor: true },
@@ -399,6 +411,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Apple 미리 알림: 타임박싱 vs 간단한 알림',
     description: 'Apple Reminders is a built-in iOS/macOS app for simple to-do lists and reminders. Chrobox takes time management to the next level with time-boxing, letting you plan exactly when you\'ll complete each task.',
     descriptionKo: 'Apple 미리 알림은 간단한 할일 목록과 알림을 위한 iOS/macOS 내장 앱입니다. Chrobox는 타임박싱으로 시간 관리를 한 단계 높여 각 작업을 언제 완료할지 정확히 계획할 수 있습니다.',
+    metaDescription: 'Chrobox vs Apple Reminders: plan exactly when you will do each task with time-boxing vs simple iOS to-do lists and reminders.',
+    metaDescriptionKo: 'Chrobox vs Apple 미리 알림 비교 — 타임박싱으로 작업 시점까지 계획하기와 간단한 할일·알림을 비교하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Simple Reminders', nameKo: '간단한 알림', chrobox: true, competitor: true },
@@ -464,6 +478,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Microsoft To Do: 타임박싱 vs 스마트 할일 목록',
     description: 'Microsoft To Do integrates seamlessly with Microsoft 365 and offers smart daily suggestions via My Day. Chrobox goes beyond suggestions by letting you commit every task to a specific time block in your calendar.',
     descriptionKo: 'Microsoft To Do는 Microsoft 365와 원활하게 통합되며 My Day를 통한 스마트 일일 제안을 제공합니다. Chrobox는 제안을 넘어 모든 작업을 캘린더의 특정 타임블록에 확정할 수 있습니다.',
+    metaDescription: 'Chrobox vs Microsoft To Do: commit every task to a calendar time block vs smart daily suggestions and Microsoft 365 integration.',
+    metaDescriptionKo: 'Chrobox vs Microsoft To Do 비교 — 모든 작업을 캘린더 타임블록에 확정하기와 스마트 일일 제안을 비교하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'Smart Daily Suggestions', nameKo: '스마트 일일 제안', chrobox: false, competitor: true },
@@ -529,6 +545,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs Any.do: 타임박싱 vs AI 지원 작업 계획',
     description: 'Any.do offers smart task management with AI-powered daily planning and a clean interface. Chrobox specializes in time-boxing, turning your tasks into a scheduled block-by-block day. See which approach works better for you.',
     descriptionKo: 'Any.do는 AI 기반 일일 계획과 깔끔한 인터페이스로 스마트 작업 관리를 제공합니다. Chrobox는 타임박싱에 특화하여 작업을 블록별로 구성된 하루로 전환합니다.',
+    metaDescription: 'Chrobox vs Any.do: turn tasks into a block-by-block time-boxed day vs AI-powered daily planning. See which approach works for you.',
+    metaDescriptionKo: 'Chrobox vs Any.do 비교 — 작업을 블록 단위 타임박싱 하루로 만들기와 AI 기반 일일 계획을 비교하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: false },
       { name: 'AI Daily Planning', nameKo: 'AI 일일 계획', chrobox: false, competitor: true },
@@ -594,6 +612,8 @@ export const comparisons: ComparisonData[] = [
     taglineKo: 'Chrobox vs TickTick: 순수 타임박싱 vs 올인원 작업 관리자',
     description: 'TickTick combines tasks, habits, Pomodoro timer, and calendar in one app. Chrobox takes a focused approach to time-boxing your entire day. Compare these two productivity apps to find your ideal tool.',
     descriptionKo: 'TickTick은 작업, 습관, 포모도로 타이머, 캘린더를 하나의 앱으로 결합합니다. Chrobox는 하루 전체를 타임박싱하는 집중된 방식을 취합니다.',
+    metaDescription: 'Chrobox vs TickTick: focused time-boxing for your whole day vs an all-in-one app with tasks, habits, and a Pomodoro timer.',
+    metaDescriptionKo: 'Chrobox vs TickTick 비교 — 하루 전체를 타임박싱하는 집중 방식과 작업·습관·포모도로 올인원 앱을 비교하세요.',
     features: [
       { name: 'Time-Boxing', nameKo: '타임박싱', chrobox: true, competitor: 'Limited' },
       { name: 'Pomodoro Timer', nameKo: '포모도로 타이머', chrobox: true, competitor: true },

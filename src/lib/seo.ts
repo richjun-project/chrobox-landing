@@ -54,7 +54,7 @@ const INDEXABLE_LOCALES = new Set<SiteLocale>(['en', 'ko']);
 const SEO_COPY: Record<SiteLocale, SeoCopy> = {
   en: {
     homeTitle: 'Chrobox - Master Your Time with Intelligent Time-Boxing | Productivity App',
-    homeDescription: 'Chrobox helps you master your time with intelligent time-boxing methodology. Plan, prioritize, and track your daily tasks with AI-powered insights. Available for iOS and Android.',
+    homeDescription: 'Chrobox helps you master your time with intelligent time-boxing. Plan, prioritize, and track daily tasks with AI-powered insights. Free on iOS and Android.',
     blogTitle: 'Blog - Time-Boxing & Productivity Tips | Chrobox',
     blogDescription: 'Insights, tips, and strategies on time-boxing and productivity. Master your day with Chrobox.',
     templatesTitle: 'Daily Schedule Templates for Every Profession | Chrobox',
@@ -74,7 +74,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
   },
   ko: {
     homeTitle: 'Chrobox - 지능형 타임박싱으로 시간을 마스터하세요 | 생산성 앱',
-    homeDescription: 'Chrobox는 지능형 타임박싱 방법론으로 시간을 마스터하도록 도와줍니다. AI 기반 인사이트로 일일 작업을 계획, 우선순위 설정, 추적하세요. iOS, Android에서 사용 가능.',
+    homeDescription: 'Chrobox는 지능형 타임박싱으로 시간을 마스터하도록 돕습니다. AI 인사이트로 일일 작업을 계획·정리·추적하세요. iOS·Android 지원.',
     blogTitle: '블로그 - 타임박싱과 생산성 팁 | Chrobox',
     blogDescription: '타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.',
     templatesTitle: '직업별 하루 일정 템플릿 | Chrobox',
