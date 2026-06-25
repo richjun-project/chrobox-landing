@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Home } from '../../screens/Home';
 import { JsonLd } from '../../components/JsonLd';
-import { organizationSchema, pageMetadata } from '../../lib/next-seo';
+import { organizationSchema, softwareApplicationSchema, pageMetadata } from '../../lib/next-seo';
 import { absoluteUrl, seoCopy } from '../../lib/seo';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../_route-helpers';
 
@@ -44,6 +44,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
   return (
     <>
       <JsonLd data={organizationSchema()} />
+      <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
       <JsonLd
         data={{
           '@context': 'https://schema.org',

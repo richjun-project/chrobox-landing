@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Home } from '../screens/Home';
 import { JsonLd } from '../components/JsonLd';
-import { organizationSchema, pageMetadata } from '../lib/next-seo';
+import { organizationSchema, softwareApplicationSchema, pageMetadata } from '../lib/next-seo';
 import { absoluteUrl, seoCopy } from '../lib/seo';
 
 export const dynamic = 'force-static';
@@ -23,6 +23,7 @@ export default function Page() {
   return (
     <>
       <JsonLd data={organizationSchema()} />
+      <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
       <JsonLd
         data={{
           '@context': 'https://schema.org',
