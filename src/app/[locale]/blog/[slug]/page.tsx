@@ -56,7 +56,7 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
       type: 'article',
       publishedTime: post.date,
       authors: [post.author],
-      section: cluster ? cluster.name[lang] : post.category,
+      section: cluster ? cluster.name[lang === 'ko' ? 'ko' : 'en'] : post.category,
       tags: post.tags,
     },
   };
@@ -82,7 +82,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
   const postUrl = absoluteUrl(localizedPath(locale, `/blog/${post.slug}`));
   const content = getBlogContent(post.slug, lang);
   const cluster = getClusterBySlug(post.slug);
-  const articleSection = cluster ? cluster.name[lang] : post.category;
+  const articleSection = cluster ? cluster.name[lang === 'ko' ? 'ko' : 'en'] : post.category;
   const categoryUrl = cluster ? absoluteUrl(localizedPath(locale, `/blog/category/${cluster.slug}`)) : null;
 
   const breadcrumbItems: Array<Record<string, unknown>> = [
@@ -90,7 +90,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
     { '@type': 'ListItem', position: 2, name: copy.blogLabel, item: absoluteUrl(localizedPath(locale, '/blog')) },
   ];
   if (cluster && categoryUrl) {
-    breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: cluster.name[lang], item: categoryUrl });
+    breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: cluster.name[lang === 'ko' ? 'ko' : 'en'], item: categoryUrl });
     breadcrumbItems.push({ '@type': 'ListItem', position: 4, name: post.title, item: postUrl });
   } else {
     breadcrumbItems.push({ '@type': 'ListItem', position: 3, name: post.title, item: postUrl });

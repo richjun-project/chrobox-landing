@@ -131,7 +131,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 e.currentTarget.style.color = tokens.colors.gray700;
               }}
             >
-              {cluster.name[lang]}
+              {cluster.name[lang === 'ko' ? 'ko' : 'en']}
             </Box>
           ))}
         </Box>

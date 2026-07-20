@@ -1,4 +1,6 @@
 import type { ComparisonData } from '../types/comparison';
+import type { ContentLanguage } from '../lib/seo';
+import { LOCALIZED_CONTENT } from './localized';
 
 export const comparisons: ComparisonData[] = [
   {
@@ -673,6 +675,44 @@ export const comparisons: ComparisonData[] = [
   },
 ];
 
-export function getComparison(slug: string): ComparisonData | undefined {
-  return comparisons.find((c) => c.slug === slug);
+export function localizeComparisonData(
+  comparison: ComparisonData,
+  lang?: ContentLanguage,
+): ComparisonData {
+  if (!lang || lang === 'en' || lang === 'ko') {
+    return comparison;
+  }
+
+  const copy = LOCALIZED_CONTENT[lang]?.comparisons[comparison.slug];
+
+  if (!copy) {
+    return comparison;
+  }
+
+  return {
+    ...comparison,
+    competitor: copy.competitor ?? comparison.competitor,
+    tagline: copy.tagline,
+    description: copy.description,
+    metaDescription: copy.metaDescription ?? copy.description,
+    features: comparison.features.map((feature, index) => ({
+      ...feature,
+      name: copy.featureNames[index] ?? feature.name,
+    })),
+    chroboxPros: copy.chroboxPros,
+    competitorPros: copy.competitorPros,
+    verdict: copy.verdict,
+    faqs: comparison.faqs.map((faq, index) => (copy.faqs[index]
+      ? { ...faq, question: copy.faqs[index].question, answer: copy.faqs[index].answer }
+      : faq)),
+  };
+}
+
+export function getComparison(slug: string, lang?: ContentLanguage): ComparisonData | undefined {
+  const comparison = comparisons.find((c) => c.slug === slug);
+  return comparison ? localizeComparisonData(comparison, lang) : undefined;
+}
+
+export function getComparisons(lang?: ContentLanguage): ComparisonData[] {
+  return comparisons.map((comparison) => localizeComparisonData(comparison, lang));
 }

@@ -267,7 +267,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
             <Box style={{ minWidth: 0 }}>
               {/* Mobile TOC (shown only on mobile via CSS) */}
               <Box className="blog-toc-mobile">
-                <TableOfContents content={content} lang={lang} />
+                <TableOfContents content={content} lang={lang === 'ko' ? 'ko' : 'en'} />
               </Box>
 
               <Box
@@ -574,7 +574,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
 
             {/* Desktop TOC sidebar (shown only on wide screens via CSS) */}
             <Box className="blog-toc-desktop">
-              <TableOfContents content={content} lang={lang} />
+              <TableOfContents content={content} lang={lang === 'ko' ? 'ko' : 'en'} />
             </Box>
           </Box>
         </motion.div>

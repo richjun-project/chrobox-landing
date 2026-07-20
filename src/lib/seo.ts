@@ -24,7 +24,7 @@ export const SEO_LOCALES = [
 ] as const;
 
 export type SiteLocale = typeof SEO_LOCALES[number]['code'];
-export type ContentLanguage = 'en' | 'ko';
+export type ContentLanguage = 'en' | 'ko' | 'ja' | 'de' | 'es' | 'pt-BR';
 
 type LocaleConfig = typeof SEO_LOCALES[number];
 type SeoCopy = {
@@ -503,8 +503,10 @@ export function englishPathFromLocalizedPath(pathname: string) {
   return rest ? `/${rest}` : '/';
 }
 
+const CONTENT_LANGUAGE_LOCALES = new Set<SiteLocale>(['ko', 'ja', 'de', 'es', 'pt-BR']);
+
 export function contentLanguageForLocale(locale: SiteLocale): ContentLanguage {
-  return locale === 'ko' ? 'ko' : 'en';
+  return (CONTENT_LANGUAGE_LOCALES.has(locale) ? locale : 'en') as ContentLanguage;
 }
 
 export function htmlLangForLocale(locale: SiteLocale) {
@@ -560,7 +562,7 @@ export function seoCopy(locale: SiteLocale) {
 }
 
 export function blogArticleSeo(locale: SiteLocale, title: string, excerpt: string) {
-  if (locale === 'en' || locale === 'ko') {
+  if (locale === 'en' || CONTENT_LANGUAGE_LOCALES.has(locale)) {
     return {
       title: fillTemplate(seoCopy(locale).blogArticleTitle, { title }),
       description: excerpt,
@@ -590,7 +592,7 @@ export function templateArticleSeo(locale: SiteLocale, profession: string, descr
 }
 
 export function comparisonArticleSeo(locale: SiteLocale, competitor: string, description: string) {
-  if (locale === 'en' || locale === 'ko') {
+  if (locale === 'en' || CONTENT_LANGUAGE_LOCALES.has(locale)) {
     return {
       title: fillTemplate(seoCopy(locale).comparisonArticleTitle, { competitor }),
       description,

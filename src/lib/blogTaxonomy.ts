@@ -145,7 +145,7 @@ export function getClusterByCategorySlug(categorySlug: string): BlogClusterDefin
 
 export function clusterCategoryName(slug: string, lang: ContentLanguage): string {
   const cluster = getClusterBySlug(slug);
-  return cluster ? cluster.name[lang] : (lang === 'ko' ? '생산성' : 'Productivity');
+  return cluster ? cluster.name[lang === 'ko' ? 'ko' : 'en'] : (lang === 'ko' ? '생산성' : 'Productivity');
 }
 
 export function clusterHubSlug(slug: string): string | undefined {

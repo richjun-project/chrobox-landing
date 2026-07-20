@@ -76,7 +76,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
   const lang = contentLanguageForLocale(locale);
   const copy = seoCopy(locale);
 
-  const comparison = getComparison(slug);
+  const comparison = getComparison(slug, lang);
   const comparePath = localizedPath(locale, '/compare');
   const homePath = localizedPath(locale, '/');
 

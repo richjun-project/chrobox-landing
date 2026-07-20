@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
   }
 
   const lang = contentLanguageForLocale(locale);
-  const seo = blogCategorySeo(locale, cluster.name[lang], cluster.description[lang]);
+  const seo = blogCategorySeo(locale, cluster.name[lang === 'ko' ? 'ko' : 'en'], cluster.description[lang === 'ko' ? 'ko' : 'en']);
 
   return pageMetadata({
     locale,
@@ -77,8 +77,8 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         data={{
           '@context': 'https://schema.org',
           '@type': 'CollectionPage',
-          name: cluster.name[lang],
-          description: cluster.description[lang],
+          name: cluster.name[lang === 'ko' ? 'ko' : 'en'],
+          description: cluster.description[lang === 'ko' ? 'ko' : 'en'],
           inLanguage: htmlLangForLocale(locale),
           url: categoryUrl,
           isPartOf: {
@@ -105,7 +105,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           itemListElement: [
             { '@type': 'ListItem', position: 1, name: copy.homeLabel, item: absoluteUrl(localizedPath(locale, '/')) },
             { '@type': 'ListItem', position: 2, name: copy.blogLabel, item: absoluteUrl(localizedPath(locale, '/blog')) },
-            { '@type': 'ListItem', position: 3, name: cluster.name[lang], item: categoryUrl },
+            { '@type': 'ListItem', position: 3, name: cluster.name[lang === 'ko' ? 'ko' : 'en'], item: categoryUrl },
           ],
         }}
       />

@@ -169,7 +169,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
             <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               {template.schedule.map((block, index) => {
                 const color = categoryColors[block.category];
-                const label = categoryLabels[block.category][lang];
+                const label = categoryLabels[block.category][lang === 'ko' ? 'ko' : 'en'];
                 return (
                   <motion.div
                     key={index}

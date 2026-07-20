@@ -1,4 +1,6 @@
 import type { BlogPostMeta } from '../types/blog';
+import type { ContentLanguage } from '../lib/seo';
+import { LOCALIZED_CONTENT } from './localized';
 import { enBatch1, koBatch1, contentBatch1 } from './blogBatch1';
 import { enBatch2, koBatch2, contentBatch2 } from './blogBatch2';
 import { enBatch3, koBatch3, contentBatch3 } from './blogBatch3';
@@ -232,16 +234,41 @@ function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
 const enBlogPostsEnriched = enBlogPosts.map(enrichWithCluster);
 const koBlogPostsEnriched = koBlogPosts.map(enrichWithCluster);
 
-export const getBlogPosts = (lang: 'en' | 'ko'): BlogPostMeta[] => {
-  return lang === 'en' ? enBlogPostsEnriched : koBlogPostsEnriched;
+const localizedBlogPostsCache = new Map<ContentLanguage, BlogPostMeta[]>();
+
+export const getBlogPosts = (lang: ContentLanguage): BlogPostMeta[] => {
+  if (lang === 'en') return enBlogPostsEnriched;
+  if (lang === 'ko') return koBlogPostsEnriched;
+
+  const cached = localizedBlogPostsCache.get(lang);
+  if (cached) return cached;
+
+  const pack = LOCALIZED_CONTENT[lang];
+  const posts = !pack
+    ? enBlogPostsEnriched
+    : enBlogPostsEnriched.map((post) => {
+      const copy = pack.blogPosts[post.slug];
+      if (!copy) return post;
+
+      return {
+        ...post,
+        title: copy.title,
+        excerpt: copy.excerpt,
+        faqs: post.faqs?.map((faq, index) => (copy.faqs?.[index]
+          ? { ...faq, question: copy.faqs[index].question, answer: copy.faqs[index].answer }
+          : faq)),
+      };
+    });
+
+  localizedBlogPostsCache.set(lang, posts);
+  return posts;
 };
 
-export const getBlogPost = (slug: string, lang: 'en' | 'ko'): BlogPostMeta | undefined => {
-  const posts = getBlogPosts(lang);
-  return posts.find(post => post.slug === slug);
+export const getBlogPost = (slug: string, lang: ContentLanguage): BlogPostMeta | undefined => {
+  return getBlogPosts(lang).find((post) => post.slug === slug);
 };
 
-export const getBlogPostsByCluster = (clusterSlug: string, lang: 'en' | 'ko'): BlogPostMeta[] => {
+export const getBlogPostsByCluster = (clusterSlug: string, lang: ContentLanguage): BlogPostMeta[] => {
   return getBlogPosts(lang).filter((post) => post.clusterSlug === clusterSlug);
 };
 
@@ -595,6 +622,11 @@ Chrobox는 이러한 모든 타임박싱 전략을 지원합니다.
   },
 };
 
-export const getBlogContent = (slug: string, lang: 'en' | 'ko'): string => {
+export const getBlogContent = (slug: string, lang: ContentLanguage): string => {
+  if (lang !== 'en' && lang !== 'ko') {
+    const localized = LOCALIZED_CONTENT[lang]?.blogContents[slug];
+    return localized || blogContents.en?.[slug] || '';
+  }
+
   return blogContents[lang]?.[slug] || '';
 };

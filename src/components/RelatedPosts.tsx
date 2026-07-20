@@ -67,7 +67,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
               gap: '4px',
             }}
           >
-            {cluster.name[lang]}
+            {cluster.name[lang === 'ko' ? 'ko' : 'en']}
             <IconArrowRight size={14} />
           </Box>
         </Box>

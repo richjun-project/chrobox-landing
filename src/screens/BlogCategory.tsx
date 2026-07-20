@@ -93,7 +93,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 </Box>
                 <Box component="li" aria-current="page">
                   <Text style={{ fontSize: '13px', color: tokens.colors.gray500 }}>
-                    {cluster.name[lang]}
+                    {cluster.name[lang === 'ko' ? 'ko' : 'en']}
                   </Text>
                 </Box>
               </Box>
@@ -119,7 +119,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginBottom: '16px',
               }}
             >
-              {cluster.name[lang]}
+              {cluster.name[lang === 'ko' ? 'ko' : 'en']}
             </Text>
             <Text
               size="xl"
@@ -129,7 +129,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 lineHeight: 1.6,
               }}
             >
-              {cluster.description[lang]}
+              {cluster.description[lang === 'ko' ? 'ko' : 'en']}
             </Text>
             <Text
               size="sm"

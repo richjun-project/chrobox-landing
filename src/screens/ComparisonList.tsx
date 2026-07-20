@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge, Anchor } from '@mantine/core';
 import { IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { comparisons } from '../data/comparisons';
+import { comparisons, getComparisons } from '../data/comparisons';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
@@ -140,7 +140,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
       <Container size="lg" py={80}>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.05 }} variants={stagger}>
           <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing={28}>
-            {comparisons.map((comparison, index) => (
+            {getComparisons(lang).map((comparison, index) => (
               <motion.div
                 key={comparison.slug}
                 variants={fadeInUp}

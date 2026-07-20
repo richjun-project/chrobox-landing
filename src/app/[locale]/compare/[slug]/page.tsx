@@ -24,7 +24,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: LocalizedSlugParam }): Promise<Metadata> {
   const { locale: localeSegment, slug } = await params;
   const locale = localeFromParam(localeSegment);
-  const comparison = getComparison(slug);
+  const comparison = locale ? getComparison(slug, contentLanguageForLocale(locale)) : undefined;
 
   if (!locale || !comparison) {
     notFound();
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
 export default async function Page({ params }: { params: LocalizedSlugParam }) {
   const { locale: localeSegment, slug } = await params;
   const locale = localeFromParam(localeSegment);
-  const comparison = getComparison(slug);
+  const comparison = locale ? getComparison(slug, contentLanguageForLocale(locale)) : undefined;
 
   if (!locale || !comparison) {
     notFound();
