@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Tính năng",
+    "howItWorks": "Cách hoạt động",
+    "pricing": "Bảng giá",
+    "blog": "Blog",
+    "templates": "Mẫu",
+    "compare": "So sánh",
+    "download": "Tải xuống"
+  },
+  "hero": {
+    "badge": "Time-Boxing Trở Nên Tuyệt Đẹp",
+    "title": "Làm Chủ Ngày Của Bạn,",
+    "titleHighlight": " Từng Khối Một",
+    "subtitle": "Chrobox biến lịch trình hỗn loạn thành thành công có tổ chức. Lên kế hoạch, ưu tiên và chinh phục công việc của bạn với hệ thống time-boxing thông minh của chúng tôi.",
+    "cta": "Bắt Đầu Dùng Thử Miễn Phí 3 Ngày",
+    "ctaSecondary": "Cách Hoạt Động",
+    "stats": {
+      "productivity": "Tăng Năng Suất",
+      "timeSaved": "Thời Gian Tiết Kiệm Mỗi Ngày",
+      "completion": "Hoàn Thành Công Việc"
+    }
+  },
+  "features": {
+    "title": "Tại Sao Chọn Chrobox?",
+    "subtitle": "Mọi thứ bạn cần để làm chủ thời gian",
+    "planning": {
+      "title": "Quy Trình Lập Kế Hoạch Thông Minh",
+      "description": "Quy trình hướng dẫn 6 bước của chúng tôi giúp bạn động não, ưu tiên và lên lịch công việc theo thứ tự hiệu quả nhất."
+    },
+    "timeline": {
+      "title": "Dòng Thời Gian Trực Quan",
+      "description": "Xem toàn bộ ngày của bạn trong nháy mắt với dòng thời gian theo giờ tuyệt đẹp. Theo dõi tiến độ theo thời gian thực."
+    },
+    "analytics": {
+      "title": "Thông Tin Chi Tiết Từ AI",
+      "description": "Nhận đề xuất cá nhân hóa và theo dõi các mẫu hình năng suất của bạn với phân tích thông minh."
+    },
+    "sync": {
+      "title": "Đồng Bộ Đa Nền Tảng",
+      "description": "Truy cập kế hoạch của bạn ở mọi nơi. Đồng bộ liền mạch trên iOS, Android và desktop."
+    },
+    "retrospective": {
+      "title": "Nhìn Lại Cuối Ngày",
+      "description": "Nhìn lại ngày của bạn với theo dõi tâm trạng và phân tích hiệu suất để không ngừng cải thiện."
+    },
+    "widget": {
+      "title": "Widget Màn Hình Chính",
+      "description": "Truy cập nhanh lịch trình của bạn ngay từ màn hình chính. Không bao giờ bỏ lỡ một khối thời gian nào."
+    },
+    "appBlocking": {
+      "title": "Chặn Ứng Dụng & Chế Độ Tập Trung",
+      "description": "Chặn các ứng dụng gây xao nhãng trong các phiên tập trung. Chrobox bảo vệ sự chú ý của bạn để công việc chuyên sâu thực sự diễn ra."
+    },
+    "routines": {
+      "title": "Chuỗi Thói Quen",
+      "description": "Xây dựng thói quen hàng ngày với tính năng theo dõi thói quen và lưới chuỗi ngày trực quan hóa sự kiên trì của bạn."
+    }
+  },
+  "howItWorks": {
+    "title": "Cách Hoạt Động",
+    "subtitle": "Bắt đầu dễ dàng với giao diện trực quan",
+    "step1": {
+      "title": "Động Não",
+      "description": "Liệt kê tất cả công việc trong ngày của bạn."
+    },
+    "step2": {
+      "title": "Ưu Tiên",
+      "description": "Chọn những công việc quan trọng nhất của bạn."
+    },
+    "step3": {
+      "title": "Time-Box",
+      "description": "Gán khung giờ cho từng công việc."
+    },
+    "step4": {
+      "title": "Lên Lịch",
+      "description": "Theo sát kế hoạch và theo dõi tiến độ của bạn."
+    },
+    "step5": {
+      "title": "Nhìn Lại",
+      "description": "Xem lại và ghi chép ngày của bạn."
+    },
+    "step6": {
+      "title": "Phân Tích AI",
+      "description": "Tăng năng suất với thông tin chi tiết từ AI."
+    }
+  },
+  "pricing": {
+    "title": "Bảng Giá Đơn Giản",
+    "subtitle": "Trải nghiệm mọi tính năng Pro với 3 ngày dùng thử miễn phí",
+    "trialBadge": "Dùng Thử Miễn Phí 3 Ngày",
+    "trialDescription": "Bắt đầu mà không cần thông tin thanh toán",
+    "monthly": {
+      "name": "Hàng Tháng",
+      "price": "$4.99",
+      "period": "/tháng",
+      "features": [
+        "Công việc không giới hạn",
+        "Thông tin chi tiết từ AI",
+        "Thống kê nâng cao",
+        "Widget màn hình chính",
+        "Hỗ trợ ưu tiên",
+        "Trải nghiệm không quảng cáo"
+      ],
+      "cta": "Bắt Đầu Dùng Thử Miễn Phí"
+    },
+    "yearly": {
+      "name": "Hàng Năm",
+      "price": "$39.99",
+      "period": "/năm",
+      "badge": "GIẢM 33%",
+      "monthlyPrice": "$3.33/tháng",
+      "features": [
+        "Công việc không giới hạn",
+        "Thông tin chi tiết từ AI",
+        "Thống kê nâng cao",
+        "Widget màn hình chính",
+        "Hỗ trợ ưu tiên",
+        "Trải nghiệm không quảng cáo"
+      ],
+      "cta": "Bắt Đầu Dùng Thử Miễn Phí"
+    },
+    "lifetime": {
+      "name": "Trọn Đời",
+      "price": "$99.99",
+      "period": "thanh toán một lần",
+      "badge": "Giá Trị Tốt Nhất",
+      "features": [
+        "Công việc không giới hạn",
+        "Thông tin chi tiết từ AI",
+        "Thống kê nâng cao",
+        "Widget màn hình chính",
+        "Cập nhật trọn đời",
+        "Hỗ trợ ưu tiên",
+        "Trải nghiệm không quảng cáo"
+      ],
+      "cta": "Sở Hữu Trọn Đời"
+    }
+  },
+  "download": {
+    "title": "Sẵn Sàng Thay Đổi Ngày Của Bạn?",
+    "subtitle": "Tải Chrobox ngay và bắt đầu dùng thử miễn phí 3 ngày.",
+    "appStore": "Tải Xuống Trên App Store",
+    "playStore": "Tải Trên Google Play",
+    "appStoreSub": "Tải xuống trên",
+    "playStoreSub": "Tải trên"
+  },
+  "footer": {
+    "tagline": "Làm chủ thời gian, làm chủ cuộc sống.",
+    "links": {
+      "product": "Sản Phẩm",
+      "company": "Công Ty",
+      "legal": "Pháp Lý",
+      "explore": "Khám Phá"
+    },
+    "explore": {
+      "blog": "Blog Time-Boxing",
+      "templates": "Mẫu Lịch Trình",
+      "compare": "So Sánh Ứng Dụng"
+    },
+    "companyInfo": "Thông Tin Công Ty",
+    "companyName": "Tên Công Ty",
+    "ceo": "Giám Đốc Điều Hành",
+    "businessNumber": "Mã Số Doanh Nghiệp",
+    "address": "Địa Chỉ",
+    "contact": "Liên Hệ",
+    "email": "Email",
+    "phone": "Điện Thoại",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ",
+    "about": "Về Chúng Tôi",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

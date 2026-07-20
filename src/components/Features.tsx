@@ -9,6 +9,8 @@ import {
   IconDevices,
   IconMoodSmile,
   IconLayout2,
+  IconShieldLock,
+  IconFlame,
 } from '@tabler/icons-react';
 import { tokens } from '../theme';
 
@@ -108,8 +110,16 @@ export function Features() {
       titleKey: 'timeline',
     },
     {
+      icon: <IconShieldLock size={28} stroke={1.5} />,
+      titleKey: 'appBlocking',
+    },
+    {
       icon: <IconChartBar size={28} stroke={1.5} />,
       titleKey: 'analytics',
+    },
+    {
+      icon: <IconFlame size={28} stroke={1.5} />,
+      titleKey: 'routines',
     },
     {
       icon: <IconDevices size={28} stroke={1.5} />,

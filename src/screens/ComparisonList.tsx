@@ -309,7 +309,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                 </Box>
                 <Box
                   component="a"
-                  href="https://play.google.com/store/apps/details?id=com.chrobox.app"
+                  href="https://play.google.com/store/apps/details?id=com.richjunproject.chrobox"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

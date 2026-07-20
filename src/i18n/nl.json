@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Functies",
+    "howItWorks": "Hoe het werkt",
+    "pricing": "Prijzen",
+    "blog": "Blog",
+    "templates": "Sjablonen",
+    "compare": "Vergelijk",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "Timeboxing, mooi gemaakt",
+    "title": "Beheers je dag,",
+    "titleHighlight": " één blok tegelijk",
+    "subtitle": "Chrobox verandert chaotische planningen in gestructureerd succes. Plan, prioriteer en pak je taken aan met ons slimme timeboxing-systeem.",
+    "cta": "Start gratis proefperiode van 3 dagen",
+    "ctaSecondary": "Hoe het werkt",
+    "stats": {
+      "productivity": "Productiviteitsboost",
+      "timeSaved": "Dagelijks bespaarde tijd",
+      "completion": "Voltooide taken"
+    }
+  },
+  "features": {
+    "title": "Waarom Chrobox?",
+    "subtitle": "Alles wat je nodig hebt om je tijd te beheersen",
+    "planning": {
+      "title": "Slimme planningsflow",
+      "description": "Onze begeleide werkwijze in 6 stappen helpt je brainstormen, prioriteren en taken plannen in de meest effectieve volgorde."
+    },
+    "timeline": {
+      "title": "Visuele tijdlijn",
+      "description": "Zie je hele dag in één oogopslag met onze overzichtelijke tijdlijn per uur. Volg je voortgang in realtime."
+    },
+    "analytics": {
+      "title": "AI-gestuurde inzichten",
+      "description": "Ontvang persoonlijke aanbevelingen en volg je productiviteitspatronen met slimme analyses."
+    },
+    "sync": {
+      "title": "Cross-platform synchronisatie",
+      "description": "Bekijk je planning overal. Naadloze synchronisatie tussen iOS, Android en desktop."
+    },
+    "retrospective": {
+      "title": "Dagelijkse terugblik",
+      "description": "Blik terug op je dag met stemmingsregistratie en prestatie-analyse om continu te verbeteren."
+    },
+    "widget": {
+      "title": "Startscherm-widget",
+      "description": "Snel toegang tot je planning, rechtstreeks vanaf je startscherm. Mis nooit meer een tijdblok."
+    },
+    "appBlocking": {
+      "title": "App-blokkering & focusmodus",
+      "description": "Blokkeer afleidende apps tijdens focussessies. Chrobox beschermt je aandacht, zodat diep werk daadwerkelijk lukt."
+    },
+    "routines": {
+      "title": "Routinereeksen",
+      "description": "Bouw dagelijkse gewoontes op met routinetracking en een reeksrooster dat je consistentie visualiseert."
+    }
+  },
+  "howItWorks": {
+    "title": "Hoe het werkt",
+    "subtitle": "Ga eenvoudig aan de slag met een intuïtieve interface",
+    "step1": {
+      "title": "Brainstormen",
+      "description": "Noteer alle taken voor je dag."
+    },
+    "step2": {
+      "title": "Prioriteren",
+      "description": "Kies je belangrijkste taken."
+    },
+    "step3": {
+      "title": "Timeboxing",
+      "description": "Wijs tijdsblokken toe aan elke taak."
+    },
+    "step4": {
+      "title": "Plannen",
+      "description": "Volg je plan en houd je voortgang bij."
+    },
+    "step5": {
+      "title": "Terugblikken",
+      "description": "Blik terug op je dag en leg deze vast."
+    },
+    "step6": {
+      "title": "AI-analyse",
+      "description": "Verhoog je productiviteit met AI-inzichten."
+    }
+  },
+  "pricing": {
+    "title": "Eenvoudige prijzen",
+    "subtitle": "Ervaar alle Pro-functies met een gratis proefperiode van 3 dagen",
+    "trialBadge": "Gratis proefperiode van 3 dagen",
+    "trialDescription": "Start zonder betaalgegevens",
+    "monthly": {
+      "name": "Maandelijks",
+      "price": "$4.99",
+      "period": "/maand",
+      "features": [
+        "Onbeperkt aantal taken",
+        "AI-gestuurde inzichten",
+        "Geavanceerde statistieken",
+        "Startscherm-widget",
+        "Prioriteitsondersteuning",
+        "Advertentievrije ervaring"
+      ],
+      "cta": "Start gratis proefperiode"
+    },
+    "yearly": {
+      "name": "Jaarlijks",
+      "price": "$39.99",
+      "period": "/jaar",
+      "badge": "33% KORTING",
+      "monthlyPrice": "$3.33/mnd",
+      "features": [
+        "Onbeperkt aantal taken",
+        "AI-gestuurde inzichten",
+        "Geavanceerde statistieken",
+        "Startscherm-widget",
+        "Prioriteitsondersteuning",
+        "Advertentievrije ervaring"
+      ],
+      "cta": "Start gratis proefperiode"
+    },
+    "lifetime": {
+      "name": "Levenslang",
+      "price": "$99.99",
+      "period": "eenmalig",
+      "badge": "Beste waarde",
+      "features": [
+        "Onbeperkt aantal taken",
+        "AI-gestuurde inzichten",
+        "Geavanceerde statistieken",
+        "Startscherm-widget",
+        "Levenslange updates",
+        "Prioriteitsondersteuning",
+        "Advertentievrije ervaring"
+      ],
+      "cta": "Krijg levenslange toegang"
+    }
+  },
+  "download": {
+    "title": "Klaar om je dag te transformeren?",
+    "subtitle": "Download Chrobox nu en start je gratis proefperiode van 3 dagen.",
+    "appStore": "Downloaden in de App Store",
+    "playStore": "Beschikbaar op Google Play",
+    "appStoreSub": "Downloaden in de",
+    "playStoreSub": "Verkrijgbaar op"
+  },
+  "footer": {
+    "tagline": "Beheers je tijd, beheers je leven.",
+    "links": {
+      "product": "Product",
+      "company": "Bedrijf",
+      "legal": "Juridisch",
+      "explore": "Ontdekken"
+    },
+    "explore": {
+      "blog": "Timeboxing-blog",
+      "templates": "Planningssjablonen",
+      "compare": "App-vergelijkingen"
+    },
+    "companyInfo": "Bedrijfsinformatie",
+    "companyName": "Bedrijfsnaam",
+    "ceo": "Directeur",
+    "businessNumber": "Bedrijfsnummer",
+    "address": "Adres",
+    "contact": "Contact",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "about": "Over ons",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

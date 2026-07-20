@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Ciri-ciri",
+    "howItWorks": "Cara Berfungsi",
+    "pricing": "Harga",
+    "blog": "Blog",
+    "templates": "Templat",
+    "compare": "Bandingkan",
+    "download": "Muat Turun"
+  },
+  "hero": {
+    "badge": "Time-Boxing yang Indah",
+    "title": "Kuasai Hari Anda,",
+    "titleHighlight": " Satu Blok Pada Satu Masa",
+    "subtitle": "Chrobox mengubah jadual yang kucar-kacir menjadi kejayaan yang tersusun. Rancang, utamakan, dan taklukkan tugasan anda dengan sistem time-boxing pintar kami.",
+    "cta": "Mulakan Percubaan Percuma 3 Hari",
+    "ctaSecondary": "Cara Berfungsi",
+    "stats": {
+      "productivity": "Peningkatan Produktiviti",
+      "timeSaved": "Masa Dijimatkan Setiap Hari",
+      "completion": "Penyelesaian Tugasan"
+    }
+  },
+  "features": {
+    "title": "Kenapa Chrobox?",
+    "subtitle": "Semua yang anda perlukan untuk menguasai masa anda",
+    "planning": {
+      "title": "Aliran Perancangan Pintar",
+      "description": "Aliran kerja berpandu 6 langkah kami membantu anda berfikiran terbuka, mengutamakan, dan menjadualkan tugasan dalam susunan yang paling berkesan."
+    },
+    "timeline": {
+      "title": "Garis Masa Visual",
+      "description": "Lihat keseluruhan hari anda sekali imbas dengan garis masa setiap jam kami yang indah. Jejaki kemajuan secara masa nyata."
+    },
+    "analytics": {
+      "title": "Wawasan Berkuasa AI",
+      "description": "Dapatkan cadangan yang diperibadikan dan jejaki corak produktiviti anda dengan analitik pintar."
+    },
+    "sync": {
+      "title": "Penyegerakan Rentas Platform",
+      "description": "Akses pelan anda di mana sahaja. Penyegerakan lancar merentasi iOS, Android, dan desktop."
+    },
+    "retrospective": {
+      "title": "Retrospektif Harian",
+      "description": "Renungkan hari anda dengan penjejakan mood dan analisis prestasi untuk terus bertambah baik."
+    },
+    "widget": {
+      "title": "Widget Skrin Utama",
+      "description": "Akses pantas ke jadual anda terus dari skrin utama. Jangan sekali-kali terlepas mana-mana blok masa."
+    },
+    "appBlocking": {
+      "title": "Sekatan Aplikasi & Mod Fokus",
+      "description": "Sekat aplikasi yang mengganggu semasa sesi fokus. Chrobox melindungi perhatian anda supaya kerja mendalam benar-benar berlaku."
+    },
+    "routines": {
+      "title": "Streak Rutin",
+      "description": "Bina tabiat harian dengan penjejakan rutin dan grid streak yang menggambarkan konsistensi anda."
+    }
+  },
+  "howItWorks": {
+    "title": "Cara Berfungsi",
+    "subtitle": "Mula dengan mudah menggunakan antara muka yang intuitif",
+    "step1": {
+      "title": "Sumbang Saran",
+      "description": "Senaraikan semua tugasan untuk hari anda."
+    },
+    "step2": {
+      "title": "Utamakan",
+      "description": "Pilih tugasan paling penting anda."
+    },
+    "step3": {
+      "title": "Time-Box",
+      "description": "Tetapkan slot masa untuk setiap tugasan."
+    },
+    "step4": {
+      "title": "Jadual",
+      "description": "Ikuti pelan anda dan jejaki kemajuan."
+    },
+    "step5": {
+      "title": "Renungan",
+      "description": "Semak dan rekodkan hari anda."
+    },
+    "step6": {
+      "title": "Analisis AI",
+      "description": "Tingkatkan produktiviti dengan wawasan AI."
+    }
+  },
+  "pricing": {
+    "title": "Harga Mudah",
+    "subtitle": "Alami semua ciri Pro dengan percubaan percuma 3 hari",
+    "trialBadge": "Percubaan Percuma 3 Hari",
+    "trialDescription": "Mula tanpa maklumat pembayaran",
+    "monthly": {
+      "name": "Bulanan",
+      "price": "$4.99",
+      "period": "/bulan",
+      "features": [
+        "Tugasan tanpa had",
+        "Wawasan berkuasa AI",
+        "Statistik lanjutan",
+        "Widget skrin utama",
+        "Sokongan keutamaan",
+        "Pengalaman bebas iklan"
+      ],
+      "cta": "Mulakan Percubaan Percuma"
+    },
+    "yearly": {
+      "name": "Tahunan",
+      "price": "$39.99",
+      "period": "/tahun",
+      "badge": "DISKAUN 33%",
+      "monthlyPrice": "$3.33/bln",
+      "features": [
+        "Tugasan tanpa had",
+        "Wawasan berkuasa AI",
+        "Statistik lanjutan",
+        "Widget skrin utama",
+        "Sokongan keutamaan",
+        "Pengalaman bebas iklan"
+      ],
+      "cta": "Mulakan Percubaan Percuma"
+    },
+    "lifetime": {
+      "name": "Seumur Hidup",
+      "price": "$99.99",
+      "period": "bayaran sekali sahaja",
+      "badge": "Nilai Terbaik",
+      "features": [
+        "Tugasan tanpa had",
+        "Wawasan berkuasa AI",
+        "Statistik lanjutan",
+        "Widget skrin utama",
+        "Kemas kini seumur hidup",
+        "Sokongan keutamaan",
+        "Pengalaman bebas iklan"
+      ],
+      "cta": "Dapatkan Akses Seumur Hidup"
+    }
+  },
+  "download": {
+    "title": "Bersedia untuk Mengubah Hari Anda?",
+    "subtitle": "Muat turun Chrobox sekarang dan mulakan percubaan percuma 3 hari anda.",
+    "appStore": "Muat Turun di App Store",
+    "playStore": "Dapatkan di Google Play",
+    "appStoreSub": "Muat turun di",
+    "playStoreSub": "Dapatkan di"
+  },
+  "footer": {
+    "tagline": "Kuasai masa anda, kuasai hidup anda.",
+    "links": {
+      "product": "Produk",
+      "company": "Syarikat",
+      "legal": "Perundangan",
+      "explore": "Terokai"
+    },
+    "explore": {
+      "blog": "Blog Time-Boxing",
+      "templates": "Templat Jadual",
+      "compare": "Perbandingan Aplikasi"
+    },
+    "companyInfo": "Maklumat Syarikat",
+    "companyName": "Nama Syarikat",
+    "ceo": "Ketua Pegawai Eksekutif",
+    "businessNumber": "Nombor Perniagaan",
+    "address": "Alamat",
+    "contact": "Hubungi",
+    "email": "E-mel",
+    "phone": "Telefon",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma Perkhidmatan",
+    "about": "Tentang Kami",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

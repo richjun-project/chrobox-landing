@@ -18,7 +18,7 @@ import {
 } from '../lib/seo';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
-const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.chrobox.app';
+const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },

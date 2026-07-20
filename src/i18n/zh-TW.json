@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "功能",
+    "howItWorks": "使用方式",
+    "pricing": "方案",
+    "blog": "部落格",
+    "templates": "範本",
+    "compare": "比較",
+    "download": "下載"
+  },
+  "hero": {
+    "badge": "讓時間分塊變得優雅",
+    "title": "掌握你的一天，",
+    "titleHighlight": " 一個時間區塊接著一個",
+    "subtitle": "Chrobox 將混亂的行程轉化為井然有序的成功。透過我們的智慧時間分塊系統，規劃、排序優先順序，逐一完成你的任務。",
+    "cta": "開始 3 天免費試用",
+    "ctaSecondary": "使用方式",
+    "stats": {
+      "productivity": "生產力提升",
+      "timeSaved": "每日節省時間",
+      "completion": "任務完成率"
+    }
+  },
+  "features": {
+    "title": "為什麼選擇 Chrobox？",
+    "subtitle": "掌握時間所需要的一切",
+    "planning": {
+      "title": "智慧規劃流程",
+      "description": "透過六步驟引導流程，協助你以最有效率的順序進行腦力激盪、排序優先順序並安排任務。"
+    },
+    "timeline": {
+      "title": "視覺化時間軸",
+      "description": "透過精美的逐時時間軸，一眼掌握你的一整天，即時追蹤進度。"
+    },
+    "analytics": {
+      "title": "AI 智慧洞察",
+      "description": "透過智慧分析取得個人化建議，追蹤你的生產力模式。"
+    },
+    "sync": {
+      "title": "跨平台同步",
+      "description": "隨時隨地存取你的計畫，iOS、Android 與桌面版無縫同步。"
+    },
+    "retrospective": {
+      "title": "每日回顧",
+      "description": "透過心情追蹤與表現分析回顧一天，持續進步。"
+    },
+    "widget": {
+      "title": "主畫面小工具",
+      "description": "直接從主畫面快速查看你的行程，不錯過任何時間區塊。"
+    },
+    "appBlocking": {
+      "title": "App 封鎖與專注模式",
+      "description": "在專注時段封鎖分散注意力的 App，Chrobox 守護你的專注力，讓深度工作真正得以實現。"
+    },
+    "routines": {
+      "title": "例行任務連續紀錄",
+      "description": "透過例行任務追蹤與連續紀錄格線養成每日習慣，讓你的堅持一目了然。"
+    }
+  },
+  "howItWorks": {
+    "title": "使用方式",
+    "subtitle": "透過直覺的介面輕鬆上手",
+    "step1": {
+      "title": "腦力激盪",
+      "description": "列出你今天所有的任務。"
+    },
+    "step2": {
+      "title": "排序優先順序",
+      "description": "選出最重要的任務。"
+    },
+    "step3": {
+      "title": "時間分塊",
+      "description": "為每項任務分配時間區段。"
+    },
+    "step4": {
+      "title": "安排行程",
+      "description": "依照計畫執行並追蹤進度。"
+    },
+    "step5": {
+      "title": "回顧",
+      "description": "回顧並記錄你的一天。"
+    },
+    "step6": {
+      "title": "AI 分析",
+      "description": "透過 AI 洞察提升生產力。"
+    }
+  },
+  "pricing": {
+    "title": "簡單透明的方案",
+    "subtitle": "透過 3 天免費試用體驗所有 Pro 功能",
+    "trialBadge": "3 天免費試用",
+    "trialDescription": "免付款資訊即可開始",
+    "monthly": {
+      "name": "月繳",
+      "price": "$4.99",
+      "period": "/月",
+      "features": [
+        "無限任務",
+        "AI 智慧洞察",
+        "進階統計",
+        "主畫面小工具",
+        "優先支援",
+        "無廣告體驗"
+      ],
+      "cta": "開始免費試用"
+    },
+    "yearly": {
+      "name": "年繳",
+      "price": "$39.99",
+      "period": "/年",
+      "badge": "省 33%",
+      "monthlyPrice": "$3.33/月",
+      "features": [
+        "無限任務",
+        "AI 智慧洞察",
+        "進階統計",
+        "主畫面小工具",
+        "優先支援",
+        "無廣告體驗"
+      ],
+      "cta": "開始免費試用"
+    },
+    "lifetime": {
+      "name": "終身方案",
+      "price": "$99.99",
+      "period": "一次性付款",
+      "badge": "最超值",
+      "features": [
+        "無限任務",
+        "AI 智慧洞察",
+        "進階統計",
+        "主畫面小工具",
+        "終身更新",
+        "優先支援",
+        "無廣告體驗"
+      ],
+      "cta": "取得終身使用權"
+    }
+  },
+  "download": {
+    "title": "準備好改變你的每一天了嗎？",
+    "subtitle": "立即下載 Chrobox，開始 3 天免費試用。",
+    "appStore": "App Store 下載",
+    "playStore": "透過 Google Play 取得",
+    "appStoreSub": "下載",
+    "playStoreSub": "下載"
+  },
+  "footer": {
+    "tagline": "掌握時間，掌握人生。",
+    "links": {
+      "product": "產品",
+      "company": "公司",
+      "legal": "法律資訊",
+      "explore": "探索"
+    },
+    "explore": {
+      "blog": "時間分塊部落格",
+      "templates": "行程範本",
+      "compare": "App 比較"
+    },
+    "companyInfo": "公司資訊",
+    "companyName": "公司名稱",
+    "ceo": "執行長",
+    "businessNumber": "統一編號",
+    "address": "地址",
+    "contact": "聯絡方式",
+    "email": "電子郵件",
+    "phone": "電話",
+    "privacy": "隱私權政策",
+    "terms": "服務條款",
+    "about": "關於我們",
+    "blog": "部落格",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

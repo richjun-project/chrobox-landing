@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Funzionalità",
+    "howItWorks": "Come funziona",
+    "pricing": "Prezzi",
+    "blog": "Blog",
+    "templates": "Modelli",
+    "compare": "Confronta",
+    "download": "Scarica"
+  },
+  "hero": {
+    "badge": "Il time-boxing non è mai stato così bello",
+    "title": "Domina la tua giornata,",
+    "titleHighlight": " un blocco alla volta",
+    "subtitle": "Chrobox trasforma orari caotici in un successo strutturato. Pianifica, dai priorità e porta a termine le tue attività con il nostro intelligente sistema di time-boxing.",
+    "cta": "Inizia la prova gratuita di 3 giorni",
+    "ctaSecondary": "Come funziona",
+    "stats": {
+      "productivity": "Aumento della produttività",
+      "timeSaved": "Tempo risparmiato al giorno",
+      "completion": "Attività completate"
+    }
+  },
+  "features": {
+    "title": "Perché Chrobox?",
+    "subtitle": "Tutto ciò che ti serve per dominare il tuo tempo",
+    "planning": {
+      "title": "Flusso di pianificazione intelligente",
+      "description": "Il nostro processo guidato in 6 passaggi ti aiuta a fare brainstorming, stabilire le priorità e pianificare le attività nell'ordine più efficace."
+    },
+    "timeline": {
+      "title": "Timeline visiva",
+      "description": "Visualizza l'intera giornata a colpo d'occhio con la nostra elegante timeline oraria. Monitora i progressi in tempo reale."
+    },
+    "analytics": {
+      "title": "Insight basati sull'IA",
+      "description": "Ricevi consigli personalizzati e monitora i tuoi schemi di produttività con analisi intelligenti."
+    },
+    "sync": {
+      "title": "Sincronizzazione multipiattaforma",
+      "description": "Accedi ai tuoi piani ovunque tu sia. Sincronizzazione perfetta su iOS, Android e desktop."
+    },
+    "retrospective": {
+      "title": "Retrospettiva giornaliera",
+      "description": "Rifletti sulla tua giornata con il monitoraggio dell'umore e l'analisi delle performance per migliorare costantemente."
+    },
+    "widget": {
+      "title": "Widget per la Home",
+      "description": "Accesso rapido al tuo programma direttamente dalla schermata Home. Non perdere mai un blocco di tempo."
+    },
+    "appBlocking": {
+      "title": "Blocco app e modalità Focus",
+      "description": "Blocca le app che ti distraggono durante le sessioni di focus. Chrobox protegge la tua attenzione, così il lavoro profondo diventa realtà."
+    },
+    "routines": {
+      "title": "Serie di abitudini",
+      "description": "Costruisci abitudini quotidiane con il monitoraggio delle routine e una griglia delle serie che visualizza la tua costanza."
+    }
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "subtitle": "Inizia facilmente con un'interfaccia intuitiva",
+    "step1": {
+      "title": "Brainstorming",
+      "description": "Elenca tutte le attività della tua giornata."
+    },
+    "step2": {
+      "title": "Dai priorità",
+      "description": "Seleziona le attività più importanti."
+    },
+    "step3": {
+      "title": "Time-Box",
+      "description": "Assegna una fascia oraria a ogni attività."
+    },
+    "step4": {
+      "title": "Pianifica",
+      "description": "Segui il tuo piano e monitora i progressi."
+    },
+    "step5": {
+      "title": "Rifletti",
+      "description": "Rivedi e registra la tua giornata."
+    },
+    "step6": {
+      "title": "Analisi IA",
+      "description": "Aumenta la produttività con gli insight dell'IA."
+    }
+  },
+  "pricing": {
+    "title": "Prezzi semplici",
+    "subtitle": "Scopri tutte le funzionalità Pro con una prova gratuita di 3 giorni",
+    "trialBadge": "Prova gratuita di 3 giorni",
+    "trialDescription": "Inizia senza dati di pagamento",
+    "monthly": {
+      "name": "Mensile",
+      "price": "$4.99",
+      "period": "/mese",
+      "features": [
+        "Attività illimitate",
+        "Insight basati sull'IA",
+        "Statistiche avanzate",
+        "Widget per la Home",
+        "Assistenza prioritaria",
+        "Esperienza senza pubblicità"
+      ],
+      "cta": "Inizia la prova gratuita"
+    },
+    "yearly": {
+      "name": "Annuale",
+      "price": "$39.99",
+      "period": "/anno",
+      "badge": "33% DI SCONTO",
+      "monthlyPrice": "$3.33/mese",
+      "features": [
+        "Attività illimitate",
+        "Insight basati sull'IA",
+        "Statistiche avanzate",
+        "Widget per la Home",
+        "Assistenza prioritaria",
+        "Esperienza senza pubblicità"
+      ],
+      "cta": "Inizia la prova gratuita"
+    },
+    "lifetime": {
+      "name": "A vita",
+      "price": "$99.99",
+      "period": "pagamento unico",
+      "badge": "Il miglior valore",
+      "features": [
+        "Attività illimitate",
+        "Insight basati sull'IA",
+        "Statistiche avanzate",
+        "Widget per la Home",
+        "Aggiornamenti a vita",
+        "Assistenza prioritaria",
+        "Esperienza senza pubblicità"
+      ],
+      "cta": "Ottieni l'accesso a vita"
+    }
+  },
+  "download": {
+    "title": "Pronto a trasformare la tua giornata?",
+    "subtitle": "Scarica Chrobox ora e inizia la tua prova gratuita di 3 giorni.",
+    "appStore": "Scarica su App Store",
+    "playStore": "Disponibile su Google Play",
+    "appStoreSub": "Scarica su",
+    "playStoreSub": "Disponibile su"
+  },
+  "footer": {
+    "tagline": "Domina il tuo tempo, domina la tua vita.",
+    "links": {
+      "product": "Prodotto",
+      "company": "Azienda",
+      "legal": "Legale",
+      "explore": "Esplora"
+    },
+    "explore": {
+      "blog": "Blog sul Time-Boxing",
+      "templates": "Modelli di programma",
+      "compare": "Confronto tra app"
+    },
+    "companyInfo": "Informazioni aziendali",
+    "companyName": "Ragione sociale",
+    "ceo": "Amministratore Delegato",
+    "businessNumber": "Partita IVA",
+    "address": "Indirizzo",
+    "contact": "Contatti",
+    "email": "Email",
+    "phone": "Telefono",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "about": "Chi siamo",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

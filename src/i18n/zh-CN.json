@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "功能",
+    "howItWorks": "使用方法",
+    "pricing": "价格",
+    "blog": "博客",
+    "templates": "模板",
+    "compare": "应用对比",
+    "download": "下载"
+  },
+  "hero": {
+    "badge": "让时间盒更优雅",
+    "title": "掌控你的一天，",
+    "titleHighlight": " 从一个时间块开始",
+    "subtitle": "Chrobox 把混乱的日程变成有条理的成功。借助智能时间盒系统，轻松规划、排定优先级，逐一攻克任务。",
+    "cta": "开始 3 天免费试用",
+    "ctaSecondary": "查看使用方法",
+    "stats": {
+      "productivity": "效率提升",
+      "timeSaved": "每日节省时间",
+      "completion": "任务完成率"
+    }
+  },
+  "features": {
+    "title": "为什么选择 Chrobox？",
+    "subtitle": "掌控时间所需的一切",
+    "planning": {
+      "title": "智能规划流程",
+      "description": "六步引导式流程，帮你头脑风暴、排定优先级，并按最高效的顺序安排任务。"
+    },
+    "timeline": {
+      "title": "可视化时间线",
+      "description": "精美的按小时时间线，让你一眼看清一天的安排，实时追踪进度。"
+    },
+    "analytics": {
+      "title": "AI 智能洞察",
+      "description": "通过智能分析获得个性化建议，追踪你的效率模式。"
+    },
+    "sync": {
+      "title": "跨平台同步",
+      "description": "随时随地访问你的计划，iOS、Android 与桌面端无缝同步。"
+    },
+    "retrospective": {
+      "title": "每日复盘",
+      "description": "通过心情记录和表现分析回顾一天，持续改进自己。"
+    },
+    "widget": {
+      "title": "主屏幕小组件",
+      "description": "在主屏幕即可快速查看日程，绝不错过任何时间块。"
+    },
+    "appBlocking": {
+      "title": "应用屏蔽与专注模式",
+      "description": "专注时段屏蔽干扰应用。Chrobox 为你的注意力保驾护航，让深度工作真正发生。"
+    },
+    "routines": {
+      "title": "习惯连续打卡",
+      "description": "通过日常习惯追踪和可视化连续打卡网格，养成每日好习惯。"
+    }
+  },
+  "howItWorks": {
+    "title": "使用方法",
+    "subtitle": "直观的界面，轻松上手",
+    "step1": {
+      "title": "头脑风暴",
+      "description": "列出你今天要做的所有任务。"
+    },
+    "step2": {
+      "title": "排定优先级",
+      "description": "选出最重要的任务。"
+    },
+    "step3": {
+      "title": "时间盒",
+      "description": "为每项任务分配时间段。"
+    },
+    "step4": {
+      "title": "执行日程",
+      "description": "按计划执行，追踪进度。"
+    },
+    "step5": {
+      "title": "复盘",
+      "description": "回顾并记录你的一天。"
+    },
+    "step6": {
+      "title": "AI 分析",
+      "description": "借助 AI 洞察提升效率。"
+    }
+  },
+  "pricing": {
+    "title": "简单透明的价格",
+    "subtitle": "3 天免费试用，体验全部 Pro 功能",
+    "trialBadge": "3 天免费试用",
+    "trialDescription": "无需支付信息即可开始",
+    "monthly": {
+      "name": "月付",
+      "price": "$4.99",
+      "period": "/月",
+      "features": [
+        "无限任务",
+        "AI 智能洞察",
+        "高级统计",
+        "主屏幕小组件",
+        "优先支持",
+        "无广告体验"
+      ],
+      "cta": "开始免费试用"
+    },
+    "yearly": {
+      "name": "年付",
+      "price": "$39.99",
+      "period": "/年",
+      "badge": "立省 33%",
+      "monthlyPrice": "$3.33/月",
+      "features": [
+        "无限任务",
+        "AI 智能洞察",
+        "高级统计",
+        "主屏幕小组件",
+        "优先支持",
+        "无广告体验"
+      ],
+      "cta": "开始免费试用"
+    },
+    "lifetime": {
+      "name": "终身版",
+      "price": "$99.99",
+      "period": "一次性付费",
+      "badge": "超值之选",
+      "features": [
+        "无限任务",
+        "AI 智能洞察",
+        "高级统计",
+        "主屏幕小组件",
+        "终身更新",
+        "优先支持",
+        "无广告体验"
+      ],
+      "cta": "获取终身权限"
+    }
+  },
+  "download": {
+    "title": "准备好改变你的一天了吗？",
+    "subtitle": "立即下载 Chrobox，开启 3 天免费试用。",
+    "appStore": "从 App Store 下载",
+    "playStore": "从 Google Play 下载",
+    "appStoreSub": "下载",
+    "playStoreSub": "去商店下载"
+  },
+  "footer": {
+    "tagline": "掌控时间，掌控人生。",
+    "links": {
+      "product": "产品",
+      "company": "公司",
+      "legal": "法律信息",
+      "explore": "探索"
+    },
+    "explore": {
+      "blog": "时间盒博客",
+      "templates": "日程模板",
+      "compare": "应用对比"
+    },
+    "companyInfo": "公司信息",
+    "companyName": "公司名称",
+    "ceo": "首席执行官",
+    "businessNumber": "统一社会信用代码",
+    "address": "地址",
+    "contact": "联系方式",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "about": "关于我们",
+    "blog": "博客",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

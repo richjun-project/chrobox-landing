@@ -6,6 +6,7 @@ import { enBatch4, koBatch4, contentBatch4 } from './blogBatch4';
 import { enBatch5, koBatch5, contentBatch5 } from './blogBatch5';
 import { enBatch6, koBatch6, contentBatch6 } from './blogBatch6';
 import { enBatch7, koBatch7, contentBatch7 } from './blogBatch7';
+import { enBatch8, koBatch8, contentBatch8 } from './blogBatch8';
 import {
   getClusterBySlug,
   clusterCategoryName,
@@ -109,7 +110,7 @@ export const enBlogPosts: BlogPostMeta[] = [
       },
     ],
   },
-  ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5, ...enBatch6, ...enBatch7,
+  ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5, ...enBatch6, ...enBatch7, ...enBatch8,
 ];
 
 // Korean blog posts
@@ -210,7 +211,7 @@ export const koBlogPosts: BlogPostMeta[] = [
       },
     ],
   },
-  ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7,
+  ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7, ...koBatch8,
 ];
 
 function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
@@ -247,7 +248,7 @@ export const getBlogPostsByCluster = (clusterSlug: string, lang: 'en' | 'ko'): B
 // Blog post content (markdown)
 export const blogContents: Record<string, Record<string, string>> = {
   en: {
-    ...contentBatch1.en, ...contentBatch2.en, ...contentBatch3.en, ...contentBatch4.en, ...contentBatch5.en, ...contentBatch6.en, ...contentBatch7.en,
+    ...contentBatch1.en, ...contentBatch2.en, ...contentBatch3.en, ...contentBatch4.en, ...contentBatch5.en, ...contentBatch6.en, ...contentBatch7.en, ...contentBatch8.en,
     'what-is-time-boxing': `
 # What is Time-Boxing? The Ultimate Guide to Mastering Your Time
 
@@ -471,7 +472,7 @@ There's no universally "better" technique—only what works better for you. Expe
     `,
   },
   ko: {
-    ...contentBatch1.ko, ...contentBatch2.ko, ...contentBatch3.ko, ...contentBatch4.ko, ...contentBatch5.ko, ...contentBatch6.ko, ...contentBatch7.ko,
+    ...contentBatch1.ko, ...contentBatch2.ko, ...contentBatch3.ko, ...contentBatch4.ko, ...contentBatch5.ko, ...contentBatch6.ko, ...contentBatch7.ko, ...contentBatch8.ko,
     'what-is-time-boxing': `
 # 타임박싱이란? 시간을 마스터하는 완벽 가이드
 

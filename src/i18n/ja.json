@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "機能",
+    "howItWorks": "使い方",
+    "pricing": "料金",
+    "blog": "ブログ",
+    "templates": "テンプレート",
+    "compare": "比較",
+    "download": "ダウンロード"
+  },
+  "hero": {
+    "badge": "美しいタイムボクシング",
+    "title": "1日を制覇しよう、",
+    "titleHighlight": " ブロックひとつずつ",
+    "subtitle": "Chroboxは、混沌としたスケジュールを体系立った成功へと変えます。インテリジェントなタイムボクシングシステムで計画を立て、優先順位をつけ、タスクをやり遂げましょう。",
+    "cta": "3日間無料トライアルを始める",
+    "ctaSecondary": "使い方を見る",
+    "stats": {
+      "productivity": "生産性アップ",
+      "timeSaved": "1日の時間短縮",
+      "completion": "タスク完了率"
+    }
+  },
+  "features": {
+    "title": "Chroboxが選ばれる理由",
+    "subtitle": "時間を使いこなすために必要なすべて",
+    "planning": {
+      "title": "スマートプランニングフロー",
+      "description": "ガイド付きの6ステップワークフローで、最も効果的な順序でブレインストーミング、優先順位付け、スケジューリングをサポートします。"
+    },
+    "timeline": {
+      "title": "ビジュアルタイムライン",
+      "description": "美しい時間別タイムラインで1日全体を一目で把握。進捗状況をリアルタイムで追跡できます。"
+    },
+    "analytics": {
+      "title": "AIによるインサイト",
+      "description": "インテリジェントな分析でパーソナライズされた提案を受け取り、生産性のパターンを把握しましょう。"
+    },
+    "sync": {
+      "title": "クロスプラットフォーム同期",
+      "description": "どこからでもプランにアクセス。iOS、Android、デスクトップ間でシームレスに同期します。"
+    },
+    "retrospective": {
+      "title": "デイリー振り返り",
+      "description": "気分の記録とパフォーマンス分析で1日を振り返り、継続的に改善しましょう。"
+    },
+    "widget": {
+      "title": "ホームウィジェット",
+      "description": "ホーム画面からすぐにスケジュールを確認。タイムブロックを見逃しません。"
+    },
+    "appBlocking": {
+      "title": "アプリブロック＆集中モード",
+      "description": "集中セッション中は気が散るアプリをブロック。Chroboxがあなたの注意力を守り、本当の意味での深い集中を実現します。"
+    },
+    "routines": {
+      "title": "ルーティン継続記録",
+      "description": "ルーティントラッキングと継続状況を可視化するストリークグリッドで、毎日の習慣を築きましょう。"
+    }
+  },
+  "howItWorks": {
+    "title": "使い方",
+    "subtitle": "直感的なインターフェースで簡単に始められます",
+    "step1": {
+      "title": "ブレインストーミング",
+      "description": "その日のタスクをすべて書き出しましょう。"
+    },
+    "step2": {
+      "title": "優先順位付け",
+      "description": "最も重要なタスクを選びましょう。"
+    },
+    "step3": {
+      "title": "タイムボクシング",
+      "description": "各タスクに時間帯を割り当てましょう。"
+    },
+    "step4": {
+      "title": "スケジュール実行",
+      "description": "計画に沿って進捗を記録しましょう。"
+    },
+    "step5": {
+      "title": "振り返り",
+      "description": "1日を振り返って記録しましょう。"
+    },
+    "step6": {
+      "title": "AI分析",
+      "description": "AIのインサイトで生産性を高めましょう。"
+    }
+  },
+  "pricing": {
+    "title": "シンプルな料金プラン",
+    "subtitle": "3日間無料トライアルで、すべてのPro機能を体験できます",
+    "trialBadge": "3日間無料トライアル",
+    "trialDescription": "支払い情報なしで始められます",
+    "monthly": {
+      "name": "月額プラン",
+      "price": "$4.99",
+      "period": "/月",
+      "features": [
+        "無制限のタスク",
+        "AIによるインサイト",
+        "高度な統計",
+        "ホームウィジェット",
+        "優先サポート",
+        "広告なしの快適な体験"
+      ],
+      "cta": "無料トライアルを始める"
+    },
+    "yearly": {
+      "name": "年額プラン",
+      "price": "$39.99",
+      "period": "/年",
+      "badge": "33%OFF",
+      "monthlyPrice": "$3.33/月",
+      "features": [
+        "無制限のタスク",
+        "AIによるインサイト",
+        "高度な統計",
+        "ホームウィジェット",
+        "優先サポート",
+        "広告なしの快適な体験"
+      ],
+      "cta": "無料トライアルを始める"
+    },
+    "lifetime": {
+      "name": "ライフタイムプラン",
+      "price": "$99.99",
+      "period": "買い切り",
+      "badge": "最もお得",
+      "features": [
+        "無制限のタスク",
+        "AIによるインサイト",
+        "高度な統計",
+        "ホームウィジェット",
+        "永久アップデート",
+        "優先サポート",
+        "広告なしの快適な体験"
+      ],
+      "cta": "ライフタイムアクセスを購入"
+    }
+  },
+  "download": {
+    "title": "1日を変える準備はできましたか？",
+    "subtitle": "今すぐChroboxをダウンロードして、3日間の無料トライアルを始めましょう。",
+    "appStore": "App Store からダウンロード",
+    "playStore": "Google Play で手に入れよう",
+    "appStoreSub": "ダウンロード",
+    "playStoreSub": "ダウンロード"
+  },
+  "footer": {
+    "tagline": "時間をつかんで、人生を思いのままに。",
+    "links": {
+      "product": "プロダクト",
+      "company": "会社",
+      "legal": "法的情報",
+      "explore": "もっと見る"
+    },
+    "explore": {
+      "blog": "タイムボクシングブログ",
+      "templates": "スケジュールテンプレート",
+      "compare": "アプリ比較"
+    },
+    "companyInfo": "会社情報",
+    "companyName": "会社名",
+    "ceo": "代表者",
+    "businessNumber": "事業者登録番号",
+    "address": "住所",
+    "contact": "お問い合わせ",
+    "email": "メール",
+    "phone": "電話番号",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "about": "会社概要",
+    "blog": "ブログ",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

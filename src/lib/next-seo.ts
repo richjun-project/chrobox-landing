@@ -101,6 +101,21 @@ export function softwareApplicationSchema(description: string) {
     image: absoluteUrl('/og-image.png'),
     installUrl: [APP_STORE_URL, PLAY_STORE_URL],
     sameAs: [APP_STORE_URL, PLAY_STORE_URL],
+    featureList: [
+      'AI-powered timeboxing and daily planning',
+      'App blocking and distraction-free focus mode',
+      'Routine tracking with streak grid',
+      'Daily retrospective with AI feedback',
+      'Lock screen and home screen widgets',
+      'Weekly AI productivity analysis and titles',
+      'Visual hourly timeline',
+      'Cross-platform sync (iOS, Android)',
+    ],
+    screenshot: [
+      absoluteUrl('/screenshots/en/1.webp'),
+      absoluteUrl('/screenshots/en/8.webp'),
+      absoluteUrl('/screenshots/en/6.webp'),
+    ],
     offers: {
       '@type': 'Offer',
       price: '0',

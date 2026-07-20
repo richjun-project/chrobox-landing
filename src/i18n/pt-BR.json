@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Recursos",
+    "howItWorks": "Como Funciona",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "templates": "Modelos",
+    "compare": "Comparar",
+    "download": "Baixar"
+  },
+  "hero": {
+    "badge": "Time-Boxing com Estilo",
+    "title": "Domine o Seu Dia,",
+    "titleHighlight": " Um Bloco de Cada Vez",
+    "subtitle": "O Chrobox transforma agendas caóticas em sucesso estruturado. Planeje, priorize e conquiste suas tarefas com nosso sistema inteligente de time-boxing.",
+    "cta": "Comece o Teste Grátis de 3 Dias",
+    "ctaSecondary": "Como Funciona",
+    "stats": {
+      "productivity": "Aumento de Produtividade",
+      "timeSaved": "Tempo Economizado por Dia",
+      "completion": "Conclusão de Tarefas"
+    }
+  },
+  "features": {
+    "title": "Por Que Chrobox?",
+    "subtitle": "Tudo o que você precisa para dominar o seu tempo",
+    "planning": {
+      "title": "Fluxo de Planejamento Inteligente",
+      "description": "Nosso fluxo guiado de 6 etapas ajuda você a fazer brainstorming, priorizar e agendar tarefas na ordem mais eficaz."
+    },
+    "timeline": {
+      "title": "Linha do Tempo Visual",
+      "description": "Veja o seu dia inteiro de relance com nossa linha do tempo por hora. Acompanhe o progresso em tempo real."
+    },
+    "analytics": {
+      "title": "Insights com IA",
+      "description": "Receba recomendações personalizadas e acompanhe seus padrões de produtividade com análises inteligentes."
+    },
+    "sync": {
+      "title": "Sincronização Multiplataforma",
+      "description": "Acesse seus planos de qualquer lugar. Sincronização perfeita entre iOS, Android e desktop."
+    },
+    "retrospective": {
+      "title": "Retrospectiva Diária",
+      "description": "Reflita sobre o seu dia com acompanhamento de humor e análise de desempenho para melhorar continuamente."
+    },
+    "widget": {
+      "title": "Widget na Tela Inicial",
+      "description": "Acesso rápido à sua agenda direto da tela inicial. Nunca mais perca um bloco de tempo."
+    },
+    "appBlocking": {
+      "title": "Bloqueio de Apps e Modo Foco",
+      "description": "Bloqueie aplicativos que tiram sua atenção durante as sessões de foco. O Chrobox protege sua atenção para que o trabalho profundo realmente aconteça."
+    },
+    "routines": {
+      "title": "Sequências de Rotina",
+      "description": "Crie hábitos diários com o acompanhamento de rotinas e uma grade de sequência que visualiza sua consistência."
+    }
+  },
+  "howItWorks": {
+    "title": "Como Funciona",
+    "subtitle": "Comece facilmente com uma interface intuitiva",
+    "step1": {
+      "title": "Brainstorming",
+      "description": "Liste todas as tarefas do seu dia."
+    },
+    "step2": {
+      "title": "Priorize",
+      "description": "Selecione suas tarefas mais importantes."
+    },
+    "step3": {
+      "title": "Time-Box",
+      "description": "Atribua um horário para cada tarefa."
+    },
+    "step4": {
+      "title": "Agende",
+      "description": "Siga o seu plano e acompanhe o progresso."
+    },
+    "step5": {
+      "title": "Reflita",
+      "description": "Revise e registre o seu dia."
+    },
+    "step6": {
+      "title": "Análise com IA",
+      "description": "Aumente a produtividade com insights de IA."
+    }
+  },
+  "pricing": {
+    "title": "Preços Simples",
+    "subtitle": "Experimente todos os recursos Pro com um teste grátis de 3 dias",
+    "trialBadge": "Teste Grátis de 3 Dias",
+    "trialDescription": "Comece sem informar dados de pagamento",
+    "monthly": {
+      "name": "Mensal",
+      "price": "$4.99",
+      "period": "/mês",
+      "features": [
+        "Tarefas ilimitadas",
+        "Insights com IA",
+        "Estatísticas avançadas",
+        "Widget na tela inicial",
+        "Suporte prioritário",
+        "Experiência sem anúncios"
+      ],
+      "cta": "Começar Teste Grátis"
+    },
+    "yearly": {
+      "name": "Anual",
+      "price": "$39.99",
+      "period": "/ano",
+      "badge": "33% OFF",
+      "monthlyPrice": "$3.33/mês",
+      "features": [
+        "Tarefas ilimitadas",
+        "Insights com IA",
+        "Estatísticas avançadas",
+        "Widget na tela inicial",
+        "Suporte prioritário",
+        "Experiência sem anúncios"
+      ],
+      "cta": "Começar Teste Grátis"
+    },
+    "lifetime": {
+      "name": "Vitalício",
+      "price": "$99.99",
+      "period": "pagamento único",
+      "badge": "Melhor Custo-Benefício",
+      "features": [
+        "Tarefas ilimitadas",
+        "Insights com IA",
+        "Estatísticas avançadas",
+        "Widget na tela inicial",
+        "Atualizações vitalícias",
+        "Suporte prioritário",
+        "Experiência sem anúncios"
+      ],
+      "cta": "Obter Acesso Vitalício"
+    }
+  },
+  "download": {
+    "title": "Pronto para Transformar o Seu Dia?",
+    "subtitle": "Baixe o Chrobox agora e comece seu teste grátis de 3 dias.",
+    "appStore": "Baixar na App Store",
+    "playStore": "Disponível no Google Play",
+    "appStoreSub": "Baixar",
+    "playStoreSub": "Baixar"
+  },
+  "footer": {
+    "tagline": "Domine o seu tempo, domine a sua vida.",
+    "links": {
+      "product": "Produto",
+      "company": "Empresa",
+      "legal": "Jurídico",
+      "explore": "Explorar"
+    },
+    "explore": {
+      "blog": "Blog de Time-Boxing",
+      "templates": "Modelos de Agenda",
+      "compare": "Comparações de Apps"
+    },
+    "companyInfo": "Informações da Empresa",
+    "companyName": "Empresa",
+    "ceo": "CEO",
+    "businessNumber": "CNPJ",
+    "address": "Endereço",
+    "contact": "Contato",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "about": "Sobre Nós",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

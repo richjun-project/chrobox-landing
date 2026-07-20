@@ -47,6 +47,14 @@
     "widget": {
       "title": "홈 위젯",
       "description": "홈 화면에서 바로 일정에 빠르게 접근하세요. 타임 블록을 놓치지 마세요."
+    },
+    "appBlocking": {
+      "title": "앱 차단 & 집중 모드",
+      "description": "집중 시간에는 방해되는 앱을 차단하세요. Chrobox가 주의력을 지켜 진짜 몰입이 가능해집니다."
+    },
+    "routines": {
+      "title": "루틴 잔디",
+      "description": "루틴 추적과 잔디 그래프로 매일의 꾸준함을 시각화하며 습관을 만들어 보세요."
     }
   },
   "howItWorks": {

@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Funkcje",
+    "howItWorks": "Jak to działa",
+    "pricing": "Cennik",
+    "blog": "Blog",
+    "templates": "Szablony",
+    "compare": "Porównaj",
+    "download": "Pobierz"
+  },
+  "hero": {
+    "badge": "Time-boxing w pięknej formie",
+    "title": "Zapanuj nad swoim dniem,",
+    "titleHighlight": " blok po bloku",
+    "subtitle": "Chrobox zamienia chaotyczny harmonogram w uporządkowany sukces. Planuj, ustalaj priorytety i realizuj zadania dzięki naszemu inteligentnemu systemowi time-boxingu.",
+    "cta": "Rozpocznij 3-dniowy okres próbny",
+    "ctaSecondary": "Jak to działa",
+    "stats": {
+      "productivity": "Wzrost produktywności",
+      "timeSaved": "Zaoszczędzony czas dziennie",
+      "completion": "Ukończone zadania"
+    }
+  },
+  "features": {
+    "title": "Dlaczego Chrobox?",
+    "subtitle": "Wszystko, czego potrzebujesz, by zapanować nad czasem",
+    "planning": {
+      "title": "Inteligentny plan działania",
+      "description": "Nasz prowadzony 6-etapowy proces pomaga w burzy mózgów, ustalaniu priorytetów i planowaniu zadań w najbardziej efektywnej kolejności."
+    },
+    "timeline": {
+      "title": "Wizualna oś czasu",
+      "description": "Zobacz cały swój dzień na pierwszy rzut oka dzięki naszej pięknej godzinowej osi czasu. Śledź postępy w czasie rzeczywistym."
+    },
+    "analytics": {
+      "title": "Wnioski oparte na AI",
+      "description": "Otrzymuj spersonalizowane rekomendacje i śledź wzorce swojej produktywności dzięki inteligentnej analityce."
+    },
+    "sync": {
+      "title": "Synchronizacja między platformami",
+      "description": "Uzyskaj dostęp do swoich planów z dowolnego miejsca. Bezproblemowa synchronizacja między iOS, Android i komputerem."
+    },
+    "retrospective": {
+      "title": "Codzienna retrospektywa",
+      "description": "Zastanów się nad swoim dniem dzięki śledzeniu nastroju i analizie wyników, aby stale się doskonalić."
+    },
+    "widget": {
+      "title": "Widżet na ekranie głównym",
+      "description": "Szybki dostęp do harmonogramu prosto z ekranu głównego. Nigdy nie przegap bloku czasowego."
+    },
+    "appBlocking": {
+      "title": "Blokowanie aplikacji i tryb skupienia",
+      "description": "Blokuj rozpraszające aplikacje podczas sesji skupienia. Chrobox chroni Twoją uwagę, aby głęboka praca naprawdę się wydarzyła."
+    },
+    "routines": {
+      "title": "Passy rutyn",
+      "description": "Buduj codzienne nawyki dzięki śledzeniu rutyn i siatce passów, która wizualizuje Twoją konsekwencję."
+    }
+  },
+  "howItWorks": {
+    "title": "Jak to działa",
+    "subtitle": "Zacznij łatwo dzięki intuicyjnemu interfejsowi",
+    "step1": {
+      "title": "Burza mózgów",
+      "description": "Wypisz wszystkie zadania na dany dzień."
+    },
+    "step2": {
+      "title": "Ustal priorytety",
+      "description": "Wybierz swoje najważniejsze zadania."
+    },
+    "step3": {
+      "title": "Time-boxing",
+      "description": "Przypisz przedziały czasowe do każdego zadania."
+    },
+    "step4": {
+      "title": "Harmonogram",
+      "description": "Realizuj plan i śledź postępy."
+    },
+    "step5": {
+      "title": "Refleksja",
+      "description": "Przejrzyj i zapisz swój dzień."
+    },
+    "step6": {
+      "title": "Analiza AI",
+      "description": "Zwiększ produktywność dzięki wnioskom AI."
+    }
+  },
+  "pricing": {
+    "title": "Prosty cennik",
+    "subtitle": "Wypróbuj wszystkie funkcje Pro dzięki 3-dniowemu okresowi próbnemu",
+    "trialBadge": "3-dniowy okres próbny",
+    "trialDescription": "Zacznij bez podawania danych płatniczych",
+    "monthly": {
+      "name": "Miesięcznie",
+      "price": "$4.99",
+      "period": "/miesiąc",
+      "features": [
+        "Nieograniczona liczba zadań",
+        "Wnioski oparte na AI",
+        "Zaawansowane statystyki",
+        "Widżet na ekranie głównym",
+        "Priorytetowe wsparcie",
+        "Doświadczenie bez reklam"
+      ],
+      "cta": "Rozpocznij okres próbny"
+    },
+    "yearly": {
+      "name": "Rocznie",
+      "price": "$39.99",
+      "period": "/rok",
+      "badge": "33% ZNIŻKI",
+      "monthlyPrice": "$3.33/mies.",
+      "features": [
+        "Nieograniczona liczba zadań",
+        "Wnioski oparte na AI",
+        "Zaawansowane statystyki",
+        "Widżet na ekranie głównym",
+        "Priorytetowe wsparcie",
+        "Doświadczenie bez reklam"
+      ],
+      "cta": "Rozpocznij okres próbny"
+    },
+    "lifetime": {
+      "name": "Dożywotnio",
+      "price": "$99.99",
+      "period": "opłata jednorazowa",
+      "badge": "Najlepsza wartość",
+      "features": [
+        "Nieograniczona liczba zadań",
+        "Wnioski oparte na AI",
+        "Zaawansowane statystyki",
+        "Widżet na ekranie głównym",
+        "Dożywotnie aktualizacje",
+        "Priorytetowe wsparcie",
+        "Doświadczenie bez reklam"
+      ],
+      "cta": "Uzyskaj dostęp dożywotni"
+    }
+  },
+  "download": {
+    "title": "Gotowy, by zmienić swój dzień?",
+    "subtitle": "Pobierz Chrobox już teraz i rozpocznij 3-dniowy okres próbny.",
+    "appStore": "Pobierz w App Store",
+    "playStore": "Dostępne w Google Play",
+    "appStoreSub": "Pobierz w",
+    "playStoreSub": "Dostępne w"
+  },
+  "footer": {
+    "tagline": "Zapanuj nad czasem, zapanuj nad życiem.",
+    "links": {
+      "product": "Produkt",
+      "company": "Firma",
+      "legal": "Informacje prawne",
+      "explore": "Odkrywaj"
+    },
+    "explore": {
+      "blog": "Blog o time-boxingu",
+      "templates": "Szablony harmonogramów",
+      "compare": "Porównania aplikacji"
+    },
+    "companyInfo": "Informacje o firmie",
+    "companyName": "Nazwa firmy",
+    "ceo": "Dyrektor generalny",
+    "businessNumber": "Numer NIP",
+    "address": "Adres",
+    "contact": "Kontakt",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania z usługi",
+    "about": "O nas",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

@@ -27,7 +27,7 @@ const ALL_SEO_LOCALES = [
   { code: 'ms', pathPrefix: '/ms', htmlLang: 'ms' },
 ];
 
-const INDEXABLE_LOCALE_CODES = new Set(['en', 'ko']);
+const INDEXABLE_LOCALE_CODES = new Set(ALL_SEO_LOCALES.map((locale) => locale.code));
 export const SEO_LOCALES = ALL_SEO_LOCALES.filter((locale) => INDEXABLE_LOCALE_CODES.has(locale.code));
 
 const __dirname = dirname(fileURLToPath(import.meta.url));

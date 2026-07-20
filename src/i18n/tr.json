@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "howItWorks": "Nasıl Çalışır",
+    "pricing": "Fiyatlandırma",
+    "blog": "Blog",
+    "templates": "Şablonlar",
+    "compare": "Karşılaştır",
+    "download": "İndir"
+  },
+  "hero": {
+    "badge": "Zaman Kutulama Artık Güzel",
+    "title": "Gününe Hakim Ol,",
+    "titleHighlight": " Blok Blok",
+    "subtitle": "Chrobox, kaotik programları düzenli başarıya dönüştürür. Akıllı zaman kutulama sistemimizle planlayın, önceliklendirin ve görevlerinizin üstesinden gelin.",
+    "cta": "3 Günlük Ücretsiz Denemeyi Başlat",
+    "ctaSecondary": "Nasıl Çalışır",
+    "stats": {
+      "productivity": "Verimlilik Artışı",
+      "timeSaved": "Günlük Kazanılan Zaman",
+      "completion": "Görev Tamamlama"
+    }
+  },
+  "features": {
+    "title": "Neden Chrobox?",
+    "subtitle": "Zamanınıza hakim olmak için ihtiyacınız olan her şey",
+    "planning": {
+      "title": "Akıllı Planlama Akışı",
+      "description": "Rehberli 6 adımlı iş akışımız, görevleri en etkili sırayla beyin fırtınası yapmanıza, önceliklendirmenize ve planlamanıza yardımcı olur."
+    },
+    "timeline": {
+      "title": "Görsel Zaman Çizelgesi",
+      "description": "Güzel saatlik zaman çizelgemizle tüm gününüzü tek bakışta görün. İlerlemenizi gerçek zamanlı takip edin."
+    },
+    "analytics": {
+      "title": "Yapay Zeka Destekli İçgörüler",
+      "description": "Akıllı analizlerle kişiselleştirilmiş öneriler alın ve verimlilik kalıplarınızı takip edin."
+    },
+    "sync": {
+      "title": "Platformlar Arası Senkronizasyon",
+      "description": "Planlarınıza her yerden erişin. iOS, Android ve masaüstü arasında sorunsuz senkronizasyon."
+    },
+    "retrospective": {
+      "title": "Günlük Değerlendirme",
+      "description": "Ruh hali takibi ve performans analiziyle gününüzü değerlendirin, sürekli gelişin."
+    },
+    "widget": {
+      "title": "Ana Ekran Widget'ı",
+      "description": "Ana ekranınızdan programınıza hızlı erişim. Hiçbir zaman bloğunu kaçırmayın."
+    },
+    "appBlocking": {
+      "title": "Uygulama Engelleme ve Odak Modu",
+      "description": "Odaklanma seansları sırasında dikkat dağıtan uygulamaları engelleyin. Chrobox, gerçek derin çalışmanın gerçekleşmesi için dikkatinizi korur."
+    },
+    "routines": {
+      "title": "Rutin Serileri",
+      "description": "Rutin takibi ve tutarlılığınızı görselleştiren bir seri ızgarasıyla günlük alışkanlıklar oluşturun."
+    }
+  },
+  "howItWorks": {
+    "title": "Nasıl Çalışır",
+    "subtitle": "Sezgisel arayüzle kolayca başlayın",
+    "step1": {
+      "title": "Beyin Fırtınası",
+      "description": "Gününüzün tüm görevlerini listeleyin."
+    },
+    "step2": {
+      "title": "Önceliklendirme",
+      "description": "En önemli görevlerinizi seçin."
+    },
+    "step3": {
+      "title": "Zaman Kutulama",
+      "description": "Her göreve zaman dilimleri atayın."
+    },
+    "step4": {
+      "title": "Program",
+      "description": "Planınızı takip edin ve ilerlemenizi izleyin."
+    },
+    "step5": {
+      "title": "Değerlendirme",
+      "description": "Gününüzü gözden geçirin ve kaydedin."
+    },
+    "step6": {
+      "title": "Yapay Zeka Analizi",
+      "description": "Yapay zeka içgörüleriyle verimliliği artırın."
+    }
+  },
+  "pricing": {
+    "title": "Basit Fiyatlandırma",
+    "subtitle": "3 günlük ücretsiz denemeyle tüm Pro özelliklerini deneyimleyin",
+    "trialBadge": "3 Günlük Ücretsiz Deneme",
+    "trialDescription": "Ödeme bilgisi olmadan başlayın",
+    "monthly": {
+      "name": "Aylık",
+      "price": "$4.99",
+      "period": "/ay",
+      "features": [
+        "Sınırsız görev",
+        "Yapay zeka destekli içgörüler",
+        "Gelişmiş istatistikler",
+        "Ana ekran widget'ı",
+        "Öncelikli destek",
+        "Reklamsız deneyim"
+      ],
+      "cta": "Ücretsiz Denemeyi Başlat"
+    },
+    "yearly": {
+      "name": "Yıllık",
+      "price": "$39.99",
+      "period": "/yıl",
+      "badge": "%33 İNDİRİM",
+      "monthlyPrice": "$3.33/ay",
+      "features": [
+        "Sınırsız görev",
+        "Yapay zeka destekli içgörüler",
+        "Gelişmiş istatistikler",
+        "Ana ekran widget'ı",
+        "Öncelikli destek",
+        "Reklamsız deneyim"
+      ],
+      "cta": "Ücretsiz Denemeyi Başlat"
+    },
+    "lifetime": {
+      "name": "Ömür Boyu",
+      "price": "$99.99",
+      "period": "tek seferlik",
+      "badge": "En İyi Değer",
+      "features": [
+        "Sınırsız görev",
+        "Yapay zeka destekli içgörüler",
+        "Gelişmiş istatistikler",
+        "Ana ekran widget'ı",
+        "Ömür boyu güncellemeler",
+        "Öncelikli destek",
+        "Reklamsız deneyim"
+      ],
+      "cta": "Ömür Boyu Erişim Al"
+    }
+  },
+  "download": {
+    "title": "Gününüzü Dönüştürmeye Hazır mısınız?",
+    "subtitle": "Chrobox'ı şimdi indirin ve 3 günlük ücretsiz denemenizi başlatın.",
+    "appStore": "App Store'dan İndirin",
+    "playStore": "Google Play'den Edinin",
+    "appStoreSub": "İndirin",
+    "playStoreSub": "Edinin"
+  },
+  "footer": {
+    "tagline": "Zamana hakim olun, hayata hakim olun.",
+    "links": {
+      "product": "Ürün",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "explore": "Keşfet"
+    },
+    "explore": {
+      "blog": "Zaman Kutulama Blogu",
+      "templates": "Program Şablonları",
+      "compare": "Uygulama Karşılaştırmaları"
+    },
+    "companyInfo": "Şirket Bilgileri",
+    "companyName": "Şirket Adı",
+    "ceo": "CEO",
+    "businessNumber": "Vergi Numarası",
+    "address": "Adres",
+    "contact": "İletişim",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları",
+    "about": "Hakkımızda",
+    "blog": "Blog",
+    "copyright": "© 2024 Chrobox. All rights reserved."
+  }
+}

@@ -47,6 +47,14 @@
     "widget": {
       "title": "Home Widget",
       "description": "Quick access to your schedule right from your home screen. Never miss a time block."
+    },
+    "appBlocking": {
+      "title": "App Blocking & Focus Mode",
+      "description": "Block distracting apps during focus sessions. Chrobox shields your attention so deep work actually happens."
+    },
+    "routines": {
+      "title": "Routine Streaks",
+      "description": "Build daily habits with routine tracking and a streak grid that visualizes your consistency."
     }
   },
   "howItWorks": {

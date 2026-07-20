@@ -120,12 +120,14 @@ const APP_SCREENSHOTS = [
   '/app-prioritize.webp',
   '/app-timeline.webp',
   '/app-brainstorm.webp',
+  '/app-blocking.webp',
 ];
 
 const SCREENSHOT_ALTS = [
   'Chrobox app - task prioritization and selection screen',
   'Chrobox app - time-boxing schedule and timeline view',
   'Chrobox app - daily brainstorming and task planning screen',
+  'Chrobox app - app blocking and focus mode shield screen',
 ];
 
 const PARTICLES = Array.from({ length: 8 }, (_, i) => ({
