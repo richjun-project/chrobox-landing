@@ -28,6 +28,20 @@ const ALL_SEO_LOCALES = [
 ];
 
 const INDEXABLE_LOCALE_CODES = new Set(ALL_SEO_LOCALES.map((locale) => locale.code));
+
+// Blog posts already earning impressions in Search Console (non-brand queries) plus the
+// app-blocking cluster targeted for growth. Crawl-budget concentration for indexing.
+const PRIORITY_BLOG_SLUGS = new Set([
+  'time-blocking-vs-time-boxing',
+  'time-boxing-vs-pomodoro',
+  '5-time-boxing-strategies',
+  'eat-the-frog-time-boxing',
+  'what-is-time-boxing',
+  'best-time-boxing-apps',
+  'how-to-block-distracting-apps',
+  'app-blocker-plus-timeboxing',
+  'digital-detox-focus-routine',
+]);
 export const SEO_LOCALES = ALL_SEO_LOCALES.filter((locale) => INDEXABLE_LOCALE_CODES.has(locale.code));
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -174,9 +188,17 @@ export function getSeoRouteGroups() {
     ...extractCategorySlugs().map((slug) => (
       routeGroup(`/blog/category/${slug}`, { changefreq: 'weekly', priority: '0.85', lastmod: blogLastmod })
     )),
-    ...extractSlugs(BLOG_SOURCES).map((slug) => (
-      routeGroup(`/blog/${slug}`, { changefreq: 'monthly', priority: '0.8', lastmod: blogLastmod })
-    )),
+    ...extractSlugs(BLOG_SOURCES).map((slug) => {
+      // Priority pages: those already earning impressions in Search Console, plus the
+      // new app-blocking cluster we want crawled and ranked first. Raised crawl priority
+      // + weekly changefreq concentrates crawl budget where it converts.
+      const isPriority = PRIORITY_BLOG_SLUGS.has(slug);
+      return routeGroup(`/blog/${slug}`, {
+        changefreq: isPriority ? 'weekly' : 'monthly',
+        priority: isPriority ? '0.9' : '0.8',
+        lastmod: blogLastmod,
+      });
+    }),
     routeGroup('/templates', { changefreq: 'weekly', priority: '0.9', lastmod: templateLastmod }),
     ...extractSlugs([TEMPLATE_SOURCE]).map((slug) => (
       routeGroup(`/templates/${slug}`, { changefreq: 'monthly', priority: '0.8', lastmod: templateLastmod })

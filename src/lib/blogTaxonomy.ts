@@ -4,6 +4,7 @@ export type BlogClusterId =
   | 'time-boxing-fundamentals'
   | 'scheduling-routines'
   | 'focus-productivity'
+  | 'app-blocking-focus'
   | 'productivity-for-audiences'
   | 'tools-comparisons';
 
@@ -103,6 +104,24 @@ export const BLOG_CLUSTERS: BlogClusterDefinition[] = [
       'time-boxing-for-creative-professionals',
       'time-boxing-for-side-projects',
       'time-boxing-for-working-parents',
+    ],
+  },
+  {
+    id: 'app-blocking-focus',
+    slug: 'app-blocking-focus',
+    hubSlug: 'how-to-block-distracting-apps',
+    name: {
+      en: 'App Blocking & Focus',
+      ko: '앱 차단과 집중',
+    },
+    description: {
+      en: 'Block distracting apps, run focus sessions, and build a digital detox routine you can actually keep.',
+      ko: '방해되는 앱을 차단하고 집중 세션을 운영하며, 지킬 수 있는 디지털 디톡스 루틴을 만드는 방법을 다룹니다.',
+    },
+    members: [
+      'how-to-block-distracting-apps',
+      'app-blocker-plus-timeboxing',
+      'digital-detox-focus-routine',
     ],
   },
   {

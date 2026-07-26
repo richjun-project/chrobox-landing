@@ -9,11 +9,23 @@ import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
 import { contentLanguageForLocale, localeFromPathname, localizedPath } from '../lib/seo';
 
+// Curated to pass homepage authority (priority 1.0) to the posts that already earn
+// non-brand impressions in Search Console and the app-blocking hub we want ranked.
+const FEATURED_SLUGS = [
+  'how-to-block-distracting-apps',
+  'time-blocking-vs-time-boxing',
+  '5-time-boxing-strategies',
+];
+
 export function BlogSection() {
   const pathname = usePathname() ?? '/';
   const locale = localeFromPathname(pathname);
   const lang = contentLanguageForLocale(locale);
-  const posts = getBlogPosts(lang).slice(0, 3);
+  const allPosts = getBlogPosts(lang);
+  const featured = FEATURED_SLUGS
+    .map((slug) => allPosts.find((post) => post.slug === slug))
+    .filter((post): post is NonNullable<typeof post> => Boolean(post));
+  const posts = (featured.length === 3 ? featured : allPosts.slice(0, 3));
   const blogPath = localizedPath(locale, '/blog');
 
   return (
