@@ -1,15 +1,65 @@
 # Chrobox Landing Page 프로젝트 가이드
 
 ## 프로젝트 개요
-React/TypeScript 기반 Chrobox 앱 소개 랜딩페이지
+Next.js(App Router) 정적 export 기반 Chrobox 앱 소개 랜딩페이지 (chrobox.net)
 
 ## 기술 스택
-- React 18 + TypeScript
-- Vite (빌드 도구)
+- Next.js 16 (App Router, `output: 'export'`) + React 19 + TypeScript
 - Mantine UI (컴포넌트 라이브러리)
 - Framer Motion (애니메이션)
-- react-i18next (다국어 지원)
+- react-i18next (클라이언트 UI 번역)
 - Tabler Icons (아이콘)
+- Vercel 배포 (`vercel.json`, outputDirectory: `out`)
+
+---
+
+# 다국어(i18n) 아키텍처 — 필독
+
+20개 로케일(en·ko 외 18개) 전부가 **본문까지 번역된** 콘텐츠를 SSG로 내보낸다.
+`ContentLanguage === SiteLocale` 이므로 로케일이 곧 콘텐츠 언어다.
+
+## 번역이 사는 곳
+
+| 종류 | 원본(en/ko) | 나머지 18개 로케일 |
+|---|---|---|
+| 블로그 메타·본문 | `src/data/blogBatch*.ts` (en + `*Ko` 필드) | `src/data/localized/<locale>.ts` 의 `blogPosts`/`blogContents` |
+| 비교 페이지 | `src/data/comparisons.ts` (`*Ko` 필드) | 같은 팩의 `comparisons` |
+| 직업 템플릿 | `src/data/scheduleTemplates.ts` (`*Ko` 필드) | 같은 팩의 `templates` |
+| 블로그 카테고리 인트로 | `src/lib/blogTaxonomy.ts` 의 `intro.en/ko` | 같은 팩의 `clusters` |
+| UI 문자열(서버 렌더) | `src/lib/uiCopy.ts` 의 `EN_UI_COPY`/`KO_UI_COPY` | `src/data/localized/uiCopy.ts` |
+| UI 문자열(클라이언트) | `src/i18n/*.json` | 동일 |
+
+`src/data/localized/*.ts`, `index.ts`, `uiCopy.ts` 는 **생성 파일**이다. 직접 수정하지 말고
+파이프라인을 다시 돌린다.
+
+## 번역 추가/갱신
+
+```bash
+GEMINI_API_KEY=... npm run i18n:translate            # 전체 로케일
+GEMINI_API_KEY=... npm run i18n:translate -- fr it   # 특정 로케일만
+GEMINI_API_KEY=... npm run i18n:translate -- --kinds=ui   # 특정 종류만
+```
+
+- 결과는 `scripts/.i18n-cache/<locale>/<kind>/<id>.json` 에 캐시된다(gitignore).
+  재실행 시 **빈 칸만** 채우므로 중복 과금이 없다. 특정 항목을 다시 번역하려면
+  해당 캐시 파일을 지운다.
+- 팩 생성은 **머지 방식**이다. 캐시가 비어 있어도 기존 팩 값은 지워지지 않는다.
+- `EN_UI_COPY` 나 카테고리 인트로에 **키/문단을 추가하면** 해당 kind 캐시를 지우고
+  다시 돌려야 한다(형태가 달라진 캐시는 그대로 재사용되어 새 키가 영문으로 남는다).
+
+## 하드코딩 금지
+
+`lang === 'ko' ? '한국어' : 'English'` 형태의 삼항은 **쓰지 않는다.** 18개 로케일이
+영문으로 떨어진다. UI 문자열은 `uiCopy(lang).<key>`, 치환이 필요하면
+`formatCopy(ui.someKey, { competitor })` 를 쓴다. 데이터는 로컬라이즈 헬퍼를 거친다:
+`getBlogPosts(lang)` / `getComparison(slug, lang)` / `localizeScheduleTemplate(template, lang)` /
+`clusterCopy(cluster, lang)` / `categoryLabel(category, lang)`.
+
+## SEO 타이틀
+
+`<title>` 은 `pageMetadata()` 안에서 `fitTitle()` 을 거쳐 **폭 60(반각 기준)** 으로 맞춰진다.
+CJK는 글자당 2폭으로 계산한다. 꼬리 세그먼트(` | 브랜드`) → 괄호 수식어 → 절 경계 →
+단어 경계 순으로 줄인다. OG/Twitter 타이틀은 원문 전체를 유지한다.
 
 ---
 

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import {
   SITE_URL,
   absoluteUrl,
+  fitTitle,
   hreflangAlternates,
   localizedPath,
   ogAlternateLocales,
@@ -39,9 +40,12 @@ export function pageMetadata({
   const canonicalPath = localizedPath(locale, englishPath);
   const canonicalUrl = absoluteUrl(canonicalPath);
   const imageUrl = absoluteAssetUrl(image);
+  // `<title>` is width-constrained so it survives SERP truncation intact;
+  // OG/Twitter cards keep the full descriptive title.
+  const serpTitle = fitTitle(title);
 
   return {
-    title,
+    title: serpTitle,
     description,
     alternates: {
       canonical: canonicalUrl,

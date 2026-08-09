@@ -86,6 +86,31 @@ function extractSlugs(relativePaths) {
   return [...slugs];
 }
 
+/**
+ * Blog posts carry their own publish date, which is a far better `lastmod`
+ * than the source file's mtime — editing one batch file used to bump the
+ * lastmod of every post in the sitemap.
+ */
+function extractBlogEntries(relativePaths) {
+  const entries = new Map();
+
+  for (const relativePath of relativePaths) {
+    const source = readProjectFile(relativePath);
+
+    for (const match of source.matchAll(/slug:\s*['"`]([^'"`]+)['"`]/g)) {
+      const slug = match[1];
+      const after = source.slice(match.index, match.index + 600);
+      const dateMatch = after.match(/date:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
+
+      if (!entries.has(slug) || (dateMatch && !entries.get(slug))) {
+        entries.set(slug, dateMatch ? dateMatch[1] : undefined);
+      }
+    }
+  }
+
+  return [...entries].map(([slug, date]) => ({ slug, date }));
+}
+
 function extractCategorySlugs() {
   const source = readProjectFile(TAXONOMY_SOURCE);
   const slugs = [];
@@ -143,6 +168,8 @@ function routeGroup(enPath, options = {}) {
     enPath,
     koPath: paths.ko,
     paths,
+    // Sitemap section this group belongs to; drives sitemap-<section>.xml.
+    section: options.section ?? 'pages',
     changefreq: options.changefreq ?? 'monthly',
     priority: options.priority ?? '0.8',
     lastmod: options.lastmod ?? latestSourceDate([
@@ -183,12 +210,19 @@ export function getSeoRouteGroups() {
   ]);
 
   const groups = [
-    routeGroup('/', { changefreq: 'weekly', priority: '1.0', lastmod: siteLastmod }),
-    routeGroup('/blog', { changefreq: 'weekly', priority: '0.9', lastmod: blogLastmod }),
+    routeGroup('/', { changefreq: 'weekly', priority: '1.0', lastmod: siteLastmod, section: 'pages' }),
+    routeGroup('/blog', { changefreq: 'weekly', priority: '0.9', lastmod: blogLastmod, section: 'pages' }),
+    routeGroup('/templates', { changefreq: 'weekly', priority: '0.9', lastmod: templateLastmod, section: 'pages' }),
+    routeGroup('/compare', { changefreq: 'monthly', priority: '0.85', lastmod: comparisonLastmod, section: 'pages' }),
     ...extractCategorySlugs().map((slug) => (
-      routeGroup(`/blog/category/${slug}`, { changefreq: 'weekly', priority: '0.85', lastmod: blogLastmod })
+      routeGroup(`/blog/category/${slug}`, {
+        changefreq: 'weekly',
+        priority: '0.85',
+        lastmod: blogLastmod,
+        section: 'categories',
+      })
     )),
-    ...extractSlugs(BLOG_SOURCES).map((slug) => {
+    ...extractBlogEntries(BLOG_SOURCES).map(({ slug, date }) => {
       // Priority pages: those already earning impressions in Search Console, plus the
       // new app-blocking cluster we want crawled and ranked first. Raised crawl priority
       // + weekly changefreq concentrates crawl budget where it converts.
@@ -196,16 +230,25 @@ export function getSeoRouteGroups() {
       return routeGroup(`/blog/${slug}`, {
         changefreq: isPriority ? 'weekly' : 'monthly',
         priority: isPriority ? '0.9' : '0.8',
-        lastmod: blogLastmod,
+        lastmod: date ?? blogLastmod,
+        section: 'blog',
       });
     }),
-    routeGroup('/templates', { changefreq: 'weekly', priority: '0.9', lastmod: templateLastmod }),
     ...extractSlugs([TEMPLATE_SOURCE]).map((slug) => (
-      routeGroup(`/templates/${slug}`, { changefreq: 'monthly', priority: '0.8', lastmod: templateLastmod })
+      routeGroup(`/templates/${slug}`, {
+        changefreq: 'monthly',
+        priority: '0.8',
+        lastmod: templateLastmod,
+        section: 'templates',
+      })
     )),
-    routeGroup('/compare', { changefreq: 'monthly', priority: '0.85', lastmod: comparisonLastmod }),
     ...extractSlugs([COMPARISON_SOURCE]).map((slug) => (
-      routeGroup(`/compare/${slug}`, { changefreq: 'monthly', priority: '0.8', lastmod: comparisonLastmod })
+      routeGroup(`/compare/${slug}`, {
+        changefreq: 'monthly',
+        priority: '0.8',
+        lastmod: comparisonLastmod,
+        section: 'compare',
+      })
     )),
   ];
 

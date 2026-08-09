@@ -3,5 +3,13 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "out",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.chrobox.net" }],
+      "destination": "https://chrobox.net/:path*",
+      "permanent": true
+    }
+  ]
 }

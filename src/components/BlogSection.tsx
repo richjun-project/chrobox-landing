@@ -8,6 +8,7 @@ import { IconClock, IconArrowRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
 import { contentLanguageForLocale, localeFromPathname, localizedPath } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 // Curated to pass homepage authority (priority 1.0) to the posts that already earn
 // non-brand impressions in Search Console and the app-blocking hub we want ranked.
@@ -21,6 +22,7 @@ export function BlogSection() {
   const pathname = usePathname() ?? '/';
   const locale = localeFromPathname(pathname);
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const allPosts = getBlogPosts(lang);
   const featured = FEATURED_SLUGS
     .map((slug) => allPosts.find((post) => post.slug === slug))
@@ -55,7 +57,7 @@ export function BlogSection() {
               marginBottom: '16px',
             }}
           >
-            {lang === 'ko' ? '블로그' : 'Blog'}
+            {ui.blog}
           </Badge>
           <Text
             component="h2"
@@ -66,7 +68,7 @@ export function BlogSection() {
               marginBottom: '16px',
             }}
           >
-            {lang === 'ko' ? '생산성 인사이트' : 'Productivity Insights'}
+            {ui.productivityInsights}
           </Text>
           <Text
             size="lg"
@@ -76,9 +78,7 @@ export function BlogSection() {
               margin: '0 auto',
             }}
           >
-            {lang === 'ko'
-              ? '타임박싱과 효과적인 시간 관리에 대한 팁과 전략을 공유합니다.'
-              : 'Tips and strategies for time-boxing and effective time management.'}
+            {ui.blogSectionSubtitle}
           </Text>
         </motion.div>
 
@@ -141,7 +141,7 @@ export function BlogSection() {
                       <Group gap={6}>
                         <IconClock size={14} style={{ color: tokens.colors.gray400 }} />
                         <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                          {post.readTime} {lang === 'ko' ? '분' : 'min'}
+                          {post.readTime} {ui.min}
                         </Text>
                       </Group>
                     </Group>
@@ -202,7 +202,7 @@ export function BlogSection() {
                 borderRadius: '12px',
               }}
             >
-              {lang === 'ko' ? '모든 글 보기' : 'View All Posts'}
+              {ui.viewAllPosts}
             </Button>
           </Link>
         </motion.div>

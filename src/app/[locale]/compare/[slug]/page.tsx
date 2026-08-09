@@ -30,11 +30,8 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
     notFound();
   }
 
-  const lang = contentLanguageForLocale(locale);
-  const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
-  const description = lang === 'ko'
-    ? comparison.metaDescriptionKo ?? comparison.descriptionKo
-    : comparison.metaDescription ?? comparison.description;
+  const competitor = comparison.competitor;
+  const description = comparison.metaDescription ?? comparison.description;
   const seo = comparisonArticleSeo(locale, competitor, description);
 
   return pageMetadata({
@@ -55,12 +52,9 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
     notFound();
   }
 
-  const lang = contentLanguageForLocale(locale);
   const copy = seoCopy(locale);
-  const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
-  const description = lang === 'ko'
-    ? comparison.metaDescriptionKo ?? comparison.descriptionKo
-    : comparison.metaDescription ?? comparison.description;
+  const competitor = comparison.competitor;
+  const description = comparison.metaDescription ?? comparison.description;
   const seo = comparisonArticleSeo(locale, competitor, description);
   const canonicalUrl = absoluteUrl(localizedPath(locale, `/compare/${comparison.slug}`));
   const faqSchema = comparison.faqs.length > 0
@@ -69,10 +63,10 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         '@type': 'FAQPage',
         mainEntity: comparison.faqs.map((faq) => ({
           '@type': 'Question',
-          name: lang === 'ko' && faq.questionKo ? faq.questionKo : faq.question,
+          name: faq.question,
           acceptedAnswer: {
             '@type': 'Answer',
-            text: lang === 'ko' && faq.answerKo ? faq.answerKo : faq.answer,
+            text: faq.answer,
           },
         })),
       }

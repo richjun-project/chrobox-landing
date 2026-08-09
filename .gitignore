@@ -28,3 +28,6 @@ dist-ssr
 
 # OAuth credentials
 client_secret_*.json
+
+# translation cache
+scripts/.i18n-cache/

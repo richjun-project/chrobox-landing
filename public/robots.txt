@@ -5,5 +5,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap
+# Sitemap index (sections: pages, categories, blog, templates, compare)
 Sitemap: https://chrobox.net/sitemap.xml

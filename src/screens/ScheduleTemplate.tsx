@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Button, Breadcrumbs, Anchor } from '@mantine/core';
 import { IconArrowLeft, IconArrowRight, IconBulb, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getScheduleTemplate, scheduleTemplates, categoryColors, categoryLabels } from '../data/scheduleTemplates';
+import { getScheduleTemplate, scheduleTemplates, categoryColors, categoryLabel, localizeScheduleTemplate, type ScheduleTemplate } from '../data/scheduleTemplates';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
@@ -15,6 +15,7 @@ import {
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
+import { formatCopy, uiCopy } from '../lib/uiCopy';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
@@ -31,6 +32,7 @@ const stagger = {
 
 export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const copy = seoCopy(locale);
 
   const template = getScheduleTemplate(slug);
@@ -45,14 +47,14 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
     return null;
   }
 
-  const profession = lang === 'ko' ? template.professionKo : template.profession;
-  const description = lang === 'ko' ? template.descriptionKo : template.description;
-  const tips = lang === 'ko' ? template.tipsKo : template.tips;
+  const localized = localizeScheduleTemplate(template, lang);
+  const { profession, description, tips } = localized;
 
   const relatedTemplates = template.relatedSlugs
     .map((s) => scheduleTemplates.find((t) => t.slug === s))
     .filter(Boolean)
-    .slice(0, 4) as typeof scheduleTemplates;
+    .slice(0, 4)
+    .map((related) => localizeScheduleTemplate(related as ScheduleTemplate, lang));
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -90,7 +92,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                 leftSection={<IconArrowLeft size={16} />}
                 style={{ color: tokens.colors.gray400, marginBottom: '24px', paddingLeft: 0 }}
               >
-                {lang === 'ko' ? '모든 템플릿 보기' : 'All Templates'}
+                {ui.allTemplates}
               </Button>
             </Link>
 
@@ -98,7 +100,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
               size="lg"
               style={{ background: tokens.colors.accent, color: 'white', marginBottom: '16px' }}
             >
-              {lang === 'ko' ? '무료 스케줄 템플릿' : 'Free Schedule Template'}
+              {ui.freeScheduleTemplate}
             </Badge>
 
             <Text
@@ -111,9 +113,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                 marginBottom: '16px',
               }}
             >
-              {lang === 'ko'
-                ? `${profession} 하루 일정 템플릿`
-                : `${template.profession} Daily Schedule Template`}
+              {formatCopy(ui.templateHeroTitle, { profession })}
             </Text>
 
             <Text
@@ -143,12 +143,10 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                 marginBottom: '8px',
               }}
             >
-              {lang === 'ko' ? '하루 타임라인' : 'Daily Timeline'}
+              {ui.dailyTimeline}
             </Text>
             <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-              {lang === 'ko'
-                ? '최고의 생산성을 위한 시간별 계획'
-                : 'Hour-by-hour plan for peak productivity'}
+              {ui.hourByHourPlan}
             </Text>
           </motion.div>
 
@@ -167,9 +165,9 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
             />
 
             <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-              {template.schedule.map((block, index) => {
+              {localized.schedule.map((block, index) => {
                 const color = categoryColors[block.category];
-                const label = categoryLabels[block.category][lang === 'ko' ? 'ko' : 'en'];
+                const label = categoryLabel(block.category, lang);
                 return (
                   <motion.div
                     key={index}
@@ -291,13 +289,11 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                   component="h2"
                   style={{ fontSize: '28px', fontWeight: 700, color: tokens.colors.gray900 }}
                 >
-                  {lang === 'ko' ? '생산성 팁' : 'Productivity Tips'}
+                  {ui.productivityTips}
                 </Text>
               </Group>
               <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-                {lang === 'ko'
-                  ? `${profession}를 위한 전문가 조언`
-                  : `Expert advice for ${template.profession}s`}
+                {formatCopy(ui.templateExpertAdvice, { profession })}
               </Text>
             </motion.div>
 
@@ -369,14 +365,10 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                 marginBottom: '12px',
               }}
             >
-              {lang === 'ko'
-                ? `Chrobox로 ${profession} 스케줄을 시작하세요`
-                : `Start your ${template.profession} schedule with Chrobox`}
+              {formatCopy(ui.templateCtaTitle, { profession })}
             </Text>
             <Text style={{ color: tokens.colors.gray400, marginBottom: '32px', fontSize: '16px' }}>
-              {lang === 'ko'
-                ? '타임박싱으로 생산성을 혁신하세요. 무료로 시작하세요.'
-                : 'Transform your productivity with intelligent time-boxing. Free to start.'}
+              {ui.comparisonCtaSubtitle}
             </Text>
             <Group justify="center" gap={16} wrap="wrap">
               <Button
@@ -395,7 +387,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                   textDecoration: 'none',
                 }}
               >
-                {lang === 'ko' ? 'App Store 다운로드' : 'Download on App Store'}
+                {ui.downloadOnAppStore}
               </Button>
               <Button
                 component="a"
@@ -414,7 +406,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                   textDecoration: 'none',
                 }}
               >
-                {lang === 'ko' ? 'Google Play 다운로드' : 'Get it on Google Play'}
+                {ui.getItOnGooglePlay}
               </Button>
             </Group>
           </Box>
@@ -436,12 +428,10 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                     marginBottom: '8px',
                   }}
                 >
-                  {lang === 'ko' ? '관련 템플릿' : 'Related Templates'}
+                  {ui.relatedTemplates}
                 </Text>
                 <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-                  {lang === 'ko'
-                    ? '비슷한 직업을 위한 스케줄 템플릿'
-                    : 'Schedule templates for similar professions'}
+                  {ui.similarProfessionTemplates}
                 </Text>
               </motion.div>
 
@@ -481,7 +471,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                             marginBottom: '8px',
                           }}
                         >
-                          {lang === 'ko' ? related.professionKo : related.profession}
+                          {related.profession}
                         </Text>
                         <Text
                           size="sm"
@@ -495,11 +485,11 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
                             marginBottom: '16px',
                           }}
                         >
-                          {lang === 'ko' ? related.descriptionKo : related.description}
+                          {related.description}
                         </Text>
                         <Group gap={6} style={{ color: tokens.colors.accent }}>
                           <Text size="sm" fw={600}>
-                            {lang === 'ko' ? '보기' : 'View'}
+                            {ui.view}
                           </Text>
                           <IconArrowRight size={14} />
                         </Group>

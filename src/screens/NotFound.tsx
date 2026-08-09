@@ -7,11 +7,13 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { tokens } from '../theme';
 import { contentLanguageForLocale, localeFromPathname, localizedPath } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 export function NotFound() {
   const pathname = usePathname() ?? '/';
   const locale = localeFromPathname(pathname);
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const homePath = localizedPath(locale, '/');
 
   return (
@@ -22,10 +24,10 @@ export function NotFound() {
           404
         </Text>
         <Text size="xl" mt={12} style={{ color: tokens.colors.gray600 }}>
-          {lang === 'ko' ? '요청한 페이지를 찾을 수 없습니다.' : 'The page you requested could not be found.'}
+          {ui.notFoundMessage}
         </Text>
         <Button component={Link} href={homePath} mt={32} style={{ background: tokens.colors.gray900 }}>
-          {lang === 'ko' ? '홈으로 이동' : 'Go Home'}
+          {ui.goHome}
         </Button>
       </Container>
       <Footer />

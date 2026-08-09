@@ -30,9 +30,10 @@ export function Logo({ size = 'md', showText = true, variant = 'dark' }: LogoPro
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
     >
-      {/* Logo Image */}
+      {/* Logo Image — 256px WebP mark (7 KB). The 512px PNG stays reserved for
+          the web manifest and JSON-LD, which require a raster square icon. */}
       <Image
-        src="/logo.png"
+        src="/logo-mark.webp"
         alt="Chrobox Logo"
         width={s.icon}
         height={s.icon}

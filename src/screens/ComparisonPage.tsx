@@ -16,6 +16,7 @@ import {
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
+import { formatCopy, uiCopy } from '../lib/uiCopy';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
@@ -74,6 +75,7 @@ function FeatureValue({ value }: { value: boolean | string }) {
 
 export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const copy = seoCopy(locale);
 
   const comparison = getComparison(slug, lang);
@@ -88,11 +90,11 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
     return null;
   }
 
-  const competitor = lang === 'ko' ? comparison.competitorKo : comparison.competitor;
-  const description = lang === 'ko' ? comparison.descriptionKo : comparison.description;
-  const verdict = lang === 'ko' ? comparison.verdictKo : comparison.verdict;
-  const chroboxPros = lang === 'ko' ? comparison.chroboxProsKo : comparison.chroboxPros;
-  const competitorPros = lang === 'ko' ? comparison.competitorProsKo : comparison.competitorPros;
+  const competitor = comparison.competitor;
+  const description = comparison.description;
+  const verdict = comparison.verdict;
+  const chroboxPros = comparison.chroboxPros;
+  const competitorPros = comparison.competitorPros;
 
   const pageSeo = comparisonArticleSeo(locale, competitor, description);
 
@@ -171,7 +173,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                 leftSection={<IconArrowLeft size={16} />}
                 style={{ color: tokens.colors.gray400, marginBottom: '24px', paddingLeft: 0 }}
               >
-                {lang === 'ko' ? '모든 비교 보기' : 'All Comparisons'}
+                {ui.allComparisons}
               </Button>
             </Link>
 
@@ -225,12 +227,10 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                 marginBottom: '8px',
               }}
             >
-              {lang === 'ko' ? '기능 비교' : 'Feature Comparison'}
+              {ui.featureComparison}
             </Text>
             <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-              {lang === 'ko'
-                ? `Chrobox와 ${competitor}의 핵심 기능을 비교해보세요`
-                : `Side-by-side comparison of Chrobox and ${comparison.competitor}`}
+              {formatCopy(ui.comparisonSideBySide, { competitor })}
             </Text>
           </motion.div>
 
@@ -254,7 +254,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                 }}
               >
                 <Text style={{ fontSize: '13px', fontWeight: 600, color: tokens.colors.gray400 }}>
-                  {lang === 'ko' ? '기능' : 'Feature'}
+                  {ui.feature}
                 </Text>
                 <Box style={{ display: 'flex', justifyContent: 'center' }}>
                   <Text style={{ fontSize: '14px', fontWeight: 700, color: tokens.colors.accent }}>
@@ -285,7 +285,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                   }}
                 >
                   <Text style={{ fontSize: '15px', color: tokens.colors.gray800, fontWeight: 500 }}>
-                    {lang === 'ko' ? feature.nameKo : feature.name}
+                    {feature.name}
                   </Text>
                   <Box style={{ display: 'flex', justifyContent: 'center' }}>
                     <FeatureValue value={feature.chrobox} />
@@ -314,12 +314,10 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                   marginBottom: '8px',
                 }}
               >
-                {lang === 'ko' ? '장단점 비교' : 'Pros & Cons'}
+                {ui.prosAndCons}
               </Text>
               <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-                {lang === 'ko'
-                  ? '각 앱의 강점을 살펴보세요'
-                  : 'The strengths of each app at a glance'}
+                {ui.strengthsAtAGlance}
               </Text>
             </motion.div>
 
@@ -345,7 +343,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                       }}
                     />
                     <Text style={{ fontSize: '18px', fontWeight: 700, color: tokens.colors.gray900 }}>
-                      {lang === 'ko' ? 'Chrobox의 장점' : 'Why Choose Chrobox'}
+                      {ui.whyChooseChrobox}
                     </Text>
                   </Group>
                   <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -396,7 +394,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                       }}
                     />
                     <Text style={{ fontSize: '18px', fontWeight: 700, color: tokens.colors.gray900 }}>
-                      {lang === 'ko' ? `${competitor}의 장점` : `Why Choose ${comparison.competitor}`}
+                      {formatCopy(ui.whyChooseCompetitor, { competitor })}
                     </Text>
                   </Group>
                   <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -450,7 +448,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
               size="lg"
               style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}
             >
-              {lang === 'ko' ? '최종 평가' : 'Our Verdict'}
+              {ui.ourVerdict}
             </Badge>
             <Text
               component="h2"
@@ -462,9 +460,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                 lineHeight: 1.3,
               }}
             >
-              {lang === 'ko'
-                ? `Chrobox vs ${competitor}: 어떤 앱을 선택해야 할까요?`
-                : `Chrobox vs ${comparison.competitor}: Which Should You Choose?`}
+              {formatCopy(ui.comparisonWhichChoose, { competitor })}
             </Text>
             <Text
               style={{
@@ -495,19 +491,17 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                     marginBottom: '8px',
                   }}
                 >
-                  {lang === 'ko' ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+                  {ui.frequentlyAskedQuestions}
                 </Text>
                 <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
-                  {lang === 'ko'
-                    ? `Chrobox와 ${competitor} 비교에 대한 주요 질문`
-                    : `Common questions about Chrobox vs ${comparison.competitor}`}
+                  {formatCopy(ui.comparisonFaqSubtitle, { competitor })}
                 </Text>
               </motion.div>
 
               <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 {comparison.faqs.map((faq, idx) => {
-                  const question = lang === 'ko' && faq.questionKo ? faq.questionKo : faq.question;
-                  const answer = lang === 'ko' && faq.answerKo ? faq.answerKo : faq.answer;
+                  const question = faq.question;
+                  const answer = faq.answer;
                   return (
                     <motion.div
                       key={idx}
@@ -578,14 +572,10 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                 marginBottom: '12px',
               }}
             >
-              {lang === 'ko'
-                ? 'Chrobox로 타임박싱을 시작하세요'
-                : 'Ready to Try Chrobox?'}
+              {ui.comparisonCtaTitle}
             </Text>
             <Text style={{ color: tokens.colors.gray400, marginBottom: '32px', fontSize: '16px' }}>
-              {lang === 'ko'
-                ? '타임박싱 앱으로 생산성을 혁신하세요. 무료로 시작하세요.'
-                : 'Transform your productivity with intelligent time-boxing. Free to start.'}
+              {ui.comparisonCtaSubtitle}
             </Text>
             <Group justify="center" gap={16} wrap="wrap">
               <Button
@@ -604,7 +594,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                   textDecoration: 'none',
                 }}
               >
-                {lang === 'ko' ? 'App Store 다운로드' : 'Download on App Store'}
+                {ui.downloadOnAppStore}
               </Button>
               <Button
                 component="a"
@@ -623,7 +613,7 @@ export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?:
                   textDecoration: 'none',
                 }}
               >
-                {lang === 'ko' ? 'Google Play 다운로드' : 'Get it on Google Play'}
+                {ui.getItOnGooglePlay}
               </Button>
             </Group>
           </Box>

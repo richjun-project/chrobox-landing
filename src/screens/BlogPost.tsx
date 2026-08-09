@@ -16,12 +16,15 @@ import {
   contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
+  htmlLangForLocale,
 } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 
 export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
 
   const post = getBlogPost(slug, lang);
   const content = getBlogContent(slug, lang);
@@ -78,7 +81,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                       textDecoration: 'none',
                     }}
                   >
-                    {lang === 'ko' ? '홈' : 'Home'}
+                    {ui.home}
                   </Box>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -94,7 +97,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                       textDecoration: 'none',
                     }}
                   >
-                    {lang === 'ko' ? '블로그' : 'Blog'}
+                    {ui.blog}
                   </Box>
                 </Box>
                 {post.clusterSlug && (
@@ -146,7 +149,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                   marginBottom: '24px',
                 }}
               >
-                {lang === 'ko' ? '블로그로 돌아가기' : 'Back to Blog'}
+                {ui.backToBlog}
               </Button>
             </Link>
 
@@ -201,7 +204,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
               <Group gap={8}>
                 <IconCalendar size={16} style={{ color: tokens.colors.gray400 }} />
                 <Text size="sm" style={{ color: tokens.colors.gray400 }}>
-                  {new Date(post.date).toLocaleDateString(lang === 'ko' ? 'ko-KR' : 'en-US', {
+                  {new Date(post.date).toLocaleDateString(htmlLangForLocale(locale), {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
@@ -211,7 +214,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
               <Group gap={8}>
                 <IconClock size={16} style={{ color: tokens.colors.gray400 }} />
                 <Text size="sm" style={{ color: tokens.colors.gray400 }}>
-                  {post.readTime} {lang === 'ko' ? '분 읽기' : 'min read'}
+                  {post.readTime} {ui.minRead}
                 </Text>
               </Group>
             </Group>
@@ -267,7 +270,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
             <Box style={{ minWidth: 0 }}>
               {/* Mobile TOC (shown only on mobile via CSS) */}
               <Box className="blog-toc-mobile">
-                <TableOfContents content={content} lang={lang === 'ko' ? 'ko' : 'en'} />
+                <TableOfContents content={content} lang={lang} />
               </Box>
 
               <Box
@@ -474,12 +477,12 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                       marginBottom: '24px',
                     }}
                   >
-                    {lang === 'ko' ? '자주 묻는 질문' : 'Frequently Asked Questions'}
+                    {ui.frequentlyAskedQuestions}
                   </Text>
                   <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                     {post.faqs.map((faq, idx) => {
-                      const question = lang === 'ko' && faq.questionKo ? faq.questionKo : faq.question;
-                      const answer = lang === 'ko' && faq.answerKo ? faq.answerKo : faq.answer;
+                      const question = faq.question;
+                      const answer = faq.answer;
                       return (
                         <motion.div
                           key={idx}
@@ -545,14 +548,10 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                     marginBottom: '12px',
                   }}
                 >
-                  {lang === 'ko'
-                    ? '지금 Chrobox로 타임박싱을 시작하세요'
-                    : 'Start Time-Boxing with Chrobox Today'}
+                  {ui.blogPostCtaTitle}
                 </Text>
                 <Text style={{ color: tokens.colors.gray400, marginBottom: '24px' }}>
-                  {lang === 'ko'
-                    ? '3일 무료 체험으로 생산성을 혁신하세요.'
-                    : 'Transform your productivity with a 3-day free trial.'}
+                  {ui.blogPostCtaSubtitle}
                 </Text>
                 <Button
                   component="a"
@@ -567,14 +566,14 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                     textDecoration: 'none',
                   }}
                 >
-                  {lang === 'ko' ? '무료 체험 시작하기' : 'Start Free Trial'}
+                  {ui.startFreeTrial}
                 </Button>
               </Box>
             </Box>
 
             {/* Desktop TOC sidebar (shown only on wide screens via CSS) */}
             <Box className="blog-toc-desktop">
-              <TableOfContents content={content} lang={lang === 'ko' ? 'ko' : 'en'} />
+              <TableOfContents content={content} lang={lang} />
             </Box>
           </Box>
         </motion.div>

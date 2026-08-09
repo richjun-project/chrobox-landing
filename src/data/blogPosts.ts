@@ -231,8 +231,26 @@ function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
   };
 }
 
+/**
+ * Korean posts reuse the English FAQ objects, which carry the Korean copy in
+ * `questionKo`/`answerKo`. Resolving those into the primary fields here means
+ * consumers read one shape for every locale.
+ */
+function resolveKoreanFaqs(post: BlogPostMeta): BlogPostMeta {
+  if (!post.faqs?.length) return post;
+
+  return {
+    ...post,
+    faqs: post.faqs.map((faq) => ({
+      ...faq,
+      question: faq.questionKo || faq.question,
+      answer: faq.answerKo || faq.answer,
+    })),
+  };
+}
+
 const enBlogPostsEnriched = enBlogPosts.map(enrichWithCluster);
-const koBlogPostsEnriched = koBlogPosts.map(enrichWithCluster);
+const koBlogPostsEnriched = koBlogPosts.map((post) => resolveKoreanFaqs(enrichWithCluster(post)));
 
 const localizedBlogPostsCache = new Map<ContentLanguage, BlogPostMeta[]>();
 

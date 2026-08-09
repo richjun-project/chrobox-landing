@@ -11,7 +11,8 @@ import {
   type SiteLocale,
 } from '../lib/seo';
 import { getBlogPost, getBlogPostsByCluster } from '../data/blogPosts';
-import { getClusterBySlug } from '../lib/blogTaxonomy';
+import { clusterCopy, getClusterBySlug } from '../lib/blogTaxonomy';
+import { uiCopy } from '../lib/uiCopy';
 
 interface RelatedPostsProps {
   slug: string;
@@ -21,6 +22,7 @@ interface RelatedPostsProps {
 
 export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const cluster = getClusterBySlug(slug);
 
   if (!cluster) {
@@ -52,7 +54,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
               marginBottom: '8px',
             }}
           >
-            {lang === 'ko' ? '같은 시리즈의 다른 글' : 'More from this series'}
+            {ui.moreFromThisSeries}
           </Text>
           <Box
             component={Link}
@@ -67,7 +69,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
               gap: '4px',
             }}
           >
-            {cluster.name[lang === 'ko' ? 'ko' : 'en']}
+            {clusterCopy(cluster, lang).name}
             <IconArrowRight size={14} />
           </Box>
         </Box>
@@ -102,7 +104,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
                   color: 'white',
                 }}
               >
-                {lang === 'ko' ? '핵심 가이드' : 'Pillar Guide'}
+                {ui.pillarGuide}
               </Badge>
             </Group>
             <Text
@@ -205,7 +207,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
                     <Group gap={6}>
                       <IconClock size={12} style={{ color: tokens.colors.gray400 }} />
                       <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                        {post.readTime} {lang === 'ko' ? '분' : 'min'}
+                        {post.readTime} {ui.min}
                       </Text>
                     </Group>
                   </Box>

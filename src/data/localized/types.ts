@@ -24,8 +24,27 @@ export interface LocalizedBlogPostCopy {
   faqs?: LocalizedFaq[];
 }
 
+export interface LocalizedTemplateCopy {
+  profession: string;
+  description: string;
+  tips: string[];
+  /** Must match the order and length of the template's `schedule` array. */
+  scheduleTasks: string[];
+}
+
+export interface LocalizedClusterCopy {
+  name: string;
+  description: string;
+  /** Paragraphs of the long-form category introduction. */
+  intro: string[];
+}
+
 export interface LocalizedContentPack {
   comparisons: Record<string, LocalizedComparisonCopy>;
   blogPosts: Record<string, LocalizedBlogPostCopy>;
   blogContents: Record<string, string>;
+  /** Keyed by schedule template slug. */
+  templates?: Record<string, LocalizedTemplateCopy>;
+  /** Keyed by blog cluster slug. */
+  clusters?: Record<string, LocalizedClusterCopy>;
 }

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ScheduleTemplate } from '../../../../screens/ScheduleTemplate';
 import { JsonLd } from '../../../../components/JsonLd';
-import { getScheduleTemplate } from '../../../../data/scheduleTemplates';
+import { getScheduleTemplate, localizeScheduleTemplate } from '../../../../data/scheduleTemplates';
 import { localizedTemplateSlugParams, localeFromParam, type LocalizedSlugParam } from '../../../_route-helpers';
 import { pageMetadata } from '../../../../lib/next-seo';
 import {
@@ -13,6 +13,7 @@ import {
   seoCopy,
   templateArticleSeo,
 } from '../../../../lib/seo';
+import { formatCopy, uiCopy } from '../../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -31,8 +32,7 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
   }
 
   const lang = contentLanguageForLocale(locale);
-  const profession = lang === 'ko' ? template.professionKo : template.profession;
-  const description = lang === 'ko' ? template.descriptionKo : template.description;
+  const { profession, description } = localizeScheduleTemplate(template, lang);
   const seo = templateArticleSeo(locale, profession, description);
 
   return pageMetadata({
@@ -55,8 +55,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
 
   const lang = contentLanguageForLocale(locale);
   const copy = seoCopy(locale);
-  const profession = lang === 'ko' ? template.professionKo : template.profession;
-  const description = lang === 'ko' ? template.descriptionKo : template.description;
+  const { profession, description } = localizeScheduleTemplate(template, lang);
   const seo = templateArticleSeo(locale, profession, description);
   const canonicalUrl = absoluteUrl(localizedPath(locale, `/templates/${template.slug}`));
 
@@ -72,7 +71,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
             {
               '@type': 'ListItem',
               position: 3,
-              name: lang === 'ko' ? `${template.professionKo} 하루 일정` : `${template.profession} Daily Schedule`,
+              name: formatCopy(uiCopy(lang).professionDailySchedule, { profession }),
               item: canonicalUrl,
             },
           ],

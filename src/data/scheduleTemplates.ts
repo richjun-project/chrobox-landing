@@ -1,3 +1,6 @@
+import type { ContentLanguage } from '../lib/seo';
+import { LOCALIZED_CONTENT } from './localized';
+
 export interface TimeBlock {
   time: string;
   task: string;
@@ -16,6 +19,13 @@ export interface ScheduleTemplate {
   tipsKo: string[];
   relatedSlugs: string[];
 }
+
+/** A template with every localizable field already resolved to one locale. */
+export type LocalizedScheduleTemplate = Omit<ScheduleTemplate, 'professionKo' | 'descriptionKo' | 'tipsKo'> & {
+  professionKo: string;
+  descriptionKo: string;
+  tipsKo: string[];
+};
 
 export const scheduleTemplates: ScheduleTemplate[] = [
   {
@@ -752,11 +762,80 @@ export const categoryColors: Record<TimeBlock['category'], string> = {
   learning: '#51CF66',
 };
 
-export const categoryLabels: Record<TimeBlock['category'], { en: string; ko: string }> = {
-  focus: { en: 'Focus', ko: '집중' },
-  meeting: { en: 'Meeting', ko: '미팅' },
-  break: { en: 'Break', ko: '휴식' },
-  admin: { en: 'Admin', ko: '행정' },
-  creative: { en: 'Creative', ko: '창의' },
-  learning: { en: 'Learning', ko: '학습' },
+export const categoryLabels: Record<
+  TimeBlock['category'],
+  Partial<Record<ContentLanguage, string>> & { en: string }
+> = {
+  focus: {
+    en: 'Focus', ko: '집중', ja: '集中', 'zh-CN': '专注', 'zh-TW': '專注',
+    es: 'Enfoque', fr: 'Concentration', de: 'Fokus', 'pt-BR': 'Foco',
+    it: 'Concentrazione', nl: 'Focus', pl: 'Skupienie', tr: 'Odak',
+    id: 'Fokus', vi: 'Tập trung', th: 'โฟกัส', hi: 'फोकस',
+    ar: 'تركيز', ru: 'Фокус', ms: 'Fokus',
+  },
+  meeting: {
+    en: 'Meeting', ko: '미팅', ja: '会議', 'zh-CN': '会议', 'zh-TW': '會議',
+    es: 'Reunión', fr: 'Réunion', de: 'Meeting', 'pt-BR': 'Reunião',
+    it: 'Riunione', nl: 'Vergadering', pl: 'Spotkanie', tr: 'Toplantı',
+    id: 'Rapat', vi: 'Họp', th: 'ประชุม', hi: 'मीटिंग',
+    ar: 'اجتماع', ru: 'Встреча', ms: 'Mesyuarat',
+  },
+  break: {
+    en: 'Break', ko: '휴식', ja: '休憩', 'zh-CN': '休息', 'zh-TW': '休息',
+    es: 'Descanso', fr: 'Pause', de: 'Pause', 'pt-BR': 'Pausa',
+    it: 'Pausa', nl: 'Pauze', pl: 'Przerwa', tr: 'Mola',
+    id: 'Istirahat', vi: 'Nghỉ', th: 'พัก', hi: 'ब्रेक',
+    ar: 'راحة', ru: 'Перерыв', ms: 'Rehat',
+  },
+  admin: {
+    en: 'Admin', ko: '행정', ja: '事務', 'zh-CN': '事务', 'zh-TW': '事務',
+    es: 'Gestión', fr: 'Administratif', de: 'Verwaltung', 'pt-BR': 'Gestão',
+    it: 'Gestione', nl: 'Beheer', pl: 'Administracja', tr: 'İdari',
+    id: 'Administrasi', vi: 'Hành chính', th: 'ธุรการ', hi: 'प्रशासन',
+    ar: 'إداري', ru: 'Админ', ms: 'Pentadbiran',
+  },
+  creative: {
+    en: 'Creative', ko: '창의', ja: '創作', 'zh-CN': '创意', 'zh-TW': '創意',
+    es: 'Creativo', fr: 'Créatif', de: 'Kreativ', 'pt-BR': 'Criativo',
+    it: 'Creativo', nl: 'Creatief', pl: 'Kreatywne', tr: 'Yaratıcı',
+    id: 'Kreatif', vi: 'Sáng tạo', th: 'สร้างสรรค์', hi: 'रचनात्मक',
+    ar: 'إبداعي', ru: 'Творчество', ms: 'Kreatif',
+  },
+  learning: {
+    en: 'Learning', ko: '학습', ja: '学習', 'zh-CN': '学习', 'zh-TW': '學習',
+    es: 'Aprendizaje', fr: 'Apprentissage', de: 'Lernen', 'pt-BR': 'Aprendizado',
+    it: 'Apprendimento', nl: 'Leren', pl: 'Nauka', tr: 'Öğrenme',
+    id: 'Belajar', vi: 'Học tập', th: 'เรียนรู้', hi: 'सीखना',
+    ar: 'تعلّم', ru: 'Обучение', ms: 'Pembelajaran',
+  },
 };
+
+export function categoryLabel(category: TimeBlock['category'], lang: ContentLanguage): string {
+  const labels = categoryLabels[category];
+  return labels[lang] ?? labels.en;
+}
+
+/**
+ * Resolves a schedule template into a single locale. English and Korean are
+ * authored inline; every other locale reads its localized content pack and
+ * falls back to English per field. Schedule block tasks were English-only
+ * before packs existed, so Korean also resolves through the pack.
+ */
+export function localizeScheduleTemplate(
+  template: ScheduleTemplate,
+  lang: ContentLanguage,
+): LocalizedScheduleTemplate {
+  const copy = LOCALIZED_CONTENT[lang]?.templates?.[template.slug];
+  const isKorean = lang === 'ko';
+
+  return {
+    ...template,
+    profession: copy?.profession || (isKorean ? template.professionKo : template.profession),
+    description: copy?.description || (isKorean ? template.descriptionKo : template.description),
+    tips: copy?.tips?.length ? copy.tips : (isKorean ? template.tipsKo : template.tips),
+    schedule: template.schedule.map((block, index) => ({
+      ...block,
+      task: copy?.scheduleTasks?.[index] || block.task,
+    })),
+  };
+}

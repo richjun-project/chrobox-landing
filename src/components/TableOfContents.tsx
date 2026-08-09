@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Box, Text, UnstyledButton } from '@mantine/core';
 import { IconList, IconChevronDown } from '@tabler/icons-react';
 import { tokens } from '../theme';
+import { uiCopy } from '../lib/uiCopy';
+import type { ContentLanguage } from '../lib/seo';
 
 interface Heading {
   id: string;
@@ -12,7 +14,7 @@ interface Heading {
 
 interface TableOfContentsProps {
   content: string;
-  lang?: 'en' | 'ko';
+  lang?: ContentLanguage;
 }
 
 function slugify(text: string): string {
@@ -54,6 +56,7 @@ function extractHeadings(markdown: string): Heading[] {
 }
 
 export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) {
+  const ui = uiCopy(lang);
   const headings = useMemo(() => extractHeadings(content), [content]);
   const [activeId, setActiveId] = useState<string>('');
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -92,7 +95,7 @@ export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) 
 
   if (headings.length === 0) return null;
 
-  const label = lang === 'ko' ? '목차' : 'Table of Contents';
+  const label = ui.tableOfContents;
 
   const tocItems = (
     <Box component="ol" style={{ listStyle: 'none', margin: 0, padding: 0 }}>

@@ -24,7 +24,12 @@ export const SEO_LOCALES = [
 ] as const;
 
 export type SiteLocale = typeof SEO_LOCALES[number]['code'];
-export type ContentLanguage = 'en' | 'ko' | 'ja' | 'de' | 'es' | 'pt-BR';
+/**
+ * Every site locale now ships fully localized long-form content (blog bodies,
+ * comparisons, schedule templates, category intros), so content language and
+ * site locale are the same set.
+ */
+export type ContentLanguage = SiteLocale;
 
 type LocaleConfig = typeof SEO_LOCALES[number];
 type SeoCopy = {
@@ -69,7 +74,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogArticleDescription: 'Read this Chrobox guide to time-boxing, productivity, focus planning, and building a calmer daily schedule.',
     templateArticleTitle: '{profession} Daily Schedule Template | Free Time-Boxing Plan | Chrobox',
     templateArticleDescription: 'A free time-boxed daily schedule for {profession}. Plan focused work, breaks, admin tasks, and realistic routines with Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: Which is Better? [2025 Comparison]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: Which is Better? [2026 Comparison]',
     comparisonArticleDescription: 'Compare Chrobox with {competitor} and see which productivity app fits your time-boxing, planning, and focus workflow.',
   },
   ko: {
@@ -89,7 +94,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogArticleDescription: '타임박싱, 생산성, 집중 계획, 더 차분한 하루 일정을 만드는 방법을 Chrobox 가이드에서 확인하세요.',
     templateArticleTitle: '{profession} 하루 일정 템플릿 | 무료 타임박싱 플랜 | Chrobox',
     templateArticleDescription: '{profession}를 위한 무료 타임박싱 하루 일정입니다. Chrobox로 집중 업무, 휴식, 관리 업무, 현실적인 루틴을 계획하세요.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: 어떤 앱이 더 좋을까요? [2025 비교]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: 어떤 앱이 더 좋을까요? [2026 비교]',
     comparisonArticleDescription: 'Chrobox와 {competitor}를 비교하고 타임박싱, 계획, 집중 워크플로우에 맞는 생산성 앱을 찾아보세요.',
   },
   ja: {
@@ -105,11 +110,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'ブログ',
     templatesLabel: 'テンプレート',
     compareLabel: '比較',
-    blogArticleTitle: 'タイムボクシングガイド: {title} | Chrobox Blog',
+    blogArticleTitle: '{title} | Chrobox Blog',
     blogArticleDescription: 'タイムボクシング、生産性、集中計画、落ち着いた1日の作り方をChroboxガイドで学びましょう。',
     templateArticleTitle: '{profession}向け1日スケジュールテンプレート | 無料タイムボクシングプラン | Chrobox',
     templateArticleDescription: '{profession}向けの無料タイムボクシングスケジュールです。集中作業、休憩、管理タスク、現実的なルーティンをChroboxで計画できます。',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: どちらが最適？ [2025年比較]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: どちらが最適？ [2026年比較]',
     comparisonArticleDescription: 'Chroboxと{competitor}を比較し、タイムボクシング、計画、集中ワークフローに合うアプリを確認しましょう。',
   },
   'zh-CN': {
@@ -125,11 +130,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: '博客',
     templatesLabel: '模板',
     compareLabel: '比较',
-    blogArticleTitle: '时间盒指南: {title} | Chrobox博客',
+    blogArticleTitle: '{title} | Chrobox博客',
     blogArticleDescription: '阅读Chrobox指南，学习时间盒、效率提升、专注计划以及更从容的每日安排。',
     templateArticleTitle: '{profession}每日计划模板 | 免费时间盒计划 | Chrobox',
     templateArticleDescription: '面向{profession}的免费时间盒每日计划。用Chrobox安排专注工作、休息、行政任务和现实可行的日常节奏。',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: 哪个更好？[2025比较]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: 哪个更好？[2026比较]',
     comparisonArticleDescription: '比较Chrobox和{competitor}，了解哪款效率应用更适合你的时间盒、计划和专注流程。',
   },
   'zh-TW': {
@@ -145,11 +150,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: '部落格',
     templatesLabel: '範本',
     compareLabel: '比較',
-    blogArticleTitle: '時間盒指南: {title} | Chrobox部落格',
+    blogArticleTitle: '{title} | Chrobox部落格',
     blogArticleDescription: '閱讀Chrobox指南，學習時間盒、生產力、專注規劃，以及打造更從容每日行程的方法。',
     templateArticleTitle: '{profession}每日行程範本 | 免費時間盒計畫 | Chrobox',
     templateArticleDescription: '為{profession}設計的免費時間盒每日行程。用Chrobox規劃專注工作、休息、行政任務與可持續的日常節奏。',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: 哪個更適合？[2025比較]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: 哪個更適合？[2026比較]',
     comparisonArticleDescription: '比較Chrobox與{competitor}，了解哪款生產力App更符合你的時間盒、規劃與專注工作流程。',
   },
   es: {
@@ -165,11 +170,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Plantillas',
     compareLabel: 'Comparar',
-    blogArticleTitle: 'Guía de time-boxing: {title} | Blog de Chrobox',
+    blogArticleTitle: '{title} | Blog de Chrobox',
     blogArticleDescription: 'Lee esta guía de Chrobox sobre time-boxing, productividad, planificación enfocada y cómo construir una agenda diaria más tranquila.',
     templateArticleTitle: 'Plantilla de horario diario para {profession} | Plan gratuito de time-boxing | Chrobox',
     templateArticleDescription: 'Un horario diario gratuito con time-boxing para {profession}. Planifica trabajo profundo, descansos, tareas administrativas y rutinas realistas con Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: ¿cuál es mejor? [Comparativa 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: ¿cuál es mejor? [Comparativa 2026]',
     comparisonArticleDescription: 'Compara Chrobox con {competitor} y descubre qué app se adapta mejor a tu flujo de time-boxing, planificación y enfoque.',
   },
   fr: {
@@ -185,11 +190,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Modèles',
     compareLabel: 'Comparer',
-    blogArticleTitle: 'Guide de time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Lisez ce guide Chrobox sur le time-boxing, la productivité, la planification concentrée et la création d’un planning quotidien plus serein.',
     templateArticleTitle: 'Modèle de planning quotidien pour {profession} | Plan de time-boxing gratuit | Chrobox',
     templateArticleDescription: 'Un planning quotidien gratuit en time-boxing pour {profession}. Planifiez travail concentré, pauses, tâches administratives et routines réalistes avec Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: lequel est le meilleur ? [Comparatif 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: lequel est le meilleur ? [Comparatif 2026]',
     comparisonArticleDescription: 'Comparez Chrobox avec {competitor} et voyez quelle application convient le mieux à votre time-boxing, votre planification et votre concentration.',
   },
   de: {
@@ -205,11 +210,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Vorlagen',
     compareLabel: 'Vergleichen',
-    blogArticleTitle: 'Time-Boxing-Leitfaden: {title} | Chrobox Blog',
+    blogArticleTitle: '{title} | Chrobox Blog',
     blogArticleDescription: 'Lies diesen Chrobox-Leitfaden zu Time-Boxing, Produktivität, fokussierter Planung und einem ruhigeren Tagesablauf.',
     templateArticleTitle: 'Tägliche Zeitplan-Vorlage für {profession} | Kostenloser Time-Boxing-Plan | Chrobox',
     templateArticleDescription: 'Ein kostenloser Time-Boxing-Tagesplan für {profession}. Plane Fokusarbeit, Pausen, Admin-Aufgaben und realistische Routinen mit Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: Was ist besser? [Vergleich 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: Was ist besser? [Vergleich 2026]',
     comparisonArticleDescription: 'Vergleiche Chrobox mit {competitor} und finde heraus, welche App zu deinem Time-Boxing-, Planungs- und Fokus-Workflow passt.',
   },
   'pt-BR': {
@@ -225,11 +230,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Modelos',
     compareLabel: 'Comparar',
-    blogArticleTitle: 'Guia de time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Leia este guia da Chrobox sobre time-boxing, produtividade, planejamento focado e como criar uma rotina diária mais tranquila.',
     templateArticleTitle: 'Modelo de agenda diária para {profession} | Plano gratuito de time-boxing | Chrobox',
     templateArticleDescription: 'Uma agenda diária gratuita com time-boxing para {profession}. Planeje trabalho focado, pausas, tarefas administrativas e rotinas realistas com Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: qual é melhor? [Comparativo 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: qual é melhor? [Comparativo 2026]',
     comparisonArticleDescription: 'Compare Chrobox com {competitor} e veja qual app se adapta melhor ao seu fluxo de time-boxing, planejamento e foco.',
   },
   it: {
@@ -245,11 +250,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Modelli',
     compareLabel: 'Confronta',
-    blogArticleTitle: 'Guida al time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Leggi questa guida Chrobox su time-boxing, produttività, pianificazione focalizzata e creazione di una giornata più ordinata.',
     templateArticleTitle: 'Modello di programma giornaliero per {profession} | Piano gratuito di time-boxing | Chrobox',
     templateArticleDescription: 'Un programma giornaliero gratuito con time-boxing per {profession}. Pianifica lavoro profondo, pause, attività amministrative e routine realistiche con Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: quale è migliore? [Confronto 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: quale è migliore? [Confronto 2026]',
     comparisonArticleDescription: 'Confronta Chrobox con {competitor} e scopri quale app si adatta meglio al tuo flusso di time-boxing, pianificazione e concentrazione.',
   },
   nl: {
@@ -265,11 +270,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Sjablonen',
     compareLabel: 'Vergelijken',
-    blogArticleTitle: 'Time-boxinggids: {title} | Chrobox Blog',
+    blogArticleTitle: '{title} | Chrobox Blog',
     blogArticleDescription: 'Lees deze Chrobox-gids over time-boxing, productiviteit, focusplanning en het bouwen van een rustigere dagindeling.',
     templateArticleTitle: 'Dagelijkse planningssjabloon voor {profession} | Gratis time-boxing-plan | Chrobox',
     templateArticleDescription: 'Een gratis dagelijkse time-boxing-planning voor {profession}. Plan focuswerk, pauzes, administratieve taken en realistische routines met Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: welke is beter? [Vergelijking 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: welke is beter? [Vergelijking 2026]',
     comparisonArticleDescription: 'Vergelijk Chrobox met {competitor} en ontdek welke app past bij je time-boxing-, plannings- en focusworkflow.',
   },
   pl: {
@@ -285,11 +290,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Szablony',
     compareLabel: 'Porównaj',
-    blogArticleTitle: 'Przewodnik time-boxingu: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Przeczytaj przewodnik Chrobox o time-boxingu, produktywności, planowaniu skupienia i spokojniejszym harmonogramie dnia.',
     templateArticleTitle: 'Szablon dziennego harmonogramu dla {profession} | Darmowy plan time-boxingu | Chrobox',
     templateArticleDescription: 'Darmowy dzienny harmonogram time-boxingowy dla {profession}. Planuj pracę w skupieniu, przerwy, administrację i realistyczne rutyny z Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: co jest lepsze? [Porównanie 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: co jest lepsze? [Porównanie 2026]',
     comparisonArticleDescription: 'Porównaj Chrobox z {competitor} i sprawdź, która aplikacja pasuje do Twojego time-boxingu, planowania i pracy w skupieniu.',
   },
   tr: {
@@ -305,11 +310,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Şablonlar',
     compareLabel: 'Karşılaştır',
-    blogArticleTitle: 'Time-boxing rehberi: {title} | Chrobox Blog',
+    blogArticleTitle: '{title} | Chrobox Blog',
     blogArticleDescription: 'Time-boxing, verimlilik, odaklı planlama ve daha sakin bir günlük akış oluşturma hakkında bu Chrobox rehberini oku.',
     templateArticleTitle: '{profession} için günlük program şablonu | Ücretsiz time-boxing planı | Chrobox',
     templateArticleDescription: '{profession} için ücretsiz time-boxing günlük programı. Chrobox ile odaklı çalışma, molalar, idari işler ve gerçekçi rutinler planla.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: hangisi daha iyi? [2025 karşılaştırması]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: hangisi daha iyi? [2026 karşılaştırması]',
     comparisonArticleDescription: 'Chrobox ile {competitor} karşılaştırmasını incele ve time-boxing, planlama ve odak iş akışına en uygun uygulamayı gör.',
   },
   id: {
@@ -325,11 +330,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Template',
     compareLabel: 'Bandingkan',
-    blogArticleTitle: 'Panduan time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Baca panduan Chrobox tentang time-boxing, produktivitas, perencanaan fokus, dan cara membangun jadwal harian yang lebih tenang.',
     templateArticleTitle: 'Template jadwal harian untuk {profession} | Rencana time-boxing gratis | Chrobox',
     templateArticleDescription: 'Jadwal harian time-boxing gratis untuk {profession}. Rencanakan kerja fokus, istirahat, tugas admin, dan rutinitas realistis dengan Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: mana yang lebih baik? [Perbandingan 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: mana yang lebih baik? [Perbandingan 2026]',
     comparisonArticleDescription: 'Bandingkan Chrobox dengan {competitor} dan lihat aplikasi mana yang cocok untuk alur time-boxing, perencanaan, dan fokusmu.',
   },
   vi: {
@@ -345,11 +350,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Mẫu',
     compareLabel: 'So sánh',
-    blogArticleTitle: 'Hướng dẫn time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Đọc hướng dẫn Chrobox về time-boxing, năng suất, lập kế hoạch tập trung và xây dựng lịch trình hằng ngày bình tĩnh hơn.',
     templateArticleTitle: 'Mẫu lịch trình hằng ngày cho {profession} | Kế hoạch time-boxing miễn phí | Chrobox',
     templateArticleDescription: 'Lịch trình hằng ngày time-boxing miễn phí cho {profession}. Lên kế hoạch cho công việc tập trung, nghỉ ngơi, việc hành chính và thói quen thực tế với Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: ứng dụng nào tốt hơn? [So sánh 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: ứng dụng nào tốt hơn? [So sánh 2026]',
     comparisonArticleDescription: 'So sánh Chrobox với {competitor} và xem ứng dụng nào phù hợp với quy trình time-boxing, lập kế hoạch và tập trung của bạn.',
   },
   th: {
@@ -365,11 +370,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'บล็อก',
     templatesLabel: 'เทมเพลต',
     compareLabel: 'เปรียบเทียบ',
-    blogArticleTitle: 'คู่มือ time-boxing: {title} | บล็อก Chrobox',
+    blogArticleTitle: '{title} | บล็อก Chrobox',
     blogArticleDescription: 'อ่านคู่มือ Chrobox เกี่ยวกับ time-boxing ประสิทธิภาพ การวางแผนเพื่อโฟกัส และการสร้างตารางประจำวันที่สงบขึ้น',
     templateArticleTitle: 'เทมเพลตกำหนดการรายวันสำหรับ {profession} | แผน time-boxing ฟรี | Chrobox',
     templateArticleDescription: 'กำหนดการรายวันแบบ time-boxing ฟรีสำหรับ {profession} วางแผนงานที่ต้องโฟกัส พัก งานธุรการ และกิจวัตรที่ทำได้จริงด้วย Chrobox',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: อะไรดีกว่า? [เปรียบเทียบ 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: อะไรดีกว่า? [เปรียบเทียบ 2026]',
     comparisonArticleDescription: 'เปรียบเทียบ Chrobox กับ {competitor} และดูว่าแอปใดเหมาะกับ time-boxing การวางแผน และการโฟกัสของคุณ',
   },
   hi: {
@@ -385,11 +390,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'ब्लॉग',
     templatesLabel: 'टेम्पलेट',
     compareLabel: 'तुलना',
-    blogArticleTitle: 'Time-boxing guide: {title} | Chrobox Blog',
+    blogArticleTitle: '{title} | Chrobox Blog',
     blogArticleDescription: 'Time-boxing, productivity, focused planning और शांत दैनिक schedule बनाने के लिए यह Chrobox guide पढ़ें।',
     templateArticleTitle: '{profession} के लिए daily schedule template | Free time-boxing plan | Chrobox',
     templateArticleDescription: '{profession} के लिए मुफ्त time-boxing daily schedule। Chrobox से focused work, breaks, admin tasks और realistic routines plan करें।',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: कौन बेहतर है? [2025 Comparison]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: कौन बेहतर है? [2026 तुलना]',
     comparisonArticleDescription: 'Chrobox और {competitor} की तुलना करें और देखें कि time-boxing, planning और focus workflow के लिए कौन सा app बेहतर है।',
   },
   ar: {
@@ -405,11 +410,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'المدونة',
     templatesLabel: 'القوالب',
     compareLabel: 'مقارنة',
-    blogArticleTitle: 'دليل time-boxing: {title} | مدونة Chrobox',
+    blogArticleTitle: '{title} | مدونة Chrobox',
     blogArticleDescription: 'اقرأ دليل Chrobox حول time-boxing والإنتاجية والتخطيط المركز وبناء جدول يومي أكثر هدوءا.',
     templateArticleTitle: 'قالب جدول يومي لـ {profession} | خطة time-boxing مجانية | Chrobox',
     templateArticleDescription: 'جدول يومي مجاني بنظام time-boxing لـ {profession}. خطط للعمل المركز والاستراحات والمهام الإدارية والروتين الواقعي مع Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: أيهما أفضل؟ [مقارنة 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: أيهما أفضل؟ [مقارنة 2026]',
     comparisonArticleDescription: 'قارن Chrobox مع {competitor} لمعرفة التطبيق الأنسب لسير عمل time-boxing والتخطيط والتركيز لديك.',
   },
   ru: {
@@ -425,11 +430,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Блог',
     templatesLabel: 'Шаблоны',
     compareLabel: 'Сравнить',
-    blogArticleTitle: 'Руководство по time-boxing: {title} | Блог Chrobox',
+    blogArticleTitle: '{title} | Блог Chrobox',
     blogArticleDescription: 'Прочитайте руководство Chrobox о time-boxing, продуктивности, фокус-планировании и более спокойном ежедневном расписании.',
     templateArticleTitle: 'Шаблон ежедневного расписания для {profession} | Бесплатный time-boxing план | Chrobox',
     templateArticleDescription: 'Бесплатное ежедневное расписание с time-boxing для {profession}. Планируйте глубокую работу, перерывы, административные задачи и реалистичные рутины с Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: что лучше? [Сравнение 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: что лучше? [Сравнение 2026]',
     comparisonArticleDescription: 'Сравните Chrobox с {competitor} и узнайте, какое приложение лучше подходит для time-boxing, планирования и фокусной работы.',
   },
   ms: {
@@ -445,11 +450,11 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     blogLabel: 'Blog',
     templatesLabel: 'Templat',
     compareLabel: 'Bandingkan',
-    blogArticleTitle: 'Panduan time-boxing: {title} | Blog Chrobox',
+    blogArticleTitle: '{title} | Blog Chrobox',
     blogArticleDescription: 'Baca panduan Chrobox tentang time-boxing, produktiviti, perancangan fokus dan cara membina jadual harian yang lebih tenang.',
     templateArticleTitle: 'Templat jadual harian untuk {profession} | Pelan time-boxing percuma | Chrobox',
     templateArticleDescription: 'Jadual harian time-boxing percuma untuk {profession}. Rancang kerja fokus, rehat, tugasan pentadbiran dan rutin realistik dengan Chrobox.',
-    comparisonArticleTitle: 'Chrobox vs {competitor}: mana lebih baik? [Perbandingan 2025]',
+    comparisonArticleTitle: 'Chrobox vs {competitor}: mana lebih baik? [Perbandingan 2026]',
     comparisonArticleDescription: 'Bandingkan Chrobox dengan {competitor} dan lihat aplikasi mana yang sesuai untuk aliran time-boxing, perancangan dan fokus anda.',
   },
 };
@@ -474,6 +479,101 @@ function fillTemplate(template: string, values: Record<string, string>) {
     (text, [key, value]) => text.split(`{${key}}`).join(value),
     template,
   );
+}
+
+/**
+ * Google truncates titles by rendered width, not character count, so CJK and
+ * other full-width scripts cost roughly twice as much room per character.
+ * Budget is expressed in half-width units (~600px at default SERP rendering).
+ */
+const TITLE_WIDTH_BUDGET = 60;
+const TITLE_SEPARATOR = ' | ';
+const FULL_WIDTH_CHAR =
+  /[ᄀ-ᅟ⺀-〾ぁ-㏿㐀-䶿一-鿿ꀀ-꓏가-힣豈-﫿︐-︙︰-﹯＀-｠￠-￦]/;
+const TRAILING_BRACKET = /\s*[[(（【][^\])）】]*[\])）】]\s*$/;
+
+export function titleWidth(value: string) {
+  let width = 0;
+  for (const char of value) {
+    width += FULL_WIDTH_CHAR.test(char) ? 2 : 1;
+  }
+  return width;
+}
+
+/**
+ * Keeps a rendered title inside the SERP width budget without mangling the
+ * words that carry the keyword. Segments are dropped from the tail (brand
+ * suffixes first), and only then is a trailing bracketed qualifier removed.
+ * The leading segment is always preserved as-is.
+ */
+export function fitTitle(rendered: string, budget = TITLE_WIDTH_BUDGET) {
+  const trimmed = rendered.trim();
+
+  if (titleWidth(trimmed) <= budget) {
+    return trimmed;
+  }
+
+  const [head, ...rest] = trimmed.split(TITLE_SEPARATOR);
+  let title = head.trim();
+
+  for (const segment of rest) {
+    const candidate = `${title}${TITLE_SEPARATOR}${segment.trim()}`;
+    if (titleWidth(candidate) <= budget) {
+      title = candidate;
+    }
+  }
+
+  if (titleWidth(title) > budget) {
+    const withoutQualifier = title.replace(TRAILING_BRACKET, '').trim();
+    if (withoutQualifier && titleWidth(withoutQualifier) < titleWidth(title)) {
+      title = withoutQualifier;
+    }
+  }
+
+  if (titleWidth(title) > budget) {
+    title = truncateToWidth(title, budget);
+  }
+
+  return title;
+}
+
+/**
+ * Last-resort shortening for a single over-long segment. Prefers cutting at a
+ * clause boundary — the part before a colon or dash usually carries the
+ * keyword — then falls back to a word boundary with an ellipsis. Without this
+ * Google does the cutting itself, mid-word and without the ellipsis.
+ */
+function truncateToWidth(value: string, budget: number) {
+  // A clause cut is only worth it when it still fills most of the budget.
+  // Otherwise "Eat That Frog: How to Pair Brian Tracy's Method with
+  // Time-Boxing" collapses to "Eat That Frog" and loses the keyword.
+  const minClauseWidth = Math.round(budget * 0.6);
+
+  for (const match of [...value.matchAll(/[:–—?!.]\s/g)].reverse()) {
+    const clause = value.slice(0, match.index).trim();
+    const width = titleWidth(clause);
+    if (clause && width <= budget && width >= minClauseWidth) {
+      return clause;
+    }
+  }
+
+  let result = '';
+
+  for (const word of value.split(' ')) {
+    const candidate = result ? `${result} ${word}` : word;
+    if (titleWidth(`${candidate}…`) > budget) break;
+    result = candidate;
+  }
+
+  // Scripts without spaces (CJK, Thai) fall through to a character-wise cut.
+  if (!result) {
+    for (const char of value) {
+      if (titleWidth(`${result}${char}…`) > budget) break;
+      result += char;
+    }
+  }
+
+  return result ? `${result}…` : value;
 }
 
 export function localeFromPathSegment(segment: string | undefined): SiteLocale | undefined {
@@ -503,7 +603,7 @@ export function englishPathFromLocalizedPath(pathname: string) {
   return rest ? `/${rest}` : '/';
 }
 
-const CONTENT_LANGUAGE_LOCALES = new Set<SiteLocale>(['ko', 'ja', 'de', 'es', 'pt-BR']);
+const CONTENT_LANGUAGE_LOCALES = new Set<SiteLocale>(SEO_LOCALES.map((locale) => locale.code));
 
 export function contentLanguageForLocale(locale: SiteLocale): ContentLanguage {
   return (CONTENT_LANGUAGE_LOCALES.has(locale) ? locale : 'en') as ContentLanguage;
@@ -562,54 +662,30 @@ export function seoCopy(locale: SiteLocale) {
 }
 
 export function blogArticleSeo(locale: SiteLocale, title: string, excerpt: string) {
-  if (locale === 'en' || CONTENT_LANGUAGE_LOCALES.has(locale)) {
-    return {
-      title: fillTemplate(seoCopy(locale).blogArticleTitle, { title }),
-      description: excerpt,
-    };
-  }
-
-  const copy = seoCopy(locale);
   return {
-    title: fillTemplate(copy.blogArticleTitle, { title }),
-    description: copy.blogArticleDescription,
+    title: fitTitle(fillTemplate(seoCopy(locale).blogArticleTitle, { title })),
+    description: excerpt,
   };
 }
 
 export function templateArticleSeo(locale: SiteLocale, profession: string, description: string) {
-  if (locale === 'en' || locale === 'ko') {
-    return {
-      title: fillTemplate(seoCopy(locale).templateArticleTitle, { profession }),
-      description,
-    };
-  }
-
-  const copy = seoCopy(locale);
   return {
-    title: fillTemplate(copy.templateArticleTitle, { profession }),
-    description: fillTemplate(copy.templateArticleDescription, { profession }),
+    title: fitTitle(fillTemplate(seoCopy(locale).templateArticleTitle, { profession })),
+    description,
   };
 }
 
 export function comparisonArticleSeo(locale: SiteLocale, competitor: string, description: string) {
-  if (locale === 'en' || CONTENT_LANGUAGE_LOCALES.has(locale)) {
-    return {
-      title: fillTemplate(seoCopy(locale).comparisonArticleTitle, { competitor }),
-      description,
-    };
-  }
-
-  const copy = seoCopy(locale);
   return {
-    title: fillTemplate(copy.comparisonArticleTitle, { competitor }),
-    description: fillTemplate(copy.comparisonArticleDescription, { competitor }),
+    title: fitTitle(fillTemplate(seoCopy(locale).comparisonArticleTitle, { competitor })),
+    description,
   };
 }
 
 export function blogCategorySeo(locale: SiteLocale, name: string, description: string) {
   const suffix = locale === 'ko' ? 'Chrobox 블로그' : 'Chrobox Blog';
   return {
-    title: `${name} | ${suffix}`,
+    title: fitTitle(`${name}${TITLE_SEPARATOR}${suffix}`),
     description,
   };
 }

@@ -14,6 +14,7 @@ import {
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -27,6 +28,7 @@ const stagger = {
 
 export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const copy = seoCopy(locale);
   const homePath = localizedPath(locale, '/');
 
@@ -82,7 +84,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
               size="lg"
               style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}
             >
-              {lang === 'ko' ? '앱 비교' : 'App Comparisons'}
+              {ui.appComparisons}
             </Badge>
 
             <Text
@@ -96,9 +98,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                 maxWidth: '800px',
               }}
             >
-              {lang === 'ko'
-                ? 'Chrobox vs 다른 생산성 앱'
-                : 'Chrobox vs Popular Productivity Apps'}
+              {ui.comparisonListTitle}
             </Text>
 
             <Text
@@ -109,9 +109,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                 maxWidth: '600px',
               }}
             >
-              {lang === 'ko'
-                ? '타임박싱이 다른 작업 관리 앱과 어떻게 다른지 비교해보세요. 당신의 워크플로우에 맞는 앱을 찾으세요.'
-                : 'See how time-boxing stacks up against other task management apps. Find the right tool for your workflow.'}
+              {ui.comparisonListSubtitle}
             </Text>
           </motion.div>
         </Container>
@@ -122,10 +120,10 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
         <Container size="lg">
           <Group gap={40} wrap="wrap">
             {[
-              { value: `${comparisons.length}`, label: lang === 'ko' ? '앱 비교' : 'App Comparisons' },
-              { value: '6+', label: lang === 'ko' ? '기능별 비교' : 'Features Compared' },
-              { value: '100%', label: lang === 'ko' ? '편향 없는 분석' : 'Unbiased Analysis' },
-              { value: '2025', label: lang === 'ko' ? '최신 정보' : 'Up to Date' },
+              { value: `${comparisons.length}`, label: ui.appComparisons },
+              { value: '6+', label: ui.featuresCompared },
+              { value: '100%', label: ui.unbiasedAnalysis },
+              { value: '2025', label: ui.upToDate },
             ].map((stat) => (
               <Box key={stat.label}>
                 <Text style={{ fontSize: '22px', fontWeight: 800, color: 'white' }}>{stat.value}</Text>
@@ -212,7 +210,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                           lineHeight: 1.3,
                         }}
                       >
-                        {lang === 'ko' ? comparison.taglineKo : comparison.tagline}
+                        {comparison.tagline}
                       </Text>
 
                       <Text
@@ -228,16 +226,16 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                           flex: 1,
                         }}
                       >
-                        {lang === 'ko' ? comparison.descriptionKo : comparison.description}
+                        {comparison.description}
                       </Text>
 
                       <Group justify="space-between" align="center">
                         <Text size="xs" style={{ color: tokens.colors.gray400 }}>
-                          {comparison.features.length} {lang === 'ko' ? '기능 비교' : 'features compared'}
+                          {comparison.features.length} {ui.featuresComparedCount}
                         </Text>
                         <Group gap={6} style={{ color: tokens.colors.accent }}>
                           <Text size="sm" fw={600}>
-                            {lang === 'ko' ? '비교 보기' : 'Compare'}
+                            {ui.compare}
                           </Text>
                           <IconArrowRight size={16} />
                         </Group>
@@ -277,14 +275,10 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                   marginBottom: '12px',
                 }}
               >
-                {lang === 'ko'
-                  ? 'Chrobox를 직접 사용해보세요'
-                  : 'Try Chrobox for Yourself'}
+                {ui.comparisonListCtaTitle}
               </Text>
               <Text style={{ color: tokens.colors.gray400, marginBottom: '32px', fontSize: '16px' }}>
-                {lang === 'ko'
-                  ? '타임박싱으로 생산성을 혁신하세요. 무료 체험으로 시작하세요.'
-                  : 'Experience time-boxing and transform your productivity. Free to start.'}
+                {ui.comparisonListCtaSubtitle}
               </Text>
               <Group justify="center" gap={16} wrap="wrap">
                 <Box
@@ -305,7 +299,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                     textDecoration: 'none',
                   }}
                 >
-                  {lang === 'ko' ? 'App Store 다운로드' : 'Download on App Store'}
+                  {ui.downloadOnAppStore}
                 </Box>
                 <Box
                   component="a"
@@ -326,7 +320,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
                     border: `1px solid ${tokens.colors.gray600}`,
                   }}
                 >
-                  {lang === 'ko' ? 'Google Play 다운로드' : 'Get it on Google Play'}
+                  {ui.getItOnGooglePlay}
                 </Box>
               </Group>
             </Box>

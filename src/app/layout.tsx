@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   },
   description: copy.homeDescription,
   icons: {
-    icon: '/logo.png',
-    apple: '/logo.png',
+    icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
   category: 'productivity',

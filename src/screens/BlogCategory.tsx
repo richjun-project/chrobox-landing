@@ -12,8 +12,10 @@ import {
   contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
+  htmlLangForLocale,
 } from '../lib/seo';
-import type { BlogClusterDefinition } from '../lib/blogTaxonomy';
+import { clusterCopy, type BlogClusterDefinition } from '../lib/blogTaxonomy';
+import { articleCountLabel, uiCopy } from '../lib/uiCopy';
 
 interface BlogCategoryProps {
   cluster: BlogClusterDefinition;
@@ -22,6 +24,8 @@ interface BlogCategoryProps {
 
 export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
+  const category = clusterCopy(cluster, lang);
   const posts = getBlogPostsByCluster(cluster.slug, lang);
   const homePath = localizedPath(locale, '/');
   const blogPath = localizedPath(locale, '/blog');
@@ -69,7 +73,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                       textDecoration: 'none',
                     }}
                   >
-                    {lang === 'ko' ? '홈' : 'Home'}
+                    {ui.home}
                   </Box>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -85,7 +89,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                       textDecoration: 'none',
                     }}
                   >
-                    {lang === 'ko' ? '블로그' : 'Blog'}
+                    {ui.blog}
                   </Box>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -93,7 +97,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 </Box>
                 <Box component="li" aria-current="page">
                   <Text style={{ fontSize: '13px', color: tokens.colors.gray500 }}>
-                    {cluster.name[lang === 'ko' ? 'ko' : 'en']}
+                    {category.name}
                   </Text>
                 </Box>
               </Box>
@@ -107,7 +111,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginBottom: '16px',
               }}
             >
-              {lang === 'ko' ? '카테고리' : 'Category'}
+              {ui.category}
             </Badge>
 
             <Text
@@ -119,7 +123,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginBottom: '16px',
               }}
             >
-              {cluster.name[lang === 'ko' ? 'ko' : 'en']}
+              {category.name}
             </Text>
             <Text
               size="xl"
@@ -129,7 +133,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 lineHeight: 1.6,
               }}
             >
-              {cluster.description[lang === 'ko' ? 'ko' : 'en']}
+              {category.description}
             </Text>
             <Text
               size="sm"
@@ -138,13 +142,42 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginTop: '16px',
               }}
             >
-              {posts.length} {lang === 'ko' ? '개의 글' : posts.length === 1 ? 'article' : 'articles'}
+              {posts.length} {articleCountLabel(posts.length, lang)}
             </Text>
           </motion.div>
         </Container>
       </Box>
 
       <Container size="lg" py={80}>
+        {/* Long-form category primer. Listing pages were otherwise ~150 words
+            of post titles, which read as thin content to search engines. */}
+        {category.intro.length > 0 && (
+          <Box
+            component="section"
+            mb={64}
+            style={{
+              maxWidth: '760px',
+              borderLeft: `3px solid ${tokens.colors.accent}`,
+              paddingLeft: '24px',
+            }}
+          >
+            {category.intro.map((paragraph, index) => (
+              <Text
+                key={index}
+                component="p"
+                style={{
+                  fontSize: '16px',
+                  lineHeight: 1.75,
+                  color: tokens.colors.gray600,
+                  margin: index === 0 ? '0 0 16px' : '0 0 16px',
+                }}
+              >
+                {paragraph}
+              </Text>
+            ))}
+          </Box>
+        )}
+
         {hubPost && (
           <Box mb={64}>
             <Group gap={8} mb={24}>
@@ -158,7 +191,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                   margin: 0,
                 }}
               >
-                {lang === 'ko' ? '핵심 가이드' : 'Pillar Guide'}
+                {ui.pillarGuide}
               </Text>
             </Group>
             <motion.div
@@ -226,7 +259,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                       </Text>
                       <Group gap={8} style={{ color: tokens.colors.accent }}>
                         <Text size="sm" fw={600}>
-                          {lang === 'ko' ? '가이드 읽기' : 'Read the guide'}
+                          {ui.readTheGuide}
                         </Text>
                         <IconArrowRight size={16} />
                       </Group>
@@ -249,7 +282,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginBottom: '24px',
               }}
             >
-              {lang === 'ko' ? '관련 가이드' : 'Related Guides'}
+              {ui.relatedGuides}
             </Text>
             <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing={32}>
               {spokePosts.map((post, index) => (
@@ -296,7 +329,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                           <Group gap={6}>
                             <IconCalendar size={14} style={{ color: tokens.colors.gray400 }} />
                             <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                              {new Date(post.date).toLocaleDateString(lang === 'ko' ? 'ko-KR' : 'en-US', {
+                              {new Date(post.date).toLocaleDateString(htmlLangForLocale(locale), {
                                 year: 'numeric',
                                 month: 'short',
                                 day: 'numeric',
@@ -306,7 +339,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                           <Group gap={6}>
                             <IconClock size={14} style={{ color: tokens.colors.gray400 }} />
                             <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                              {post.readTime} {lang === 'ko' ? '분' : 'min'}
+                              {post.readTime} {ui.min}
                             </Text>
                           </Group>
                         </Group>
@@ -345,7 +378,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
 
                         <Group gap={8} style={{ color: tokens.colors.accent }}>
                           <Text size="sm" fw={600}>
-                            {lang === 'ko' ? '읽기' : 'Read more'}
+                            {ui.readMore}
                           </Text>
                           <IconArrowRight size={16} />
                         </Group>

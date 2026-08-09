@@ -5,10 +5,11 @@ import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge } from '@mantine/core';
 import { IconArrowRight, IconClock } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { scheduleTemplates, categoryColors } from '../data/scheduleTemplates';
+import { scheduleTemplates, categoryColors, localizeScheduleTemplate } from '../data/scheduleTemplates';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { contentLanguageForLocale, localizedPath, type SiteLocale } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -22,6 +23,7 @@ const stagger = {
 
 export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -41,7 +43,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
               size="lg"
               style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}
             >
-              {lang === 'ko' ? '무료 템플릿' : 'Free Templates'}
+              {ui.freeTemplates}
             </Badge>
             <Text
               component="h1"
@@ -54,9 +56,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                 maxWidth: '800px',
               }}
             >
-              {lang === 'ko'
-                ? '모든 직업을 위한 하루 일정 템플릿'
-                : 'Daily Schedule Templates for Every Profession'}
+              {ui.templatesListTitle}
             </Text>
             <Text
               style={{
@@ -66,9 +66,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                 maxWidth: '600px',
               }}
             >
-              {lang === 'ko'
-                ? '전문가들이 검증한 타임박싱 플랜으로 당신의 하루를 최적화하세요.'
-                : 'Optimize your day with proven time-boxing plans crafted for your specific role.'}
+              {ui.templatesListSubtitle}
             </Text>
           </motion.div>
         </Container>
@@ -79,10 +77,10 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
         <Container size="lg">
           <Group gap={40} wrap="wrap">
             {[
-              { value: `${scheduleTemplates.length}`, label: lang === 'ko' ? '직업 템플릿' : 'Profession Templates' },
-              { value: '8–12', label: lang === 'ko' ? '일일 타임블록' : 'Daily Time Blocks' },
-              { value: '3–5', label: lang === 'ko' ? '맞춤 생산성 팁' : 'Custom Productivity Tips' },
-              { value: '100%', label: lang === 'ko' ? '무료' : 'Free to Use' },
+              { value: `${scheduleTemplates.length}`, label: ui.professionTemplates },
+              { value: '8–12', label: ui.dailyTimeBlocks },
+              { value: '3–5', label: ui.customProductivityTips },
+              { value: '100%', label: ui.freeToUse },
             ].map((stat) => (
               <Box key={stat.label}>
                 <Text style={{ fontSize: '22px', fontWeight: 800, color: 'white' }}>{stat.value}</Text>
@@ -143,7 +141,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             lineHeight: 1.3,
                           }}
                         >
-                          {lang === 'ko' ? template.professionKo : template.profession}
+                          {localizeScheduleTemplate(template, lang).profession}
                         </Text>
 
                         <Text
@@ -159,7 +157,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             flex: 1,
                           }}
                         >
-                          {lang === 'ko' ? template.descriptionKo : template.description}
+                          {localizeScheduleTemplate(template, lang).description}
                         </Text>
 
                         <Box>
@@ -167,7 +165,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             <Group gap={6}>
                               <IconClock size={14} style={{ color: tokens.colors.gray400 }} />
                               <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                                {template.schedule.length} {lang === 'ko' ? '타임블록' : 'time blocks'}
+                                {template.schedule.length} {ui.timeBlocks}
                               </Text>
                             </Group>
                           </Group>
@@ -188,7 +186,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             </Group>
                             <Group gap={6} style={{ color: tokens.colors.accent }}>
                               <Text size="sm" fw={600}>
-                                {lang === 'ko' ? '보기' : 'View'}
+                                {ui.view}
                               </Text>
                               <IconArrowRight size={16} />
                             </Group>
@@ -230,14 +228,10 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                   marginBottom: '12px',
                 }}
               >
-                {lang === 'ko'
-                  ? 'Chrobox로 이 템플릿을 실제로 사용해보세요'
-                  : 'Put These Templates to Work with Chrobox'}
+                {ui.templatesCtaTitle}
               </Text>
               <Text style={{ color: tokens.colors.gray400, marginBottom: '32px', fontSize: '16px' }}>
-                {lang === 'ko'
-                  ? '타임박싱 앱으로 오늘부터 시작하세요. 무료 체험.'
-                  : 'The time-boxing app that turns plans into results. Free to start.'}
+                {ui.templatesCtaSubtitle}
               </Text>
               <Group justify="center" gap={16} wrap="wrap">
                 <Box
@@ -258,7 +252,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                     textDecoration: 'none',
                   }}
                 >
-                  {lang === 'ko' ? 'App Store' : 'App Store'}
+                  {'App Store'}
                 </Box>
                 <Box
                   component="a"
@@ -279,7 +273,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                     border: `1px solid ${tokens.colors.gray600}`,
                   }}
                 >
-                  {lang === 'ko' ? 'Google Play' : 'Google Play'}
+                  {'Google Play'}
                 </Box>
               </Group>
             </Box>

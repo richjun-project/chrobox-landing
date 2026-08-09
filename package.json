@@ -10,7 +10,9 @@
     "build:prerender": "npm run build",
     "audit:seo": "node scripts/audit-seo.mjs",
     "lint": "eslint .",
-    "preview": "serve out"
+    "preview": "serve out",
+    "i18n:translate": "node scripts/i18n-translate.mjs",
+    "audit:i18n": "node scripts/audit-i18n.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

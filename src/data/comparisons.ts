@@ -679,8 +679,34 @@ export function localizeComparisonData(
   comparison: ComparisonData,
   lang?: ContentLanguage,
 ): ComparisonData {
-  if (!lang || lang === 'en' || lang === 'ko') {
+  if (!lang || lang === 'en') {
     return comparison;
+  }
+
+  // Korean is authored inline on the source record; resolving it here too lets
+  // consumers read one shape for every locale instead of branching on `ko`.
+  if (lang === 'ko') {
+    return {
+      ...comparison,
+      competitor: comparison.competitorKo || comparison.competitor,
+      tagline: comparison.taglineKo || comparison.tagline,
+      description: comparison.descriptionKo || comparison.description,
+      metaDescription: comparison.metaDescriptionKo || comparison.metaDescription,
+      features: comparison.features.map((feature) => ({
+        ...feature,
+        name: feature.nameKo || feature.name,
+      })),
+      chroboxPros: comparison.chroboxProsKo?.length ? comparison.chroboxProsKo : comparison.chroboxPros,
+      competitorPros: comparison.competitorProsKo?.length
+        ? comparison.competitorProsKo
+        : comparison.competitorPros,
+      verdict: comparison.verdictKo || comparison.verdict,
+      faqs: comparison.faqs.map((faq) => ({
+        ...faq,
+        question: faq.questionKo || faq.question,
+        answer: faq.answerKo || faq.answer,
+      })),
+    };
   }
 
   const copy = LOCALIZED_CONTENT[lang]?.comparisons[comparison.slug];

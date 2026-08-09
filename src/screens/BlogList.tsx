@@ -7,17 +7,20 @@ import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image } from '@ma
 import { IconClock, IconCalendar, IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { getBlogPosts } from '../data/blogPosts';
-import { BLOG_CLUSTERS } from '../lib/blogTaxonomy';
+import { clusterCopy, BLOG_CLUSTERS } from '../lib/blogTaxonomy';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
   contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
+  htmlLangForLocale,
 } from '../lib/seo';
+import { uiCopy } from '../lib/uiCopy';
 
 export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
   const lang = contentLanguageForLocale(locale);
+  const ui = uiCopy(lang);
   const posts = getBlogPosts(lang);
   const homePath = localizedPath(locale, '/');
   const router = useRouter();
@@ -63,7 +66,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                       textDecoration: 'none',
                     }}
                   >
-                    {lang === 'ko' ? '홈' : 'Home'}
+                    {ui.home}
                   </Box>
                 </Box>
                 <Box component="li" aria-hidden="true" style={{ display: 'flex', alignItems: 'center', padding: '0 4px' }}>
@@ -71,7 +74,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 </Box>
                 <Box component="li" aria-current="page">
                   <Text style={{ fontSize: '13px', color: tokens.colors.gray500 }}>
-                    {lang === 'ko' ? '블로그' : 'Blog'}
+                    {ui.blog}
                   </Text>
                 </Box>
               </Box>
@@ -86,7 +89,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 marginBottom: '16px',
               }}
             >
-              {lang === 'ko' ? '블로그' : 'Blog'}
+              {ui.blog}
             </Text>
             <Text
               size="xl"
@@ -95,9 +98,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 maxWidth: '600px',
               }}
             >
-              {lang === 'ko'
-                ? '타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다.'
-                : 'Insights, tips, and strategies on time-boxing and productivity.'}
+              {ui.blogListSubtitle}
             </Text>
           </motion.div>
         </Container>
@@ -131,7 +132,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 e.currentTarget.style.color = tokens.colors.gray700;
               }}
             >
-              {cluster.name[lang === 'ko' ? 'ko' : 'en']}
+              {clusterCopy(cluster, lang).name}
             </Box>
           ))}
         </Box>
@@ -226,7 +227,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                       <Group gap={6}>
                         <IconCalendar size={14} style={{ color: tokens.colors.gray400 }} />
                         <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                          {new Date(post.date).toLocaleDateString(lang === 'ko' ? 'ko-KR' : 'en-US', {
+                          {new Date(post.date).toLocaleDateString(htmlLangForLocale(locale), {
                             year: 'numeric',
                             month: 'short',
                             day: 'numeric',
@@ -236,7 +237,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                       <Group gap={6}>
                         <IconClock size={14} style={{ color: tokens.colors.gray400 }} />
                         <Text size="xs" style={{ color: tokens.colors.gray500 }}>
-                          {post.readTime} {lang === 'ko' ? '분' : 'min'}
+                          {post.readTime} {ui.min}
                         </Text>
                       </Group>
                     </Group>
@@ -275,7 +276,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
 
                     <Group gap={8} style={{ color: tokens.colors.accent }}>
                       <Text size="sm" fw={600}>
-                        {lang === 'ko' ? '읽기' : 'Read more'}
+                        {ui.readMore}
                       </Text>
                       <IconArrowRight size={16} />
                     </Group>
