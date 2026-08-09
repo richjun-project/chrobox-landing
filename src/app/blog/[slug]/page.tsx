@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { BlogPost } from '../../../screens/BlogPost';
 import { JsonLd } from '../../../components/JsonLd';
-import { getBlogContent, getBlogPost } from '../../../data/blogPosts';
+import { getBlogContent, getBlogPost, translatedBlogLocales } from '../../../data/blogPosts';
 import { blogSlugParams, type SlugParam } from '../../_route-helpers';
 import { pageMetadata } from '../../../lib/next-seo';
-import { absoluteUrl, blogArticleSeo, htmlLangForLocale, localizedPath, seoCopy } from '../../../lib/seo';
+import { absoluteUrl, blogArticleSeo, htmlLangForLocale, localizedPath, seoCopy, truncateAtSentence } from '../../../lib/seo';
 import { getClusterBySlug } from '../../../lib/blogTaxonomy';
 
 export const dynamic = 'force-static';
@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: { params: SlugParam }): Promi
     description: seo.description,
     type: 'article',
     image: post.image,
+    locales: translatedBlogLocales(post.slug),
   });
   const cluster = getClusterBySlug(post.slug);
 
@@ -107,10 +108,11 @@ export default async function Page({ params }: { params: SlugParam }) {
             logo: { '@type': 'ImageObject', url: absoluteUrl('/logo.png') },
           },
           datePublished: post.date,
+          dateModified: post.updated ?? post.date,
           mainEntityOfPage: postUrl,
           articleSection,
           keywords: post.tags.join(', '),
-          articleBody: content.slice(0, 5000),
+          articleBody: truncateAtSentence(content, 5000),
         }}
       />
       <JsonLd
@@ -121,6 +123,21 @@ export default async function Page({ params }: { params: SlugParam }) {
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
+      {post.itemList && (
+        <JsonLd
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'ItemList',
+            itemListOrder: 'https://schema.org/ItemListOrderAscending',
+            numberOfItems: post.itemList.length,
+            itemListElement: post.itemList.map((name, index) => ({
+              '@type': 'ListItem',
+              position: index + 1,
+              name,
+            })),
+          }}
+        />
+      )}
       <BlogPost slug={post.slug} locale="en" />
     </>
   );

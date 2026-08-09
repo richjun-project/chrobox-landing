@@ -171,5 +171,34 @@
     "about": "Over ons",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
+  },
+  "homeFaq": {
+    "title": "Veelgestelde vragen",
+    "definition": {
+      "title": "Wat is timeboxing?",
+      "body": "Timeboxing is een tijdmanagementtechniek waarbij je elke taak een vast tijdsblok in je agenda geeft — een \"time box\" — en alleen aan die taak werkt tot het blok afloopt. In plaats van een open eindeloze takenlijst wordt je dag een reeks concrete afspraken met jezelf: 9:00–9:45 rapport schrijven, 9:45–10:00 e-mail beantwoorden. Omdat elk blok een harde start- en eindtijd heeft, dwingt timeboxing je om te prioriteren wat werkelijk in een dag past, voorkomt het dat één taak een hele middag opslokt (de wet van Parkinson), en maakt het uitstelgedrag zichtbaar zodra een blok wordt overschreden. Onderzoek naar implementatie-intenties toont aan dat het vooraf bepalen van wanneer en waar je iets gaat doen de kans dat je het daadwerkelijk doet aanzienlijk vergroot. Chrobox automatiseert deze cyclus: brainstorm taken, kies prioriteiten, plaats ze in uurblokken en evalueer je dag daarna met een AI-ondersteunde terugblik."
+    },
+    "items": {
+      "whatIsChrobox": {
+        "question": "Wat is Chrobox?",
+        "answer": "Chrobox is een timeboxing-planner-app voor iOS en Android die dagplanning, app-blokkering, routinetracking en AI-gestuurde terugblikken combineert. Je brainstormt taken, kiest je belangrijkste prioriteiten, wijst elke taak een tijdslot toe op een visuele uurtijdlijn en sluit de dag af met een begeleide evaluatie die wekelijkse AI-productiviteitsinzichten voedt."
+      },
+      "isFree": {
+        "question": "Is Chrobox gratis?",
+        "answer": "Ja. Het gratis abonnement biedt dagplanning met maximaal drie taken per dag, de visuele tijdlijn en terugblikken. Chrobox Pro verwijdert de taaklimiet en voegt AI-inzichten, geavanceerde statistieken, homescreen-widgets en prioriteitsondersteuning toe — met een gratis proefperiode van 3 dagen, daarna $4,99/maand, $39,99/jaar, of een eenmalige levenslange aankoop van $99,99."
+      },
+      "vsTimeBlocking": {
+        "question": "Hoe verschilt timeboxing van time blocking en Pomodoro?",
+        "answer": "Time blocking reserveert agendaruimte voor categorieën werk; timeboxing gaat verder door elke specifieke taak een eigen vast, eindig blok te geven. Pomodoro gebruikt uniforme intervallen van 25 minuten, ongeacht de taak. Bij timeboxing wordt elk blok afgestemd op de taak zelf, waardoor het beter geschikt is om een hele realistische dag te plannen in plaats van alleen focus vol te houden."
+      },
+      "appBlocking": {
+        "question": "Kan Chrobox afleidende apps blokkeren?",
+        "answer": "Ja. Tijdens een focussessie kan Chrobox de apps blokkeren die je kiest — sociale media, games of iets anders — op zowel iOS (via Screen Time / Family Controls) als Android. Blokkering is gekoppeld aan je tijdsblokken, zodat afleidingen precies worden vergrendeld wanneer je diep werk had gepland, en weer worden vrijgegeven zodra het blok eindigt."
+      },
+      "platforms": {
+        "question": "Welke platforms ondersteunt Chrobox?",
+        "answer": "Chrobox werkt op iPhone en Android-telefoons, met lockscreen- en homescreen-widgets plus een Live Activity-timer op iOS. Je plannen, routines en statistieken synchroniseren tussen apparaten met één account, en de interface is beschikbaar in 21 talen, waaronder Engels, Koreaans, Japans, Duits en Spaans."
+      }
+    }
   }
 }

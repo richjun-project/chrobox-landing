@@ -171,5 +171,34 @@
     "about": "About Us",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
+  },
+  "homeFaq": {
+    "title": "Frequently Asked Questions",
+    "definition": {
+      "title": "What is timeboxing?",
+      "body": "Timeboxing is a time management technique where you assign every task a fixed slot in your calendar — a \"time box\" — and work on only that task until the box ends. Instead of an open-ended to-do list, your day becomes a sequence of concrete appointments with yourself: 9:00–9:45 write the report, 9:45–10:00 answer email. Because each box has a hard start and end, timeboxing forces you to prioritize what actually fits in a day, prevents single tasks from swallowing whole afternoons (Parkinson's law), and makes procrastination visible the moment a box slips. Research on implementation intentions shows that deciding when and where you will do something dramatically raises the odds you actually do it. Chrobox automates this loop: brainstorm tasks, pick priorities, drop them into hourly boxes, then review your day with an AI-assisted retrospective."
+    },
+    "items": {
+      "whatIsChrobox": {
+        "question": "What is Chrobox?",
+        "answer": "Chrobox is a timeboxing planner app for iOS and Android that combines daily planning, app blocking, routine tracking, and AI-powered retrospectives. You brainstorm tasks, pick your top priorities, assign each one a time slot on a visual hourly timeline, and finish the day with a guided review that feeds weekly AI productivity insights."
+      },
+      "isFree": {
+        "question": "Is Chrobox free?",
+        "answer": "Yes. The free plan includes daily planning with up to three tasks per day, the visual timeline, and retrospectives. Chrobox Pro removes the task limit and adds AI insights, advanced statistics, home widgets, and priority support — with a 3-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase."
+      },
+      "vsTimeBlocking": {
+        "question": "How is timeboxing different from time blocking and Pomodoro?",
+        "answer": "Time blocking reserves calendar space for categories of work; timeboxing goes further by giving each specific task its own fixed, finite box. Pomodoro uses uniform 25-minute intervals regardless of the task. Timeboxing sizes each box to the task itself, which makes it better for planning a whole realistic day rather than just sustaining focus."
+      },
+      "appBlocking": {
+        "question": "Can Chrobox block distracting apps?",
+        "answer": "Yes. During a focus session Chrobox can block the apps you choose — social media, games, or anything else — on both iOS (via Screen Time / Family Controls) and Android. Blocking is tied to your time boxes, so distractions are locked exactly when you planned deep work, and released when the box ends."
+      },
+      "platforms": {
+        "question": "Which platforms does Chrobox support?",
+        "answer": "Chrobox runs on iPhone and Android phones, with lock-screen and home-screen widgets plus a Live Activity timer on iOS. Your plans, routines, and statistics sync across devices with one account, and the interface is available in 21 languages including English, Korean, Japanese, German, and Spanish."
+      }
+    }
   }
 }

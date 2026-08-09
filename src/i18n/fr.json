@@ -171,5 +171,34 @@
     "about": "À propos",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
+  },
+  "homeFaq": {
+    "title": "Foire aux questions",
+    "definition": {
+      "title": "Qu'est-ce que le timeboxing ?",
+      "body": "Le timeboxing est une technique de gestion du temps qui consiste à attribuer à chaque tâche un créneau fixe dans votre calendrier — une « boîte de temps » — et à ne travailler que sur cette tâche jusqu'à la fin du créneau. Au lieu d'une liste de tâches ouverte, votre journée devient une suite de rendez-vous concrets avec vous-même : 9h00–9h45 rédiger le rapport, 9h45–10h00 répondre aux e-mails. Comme chaque boîte a un début et une fin stricts, le timeboxing vous oblige à prioriser ce qui tient réellement dans une journée, empêche une seule tâche d'engloutir des après-midi entières (loi de Parkinson) et rend la procrastination visible dès qu'une boîte dérape. Les recherches sur les intentions de mise en œuvre montrent que décider quand et où vous ferez quelque chose augmente considérablement vos chances de le faire réellement. Chrobox automatise ce cycle : faites un brainstorming de tâches, choisissez vos priorités, placez-les dans des créneaux horaires, puis passez en revue votre journée avec un bilan assisté par IA."
+    },
+    "items": {
+      "whatIsChrobox": {
+        "question": "Qu'est-ce que Chrobox ?",
+        "answer": "Chrobox est une application de planification par timeboxing pour iOS et Android qui combine planification quotidienne, blocage d'applications, suivi des routines et bilans assistés par IA. Vous faites un brainstorming de tâches, choisissez vos priorités principales, attribuez à chacune un créneau horaire sur une chronologie visuelle, puis terminez la journée par un bilan guidé qui alimente des analyses de productivité hebdomadaires par IA."
+      },
+      "isFree": {
+        "question": "Chrobox est-il gratuit ?",
+        "answer": "Oui. Le forfait gratuit comprend la planification quotidienne jusqu'à trois tâches par jour, la chronologie visuelle et les bilans. Chrobox Pro supprime la limite de tâches et ajoute des analyses IA, des statistiques avancées, des widgets pour l'écran d'accueil et une assistance prioritaire — avec un essai gratuit de 3 jours, puis 4,99 $/mois, 39,99 $/an, ou un achat unique à vie de 99,99 $."
+      },
+      "vsTimeBlocking": {
+        "question": "En quoi le timeboxing diffère-t-il du time blocking et de la méthode Pomodoro ?",
+        "answer": "Le time blocking réserve des créneaux du calendrier à des catégories de travail ; le timeboxing va plus loin en attribuant à chaque tâche spécifique sa propre boîte fixe et limitée. La méthode Pomodoro utilise des intervalles uniformes de 25 minutes, quelle que soit la tâche. Le timeboxing dimensionne chaque boîte en fonction de la tâche elle-même, ce qui le rend plus adapté pour planifier une journée entière et réaliste plutôt que simplement maintenir la concentration."
+      },
+      "appBlocking": {
+        "question": "Chrobox peut-il bloquer les applications qui distraient ?",
+        "answer": "Oui. Pendant une session de concentration, Chrobox peut bloquer les applications de votre choix — réseaux sociaux, jeux ou autres — sur iOS (via Temps d'écran / Family Controls) comme sur Android. Le blocage est lié à vos créneaux de temps, de sorte que les distractions sont verrouillées exactement quand vous avez prévu du travail en profondeur, et libérées à la fin du créneau."
+      },
+      "platforms": {
+        "question": "Quelles plateformes Chrobox prend-il en charge ?",
+        "answer": "Chrobox fonctionne sur iPhone et téléphones Android, avec des widgets pour l'écran verrouillé et l'écran d'accueil, ainsi qu'un minuteur Live Activity sur iOS. Vos plans, routines et statistiques se synchronisent entre appareils avec un seul compte, et l'interface est disponible en 21 langues, dont l'anglais, le coréen, le japonais, l'allemand et l'espagnol."
+      }
+    }
   }
 }

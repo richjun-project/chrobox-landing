@@ -171,5 +171,34 @@
     "about": "Tentang Kami",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
+  },
+  "homeFaq": {
+    "title": "Soalan Lazim",
+    "definition": {
+      "title": "Apakah itu timeboxing?",
+      "body": "Timeboxing ialah teknik pengurusan masa di mana anda memperuntukkan setiap tugasan satu slot tetap dalam kalendar anda — sebuah \"time box\" — dan hanya bekerja pada tugasan tersebut sehingga box itu tamat. Berbanding senarai tugasan yang terbuka tanpa had, hari anda menjadi satu siri janji temu konkrit dengan diri sendiri: 9:00–9:45 tulis laporan, 9:45–10:00 balas emel. Oleh sebab setiap box mempunyai waktu mula dan tamat yang tegas, timeboxing memaksa anda mengutamakan apa yang benar-benar muat dalam sehari, mengelakkan satu tugasan daripada menelan keseluruhan petang (hukum Parkinson), dan menjadikan penangguhan (procrastination) kelihatan jelas sebaik sahaja sesuatu box tergelincir. Kajian mengenai niat pelaksanaan (implementation intentions) menunjukkan bahawa membuat keputusan tentang bila dan di mana anda akan melakukan sesuatu secara ketara meningkatkan kemungkinan anda benar-benar melakukannya. Chrobox mengautomasikan kitaran ini: sumbang saran tugasan, pilih keutamaan, masukkan ke dalam box mengikut jam, kemudian tinjau semula hari anda dengan retrospektif berbantukan AI."
+    },
+    "items": {
+      "whatIsChrobox": {
+        "question": "Apakah itu Chrobox?",
+        "answer": "Chrobox ialah aplikasi perancang timeboxing untuk iOS dan Android yang menggabungkan perancangan harian, penyekatan aplikasi, penjejakan rutin, dan retrospektif berkuasa AI. Anda sumbang saran tugasan, pilih keutamaan utama anda, tetapkan setiap satu ke satu slot masa pada garis masa visual mengikut jam, dan tamatkan hari itu dengan semakan berpandu yang menyumbang kepada wawasan produktiviti AI mingguan."
+      },
+      "isFree": {
+        "question": "Adakah Chrobox percuma?",
+        "answer": "Ya. Pelan percuma termasuk perancangan harian dengan sehingga tiga tugasan sehari, garis masa visual, dan retrospektif. Chrobox Pro menghapuskan had tugasan dan menambah wawasan AI, statistik lanjutan, widget skrin utama, dan sokongan keutamaan — dengan percubaan percuma 3 hari, kemudian $4.99/bulan, $39.99/tahun, atau pembelian sekali sahaja seumur hidup pada $99.99."
+      },
+      "vsTimeBlocking": {
+        "question": "Apakah bezanya timeboxing dengan time blocking dan Pomodoro?",
+        "answer": "Time blocking memperuntukkan ruang kalendar untuk kategori kerja; timeboxing melangkah lebih jauh dengan memberikan setiap tugasan tertentu box tetap dan terhad tersendiri. Pomodoro menggunakan selang masa seragam 25 minit tanpa mengira tugasan. Timeboxing menetapkan saiz setiap box mengikut tugasan itu sendiri, menjadikannya lebih sesuai untuk merancang keseluruhan hari yang realistik berbanding sekadar mengekalkan fokus."
+      },
+      "appBlocking": {
+        "question": "Bolehkah Chrobox menyekat aplikasi yang mengganggu tumpuan?",
+        "answer": "Ya. Semasa sesi fokus, Chrobox boleh menyekat aplikasi pilihan anda — media sosial, permainan, atau apa-apa sahaja lain — pada kedua-dua iOS (melalui Screen Time / Family Controls) dan Android. Penyekatan dikaitkan dengan time box anda, jadi gangguan disekat tepat pada masa anda merancang kerja mendalam, dan dilepaskan apabila box itu tamat."
+      },
+      "platforms": {
+        "question": "Platform apakah yang disokong oleh Chrobox?",
+        "answer": "Chrobox berfungsi pada iPhone dan telefon Android, dengan widget skrin kunci dan skrin utama serta pemasa Live Activity pada iOS. Pelan, rutin, dan statistik anda disegerakkan merentasi peranti dengan satu akaun, dan antara muka tersedia dalam 21 bahasa termasuk Bahasa Inggeris, Korea, Jepun, Jerman, dan Sepanyol."
+      }
+    }
   }
 }

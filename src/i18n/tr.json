@@ -171,5 +171,34 @@
     "about": "Hakkımızda",
     "blog": "Blog",
     "copyright": "© 2024 Chrobox. All rights reserved."
+  },
+  "homeFaq": {
+    "title": "Sıkça Sorulan Sorular",
+    "definition": {
+      "title": "Timeboxing nedir?",
+      "body": "Timeboxing, her göreve takviminizde sabit bir zaman dilimi — bir \"time box\" — atadığınız ve bu kutu sona erene kadar yalnızca o görev üzerinde çalıştığınız bir zaman yönetimi tekniğidir. Açık uçlu bir yapılacaklar listesi yerine, gününüz kendinizle yaptığınız somut randevuların bir dizisi haline gelir: 09:00–09:45 raporu yaz, 09:45–10:00 e-postaları yanıtla. Her kutunun kesin bir başlangıcı ve bitişi olduğundan, timeboxing bir güne gerçekten sığacak şeylere öncelik vermeye zorlar, tek bir görevin tüm öğleden sonrayı yutmasını engeller (Parkinson yasası) ve bir kutu kaydığı anda erteleme davranışını görünür kılar. Uygulama niyetleri (implementation intentions) üzerine yapılan araştırmalar, bir şeyi ne zaman ve nerede yapacağınıza karar vermenin, onu gerçekten yapma olasılığınızı büyük ölçüde artırdığını gösteriyor. Chrobox bu döngüyü otomatikleştirir: görevleri beyin fırtınasıyla belirleyin, öncelikleri seçin, bunları saatlik kutulara yerleştirin, ardından gününüzü yapay zeka destekli bir retrospektifle gözden geçirin."
+    },
+    "items": {
+      "whatIsChrobox": {
+        "question": "Chrobox nedir?",
+        "answer": "Chrobox, günlük planlama, uygulama engellemeyi, rutin takibini ve yapay zeka destekli retrospektifleri bir araya getiren iOS ve Android için bir timeboxing planlayıcı uygulamasıdır. Görevleri beyin fırtınasıyla belirlersiniz, en önemli önceliklerinizi seçersiniz, her birine görsel bir saatlik zaman çizelgesinde bir zaman dilimi atarsınız ve günü, haftalık yapay zeka üretkenlik içgörülerini besleyen rehberli bir gözden geçirmeyle bitirirsiniz."
+      },
+      "isFree": {
+        "question": "Chrobox ücretsiz mi?",
+        "answer": "Evet. Ücretsiz plan, günde en fazla üç görevle günlük planlamayı, görsel zaman çizelgesini ve retrospektifleri içerir. Chrobox Pro, görev sınırını kaldırır ve yapay zeka içgörüleri, gelişmiş istatistikler, ana ekran widget'ları ve öncelikli destek ekler — 3 günlük ücretsiz deneme, ardından ayda $4.99, yılda $39.99 veya tek seferlik $99.99 ömür boyu satın alma ile."
+      },
+      "vsTimeBlocking": {
+        "question": "Timeboxing, time blocking ve Pomodoro'dan nasıl farklıdır?",
+        "answer": "Time blocking, iş kategorileri için takvimde yer ayırır; timeboxing ise her belirli göreve kendi sabit ve sonlu kutusunu vererek daha da ileri gider. Pomodoro, görev ne olursa olsun tek tip 25 dakikalık aralıklar kullanır. Timeboxing ise her kutunun boyutunu görevin kendisine göre ayarlar, bu da onu sadece odaklanmayı sürdürmek için değil, tüm gerçekçi bir günü planlamak için daha uygun hale getirir."
+      },
+      "appBlocking": {
+        "question": "Chrobox dikkat dağıtıcı uygulamaları engelleyebilir mi?",
+        "answer": "Evet. Bir odaklanma oturumu sırasında Chrobox, seçtiğiniz uygulamaları — sosyal medya, oyunlar veya başka herhangi bir şeyi — hem iOS'ta (Screen Time / Family Controls aracılığıyla) hem de Android'de engelleyebilir. Engelleme, zaman kutularınıza bağlıdır, böylece dikkat dağıtıcılar tam olarak derin çalışma planladığınız zamanda kilitlenir ve kutu bittiğinde serbest bırakılır."
+      },
+      "platforms": {
+        "question": "Chrobox hangi platformları destekliyor?",
+        "answer": "Chrobox, iPhone ve Android telefonlarda çalışır; kilit ekranı ve ana ekran widget'larının yanı sıra iOS'ta bir Live Activity zamanlayıcısı sunar. Planlarınız, rutinleriniz ve istatistikleriniz tek bir hesapla cihazlar arasında senkronize edilir ve arayüz İngilizce, Korece, Japonca, Almanca ve İspanyolca dahil 21 dilde mevcuttur."
+      }
+    }
   }
 }

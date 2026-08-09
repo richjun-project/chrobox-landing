@@ -632,9 +632,12 @@ export function absoluteUrl(path: string) {
   return path === '/' ? `${SITE_URL}/` : `${SITE_URL}${path}`;
 }
 
-export function hreflangAlternates(englishPath: string) {
+export function hreflangAlternates(englishPath: string, locales?: readonly SiteLocale[]) {
   const path = normalizedEnglishPath(englishPath);
-  const alternates = SEO_LOCALES.filter((locale) => INDEXABLE_LOCALES.has(locale.code)).map((locale) => ({
+  const allowed = locales ? new Set(locales) : null;
+  const alternates = SEO_LOCALES.filter(
+    (locale) => INDEXABLE_LOCALES.has(locale.code) && (!allowed || allowed.has(locale.code)),
+  ).map((locale) => ({
     hrefLang: locale.code,
     href: absoluteUrl(localizedPath(locale.code, path)),
   }));
@@ -688,4 +691,17 @@ export function blogCategorySeo(locale: SiteLocale, name: string, description: s
     title: fitTitle(`${name}${TITLE_SEPARATOR}${suffix}`),
     description,
   };
+}
+
+export function truncateAtSentence(text: string, maxLength: number) {
+  if (text.length <= maxLength) return text;
+  const slice = text.slice(0, maxLength);
+  const lastEnd = Math.max(
+    slice.lastIndexOf('. '),
+    slice.lastIndexOf('.\n'),
+    slice.lastIndexOf('다. '),
+    slice.lastIndexOf('! '),
+    slice.lastIndexOf('? '),
+  );
+  return lastEnd > maxLength * 0.5 ? slice.slice(0, lastEnd + 1) : slice;
 }

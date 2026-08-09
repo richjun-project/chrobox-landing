@@ -2,7 +2,7 @@
 
 import { Box } from '@mantine/core';
 import { motion } from 'framer-motion';
-import { Navbar, Hero, Features, HowItWorks, Pricing, Download, Footer } from '../components';
+import { Navbar, Hero, Features, HowItWorks, Pricing, Download, Footer, HomeFaq } from '../components';
 import { BlogSection } from '../components/BlogSection';
 
 export function Home() {
@@ -31,6 +31,9 @@ export function Home() {
 
         {/* Pricing Section */}
         <Pricing />
+
+        {/* FAQ Section */}
+        <HomeFaq />
 
         {/* Blog Section */}
         <BlogSection />

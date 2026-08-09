@@ -1,11 +1,34 @@
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { writeFileSync } from 'fs';
+import { createJiti } from 'jiti';
 import { BASE_URL, SEO_LOCALES, getSeoRouteGroups, urlForPath } from './seo-routes.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
 const SITEMAP_PATH = join(PROJECT_ROOT, 'public', 'sitemap.xml');
+
+// Translation coverage gate: a blog URL only enters the sitemap (and its
+// hreflang cluster) when the locale actually has a translated body. Untranslated
+// locales fall back to English at render time — advertising those URLs to
+// crawlers as localized content invites soft-duplicate indexing.
+const jiti = createJiti(import.meta.url, { interopDefault: true });
+const { LOCALIZED_CONTENT } = await jiti.import(join(PROJECT_ROOT, 'src/data/localized/index.ts'));
+const { blogContents } = await jiti.import(join(PROJECT_ROOT, 'src/data/blogPosts.ts'));
+
+function blogSlugFromPath(enPath) {
+  const match = enPath.match(/^\/blog\/(?!category\/)([^/]+)$/);
+  return match ? match[1] : null;
+}
+
+function localeAllowed(group, localeCode) {
+  if (group.section !== 'blog') return true;
+  const slug = blogSlugFromPath(group.enPath);
+  if (!slug) return true;
+  if (localeCode === 'en') return Boolean(blogContents.en?.[slug]);
+  if (localeCode === 'ko') return Boolean(blogContents.ko?.[slug]);
+  return Boolean(LOCALIZED_CONTENT[localeCode]?.blogContents?.[slug]);
+}
 
 function escapeXml(value) {
   return String(value)
@@ -18,7 +41,9 @@ function escapeXml(value) {
 
 function renderUrlEntry(path, group) {
   const alternates = [
-    ...SEO_LOCALES.map((locale) => [locale.code, urlForPath(group.paths[locale.code])]),
+    ...SEO_LOCALES.filter((locale) => localeAllowed(group, locale.code)).map(
+      (locale) => [locale.code, urlForPath(group.paths[locale.code])],
+    ),
     ['x-default', urlForPath(group.enPath)],
   ];
 
@@ -42,9 +67,19 @@ for (const group of getSeoRouteGroups()) {
   groupsBySection.get(section).push(group);
 }
 
+let gatedUrlCount = 0;
+
 function renderUrlset(groups) {
   const body = groups
-    .flatMap((group) => Object.values(group.paths).map((path) => renderUrlEntry(path, group)))
+    .flatMap((group) =>
+      Object.entries(group.paths).flatMap(([localeCode, path]) => {
+        if (!localeAllowed(group, localeCode)) {
+          gatedUrlCount += 1;
+          return [];
+        }
+        return [renderUrlEntry(path, group)];
+      }),
+    )
     .join('\n\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -64,10 +99,11 @@ for (const section of SECTION_ORDER) {
 
   const filename = `sitemap-${section}.xml`;
   const path = join(PROJECT_ROOT, 'public', filename);
-  writeFileSync(path, renderUrlset(groups));
+  const xml = renderUrlset(groups);
+  writeFileSync(path, xml);
 
   const lastmod = groups.reduce((latest, group) => (group.lastmod > latest ? group.lastmod : latest), '0000-00-00');
-  const urlCount = groups.reduce((sum, group) => sum + Object.keys(group.paths).length, 0);
+  const urlCount = (xml.match(/<url>/g) || []).length;
   sections.push({ filename, lastmod, urlCount });
   console.log(`Generated public/${filename} (${urlCount} URLs)`);
 }
@@ -85,3 +121,4 @@ ${sections
 
 writeFileSync(SITEMAP_PATH, index);
 console.log(`Generated ${SITEMAP_PATH} (index of ${sections.length} sitemaps, ${sections.reduce((sum, s) => sum + s.urlCount, 0)} URLs)`);
+console.log(`Translation gate: excluded ${gatedUrlCount} untranslated blog URLs from the sitemap.`);

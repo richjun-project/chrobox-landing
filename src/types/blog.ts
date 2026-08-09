@@ -23,6 +23,8 @@ export interface BlogPostMeta {
   slug: string;
   title: string;
   date: string;
+  /** ISO date of the last substantive content revision; falls back to `date` in schema. */
+  updated?: string;
   author: string;
   category: string;
   tags: string[];
@@ -31,6 +33,8 @@ export interface BlogPostMeta {
   readTime: number;
   lang: 'en' | 'ko';
   faqs?: BlogFaq[];
+  /** Ranked item names for listicle posts; emitted as ItemList JSON-LD. */
+  itemList?: string[];
   clusterId?: string;
   clusterSlug?: string;
   hubSlug?: string;

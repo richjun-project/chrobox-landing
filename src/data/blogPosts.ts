@@ -290,10 +290,34 @@ export const getBlogPostsByCluster = (clusterSlug: string, lang: ContentLanguage
   return getBlogPosts(lang).filter((post) => post.clusterSlug === clusterSlug);
 };
 
+// Content batches come in two shapes: lang-first ({en: {slug: body}}) and
+// slug-first ({slug: {en: body}}). Both satisfy Record<string, Record<string, string>>,
+// so spreading `.en` on a slug-first batch silently drops every post in it —
+// normalize to lang-first before merging.
+const asLangFirst = (
+  batch: Record<string, Record<string, string>>,
+): { en: Record<string, string>; ko: Record<string, string> } => {
+  if (batch.en || batch.ko) {
+    return { en: batch.en ?? {}, ko: batch.ko ?? {} };
+  }
+  const en: Record<string, string> = {};
+  const ko: Record<string, string> = {};
+  for (const [slug, byLang] of Object.entries(batch)) {
+    if (byLang.en) en[slug] = byLang.en;
+    if (byLang.ko) ko[slug] = byLang.ko;
+  }
+  return { en, ko };
+};
+
+const normalizedBatches = [
+  contentBatch1, contentBatch2, contentBatch3, contentBatch4,
+  contentBatch5, contentBatch6, contentBatch7, contentBatch8,
+].map(asLangFirst);
+
 // Blog post content (markdown)
 export const blogContents: Record<string, Record<string, string>> = {
   en: {
-    ...contentBatch1.en, ...contentBatch2.en, ...contentBatch3.en, ...contentBatch4.en, ...contentBatch5.en, ...contentBatch6.en, ...contentBatch7.en, ...contentBatch8.en,
+    ...Object.assign({}, ...normalizedBatches.map((batch) => batch.en)),
     'what-is-time-boxing': `
 # What is Time-Boxing? The Ultimate Guide to Mastering Your Time
 
@@ -517,7 +541,7 @@ There's no universally "better" technique—only what works better for you. Expe
     `,
   },
   ko: {
-    ...contentBatch1.ko, ...contentBatch2.ko, ...contentBatch3.ko, ...contentBatch4.ko, ...contentBatch5.ko, ...contentBatch6.ko, ...contentBatch7.ko, ...contentBatch8.ko,
+    ...Object.assign({}, ...normalizedBatches.map((batch) => batch.ko)),
     'what-is-time-boxing': `
 # 타임박싱이란? 시간을 마스터하는 완벽 가이드
 
@@ -638,6 +662,18 @@ Chrobox는 이러한 모든 타임박싱 전략을 지원합니다.
 선호하는 기법과 함께 작동하도록 설계되었습니다.
     `,
   },
+};
+
+// Locales whose blog body is genuinely translated (no English fallback). Keeps the
+// on-page hreflang cluster consistent with the sitemap's translation gate.
+export const translatedBlogLocales = (slug: string): ContentLanguage[] => {
+  const locales: ContentLanguage[] = [];
+  if (blogContents.en?.[slug]) locales.push('en');
+  if (blogContents.ko?.[slug]) locales.push('ko');
+  for (const [lang, pack] of Object.entries(LOCALIZED_CONTENT)) {
+    if (pack?.blogContents[slug]) locales.push(lang as ContentLanguage);
+  }
+  return locales;
 };
 
 export const getBlogContent = (slug: string, lang: ContentLanguage): string => {

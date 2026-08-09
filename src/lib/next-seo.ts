@@ -17,15 +17,17 @@ type PageMetadataInput = {
   description: string;
   type?: 'website' | 'article';
   image?: string;
+  /** Restrict the hreflang cluster to locales that actually have translated content. */
+  locales?: readonly SiteLocale[];
 };
 
 function absoluteAssetUrl(url: string) {
   return /^https?:\/\//.test(url) ? url : absoluteUrl(url);
 }
 
-export function languageAlternates(englishPath: string) {
+export function languageAlternates(englishPath: string, locales?: readonly SiteLocale[]) {
   return Object.fromEntries(
-    hreflangAlternates(englishPath).map((alternate) => [alternate.hrefLang, alternate.href]),
+    hreflangAlternates(englishPath, locales).map((alternate) => [alternate.hrefLang, alternate.href]),
   );
 }
 
@@ -36,6 +38,7 @@ export function pageMetadata({
   description,
   type = 'website',
   image = '/og-image.png',
+  locales,
 }: PageMetadataInput): Metadata {
   const canonicalPath = localizedPath(locale, englishPath);
   const canonicalUrl = absoluteUrl(canonicalPath);
@@ -49,7 +52,7 @@ export function pageMetadata({
     description,
     alternates: {
       canonical: canonicalUrl,
-      languages: languageAlternates(englishPath),
+      languages: languageAlternates(englishPath, locales),
     },
     openGraph: {
       title,
@@ -82,13 +85,23 @@ const APP_STORE_URL =
   'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
 
+// Store-verified ratings — update alongside the stores, never hand-edit upward.
+// 2026-08-09: App Store KR 4.0★ × 9 ratings (iTunes lookup API), Play 5.0★ × 5 ratings
+// (Play page JSON-LD). Combined weighted: (4.0×9 + 5.0×5) / 14 = 4.36 → 4.4.
+export const STORE_RATING = { value: '4.4', count: 14 };
+
 export function organizationSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Chrobox',
     url: SITE_URL,
-    logo: absoluteUrl('/logo.png'),
+    logo: {
+      '@type': 'ImageObject',
+      url: absoluteUrl('/logo.png'),
+      width: 512,
+      height: 512,
+    },
     sameAs: [APP_STORE_URL, PLAY_STORE_URL],
   };
 }
@@ -120,10 +133,38 @@ export function softwareApplicationSchema(description: string) {
       absoluteUrl('/screenshots/en/8.webp'),
       absoluteUrl('/screenshots/en/6.webp'),
     ],
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
+    offers: [
+      {
+        '@type': 'Offer',
+        name: 'Free',
+        price: '0',
+        priceCurrency: 'USD',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Pro Monthly',
+        price: '4.99',
+        priceCurrency: 'USD',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Pro Yearly',
+        price: '39.99',
+        priceCurrency: 'USD',
+      },
+      {
+        '@type': 'Offer',
+        name: 'Pro Lifetime',
+        price: '99.99',
+        priceCurrency: 'USD',
+      },
+    ],
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: STORE_RATING.value,
+      ratingCount: STORE_RATING.count,
+      bestRating: '5',
+      worstRating: '1',
     },
     publisher: { '@type': 'Organization', name: 'Chrobox', url: SITE_URL },
   };
