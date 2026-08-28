@@ -18,6 +18,11 @@ const COMPANY_INFO = {
   phone: '010-4549-2094',
 };
 
+// LLMO: the same URL declared in Organization.sameAs (lib/next-seo.ts). A
+// crawlable visible link reinforces the entity link that the structured data
+// only asserts — keep the two in sync if the handle ever changes.
+const THREADS_URL = 'https://www.threads.com/@chrobox';
+
 const LEGAL_LINKS = {
   privacy: 'https://relic-baboon-412.notion.site/2bc766a8bb4680839471f31909f3958c',
   terms: 'https://relic-baboon-412.notion.site/2bc766a8bb46804daf77d521e89435ac',
@@ -50,6 +55,28 @@ export function Footer() {
             <Text size="md" style={{ color: tokens.colors.gray500, lineHeight: 1.7 }}>
               {t('footer.tagline')}
             </Text>
+            <motion.div whileHover={{ x: 4 }} style={{ width: 'fit-content' }}>
+              <Anchor
+                href={THREADS_URL}
+                target="_blank"
+                rel="me noopener noreferrer"
+                underline="never"
+                aria-label="Chrobox on Threads"
+                style={{
+                  color: tokens.colors.gray500,
+                  fontSize: '14px',
+                  transition: 'color 0.2s ease',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = tokens.colors.accent;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = tokens.colors.gray500;
+                }}
+              >
+                Threads @chrobox
+              </Anchor>
+            </motion.div>
           </Stack>
 
           {/* Explore (sitemap hub links) */}

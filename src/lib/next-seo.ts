@@ -84,6 +84,11 @@ export function pageMetadata({
 const APP_STORE_URL =
   'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
+// LLMO entity linking: sameAs declares "these surfaces are the same entity", so
+// models stop splitting the brand across them. Only official, verified accounts
+// belong here — a wrong or dead URL weakens the entity instead of reinforcing it.
+// Verified 2026-08-28: canonical host is threads.com (threads.net aliases to it).
+const THREADS_URL = 'https://www.threads.com/@chrobox';
 
 // Store-verified ratings — update alongside the stores, never hand-edit upward.
 // 2026-08-09: App Store KR 4.0★ × 9 ratings (iTunes lookup API), Play 5.0★ × 5 ratings
@@ -102,7 +107,7 @@ export function organizationSchema() {
       width: 512,
       height: 512,
     },
-    sameAs: [APP_STORE_URL, PLAY_STORE_URL],
+    sameAs: [APP_STORE_URL, PLAY_STORE_URL, THREADS_URL],
   };
 }
 
