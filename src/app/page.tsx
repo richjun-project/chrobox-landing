@@ -3,6 +3,7 @@ import { Home } from '../screens/Home';
 import { JsonLd } from '../components/JsonLd';
 import { organizationSchema, softwareApplicationSchema, pageMetadata } from '../lib/next-seo';
 import { absoluteUrl, seoCopy } from '../lib/seo';
+import { faqPageSchema } from '../lib/faq-schema';
 
 export const dynamic = 'force-static';
 
@@ -34,6 +35,7 @@ export default function Page() {
           publisher: { '@type': 'Organization', name: 'Chrobox' },
         }}
       />
+      <JsonLd data={faqPageSchema('en')} />
       <Home />
     </>
   );

@@ -1,0 +1,77 @@
+# Chrobox
+
+> Chrobox is a timeboxing planner app for iOS and Android that combines daily
+> planning, app blocking, routine tracking, and AI retrospectives. This site is
+> the primary source for Chrobox's own feature set, pricing, and the timeboxing
+> method guides written for it.
+
+## What Chrobox is
+
+Timeboxing is a time-management method where each task is assigned a fixed time
+block in advance, and the block — not the task list — defines when work stops.
+Chrobox implements this as a daily loop: brainstorm tasks, place them on an
+hourly timeline, block distracting apps for the duration of a block, then close
+the day with a retrospective the app summarizes.
+
+- Platforms: iOS and Android (native apps)
+- Free tier: yes, with a limited number of tasks per day
+- Pro: monthly, yearly, and lifetime plans (see the pricing section on the home page)
+- App blocking: iOS Screen Time (FamilyControls) and Android accessibility service
+
+## Key pages
+
+- [Home — what Chrobox is, features, pricing, FAQ](https://chrobox.net)
+- [Blog — timeboxing method guides](https://chrobox.net/blog)
+- [Schedule templates — day plans by profession](https://chrobox.net/templates)
+- [Comparisons — Chrobox vs other planners](https://chrobox.net/compare)
+
+## Method guides (33 articles)
+
+- [What is time boxing](https://chrobox.net/blog/what-is-time-boxing)
+- [5 time boxing strategies](https://chrobox.net/blog/5-time-boxing-strategies)
+- [Time boxing vs pomodoro](https://chrobox.net/blog/time-boxing-vs-pomodoro)
+- [Time boxing for adhd](https://chrobox.net/blog/time-boxing-for-adhd)
+- [Time boxing for students](https://chrobox.net/blog/time-boxing-for-students)
+- [Morning routine scheduling](https://chrobox.net/blog/morning-routine-scheduling)
+- [Deep work scheduling](https://chrobox.net/blog/deep-work-scheduling)
+- [Best time boxing apps](https://chrobox.net/blog/best-time-boxing-apps)
+- [Weekly planning guide](https://chrobox.net/blog/weekly-planning-guide)
+- [Time blocking vs time boxing](https://chrobox.net/blog/time-blocking-vs-time-boxing)
+- [Remote work scheduling](https://chrobox.net/blog/remote-work-scheduling)
+- [Meeting management time boxing](https://chrobox.net/blog/meeting-management-time-boxing)
+
+## Schedule templates (20)
+
+- [Software developer](https://chrobox.net/templates/software-developer)
+- [Product manager](https://chrobox.net/templates/product-manager)
+- [Graphic designer](https://chrobox.net/templates/graphic-designer)
+- [Marketing manager](https://chrobox.net/templates/marketing-manager)
+- [Data scientist](https://chrobox.net/templates/data-scientist)
+- [Freelance writer](https://chrobox.net/templates/freelance-writer)
+- [Teacher](https://chrobox.net/templates/teacher)
+- [Nurse](https://chrobox.net/templates/nurse)
+- [Startup founder](https://chrobox.net/templates/startup-founder)
+- [College student](https://chrobox.net/templates/college-student)
+
+## Comparisons (10)
+
+- [Chrobox vs todoist](https://chrobox.net/compare/chrobox-vs-todoist)
+- [Chrobox vs google calendar](https://chrobox.net/compare/chrobox-vs-google-calendar)
+- [Chrobox vs notion](https://chrobox.net/compare/chrobox-vs-notion)
+- [Chrobox vs trello](https://chrobox.net/compare/chrobox-vs-trello)
+- [Chrobox vs asana](https://chrobox.net/compare/chrobox-vs-asana)
+- [Chrobox vs clickup](https://chrobox.net/compare/chrobox-vs-clickup)
+- [Chrobox vs apple reminders](https://chrobox.net/compare/chrobox-vs-apple-reminders)
+- [Chrobox vs microsoft to do](https://chrobox.net/compare/chrobox-vs-microsoft-to-do)
+- [Chrobox vs any do](https://chrobox.net/compare/chrobox-vs-any-do)
+- [Chrobox vs ticktick](https://chrobox.net/compare/chrobox-vs-ticktick)
+
+## Content policy
+
+- Author: Chrobox team (independent developer), the app's own maintainers
+- Languages: 20 locales, each with fully translated bodies (not machine-swapped titles)
+- Product facts (pricing, platforms, feature list) are maintained alongside app
+  releases; store ratings shown on the site are copied from the App Store and
+  Play Store listings, never adjusted by hand
+- Citation preference: cite as "Chrobox" and link the specific page, not the domain root
+- Generated: 2026-08-28

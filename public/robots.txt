@@ -5,5 +5,47 @@
 User-agent: *
 Allow: /
 
+# ── AI crawlers ─────────────────────────────────────────────────────────────
+# Explicit policy, not left to the wildcard: citation traffic is the goal, so
+# training, AI-search indexing, and live user fetches are all allowed.
+# Blocking the search/fetch agents would remove Chrobox from AI answers entirely.
+# Vendor agent names change — re-check each vendor's crawler docs quarterly.
+
+# Training corpora (future model brand knowledge)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# AI search indexes (ChatGPT / Claude / Perplexity search)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Live fetch at answer time (direct citation + referral traffic)
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
 # Sitemap index (sections: pages, categories, blog, templates, compare)
 Sitemap: https://chrobox.net/sitemap.xml

@@ -4,6 +4,7 @@ import { Home } from '../../screens/Home';
 import { JsonLd } from '../../components/JsonLd';
 import { organizationSchema, softwareApplicationSchema, pageMetadata } from '../../lib/next-seo';
 import { absoluteUrl, seoCopy } from '../../lib/seo';
+import { faqPageSchema } from '../../lib/faq-schema';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../_route-helpers';
 
 export const dynamic = 'force-static';
@@ -55,6 +56,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
           publisher: { '@type': 'Organization', name: 'Chrobox' },
         }}
       />
+      <JsonLd data={faqPageSchema(locale)} />
       <Home />
     </>
   );

@@ -6,14 +6,15 @@
   "scripts": {
     "dev": "next dev",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
-    "build": "npm run generate:sitemap && next build && node scripts/postbuild-html-lang.mjs",
+    "build": "npm run generate:sitemap && npm run generate:llms && next build && node scripts/postbuild-html-lang.mjs",
     "build:prerender": "npm run build",
     "audit:seo": "node scripts/audit-seo.mjs",
     "lint": "eslint .",
     "preview": "serve out",
     "i18n:translate": "node scripts/i18n-translate.mjs",
     "audit:i18n": "node scripts/audit-i18n.mjs",
-    "indexnow": "node scripts/indexnow-submit.mjs"
+    "indexnow": "node scripts/indexnow-submit.mjs",
+    "generate:llms": "node scripts/generate-llms-txt.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
