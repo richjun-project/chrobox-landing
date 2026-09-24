@@ -36,6 +36,12 @@ export function Navbar() {
     const search = typeof window === 'undefined' ? '' : window.location.search;
     const hash = typeof window === 'undefined' ? '' : window.location.hash;
     const nextPath = `${localizedPath(targetLocale, englishPath)}${search}${hash}`;
+    // An explicit pick must win over the browser language on the unprefixed route.
+    try {
+      localStorage.setItem('language', targetLocale);
+    } catch {
+      // Storage can be unavailable (private mode); the URL still carries the locale.
+    }
     router.push(nextPath);
     setMobileMenuOpen(false);
   };
