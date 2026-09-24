@@ -43,7 +43,12 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
 
   const lang = contentLanguageForLocale(locale);
   const category = clusterCopy(cluster, lang);
-  const seo = blogCategorySeo(locale, category.name, category.description);
+  const seo = blogCategorySeo(
+    locale,
+    category.name,
+    category.description,
+    getBlogPostsByCluster(cluster.slug, contentLanguageForLocale(locale)).map((post) => post.title),
+  );
 
   return pageMetadata({
     locale,

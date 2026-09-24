@@ -31,7 +31,12 @@ export async function generateMetadata({ params }: { params: SlugParam }): Promi
     notFound();
   }
 
-  const seo = blogCategorySeo('en', cluster.name.en, cluster.description.en);
+  const seo = blogCategorySeo(
+    'en',
+    cluster.name.en,
+    cluster.description.en,
+    getBlogPostsByCluster(cluster.slug, 'en').map((post) => post.title),
+  );
 
   return pageMetadata({
     locale: 'en',

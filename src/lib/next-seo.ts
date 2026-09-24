@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import {
   SITE_URL,
   absoluteUrl,
+  fitDescription,
   fitTitle,
   hreflangAlternates,
   htmlLangForLocale,
@@ -51,7 +52,7 @@ export function pageMetadata({
 
   return {
     title: serpTitle,
-    description,
+    description: fitDescription(description),
     alternates: {
       canonical: canonicalUrl,
       languages: languageAlternates(englishPath, locales),

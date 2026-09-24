@@ -664,6 +664,56 @@ export function seoCopy(locale: SiteLocale) {
   return SEO_COPY[locale] ?? SEO_COPY[DEFAULT_LOCALE];
 }
 
+// Meta descriptions: Google cuts snippets around 155–160 Latin characters
+// (≈ 80 full-width CJK). Same width model as titles: CJK counts double.
+const DESCRIPTION_WIDTH_BUDGET = 160;
+const SENTENCE_END = /[.!?。！？؟।]["'”’)]?(?=\s|$)/g;
+
+/**
+ * Trims a meta description to the snippet budget at a sentence boundary when one
+ * keeps most of the text. Without a clean boundary the text is left whole —
+ * a hand-made mid-sentence "…" is no better than Google's own pixel truncation.
+ * OG/Twitter keep the full text either way.
+ */
+export function fitDescription(value: string, budget = DESCRIPTION_WIDTH_BUDGET) {
+  const text = value.trim().replace(/\s+/g, ' ');
+
+  if (titleWidth(text) <= budget) {
+    return text;
+  }
+
+  const minWidth = Math.round(budget * 0.55);
+  let best = '';
+
+  for (const match of text.matchAll(SENTENCE_END)) {
+    const candidate = text.slice(0, (match.index ?? 0) + match[0].length).trim();
+    if (titleWidth(candidate) > budget) break;
+    best = candidate;
+  }
+
+  return best && titleWidth(best) >= minWidth ? best : text;
+}
+
+/**
+ * Category descriptions are one short line; pad them with the real titles of the
+ * posts they contain so the snippet says what is actually on the page.
+ */
+export function withExampleTitles(description: string, titles: string[], budget = DESCRIPTION_WIDTH_BUDGET) {
+  let result = description.trim();
+
+  if (titleWidth(result) >= budget * 0.7) {
+    return result;
+  }
+
+  for (const [index, title] of titles.entries()) {
+    const candidate = `${result}${index === 0 ? ' ' : ' · '}${title}`;
+    if (titleWidth(candidate) > budget) break;
+    result = candidate;
+  }
+
+  return result;
+}
+
 export function blogArticleSeo(locale: SiteLocale, title: string, excerpt: string) {
   return {
     title: fitTitle(fillTemplate(seoCopy(locale).blogArticleTitle, { title })),
@@ -685,11 +735,11 @@ export function comparisonArticleSeo(locale: SiteLocale, competitor: string, des
   };
 }
 
-export function blogCategorySeo(locale: SiteLocale, name: string, description: string) {
+export function blogCategorySeo(locale: SiteLocale, name: string, description: string, postTitles: string[] = []) {
   const suffix = locale === 'ko' ? 'Chrobox 블로그' : 'Chrobox Blog';
   return {
     title: fitTitle(`${name}${TITLE_SEPARATOR}${suffix}`),
-    description,
+    description: withExampleTitles(description, postTitles),
   };
 }
 
