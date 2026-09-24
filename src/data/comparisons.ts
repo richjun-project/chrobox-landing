@@ -675,6 +675,62 @@ export const comparisons: ComparisonData[] = [
   },
 ];
 
+// Feature-table cells that hold text instead of a checkmark. Short fixed labels,
+// translated here once rather than per comparison in the content packs.
+const FEATURE_VALUE_LABELS: Record<string, Partial<Record<ContentLanguage, string>>> = {
+  Limited: {
+    ko: '제한적', ja: '限定的', 'zh-CN': '有限', 'zh-TW': '有限', es: 'Limitado', fr: 'Limité',
+    de: 'Eingeschränkt', 'pt-BR': 'Limitado', it: 'Limitato', nl: 'Beperkt', pl: 'Ograniczone',
+    tr: 'Sınırlı', id: 'Terbatas', vi: 'Hạn chế', th: 'จำกัด', hi: 'सीमित', ar: 'محدود',
+    ru: 'Ограниченно', ms: 'Terhad',
+  },
+  'Trial available': {
+    ko: '체험판 제공', ja: '無料トライアルあり', 'zh-CN': '提供试用', 'zh-TW': '提供試用',
+    es: 'Prueba disponible', fr: 'Essai disponible', de: 'Testversion verfügbar',
+    'pt-BR': 'Teste disponível', it: 'Prova disponibile', nl: 'Proefversie beschikbaar',
+    pl: 'Dostępna wersja próbna', tr: 'Deneme sürümü var', id: 'Tersedia uji coba',
+    vi: 'Có bản dùng thử', th: 'มีรุ่นทดลองใช้', hi: 'ट्रायल उपलब्ध', ar: 'تتوفر نسخة تجريبية',
+    ru: 'Есть пробный период', ms: 'Percubaan tersedia',
+  },
+  'Manual setup': {
+    ko: '수동 설정', ja: '手動で設定', 'zh-CN': '需手动设置', 'zh-TW': '需手動設定',
+    es: 'Configuración manual', fr: 'Configuration manuelle', de: 'Manuelle Einrichtung',
+    'pt-BR': 'Configuração manual', it: 'Configurazione manuale', nl: 'Handmatige instelling',
+    pl: 'Ręczna konfiguracja', tr: 'Manuel kurulum', id: 'Pengaturan manual',
+    vi: 'Thiết lập thủ công', th: 'ตั้งค่าเอง', hi: 'मैन्युअल सेटअप', ar: 'إعداد يدوي',
+    ru: 'Ручная настройка', ms: 'Tetapan manual',
+  },
+  'Via database': {
+    ko: '데이터베이스로 구현', ja: 'データベースで対応', 'zh-CN': '通过数据库', 'zh-TW': '透過資料庫',
+    es: 'Mediante base de datos', fr: 'Via une base de données', de: 'Über Datenbank',
+    'pt-BR': 'Via banco de dados', it: 'Tramite database', nl: 'Via database',
+    pl: 'Przez bazę danych', tr: 'Veritabanı ile', id: 'Melalui database',
+    vi: 'Qua cơ sở dữ liệu', th: 'ผ่านฐานข้อมูล', hi: 'डेटाबेस के ज़रिए', ar: 'عبر قاعدة بيانات',
+    ru: 'Через базу данных', ms: 'Melalui pangkalan data',
+  },
+  'Power-Up': {
+    ko: 'Power-Up(확장 기능)', ja: 'Power-Up（拡張機能）', 'zh-CN': 'Power-Up（扩展）',
+    'zh-TW': 'Power-Up（擴充功能）', es: 'Power-Up (extensión)', fr: 'Power-Up (extension)',
+    de: 'Power-Up (Erweiterung)', 'pt-BR': 'Power-Up (extensão)', it: 'Power-Up (estensione)',
+    nl: 'Power-Up (extensie)', pl: 'Power-Up (rozszerzenie)', tr: 'Power-Up (eklenti)',
+    id: 'Power-Up (ekstensi)', vi: 'Power-Up (tiện ích mở rộng)', th: 'Power-Up (ส่วนขยาย)',
+    hi: 'Power-Up (एक्सटेंशन)', ar: 'Power-Up (إضافة)', ru: 'Power-Up (расширение)',
+    ms: 'Power-Up (sambungan)',
+  },
+  'Via integration': {
+    ko: '연동으로 지원', ja: '連携で対応', 'zh-CN': '通过集成', 'zh-TW': '透過整合',
+    es: 'Mediante integración', fr: 'Via une intégration', de: 'Über Integration',
+    'pt-BR': 'Via integração', it: 'Tramite integrazione', nl: 'Via integratie',
+    pl: 'Przez integrację', tr: 'Entegrasyon ile', id: 'Melalui integrasi',
+    vi: 'Qua tích hợp', th: 'ผ่านการเชื่อมต่อ', hi: 'इंटीग्रेशन के ज़रिए', ar: 'عبر التكامل',
+    ru: 'Через интеграцию', ms: 'Melalui integrasi',
+  },
+};
+
+function localizeFeatureValue(value: boolean | string, lang: ContentLanguage): boolean | string {
+  return typeof value === 'string' ? FEATURE_VALUE_LABELS[value]?.[lang] ?? value : value;
+}
+
 export function localizeComparisonData(
   comparison: ComparisonData,
   lang?: ContentLanguage,
@@ -695,6 +751,8 @@ export function localizeComparisonData(
       features: comparison.features.map((feature) => ({
         ...feature,
         name: feature.nameKo || feature.name,
+        chrobox: localizeFeatureValue(feature.chrobox, lang),
+        competitor: localizeFeatureValue(feature.competitor, lang),
       })),
       chroboxPros: comparison.chroboxProsKo?.length ? comparison.chroboxProsKo : comparison.chroboxPros,
       competitorPros: comparison.competitorProsKo?.length
@@ -724,6 +782,8 @@ export function localizeComparisonData(
     features: comparison.features.map((feature, index) => ({
       ...feature,
       name: copy.featureNames[index] ?? feature.name,
+      chrobox: localizeFeatureValue(feature.chrobox, lang),
+      competitor: localizeFeatureValue(feature.competitor, lang),
     })),
     chroboxPros: copy.chroboxPros,
     competitorPros: copy.competitorPros,

@@ -2213,6 +2213,990 @@ Définissez un bloc de temps de 2 heures pour un projet, puis utilisez les inter
 
 Il n'y a pas de « meilleure » méthode absolue : il n'y a que celle qui fonctionne pour vous. Expérimentez et adoptez celle qui vous semble la plus durable et productive.
     `,
+    'time-boxing-for-adhd': `# Le time-boxing et le TDAH : guide pratique pour rester concentré
+
+Le TDAH rend difficile de démarrer une tâche, de passer de l'une à l'autre et — ce qui est peut-être le plus frustrant — de s'arrêter de travailler sur quelque chose de stimulant pour s'occuper de ce qui est important. Le time-boxing répond à ces trois difficultés en fixant à l'avance des limites autour de chaque activité.
+
+## Qu'est-ce que le time-boxing ?
+
+Le time-boxing consiste à attribuer une limite de temps fixe à une tâche précise avant de commencer. Au lieu de travailler sur un rapport « jusqu'à ce qu'il soit terminé », vous y travaillez pendant exactement 25 minutes. Quand le minuteur sonne, vous vous arrêtez — quel que soit l'endroit où vous en êtes.
+
+Pour un cerveau TDAH, cela supprime deux des plus gros obstacles : la paralysie de décider quand commencer et la difficulté de savoir quand s'arrêter.
+
+## Pourquoi ça fonctionne avec le TDAH
+
+Le cerveau TDAH réagit fortement aux échéances et à la nouveauté. Un minuteur qui égrène les secondes crée une urgence artificielle, capable d'activer la même réponse dopaminergique qui rend le travail sous pression de dernière minute si facile à aborder.
+
+De plus, découper la journée en blocs distincts réduit la charge cognitive de la planification. Au lieu de garder en tête la carte mentale d'un projet entier, vous n'avez à vous concentrer que sur les 20 prochaines minutes.
+
+## Comment démarrer
+
+**1. Commencez petit.** Utilisez des blocs de 15 minutes la première semaine. C'est réalisable et cela installe l'habitude avant de passer à des sessions plus longues.
+
+**2. Écrivez la tâche sur papier avant de commencer.** Externaliser l'objectif évite de dériver vers des sujets annexes en cours de session.
+
+**3. Utilisez un minuteur physique ou visuel.** Les signaux sonores et visuels sont plus efficaces que les notifications du téléphone en cas de TDAH. Une application de minuteur dédiée, avec un compte à rebours visuel, rend le passage du temps concret.
+
+**4. Prévoyez du temps de transition.** Ajoutez une marge de 5 minutes entre les blocs. Cela réduit le stress des arrêts brusques et laisse à votre cerveau le temps de se réinitialiser.
+
+**5. Notez ce que vous avez réellement accompli.** Passer en revue les blocs terminés en fin de journée procure une récompense dopaminergique et aide à mieux calibrer vos estimations futures.
+
+## Les pièges courants à éviter
+
+- **Les pièges de l'hyperfocalisation :** si vous êtes plongé dans une tâche quand le minuteur sonne, notez rapidement où vous en êtes et arrêtez-vous quand même. Sauter un seul bloc entraîne un effet domino qui fait s'effondrer tout le planning.
+- **Des blocs trop longs :** les blocs de plus de 45 minutes sont rarement tenables avec un TDAH. Des blocs plus courts et plus fréquents, entrecoupés de pauses actives, donnent de meilleurs résultats que de longues plages ininterrompues.
+- **Le perfectionnisme dans la planification :** ne passez pas 30 minutes à peaufiner le planning parfait. Bloquez vos trois priorités principales et ajustez au fil de la journée.
+
+## Utiliser Chrobox pour le time-boxing avec un TDAH
+
+Chrobox repose sur l'idée que votre calendrier doit refléter la façon dont vous passez réellement votre temps. Son suivi visuel du temps permet de voir d'un coup d'œil si vos blocs planifiés correspondaient à la réalité — offrant aux personnes avec un TDAH la boucle de retour immédiate qui rend le changement de comportement durable.
+
+Commencez demain matin avec trois blocs en time-boxing. C'est tout ce qu'il faut pour se lancer.
+`,
+    'time-boxing-for-students': `# Le time-boxing pour les étudiants : étudier plus intelligemment, pas plus durement
+
+Étudier plus dur est rarement la solution. Les étudiants qui réussissent de façon régulière ne cumulent pas forcément le plus d'heures — ils protègent la qualité de chaque heure d'étude. Le time-boxing est le mécanisme qui rend cela possible.
+
+## Le problème des sessions d'étude sans limite
+
+Quand vous vous installez pour « réviser l'examen », votre cerveau n'a aucun point d'arrivée clair. Sans limite, la loi de Parkinson prend le dessus : le travail s'étend pour occuper le temps disponible. Résultat : trois heures d'effort peu intense qui donnent une impression de productivité mais produisent très peu de mémorisation.
+
+## Comment le time-boxing change la donne
+
+En fixant un bloc de 45 minutes pour une seule matière, vous :
+
+- Créez une urgence qui améliore l'encodage en mémoire
+- Évitez les rendements décroissants des sessions marathon
+- Facilitez le suivi du temps réellement consacré à chaque matière
+- Intégrez des pauses obligatoires qui consolident la mémoire
+
+## Construire un planning d'étude en time-boxing
+
+**Étape 1 : listez vos matières et estimez les heures hebdomadaires nécessaires.**
+Soyez honnête. Les matières difficiles demandent plus de blocs. N'attribuez pas le même temps à tout.
+
+**Étape 2 : attribuez des blocs à des jours et des horaires précis.**
+Étudiez la matière la plus difficile pendant votre fenêtre de performance mentale maximale — généralement en milieu de matinée pour la plupart des gens.
+
+**Étape 3 : protégez les blocs de révision.**
+Au moins 20 % de votre temps d'étude devrait être consacré à réviser les notions déjà vues, et pas seulement à couvrir du nouveau contenu.
+
+**Étape 4 : prévoyez les débordements.**
+Si vous avez besoin de plus de temps sur un sujet, planifiez un bloc de rattrapage plutôt que de prolonger le bloc en cours. Votre planning global reste ainsi intact.
+
+## Stratégie d'alternance des matières
+
+L'entrelacement — alterner entre plusieurs matières au sein d'une même session d'étude — s'est révélé plus efficace pour la rétention à long terme que de consacrer des heures d'affilée à une seule matière. Un planning en time-boxing favorise naturellement cette stratégie.
+
+Par exemple :
+- 9 h 00–9 h 45 Mathématiques
+- 9 h 55–10 h 40 Histoire
+- 10 h 50–11 h 35 Littérature
+
+## Gérer la pression des examens
+
+Deux semaines avant un examen, déplacez progressivement des blocs vers la matière concernée sans éliminer complètement les autres. Bachoter dans les dernières 48 heures est le symptôme d'une mauvaise planification des blocs plus tôt dans le semestre.
+
+## Chrobox pour les étudiants
+
+Chrobox vous permet de planifier vos blocs de temps et de voir où vos heures sont réellement passées. Comparer votre planning d'étude prévu à votre comportement réel révèle des schémas — comme sauter systématiquement le bloc de maths — que vous pouvez corriger avant qu'ils ne vous coûtent des points.
+
+Étudier plus intelligemment commence par savoir exactement comment votre temps est utilisé.
+`,
+    'morning-routine-scheduling': `# Comment construire la routine matinale parfaite grâce au time-boxing
+
+Le matin est la partie de la journée que vous pouvez contrôler le plus complètement. Aucune réunion n'est programmée, aucun e-mail n'exige de réponse immédiate, et votre réserve de volonté est à son maximum. Structurer cette plage en time-boxing transforme les bonnes intentions en un système reproductible.
+
+## Pourquoi les routines matinales échouent
+
+La plupart des gens abordent le matin de façon réactive — en attrapant leur téléphone, en répondant à ce qui semble le plus urgent. Sans plan, la première heure s'écoule dans le brouillard d'activités à faible valeur, et la journée ne retrouve jamais son cap.
+
+Le time-boxing règle ce problème en prenant les décisions à l'avance. Vous ne choisissez pas quoi faire chaque matin ; vous exécutez simplement le plan que vous avez déjà établi.
+
+## Concevoir vos blocs du matin
+
+**Identifiez vos incontournables.**
+Listez les trois à cinq activités qui, si vous les accomplissiez chaque matin, auraient le plus d'impact sur votre santé, votre concentration et votre humeur. Options courantes : sport, journal, lecture, deep work, méditation.
+
+**Classez-les selon l'énergie requise.**
+L'activité physique en premier si vous avez besoin d'un coup de fouet. Ensuite, le travail créatif ou intellectuel, tant que l'esprit est frais. Les tâches à faible enjeu en dernier.
+
+**Attribuez des durées réalistes.**
+Ne planifiez pas une séance de sport de 60 minutes si vous n'avez jamais fait d'exercice le matin. Commencez avec 20 minutes et augmentez progressivement.
+
+## Exemple de time-box matinal (90 minutes)
+
+- 6 h 00–6 h 20 Exercice léger ou marche (20 min)
+- 6 h 20–6 h 30 Douche et habillage (10 min)
+- 6 h 30–6 h 50 Petit-déjeuner sans écran (20 min)
+- 6 h 50–7 h 20 Deep work ou lecture (30 min)
+- 7 h 20–7 h 30 Planification de la journée et tri de la boîte de réception (10 min)
+
+## Pour que ça tienne dans la durée
+
+**Ancrez-vous à une habitude existante.** Placez votre premier bloc immédiatement après le réveil. L'habitude de se réveiller devient le déclencheur de la routine.
+
+**Préparez tout la veille au soir.** Sortez vos vêtements de sport, préparez votre journal et fermez les onglets de navigateur inutiles. Réduire la friction au début de chaque bloc augmente les chances de le mener à bien.
+
+**Suivez ce que vous avez accompli, pas la perfection.** Manquer un bloc ne ruine pas la routine. Notez ce que vous avez fait et poursuivez.
+
+## Le rôle de la flexibilité
+
+Une routine rigide se brise sous la pression de la vie réelle. Prévoyez un bloc flexible de 15 minutes que vous pouvez réaffecter selon les besoins. Cette marge évite qu'un seul imprévu ne fasse s'effondrer toute la matinée.
+
+## Chrobox et votre routine matinale
+
+Chrobox s'intègre à votre calendrier pour visualiser vos blocs du matin à côté du reste de votre journée. Comparer vos matinées d'une semaine à l'autre révèle les dérives avant qu'elles ne deviennent un problème — et protège vos heures les plus importantes.
+
+Vos meilleures journées commencent la veille au soir, avec un plan déjà en place.
+`,
+    'deep-work-scheduling': `# Planifier le deep work : comment protéger vos heures les plus productives
+
+Cal Newport définit le deep work comme « des activités professionnelles réalisées dans un état de concentration sans distraction qui poussent vos capacités cognitives à leur limite ». C'est ce travail qui fait avancer les carrières. Pourtant, la plupart des travailleurs du savoir bénéficient de moins d'une heure de véritable deep work par jour.
+
+L'obstacle n'est pas la volonté. C'est la planification.
+
+## Pourquoi le deep work est si difficile à protéger
+
+Le deep work rivalise avec le travail superficiel pour l'espace dans votre calendrier. Les réunions, les e-mails et les messages Slack sont plus faciles à planifier et donnent immédiatement l'impression d'être productifs. Ils ont aussi tendance à se multiplier. Sans protection délibérée, le deep work se fait évincer.
+
+## La solution du time-boxing
+
+Appliquer le time-boxing au deep work, c'est le traiter comme n'importe quel autre rendez-vous : il figure dans le calendrier, il a une heure de début, et il ne peut pas être déplacé à la légère.
+
+La différence essentielle avec une planification ordinaire est l'engagement explicite à réunir des conditions sans distraction. Un bloc de deep work n'est pas simplement du temps réservé — c'est du temps protégé.
+
+## Comment planifier des blocs de deep work
+
+**1. Identifiez vos heures de pointe.**
+La plupart des gens ont une fenêtre de deux à quatre heures pendant laquelle leur réflexion analytique est la plus affûtée. Pour beaucoup, c'est le milieu de la matinée. Protégez cette fenêtre sans concession.
+
+**2. Planifiez à l'avance.**
+Prévoyez vos blocs de deep work au début de chaque semaine, et non au début de chaque journée. Planifier au jour le jour conduit à se faire déloger par des tâches urgentes mais superficielles.
+
+**3. Limitez-vous à quatre heures maximum.**
+La qualité du deep work se dégrade au-delà de quatre heures. Planifier six heures semble productif, mais donne souvent le même résultat que quatre heures de meilleure qualité.
+
+**4. Regroupez les tâches similaires.**
+Si l'écriture demande du deep work, planifiez toutes vos tâches d'écriture ensemble. Passer d'un type de deep work à un autre réduit le bénéfice.
+
+## Créer les bonnes conditions
+
+- Fermez complètement les applications de messagerie et d'e-mail — pas seulement les notifications
+- Utilisez un profil de navigateur dédié où les sites distrayants sont bloqués
+- Communiquez vos heures de deep work à votre équipe en début de semaine
+- Adoptez un signal physique (porte fermée, casque) indiquant que vous n'êtes pas disponible
+
+## Gérer les interruptions
+
+Malgré la préparation, les interruptions arrivent. Gardez un petit bloc-notes pour noter les éléments urgents qui surgissent pendant le deep work. Les noter vous décharge mentalement et vous permet de retrouver immédiatement votre concentration.
+
+N'interrompez jamais un bloc de deep work pour traiter un e-mail, sauf en cas de véritable urgence. Il n'y en a presque jamais.
+
+## Mesurer le résultat, pas le temps
+
+L'objectif d'un bloc de deep work n'est pas de rester deux heures assis à un bureau — c'est de produire un résultat précis. Définissez le livrable avant le début du bloc : « Terminer le premier jet de la section trois » vaut mieux que « travailler sur le rapport ».
+
+## Chrobox pour le deep work
+
+Chrobox rend vos blocs de deep work visibles à côté de tous les autres engagements de votre journée. Le journal de temps visuel vous permet de vérifier que votre deep work planifié a réellement eu lieu — et pas seulement que vous étiez à votre bureau. Avec le temps, ces données vous aident à repérer les schémas de planification qui produisent votre meilleur travail.
+
+Protégez vos heures de deep work. Tout le reste peut attendre.
+`,
+    'best-time-boxing-apps': `## Pourquoi se fier à cette comparaison ?
+
+Nous développons Chrobox, une application de time-boxing — alors oui, elle figure dans cette liste. Mais une comparaison qui ne fait que louer son propre produit ne vous sert à rien. Ci-dessous, chaque application est évaluée selon les cinq mêmes critères, avec des remarques honnêtes sur les points où chacune surpasse les autres, y compris là où la concurrence bat Chrobox.
+
+## Qu'est-ce qui fait une excellente application de time-boxing ?
+
+- **Une planification sans friction** — ajouter un time box devrait prendre quelques secondes, pas des minutes
+- **Une représentation visuelle du temps** — voir votre journée sous forme de blocs change la façon dont vous la planifiez
+- **Un soutien à la concentration** — des rappels au minimum ; le blocage d'applications si vous vous laissez facilement distraire
+- **Une boucle de bilan** — le time-boxing ne progresse que si vous comparez le prévu au réel
+- **Une tarification juste** — vous ne devriez pas avoir besoin d'un abonnement à 30 $/mois pour planifier votre journée
+
+## Les 8 meilleures applications de time-boxing en 2026
+
+### 1. Chrobox — le meilleur workflow de time-boxing dédié (iOS, Android)
+
+Chrobox est construit autour de la boucle complète du time-boxing plutôt que comme un calendrier avec des fonctionnalités en plus : brainstormer des tâches, choisir des priorités, les déposer dans des boîtes horaires sur une timeline visuelle, puis clore la journée par une rétrospective guidée qui alimente une analyse hebdomadaire par IA. C'est aussi l'un des rares planificateurs qui relie le **blocage d'applications** à vos time boxes — les applications distrayantes se verrouillent exactement pendant les périodes de deep work planifiées.
+
+**Points forts :** boucle complète planifier→se concentrer→faire le bilan, blocage d'applications lié aux boîtes, widgets et minuteur Live Activity, 21 langues
+**Points faibles :** mobile uniquement (pas d'application de bureau), pas de fonctionnalités d'équipe
+**Tarifs :** formule gratuite (3 tâches/jour) ; Pro à partir de 4,99 $/mois, 99,99 $ à vie
+
+### 2. Sunsama — le meilleur pour les professionnels dont le calendrier est chargé (Web, bureau, mobile)
+
+Sunsama excelle à récupérer les tâches de Gmail, Slack, Trello et Asana pour en faire un plan quotidien que vous faites glisser sur votre calendrier. Son rituel guidé de planification quotidienne est excellent. Le compromis, c'est le prix — il vise des professionnels dont l'employeur paie l'abonnement.
+
+**Points forts :** intégrations parmi les meilleures du marché, planification guidée et apaisante
+**Points faibles :** environ 16 à 20 $/mois, pas de formule gratuite au-delà de l'essai
+**Tarifs :** abonnement uniquement
+
+### 3. Motion — le meilleur pour la planification automatique par IA (Web, mobile)
+
+Motion inverse le modèle : vous lui donnez vos tâches et vos échéances, et son IA organise votre journée automatiquement, en la replanifiant quand les réunions bougent. Efficace pour les calendriers chaotiques, mais vous renoncez à l'acte délibéré de planifier — qui, pour beaucoup, constitue la moitié de l'intérêt du time-boxing.
+
+**Points forts :** replanification automatique, très adapté aux semaines chargées en réunions
+**Points faibles :** cher, moins intentionnel que le time-boxing manuel
+**Tarifs :** abonnement premium, environ 30 $/mois en facturation mensuelle
+
+### 4. TickTick — la meilleure liste de tâches avec un peu de time-boxing en prime (toutes plateformes)
+
+TickTick est avant tout un gestionnaire de tâches, mais sa vue chronologique et son minuteur Pomodoro intégré en font un hybride efficace. Si vous vivez dans les listes de contrôle et ne faites du time-boxing qu'occasionnellement, c'est un excellent rapport qualité-prix.
+
+**Points forts :** excellente gestion des tâches, premium abordable, toutes les plateformes
+**Points faibles :** le time-boxing est secondaire ; ni rituel de planification ni boucle de bilan
+**Tarifs :** solide formule gratuite ; premium autour de 36 $/an
+
+### 5. Structured — la meilleure simplicité visuelle (iOS, Android, Mac)
+
+Structured transforme votre journée en une timeline verticale épurée et est apprécié pour sa prise en main en douceur. Idéal pour les étudiants et les profils visuels ; moins complet si vous voulez des statistiques ou un soutien à la concentration.
+
+**Points forts :** belle timeline, démarrage facile, options tarifaires adaptées à un achat unique
+**Points faibles :** peu d'analyses, pas de blocage d'applications
+**Tarifs :** formule gratuite ; abonnement Pro ou achat à vie
+
+### 6. Tiimo — le meilleur pour les personnes avec un TDAH ou neuroatypiques (iOS, Android)
+
+Tiimo a été conçu avec et pour les utilisateurs neuroatypiques : plannings visuels, routines à base d'icônes et alertes de transition douces à la place des marqueurs de retard culpabilisants. Si les planificateurs classiques vous ont déjà échoué à plusieurs reprises, commencez ici ou avec le mode concentration de Chrobox.
+
+**Points forts :** conception réellement inclusive, visualisation des routines
+**Points faibles :** moins riche en analyses de productivité classiques
+**Tarifs :** abonnement avec essai gratuit
+
+### 7. Google Calendar — la meilleure option gratuite que vous avez déjà (toutes plateformes)
+
+Le time-boxing manuel dans Google Calendar fonctionne : créez des blocs, codez-les par couleur, réglez des notifications. Cela ne coûte rien et se synchronise partout. Ce qui manque, c'est tout ce qui entoure le calendrier — la capture des tâches, la priorisation, le soutien à la concentration et toute forme de bilan.
+
+**Points forts :** gratuit, universel, partageable
+**Points faibles :** pas de workflow de tâches, pas d'outils de concentration, facile à ignorer
+**Tarifs :** gratuit
+
+### 8. Todoist — le meilleur pour les adeptes de GTD qui ajoutent des blocs de temps (toutes plateformes)
+
+La vue calendrier de Todoist et sa synchronisation bidirectionnelle avec Google Calendar permettent aux fans de listes de contrôle d'expérimenter le time blocking sans quitter leur gestionnaire de tâches. Comme pour TickTick, la couche de time-boxing est mince — mais le système de tâches sous-jacent est sans doute le meilleur de sa catégorie.
+
+**Points forts :** capture et organisation des tâches de classe mondiale
+**Points faibles :** le time-boxing est un complément, pas la boucle centrale
+**Tarifs :** formule gratuite ; Pro autour de 4 à 5 $/mois
+
+## Tableau comparatif
+
+| Application | Boucle centrale | Blocage d'applications | Bilan/rétrospective | Formule gratuite | Plateformes |
+|---|---|---|---|---|---|
+| Chrobox | Time-boxing complet | ✅ | ✅ Rétrospective par IA | ✅ | iOS, Android |
+| Sunsama | Planification quotidienne | ❌ | ✅ rituel de fin de journée | essai uniquement | Web, bureau, mobile |
+| Motion | Planification par IA | ❌ | ❌ | essai uniquement | Web, mobile |
+| TickTick | Liste de tâches + timeline | ❌ | ❌ | ✅ | Toutes |
+| Structured | Timeline visuelle | ❌ | ❌ | ✅ | iOS, Android, Mac |
+| Tiimo | Routines visuelles | ❌ | ❌ | essai | iOS, Android |
+| Google Calendar | Blocs manuels | ❌ | ❌ | ✅ | Toutes |
+| Todoist | Tâches + calendrier | ❌ | ❌ | ✅ | Toutes |
+
+## Laquelle choisir ?
+
+- **Vous voulez la méthode de time-boxing complète, soutien à la concentration inclus :** Chrobox
+- **Votre travail vit dans Slack/Asana/e-mail et le budget n'est pas un problème :** Sunsama
+- **Votre calendrier explose chaque jour et vous voulez que l'IA gère :** Motion
+- **Il vous faut surtout une liste de tâches :** TickTick ou Todoist
+- **Vous voulez le démarrage le plus doux possible :** Structured
+- **Les planificateurs classiques n'ont jamais tenu chez vous :** Tiimo
+- **Vous ne voulez rien dépenser :** Google Calendar
+
+La conclusion honnête : n'importe laquelle de ces applications vaut mieux qu'aucun système. Choisissez celle dont la boucle centrale correspond au fonctionnement de votre cerveau, et donnez-lui deux semaines complètes avant de la juger.
+`,
+    'weekly-planning-guide': `## Pourquoi la planification hebdomadaire change tout
+
+La plupart des gens planifient leurs journées de façon réactive — en répondant aux e-mails, en assistant aux réunions et en s'attaquant à ce qui semble le plus urgent. Cette approche donne des journées bien remplies qui ne font pas avancer ce qui compte vraiment. La planification hebdomadaire avec time-boxing renverse la situation.
+
+## Le cadre de la planification hebdomadaire
+
+### Étape 1 : la revue hebdomadaire (dimanche soir, 20 minutes)
+
+Avant de planifier la semaine à venir, passez en revue ce qui s'est passé la semaine dernière :
+
+- Quels time boxes avez-vous terminés comme prévu ?
+- Quelles tâches ont systématiquement dépassé le temps alloué ?
+- Quelles tâches imprévues ont englouti votre emploi du temps ?
+- Qu'avez-vous laissé de côté et devriez-vous prioriser la semaine prochaine ?
+
+Ce bilan honnête rend le plan de la semaine suivante plus réaliste.
+
+### Étape 2 : identifiez vos priorités de la semaine (10 minutes)
+
+Notez vos 3 grandes priorités pour la semaine à venir. Ce sont les résultats qui feraient de la semaine une réussite même si tout le reste part de travers. Chaque time box important devrait se rattacher à au moins une priorité.
+
+### Étape 3 : bloquez d'abord vos incontournables
+
+Avant de planifier quoi que ce soit d'autre, ajoutez vos engagements fixes :
+- Réunions et appels récurrents
+- Sport et routines de santé
+- Engagements familiaux et personnels
+
+Ce sont vos points d'ancrage. Construisez autour d'eux.
+
+### Étape 4 : planifiez les blocs de deep work
+
+Votre travail le plus important et le plus exigeant sur le plan cognitif doit se placer pendant vos heures de pic d'énergie. Pour la plupart des gens, c'est le milieu de la matinée (9 h–11 h). Bloquez des time boxes de 90 minutes pour le deep work avant de planifier quoi que ce soit d'autre dans ces créneaux.
+
+### Étape 5 : complétez avec les tâches de soutien
+
+Après les blocs de deep work, planifiez les tâches de soutien — e-mails, travail administratif, réunions plus courtes et tâches routinières. Elles trouvent naturellement leur place dans vos heures d'après-midi, où l'énergie est plus basse.
+
+### Étape 6 : prévoyez du temps tampon
+
+Gardez au moins 20 % de votre emploi du temps en marge. Des tâches imprévues surgiront. Les blocs tampons vous donnent de la souplesse sans faire dérailler toute votre journée.
+
+## Utiliser Chrobox pour la planification hebdomadaire
+
+Chrobox rend la planification hebdomadaire visuelle et intuitive. La vue hebdomadaire affiche tous vos blocs de temps en un coup d'œil, ce qui permet de repérer facilement les trous, d'identifier les journées surchargées et de déplacer les blocs par glisser-déposer quand les priorités changent.
+
+## Erreurs courantes de planification hebdomadaire
+
+1. **Trop planifier** – Laissez des espaces vides. Une journée saturée est une journée fragile.
+2. **Ignorer les niveaux d'énergie** – Adaptez le type de tâche à votre courbe d'énergie naturelle.
+3. **Aucun rituel de revue** – Planifier sans faire de bilan, c'est deviner.
+4. **Traiter toutes les tâches de la même façon** – Toutes les tâches ne méritent pas un time box de même durée.
+
+## En faire une habitude
+
+La première séance de planification hebdomadaire paraît maladroite. À la troisième ou quatrième semaine, elle devient les 45 minutes les plus précieuses de votre semaine. Commencez simplement par une revue le dimanche soir et une planification le lundi matin. Vous construirez à partir de là.
+`,
+    'time-blocking-vs-time-boxing': `## Deux techniques puissantes, une différence cruciale
+
+Le time blocking et le time-boxing sont souvent employés indifféremment, mais ils reposent sur des principes fondamentalement différents. Comprendre la distinction vous aide à choisir le bon outil selon la situation — et à les combiner efficacement quand il le faut.
+
+## Qu'est-ce que le time blocking ?
+
+Le time blocking consiste à attribuer des tâches précises ou des catégories de travail à des créneaux définis dans votre calendrier. C'est un outil de planification.
+
+**Exemple :** bloquer 9 h–11 h pour « écrire » et 14 h–16 h pour les « réunions ».
+
+Sa caractéristique clé : **il n'y a pas d'échéance stricte** à l'intérieur du bloc. Si l'écriture prend plus de temps, vous pouvez prolonger. Le bloc est un contenant, pas une contrainte.
+
+## Qu'est-ce que le time-boxing ?
+
+Le time-boxing fixe une limite de temps ferme et non négociable pour accomplir une tâche précise. Quand la boîte se termine, vous vous arrêtez — que la tâche soit terminée ou non.
+
+**Exemple :** « J'écrirai l'introduction en exactement 45 minutes. »
+
+Sa caractéristique clé : **l'échéance est absolue**. Cette contrainte est voulue — elle crée de l'urgence et oblige à prioriser.
+
+## La psychologie derrière chaque technique
+
+### La psychologie du time blocking
+Le time blocking réduit la fatigue décisionnelle en décidant à l'avance quoi faire et quand. Il évite le changement de contexte et crée des fenêtres de concentration dédiées. Toutefois, sans échéances fixes, la loi de Parkinson s'applique : le travail s'étend pour occuper le temps disponible.
+
+### La psychologie du time-boxing
+Le time-boxing exploite la pression de l'échéance. La fin fixe crée une urgence artificielle qui aiguise la concentration. Il impose aussi une estimation honnête — vous devez vous engager sur la durée d'une tâche avant de la commencer.
+
+## Quand utiliser chacun
+
+| Situation | Meilleur choix |
+|-----------|---------------|
+| Planifier des sessions de deep work | Time blocking |
+| Écriture, programmation, travail créatif | Time-boxing |
+| Réunions et appels | Time blocking |
+| Tâches administratives | Time-boxing |
+| Exploration sans limite définie | Time blocking |
+| Livrable avec échéance | Time-boxing |
+
+## Combiner les deux techniques
+
+L'approche la plus efficace utilise les deux :
+
+1. **Faites du time blocking** sur votre semaine à l'échelle macro — désignez des blocs pour différents types de travail
+2. **Faites du time-boxing** sur des tâches précises à l'intérieur de ces blocs
+
+Par exemple, réservez le lundi matin au « développement produit » en time blocking. À l'intérieur de ce bloc, appliquez le time-boxing : « maquetter la nouvelle fonctionnalité : 60 min », puis « rédiger le document de spécifications : 45 min ».
+
+## Utiliser Chrobox pour les deux approches
+
+Chrobox prend élégamment en charge les deux techniques. Créez de larges blocs par catégorie pour le time blocking, puis ajoutez des boîtes de tâches précises à l'intérieur. La timeline visuelle permet de voir votre journée structurée simultanément à ces deux niveaux.
+
+## En résumé
+
+Le time blocking structure votre journée. Le time-boxing discipline votre exécution. Utilisés ensemble, ils forment un système de productivité à la fois souple et rigoureux — exactement ce dont les personnes très performantes ont besoin.
+`,
+    'remote-work-scheduling': `## Le défi de la planification en télétravail
+
+Travailler depuis chez soi offre de la liberté, mais cette liberté a un prix : l'effacement des frontières. Sans séparation physique entre le bureau et le domicile, le travail s'infiltre dans les soirées, les week-ends et les temps de repos mental. Le time-boxing apporte la structure que le bureau imposait autrefois.
+
+## Pourquoi la planification traditionnelle échoue avec les télétravailleurs
+
+Les listes de tâches traditionnelles échouent auprès des télétravailleurs pour trois raisons :
+
+1. **Aucun repère horaire** – Les tâches sans horaire planifié flottent indéfiniment
+2. **Aucun signal de fin** – Sans trajet retour, il est difficile de « quitter » le travail
+3. **Des interruptions infinies** – L'environnement domestique génère des changements de contexte constants
+
+Le time-boxing règle ces trois problèmes en créant un engagement structuré et limité dans le temps pour chaque tâche.
+
+## Le planning en time-boxing du télétravailleur
+
+### Bloc de deep work du matin (9 h 00–10 h 30)
+Réservez vos 90 premières minutes de travail à votre tâche la plus prioritaire et la plus exigeante sur le plan cognitif. Pas d'e-mails, pas de Slack, pas de réunions. Cette seule habitude produit plus de résultats que n'importe quelle autre.
+
+### Milieu de matinée : bloc de collaboration (10 h 30–12 h 00)
+Encadrez en time-boxing vos communications et votre travail collaboratif. Répondez aux messages, participez aux appels et relisez le travail des autres. Une plage définie empêche les e-mails de déborder sur toute la journée.
+
+### Pause déjeuner : une vraie déconnexion (12 h 00–13 h 00)
+Encadrez votre pause déjeuner en time-boxing et considérez-la comme non négociable. Éloignez-vous des écrans. Cette pause recharge votre concentration pour l'après-midi.
+
+### Après-midi : deep work secondaire ou tâches administratives (13 h 00–15 h 00)
+La plupart des gens ont moins d'énergie en début d'après-midi. Planifiez ici un travail créatif mais moins exigeant, ou des tâches administratives qui demandent de l'attention sans mobiliser le pic de votre charge cognitive.
+
+### Bloc de décompression (15 h 00–16 h 00)
+Encadrez en time-boxing votre routine de fin de journée : passez en revue ce que vous avez accompli, mettez à jour votre liste de tâches et planifiez les time boxes de demain. Ce rituel crée une transition psychologique claire entre le travail et le temps personnel.
+
+## Gérer les interruptions à la maison
+
+### La communication avec les personnes qui vivent avec vous
+Communiquez clairement votre planning de time-boxing à vos proches. Quand vous êtes dans un time box, traitez-le comme une réunion — ne l'interrompez pas.
+
+### Les interruptions numériques
+Utilisez les modes « Ne pas déranger » pendant les time boxes de deep work. Regroupez la consultation de vos notifications dans des time boxes dédiés plutôt que de répondre de manière réactive tout au long de la journée.
+
+## Utiliser Chrobox en télétravail
+
+Chrobox est particulièrement précieux pour les télétravailleurs car il externalise votre planning, ce qui crée une responsabilisation même sans manager ni environnement de bureau. Les blocs visuels clairs de l'application permettent de voir facilement quand vous êtes dans les temps et quand vous avez dérivé.
+
+Réglez des rappels Chrobox pour signaler le début et la fin de chaque time box. Ces signaux sonores remplacent les signaux sociaux que procure le bureau — voir les collègues ranger leurs affaires, entendre le plateau se calmer.
+
+## Le rituel de fin de journée : votre time box le plus important
+
+Le time box le plus puissant pour un télétravailleur ne concerne pas le travail — c'est le rituel de fin de journée. À la fin de chaque journée de travail, réservez un time box de 15 minutes :
+
+1. Passez en revue les tâches terminées
+2. Mettez à jour le plan de demain dans Chrobox
+3. Fermez toutes les applications de travail
+4. Écrivez une phrase résumant ce que vous avez accompli
+
+Quand le time box se termine, votre journée de travail est finie. Ce rituel entraîne votre cerveau à associer la fin du rituel au fait de quitter le travail — offrant la frontière psychologique que créait autrefois le trajet retour.
+
+## Mesurer l'efficacité de votre télétravail
+
+Suivez ces indicateurs hebdomadaires grâce aux analyses de Chrobox :
+- Pourcentage de time boxes terminés comme prévu
+- Dépassement moyen par time box
+- Temps passé en deep work par rapport au travail réactif
+- Régularité de l'heure de fin de journée
+
+Améliorer ces chiffres sur 4 à 6 semaines révèle vos schémas de productivité et vous aide à construire un planning de télétravail à la fois productif et durable.
+`,
+    'meeting-management-time-boxing': `## Le coût caché des réunions improductives
+
+Le travailleur du savoir moyen assiste à 62 réunions par mois, et pourtant les études montrent que plus de 35 % du temps de réunion est jugé improductif. Cela représente environ 31 heures perdues chaque mois — presque une semaine de travail entière. Le time-boxing est l'intervention la plus efficace pour récupérer ce temps.
+
+## Ce qui fait dérailler les réunions
+
+La plupart des réunions échouent pour des raisons prévisibles : pas d'ordre du jour clair, pas de limite de temps, mauvaises personnes dans la salle et aucune responsabilisation sur les résultats. Le time-boxing s'attaque directement aux deux premiers problèmes et crée les conditions pour résoudre les deux autres.
+
+Sans contrainte de temps, les conversations s'étendent pour occuper tout l'espace disponible — c'est la loi de Parkinson à l'œuvre. Fixer une heure de fin ferme oblige à prioriser et maintient les discussions sur les rails.
+
+## Comment appliquer le time-boxing à vos réunions
+
+**1. Fixez la durée de la réunion avant d'envoyer l'invitation.** Les créneaux par défaut des calendriers sont de 30 ou 60 minutes, mais votre réunion n'a peut-être besoin que de 20. Soyez délibéré.
+
+**2. Créez un ordre du jour chronométré.** Répartissez la durée totale de la réunion entre les points de l'ordre du jour avant qu'elle ne commence. Pour une réunion de 30 minutes avec trois sujets, allouez 10 minutes à chacun — et communiquez-le à l'avance aux participants.
+
+**3. Désignez un gardien du temps.** Un participant est chargé de suivre le temps par point de l'ordre du jour et de donner un avertissement 2 minutes avant la fin de chaque créneau.
+
+**4. Utilisez un minuteur visible et partagé.** Quand tout le monde voit le compte à rebours, le groupe s'autorégule plus efficacement que n'importe quel animateur ne pourrait le faire seul.
+
+**5. Définissez le résultat attendu pour chaque point de l'ordre du jour.** Avant la réunion, qualifiez chaque point de : Décision, Partage d'information ou Discussion. Cela fixe les attentes des participants et accélère la résolution.
+
+## La règle des 48 heures pour le suivi asynchrone
+
+Quand des points de l'ordre du jour débordent ou soulèvent de nouvelles questions, résistez à la tentation de prolonger la réunion. Orientez plutôt les sujets non résolus vers des canaux asynchrones (e-mail, Slack, outils de gestion de projet) avec un délai de réponse de 48 heures. Cela respecte le temps de chacun tout en garantissant que les problèmes ne passent pas entre les mailles du filet.
+
+## Utiliser Chrobox pour préparer vos réunions
+
+Avant chaque réunion, utilisez Chrobox pour encadrer votre préparation en time-boxing : 15 minutes pour relire les documents, 5 minutes pour rédiger vos points de discussion. Après la réunion, planifiez immédiatement en time-boxing vos actions de suivi — les études montrent que les taux d'achèvement des tâches chutent de 40 % lorsque le suivi est retardé de plus d'une heure.
+
+## L'effet cumulatif de meilleures réunions
+
+Les équipes qui appliquent un time-boxing structuré dans leurs réunions constatent généralement :
+- Une réduction de 25 à 40 % de la durée des réunions
+- Une meilleure qualité des décisions grâce à la priorisation forcée
+- Moins de frustration et un meilleur moral
+- Plus de place dans le calendrier pour un travail de fond et concentré
+
+Commencez par votre prochaine réunion récurrente. Appliquez un ordre du jour chronométré, désignez un gardien du temps et mesurez la différence après quatre semaines.
+`,
+    'work-life-balance-scheduling': `## Pourquoi l'équilibre vie pro-vie perso est un problème de planification
+
+La plupart des discussions sur l'équilibre entre vie professionnelle et vie privée portent sur l'état d'esprit ou la culture d'entreprise. Mais derrière chaque déséquilibre se cache un problème de planification : le travail empiète sur le temps personnel parce qu'aucune limite claire n'est inscrite dans le calendrier. Le time-boxing résout cela au niveau structurel.
+
+## Le paradoxe des limites
+
+Beaucoup de gens ont l'intention d'arrêter de travailler à 18 h mais se retrouvent à consulter leurs e-mails à 22 h. L'intention existe ; la structure, non. Sans time boxes explicites pour les activités personnelles, le travail gagne toujours — parce qu'il dispose d'un réservoir infini de tâches, d'urgence et de pression sociale.
+
+La solution consiste à traiter le temps personnel avec le même formalisme structurel que les engagements professionnels.
+
+## Comment construire un planning équilibré en time-boxing
+
+**1. Commencez par vos incontournables.** Avant de planifier le travail, bloquez vos engagements personnels essentiels : sommeil, repas, sport, temps en famille. Ils constituent la fondation, pas une réflexion après coup.
+
+**2. Appliquez le principe de cartographie de l'énergie.** Planifiez votre travail le plus exigeant pendant vos heures de pic d'énergie (généralement le matin pour la plupart des gens), et les tâches plus légères ou les réunions pendant les creux d'énergie naturels. Cela évite d'utiliser le temps personnel comme débordement pour du travail repoussé.
+
+**3. Créez un rituel d'arrêt net.** À la fin de votre dernier time box de travail, consacrez 10 minutes à traiter votre boîte de réception, mettre à jour votre liste de tâches et écrire vos 3 priorités du lendemain. Cette clôture psychologique signale à votre cerveau que le travail est terminé.
+
+**4. Ajoutez des time boxes de transition.** Entre le travail et le temps personnel, prévoyez une activité de transition de 15 à 30 minutes — une promenade, une séance de sport, une brève méditation. Cela empêche le stress du travail de déborder sur vos heures personnelles.
+
+**5. Planifiez la récupération, pas seulement le repos.** Le repos est passif (regarder la télévision) ; la récupération est une restauration active (sport, liens sociaux, loisirs). Encadrez vos activités de récupération en time-boxing pour qu'elles aient réellement lieu.
+
+## La règle de disponibilité 80/20
+
+Tout le temps de travail n'a pas besoin d'être également accessible. Envisagez de consacrer 80 % de vos heures de time box de travail à une concentration totale (notifications désactivées, statut « Ne pas déranger ») et de garder 20 % ouverts à la collaboration et aux réponses. Cette structure réduit considérablement la pression d'être constamment disponible, l'un des principaux facteurs qui font déborder le travail sur le temps personnel.
+
+## Utiliser Chrobox pour l'équilibre vie pro-vie perso
+
+Chrobox vous permet de coder vos time boxes par couleur selon le domaine de vie — travail, santé, famille, développement personnel. Quand vous regardez votre semaine, vous obtenez un signal visuel immédiat indiquant si la répartition de votre temps correspond à vos priorités déclarées. Si la couleur du travail domine, vous pouvez rééquilibrer avant le début de la semaine, et non après sa fin.
+
+## Le long terme
+
+L'équilibre entre vie professionnelle et vie privée ne s'obtient pas en une seule bonne semaine. Il se construit grâce à des habitudes de planification régulières qui s'accumulent sur des mois et des années. Le time-boxing vous offre la pratique quotidienne qui rend cela possible — une journée structurée à la fois.
+
+Engagez-vous dans une expérience de 30 jours : planifiez en time-boxing au moins deux engagements personnels par jour, considérez-les comme non négociables et mesurez votre stress et votre satisfaction à la fin du mois.
+`,
+    'productivity-for-beginners': `## Pourquoi le time-boxing est la meilleure première technique de productivité
+
+Le paysage de la productivité est déroutant pour les débutants. GTD, Pomodoro, matrice d'Eisenhower, Eat the Frog, Deep Work — par où commencer ? La réponse, c'est le time-boxing, car c'est la fondation qui fait mieux fonctionner toutes les autres techniques.
+
+Le time-boxing n'exige aucun changement de personnalité, aucun système complexe à entretenir et aucun investissement de temps initial important. Vous voyez des résultats en quelques jours, pas en quelques mois.
+
+## Comprendre le principe de base
+
+Le time-boxing repose sur une idée fondamentale : les tâches consomment tout le temps que vous leur accordez. Donnez à une tâche un créneau sans limite (« travailler sur le rapport jusqu'à ce qu'il soit fini ») et elle s'étendra. Donnez-lui un créneau fixe (« 45 minutes sur le rapport, puis stop ») et la loi de Parkinson joue en votre faveur — vous produisez quelque chose de concret dans la limite imposée.
+
+## Votre première semaine : un plan pas à pas
+
+**Jours 1-2 : observez.** Avant de changer quoi que ce soit, suivez pendant deux jours la façon dont vous passez votre temps. Notez l'heure de début et de fin de chaque activité. Cette base de référence révèle où passe réellement le temps par rapport à ce que vous imaginez.
+
+**Jours 3-4 : planifiez.** Au début de chaque journée, notez vos 3 à 5 tâches les plus importantes et attribuez à chacune une estimation de durée. Commencez prudemment — ajoutez 50 % à ce que vous pensez qu'une tâche prendra.
+
+**Jours 5-7 : exécutez et ajustez.** Suivez vos time boxes et notez le temps réellement passé. Comparez estimation et réalité. La plupart des débutants découvrent qu'ils sous-estiment de 30 à 50 %. Ces données sont de l'or.
+
+## Les quatre types essentiels de time box
+
+1. **Blocs de deep work** (60-90 min) : pour les tâches complexes, créatives ou exigeantes sur le plan cognitif. Aucune interruption.
+2. **Blocs administratifs** (20-30 min) : pour les e-mails, les messages et les tâches administratives. Regroupez-les.
+3. **Blocs de réunion** : pour les appels et les réunions. Encadrez toujours la préparation des réunions séparément en time-boxing.
+4. **Blocs tampons** (15-30 min) : du temps non planifié entre les grands blocs. Indispensable pour les imprévus.
+
+## Les ajustements courants du débutant
+
+**Vos boîtes sont trop longues.** Si vous n'arrivez pas régulièrement à rester concentré pendant toute la durée de vos boîtes, raccourcissez-les. Une boîte de 25 minutes menée à terme vaut mieux qu'une boîte de 90 minutes abandonnée.
+
+**Vous planifiez trop.** Ne remplissez pas plus de 60 à 70 % de votre temps disponible avec des boîtes planifiées. Le reste sert de marge. Cela paraît contre-intuitif, mais donne de meilleurs résultats qu'une planification à 100 %.
+
+**Vous sautez le bilan.** À la fin de chaque journée, consacrez 5 minutes à comparer ce que vous avez accompli avec ce que vous aviez prévu. Cette seule habitude, plus que toute autre, favorise une progression rapide.
+
+## Démarrer avec Chrobox
+
+Chrobox est conçu spécialement pour les débutants comme pour les experts du time-boxing. L'application vous guide dans la création de vos premiers time boxes, suit automatiquement votre temps réel et propose chaque semaine des analyses de vos habitudes. Disponible sur iOS et macOS avec synchronisation en temps réel, votre plan est toujours avec vous.
+
+Commencez demain avec trois time boxes : un pour votre tâche la plus importante, un pour les e-mails et un tampon. C'est tout. Construisez à partir de là.
+`,
+    'time-boxing-for-teams': `## Pourquoi les équipes peinent autrement que les individus en matière de productivité
+
+La productivité individuelle est difficile. La productivité d'équipe l'est encore plus. Quand on ajoute les coûts de coordination, la charge de communication et le défi d'harmoniser des styles de travail variés, la complexité se multiplie. Le time-boxing répond à ces défis propres aux équipes d'une manière que les techniques de productivité individuelles ne peuvent pas égaler.
+
+## Le problème central : le temps invisible
+
+Dans la plupart des équipes, le temps est invisible. Les gens travaillent, des réunions se tiennent, des résultats apparaissent (ou pas) — mais personne n'a une image claire de la façon dont le temps collectif est réellement utilisé. Cette opacité empêche d'identifier le gaspillage, d'optimiser les workflows ou de fixer des attentes réalistes.
+
+Le time-boxing d'équipe rend le temps visible. Quand les blocs de chacun sont partagés et structurés, des schémas apparaissent : où sont les goulets d'étranglement ? Quels membres de l'équipe sont surchargés ? Où le travail est-il le plus souvent refait ?
+
+## Mettre en place le time-boxing d'équipe : un cadre
+
+**Phase 1 : s'accorder sur les principes (semaine 1)**
+Avant les outils ou les plannings, convenez de normes d'équipe : qu'est-ce qui compte comme une interruption ? Quelle communication exige une réponse immédiate, et laquelle une réponse dans la journée ? Quand est-il acceptable de réserver un créneau sur le temps de concentration de quelqu'un ? Documenter ces accords évite les conflits par la suite.
+
+**Phase 2 : établir une structure partagée (semaine 2)**
+Créez un modèle de time-boxing d'équipe : point de synchronisation du matin (15 min), blocs de deep work (2 à 3 par jour, 90 minutes minimum chacun), fenêtres de collaboration (heures précises où les réunions peuvent être planifiées) et bilan de fin de journée (15 min). Protégez les blocs de deep work de la planification de réunions.
+
+**Phase 3 : utiliser des time boxes axés sur les résultats (semaine 3 et suivantes)**
+Passez d'attributions basées sur les tâches à des attributions basées sur les résultats. Au lieu de « travailler sur la campagne marketing », attribuez « terminer le premier jet du brief de campagne du T2 d'ici jeudi 17 h ». Cela change la dynamique de responsabilité et rend les passages de relais plus nets.
+
+**Phase 4 : évaluer et affiner (mensuel)**
+Tenez une rétrospective mensuelle consacrée spécifiquement à la structure du temps. Vérifiez : les blocs de deep work sont-ils respectés ? Les heures de réunion restent-elles dans leurs fenêtres ? Le travail refait diminue-t-il ? Ajustez le modèle d'équipe en fonction des données.
+
+## Le time-boxing dans les équipes agiles
+
+Les équipes agiles utilisent déjà le time-boxing au niveau du sprint (boîtes de 2 semaines). L'opportunité consiste à étendre cette discipline au niveau quotidien. Les stand-ups quotidiens devraient eux-mêmes être limités à 15 minutes. Les cérémonies de sprint (planification, revue, rétrospective) gagnent à avoir des ordres du jour chronométrés dans leurs formats déjà encadrés par le time-boxing.
+
+## Gérer les différents styles de travail
+
+Les équipes comptent à la fois des personnes du matin et des personnes du soir, des spécialistes du deep work et des généralistes collaboratifs. Un bon système de time-boxing d'équipe en tient compte en définissant des fenêtres de disponibilité partagées (par ex. 10 h–12 h et 14 h–16 h pour la collaboration) tout en laissant le reste du temps à l'autonomie individuelle.
+
+## Coordination multiplateforme avec Chrobox
+
+L'un des plus grands points de friction du time-boxing d'équipe est la fragmentation des outils — certains membres utilisent iOS, d'autres macOS, certains travaillent à distance. La synchronisation multiplateforme de Chrobox garantit que les structures de temps restent cohérentes quels que soient l'appareil ou le lieu. Quand un bloc d'équipe est défini, tout le monde le voit. Quand un time box est terminé, les données sont disponibles pour les rapports au niveau de l'équipe.
+
+## Mesurer le succès du time-boxing d'équipe
+
+Suivez ces indicateurs après la mise en place du time-boxing d'équipe :
+- **Temps de réunion par semaine** (objectif : réduire de 20 % en 60 jours)
+- **Heures de deep work par personne et par semaine** (objectif : augmenter de 30 %)
+- **Taux de travail refait** (objectif : diminuer de 15 %)
+- **Score de satisfaction de l'équipe** (enquête mensuelle éclair)
+
+Le time-boxing d'équipe ne vise pas le contrôle — il vise à créer les conditions pour que les excellences individuelles se combinent en excellence collective.
+`,
+    'energy-management-scheduling': `## Pourquoi la gestion de l'énergie surpasse la gestion du temps
+
+La plupart des conseils de productivité portent sur la gestion du temps, mais le temps est une ressource fixe. Ce qui fluctue réellement au cours de la journée, c'est votre énergie. Planifier vos tâches en fonction de vos niveaux d'énergie peut améliorer considérablement la qualité comme la quantité de votre travail.
+
+## Comprendre vos rythmes ultradiens
+
+Votre corps fonctionne selon des cycles ultradiens de 90 à 120 minutes tout au long de la journée. Pendant les 45 à 90 premières minutes de chaque cycle, votre cerveau est prêt pour un travail concentré et complexe. Quand l'énergie baisse, votre corps réclame du repos. Ignorer ces signaux entraîne une baisse de performance et, à terme, l'épuisement.
+
+## Cartographier vos zones d'énergie
+
+Il y a trois zones d'énergie à exploiter :
+
+**La zone de pic** — votre fenêtre de vigilance maximale, généralement de 2 à 4 heures le matin. Réservez-la à la réflexion créative, à la planification stratégique et à la résolution de problèmes exigeants.
+
+**La zone de creux** — la baisse d'après-déjeuner où la pensée analytique fléchit. Utilisez ce moment pour les tâches administratives, les e-mails de routine et les réunions à faible enjeu.
+
+**La zone de récupération** — un second pic en fin d'après-midi où l'intelligence émotionnelle et la pensée collaborative s'améliorent. Idéale pour les discussions d'équipe et le brainstorming créatif.
+
+## Comment identifier vos pics personnels
+
+1. Pendant une semaine, évaluez votre énergie et votre concentration de 1 à 10 chaque heure.
+2. Notez ce que vous faisiez quand vous vous sentiez le plus alerte.
+3. Cherchez des schémas récurrents d'un jour à l'autre.
+4. Protégez vos heures de pic sans concession.
+
+## Conseils pratiques pour une planification basée sur l'énergie
+
+- **Bloquez votre calendrier** pendant les heures de pic pour le deep work uniquement.
+- **Regroupez les tâches peu énergivores** dans votre zone de creux.
+- **Planifiez des pauses** à la fin de chaque cycle de 90 minutes.
+- **Limitez les réunions** à votre zone de récupération dans la mesure du possible.
+- **Évitez la caféine** pendant votre pic naturel — gardez-la pour le creux.
+
+## Utiliser Chrobox pour aligner votre planning
+
+Chrobox rend la planification basée sur l'énergie visuelle et intuitive. Vous pouvez coder vos blocs de temps par couleur selon le type de tâche — rouge pour le travail de forte concentration, bleu pour les tâches administratives, vert pour la collaboration. Grâce à la synchronisation multiplateforme, votre planning aligné sur votre énergie reste cohérent sur tous vos appareils.
+
+L'interface par glisser-déposer permet de réorganiser facilement les tâches quand votre énergie change de façon inattendue, pour que vous restiez productif quoi que la journée vous réserve.
+
+## Commencer petit
+
+Ne bouleversez pas tout votre planning d'un coup. Commencez par protéger un seul bloc de pic de 90 minutes par jour pour votre travail le plus important. Au bout de deux semaines, vous remarquerez une différence mesurable dans ce que vous accomplissez — et dans votre état d'esprit en fin de journée.
+`,
+    'task-batching-productivity': `## Le coût caché du changement de tâche
+
+Chaque fois que vous passez d'un type de tâche à un autre, votre cerveau paie un coût de changement. Des recherches suggèrent qu'il peut falloir jusqu'à 23 minutes pour retrouver pleinement sa concentration après une interruption. Multipliez cela par une journée de travail type remplie de tâches éparpillées, et vous perdez des heures de temps productif.
+
+Le regroupement de tâches est l'antidote.
+
+## Qu'est-ce que le regroupement de tâches ?
+
+Le regroupement de tâches (task batching) consiste à rassembler des tâches similaires et à les réaliser au cours d'une session dédiée. Au lieu de consulter vos e-mails toute la journée, vous les consultez deux fois — à 9 h et à 15 h. Au lieu de passer des appels au fil de l'eau, vous les regroupez dans une seule plage de 45 minutes.
+
+Cette approche garde votre cerveau dans un seul mode cognitif pendant de longues périodes, ce qui réduit le coût des changements de contexte.
+
+## Qu'est-ce que le time-boxing ?
+
+Le time-boxing attribue une limite de temps fixe à chaque tâche ou à chaque groupe de tâches. Vous travaillez sur une tâche pendant une durée définie — disons 30 minutes — puis vous vous arrêtez, qu'elle soit terminée ou non. Cela combat le perfectionnisme, crée de l'urgence et garantit qu'aucune tâche ne s'étend au point d'occuper toute votre journée.
+
+## Pourquoi ils fonctionnent mieux ensemble
+
+Le regroupement réduit la friction liée aux changements. Le time-boxing empêche les dépassements. Ensemble, ils créent des sessions de travail concentrées et bornées qui font vraiment avancer les choses sans vous épuiser.
+
+**Exemple de journée :**
+- 9 h 00–9 h 30 — Groupe e-mails (en time-boxing)
+- 9 h 30–11 h 00 — Groupe deep work : écriture ou programmation
+- 11 h 00–11 h 15 — Pause
+- 11 h 15–12 h 00 — Groupe administratif : planification, facturation
+- 14 h 00–15 h 00 — Groupe réunions
+- 15 h 00–15 h 15 — Groupe e-mails n° 2
+
+## Conseils pour démarrer
+
+1. **Faites l'audit de vos tâches** — listez tout ce que vous faites en une semaine et regroupez par type.
+2. **Attribuez des time boxes** — décidez combien de temps chaque groupe doit prendre.
+3. **Communiquez vos limites** — informez vos collègues de vos plages de travail concentré.
+4. **Commencez avec deux groupes** — e-mails et deep work. Ajoutez-en d'autres à mesure que vous progressez.
+
+## Chrobox, votre assistant de regroupement
+
+La fonction de time blocking de Chrobox est conçue pour cela. Créez des blocs de temps récurrents pour chaque catégorie de tâches. Son calendrier visuel permet de voir en un coup d'œil comment votre journée est structurée, et la synchronisation multiplateforme garantit que votre planning regroupé vous suit partout.
+
+Quand des tâches imprévues arrivent, glissez-les dans le groupe approprié au lieu de les traiter immédiatement. Votre futur vous vous en remerciera.
+
+## En résumé
+
+Le regroupement de tâches et le time-boxing sont chacun puissants. Ensemble, ils forment un multiplicateur de productivité qui respecte à la fois votre concentration et votre temps. Commencez dès aujourd'hui — choisissez vos horaires de traitement des e-mails et tenez-vous-y pendant une semaine.
+`,
+    'focus-time-optimization': `## La science de l'état de flow
+
+L'état de flow — l'expérience d'être complètement absorbé par une tâche — n'a rien de mystique. C'est un état neurologique mesurable, caractérisé par des niveaux élevés de dopamine, de noradrénaline et d'anandamide. Dans le flow, votre cortex préfrontal se désactive partiellement, faisant taire le critique intérieur et vous permettant de performer au-delà de vos capacités habituelles.
+
+Des chercheurs de McKinsey ont constaté que les dirigeants en état de flow sont jusqu'à cinq fois plus productifs que dans leur état normal.
+
+## Les quatre conditions préalables du flow
+
+Le flow exige :
+
+**Des objectifs clairs** — Vous devez savoir exactement vers quoi vous travaillez. Des objectifs vagues créent de l'anxiété, pas de la concentration.
+
+**Un retour immédiat** — Votre travail doit fournir rapidement des signaux indiquant si vous réussissez. La programmation et l'écriture le font naturellement ; d'autres types de travail peuvent nécessiter des boucles de retour artificielles.
+
+**Un équilibre défi-compétences** — La tâche doit se situer légèrement au-delà de votre zone de confort actuelle. Trop facile, et vous vous ennuyez ; trop difficile, et l'anxiété prend le dessus.
+
+**Une attention indivisée** — Une seule notification peut réinitialiser votre période de montée en régime de 15 à 23 minutes.
+
+## Stratégies pratiques pour entrer plus vite en flow
+
+### 1. Créez un rituel d'activation
+Un court rituel régulier avant le travail signale à votre cerveau qu'il est temps de se concentrer. Cela peut être préparer un thé, mettre une musique précise ou noter la tâche unique la plus importante de la session.
+
+### 2. Éliminez toutes les notifications
+Réglez votre téléphone sur « Ne pas déranger ». Fermez les onglets de navigateur non essentiels. Indiquez à vos collègues votre plage de concentration. L'objectif est zéro interruption pendant au moins 60 minutes.
+
+### 3. Commencez par une tâche d'échauffement
+Commencez par une petite tâche liée qui vous met dans le bon mode mental avant de vous attaquer à votre travail principal. Un bilan de 5 minutes des progrès de la veille fonctionne bien.
+
+### 4. Utilisez la pression du temps
+Savoir que vous disposez d'exactement 90 minutes crée une urgence qui accélère la concentration. Les sessions sans limite invitent à la procrastination.
+
+### 5. Optimisez votre environnement
+Même bureau, même éclairage, même ambiance sonore — la constance indique à votre cerveau, avec le temps, d'entrer plus vite en mode concentration.
+
+## Protéger vos sessions de flow
+
+Le plus difficile n'est pas d'entrer en flow — c'est de le protéger une fois qu'on y est. Pensez à :
+
+- Utiliser un signal physique (casque sur les oreilles, porte fermée) pour indiquer que vous n'êtes pas disponible.
+- Planifier les sessions de flow à la même heure chaque jour pour que vos collègues connaissent votre rythme.
+- Regrouper vos réponses aux messages dans des plages postérieures au flow.
+
+## Chrobox pour protéger votre flow
+
+Chrobox vous permet de bloquer vos sessions de flow avec une grande clarté visuelle. Planifiez des blocs de deep work de 90 minutes et laissez la synchronisation multiplateforme de l'application les faire apparaître sur tous vos appareils. Quand quelqu'un tente de programmer une réunion pendant votre bloc de concentration, vous avez une trace visuelle à lui montrer.
+
+L'objectif n'est pas d'être en flow toute la journée — c'est impossible. L'objectif est de garantir au moins une session de flow de haute qualité chaque jour.
+
+## Commencez aujourd'hui
+
+Identifiez votre meilleure fenêtre de 90 minutes. Bloquez-la dans votre calendrier. Préparez votre environnement. Demain, entrez dans cette fenêtre avec un objectif unique et clair et zéro distraction. Cette seule session, répétée avec régularité, produira des résultats remarquables avec le temps.
+`,
+    'digital-minimalism-scheduling': `## L'économie de l'attention travaille contre vous
+
+Chaque application, chaque notification et chaque fil de réseau social est conçu pour capter et retenir votre attention. Il en résulte un état de distraction permanent qui fragmente votre concentration en des dizaines de micro-interactions par heure. Le minimalisme numérique est la réponse délibérée à cette réalité.
+
+## Qu'est-ce que le minimalisme numérique ?
+
+Le minimalisme numérique, popularisé par Cal Newport, est une philosophie d'usage intentionnel de la technologie. La question centrale n'est pas « que pourrait faire cette technologie pour moi ? » mais « cette technologie soutient-elle directement quelque chose auquel je tiens profondément ? »
+
+Les minimalistes n'évitent pas la technologie — ils sont d'une sélectivité implacable sur les outils qu'ils utilisent et sur le moment où ils les utilisent.
+
+## Le problème de la fragmentation de l'attention
+
+Des recherches montrent que le travailleur du savoir moyen consulte son téléphone 96 fois par jour — soit environ une fois toutes les 10 minutes. Chaque consultation, même de 30 secondes, active une boucle de dopamine qui rend la suivante urgente. Avec le temps, votre cerveau perd sa capacité d'attention soutenue.
+
+La solution n'est pas la volonté. C'est un changement structurel.
+
+## Comment le time-boxing renforce le minimalisme numérique
+
+Le time-boxing et le minimalisme numérique poursuivent le même objectif : un usage intentionnel d'un temps et d'une attention limités. Combinés :
+
+**Pendant les blocs de temps** — les appareils passent en mode « Ne pas déranger ». Pas de réseaux sociaux, pas d'e-mails, pas d'actualités. Vous entrez dans un environnement de travail autonome.
+
+**Entre les blocs** — de courtes plages définies pour la communication numérique. Vous consultez vos messages de façon délibérée, pas réactive.
+
+**En fin de journée** — un « coucher de soleil numérique » : toutes les applications de travail se ferment à heure fixe, ce qui protège vos heures de récupération.
+
+## Un cadre pratique : minimalisme numérique + time-boxing
+
+### Étape 1 : l'audit numérique
+Pendant une semaine, notez chaque application que vous ouvrez et le temps que vous y passez. La plupart des gens sont stupéfaits des résultats.
+
+### Étape 2 : définissez vos essentiels numériques
+Listez les outils qui soutiennent réellement votre travail et vos valeurs personnelles. Désinstallez ou retirez tout le reste de vos appareils principaux.
+
+### Étape 3 : attribuez la technologie à des blocs de temps
+Chaque outil obtient un bloc de temps précis :
+- E-mails : 9 h 00–9 h 30 et 16 h 00–16 h 30
+- Slack/Teams : trois plages de 15 minutes par jour
+- Réseaux sociaux : une plage facultative de 20 minutes après le travail
+
+### Étape 4 : créez un protocole pour vos appareils
+Pendant les blocs de deep work, votre téléphone est dans une autre pièce ou en mode avion. C'est non négociable.
+
+### Étape 5 : concevez un matin sans écrans
+Les 60 premières minutes de votre journée donnent le ton à votre attention. Protégez-les totalement de tout apport numérique.
+
+## Les bénéfices cognitifs
+
+Des chercheurs ont constaté que la simple présence d'un smartphone sur votre bureau — même retourné, même éteint — réduit votre capacité cognitive disponible. Éloigner les appareils de votre environnement de travail pendant les blocs de concentration a des effets mesurables sur la performance.
+
+Les adeptes du minimalisme numérique rapportent systématiquement :
+- Une concentration plus profonde et plus soutenue
+- Moins d'anxiété et de bruit mental
+- Une plus grande satisfaction quant à leur production
+- Plus de temps pour des activités hors ligne qui ont du sens
+
+## Utiliser Chrobox pour ancrer votre planning minimaliste
+
+Chrobox sert de hub de planification unique dans une configuration minimaliste. Plutôt que de jongler avec plusieurs applications de productivité, vous planifiez toute votre journée en time blocking — y compris vos plages de communication — dans une seule interface visuelle. La synchronisation multiplateforme rend le planning accessible sans passer d'un outil à l'autre.
+
+La vue calendrier épurée de l'application permet de repérer facilement les espaces vides de votre journée, ce qui vous encourage à protéger le temps libre plutôt qu'à combler chaque interstice d'activité.
+
+## Votre défi de minimalisme numérique
+
+Cette semaine, essayez une seule chose : retirez les applications de réseaux sociaux de votre téléphone pendant cinq jours. Remplacez ce temps par un seul bloc de deep work de 90 minutes avec Chrobox. Mesurez votre concentration, votre production et votre humeur à la fin de la semaine.
+
+Les petits changements structurels s'accumulent. Le minimalisme numérique associé au time-boxing est l'une des améliorations les plus efficaces que vous puissiez apporter à votre façon de travailler et de vivre.
+`,
+    'time-boxing-with-calendar-apps': `## Pourquoi votre calendrier est déjà un outil de time-boxing
+
+La plupart des gens utilisent leur calendrier comme un registre passif de leurs engagements. Le time-boxing renverse cette logique : votre calendrier devient un plan actif de l'endroit où va votre attention à chaque heure de la journée. La bonne nouvelle, c'est que Google Calendar, Apple Calendar et Outlook offrent tout ce dont vous avez besoin pour commencer dès aujourd'hui.
+
+## Configurer des blocs de temps dans Google Calendar
+
+Ouvrez Google Calendar et créez un nouvel événement. Donnez-lui le nom de votre tâche, et non une étiquette vague comme « travail ». Réglez la durée en fonction de la session de concentration prévue. Dans le menu « Plus d'options », définissez votre statut sur « Occupé » et la visibilité sur « Privé » afin que vos collègues ne puissent pas voir les détails ni planifier par-dessus.
+
+Utilisez un code couleur pour distinguer les types de blocs. Par exemple, vert pour le deep work, bleu pour les réunions et orange pour les tâches administratives. Le système de couleurs de Google Calendar permet de voir d'un coup d'œil si votre journée est équilibrée ou surchargée.
+
+Créez des blocs récurrents pour les habitudes quotidiennes comme votre séance de planification du matin ou votre bilan de fin de journée. Les événements récurrents garantissent que ces routines essentielles ne se font jamais évincer.
+
+## Le time-boxing dans Apple Calendar
+
+Apple Calendar fonctionne mieux associé à Rappels d'iOS ou à un gestionnaire de tâches. Créez un calendrier dédié aux blocs de temps et donnez-lui une couleur distincte. Quand vous ajoutez un bloc, utilisez le champ de notes pour lister les tâches précises que vous prévoyez d'accomplir pendant cette session.
+
+Activez la fonction « Alertes » pour recevoir un avertissement cinq minutes avant le début de chaque bloc. Cela vous laisse le temps de fermer d'autres onglets, de couper les notifications et de passer mentalement en mode concentration avant le début du bloc.
+
+## Le time-boxing avec Outlook pour les équipes
+
+La force d'Outlook est sa profonde intégration avec Microsoft Teams et les calendriers partagés. Bloquez du temps en utilisant « Nouveau rendez-vous » plutôt que « Nouvelle réunion » pour qu'il reste par défaut hors des calendriers partagés. Réglez l'état d'affichage sur « Occupé » et activez l'indicateur privé.
+
+Utilisez les couleurs de catégorie d'Outlook pour les faire correspondre au fonctionnement de votre organisation. Si votre équipe utilise déjà des conventions de couleurs pour les types de réunions, étendez-les à vos blocs de travail personnels afin que le langage visuel reste cohérent.
+
+## Le problème du time-boxing manuel dans un calendrier
+
+Le principal point de friction est que faire glisser manuellement des tâches dans un calendrier prend du temps et que celui-ci est rarement mis à jour quand les plans changent. Chrobox résout ce problème en synchronisant directement votre liste de tâches avec votre calendrier. Ajoutez une tâche avec une durée estimée, et Chrobox trouve le prochain créneau disponible et crée automatiquement le bloc. Quand les priorités changent, il replanifie les blocs concernés sans intervention manuelle.
+
+## Conseils pour protéger vos blocs de temps
+
+Communiquez votre système à votre équipe. Faites-leur savoir qu'un temps bloqué signifie que vous êtes indisponible, et pas simplement provisoirement occupé. Désignez chaque jour une plage précise pour les demandes impromptues, afin que vos collègues aient un moment prévisible pour vous joindre sans perturber vos blocs.
+
+Passez en revue votre calendrier chaque matin pour les 24 heures à venir. Vérifiez que vos blocs correspondent à vos priorités principales et ajustez si une nouvelle tâche urgente est apparue. Ce contrôle de cinq minutes évite que ce soit la journée qui vous mène, plutôt que l'inverse.
+`,
+    'beat-procrastination-time-boxing': `## La vraie raison pour laquelle vous procrastinez
+
+La procrastination n'est pas un défaut de caractère. C'est une réponse neurologique à une menace perçue. Quand une tâche paraît ambiguë, écrasante ou liée à votre valeur personnelle, votre cerveau déclenche des comportements d'évitement pour vous protéger d'un éventuel échec. Comprendre ce mécanisme est la première étape pour le vaincre.
+
+Des chercheurs de l'université Carleton ont constaté que la procrastination relève fondamentalement de la gestion des émotions négatives, et non d'une mauvaise gestion du temps. Cela signifie que les stratégies qui ne visent que votre emploi du temps resteront insuffisantes si elles ne traitent pas aussi la dimension émotionnelle.
+
+## Comment le time-boxing s'attaque à la racine du problème
+
+Le time-boxing agit contre la procrastination à plusieurs niveaux. D'abord, il supprime l'ambiguïté de la tâche en définissant précisément quand le travail aura lieu. Le cerveau résiste aux engagements sans limite mais accepte volontiers ceux qui sont bornés. Ensuite, un point d'arrivée fixe supprime la pression de la perfection. Vous n'essayez pas de terminer la tâche parfaitement ; vous travaillez 45 minutes, puis vous vous arrêtez.
+
+Troisièmement, le time-boxing crée ce que les psychologues appellent des « intentions d'implémentation ». Les travaux de Peter Gollwitzer montrent que les personnes qui précisent quand et où elles agiront pour atteindre un objectif ont nettement plus de chances de passer à l'acte que celles qui ont des intentions vagues. Planifier une tâche sous forme de time box est une intention d'implémentation dans sa forme la plus aboutie.
+
+## Le protocole de démarrage en cinq minutes
+
+Pour les tâches que vous évitez, utilisez le protocole de démarrage en cinq minutes. Engagez-vous à travailler sur la tâche pendant exactement cinq minutes. Dites-vous que vous pourrez vous arrêter au bout de cinq minutes si vous le souhaitez. Cette technique exploite l'effet Zeigarnik : les humains ont une tendance naturelle à terminer les tâches qu'ils ont commencées, ce qui rend plus facile de continuer que de s'arrêter une fois lancé.
+
+Après cinq minutes, vous choisirez presque toujours de continuer. Si ce n'est pas le cas, c'est que quelque chose cloche dans la tâche elle-même, par exemple qu'elle est floue ou qu'elle nécessite une ressource que vous n'avez pas. Cette information est précieuse et vous évite de rester paralysé sans savoir pourquoi.
+
+## Utiliser le time-boxing pour décomposer les tâches écrasantes
+
+Les grandes tâches sont les plus gros déclencheurs de procrastination, car leur périmètre n'est pas défini. Découpez chaque grande tâche en sous-tâches qui tiennent dans un seul time box. « Rédiger le rapport » devient « esquisser l'introduction » (20 min), « rédiger la section méthodologie » (45 min) et « relire et corriger » (30 min).
+
+Chrobox facilite cette décomposition. Vous pouvez créer des tâches parentes avec des sous-tâches, chacune avec sa propre estimation de durée, et Chrobox les planifiera automatiquement sur les créneaux disponibles de votre calendrier.
+
+## Gérer l'inconfort émotionnel
+
+Le moment qui précède le démarrage d'une tâche redoutée est celui où l'inconfort atteint son maximum. Reconnaissez ce sentiment sans agir en conséquence. Une phrase simple comme « je remarque que j'ai envie de regarder mon téléphone plutôt que de commencer » crée une distance psychologique entre l'impulsion et l'action.
+
+Puis lancez votre minuteur et commencez. L'inconfort chute spectaculairement dans les deux à trois minutes d'un effort sincère, ce qui explique l'efficacité du protocole de démarrage en cinq minutes.
+
+## Créer de l'élan tout au long de la journée
+
+Planifiez la tâche que vous évitez le plus dès le début de la matinée, avant que votre cerveau n'ait le temps de négocier. Une fois qu'elle est terminée, la satisfaction psychologique vous donne de l'élan pour le reste de la journée. Chrobox peut automatiquement prioriser les tâches évitées en repérant celles qui sont sans cesse reportées, et les signaler pour que vous les affrontiez tôt plutôt que de les repousser indéfiniment.
+`,
+    'daily-review-ritual': `## Pourquoi la plupart des gens sautent le bilan quotidien
+
+Le bilan quotidien est l'une des habitudes les plus recommandées dans la littérature sur la productivité, et pourtant l'une des plus souvent négligées. La raison est presque toujours la même : il paraît facultatif. Quand on est occupé, la première chose que l'on supprime est le temps de réflexion, car il ne produit pas de résultat tangible immédiat. C'est une erreur coûteuse.
+
+Les meilleurs performeurs de toutes les disciplines, des athlètes aux PDG, rapportent systématiquement que la réflexion structurée n'est pas séparée de la haute performance. Elle en est le moteur. Un investissement de 10 minutes pour passer en revue votre journée peut vous épargner deux heures d'efforts mal orientés le lendemain.
+
+## Les quatre questions qui rendent un bilan efficace
+
+Un bon bilan quotidien n'a pas besoin d'être long ou complexe. Il doit être honnête. Concentrez-vous sur quatre questions :
+
+1. Qu'ai-je terminé aujourd'hui ? Notez ce que vous avez réellement fini, pas ce que vous aviez prévu. Cela dresse au fil du temps un portrait fidèle de votre production réelle.
+
+2. Qu'est-ce qui reste ouvert ou bloqué ? Identifiez tout ce qui n'a pas été fait et pourquoi. Est-ce bloqué par une dépendance ? Faut-il plus d'informations ? Cela évite que des tâches disparaissent discrètement de votre radar.
+
+3. Quelle est la tâche la plus importante de demain ? Choisissez-en une, pas cinq. Avoir une seule priorité claire rend le démarrage de demain matin nettement plus facile.
+
+4. Qu'ai-je appris ou que voudrais-je faire différemment ? C'est là que la progression se joue. Même une petite observation par jour s'accumule en une amélioration significative au fil des mois.
+
+## Choisir le bon moment pour un impact maximal
+
+Les bilans de fin de journée, réalisés avant de fermer votre ordinateur, sont plus efficaces que ceux du matin car votre mémoire de travail est encore imprégnée du contexte de la journée. Vous savez exactement ce qui s'est passé, ce qui n'a pas été fait et ce qui a généré des frictions. Le bilan du matin vaut mieux comme second passage pour confirmer les priorités, pas comme substitut au traitement de fin de journée.
+
+Si vous travaillez depuis chez vous, créez un rituel physique qui marque la fin de la journée de travail : préparer un thé particulier, se changer, ou faire une courte promenade. Associez votre bilan à ce rituel pour que le comportement devienne automatique.
+
+## Ancrer l'habitude pour qu'elle dure
+
+Les recherches sur les habitudes montrent régulièrement que rattacher un nouveau comportement à un comportement existant, une technique appelée « habit stacking », augmente considérablement les chances de régularité. Choisissez une habitude d'ancrage que vous accomplissez déjà de façon fiable en fin de journée et placez votre bilan juste avant ou juste après.
+
+Suivez votre série de façon visuelle. Voir une chaîne de bilans accomplis rend psychologiquement réticent à la rompre. Chrobox inclut un suivi de série pour votre habitude de bilan quotidien, qui envoie un rappel discret cinq minutes avant l'heure prévue pour votre bilan.
+
+## Utiliser Chrobox pour un bilan assisté
+
+Chrobox préremplit votre bilan quotidien avec les tâches terminées, non terminées et replanifiées de la journée, vous évitant l'effort de vous rappeler manuellement ce qui s'est passé. Vous voyez votre taux d'achèvement, les endroits où vous avez surestimé ou sous-estimé la durée des tâches, et les tâches qui ont migré depuis les jours précédents. Ces données rendent vos quatre questions bien plus faciles et plus précises à traiter.
+
+Avec le temps, les analyses de Chrobox vous montrent des schémas : les jours de la semaine où vous êtes le plus productif, les types de tâches que vous sous-estimez systématiquement et les obstacles récurrents qui reviennent sans cesse. Votre bilan quotidien passe ainsi d'une simple habitude à un véritable système d'amélioration continue.
+`,
+    'time-boxing-for-creative-professionals': `## Le dilemme du professionnel créatif
+
+Les professionnels créatifs font face à une tension particulière. Leur travail exige à la fois une exécution disciplinée et une exploration sans limite. Trop de structure, craignent-ils, étouffera les intuitions spontanées qui donnent sa valeur au travail créatif. Trop peu, et la journée se dissout dans la distraction, la procrastination et les tâches réactives.
+
+La résolution de ce dilemme ne consiste pas à choisir entre structure et liberté. Elle consiste à concevoir un planning qui réserve du temps dédié aux deux, avec des frontières claires entre chaque mode.
+
+## Ce que la recherche montre réellement
+
+Les recherches en psychologie sur la créativité constatent régulièrement que des contraintes modérées améliorent la performance créative au lieu de la limiter. Ce phénomène, connu sous le nom de « contrainte créative », s'explique par le fait que les limites forcent le cerveau à explorer des solutions qu'il ignorerait autrement quand l'espace des solutions est infini.
+
+Les recherches de Patricia Stokes sur des artistes comme Monet et Picasso ont montré que leurs périodes les plus novatrices coïncidaient avec des contraintes qu'ils s'étaient eux-mêmes imposées, et non avec l'absence de contraintes. Les séries de Monet, par exemple, sont nées de sa décision de peindre le même sujet dans des conditions différentes, une contrainte qui l'a poussé vers des solutions jusque-là inexplorées.
+
+## Concevoir votre système de time-boxing créatif
+
+Le principe clé est de distinguer le temps génératif du temps productif. Le temps génératif sert à créer de la matière nouvelle : rédiger des premiers jets, esquisser des concepts, brainstormer et générer des idées. Le temps productif sert à affiner, corriger, exécuter et livrer.
+
+Planifiez vos blocs génératifs quand votre énergie mentale est au plus haut, généralement le matin. Réservez les blocs productifs aux périodes de moindre énergie. Utilisez des blocs plus longs (60 à 90 minutes) pour le travail génératif, où un flow soutenu est précieux, et des blocs plus courts (25 à 45 minutes) pour les tâches productives qui ont des points d'arrivée clairs.
+
+Point essentiel : prévoyez au moins un bloc d'exploration non structuré par semaine, sans aucun livrable associé. C'est un temps pour lire, flâner, observer ou simplement réfléchir sans ordre du jour. Ce bloc nourrit vos réserves créatives au lieu de les épuiser.
+
+## Protéger le travail créatif en profondeur
+
+Planifiez vos blocs créatifs tôt et marquez-les comme non négociables. Indiquez à vos clients et collègues que ces heures sont indisponibles. Les résistances sont généralement minimes quand vous présentez cela comme un investissement dans la fiabilité : vous livrez un meilleur travail quand vous protégez vos heures créatives.
+
+Désactivez toutes les notifications pendant les blocs créatifs. Des recherches de l'université de Californie à Irvine ont montré qu'il faut en moyenne 23 minutes pour retrouver une pleine concentration après une interruption. Une seule notification ne vous coûte pas une seconde ; elle vous coûte 23 minutes.
+
+## Gérer l'inspiration qui arrive au mauvais moment
+
+Les idées créatives ne suivent pas les emplois du temps. Quand l'inspiration surgit pendant un bloc administratif ou une réunion, capturez-la immédiatement dans un système sans friction. Un mémo vocal, une simple ligne dans une note dédiée ou une tâche Chrobox rapide avec l'idée pour titre fonctionnent bien. L'essentiel est de capturer sans agir, en préservant à la fois l'idée et la concentration de votre bloc en cours.
+
+Relisez votre liste de captures au début de chaque bloc créatif. Souvent, les idées qui survivent jusqu'à votre prochaine session créative sont les vraiment bonnes, tandis que les impulsions qui semblaient urgentes sur le moment s'estompent à la réflexion.
+
+## Utiliser Chrobox pour la gestion de projets créatifs
+
+Chrobox soutient les workflows créatifs en vous permettant de créer des regroupements de blocs de temps au niveau du projet. Un projet de design peut comporter des blocs de recherche, de développement du concept, d'exécution et de validation client, chacun avec des durées différentes. Chrobox les répartit sur votre calendrier en fonction des échéances et de votre capacité disponible, vous offrant une vue complète de quand le travail créatif aura lieu sans que vous ayez à planifier chaque session manuellement.
+
+La plateforme suit aussi les blocs que vous prolongez, ce qui vous aide à comprendre quelles tâches créatives vous sous-estimez systématiquement, afin de construire des plannings plus réalistes pour vos futurs projets.
+`,
   },
   templates: {
     'software-developer': {

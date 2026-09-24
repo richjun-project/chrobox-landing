@@ -2214,6 +2214,970 @@ Bir proje için 2 saatlik bir time-box belirleyin ve ardından bu süre içinde 
 
 Evrensel olarak "daha iyi" bir teknik yoktur; yalnızca sizin için neyin daha iyi çalıştığı önemlidir. Denemeler yapın ve sizin için sürdürülebilir ve üretken hissettiren yöntemde karar kılın.
     `,
+    'time-boxing-for-adhd': `# DEHB İçin Time-Boxing: Odaklanmayı Sürdürmek İçin Pratik Bir Rehber
+
+DEHB, göreve başlamayı, görevler arasında geçiş yapmayı ve —belki de en can sıkıcısı— ilgi çekici bir şeyi bırakıp önemli bir şeyle uğraşmayı zorlaştırır. Time-boxing, her aktivite etrafına önceden belirlenmiş sınırlar çizerek bu üç zorluğa da çözüm sunar.
+
+## Time-Boxing Nedir?
+
+Time-boxing, başlamadan önce belirli bir göreve sabit bir süre sınırı atamak demektir. Bir rapor üzerinde 'bitene kadar' çalışmak yerine, tam olarak 25 dakika boyunca üzerinde çalışırsınız. Süre dolduğunda, nerede olduğunuza bakmaksızın durursunuz.
+
+DEHB'li beyinler için bu, en büyük iki engeli ortadan kaldırır: ne zaman başlayacağına karar verme felci ve ne zaman duracağını bilme zorluğu.
+
+## DEHB'de Neden İşe Yarar?
+
+DEHB'li beyin, son tarihlere ve yeniliğe güçlü tepki verir. Geri sayan bir zamanlayıcı, kriz odaklı çalışmayı yönetilebilir hissettiren aynı dopamin tepkisini harekete geçirebilecek yapay bir aciliyet duygusu yaratır.
+
+Ayrıca günü ayrık bloklara bölmek, planlamanın bilişsel yükünü azaltır. Tüm projenin zihinsel bir haritasını tutmak yerine, yalnızca sonraki 20 dakikaya odaklanmanız yeterlidir.
+
+## Nasıl Başlanır?
+
+**1. Küçük başlayın.** İlk hafta 15 dakikalık bloklar kullanın. Bu, ulaşılabilir hissettirir ve daha uzun oturumlara geçmeden önce alışkanlığı oluşturur.
+
+**2. Başlamadan önce görevi kağıda yazın.** Hedefi dışsallaştırmak, oturum sırasında konu dışı konulara kaymayı önler.
+
+**3. Fiziksel veya görsel bir zamanlayıcı kullanın.** DEHB için sesli ve görsel ipuçları, telefon bildirimlerinden daha etkilidir. Görsel geri sayımlı özel bir zamanlayıcı uygulaması, zamanın geçişini somut hale getirir.
+
+**4. Geçiş süresi ekleyin.** Bloklar arasına 5 dakikalık bir tampon süre ekleyin. Bu, ani duruşların stresini azaltır ve beyninize sıfırlanması için zaman tanır.
+
+**5. Gerçekte neyi tamamladığınızı kaydedin.** Günün sonunda tamamlanan blokları gözden geçirmek dopamin ödülü sağlar ve gelecekteki tahminleri kalibre etmeye yardımcı olur.
+
+## Kaçınılması Gereken Yaygın Tuzaklar
+
+- **Hiper-odaklanma tuzakları:** Zamanlayıcı çaldığında bir görevin derinlerindeyseniz, nerede olduğunuza dair kısa bir not yazın ve yine de durun. Bir bloğu atlamak, programın çökmesine yol açar.
+- **Aşırı uzun bloklar:** 45 dakikadan uzun bloklar DEHB için nadiren sürdürülebilirdir. Aralarında hareket molaları olan daha kısa ve sık bloklar, uzun ve kesintisiz sürelerden daha başarılıdır.
+- **Planlamada mükemmeliyetçilik:** Kusursuz bir program hazırlamak için 30 dakika harcamayın. En önemli üç önceliğinizi bloklayın ve gün ilerledikçe ayarlama yapın.
+
+## DEHB İçin Time-Boxing'de Chrobox Kullanımı
+
+Chrobox, takviminizin zamanınızı gerçekte nasıl harcadığınızı yansıtması gerektiği fikri üzerine kurulmuştur. Görsel zaman takibi, planladığınız blokların gerçeklikle eşleşip eşleşmediğini bir bakışta görmenizi sağlar; bu da DEHB kullanıcılarına davranış değişikliğini sürdürülebilir kılan anlık geri bildirim döngüsünü sunar.
+
+Yarın sabah üç zaman kutusuyla başlayın. Başlamak için gereken tek şey bu.`,
+    'time-boxing-for-students': `# Öğrenciler İçin Time-Boxing: Daha Zor Değil, Daha Akıllıca Çalışmanın Yolu
+
+Daha çok çalışmak nadiren çözümdür. Sürekli olarak iyi performans gösteren öğrenciler mutlaka en çok saati harcayanlar değildir; onlar çalıştıkları her saatin kalitesini korurlar. Time-boxing, bunu mümkün kılan mekanizmadır.
+
+## Açık Uçlu Çalışma Oturumlarının Sorunu
+
+'Sınava çalışmak' için oturduğunuzda, beyninizin net bir bitiş noktası yoktur. Bir sınır olmadan Parkinson Yasası devreye girer: iş, ayrılan süreyi tamamen kapsayacak şekilde genişler. Sonuç, verimli hissettiren ama çok az kalıcı öğrenme sağlayan, düşük yoğunluklu üç saatlik bir çabadır.
+
+## Time-Boxing Denklemi Nasıl Değiştirir?
+
+Tek bir ders için 45 dakikalık bir blok belirleyerek:
+
+- Hatırlama kodlamasını iyileştiren bir aciliyet duygusu yaratırsınız
+- Maraton oturumlarının azalan getirisini önlersiniz
+- Her dersin gerçekte ne kadar zaman aldığını takip etmeyi kolaylaştırırsınız
+- Hafızayı pekiştiren zorunlu molalar oluşturursunuz
+
+## Öğrenci İçin Time-Box Programı Oluşturmak
+
+**Adım 1: Derslerinizi listeleyin ve haftalık gereken saatleri tahmin edin.**
+Dürüst olun. Zor dersler daha fazla blok gerektirir. Her şeye eşit süre ayırmayın.
+
+**Adım 2: Blokları belirli gün ve saatlere atayın.**
+En zor dersinize, zihinsel performansınızın zirvede olduğu pencerede çalışın; bu, çoğu insan için genellikle sabahın ortasıdır.
+
+**Adım 3: Tekrar bloklarını koruyun.**
+Çalışma sürenizin en az %20'si, yalnızca yeni içeriği işlemek yerine önceki materyali tekrar etmeye ayrılmalıdır.
+
+**Adım 4: Süre aşımı için plan yapın.**
+Bir konuda daha fazla zamana ihtiyacınız varsa, mevcut bloğu uzatmak yerine bir telafi bloğu planlayın. Bu, genel programınızı bozulmadan korur.
+
+## Ders Değiştirme Stratejisi
+
+Aralıklı çalışma (interleaving) — tek bir çalışma oturumunda dersler arasında geçiş yapmak — saatlerce tek bir derse odaklanmaya kıyasla uzun vadeli hatırlamayı iyileştirdiği kanıtlanmıştır. Time-box'lanmış bir program bu stratejiyi doğal olarak destekler.
+
+Örneğin:
+- 9:00–9:45 Matematik
+- 9:55–10:40 Tarih
+- 10:50–11:35 Edebiyat
+
+## Sınav Baskısını Yönetmek
+
+Sınavdan iki hafta önce, diğer dersleri tamamen bırakmadan blokları kademeli olarak sınav dersine kaydırın. Son 48 saatte yapılan sıkıştırılmış çalışma, dönem boyunca yapılan zayıf blok planlamasının bir belirtisidir.
+
+## Öğrenciler İçin Chrobox
+
+Chrobox, zaman bloklarını planlamanıza ve saatlerinizin gerçekte nereye gittiğini görmenize olanak tanır. Planladığınız çalışma programını gerçek davranışınızla karşılaştırmak, notlarınıza mal olmadan düzeltebileceğiniz örüntüleri —örneğin matematik bloğunu hep atlamak gibi— ortaya çıkarır.
+
+Daha akıllı çalışma, zamanınızın tam olarak nasıl harcandığını bilmekle başlar.`,
+    'morning-routine-scheduling': `# Time-Boxing ile Mükemmel Sabah Rutini Nasıl Oluşturulur?
+
+Sabah, günün en tam kontrol edebileceğiniz bölümüdür. Henüz hiçbir toplantı planlanmamıştır, hiçbir e-posta anında yanıt talep etmez ve irade gücü rezerviniz en yüksek seviyededir. Bu zaman dilimini time-box'lamak, iyi niyetleri tekrarlanabilir bir sisteme dönüştürür.
+
+## Sabah Rutinleri Neden Başarısız Olur?
+
+Çoğu insan sabahlara tepkisel yaklaşır; telefona uzanır ve en acil hissettiren şeye yanıt verir. Bir plan olmadan, ilk saat düşük değerli aktivitelerin sisinde kaybolur ve gün, yön duygusunu bir daha asla toparlayamaz.
+
+Time-boxing, kararları önceden vererek bu sorunu çözer. Her sabah ne yapacağınızı seçmezsiniz; sadece zaten yaptığınız planı uygularsınız.
+
+## Sabah Bloklarınızı Tasarlamak
+
+**Vazgeçilmezlerinizi belirleyin.**
+Her sabah tamamlandığında sağlığınıza, odağınıza ve ruh halinize en büyük farkı yaratacak üç ila beş aktiviteyi listeleyin. Yaygın seçenekler: egzersiz, günlük tutma, okuma, derin çalışma, meditasyon.
+
+**Enerji gereksinimine göre sıralayın.**
+Bir enerji patlamasına ihtiyacınız varsa önce fiziksel aktivite. Zihin tazeyken sonrasında yaratıcı veya bilişsel çalışma. Düşük riskli görevler en sona.
+
+**Gerçekçi süreler belirleyin.**
+Daha önce hiç sabah egzersiz yapmadıysanız 60 dakikalık bir antrenman planlamayın. 20 dakikayla başlayın ve zamanla artırın.
+
+## Örnek Sabah Zaman Kutusu (90 dakika)
+
+- 6:00–6:20 Hafif egzersiz veya yürüyüş (20 dk)
+- 6:20–6:30 Duş ve giyinme (10 dk)
+- 6:30–6:50 Ekransız kahvaltı (20 dk)
+- 6:50–7:20 Derin çalışma veya okuma (30 dk)
+- 7:20–7:30 Gün planlaması ve gelen kutusu incelemesi (10 dk)
+
+## Kalıcı Hale Getirmek
+
+**Var olan bir alışkanlığa bağlayın.** İlk bloğunuzu uyanır uyanmaz hemen başlatın. Uyanma alışkanlığı, rutinin tetikleyicisi haline gelir.
+
+**Önceki akşamdan hazırlanın.** Spor kıyafetlerinizi hazırlayın, günlüğünüzü kurun ve gereksiz tarayıcı sekmelerini kapatın. Her bloğun başındaki sürtünmeyi azaltmak, uygulamayı artırır.
+
+**Mükemmelliği değil, tamamlamayı takip edin.** Bir bloğu kaçırmak rutini mahvetmez. Neyi tamamladığınızı kaydedin ve devam edin.
+
+## Esnekliğin Rolü
+
+Katı bir rutin, gerçek hayatın baskısı altında çöker. İhtiyaç duyduğunuzda yeniden düzenleyebileceğiniz 15 dakikalık bir esnek blok ekleyin. Bu tampon, beklenmedik tek bir olayın tüm sabahı çökertmesini önler.
+
+## Chrobox ve Sabah Rutininiz
+
+Chrobox, sabah bloklarınızı günün geri kalanıyla birlikte görselleştirmek için takviminizle entegre olur. Sabahlarınızın haftadan haftaya nasıl karşılaştırıldığını incelemek, bir sorun haline gelmeden önce sapmaları ortaya çıkarır ve en önemli saatlerinizi korunmuş tutar.
+
+En iyi günleriniz, plan çoktan hazırlanmış olarak bir önceki akşam başlar.`,
+    'deep-work-scheduling': `# Derin Çalışma Planlaması: En Üretken Saatlerinizi Nasıl Korursunuz?
+
+Cal Newport, derin çalışmayı 'bilişsel yeteneklerinizi sınırlarına zorlayan, dikkat dağıtıcılardan arınmış bir konsantrasyon durumunda gerçekleştirilen profesyonel faaliyetler' olarak tanımlar. Kariyerleri ileriye taşıyan iş budur. Ancak çoğu bilgi işçisi günde bir saatten daha az gerçek derin çalışma yapar.
+
+Engel irade gücü değildir. Engel, planlamadır.
+
+## Derin Çalışmayı Korumak Neden Bu Kadar Zor?
+
+Derin çalışma, takvimde yer almak için sığ çalışmayla rekabet eder. Toplantılar, e-postalar ve Slack mesajları planlaması daha kolaydır ve anında üretken hissettirir. Ayrıca çoğalma eğilimindedirler. Bilinçli bir koruma olmadan, derin çalışma sıkışıp kalır.
+
+## Time-Boxing Çözümü
+
+Derin çalışmayı time-box'lamak, onu diğer her randevu gibi ele almak demektir: takvime girer, bir başlangıç saati vardır ve gelişigüzel yeniden planlanamaz.
+
+Normal planlamadan temel farkı, dikkat dağıtıcılardan arınmış koşullara verilen açık taahhüttür. Bir derin çalışma bloğu sadece ayrılmış bir zaman değildir; korunan bir zamandır.
+
+## Derin Çalışma Blokları Nasıl Planlanır?
+
+**1. Zirve saatlerinizi belirleyin.**
+Çoğu insanın analitik düşüncesinin en keskin olduğu iki ila dört saatlik bir penceresi vardır. Birçok kişi için bu, sabahın ortasıdır. Bu pencereyi amansızca koruyun.
+
+**2. Önceden planlayın.**
+Derin çalışma bloklarını her günün başında değil, her haftanın başında planlayın. Günü gününe planlama, acil ama sığ görevler tarafından yerinden edilmeye yol açar.
+
+**3. En fazla dört saatle sınırlayın.**
+Kaliteli derin çalışma, dört saatten sonra bozulur. Altı saat planlamak üretken görünür ama genellikle daha yüksek kalitede dört saatle aynı çıktıyı üretir.
+
+**4. Benzer görevleri bir araya toplayın.**
+Yazmak derin çalışma gerektiriyorsa, tüm yazma görevlerini birlikte planlayın. Farklı derin çalışma türleri arasında bağlam değiştirmek faydayı azaltır.
+
+## Doğru Koşulları Yaratmak
+
+- Sadece bildirimleri değil, e-posta ve mesajlaşma uygulamalarını tamamen kapatın
+- Dikkat dağıtıcı sitelerin engellendiği özel bir tarayıcı profili kullanın
+- Derin çalışma saatlerinizi haftanın başında ekibinize bildirin
+- Kullanılamaz olduğunuzu belirten fiziksel bir sinyal kullanın (kapalı kapı, kulaklık)
+
+## Kesintileri Yönetmek
+
+Hazırlığa rağmen kesintiler yaşanır. Derin çalışma sırasında ortaya çıkan acil konuları not almak için küçük bir defter bulundurun. Onları not etmek zihinsel yükü kaldırır ve hemen odağa dönmenizi sağlar.
+
+Gerçek bir acil durum olmadıkça bir e-postayla ilgilenmek için bir derin çalışma bloğunu asla bölmeyin. Neredeyse hiçbir şey acil durum değildir.
+
+## Zamanı Değil, Çıktıyı Ölçmek
+
+Bir derin çalışma bloğunun amacı iki saat masada oturmak değildir; belirli bir çıktı üretmektir. Blok başlamadan önce teslim edilecek şeyi tanımlayın: 'üçüncü bölümün ilk taslağını tamamla', 'rapor üzerinde çalış'tan daha iyidir.
+
+## Derin Çalışma İçin Chrobox
+
+Chrobox, derin çalışma bloklarınızı gününüzdeki diğer tüm taahhütlerin yanında görünür kılar. Görsel zaman günlüğü, sadece masanızda olduğunuzu değil, planladığınız derin çalışmanın gerçekten gerçekleştiğini doğrulamanızı sağlar. Zamanla bu veriler, size en iyi işinizi üreten planlama örüntülerini bulmanıza yardımcı olur.
+
+Derin saatlerinizi koruyun. Gerisi bekleyebilir.`,
+    'best-time-boxing-apps': `## Bu Karşılaştırmaya Neden Güvenmelisiniz?
+
+Chrobox'u biz geliştiriyoruz, bir time-boxing uygulaması — yani evet, bu listede o da var. Ama yalnızca kendi ürününü öven bir karşılaştırma size hiçbir fayda sağlamaz. Aşağıda her uygulama aynı beş kritere göre değerlendirilmiştir; her birinin diğerlerini nerede geçtiğine dair dürüst notlarla birlikte — rakiplerin Chrobox'u geçtiği noktalar da dahil.
+
+## Harika Bir Time-Boxing Uygulamasını Ne Yapar?
+
+- **Sürtünmesiz planlama** — bir zaman kutusu eklemek dakikalar değil, saniyeler sürmeli
+- **Görsel zaman gösterimi** — gününüzü bloklar olarak görmek, onu planlama biçiminizi değiştirir
+- **Odak zorlaması** — en azından hatırlatmalar; kolayca dikkati dağılıyorsanız uygulama engelleme
+- **İnceleme döngüsü** — time-boxing yalnızca planı gerçeklikle karşılaştırdığınızda gelişir
+- **Adil fiyatlandırma** — gününüzü planlamak için ayda 30 dolarlık bir aboneliğe ihtiyacınız olmamalı
+
+## 2026'nın En İyi 8 Time-Boxing Uygulaması
+
+### 1. Chrobox — en iyi özel time-boxing iş akışı (iOS, Android)
+
+Chrobox, ekstra özellikli bir takvim yerine tam time-boxing döngüsü etrafında kurulmuştur: görevler için beyin fırtınası yapın, öncelikleri seçin, görsel bir zaman tünelinde saatlik kutulara yerleştirin, ardından günü haftalık AI analizini besleyen rehberli bir retrospektifle kapatın. Ayrıca **uygulama engellemeyi** zaman kutularınıza bağlayan az sayıdaki planlayıcıdan biridir — dikkat dağıtıcı uygulamalar tam olarak planlanan derin çalışma sırasında kilitlenir.
+
+**Güçlü yönleri:** tam plan→odak→inceleme döngüsü, kutulara bağlı uygulama engelleme, widget'lar ve Live Activity zamanlayıcı, 21 dil
+**Zayıf yönleri:** yalnızca mobil (masaüstü uygulaması yok), takım özellikleri yok
+**Fiyatlandırma:** ücretsiz plan (günde 3 görev); Pro ayda 4,99 dolardan başlıyor, ömür boyu 99,99 dolar
+
+### 2. Sunsama — takvim yoğun profesyoneller için en iyisi (Web, masaüstü, mobil)
+
+Sunsama, Gmail, Slack, Trello ve Asana'dan görevleri çekip takviminize sürükleyebileceğiniz günlük bir plana dönüştürmede parlıyor. Rehberli günlük planlama ritüeli mükemmel. Bunun bedeli fiyat; işvereninin ödediği profesyoneller için konumlandırılmış.
+
+**Güçlü yönleri:** sınıfının en iyisi entegrasyonlar, sakin rehberli planlama
+**Zayıf yönleri:** ayda yaklaşık 16-20 dolar, deneme dışında ücretsiz plan yok
+**Fiyatlandırma:** yalnızca abonelik
+
+### 3. Motion — AI otomatik planlama için en iyisi (Web, mobil)
+
+Motion modeli tersine çevirir: ona görevler ve son tarihler verirsiniz, AI gününüzü otomatik olarak planlar, toplantılar değiştiğinde yeniden düzenler. Kaotik takvimler için güçlüdür ama birçok kişi için time-boxing'in amacının yarısı olan bilinçli planlama eylemini bırakmanız gerekir.
+
+**Güçlü yönleri:** otomatik yeniden planlama, toplantı yoğun haftalarda güçlü
+**Zayıf yönleri:** pahalı, manuel time-boxing'den daha az bilinçli
+**Fiyatlandırma:** premium abonelik, aylık faturalandırmada ayda yaklaşık 30 dolar
+
+### 4. TickTick — üzerine time-boxing eklenmiş en iyi yapılacaklar listesi (tüm platformlar)
+
+TickTick öncelikle bir görev yöneticisidir ama zaman tüneli görünümü ve yerleşik Pomodoro zamanlayıcısı onu yetenekli bir hibrit haline getirir. Kontrol listelerinde yaşıyorsanız ve yalnızca ara sıra time-boxing yapıyorsanız, harika bir değerdir.
+
+**Güçlü yönleri:** mükemmel görev yönetimi, uygun fiyatlı premium, her platform
+**Zayıf yönleri:** time-boxing ikincil; planlama ritüeli veya inceleme döngüsü yok
+**Fiyatlandırma:** sağlam ücretsiz plan; premium yılda yaklaşık 36 dolar
+
+### 5. Structured — en iyi görsel sadelik (iOS, Android, Mac)
+
+Structured, gününüzü temiz bir dikey zaman tüneline dönüştürür ve yumuşak öğrenme eğrisiyle sevilir. Öğrenciler ve görsel düşünenler için harika; istatistik veya zorlama istediğinizde daha az eksiksiz.
+
+**Güçlü yönleri:** güzel zaman tüneli, kolay başlangıç, tek seferlik ödeme dostu fiyatlandırma seçenekleri
+**Zayıf yönleri:** analitik açısından zayıf, uygulama engelleme yok
+**Fiyatlandırma:** ücretsiz plan; Pro abonelik veya ömür boyu
+
+### 6. Tiimo — DEHB ve nörodiverjan planlayıcılar için en iyisi (iOS, Android)
+
+Tiimo, nörodiverjan kullanıcılarla ve onlar için tasarlandı: görsel programlar, ikon tabanlı rutinler ve suçluluk uyandıran gecikme işaretleri yerine nazik geçiş uyarıları. Geleneksel planlayıcılar sizi tekrar tekrar hayal kırıklığına uğrattıysa, buradan veya Chrobox'un odak modundan başlayın.
+
+**Güçlü yönleri:** gerçekten kapsayıcı tasarım, rutin görselleştirme
+**Zayıf yönleri:** klasik üretkenlik analitiğinde daha hafif
+**Fiyatlandırma:** ücretsiz denemeli abonelik
+
+### 7. Google Takvim — zaten sahip olduğunuz en iyi ücretsiz seçenek (tüm platformlar)
+
+Google Takvim'de manuel time-boxing işe yarar: bloklar oluşturun, renk kodlayın, bildirimler ayarlayın. Hiçbir ücreti yok ve her yerde senkronize olur. Eksik olan, takvimin etrafındaki her şeydir — görev yakalama, önceliklendirme, odak zorlaması ve herhangi bir inceleme biçimi.
+
+**Güçlü yönleri:** ücretsiz, evrensel, paylaşılabilir
+**Zayıf yönleri:** görev iş akışı yok, odak araçları yok, göz ardı etmesi kolay
+**Fiyatlandırma:** ücretsiz
+
+### 8. Todoist — zaman blokları ekleyen GTD kullanıcıları için en iyisi (tüm platformlar)
+
+Todoist'in takvim görünümü ve Google Takvim ile çift yönlü senkronizasyonu, kontrol listesi tutkunlarının görev yöneticilerinden ayrılmadan zaman bloklama denemesi yapmasını sağlar. TickTick gibi, time-boxing katmanı ince kalır — ama altındaki görev sistemi muhtemelen sınıfının en iyisidir.
+
+**Güçlü yönleri:** dünya standartlarında görev yakalama ve organizasyon
+**Zayıf yönleri:** time-boxing bir ek özelliktir, ana döngü değil
+**Fiyatlandırma:** ücretsiz plan; Pro ayda yaklaşık 4-5 dolar
+
+## Karşılaştırma Tablosu
+
+| Uygulama | Ana döngü | Uygulama engelleme | İnceleme/retrospektif | Ücretsiz plan | Platformlar |
+|---|---|---|---|---|---|
+| Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | ✅ | iOS, Android |
+| Sunsama | Günlük planlama | ❌ | ✅ kapanış ritüeli | yalnızca deneme | Web, masaüstü, mobil |
+| Motion | AI planlama | ❌ | ❌ | yalnızca deneme | Web, mobil |
+| TickTick | Görev listesi + zaman tüneli | ❌ | ❌ | ✅ | Tümü |
+| Structured | Görsel zaman tüneli | ❌ | ❌ | ✅ | iOS, Android, Mac |
+| Tiimo | Görsel rutinler | ❌ | ❌ | deneme | iOS, Android |
+| Google Takvim | Manuel bloklar | ❌ | ❌ | ✅ | Tümü |
+| Todoist | Görevler + takvim | ❌ | ❌ | ✅ | Tümü |
+
+## Hangisini Seçmelisiniz?
+
+- **Odak zorlaması dahil tam time-boxing yöntemini istiyorsanız:** Chrobox
+- **İşiniz Slack/Asana/e-postada geçiyorsa ve bütçe sorun değilse:** Sunsama
+- **Takviminiz her gün patlıyorsa ve AI'ın başa çıkmasını istiyorsanız:** Motion
+- **Çoğunlukla bir yapılacaklar listesine ihtiyacınız varsa:** TickTick veya Todoist
+- **Mümkün olan en yumuşak başlangıcı istiyorsanız:** Structured
+- **Geleneksel planlayıcılar sizde hiç tutmadıysa:** Tiimo
+- **Hiçbir şey harcamak istemiyorsanız:** Google Takvim
+
+Dürüst sonuç: bu uygulamaların herhangi biri hiç sistem olmamasından daha iyidir. Ana döngüsü beyninizin çalışma şekliyle eşleşeni seçin ve değerlendirmeden önce ona tam iki hafta verin.`,
+    'weekly-planning-guide': `## Haftalık Planlama Neden Her Şeyi Değiştirir?
+
+Çoğu insan günlerini tepkisel olarak planlar; e-postalara yanıt verir, toplantılara katılır ve en acil hissettiren şeyle uğraşır. Bu yaklaşım, gerçekten önemli olan şeyi ileriye taşımayan yoğun günlere yol açar. Time-boxing ile haftalık planlama bu senaryoyu tersine çevirir.
+
+## Haftalık Planlama Çerçevesi
+
+### Adım 1: Haftalık İnceleme (Pazar Akşamı, 20 dakika)
+
+Gelecek haftayı planlamadan önce, geçen hafta ne olduğunu gözden geçirin:
+
+- Hangi zaman kutularını planlandığı gibi tamamladınız?
+- Hangi görevler sürekli olarak süreyi aştı?
+- Hangi beklenmedik görevler programınızı tükettidi?
+- Gelecek hafta önceliklendirmeniz gereken, yetişemediğiniz şey neydi?
+
+Bu dürüst değerlendirme, gelecek haftanın planını daha gerçekçi hale getirir.
+
+### Adım 2: Haftalık Önceliklerinizi Belirleyin (10 dakika)
+
+Önümüzdeki hafta için en önemli 3 önceliğinizi yazın. Bunlar, her şey ters gitse bile haftayı bir başarı haline getirecek sonuçlardır. Her büyük zaman kutusu en az bir önceliğe bağlanmalıdır.
+
+### Adım 3: Önce Vazgeçilmezlerinizi Bloklayın
+
+Başka bir şey planlamadan önce, sabit taahhütlerinizi ekleyin:
+- Tekrarlanan toplantılar ve görüşmeler
+- Egzersiz ve sağlık rutinleri
+- Aile ve kişisel taahhütler
+
+Bunlar sizin çapalarınızdır. Etraflarını bunlara göre inşa edin.
+
+### Adım 4: Derin Çalışma Bloklarını Planlayın
+
+En önemli, bilişsel olarak en zorlu işiniz, zirve enerji saatlerinize aittir. Çoğu insan için bu, sabahın ortasıdır (09.00-11.00). O pencerelerde başka bir şey planlamadan önce derin çalışma için 90 dakikalık zaman kutuları ayırın.
+
+### Adım 5: Destekleyici Görevleri Doldurun
+
+Derin çalışma bloklarından sonra, destekleyici görevleri planlayın; e-posta, idari işler, daha kısa toplantılar ve rutin görevler. Bunlar doğal olarak öğleden sonranızın daha düşük enerjili saatlerine uyar.
+
+### Adım 6: Tampon Süre Ekleyin
+
+Programınızın en az %20'sini tampon olarak bırakın. Beklenmedik görevler ortaya çıkacaktır. Tampon bloklar, tüm gününüzü raydan çıkarmadan size esneklik sağlar.
+
+## Haftalık Planlama İçin Chrobox Kullanımı
+
+Chrobox, haftalık planlamayı görsel ve sezgisel hale getirir. Haftalık görünüm, tüm zaman bloklarınızı bir bakışta gösterir; boşlukları fark etmeyi, aşırı yüklü günleri belirlemeyi ve öncelikler değiştiğinde blokları sürükleyip bırakmayı kolaylaştırır.
+
+## Yaygın Haftalık Planlama Hataları
+
+1. **Aşırı planlama** – Boşluk bırakın. Doldurulmuş günler kırılgan günlerdir.
+2. **Enerji seviyelerini göz ardı etmek** – Görev türünü doğal enerji eğrinizle eşleştirin.
+3. **İnceleme ritüeli yokluğu** – İnceleme olmadan planlama, tahmin yürütmektir.
+4. **Tüm görevlere eşit muamele etmek** – Her görev aynı uzunlukta bir zaman kutusunu hak etmez.
+
+## Bunu Bir Alışkanlığa Dönüştürmek
+
+İlk haftalık planlama oturumu tuhaf hissettirir. Üçüncü veya dördüncü haftaya gelindiğinde, haftanızın en değerli 45 dakikası haline gelir. Yalnızca Pazar akşamı incelemeleri ve Pazartesi sabahı planlamasıyla başlayın. Buradan itibaren geliştirin.`,
+    'time-blocking-vs-time-boxing': `## İki Güçlü Teknik, Bir Kritik Fark
+
+Time-blocking ve time-boxing sık sık birbirinin yerine kullanılır, ancak temelde farklı ilkeler üzerinde çalışırlar. Aradaki farkı anlamak, her durum için doğru aracı seçmenize — ve gerektiğinde ikisini güçlü bir şekilde birleştirmenize yardımcı olur.
+
+## Time-Blocking Nedir?
+
+Time-blocking, belirli görevleri veya iş kategorilerini takviminizde tanımlanmış zaman dilimlerine atamak anlamına gelir. Bu bir planlama aracıdır.
+
+**Örnek:** 09.00-11.00 arasını "yazma" için ve 14.00-16.00 arasını "toplantılar" için bloklamak.
+
+Temel özellik: blok içinde **katı bir son tarih yoktur**. Yazmak daha uzun sürerse, uzatabilirsiniz. Blok bir sınırlama değil, bir kaptır.
+
+## Time-Boxing Nedir?
+
+Time-boxing, belirli bir görevi tamamlamak için sabit, pazarlığa açık olmayan bir süre sınırı belirler. Kutu bittiğinde, görev tamamlanmış olsun ya da olmasın, durursunuz.
+
+**Örnek:** "Giriş bölümünü tam olarak 45 dakikada yazacağım."
+
+Temel özellik: **son tarih mutlaktır**. Bu kısıtlama kasıtlıdır; aciliyet yaratır ve önceliklendirmeyi zorunlu kılar.
+
+## Her Tekniğin Ardındaki Psikoloji
+
+### Time-Blocking Psikolojisi
+Time-blocking, neyin ne zaman yapılacağına önceden karar vererek karar yorgunluğunu azaltır. Bağlam değiştirmeyi önler ve özel odaklanma pencereleri yaratır. Ancak sabit son tarihler olmadan Parkinson Yasası devreye girer: iş, mevcut süreyi tamamen kapsayacak şekilde genişler.
+
+### Time-Boxing Psikolojisi
+Time-boxing, son tarih baskısından yararlanır. Sabit bitiş, odağı keskinleştiren yapay bir aciliyet yaratır. Ayrıca dürüst tahmin yapmayı zorunlu kılar; başlamadan önce bir görevin ne kadar sürmesi gerektiğine karar vermelisiniz.
+
+## Hangisi Ne Zaman Kullanılır
+
+| Durum | Daha İyi Seçim |
+|-----------|---------------|
+| Derin çalışma oturumları planlamak | Time-blocking |
+| Yazma, kodlama, yaratıcı çalışma | Time-boxing |
+| Toplantılar ve görüşmeler | Time-blocking |
+| İdari görevler | Time-boxing |
+| Açık uçlu keşif | Time-blocking |
+| Son tarihi olan teslimat | Time-boxing |
+
+## İki Tekniği Birleştirmek
+
+En etkili yaklaşım ikisini birlikte kullanır:
+
+1. Haftanızı makro düzeyde **time-block'layın** — farklı iş türleri için bloklar belirleyin
+2. Bu bloklar içindeki belirli görevleri **time-box'layın**
+
+Örneğin, Pazartesi sabahını "ürün geliştirme" için time-block'layın. O blok içinde time-box'layın: "yeni özelliğin taslağını çiz: 60 dk", ardından "şartname belgesini yaz: 45 dk".
+
+## Her İki Yaklaşım İçin Chrobox Kullanımı
+
+Chrobox her iki tekniği de zarif bir şekilde destekler. Time-blocking için geniş kategori blokları oluşturun, ardından bunların içine belirli görev kutuları ekleyin. Görsel zaman tüneli, gününüzün her iki düzeyde aynı anda nasıl yapılandırıldığını görmeyi kolaylaştırır.
+
+## Sonuç
+
+Time-blocking gününüzü yapılandırır. Time-boxing uygulamanıza disiplin kazandırır. Birlikte kullanıldıklarında, hem esnek hem de titiz bir üretkenlik sistemi yaratırlar — yüksek performans gösterenlerin tam olarak ihtiyaç duyduğu şey budur.`,
+    'remote-work-scheduling': `## Uzaktan Çalışma Planlama Zorluğu
+
+Evden çalışmak özgürlük sunar, ama bu özgürlüğün bir bedeli vardır: sınırların bulanıklaşması. Ofis ile evin fiziksel ayrımı olmadan, iş akşamlara, hafta sonlarına ve zihinsel dinlenme zamanlarına sızar. Time-boxing, ofisin bir zamanlar dayattığı yapıyı sağlar.
+
+## Geleneksel Planlama Uzaktan Çalışanlar İçin Neden Başarısız Olur?
+
+Geleneksel yapılacaklar listeleri uzaktan çalışanlar için üç nedenden dolayı başarısız olur:
+
+1. **Zaman çapası yok** – Planlanmış saatleri olmayan görevler belirsiz bir şekilde havada kalır
+2. **Bitiş sinyali yok** – Eve dönüş yolu olmadan işi "bırakmak" zordur
+3. **Sonsuz kesintiler** – Ev ortamları sürekli bağlam değişimi yaratır
+
+Time-boxing, her göreve yapılandırılmış, zaman sınırlı bir taahhüt yaratarak her üçünü de çözer.
+
+## Uzaktan Çalışanın Time-Boxing Programı
+
+### Sabah Derin Çalışma Bloğu (09.00-10.30)
+En yüksek öncelikli, bilişsel olarak zorlu göreviniz için ilk 90 dakikanızı koruyun. E-posta yok, Slack yok, toplantı yok. Bu tek alışkanlık, başka her şeyden daha fazla çıktı üretir.
+
+### Sabahın Ortası: İşbirliği Bloğu (10.30-12.00)
+İletişimlerinizi ve işbirliğine dayalı çalışmalarınızı time-box'layın. Mesajlara yanıt verin, aramalara katılın ve başkalarının çalışmalarını inceleyin. Tanımlanmış bir pencereye sahip olmak, e-postanın tüm güne yayılmasını önler.
+
+### Öğle Molası: Gerçek Kopukluk (12.00-13.00)
+Öğle molanızı time-box'layın ve pazarlığa açık olmadığı şekilde ele alın. Ekranlardan uzaklaşın. Bu mola, öğleden sonraki odağınızı yeniden şarj eder.
+
+### Öğleden Sonra: İkincil Derin Çalışma veya İdari Görevler (13.00-15.00)
+Çoğu insan öğleden sonranın erken saatlerinde daha düşük enerjiye sahiptir. Burada yaratıcı ama daha az zorlayıcı işleri veya dikkat gerektiren ama zirve bilişsel yük gerektirmeyen idari görevleri planlayın.
+
+### Yavaşlama Bloğu (15.00-16.00)
+Gün sonu rutininizi time-box'layın: neler başardığınızı gözden geçirin, görev listenizi güncelleyin ve yarının zaman kutularını planlayın. Bu ritüel, işten kişisel zamana net bir psikolojik geçiş yaratır.
+
+## Evde Kesintileri Yönetmek
+
+### Ev Halkıyla İletişim
+Time-boxing programınızı birlikte yaşadığınız insanlara açıkça iletin. Bir zaman kutusundayken, onu bir toplantı gibi ele alın; sözünü kesmeyin.
+
+### Dijital Kesintiler
+Derin çalışma zaman kutuları sırasında rahatsız etmeyin modlarını kullanın. Gün boyunca tepkisel olarak yanıt vermek yerine, bildirim kontrollerinizi özel zaman kutularında toplayın.
+
+## Uzaktan Çalışma İçin Chrobox Kullanımı
+
+Chrobox, uzaktan çalışanlar için özellikle değerlidir çünkü bir yönetici veya ofis ortamı olmadan bile hesap verebilirlik yaratarak programınızı dışsallaştırır. Uygulamanın net görsel blokları, ne zaman yolunda olduğunuzu ve ne zaman saptığınızı görmeyi kolaylaştırır.
+
+Her zaman kutusunun başlangıcını ve bitişini sinyallemek için Chrobox hatırlatıcıları ayarlayın. Bu işitsel ipuçları, ofislerin sağladığı sosyal ipuçlarının yerini alır; meslektaşların toplanıp gitmesini görmek, ofisin sessizleşmesini duymak gibi.
+
+## Kapanış Ritüeli: En Önemli Zaman Kutunuz
+
+Uzaktan çalışanlar için en güçlü zaman kutusu iş hakkında değildir; kapanış ritüelidir. Her iş gününün sonunda 15 dakikalık bir zaman kutusu belirleyin:
+
+1. Tamamlanan görevleri gözden geçirin
+2. Chrobox'ta yarının planını güncelleyin
+3. Tüm iş uygulamalarını kapatın
+4. Neler başardığınızı özetleyen tek bir cümle yazın
+
+Zaman kutusu bittiğinde, iş gününüz tamamlanmıştır. Bu ritüel, beyninizi ritüelin sonunu işten ayrılmayla ilişkilendirmeye eğitir; bir zamanlar işe gidiş-dönüşün sağladığı psikolojik sınırı sağlar.
+
+## Uzaktan Çalışma Etkinliğinizi Ölçmek
+
+Chrobox'un analitiğini kullanarak bu haftalık ölçümleri takip edin:
+- Planlandığı gibi tamamlanan zaman kutularının yüzdesi
+- Zaman kutusu başına ortalama süre aşımı
+- Derin çalışmada geçirilen zaman ile tepkisel çalışmada geçirilen zaman
+- Kapanış saatinin tutarlılığı
+
+Bu rakamları 4-6 hafta boyunca iyileştirmek, üretkenlik örüntülerinizi ortaya çıkarır ve hem üretken hem de sürdürülebilir bir uzaktan çalışma programı oluşturmanıza yardımcı olur.`,
+    'meeting-management-time-boxing': `## Verimsiz Toplantıların Gizli Maliyeti
+
+Ortalama bir bilgi işçisi ayda 62 toplantıya katılıyor, ancak araştırmalar toplantı süresinin %35'inden fazlasının verimsiz kabul edildiğini gösteriyor. Bu, her ay yaklaşık 31 saatlik bir israfa denk geliyor; neredeyse tam bir iş haftası. Time-boxing, bu zamanı geri kazanmak için en etkili tek müdahaledir.
+
+## Toplantıları Neler Ters Gidirir?
+
+Çoğu toplantı öngörülebilir nedenlerle başarısız olur: net bir gündem yokluğu, süre sınırı yokluğu, odada yanlış kişilerin olması ve sonuçlar için hesap verebilirlik eksikliği. Time-boxing ilk iki soruna doğrudan çözüm getirir ve diğer ikisini çözmek için gerekli koşulları yaratır.
+
+Zaman kısıtlaması olmadan, konuşmalar mevcut olan her boşluğu doldurmak için genişler; bu, işleyen Parkinson Yasası'dır. Kesin bir bitiş saati getirmek, önceliklendirmeyi zorunlu kılar ve tartışmaları yolunda tutar.
+
+## Toplantılarınızı Nasıl Time-Box'larsınız?
+
+**1. Daveti göndermeden önce toplantı süresini belirleyin.** Varsayılan takvim aralıkları 30 veya 60 dakikadır, ancak toplantınız yalnızca 20 dakikaya ihtiyaç duyabilir. Bilinçli olun.
+
+**2. Süreli bir gündem oluşturun.** Toplantı başlamadan önce toplam toplantı süresini gündem maddeleri arasında bölüştürün. Üç konulu 30 dakikalık bir toplantı için her birine 10 dakika ayırın; ve bunu katılımcılara önceden bildirin.
+
+**3. Bir zaman tutucu atayın.** Bir katılımcı, gündem maddesi başına süreyi takip etmekten ve her aralık kapanmadan önce 2 dakikalık bir uyarı vermekten sorumludur.
+
+**4. Paylaşılan, görünür bir zamanlayıcı kullanın.** Herkes geri sayan saati görebildiğinde, grup herhangi bir kolaylaştırıcının tek başına başarabileceğinden daha etkili bir şekilde kendini düzenler.
+
+**5. Her gündem maddesi için sonucu tanımlayın.** Toplantıdan önce her maddeyi şu şekilde etiketleyin: Karar, Bilgi Paylaşımı veya Tartışma. Bu, katılımcı beklentilerini belirler ve çözüme ulaşmayı hızlandırır.
+
+## Eşzamansız Takip İçin 48 Saat Kuralı
+
+Gündem maddeleri süreyi aştığında veya yeni sorular ortaya çıkardığında, toplantıyı uzatma isteğine direnin. Bunun yerine, çözülmemiş maddeleri 48 saatlik bir yanıt penceresiyle eşzamansız kanallara (e-posta, Slack, proje yönetim araçları) yönlendirin. Bu, sorunların gözden kaçmamasını sağlarken herkesin zamanına saygı gösterir.
+
+## Toplantılara Hazırlanmak İçin Chrobox Kullanımı
+
+Her toplantıdan önce, hazırlığınızı time-box'lamak için Chrobox'u kullanın: materyalleri gözden geçirmek için 15 dakika, konuşma noktalarınızı yazmak için 5 dakika. Toplantıdan sonra, takip eylemlerinizi hemen time-box'layın; araştırmalar, takip bir saatten fazla geciktiğinde görev tamamlama oranlarının %40 düştüğünü gösteriyor.
+
+## Daha İyi Toplantıların Birleşik Etkisi
+
+Toplantılarda yapılandırılmış time-boxing uygulayan ekipler genellikle şunları bildirir:
+- Toplantı süresinde %25-40 azalma
+- Zorunlu önceliklendirme nedeniyle daha yüksek karar kalitesi
+- Daha az hayal kırıklığı ve gelişmiş moral
+- Derin, odaklanmış çalışma için daha fazla takvim alanı
+
+Bir sonraki tekrarlanan toplantınızla başlayın. Süreli bir gündem uygulayın, bir zaman tutucu belirleyin ve dört hafta sonra farkı ölçün.`,
+    'work-life-balance-scheduling': `## İş-Yaşam Dengesi Neden Bir Planlama Sorunudur?
+
+İş-yaşam dengesi hakkındaki çoğu konuşma zihniyet veya kültüre odaklanır. Ancak her dengesizliğin altında bir planlama sorunu yatar: iş, kişisel zamana yayılır çünkü takvimde kodlanmış net sınırlar yoktur. Time-boxing bunu yapısal düzeyde çözer.
+
+## Sınır Paradoksu
+
+Birçok insan saat 18.00'de çalışmayı bırakmayı amaçlar ama kendini saat 22.00'de e-posta kontrol ederken bulur. Niyet vardır; yapı yoktur. Kişisel aktiviteler için açık zaman kutuları olmadan, iş her zaman kazanır; çünkü tükenmez bir görev, aciliyet ve sosyal baskı kaynağına sahiptir.
+
+Çözüm, kişisel zamanı profesyonel taahhütlerle aynı yapısal ciddiyetle ele almaktır.
+
+## Dengeli, Time-Box'lanmış Bir Program Nasıl Oluşturulur?
+
+**1. Vazgeçilmezlerinizle başlayın.** İşi planlamadan önce, temel kişisel taahhütlerinizi bloklayın: uyku, yemekler, egzersiz, aile zamanı. Bunlar sonradan akla gelen şeyler değil, temeldir.
+
+**2. Enerji Haritalama ilkesini uygulayın.** En zorlu işinizi zirve enerji saatlerinizde (çoğu insan için genellikle sabah) planlayın ve daha hafif görevleri veya toplantıları doğal enerji düşüşlerinde yapın. Bu, kişisel zamanın ertelenen iş için taşma alanı olarak kullanılmasını önler.
+
+**3. Kesin bir bitiş ritüeli oluşturun.** Son iş zaman kutunuzun sonunda, gelen kutunuzu işlemek, görev listenizi güncellemek ve yarın için en önemli 3 önceliğinizi yazmak için 10 dakika ayırın. Bu psikolojik kapanış, beyninize işin bittiğini bildirir.
+
+**4. Geçiş zaman kutuları oluşturun.** İş ile kişisel zaman arasında 15-30 dakikalık bir geçiş aktivitesi planlayın; bir yürüyüş, bir antrenman, kısa bir meditasyon. Bu, iş stresinin kişisel saatlere sızmasını önler.
+
+**5. Yalnızca dinlenmeyi değil, toparlanmayı planlayın.** Dinlenme pasiftir (televizyon izlemek); toparlanma aktif bir yenilenmedir (egzersiz, sosyal bağlantı, hobiler). Toparlanma aktivitelerinin gerçekten gerçekleşmesini sağlamak için onları time-box'layın.
+
+## %80/20 Erişilebilirlik Kuralı
+
+Tüm çalışma zamanının eşit derecede erişilebilir olması gerekmez. İş zaman kutusu saatlerinizin %80'ini tam odaklanmış (bildirimler kapalı, durum "Rahatsız Etmeyin" olarak ayarlı) ve %20'sini işbirliği ve yanıt vermeye açık hale getirmeyi düşünün. Bu yapı, sürekli erişilebilir olma baskısını -işin kişisel zamana sızmasının en önemli nedenlerinden biri- büyük ölçüde azaltır.
+
+## İş-Yaşam Dengesi İçin Chrobox Kullanımı
+
+Chrobox, zaman kutularını yaşam alanına göre renk kodlamanıza olanak tanır; iş, sağlık, aile, kişisel gelişim. Haftanızı görüntülediğinizde, zaman tahsisinizin beyan ettiğiniz önceliklerle eşleşip eşleşmediğine dair anında görsel bir sinyal alırsınız. İş rengi baskınsa, hafta bittikten sonra değil, başlamadan önce dengeyi yeniden kurabilirsiniz.
+
+## Uzun Vadeli Oyun
+
+İş-yaşam dengesi tek bir iyi haftada elde edilmez. Aylar ve yıllar boyunca birikimli olan tutarlı planlama alışkanlıklarıyla inşa edilir. Time-boxing, bunu mümkün kılan günlük pratiği sağlar; seferinde bir yapılandırılmış gün.
+
+30 günlük bir deneye kendinizi adayın: günde en az iki kişisel taahhüdü time-box'layın, bunları pazarlığa açık olmayan şeyler olarak ele alın ve ayın sonunda stresinizi ve tatmininizi ölçün.`,
+    'productivity-for-beginners': `## Time-Boxing Neden En İyi İlk Üretkenlik Tekniğidir?
+
+Üretkenlik dünyası yeni başlayanlar için bunaltıcıdır. GTD, Pomodoro, Eisenhower Matrisi, Kurbağayı Ye, Derin Çalışma; nereden başlamalı? Cevap time-boxing'dir, çünkü diğer her tekniğin daha iyi çalışmasını sağlayan temeldir.
+
+Time-boxing kişilik değişikliği, sürdürülmesi gereken karmaşık bir sistem veya önemli bir ön zaman yatırımı gerektirmez. Sonuçları aylar içinde değil, günler içinde görmeye başlarsınız.
+
+## Temel İlkeyi Anlamak
+
+Time-boxing'in tek bir temel içgörüsü vardır: görevler kendilerine ayırdığınız kadar zamanı tüketir. Bir göreve açık uçlu bir zaman dilimi verin ("rapor bitene kadar üzerinde çalış") ve genişleyecektir. Ona sabit bir zaman dilimi verin ("rapora 45 dakika, sonra dur") ve Parkinson Yasası sizin lehinize çalışır; kısıtlama içinde somut bir şey üretirsiniz.
+
+## İlk Haftanız: Adım Adım Bir Plan
+
+**1-2. Gün: Gözlemleyin.** Herhangi bir şeyi değiştirmeden önce, iki gün boyunca zamanınızı şu anda nasıl geçirdiğinizi takip edin. Her aktivitenin başlangıç ve bitiş saatini not edin. Bu temel çizgi, zamanın gerçekte nereye gittiğini, nereye gittiğini düşündüğünüzle karşılaştırarak ortaya koyar.
+
+**3-4. Gün: Planlayın.** Her günün başında, en önemli 3-5 görevinizi yazın ve her birine bir süre tahmini atayın. Muhafazakâr başlayın; bir görevin ne kadar süreceğini düşündüğünüze %50 ekleyin.
+
+**5-7. Gün: Uygulayın ve ayarlayın.** Zaman kutularınızı takip edin ve gerçekte harcanan süreyi kaydedin. Tahmini gerçekle karşılaştırın. Çoğu yeni başlayan, %30-50 oranında düşük tahmin yaptığını keşfeder. Bu veri altın değerindedir.
+
+## Dört Temel Zaman Kutusu Türü
+
+1. **Derin Çalışma Blokları** (60-90 dk): Karmaşık, yaratıcı veya bilişsel olarak zorlu görevler için. Kesinti yok.
+2. **İdari Bloklar** (20-30 dk): E-posta, mesajlar, idari görevler için. Bunları bir araya toplayın.
+3. **Toplantı Blokları:** Aramalar ve toplantılar için. Toplantı hazırlığını her zaman ayrı bir zaman kutusuna alın.
+4. **Tampon Bloklar** (15-30 dk): Büyük bloklar arasında planlanmamış zaman. Beklenmedik sorunlar için gereklidir.
+
+## Yaygın Yeni Başlayan Ayarlamaları
+
+**Kutularınız çok uzun.** Kutularınızın süresi boyunca sürekli olarak odağınızı koruyamıyorsanız, onları kısaltın. Tamamladığınız 25 dakikalık bir kutu, terk ettiğiniz 90 dakikalık bir kutudan daha iyidir.
+
+**Çok fazla planlıyorsunuz.** Mevcut zamanınızın en fazla %60-70'ini planlanmış kutularla doldurun. Gerisi tampondur. Bu, sezgilere aykırı gelse de, %100 planlamadan daha iyi sonuçlar üretir.
+
+**İncelemeyi atlıyorsunuz.** Her günün sonunda, tamamladığınızı planladığınızla karşılaştırarak gözden geçirmek için 5 dakika ayırın. Bu tek alışkanlık, diğer her şeyden daha fazla, hızlı gelişimi sağlar.
+
+## Chrobox İle Başlarken
+
+Chrobox, hem yeni başlayanlar hem de uzmanlar için özel olarak time-boxing'e göre tasarlanmıştır. Uygulama, ilk zaman kutularınızı oluşturma sürecinde size rehberlik eder, gerçek zamanınızı otomatik olarak takip eder ve örüntüleriniz hakkında haftalık içgörüler sunar. Gerçek zamanlı senkronizasyonla iOS ve macOS'ta kullanılabilir, böylece planınız her zaman yanınızda.
+
+Yarın üç zaman kutusuyla başlayın: en önemli göreviniz için biri, e-posta için biri ve bir tampon. Hepsi bu. Buradan itibaren geliştirin.`,
+    'time-boxing-for-teams': `## Takımlar Üretkenlikle Bireylerden Neden Farklı Şekilde Mücadele Eder?
+
+Bireysel üretkenlik zordur. Takım üretkenliği daha zordur. Koordinasyon maliyetlerini, iletişim yükünü ve farklı çalışma tarzlarını uyumlu hale getirme zorluğunu eklediğinizde, karmaşıklık katlanır. Time-boxing, bireysel üretkenlik tekniklerinin yapamayacağı şekillerde bu takıma özgü zorlukları ele alır.
+
+## Temel Sorun: Görünmez Zaman
+
+Çoğu takımda zaman görünmezdir. İnsanlar çalışır, toplantılar gerçekleşir ve sonuçlar ortaya çıkar (ya da çıkmaz) - ama hiç kimsenin toplu zamanın gerçekte nasıl harcandığına dair net bir resmi yoktur. Bu belirsizlik, israfı tespit etmeyi, iş akışlarını optimize etmeyi veya gerçekçi beklentiler belirlemeyi imkansız kılar.
+
+Takım time-boxing'i zamanı görünür kılar. Herkesin blokları paylaşıldığında ve yapılandırıldığında, örüntüler ortaya çıkar: darboğazlar nerede? Hangi takım üyeleri aşırı programlanmış? Yeniden çalışma en çok nerede gerçekleşiyor?
+
+## Takım Time-Boxing'ini Uygulamak: Bir Çerçeve
+
+**Aşama 1: İlkelerde Hizalanın (1. Hafta)**
+Araçlardan veya programlardan önce, takım normları üzerinde anlaşın: Kesinti olarak ne sayılır? Hangi iletişim anında yanıt gerektirir, hangisi aynı gün içinde yanıt gerektirir? Birinin odaklanma zamanının üzerine bir şey ayarlamak ne zaman uygundur? Bu anlaşmaları belgelemek daha sonraki çatışmaları önler.
+
+**Aşama 2: Paylaşılan Yapı Oluşturun (2. Hafta)**
+Bir takım time-boxing şablonu oluşturun: sabah senkronizasyonu (15 dk), derin çalışma blokları (günde 2-3, her biri en az 90 dk), işbirliği pencereleri (toplantıların planlanabileceği belirli saatler) ve gün sonu özeti (15 dk). Derin çalışma bloklarını toplantı planlamasından koruyun.
+
+**Aşama 3: Sonuç Odaklı Zaman Kutuları Kullanın (3. Hafta ve sonrası)**
+Görev tabanlı atamalardan sonuç tabanlı atamalara geçin. "Pazarlama kampanyası üzerinde çalış" yerine, "Q2 kampanya brifinin ilk taslağını Perşembe saat 17.00'ye kadar tamamla" şeklinde atayın. Bu, hesap verebilirlik dinamiklerini değiştirir ve devir teslimleri daha temiz hale getirir.
+
+**Aşama 4: Gözden Geçirin ve İyileştirin (Aylık)**
+Özellikle zaman yapısı üzerine aylık bir retrospektif düzenleyin. Şunları gözden geçirin: Derin çalışma bloklarına saygı gösteriliyor mu? Toplantı saatleri pencereleri içinde kalıyor mu? Yeniden çalışma azalıyor mu? Takım şablonunu verilere göre ayarlayın.
+
+## Çevik (Agile) Takımlarda Time-Boxing
+
+Çevik takımlar zaten sprint düzeyinde time-boxing kullanıyor (2 haftalık kutular). Fırsat, bu disiplini günlük düzeye genişletmektir. Günlük stand-up'ların kendileri 15 dakikaya time-box'lanmalıdır. Sprint törenleri (planlama, inceleme, retrospektif), zaten time-box'lanmış formatları içinde süreli gündemlerden fayda görür.
+
+## Farklı Çalışma Tarzlarını Yönetmek
+
+Takımlar hem sabah insanlarını hem akşam insanlarını, hem derin çalışma uzmanlarını hem işbirlikçi genelcileri barındırır. İyi bir takım time-boxing sistemi, paylaşılan erişilebilirlik pencereleri tanımlayarak (örneğin işbirliği için 10.00-12.00 ve 14.00-16.00) buna uyum sağlarken, kalan zamanı bireysel özerkliğe bırakır.
+
+## Chrobox İle Platformlar Arası Koordinasyon
+
+Takım time-boxing'inde en büyük sürtünme noktalarından biri araç parçalanmasıdır; bazı takım üyeleri iOS, bazıları macOS kullanır, bazıları uzaktan çalışır. Chrobox'un platformlar arası senkronizasyonu, cihaz veya konumdan bağımsız olarak zaman yapılarının tutarlı kalmasını sağlar. Bir takım bloğu ayarlandığında, herkes onu görür. Bir zaman kutusu tamamlandığında, veriler takım düzeyinde raporlama için kullanılabilir hale gelir.
+
+## Takım Time-Boxing Başarısını Ölçmek
+
+Takım time-boxing'ini uyguladıktan sonra şu ölçümleri takip edin:
+- **Haftalık toplantı süresi** (hedef: 60 gün içinde %20 azaltma)
+- **Kişi başına haftalık derin çalışma saatleri** (hedef: %30 artış)
+- **Yeniden çalışma oranı** (hedef: %15 azalma)
+- **Takım memnuniyet skoru** (aylık nabız anketi)
+
+Takımlar için time-boxing kontrolle ilgili değildir; bireysel mükemmelliğin bir araya gelerek kolektif mükemmelliğe dönüşmesi için koşullar yaratmakla ilgilidir.`,
+    'energy-management-scheduling': `## Enerji Yönetimi Neden Zaman Yönetiminden Daha İyi Sonuç Verir?
+
+Çoğu üretkenlik tavsiyesi zamanı yönetmeye odaklanır, ama zaman sabit bir kaynaktır. Gün boyunca gerçekte dalgalanan şey enerjinizdir. Görevleri enerji seviyenize uyacak şekilde planlamak, çıktınızın hem kalitesini hem de miktarını çarpıcı biçimde iyileştirebilir.
+
+## Ultradiyen Ritimlerinizi Anlamak
+
+Vücudunuz gün boyunca 90-120 dakikalık ultradiyen döngülerde çalışır. Her döngünün ilk 45-90 dakikasında beyniniz odaklanmış, karmaşık iş için hazır durumdadır. Enerji düştükçe, vücudunuz dinlenme sinyali verir. Bu sinyalleri görmezden gelmek, performansın düşmesine ve nihayetinde tükenmişliğe yol açar.
+
+## Enerji Bölgelerinizi Haritalamak
+
+Çalışmak için üç enerji bölgesi vardır:
+
+**Zirve Bölgesi** — genellikle sabahın 2-4 saatini kapsayan en yüksek uyanıklık pencereniz. Bunu yaratıcı düşünme, stratejik planlama ve zorlu problem çözme için ayırın.
+
+**Çöküş Bölgesi** — analitik düşüncenin zayıfladığı öğle sonrası düşüş. Bu zamanı idari görevler, rutin e-postalar ve düşük riskli toplantılar için kullanın.
+
+**Toparlanma Bölgesi** — öğleden sonranın geç saatlerinde duygusal zekanın ve işbirlikçi düşüncenin iyileştiği ikincil bir zirve. Takım tartışmaları ve yaratıcı beyin fırtınası için idealdir.
+
+## Kişisel Zirvelerinizi Nasıl Belirlersiniz?
+
+1. Bir hafta boyunca, her saat enerjinizi ve odağınızı 1-10 arasında puanlayın.
+2. En uyanık hissettiğinizde ne yaptığınızı not edin.
+3. Günler boyunca tutarlı örüntüler arayın.
+4. Zirve saatlerinizi amansızca koruyun.
+
+## Enerji Tabanlı Planlama İçin Pratik İpuçları
+
+- Zirve saatlerinde takviminizi **yalnızca derin çalışma için bloklayın**.
+- **Düşük enerjili görevleri** çöküş bölgenizde toplayın.
+- Her 90 dakikalık döngünün sonunda **molalar planlayın**.
+- Mümkün olduğunda toplantıları toparlanma bölgenizle **sınırlayın**.
+- Doğal zirveniz sırasında **kafeinden kaçının**; onu çöküş bölgesi için saklayın.
+
+## Programınızı Hizalamak İçin Chrobox Kullanımı
+
+Chrobox, enerji tabanlı planlamayı görsel ve sezgisel hale getirir. Zaman bloklarını görev türüne göre renk kodlayabilirsiniz; yüksek odak gerektiren iş için kırmızı, idari görevler için mavi, işbirliği için yeşil. Platformlar arası senkronizasyonla, enerjinizle hizalanmış programınız tüm cihazlarınızda tutarlı kalır.
+
+Sürükle-bırak arayüzü, enerjiniz beklenmedik şekilde değiştiğinde görevleri yeniden düzenlemeyi kolaylaştırır, böylece gün ne getirirse getirsin üretken kalırsınız.
+
+## Küçük Başlayın
+
+Tüm programınızı bir anda değiştirmeyin. En önemli işiniz için günde yalnızca bir 90 dakikalık zirve bloğunu korumakla başlayın. İki hafta sonra, başardıklarınızda ve günün sonunda kendinizi nasıl hissettiğinizde ölçülebilir bir fark fark edeceksiniz.`,
+    'task-batching-productivity': `## Görev Değiştirmenin Gizli Maliyeti
+
+Farklı görev türleri arasında her geçiş yaptığınızda, beyniniz bir geçiş maliyeti öder. Araştırmalar, bir kesintiden sonra tam olarak odağı geri kazanmanın 23 dakikaya kadar sürebileceğini öne sürüyor. Bunu dağınık görevlerle dolu tipik bir iş gününe çarparsanız, saatlerce üretken zaman kaybedersiniz.
+
+Görev gruplama (task batching) bunun panzehridir.
+
+## Görev Gruplama Nedir?
+
+Görev gruplama, benzer görevleri bir araya toplamak ve onları tek bir özel oturumda tamamlamak anlamına gelir. Gün boyunca e-postayı kontrol etmek yerine, onu iki kez kontrol edersiniz; saat 09.00 ve 15.00'te. Aramaları ortaya çıktıkça yapmak yerine, hepsini 45 dakikalık tek bir pencerede toplarsınız.
+
+Bu yaklaşım, beyninizi uzun süre tek bir bilişsel modda tutarak bağlam değiştirmenin yükünü azaltır.
+
+## Time-Boxing Nedir?
+
+Time-boxing, her göreve veya gruba sabit bir süre sınırı atar. Belirli bir süre boyunca -diyelim ki 30 dakika- bir görev üzerinde çalışırsınız ve ardından görev tamamlanmış olsun ya da olmasın durursunuz. Bu, mükemmeliyetçilikle mücadele eder, aciliyet yaratır ve tek bir görevin tüm gününüzü kaplayacak şekilde genişlemesini önler.
+
+## Birlikte Neden Daha İyi Çalışırlar?
+
+Gruplama, geçişten kaynaklanan sürtünmeyi azaltır. Time-boxing süre aşımlarını önler. Birlikte, sizi tüketmeden ilerleme sağlayan odaklanmış, sınırlı çalışma oturumları yaratırlar.
+
+**Örnek Gün:**
+- 09.00-09.30 — E-posta grubu (time-box'lanmış)
+- 09.30-11.00 — Derin çalışma grubu: yazma veya kodlama
+- 11.00-11.15 — Mola
+- 11.15-12.00 — İdari grup: planlama, faturalama
+- 14.00-15.00 — Toplantı grubu
+- 15.00-15.15 — E-posta grubu #2
+
+## Başlamak İçin İpuçları
+
+1. **Görevlerinizi denetleyin** — bir hafta boyunca yaptığınız her şeyi listeleyin ve türe göre gruplandırın.
+2. **Zaman kutuları atayın** — her grubun ne kadar sürmesi gerektiğine karar verin.
+3. **Sınırları iletin** — meslektaşlarınıza odaklanmış çalışma pencerelerinizi bildirin.
+4. **İki grupla başlayın** — e-posta ve derin çalışma. Geliştikçe daha fazlasını ekleyin.
+
+## Gruplama Asistanınız Olarak Chrobox
+
+Chrobox'un time-blocking özelliği tam olarak bunun için tasarlandı. Her görev kategorisi için tekrarlanan zaman blokları oluşturun. Görsel takvimi, gününüzün nasıl yapılandırıldığını bir bakışta görmeyi kolaylaştırır ve platformlar arası senkronizasyon, gruplanmış programınızın her yerde sizinle olmasını sağlar.
+
+Beklenmedik görevler geldiğinde, onları hemen ele almak yerine uygun gruba sürükleyin. Gelecekteki haliniz size teşekkür edecek.
+
+## Sonuç
+
+Görev gruplama ve time-boxing tek başlarına güçlüdür. Birlikte, hem odağınıza hem de zamanınıza saygı gösteren bir üretkenlik çarpanıdırlar. Bugün başlayın; e-posta gruplama saatlerinizi seçin ve bir hafta boyunca onlara bağlı kalın.`,
+    'focus-time-optimization': `## Akış Durumunun Bilimi
+
+Akış (flow) durumu -bir göreve tamamen dalmış olma deneyimi- mistik bir fenomen değildir. Yükselmiş dopamin, norepinefrin ve anandamid seviyeleriyle karakterize edilen, ölçülebilir bir nörolojik durumdur. Akış halindeyken, prefrontal korteksiniz kısmen devre dışı kalır, içsel eleştirmeni susturur ve sizi normal kapasitenizin ötesinde performans göstermeye olanak tanır.
+
+McKinsey araştırmacıları, akış halindeki yöneticilerin normal durumlarına göre beş kata kadar daha üretken olduğunu buldu.
+
+## Akışın Dört Ön Koşulu
+
+Akış şunları gerektirir:
+
+**Net Hedefler** — tam olarak neye doğru çalıştığınızı bilmelisiniz. Belirsiz hedefler odak değil kaygı yaratır.
+
+**Anında Geri Bildirim** — çalışmanız başarılı olup olmadığınıza dair hızlı sinyaller sağlamalıdır. Kodlama ve yazma bunu doğal olarak yapar; diğer işler yapay geri bildirim döngüleri gerektirebilir.
+
+**Zorluk-Yetenek Dengesi** — görev, mevcut konfor alanınızın biraz ötesinde olmalıdır. Çok kolaysa sıkılırsınız; çok zorsa kaygı devreye girer.
+
+**Bölünmemiş Dikkat** — tek bir bildirim bile 15-23 dakikalık ısınma pencerenizi sıfırlayabilir.
+
+## Akışa Daha Hızlı Girmek İçin Pratik Stratejiler
+
+### 1. Bir Aktivasyon Ritüeli Oluşturun
+Kısa, tutarlı bir çalışma öncesi ritüel, beyninize odaklanma zamanının geldiğini bildirir. Bu, çay demlemek, belirli bir müzik açmak veya oturum için en önemli tek görevinizi yazmak olabilir.
+
+### 2. Tüm Bildirimleri Ortadan Kaldırın
+Telefonunuzu Rahatsız Etmeyin moduna alın. Gereksiz tarayıcı sekmelerini kapatın. Meslektaşlarınıza odaklanma pencerenizi söyleyin. Amaç, en az 60 dakika boyunca sıfır kesinti sağlamaktır.
+
+### 3. Bir Isınma Göreviyle Başlayın
+Ana işinize başlamadan önce sizi doğru zihinsel moda sokan küçük, ilgili bir görevle başlayın. Dünün ilerlemesinin 5 dakikalık bir incelemesi iyi işe yarar.
+
+### 4. Zaman Baskısını Kullanın
+Tam olarak 90 dakikanız olduğunu bilmek, odaklanmayı hızlandıran bir aciliyet yaratır. Açık uçlu oturumlar erteleme davet eder.
+
+### 5. Ortamınızı Optimize Edin
+Aynı masa, aynı aydınlatma, aynı ortam sesi; tutarlılık, beyninizin zamanla odak moduna daha hızlı girmesini sağlar.
+
+## Akış Oturumlarınızı Korumak
+
+En zor kısım akışa girmek değildir; içindeyken onu korumaktır. Şunları göz önünde bulundurun:
+
+- Kullanılamaz olduğunuzu belirtmek için fiziksel bir sinyal kullanmak (kulaklık takmak, kapıyı kapatmak).
+- Meslektaşlarınızın ritminizi bilmesi için akış oturumlarını her gün aynı saatte planlamak.
+- Mesajlara verilen yanıtları akış sonrası pencerelere gruplamak.
+
+## Akışı Korumak İçin Chrobox
+
+Chrobox, akış oturumlarınızı görsel netlikle time-block'lamanıza olanak tanır. 90 dakikalık derin çalışma blokları planlayın ve uygulamanın platformlar arası senkronizasyonunun bu blokların kullandığınız her cihazda görünmesini sağlamasına izin verin. Biri odak bloğunuz sırasında bir toplantı ayarlamaya çalıştığında, işaret edebileceğiniz görsel bir kayıt olur.
+
+Amaç, tüm gün akış halinde olmak değildir; bu imkansızdır. Amaç, her gün en az bir yüksek kaliteli akış oturumunu garanti altına almaktır.
+
+## Bugün Başlayın
+
+En iyi 90 dakikalık pencerenizi belirleyin. Onu takviminizde bloklayın. Ortamınızı hazırlayın. Yarın, net tek bir hedef ve sıfır dikkat dağınıklığıyla o pencereye girin. Tutarlı bir şekilde yapılan bu tek oturum, zamanla dikkate değer sonuçlara dönüşecektir.`,
+    'digital-minimalism-scheduling': `## Dikkat Ekonomisi Size Karşı Çalışıyor
+
+Her uygulama, bildirim ve sosyal medya akışı, dikkatinizi yakalamak ve tutmak için tasarlanmıştır. Sonuç, odağınızı saatte düzinelerce mikro etkileşime bölen sürekli bir dikkat dağınıklığı halidir. Dijital minimalizm, bu gerçekliğe verilen bilinçli bir yanıttır.
+
+## Dijital Minimalizm Nedir?
+
+Cal Newport tarafından popülerleştirilen dijital minimalizm, kasıtlı teknoloji kullanımı felsefesidir. Temel soru "bu teknoloji benim için ne yapabilir?" değil, "bu teknoloji derinden değer verdiğim bir şeyi doğrudan destekliyor mu?" sorusudur.
+
+Minimalistler teknolojiden kaçınmaz; hangi araçları ne zaman kullanacakları konusunda amansızca seçicidirler.
+
+## Dikkat Parçalanması Sorunu
+
+Araştırmalar, ortalama bir bilgi işçisinin telefonunu günde 96 kez -yaklaşık her 10 dakikada bir- kontrol ettiğini gösteriyor. Her kontrol, 30 saniyelik bile olsa, bir sonraki kontrolü acil hissettiren bir dopamin döngüsünü harekete geçirir. Zamanla beyniniz sürdürülebilir dikkat kapasitesini kaybeder.
+
+Çözüm irade gücü değildir. Yapısal bir değişikliktir.
+
+## Time-Boxing Dijital Minimalizmi Nasıl Güçlendirir?
+
+Time-boxing ve dijital minimalizm aynı hedefi paylaşır: sınırlı zaman ve dikkatin kasıtlı kullanımı. Birleştirildiklerinde:
+
+**Zaman Blokları Sırasında** — cihazlar Rahatsız Etmeyin moduna girer. Sosyal medya yok, e-posta yok, haber yok. Kendi kendine yeten bir çalışma ortamına girersiniz.
+
+**Bloklar Arasında** — dijital iletişim için kısa, tanımlanmış pencereler. Mesajları tepkisel değil, kasıtlı olarak kontrol edersiniz.
+
+**Gün Sonu** — dijital gün batımı: tüm iş uygulamaları sabit bir saatte kapanır, toparlanma saatlerinizi korur.
+
+## Pratik Bir Dijital Minimalizm + Time-Boxing Çerçevesi
+
+### Adım 1: Dijital Denetim
+Bir hafta boyunca açtığınız her uygulamayı ve içinde ne kadar zaman geçirdiğinizi takip edin. Çoğu insan sonuçlar karşısında şok olur.
+
+### Adım 2: Dijital Gerekliliklerinizi Tanımlayın
+İşinizi ve kişisel değerlerinizi gerçekten destekleyen araçları listeleyin. Ana cihazlarınızdan geri kalan her şeyi kaldırın veya kaldırın.
+
+### Adım 3: Teknolojiyi Zaman Bloklarına Atayın
+Her araç belirli bir zaman bloğu alır:
+- E-posta: 09.00-09.30 ve 16.00-16.30
+- Slack/Teams: Günde üç adet 15 dakikalık pencere
+- Sosyal medya: İşten sonra isteğe bağlı bir 20 dakikalık pencere
+
+### Adım 4: Bir Cihaz Protokolü Oluşturun
+Derin çalışma blokları sırasında telefonunuz başka bir odada veya uçak modundadır. Bu, pazarlığa açık değildir.
+
+### Adım 5: Ekransız Bir Sabah Tasarlayın
+Gününüzün ilk 60 dakikası dikkatinizin tonunu belirler. Onları dijital girdiden tamamen koruyun.
+
+## Bilişsel Faydalar
+
+Araştırmacılar, masanızdaki bir akıllı telefonun varlığının bile -ters çevrilmiş, hatta kapalı olsa bile- kullanılabilir bilişsel kapasitenizi azalttığını buldu. Odak blokları sırasında cihazları çalışma ortamınızdan çıkarmanın performans üzerinde ölçülebilir etkileri vardır.
+
+Dijital minimalizm uygulayıcıları tutarlı bir şekilde şunları bildirir:
+- Daha derin, daha sürdürülebilir odaklanma
+- Azalmış kaygı ve zihinsel gürültü
+- İş çıktılarından daha büyük memnuniyet
+- Anlamlı çevrimdışı aktiviteler için daha fazla zaman
+
+## Minimalist Programınızı Sabitlemek İçin Chrobox Kullanımı
+
+Chrobox, minimalist bir kurulumda tek planlama merkezi olarak hizmet eder. Birden fazla üretkenlik uygulamasıyla uğraşmak yerine, tüm gününüzü -iletişim pencereleriniz dahil- tek bir görsel arayüzde time-block'larsınız. Platformlar arası senkronizasyon, programın birden fazla araç arasında geçiş yapmadan erişilebilir olduğu anlamına gelir.
+
+Uygulamanın temiz takvim görünümü, gününüzdeki boşlukları görmeyi kolaylaştırarak, her boşluğu aktiviteyle doldurmak yerine açık zamanı korumaya teşvik eder.
+
+## Dijital Minimalizm Mücadeleniz
+
+Bu hafta bir şey deneyin: sosyal medya uygulamalarını telefonunuzdan beş gün boyunca kaldırın. O zamanın yerine Chrobox kullanarak tek bir 90 dakikalık derin çalışma bloğu koyun. Haftanın sonunda odağınızı, çıktınızı ve ruh halinizi ölçün.
+
+Küçük yapısal değişiklikler birikir. Dijital minimalizmin time-boxing ile birleşimi, çalışma ve yaşama biçiminizde yapabileceğiniz en yüksek kaldıraçlı iyileştirmelerden biridir.`,
+    'time-boxing-with-calendar-apps': `## Takviminiz Neden Zaten Bir Time-Boxing Aracı?
+
+Çoğu insan takvimini taahhütlerin pasif bir kaydı olarak kullanır. Time-boxing bunu tersine çevirir: takviminiz, gününüzün her saatinde dikkatinizin nereye gideceğine dair aktif bir plan haline gelir. İyi haber şu ki, Google Takvim, Apple Calendar ve Outlook'ın hepsinde bugün başlamak için ihtiyacınız olan her şey zaten var.
+
+## Google Takvim'de Zaman Blokları Ayarlamak
+
+Google Takvim'i açın ve yeni bir etkinlik oluşturun. Ona "çalışma" gibi belirsiz bir etiket değil, görevinizin adını verin. Süreyi planladığınız odaklanma oturumuyla eşleşecek şekilde ayarlayın. "Diğer seçenekler" menüsünde, durumunuzu "Meşgul" ve görünürlüğü "Özel" olarak ayarlayın, böylece meslektaşlarınız ayrıntıları göremez veya üzerinize planlama yapamaz.
+
+Blok türlerini ayırt etmek için renk kodlaması kullanın. Örneğin, derin çalışma için yeşil, toplantılar için mavi ve idari görevler için turuncu. Google Takvim'in renk sistemi, gününüzün dengeli mi yoksa aşırı yüklü mü olduğunu bir bakışta görmeyi kolaylaştırır.
+
+Sabah planlama oturumunuz veya gün sonu incelemeniz gibi günlük alışkanlıklar için tekrarlanan bloklar oluşturun. Tekrarlanan etkinlikler, bu kritik rutinlerin asla sıkışıp kalmamasını sağlar.
+
+## Apple Calendar'da Time-Boxing
+
+Apple Calendar, iOS Hatırlatıcılar veya bir görev yöneticisiyle eşleştirildiğinde en iyi şekilde çalışır. Zaman bloklarına ayrılmış bir takvim oluşturun ve ona belirgin bir renk verin. Bir blok eklediğinizde, o oturum sırasında tamamlamayı planladığınız belirli görevleri listelemek için notlar alanını kullanın.
+
+Her blok başlamadan önce beş dakikalık bir uyarı almak için "Uyarılar" özelliğini etkinleştirin. Bu, blok başlamadan önce diğer sekmeleri kapatmanız, bildirimleri sessize almanız ve zihinsel olarak odak moduna geçmeniz için size zaman verir.
+
+## Takımlar İçin Outlook'ta Time-Boxing
+
+Outlook'un gücü, Microsoft Teams ve paylaşılan takvimlerle derin entegrasyonundadır. Varsayılan olarak paylaşılan takvimlerin dışında tutmak için "Yeni Toplantı" yerine "Yeni Randevu" kullanarak zaman bloklayın. Göster-olarak durumunu "Meşgul" olarak ayarlayın ve özel bayrağı etkinleştirin.
+
+Kuruluşunuzun iş akışıyla eşleşmesi için Outlook'un kategori renklerini kullanın. Takımınız zaten toplantı türleri için renk kuralları kullanıyorsa, görsel dilin tutarlı kalması için bu kuralları kişisel çalışma bloklarınıza genişletin.
+
+## Manuel Takvim Time-Boxing'inin Sorunu
+
+En büyük sürtünme noktası, görevleri manuel olarak bir takvime sürüklemenin zaman alıcı olması ve planlar değiştiğinde nadiren güncellenmesidir. Chrobox, görev listenizi doğrudan takviminizle senkronize ederek bunu çözer. Tahmini bir süreyle bir görev ekleyin, Chrobox bir sonraki uygun aralığı bulur ve bloğu otomatik olarak oluşturur. Öncelikler değiştiğinde, etkilenen blokları manuel müdahale olmadan yeniden planlar.
+
+## Zaman Bloklarınızı Korumak İçin İpuçları
+
+Sisteminizi takımınıza iletin. Bloklanmış zamanın, yalnızca geçici olarak meşgul olduğunuz değil, kullanılamaz olduğunuz anlamına geldiğini onlara bildirin. Meslektaşlarınızın bloklarınızı bozmadan size ulaşabileceği öngörülebilir bir zamanı olması için her gün anlık talepler için belirli bir pencere ayırın.
+
+Her sabah takviminizi önümüzdeki 24 saat için gözden geçirin. Bloklarınızın en önemli önceliklerinizle uyumlu olduğunu doğrulayın ve yeni acil bir görev ortaya çıktıysa ayarlama yapın. Bu beş dakikalık kontrol, günün sizi yönetmesi yerine sizin günü yönetmenizi sağlar.`,
+    'beat-procrastination-time-boxing': `## Erteleme Yapmanızın Gerçek Nedeni
+
+Erteleme bir karakter kusuru değildir. Algılanan bir tehdide karşı nörolojik bir tepkidir. Bir görev belirsiz, bunaltıcı veya öz değerinize bağlı hissettirdiğinde, beyniniz sizi olası başarısızlıktan korumak için kaçınma davranışlarını tetikler. Bu mekanizmayı anlamak, onu yenmenin ilk adımıdır.
+
+Carleton Üniversitesi'ndeki araştırmacılar, ertelemenin temelde zayıf zaman yönetimi değil, olumsuz duyguları yönetmekle ilgili olduğunu buldu. Bu, yalnızca programınızı hedef alan stratejilerin, duygusal boyutu da ele almadıkça yetersiz kalacağı anlamına gelir.
+
+## Time-Boxing Kök Nedeni Nasıl Ele Alır?
+
+Time-boxing, birden çok düzeyde ertelemeye karşı çalışır. İlk olarak, işin tam olarak ne zaman gerçekleşeceğini tanımlayarak görev belirsizliğini ortadan kaldırır. Beyin açık uçlu taahhütlere direnir ama sınırlı olanları kolayca kabul eder. İkincisi, sabit bir bitiş noktası mükemmellik baskısını ortadan kaldırır. Görevi kusursuz bir şekilde bitirmeye çalışmıyorsunuz; 45 dakika çalışıp duruyorsunuz.
+
+Üçüncüsü, time-boxing psikologların "uygulama niyetleri" dediği şeyi yaratır. Peter Gollwitzer'in araştırması, bir hedefe ne zaman ve nerede harekete geçeceğini belirten kişilerin, belirsiz niyetleri olanlara göre önemli ölçüde daha fazla sonuca ulaştığını gösteriyor. Bir görevi zaman kutusu olarak planlamak, en güçlü haliyle bir uygulama niyetidir.
+
+## Beş Dakikalık Başlangıç Protokolü
+
+Kaçındığınız görevler için beş dakikalık başlangıç protokolünü kullanın. Göreve tam olarak beş dakika çalışmaya söz verin. Kendinize, isterseniz beş dakika sonra durabileceğinizi söyleyin. Bu teknik Zeigarnik etkisinden yararlanır: insanların başladıkları görevleri tamamlama konusunda doğal bir dürtüsü vardır ve bu, başladıktan sonra durmaktansa devam etmeyi kolaylaştırır.
+
+Beş dakika sonra, neredeyse her zaman devam etmeyi seçersiniz. Etmezseniz, görevin kendisinde bir sorun vardır; örneğin belirsiz olması veya sahip olmadığınız bir kaynak gerektirmesi gibi. Bu bilgi değerlidir ve nedenini bilmeden felç olmuş bir şekilde oturmanızı önler.
+
+## Bunaltıcı Görevleri Parçalamak İçin Time-Boxing Kullanmak
+
+Büyük görevler, kapsamları tanımsız olduğu için en büyük erteleme tetikleyicileridir. Her büyük görevi tek bir zaman kutusuna sığan alt görevlere bölün. "Raporu yaz", "giriş taslağını çıkar" (20 dk), "metodoloji bölümünün taslağını yaz" (45 dk) ve "gözden geçir ve düzenle" (30 dk) haline gelir.
+
+Chrobox bu ayrıştırmayı kolaylaştırır. Her biri kendi süre tahminine sahip alt görevlerle ana görevler oluşturabilirsiniz ve Chrobox bunları takviminizdeki uygun aralıklara otomatik olarak planlar.
+
+## Duygusal Rahatsızlığı Yönetmek
+
+Korkulan bir göreve başlamadan hemen önceki an, rahatsızlığın zirveye ulaştığı andır. Bu hisse göre hareket etmeden kabul edin. "Buna başlamak yerine telefonuma bakmak istediğimi fark ediyorum" gibi basit bir ifade, dürtü ile eylem arasında psikolojik bir mesafe yaratır.
+
+Sonra zamanlayıcınızı başlatın ve başlayın. Rahatsızlık, gerçek çabanın iki ila üç dakikası içinde dramatik bir şekilde azalır; bu yüzden beş dakikalık başlangıç protokolü bu kadar etkilidir.
+
+## Gün Boyunca Momentum Oluşturmak
+
+En çok kaçındığınız görevi, beyniniz pazarlık etmeye vakit bulamadan sabah ilk iş olarak planlayın. Onu tamamladıktan sonra, psikolojik ödül günün geri kalanı için size momentum kazandırır. Chrobox, hangi öğelerin tekrar tekrar ertelendiğini takip ederek kaçınılan görevleri otomatik olarak önceliklendirebilir ve onları süresiz olarak öne itmek yerine erkenden yüzleşmeniz için işaretleyebilir.`,
+    'daily-review-ritual': `## Çoğu İnsan Günlük İncelemeyi Neden Atlar?
+
+Günlük inceleme, üretkenlik literatüründe en çok tavsiye edilen alışkanlıklardan biridir, ancak aynı zamanda en çok atlanan alışkanlıklardan biridir. Neden genellikle aynıdır: isteğe bağlı hissettirir. Meşgulken, kesilecek ilk şey yansıma zamanıdır, çünkü yansıma anında somut bir çıktı üretmez. Bu maliyetli bir hatadır.
+
+Sporculardan CEO'lara kadar farklı alanlardaki en iyi performans gösterenler, yapılandırılmış yansımanın yüksek performanstan ayrı olmadığını tutarlı bir şekilde bildiriyor. O, yüksek performansın motorudur. Gününüzü gözden geçirmeye ayırdığınız 10 dakika, ertesi gün yanlış yönlendirilmiş iki saatlik çabadan tasarruf sağlayabilir.
+
+## Bir İncelemeyi Etkili Kılan Dört Soru
+
+İyi bir günlük inceleme uzun veya karmaşık olmak zorunda değildir. Dürüst olmalıdır. Dört soruya odaklanın:
+
+1. Bugün neyi tamamladım? Planladığınızı değil, gerçekte bitirdiğinizi yazın. Bu, zamanla gerçek çıktınızın doğru bir resmini oluşturur.
+
+2. Hâlâ açık veya engellenmiş olan ne var? Yapılmayan her şeyi ve nedenini belirleyin. Bir bağımlılık tarafından mı engellendi? Daha fazla bilgiye mi ihtiyacı var? Bu, görevlerin sessizce radarınızdan kaybolmasını önler.
+
+3. Yarın için en önemli tek görev nedir? Beşini değil, birini seçin. Tek bir net önceliğe sahip olmak, yarın sabah başlamayı çarpıcı biçimde kolaylaştırır.
+
+4. Neyi öğrendim veya farklı yapmak istiyorum? Büyüme burada gerçekleşir. Günde tek bir küçük gözlem bile aylar içinde önemli bir gelişmeye dönüşür.
+
+## Maksimum Etki İçin İncelemenizin Zamanlaması
+
+Dizüstü bilgisayarınızı kapatmadan önce tamamlanan gün sonu incelemeleri, çalışma belleğiniz hâlâ günün bağlamıyla dolu olduğu için sabah incelemelerinden daha başarılıdır. Tam olarak ne olduğunu, neyin tamamlanmadan kaldığını ve neyin sürtünmeye neden olduğunu bilirsiniz. Sabah incelemeleri, gün sonu işlemenin yerine geçmek yerine öncelikleri doğrulayan ikinci bir geçiş olarak daha iyi çalışır.
+
+Evden çalışıyorsanız, iş gününün sonunu belirten fiziksel bir ritüel oluşturun: belirli bir çay demleyin, iş kıyafetlerinizi değiştirin veya kısa bir yürüyüşe çıkın. İncelemenizi bu ritüele bağlayın, böylece davranış otomatik hale gelir.
+
+## Kalıcı Olması İçin Alışkanlığı İnşa Etmek
+
+Alışkanlık araştırmaları, yeni bir davranışı zaten var olan bir davranışa ekleme tekniğinin -alışkanlık istifleme olarak adlandırılır- tutarlılık olasılığını dramatik bir şekilde artırdığını tutarlı bir şekilde gösteriyor. Günün sonunda zaten güvenilir bir şekilde yaptığınız bir çapa alışkanlık seçin ve incelemenizi hemen öncesine veya sonrasına ekleyin.
+
+Serinizi görsel olarak takip edin. Tamamlanmış incelemelerden oluşan bir zincir görmek, sizi onu bozmaya karşı psikolojik olarak isteksiz hale getirir. Chrobox, belirlediğiniz inceleme saatinden beş dakika önce nazik bir hatırlatma gönderen, günlük inceleme alışkanlığınız için bir seri takipçisi içerir.
+
+## Otomatik İnceleme Desteği İçin Chrobox Kullanımı
+
+Chrobox, o günün tamamlanan, tamamlanmayan ve yeniden planlanan görevleriyle günlük incelemenizi önceden doldurarak, ne olduğunu manuel olarak hatırlama çabasını ortadan kaldırır. Tamamlama oranınızı, görev süresini nerede fazla ya da az tahmin ettiğinizi ve hangi görevlerin önceki günlerden taşındığını görürsünüz. Bu veri, dört sorunuzu yanıtlamayı çok daha kolay ve doğru hale getirir.
+
+Zamanla, Chrobox'un analitiği size örüntüleri gösterir: haftanın hangi günlerinde en üretken olduğunuzu, hangi görev türlerini tutarlı bir şekilde az tahmin ettiğinizi ve hangi tekrarlayan engellerin ortaya çıkmaya devam ettiğini. Bu, günlük incelemenizi basit bir alışkanlıktan gerçek bir sürekli iyileştirme sistemine dönüştürür.`,
+    'time-boxing-for-creative-professionals': `## Yaratıcı Profesyonelin İkilemi
+
+Yaratıcı profesyoneller benzersiz bir gerilimle karşı karşıyadır. İşleri hem disiplinli uygulama hem de açık uçlu keşif gerektirir. Çok fazla yapı, yaratıcı işi değerli kılan kendiliğinden içgörüleri sıkıştıracağından korkarlar. Çok az yapı ise, gün dikkat dağınıklığı, erteleme ve tepkisel görevler içinde kaybolur.
+
+Bu ikilemin çözümü, yapı ile özgürlük arasında seçim yapmak değildir. Her ikisi için de ayrılmış zaman sağlayan, her mod arasında net sınırlar olan bir program tasarlamaktır.
+
+## Araştırmalar Gerçekte Ne Gösteriyor?
+
+Yaratıcılık üzerine psikolojik araştırmalar, ılımlı kısıtlamaların yaratıcı performansı sınırlamak yerine geliştirdiğini tutarlı bir şekilde bulmaktadır. "Yaratıcı kısıtlama" olarak bilinen bu fenomen, sınırlamaların, çözüm alanı sonsuz olduğunda beynin aksi takdirde atlayacağı çözümleri keşfetmeye zorlamasından kaynaklanır.
+
+Patricia Stokes'un Monet ve Picasso dahil sanatçılar üzerine yaptığı araştırma, en yenilikçi dönemlerinin özgürlükle değil, kendi kendilerine dayattıkları kısıtlamalarla çakıştığını buldu. Örneğin, Monet'nin seri tabloları, aynı konuyu farklı koşullar altında resmetme kararından doğdu; bu kısıtlama daha önce keşfedilmemiş çözümleri zorladı.
+
+## Yaratıcı Time-Boxing Sisteminizi Tasarlamak
+
+Temel ilke, üretken zaman ile verimli zaman arasında ayrım yapmaktır. Üretken zaman yeni materyal yaratmak içindir: ilk taslakları yazmak, konseptleri çizmek, beyin fırtınası yapmak ve fikir üretmek. Verimli zaman ise rafine etmek, düzenlemek, uygulamak ve teslim etmek içindir.
+
+Üretken bloklarınızı zihinsel enerjinizin en yüksek olduğu, genellikle sabah saatlerinde planlayın. Verimli blokları daha düşük enerji dönemleri için ayırın. Sürdürülebilir akışın değerli olduğu üretken çalışma için daha uzun bloklar (60-90 dakika) ve net bitiş noktaları olan verimli görevler için daha kısa bloklar (25-45 dakika) kullanın.
+
+Kritik olarak, her hafta hiçbir teslimatın bağlı olmadığı en az bir yapılandırılmamış keşif bloğu ekleyin. Bu, okumak, gezinmek, gözlemlemek veya sadece gündemsiz düşünmek için zamandır. Bu blok, yaratıcı rezervlerinizi tüketmek yerine besler.
+
+## Derin Yaratıcı Çalışmayı Korumak
+
+Yaratıcı bloklarınızı erken planlayın ve pazarlığa açık olmadıklarını işaretleyin. Müşterilere ve meslektaşlara bu saatlerin kullanılamaz olduğunu iletin. Bunu bir güvenilirlik yatırımı olarak çerçevelediğinizde, geri tepme genellikle minimum düzeydedir: yaratıcı saatlerinizi koruduğunuzda daha iyi iş teslim edersiniz.
+
+Yaratıcı bloklar sırasında tüm bildirimleri kapatın. University of California Irvine'den araştırmalar, bir kesintiden sonra tam odağa dönmenin ortalama 23 dakika sürdüğünü buldu. Tek bir bildirim size bir saniyeye mal olmaz; size 23 dakikaya mal olur.
+
+## Yanlış Zamanda Gelen İlhamı Yönetmek
+
+Yaratıcı fikirler programlara uymaz. İlham bir idari blok veya toplantı sırasında geldiğinde, onu hemen sürtünmesiz bir sistemde yakalayın. Bir sesli not, özel bir nottaki tek bir satır veya fikri başlık olarak taşıyan hızlı bir Chrobox görevi hepsi iyi çalışır. Anahtar, harekete geçmeden yakalamak; hem fikri hem de mevcut bloğunuzun odağını korumaktır.
+
+Her yaratıcı bloğun başında yakalama listenizi gözden geçirin. Genellikle bir sonraki yaratıcı oturumunuza kadar hayatta kalan fikirler gerçekten iyi olanlardır, o anda acil görünen dürtüler ise düşününce solar.
+
+## Yaratıcı Proje Yönetimi İçin Chrobox Kullanımı
+
+Chrobox, zaman bloklarının proje düzeyinde gruplandırılmasına olanak tanıyarak yaratıcı iş akışlarını destekler. Bir tasarım projesinin araştırma, konsept geliştirme, uygulama ve müşteri incelemesi için farklı sürelere sahip blokları olabilir. Chrobox, bunları son tarihlere ve mevcut kapasitenize göre takviminize planlayarak, her oturumu manuel olarak planlamanıza gerek kalmadan yaratıcı çalışmanın ne zaman gerçekleşeceğine dair size tam bir görünüm sunar.
+
+Platform ayrıca hangi blokları uzattığınızı takip ederek, hangi yaratıcı görevleri tutarlı bir şekilde az tahmin ettiğinizi anlamanıza yardımcı olur, böylece gelecekteki projeler için daha gerçekçi programlar oluşturabilirsiniz.`,
   },
   templates: {
     'software-developer': {
