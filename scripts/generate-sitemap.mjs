@@ -2,7 +2,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { writeFileSync } from 'fs';
 import { createJiti } from 'jiti';
-import { BASE_URL, SEO_LOCALES, getSeoRouteGroups, urlForPath } from './seo-routes.mjs';
+import { BASE_URL, SEO_LOCALES, getSeoRouteGroups, urlForPath, writeLastmodManifest } from './seo-routes.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
@@ -122,3 +122,8 @@ ${sections
 writeFileSync(SITEMAP_PATH, index);
 console.log(`Generated ${SITEMAP_PATH} (index of ${sections.length} sitemaps, ${sections.reduce((sum, s) => sum + s.urlCount, 0)} URLs)`);
 console.log(`Translation gate: excluded ${gatedUrlCount} untranslated blog URLs from the sitemap.`);
+
+// Full-history (local) builds refresh seo/lastmod.json for shallow CI clones — commit it.
+if (writeLastmodManifest()) {
+  console.log('[sitemap] lastmod manifest refreshed (seo/lastmod.json)');
+}

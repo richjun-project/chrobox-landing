@@ -1,4 +1,5 @@
-import { existsSync, readFileSync, readdirSync, statSync } from 'fs';
+import { execFileSync } from 'child_process';
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -100,10 +101,13 @@ function extractBlogEntries(relativePaths) {
     for (const match of source.matchAll(/slug:\s*['"`]([^'"`]+)['"`]/g)) {
       const slug = match[1];
       const after = source.slice(match.index, match.index + 600);
-      const dateMatch = after.match(/date:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
+      const dateMatch = after.match(/\bdate:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
+      const updatedMatch = after.match(/\bupdated:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
+      // A substantive revision (`updated`) is the post's real last modification.
+      const date = [dateMatch?.[1], updatedMatch?.[1]].filter(Boolean).sort().pop();
 
-      if (!entries.has(slug) || (dateMatch && !entries.get(slug))) {
-        entries.set(slug, dateMatch ? dateMatch[1] : undefined);
+      if (!entries.has(slug) || (date && !entries.get(slug))) {
+        entries.set(slug, date);
       }
     }
   }
@@ -125,12 +129,84 @@ function extractCategorySlugs() {
   return [...new Set(slugs)];
 }
 
+/*
+ * lastmod = when the sources behind a page were last committed.
+ *
+ * File mtimes are useless here: a fresh CI checkout stamps every file with the
+ * clone time, so each deploy claimed every template/comparison/category page
+ * changed that day — and search engines learn to ignore a sitemap whose
+ * lastmod is always "today". Vercel clones shallowly, and in a shallow clone
+ * the boundary commit appears to add every file, so a date that comes from a
+ * boundary commit is discarded in favour of seo/lastmod.json, which full-history
+ * builds (local) write and commit.
+ */
+const LASTMOD_MANIFEST = join(PROJECT_ROOT, 'seo', 'lastmod.json');
+const today = () => new Date().toISOString().slice(0, 10);
+
+function git(args) {
+  try {
+    return execFileSync('git', args, { cwd: PROJECT_ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();
+  } catch {
+    return undefined;
+  }
+}
+
+const IS_SHALLOW = git(['rev-parse', '--is-shallow-repository']) === 'true';
+const SHALLOW_BOUNDARY = new Set(
+  (existsSync(join(PROJECT_ROOT, '.git', 'shallow'))
+    ? readFileSync(join(PROJECT_ROOT, '.git', 'shallow'), 'utf8')
+    : ''
+  ).split('\n').filter(Boolean),
+);
+const manifest = existsSync(LASTMOD_MANIFEST) ? JSON.parse(readFileSync(LASTMOD_MANIFEST, 'utf8')) : {};
+const resolvedDates = {};
+
 function latestSourceDate(relativePaths) {
+  const key = [...relativePaths].sort().join('|');
+
+  if (!(key in resolvedDates)) {
+    resolvedDates[key] = resolveSourceDate(relativePaths, key);
+  }
+
+  return resolvedDates[key];
+}
+
+function resolveSourceDate(relativePaths, key) {
+  // Uncommitted edits (local build) — today is the honest date.
+  if (git(['status', '--porcelain', '--', ...relativePaths])) {
+    return today();
+  }
+
+  const [sha, date] = (git(['log', '-1', '--format=%H %cs', '--', ...relativePaths]) ?? '').split(' ');
+
+  if (date && /^\d{4}-\d{2}-\d{2}$/.test(date) && !SHALLOW_BOUNDARY.has(sha)) {
+    return date;
+  }
+
+  if (manifest[key]) {
+    return manifest[key];
+  }
+
+  // No git at all: last resort is the old mtime behaviour.
   const latestMs = Math.max(
     ...relativePaths.map((relativePath) => statSync(join(PROJECT_ROOT, relativePath)).mtimeMs),
   );
-
   return new Date(latestMs).toISOString().slice(0, 10);
+}
+
+/** Full-history builds refresh the committed manifest that shallow CI builds fall back to. */
+export function writeLastmodManifest() {
+  if (IS_SHALLOW || !git(['rev-parse', '--git-dir'])) {
+    return false;
+  }
+
+  const next = Object.fromEntries(Object.entries({ ...manifest, ...resolvedDates }).sort());
+
+  if (JSON.stringify(next) !== JSON.stringify(manifest)) {
+    writeFileSync(LASTMOD_MANIFEST, `${JSON.stringify(next, null, 2)}\n`);
+  }
+
+  return true;
 }
 
 function normalizedEnglishPath(path) {

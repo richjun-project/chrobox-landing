@@ -1,0 +1,6 @@
+{
+  "src/app/[locale]/page.tsx|src/app/page.tsx|src/components/Hero.tsx|src/i18n/en.json|src/i18n/ko.json|src/screens/Home.tsx": "2026-09-24",
+  "src/data/blogBatch1.ts|src/data/blogBatch2.ts|src/data/blogBatch3.ts|src/data/blogBatch4.ts|src/data/blogBatch5.ts|src/data/blogBatch6.ts|src/data/blogBatch7.ts|src/data/blogBatch8.ts|src/data/blogPosts.ts": "2026-09-24",
+  "src/data/comparisons.ts|src/screens/ComparisonPage.tsx": "2026-09-24",
+  "src/data/scheduleTemplates.ts|src/screens/ScheduleTemplate.tsx": "2026-09-24"
+}
