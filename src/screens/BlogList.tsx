@@ -6,22 +6,25 @@ import { useRouter } from 'next/navigation';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getBlogPosts } from '../data/blogPosts';
-import { clusterCopy, BLOG_CLUSTERS } from '../lib/blogTaxonomy';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
-  contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
   htmlLangForLocale,
 } from '../lib/seo';
-import { uiCopy } from '../lib/uiCopy';
+import type { UiCopy } from '../lib/uiCopy';
+import type { ClusterLink } from '../lib/viewData';
+import type { BlogPostMeta } from '../types/blog';
 
-export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
-  const posts = getBlogPosts(lang);
+interface BlogListProps {
+  posts: BlogPostMeta[];
+  clusters: ClusterLink[];
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
+
+export function BlogList({ posts, clusters, ui, locale = 'en' }: BlogListProps) {
   const homePath = localizedPath(locale, '/');
   const router = useRouter();
 
@@ -107,7 +110,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
       {/* Category Pills */}
       <Container size="lg" pt={48} pb={0}>
         <Box style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {BLOG_CLUSTERS.map((cluster) => (
+          {clusters.map((cluster) => (
             <Box
               key={cluster.id}
               component={Link}
@@ -132,7 +135,7 @@ export function BlogList({ locale = 'en' }: { locale?: SiteLocale }) {
                 e.currentTarget.style.color = tokens.colors.gray700;
               }}
             >
-              {clusterCopy(cluster, lang).name}
+              {cluster.name}
             </Box>
           ))}
         </Box>

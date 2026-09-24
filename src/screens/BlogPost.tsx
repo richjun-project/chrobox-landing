@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 import { Box, Container, Text, Group, Badge, Button, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowLeft, IconUser, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getBlogPost, getBlogContent } from '../data/blogPosts';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { TableOfContents } from '../components/TableOfContents';
@@ -13,32 +12,34 @@ import { RelatedPosts } from '../components/RelatedPosts';
 import ReactMarkdown from 'react-markdown';
 import { useEffect } from 'react';
 import {
-  contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
   htmlLangForLocale,
 } from '../lib/seo';
-import { uiCopy } from '../lib/uiCopy';
+import type { UiCopy } from '../lib/uiCopy';
+import type { RelatedPostsData } from '../lib/viewData';
+import type { BlogPostMeta } from '../types/blog';
 import { rehypeHeadingIds } from '../lib/headingIds';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 
-export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
+interface BlogPostProps {
+  post: BlogPostMeta;
+  content: string;
+  related: RelatedPostsData | null;
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
 
-  const post = getBlogPost(slug, lang);
-  const content = getBlogContent(slug, lang);
+/** Data is resolved by the route (server) so content packs stay out of the client bundle. */
+export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPostProps) {
+  const slug = post.slug;
   const blogLink = localizedPath(locale, '/blog');
   const homePath = localizedPath(locale, '/');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
-
-  if (!post) {
-    return null;
-  }
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -271,7 +272,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
             <Box style={{ minWidth: 0 }}>
               {/* Mobile TOC (shown only on mobile via CSS) */}
               <Box className="blog-toc-mobile">
-                <TableOfContents content={content} lang={lang} />
+                <TableOfContents content={content} ui={ui} />
               </Box>
 
               <Box
@@ -523,7 +524,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
               )}
 
               {/* Related Posts (same cluster) */}
-              <RelatedPosts slug={post.slug} locale={locale} />
+              <RelatedPosts data={related} locale={locale} ui={ui} />
 
               {/* CTA */}
               <Box
@@ -568,7 +569,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
 
             {/* Desktop TOC sidebar (shown only on wide screens via CSS) */}
             <Box className="blog-toc-desktop">
-              <TableOfContents content={content} lang={lang} />
+              <TableOfContents content={content} ui={ui} />
             </Box>
           </Box>
         </motion.div>

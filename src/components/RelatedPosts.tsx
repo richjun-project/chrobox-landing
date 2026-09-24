@@ -5,41 +5,23 @@ import { motion } from 'framer-motion';
 import { Box, Card, Group, Image, SimpleGrid, Text, Badge } from '@mantine/core';
 import { IconArrowRight, IconClock, IconStar } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import {
-  contentLanguageForLocale,
-  localizedPath,
-  type SiteLocale,
-} from '../lib/seo';
-import { getBlogPost, getBlogPostsByCluster } from '../data/blogPosts';
-import { clusterCopy, getClusterBySlug } from '../lib/blogTaxonomy';
-import { uiCopy } from '../lib/uiCopy';
+import { localizedPath, type SiteLocale } from '../lib/seo';
+import type { UiCopy } from '../lib/uiCopy';
+import type { RelatedPostsData } from '../lib/viewData';
 
 interface RelatedPostsProps {
-  slug: string;
+  data: RelatedPostsData | null;
   locale: SiteLocale;
-  limit?: number;
+  ui: UiCopy;
 }
 
-export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
-  const cluster = getClusterBySlug(slug);
-
-  if (!cluster) {
+export function RelatedPosts({ data, locale, ui }: RelatedPostsProps) {
+  if (!data) {
     return null;
   }
 
-  const allInCluster = getBlogPostsByCluster(cluster.slug, lang);
-  const hub = cluster.hubSlug !== slug ? getBlogPost(cluster.hubSlug, lang) : undefined;
-  const siblings = allInCluster
-    .filter((post) => post.slug !== slug && post.slug !== cluster.hubSlug)
-    .slice(0, limit);
-
-  if (!hub && siblings.length === 0) {
-    return null;
-  }
-
-  const categoryHref = localizedPath(locale, `/blog/category/${cluster.slug}`);
+  const { hub, siblings } = data;
+  const categoryHref = localizedPath(locale, `/blog/category/${data.clusterSlug}`);
 
   return (
     <Box mt={64}>
@@ -69,7 +51,7 @@ export function RelatedPosts({ slug, locale, limit = 4 }: RelatedPostsProps) {
               gap: '4px',
             }}
           >
-            {clusterCopy(cluster, lang).name}
+            {data.clusterName}
             <IconArrowRight size={14} />
           </Box>
         </Box>

@@ -13,6 +13,8 @@ import {
   seoCopy,
 } from '../../../../lib/seo';
 import { getClusterByCategorySlug } from '../../../../lib/blogTaxonomy';
+import { uiCopy } from '../../../../lib/uiCopy';
+import { clusterCopy } from '../../../../lib/blogTaxonomy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -89,7 +91,13 @@ export default async function Page({ params }: { params: SlugParam }) {
           ],
         }}
       />
-      <BlogCategory cluster={cluster} locale="en" />
+      <BlogCategory
+        cluster={cluster}
+        category={clusterCopy(cluster, 'en')}
+        posts={getBlogPostsByCluster(cluster.slug, 'en')}
+        ui={uiCopy('en')}
+        locale="en"
+      />
     </>
   );
 }

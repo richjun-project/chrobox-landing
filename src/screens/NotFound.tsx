@@ -6,14 +6,19 @@ import { Box, Button, Container, Text } from '@mantine/core';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { tokens } from '../theme';
-import { contentLanguageForLocale, localeFromPathname, localizedPath } from '../lib/seo';
-import { uiCopy } from '../lib/uiCopy';
+import { contentLanguageForLocale, localeFromPathname, localizedPath, type ContentLanguage } from '../lib/seo';
 
-export function NotFound() {
+export type NotFoundMessages = Record<ContentLanguage, { notFoundMessage: string; goHome: string }>;
+
+/**
+ * One static 404.html serves every locale, so the locale is only known on the
+ * client. The route passes just these two strings per locale (not the whole UI
+ * copy table, which would ride along on every page's bundle).
+ */
+export function NotFound({ messages }: { messages: NotFoundMessages }) {
   const pathname = usePathname() ?? '/';
   const locale = localeFromPathname(pathname);
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
+  const ui = messages[contentLanguageForLocale(locale)] ?? messages.en;
   const homePath = localizedPath(locale, '/');
 
   return (

@@ -3,6 +3,8 @@ import { ComparisonList } from '../../screens/ComparisonList';
 import { JsonLd } from '../../components/JsonLd';
 import { pageMetadata } from '../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../lib/seo';
+import { getComparisons } from '../../data/comparisons';
+import { uiCopy } from '../../lib/uiCopy';
 
 export const dynamic = 'force-static';
 
@@ -33,7 +35,7 @@ export default function Page() {
           ],
         }}
       />
-      <ComparisonList locale="en" />
+      <ComparisonList comparisons={getComparisons('en')} ui={uiCopy('en')} locale="en" />
     </>
   );
 }

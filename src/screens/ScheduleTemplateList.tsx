@@ -5,11 +5,12 @@ import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge } from '@mantine/core';
 import { IconArrowRight, IconClock } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { scheduleTemplates, categoryColors, localizeScheduleTemplate } from '../data/scheduleTemplates';
+import type { LocalizedScheduleTemplate } from '../data/scheduleTemplates';
+import { categoryColors } from '../data/templateCategories';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
-import { contentLanguageForLocale, localizedPath, type SiteLocale } from '../lib/seo';
-import { uiCopy } from '../lib/uiCopy';
+import { localizedPath, type SiteLocale } from '../lib/seo';
+import type { UiCopy } from '../lib/uiCopy';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -21,9 +22,14 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.07 } },
 };
 
-export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
+interface ScheduleTemplateListProps {
+  /** Already localized on the server (lib/viewData.ts localizedTemplates). */
+  templates: LocalizedScheduleTemplate[];
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
+
+export function ScheduleTemplateList({ templates, ui, locale = 'en' }: ScheduleTemplateListProps) {
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -77,7 +83,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
         <Container size="lg">
           <Group gap={40} wrap="wrap">
             {[
-              { value: `${scheduleTemplates.length}`, label: ui.professionTemplates },
+              { value: `${templates.length}`, label: ui.professionTemplates },
               { value: '8–12', label: ui.dailyTimeBlocks },
               { value: '3–5', label: ui.customProductivityTips },
               { value: '100%', label: ui.freeToUse },
@@ -95,7 +101,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
       <Container size="lg" py={80}>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.05 }} variants={stagger}>
           <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing={28}>
-            {scheduleTemplates.map((template, index) => {
+            {templates.map((template, index) => {
               const categories = [...new Set(template.schedule.map((b) => b.category))].slice(0, 3);
               return (
                 <motion.div key={template.slug} variants={fadeInUp} transition={{ duration: 0.45, delay: index * 0.04 }}>
@@ -141,7 +147,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             lineHeight: 1.3,
                           }}
                         >
-                          {localizeScheduleTemplate(template, lang).profession}
+                          {template.profession}
                         </Text>
 
                         <Text
@@ -157,7 +163,7 @@ export function ScheduleTemplateList({ locale = 'en' }: { locale?: SiteLocale })
                             flex: 1,
                           }}
                         >
-                          {localizeScheduleTemplate(template, lang).description}
+                          {template.description}
                         </Text>
 
                         <Box>

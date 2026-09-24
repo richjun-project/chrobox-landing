@@ -6,16 +6,17 @@ import { motion } from 'framer-motion';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Button, Breadcrumbs, Anchor } from '@mantine/core';
 import { IconArrowLeft, IconArrowRight, IconBulb, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getScheduleTemplate, scheduleTemplates, categoryColors, categoryLabel, localizeScheduleTemplate, type ScheduleTemplate } from '../data/scheduleTemplates';
+import { categoryColors } from '../data/templateCategories';
+import type { TemplateViewData } from '../lib/viewData';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
-  contentLanguageForLocale,
   localizedPath,
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
-import { formatCopy, uiCopy } from '../lib/uiCopy';
+import { formatCopy } from '../lib/formatCopy';
+import type { UiCopy } from '../lib/uiCopy';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
@@ -30,12 +31,17 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.08 } },
 };
 
-export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
-  const copy = seoCopy(locale);
+interface ScheduleTemplateProps {
+  data: TemplateViewData;
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
 
-  const template = getScheduleTemplate(slug);
+export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplateProps) {
+  const copy = seoCopy(locale);
+  const { template: localized, related: relatedTemplates, categoryLabels } = data;
+  const template = localized;
+  const slug = template.slug;
   const templatesPath = localizedPath(locale, '/templates');
   const homePath = localizedPath(locale, '/');
 
@@ -43,18 +49,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
     window.scrollTo(0, 0);
   }, [slug]);
 
-  if (!template) {
-    return null;
-  }
-
-  const localized = localizeScheduleTemplate(template, lang);
   const { profession, description, tips } = localized;
-
-  const relatedTemplates = template.relatedSlugs
-    .map((s) => scheduleTemplates.find((t) => t.slug === s))
-    .filter(Boolean)
-    .slice(0, 4)
-    .map((related) => localizeScheduleTemplate(related as ScheduleTemplate, lang));
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -167,7 +162,7 @@ export function ScheduleTemplate({ slug, locale = 'en' }: { slug: string; locale
             <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
               {localized.schedule.map((block, index) => {
                 const color = categoryColors[block.category];
-                const label = categoryLabel(block.category, lang);
+                const label = categoryLabels[block.category];
                 return (
                   <motion.div
                     key={index}

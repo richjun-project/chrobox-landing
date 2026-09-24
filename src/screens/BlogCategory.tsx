@@ -5,28 +5,26 @@ import Link from 'next/link';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Image } from '@mantine/core';
 import { IconClock, IconCalendar, IconArrowRight, IconChevronRight, IconStar } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getBlogPostsByCluster } from '../data/blogPosts';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
-  contentLanguageForLocale,
   localizedPath,
   type SiteLocale,
   htmlLangForLocale,
 } from '../lib/seo';
-import { clusterCopy, type BlogClusterDefinition } from '../lib/blogTaxonomy';
-import { articleCountLabel, uiCopy } from '../lib/uiCopy';
+import type { BlogClusterDefinition, ClusterCopy } from '../lib/blogTaxonomy';
+import type { UiCopy } from '../lib/uiCopy';
+import type { BlogPostMeta } from '../types/blog';
 
 interface BlogCategoryProps {
   cluster: BlogClusterDefinition;
+  category: ClusterCopy;
+  posts: BlogPostMeta[];
+  ui: UiCopy;
   locale?: SiteLocale;
 }
 
-export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
-  const category = clusterCopy(cluster, lang);
-  const posts = getBlogPostsByCluster(cluster.slug, lang);
+export function BlogCategory({ cluster, category, posts, ui, locale = 'en' }: BlogCategoryProps) {
   const homePath = localizedPath(locale, '/');
   const blogPath = localizedPath(locale, '/blog');
 
@@ -142,7 +140,7 @@ export function BlogCategory({ cluster, locale = 'en' }: BlogCategoryProps) {
                 marginTop: '16px',
               }}
             >
-              {posts.length} {articleCountLabel(posts.length, lang)}
+              {posts.length} {posts.length === 1 ? ui.article : ui.articles}
             </Text>
           </motion.div>
         </Container>

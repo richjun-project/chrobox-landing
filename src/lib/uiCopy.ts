@@ -276,10 +276,4 @@ export function articleCountLabel(count: number, lang: ContentLanguage) {
   return count === 1 ? copy.article : copy.articles;
 }
 
-/** Fills `{placeholder}` slots in a UI string. */
-export function formatCopy(template: string, values: Record<string, string>) {
-  return Object.entries(values).reduce(
-    (text, [key, value]) => text.split(`{${key}}`).join(value),
-    template,
-  );
-}
+export { formatCopy } from './formatCopy';

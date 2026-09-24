@@ -3,8 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Box, Text, UnstyledButton } from '@mantine/core';
 import { IconList, IconChevronDown } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { uiCopy } from '../lib/uiCopy';
-import type { ContentLanguage } from '../lib/seo';
+import type { UiCopy } from '../lib/uiCopy';
 import { createHeadingSlugger, markdownHeadingText } from '../lib/headingIds';
 
 interface Heading {
@@ -15,7 +14,7 @@ interface Heading {
 
 interface TableOfContentsProps {
   content: string;
-  lang?: ContentLanguage;
+  ui: UiCopy;
 }
 
 function extractHeadings(markdown: string): Heading[] {
@@ -34,8 +33,7 @@ function extractHeadings(markdown: string): Heading[] {
   return headings;
 }
 
-export function TableOfContents({ content, lang = 'en' }: TableOfContentsProps) {
-  const ui = uiCopy(lang);
+export function TableOfContents({ content, ui }: TableOfContentsProps) {
   const headings = useMemo(() => extractHeadings(content), [content]);
   const [activeId, setActiveId] = useState<string>('');
   const [mobileOpen, setMobileOpen] = useState(false);

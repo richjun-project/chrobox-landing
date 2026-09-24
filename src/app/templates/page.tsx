@@ -3,6 +3,8 @@ import { ScheduleTemplateList } from '../../screens/ScheduleTemplateList';
 import { JsonLd } from '../../components/JsonLd';
 import { pageMetadata, organizationRef } from '../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../lib/seo';
+import { uiCopy } from '../../lib/uiCopy';
+import { localizedTemplates } from '../../lib/viewData';
 
 export const dynamic = 'force-static';
 
@@ -33,7 +35,7 @@ export default function Page() {
           publisher: organizationRef(),
         }}
       />
-      <ScheduleTemplateList locale="en" />
+      <ScheduleTemplateList templates={localizedTemplates('en')} ui={uiCopy('en')} locale="en" />
     </>
   );
 }

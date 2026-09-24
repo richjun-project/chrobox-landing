@@ -5,6 +5,9 @@ import { JsonLd } from '../../../components/JsonLd';
 import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../../lib/seo';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../../_route-helpers';
+import { uiCopy } from '../../../lib/uiCopy';
+import { localizedTemplates } from '../../../lib/viewData';
+import { contentLanguageForLocale } from '../../../lib/seo';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -54,7 +57,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
           publisher: organizationRef(),
         }}
       />
-      <ScheduleTemplateList locale={locale} />
+      <ScheduleTemplateList templates={localizedTemplates(contentLanguageForLocale(locale))} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );
 }

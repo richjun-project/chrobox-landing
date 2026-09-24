@@ -2,8 +2,10 @@ import type { Metadata } from 'next';
 import { Home } from '../screens/Home';
 import { JsonLd } from '../components/JsonLd';
 import { organizationSchema, softwareApplicationSchema, pageMetadata, websiteSchema } from '../lib/next-seo';
-import { seoCopy } from '../lib/seo';
+import { contentLanguageForLocale, seoCopy } from '../lib/seo';
 import { faqPageSchema } from '../lib/faq-schema';
+import { homeBlogPosts } from '../lib/viewData';
+import { uiCopy } from '../lib/uiCopy';
 
 export const dynamic = 'force-static';
 
@@ -27,7 +29,7 @@ export default function Page() {
       <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
       <JsonLd data={websiteSchema('en', copy.homeDescription)} />
       <JsonLd data={faqPageSchema('en')} />
-      <Home />
+      <Home blogPosts={homeBlogPosts(contentLanguageForLocale('en'))} ui={uiCopy(contentLanguageForLocale('en'))} />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { getComparison } from '../../../data/comparisons';
 import { comparisonSlugParams, type SlugParam } from '../../_route-helpers';
 import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, comparisonArticleSeo, htmlLangForLocale, localizedPath, seoCopy } from '../../../lib/seo';
+import { uiCopy } from '../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -84,7 +85,7 @@ export default async function Page({ params }: { params: SlugParam }) {
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
-      <ComparisonPage slug={comparison.slug} locale="en" />
+      <ComparisonPage comparison={getComparison(comparison.slug, 'en')!} ui={uiCopy('en')} locale="en" />
     </>
   );
 }

@@ -113,7 +113,13 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           ],
         }}
       />
-      <BlogCategory cluster={cluster} locale={locale} />
+      <BlogCategory
+        cluster={cluster}
+        category={clusterCopy(cluster, contentLanguageForLocale(locale))}
+        posts={getBlogPostsByCluster(cluster.slug, contentLanguageForLocale(locale))}
+        ui={uiCopy(contentLanguageForLocale(locale))}
+        locale={locale}
+      />
     </>
   );
 }

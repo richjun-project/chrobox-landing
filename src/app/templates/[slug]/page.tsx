@@ -6,6 +6,8 @@ import { getScheduleTemplate } from '../../../data/scheduleTemplates';
 import { templateSlugParams, type SlugParam } from '../../_route-helpers';
 import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, htmlLangForLocale, localizedPath, seoCopy, templateArticleSeo } from '../../../lib/seo';
+import { uiCopy } from '../../../lib/uiCopy';
+import { templateViewData } from '../../../lib/viewData';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -69,7 +71,7 @@ export default async function Page({ params }: { params: SlugParam }) {
           publisher: organizationRef(),
         }}
       />
-      <ScheduleTemplate slug={template.slug} locale="en" />
+      <ScheduleTemplate data={templateViewData(template.slug, 'en')!} ui={uiCopy('en')} locale="en" />
     </>
   );
 }

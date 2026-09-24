@@ -13,6 +13,7 @@ import {
   localizedPath,
   seoCopy,
 } from '../../../../lib/seo';
+import { uiCopy } from '../../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -97,7 +98,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
-      <ComparisonPage slug={comparison.slug} locale={locale} />
+      <ComparisonPage comparison={comparison} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );
 }

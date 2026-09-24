@@ -14,6 +14,7 @@ import {
   templateArticleSeo,
 } from '../../../../lib/seo';
 import { formatCopy, uiCopy } from '../../../../lib/uiCopy';
+import { templateViewData } from '../../../../lib/viewData';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -88,7 +89,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           publisher: organizationRef(),
         }}
       />
-      <ScheduleTemplate slug={template.slug} locale={locale} />
+      <ScheduleTemplate data={templateViewData(template.slug, contentLanguageForLocale(locale))!} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );
 }

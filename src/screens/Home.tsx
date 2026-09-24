@@ -4,8 +4,10 @@ import { Box } from '@mantine/core';
 import { motion } from 'framer-motion';
 import { Navbar, Hero, Features, HowItWorks, Pricing, Download, Footer, HomeFaq } from '../components';
 import { BlogSection } from '../components/BlogSection';
+import type { UiCopy } from '../lib/uiCopy';
+import type { BlogPostMeta } from '../types/blog';
 
-export function Home() {
+export function Home({ blogPosts, ui }: { blogPosts: BlogPostMeta[]; ui: UiCopy }) {
   return (
     <Box style={{ minHeight: '100vh' }}>
       {/* Noise Overlay for texture */}
@@ -36,7 +38,7 @@ export function Home() {
         <HomeFaq />
 
         {/* Blog Section */}
-        <BlogSection />
+        <BlogSection posts={blogPosts} ui={ui} />
 
         {/* Download CTA Section */}
         <Download />

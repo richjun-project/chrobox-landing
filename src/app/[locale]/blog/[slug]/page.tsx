@@ -15,6 +15,8 @@ import {
   truncateAtSentence,
 } from '../../../../lib/seo';
 import { clusterCopy, getClusterBySlug } from '../../../../lib/blogTaxonomy';
+import { relatedPostsData } from '../../../../lib/viewData';
+import { uiCopy } from '../../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -156,7 +158,13 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           }}
         />
       )}
-      <BlogPost slug={post.slug} locale={locale} />
+      <BlogPost
+        post={post}
+        content={content}
+        related={relatedPostsData(post.slug, lang)}
+        ui={uiCopy(lang)}
+        locale={locale}
+      />
     </>
   );
 }

@@ -5,6 +5,9 @@ import { JsonLd } from '../../../components/JsonLd';
 import { pageMetadata } from '../../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../../lib/seo';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../../_route-helpers';
+import { getComparisons } from '../../../data/comparisons';
+import { uiCopy } from '../../../lib/uiCopy';
+import { contentLanguageForLocale } from '../../../lib/seo';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -54,7 +57,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
           ],
         }}
       />
-      <ComparisonList locale={locale} />
+      <ComparisonList comparisons={getComparisons(contentLanguageForLocale(locale))} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );
 }

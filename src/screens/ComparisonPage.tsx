@@ -6,17 +6,17 @@ import { motion } from 'framer-motion';
 import { Box, Container, Text, Group, Badge, Button, SimpleGrid, Card, Anchor } from '@mantine/core';
 import { IconArrowLeft, IconCheck, IconX, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { getComparison } from '../data/comparisons';
+import type { ComparisonData } from '../types/comparison';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
   comparisonArticleSeo,
-  contentLanguageForLocale,
   localizedPath,
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
-import { formatCopy, uiCopy } from '../lib/uiCopy';
+import { formatCopy } from '../lib/formatCopy';
+import type { UiCopy } from '../lib/uiCopy';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
@@ -73,22 +73,21 @@ function FeatureValue({ value }: { value: boolean | string }) {
   );
 }
 
-export function ComparisonPage({ slug, locale = 'en' }: { slug: string; locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
-  const copy = seoCopy(locale);
+interface ComparisonPageProps {
+  comparison: ComparisonData;
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
 
-  const comparison = getComparison(slug, lang);
+export function ComparisonPage({ comparison, ui, locale = 'en' }: ComparisonPageProps) {
+  const copy = seoCopy(locale);
+  const slug = comparison.slug;
   const comparePath = localizedPath(locale, '/compare');
   const homePath = localizedPath(locale, '/');
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
-
-  if (!comparison) {
-    return null;
-  }
 
   const competitor = comparison.competitor;
   const description = comparison.description;

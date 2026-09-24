@@ -5,6 +5,10 @@ import { JsonLd } from '../../../components/JsonLd';
 import { pageMetadata } from '../../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../../lib/seo';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../../_route-helpers';
+import { getBlogPosts } from '../../../data/blogPosts';
+import { clusterLinks } from '../../../lib/viewData';
+import { uiCopy } from '../../../lib/uiCopy';
+import { contentLanguageForLocale } from '../../../lib/seo';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -54,7 +58,12 @@ export default async function Page({ params }: { params: LocaleParam }) {
           ],
         }}
       />
-      <BlogList locale={locale} />
+      <BlogList
+        posts={getBlogPosts(contentLanguageForLocale(locale))}
+        clusters={clusterLinks(contentLanguageForLocale(locale))}
+        ui={uiCopy(contentLanguageForLocale(locale))}
+        locale={locale}
+      />
     </>
   );
 }

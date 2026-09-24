@@ -5,16 +5,15 @@ import Link from 'next/link';
 import { Box, Container, Text, SimpleGrid, Card, Group, Badge, Anchor } from '@mantine/core';
 import { IconArrowRight, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
-import { comparisons, getComparisons } from '../data/comparisons';
+import type { ComparisonData } from '../types/comparison';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
-  contentLanguageForLocale,
   localizedPath,
   seoCopy,
   type SiteLocale,
 } from '../lib/seo';
-import { uiCopy } from '../lib/uiCopy';
+import type { UiCopy } from '../lib/uiCopy';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -26,9 +25,13 @@ const stagger = {
   visible: { transition: { staggerChildren: 0.07 } },
 };
 
-export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
-  const lang = contentLanguageForLocale(locale);
-  const ui = uiCopy(lang);
+interface ComparisonListProps {
+  comparisons: ComparisonData[];
+  ui: UiCopy;
+  locale?: SiteLocale;
+}
+
+export function ComparisonList({ comparisons, ui, locale = 'en' }: ComparisonListProps) {
   const copy = seoCopy(locale);
   const homePath = localizedPath(locale, '/');
 
@@ -138,7 +141,7 @@ export function ComparisonList({ locale = 'en' }: { locale?: SiteLocale }) {
       <Container size="lg" py={80}>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.05 }} variants={stagger}>
           <SimpleGrid cols={{ base: 1, sm: 2, lg: 3 }} spacing={28}>
-            {getComparisons(lang).map((comparison, index) => (
+            {comparisons.map((comparison, index) => (
               <motion.div
                 key={comparison.slug}
                 variants={fadeInUp}

@@ -3,8 +3,10 @@ import { notFound } from 'next/navigation';
 import { Home } from '../../screens/Home';
 import { JsonLd } from '../../components/JsonLd';
 import { organizationSchema, softwareApplicationSchema, pageMetadata, websiteSchema } from '../../lib/next-seo';
-import { seoCopy } from '../../lib/seo';
+import { contentLanguageForLocale, seoCopy } from '../../lib/seo';
 import { faqPageSchema } from '../../lib/faq-schema';
+import { homeBlogPosts } from '../../lib/viewData';
+import { uiCopy } from '../../lib/uiCopy';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../_route-helpers';
 
 export const dynamic = 'force-static';
@@ -48,7 +50,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
       <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
       <JsonLd data={websiteSchema(locale, copy.homeDescription)} />
       <JsonLd data={faqPageSchema(locale)} />
-      <Home />
+      <Home blogPosts={homeBlogPosts(contentLanguageForLocale(locale))} ui={uiCopy(contentLanguageForLocale(locale))} />
     </>
   );
 }
