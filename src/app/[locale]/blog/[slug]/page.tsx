@@ -15,7 +15,7 @@ import {
   truncateAtSentence,
 } from '../../../../lib/seo';
 import { clusterCopy, getClusterBySlug } from '../../../../lib/blogTaxonomy';
-import { postCrossLinks, relatedPostsData } from '../../../../lib/viewData';
+import { postCrossLinks, postDirectAnswer, relatedPostsData } from '../../../../lib/viewData';
 import { uiCopy } from '../../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
@@ -168,6 +168,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         content={content}
         related={relatedPostsData(post.slug, lang)}
         crossLinks={postCrossLinks(post.slug, lang)}
+        directAnswer={postDirectAnswer(post)}
         ui={uiCopy(lang)}
         locale={locale}
       />

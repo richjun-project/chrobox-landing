@@ -218,6 +218,48 @@ export function ComparisonPage({ comparison, otherComparisons, guides, ui, local
         </Container>
       </Box>
 
+      {/* Verdict — placed first: it is the direct answer to "Chrobox vs X, which is better?" */}
+      <Container size="lg" pt={64} pb={16}>
+        <motion.div initial={false} className="enter-rise">
+          <Box
+            p={{ base: 32, sm: 48 }}
+            style={{
+              background: `linear-gradient(135deg, ${tokens.colors.gray900} 0%, ${tokens.colors.gray800} 100%)`,
+              borderRadius: '24px',
+            }}
+          >
+            <Badge
+              size="lg"
+              style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}
+            >
+              {ui.ourVerdict}
+            </Badge>
+            <Text
+              component="h2"
+              style={{
+                fontSize: 'clamp(22px, 3vw, 30px)',
+                fontWeight: 800,
+                color: 'white',
+                marginBottom: '16px',
+                lineHeight: 1.3,
+              }}
+            >
+              {formatCopy(ui.comparisonWhichChoose, { competitor })}
+            </Text>
+            <Text
+              style={{
+                color: tokens.colors.gray300,
+                fontSize: '17px',
+                lineHeight: 1.7,
+                maxWidth: '760px',
+              }}
+            >
+              {verdict}
+            </Text>
+          </Box>
+        </motion.div>
+      </Container>
+
       {/* Feature Comparison Table */}
       <Container size="lg" py={80}>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={stagger}>
@@ -431,54 +473,6 @@ export function ComparisonPage({ comparison, otherComparisons, guides, ui, local
           </motion.div>
         </Container>
       </Box>
-
-      {/* Verdict */}
-      <Container size="lg" py={80}>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeInUp}
-          transition={{ duration: 0.6 }}
-        >
-          <Box
-            p={{ base: 32, sm: 48 }}
-            style={{
-              background: `linear-gradient(135deg, ${tokens.colors.gray900} 0%, ${tokens.colors.gray800} 100%)`,
-              borderRadius: '24px',
-            }}
-          >
-            <Badge
-              size="lg"
-              style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}
-            >
-              {ui.ourVerdict}
-            </Badge>
-            <Text
-              component="h2"
-              style={{
-                fontSize: 'clamp(22px, 3vw, 30px)',
-                fontWeight: 800,
-                color: 'white',
-                marginBottom: '16px',
-                lineHeight: 1.3,
-              }}
-            >
-              {formatCopy(ui.comparisonWhichChoose, { competitor })}
-            </Text>
-            <Text
-              style={{
-                color: tokens.colors.gray300,
-                fontSize: '17px',
-                lineHeight: 1.7,
-                maxWidth: '760px',
-              }}
-            >
-              {verdict}
-            </Text>
-          </Box>
-        </motion.div>
-      </Container>
 
       {/* FAQ */}
       {comparison.faqs.length > 0 && (

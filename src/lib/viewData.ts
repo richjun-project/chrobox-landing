@@ -16,7 +16,7 @@ import {
   type TimeBlock,
 } from '../data/scheduleTemplates';
 import { categoryLabel } from '../data/templateCategories';
-import type { BlogPostMeta } from '../types/blog';
+import type { BlogFaq, BlogPostMeta } from '../types/blog';
 import { BLOG_CLUSTERS, clusterCopy, getClusterBySlug } from './blogTaxonomy';
 import type { ContentLanguage } from './seo';
 
@@ -206,4 +206,38 @@ export function postCrossLinks(postSlug: string, lang: ContentLanguage): PostCro
     templates,
     comparisons: COMPARISON_HUB_POSTS.has(postSlug) ? comparisonLinks(lang) : [],
   };
+}
+
+/* ------------------------------------------------------ direct answers */
+
+// AEO: answer engines extract the answer from the top of the page. Posts whose
+// first FAQ answers the headline question show it as a lead box above the body
+// (and drop it from the FAQ list below, so it is not printed twice). Curated —
+// on the other posts the first FAQ is a side question.
+const DIRECT_ANSWER_SLUGS = new Set([
+  'what-is-time-boxing',
+  'time-boxing-vs-pomodoro',
+  'time-boxing-for-adhd',
+  'energy-management-scheduling',
+  'task-batching-productivity',
+  'focus-time-optimization',
+  'digital-minimalism-scheduling',
+  'time-boxing-with-calendar-apps',
+  'beat-procrastination-time-boxing',
+  'time-boxing-for-creative-professionals',
+  'time-audit-guide',
+  'parkinsons-law-productivity',
+  'eat-the-frog-time-boxing',
+  'beat-decision-fatigue',
+  'how-to-block-distracting-apps',
+  'app-blocker-plus-timeboxing',
+  'work-life-balance-scheduling',
+  'time-boxing-for-teams',
+  'time-boxing-mistakes-to-avoid',
+  'digital-detox-focus-routine',
+  'time-boxing-for-working-parents',
+]);
+
+export function postDirectAnswer(post: BlogPostMeta): BlogFaq | null {
+  return DIRECT_ANSWER_SLUGS.has(post.slug) ? post.faqs?.[0] ?? null : null;
 }

@@ -19,7 +19,7 @@ import {
 } from '../lib/seo';
 import type { UiCopy } from '../lib/uiCopy';
 import type { PostCrossLinks, RelatedPostsData } from '../lib/viewData';
-import type { BlogPostMeta } from '../types/blog';
+import type { BlogFaq, BlogPostMeta } from '../types/blog';
 import { rehypeHeadingIds } from '../lib/headingIds';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
@@ -29,12 +29,16 @@ interface BlogPostProps {
   content: string;
   related: RelatedPostsData | null;
   crossLinks: PostCrossLinks;
+  /** First FAQ shown as a lead answer above the body (lib/viewData.ts postDirectAnswer). */
+  directAnswer: BlogFaq | null;
   ui: UiCopy;
   locale?: SiteLocale;
 }
 
 /** Data is resolved by the route (server) so content packs stay out of the client bundle. */
-export function BlogPost({ post, content, related, crossLinks, ui, locale = 'en' }: BlogPostProps) {
+export function BlogPost({ post, content, related, crossLinks, directAnswer, ui, locale = 'en' }: BlogPostProps) {
+  // The lead answer is still on the page, so the FAQ list below skips it rather than repeating it.
+  const faqs = directAnswer ? (post.faqs ?? []).slice(1) : (post.faqs ?? []);
   const slug = post.slug;
   const blogLink = localizedPath(locale, '/blog');
   const homePath = localizedPath(locale, '/');
@@ -278,6 +282,29 @@ export function BlogPost({ post, content, related, crossLinks, ui, locale = 'en'
                 <TableOfContents content={content} ui={ui} />
               </Box>
 
+              {directAnswer && (
+                <Box
+                  component="section"
+                  style={{
+                    background: tokens.colors.gray100,
+                    borderLeft: `4px solid ${tokens.colors.accent}`,
+                    borderRadius: '12px',
+                    padding: '20px 24px',
+                    marginBottom: '32px',
+                  }}
+                >
+                  <Text
+                    component="h2"
+                    style={{ fontSize: '18px', fontWeight: 700, color: tokens.colors.gray900, marginBottom: '8px' }}
+                  >
+                    {directAnswer.question}
+                  </Text>
+                  <Text component="p" style={{ fontSize: '16px', lineHeight: 1.7, color: tokens.colors.gray700, margin: 0 }}>
+                    {directAnswer.answer}
+                  </Text>
+                </Box>
+              )}
+
               <Box
                 className="blog-content"
                 style={{
@@ -465,7 +492,7 @@ export function BlogPost({ post, content, related, crossLinks, ui, locale = 'en'
               </Group>
 
               {/* FAQ Section */}
-              {post.faqs && post.faqs.length > 0 && (
+              {faqs.length > 0 && (
                 <Box mt={60}>
                   <Text
                     component="h2"
@@ -479,7 +506,7 @@ export function BlogPost({ post, content, related, crossLinks, ui, locale = 'en'
                     {ui.frequentlyAskedQuestions}
                   </Text>
                   <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                    {post.faqs.map((faq, idx) => {
+                    {faqs.map((faq, idx) => {
                       const question = faq.question;
                       const answer = faq.answer;
                       return (
