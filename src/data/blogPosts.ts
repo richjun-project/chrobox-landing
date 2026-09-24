@@ -676,11 +676,15 @@ export const translatedBlogLocales = (slug: string): ContentLanguage[] => {
   return locales;
 };
 
+// The article page renders the post title as its only h1, so a body that opens
+// with its own `# Title` line would put a second h1 on the page.
+const withoutLeadingTitle = (markdown: string) => markdown.replace(/^\s*#[ \t]+[^\n]*\n+/, '');
+
 export const getBlogContent = (slug: string, lang: ContentLanguage): string => {
   if (lang !== 'en' && lang !== 'ko') {
     const localized = LOCALIZED_CONTENT[lang]?.blogContents[slug];
-    return localized || blogContents.en?.[slug] || '';
+    return withoutLeadingTitle(localized || blogContents.en?.[slug] || '');
   }
 
-  return blogContents[lang]?.[slug] || '';
+  return withoutLeadingTitle(blogContents[lang]?.[slug] || '');
 };

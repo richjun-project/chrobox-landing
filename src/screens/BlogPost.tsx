@@ -19,6 +19,7 @@ import {
   htmlLangForLocale,
 } from '../lib/seo';
 import { uiCopy } from '../lib/uiCopy';
+import { rehypeHeadingIds } from '../lib/headingIds';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 
@@ -282,12 +283,14 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                 }}
               >
                 <ReactMarkdown
+                  rehypePlugins={[rehypeHeadingIds]}
                   components={{
+                    // The page title is the only h1; a body-level h1 would compete with it.
                     h1: ({ children }) => (
                       <Text
-                        component="h1"
+                        component="h2"
                         style={{
-                          fontSize: '32px',
+                          fontSize: '28px',
                           fontWeight: 800,
                           color: tokens.colors.gray900,
                           marginTop: '48px',
@@ -297,11 +300,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                         {children}
                       </Text>
                     ),
-                    h2: ({ children }) => {
-                      const text = Array.isArray(children)
-                        ? children.map((c) => (typeof c === 'string' ? c : '')).join('')
-                        : typeof children === 'string' ? children : '';
-                      const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').trim();
+                    h2: ({ children, id }) => {
                       return (
                         <Text
                           id={id}
@@ -319,11 +318,7 @@ export function BlogPost({ slug, locale = 'en' }: { slug: string; locale?: SiteL
                         </Text>
                       );
                     },
-                    h3: ({ children }) => {
-                      const text = Array.isArray(children)
-                        ? children.map((c) => (typeof c === 'string' ? c : '')).join('')
-                        : typeof children === 'string' ? children : '';
-                      const id = text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').trim();
+                    h3: ({ children, id }) => {
                       return (
                         <Text
                           id={id}

@@ -5,6 +5,7 @@ import { IconList, IconChevronDown } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { uiCopy } from '../lib/uiCopy';
 import type { ContentLanguage } from '../lib/seo';
+import { createHeadingSlugger, markdownHeadingText } from '../lib/headingIds';
 
 interface Heading {
   id: string;
@@ -17,38 +18,16 @@ interface TableOfContentsProps {
   lang?: ContentLanguage;
 }
 
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .trim();
-}
-
 function extractHeadings(markdown: string): Heading[] {
-  const lines = markdown.split('\n');
+  const nextId = createHeadingSlugger();
   const headings: Heading[] = [];
-  const idCount: Record<string, number> = {};
 
-  for (const line of lines) {
-    const h2Match = line.match(/^##\s+(.+)$/);
-    const h3Match = line.match(/^###\s+(.+)$/);
+  for (const line of markdown.split('\n')) {
+    const match = line.match(/^(##|###)\s+(.+)$/);
 
-    if (h2Match) {
-      const text = h2Match[1].trim();
-      const baseId = slugify(text);
-      const count = idCount[baseId] ?? 0;
-      const id = count === 0 ? baseId : `${baseId}-${count}`;
-      idCount[baseId] = count + 1;
-      headings.push({ id, text, level: 2 });
-    } else if (h3Match) {
-      const text = h3Match[1].trim();
-      const baseId = slugify(text);
-      const count = idCount[baseId] ?? 0;
-      const id = count === 0 ? baseId : `${baseId}-${count}`;
-      idCount[baseId] = count + 1;
-      headings.push({ id, text, level: 3 });
+    if (match) {
+      const text = markdownHeadingText(match[2]);
+      headings.push({ id: nextId(text), text, level: match[1].length === 2 ? 2 : 3 });
     }
   }
 
