@@ -7,7 +7,7 @@ import { blogSlugParams, type SlugParam } from '../../_route-helpers';
 import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, blogArticleSeo, htmlLangForLocale, localizedPath, seoCopy, truncateAtSentence } from '../../../lib/seo';
 import { getClusterBySlug } from '../../../lib/blogTaxonomy';
-import { relatedPostsData } from '../../../lib/viewData';
+import { postCrossLinks, relatedPostsData } from '../../../lib/viewData';
 import { uiCopy } from '../../../lib/uiCopy';
 
 export const dynamic = 'force-static';
@@ -140,6 +140,7 @@ export default async function Page({ params }: { params: SlugParam }) {
         post={post}
         content={content}
         related={relatedPostsData(post.slug, 'en')}
+        crossLinks={postCrossLinks(post.slug, 'en')}
         ui={uiCopy('en')}
         locale="en"
       />

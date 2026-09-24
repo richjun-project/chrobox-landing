@@ -7,6 +7,9 @@ import { Box, Container, Text, Group, Badge, Button, SimpleGrid, Card, Anchor } 
 import { IconArrowLeft, IconCheck, IconX, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import type { ComparisonData } from '../types/comparison';
+import type { BlogPostMeta } from '../types/blog';
+import type { ComparisonLink } from '../lib/viewData';
+import { LinkPills } from '../components/LinkPills';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
@@ -75,11 +78,13 @@ function FeatureValue({ value }: { value: boolean | string }) {
 
 interface ComparisonPageProps {
   comparison: ComparisonData;
+  otherComparisons: ComparisonLink[];
+  guides: BlogPostMeta[];
   ui: UiCopy;
   locale?: SiteLocale;
 }
 
-export function ComparisonPage({ comparison, ui, locale = 'en' }: ComparisonPageProps) {
+export function ComparisonPage({ comparison, otherComparisons, guides, ui, locale = 'en' }: ComparisonPageProps) {
   const copy = seoCopy(locale);
   const slug = comparison.slug;
   const comparePath = localizedPath(locale, '/compare');
@@ -545,6 +550,21 @@ export function ComparisonPage({ comparison, ui, locale = 'en' }: ComparisonPage
           </Container>
         </Box>
       )}
+
+      {/* Cross-links: related guides + the other comparisons (lib/viewData.ts) */}
+      <Container size="lg" pt={40}>
+        <LinkPills
+          title={ui.relatedGuides}
+          links={guides.map((post) => ({ href: localizedPath(locale, `/blog/${post.slug}`), label: post.title }))}
+        />
+        <LinkPills
+          title={ui.appComparisons}
+          links={otherComparisons.map((item) => ({
+            href: localizedPath(locale, `/compare/${item.slug}`),
+            label: `Chrobox vs ${item.competitor}`,
+          }))}
+        />
+      </Container>
 
       {/* CTA */}
       <Container size="lg" py={80}>

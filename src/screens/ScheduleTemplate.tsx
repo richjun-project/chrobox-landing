@@ -8,6 +8,7 @@ import { IconArrowLeft, IconArrowRight, IconBulb, IconChevronRight } from '@tabl
 import { tokens } from '../theme';
 import { categoryColors } from '../data/templateCategories';
 import type { TemplateViewData } from '../lib/viewData';
+import { LinkPills } from '../components/LinkPills';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import {
@@ -39,7 +40,7 @@ interface ScheduleTemplateProps {
 
 export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplateProps) {
   const copy = seoCopy(locale);
-  const { template: localized, related: relatedTemplates, categoryLabels } = data;
+  const { template: localized, related: relatedTemplates, categoryLabels, guides } = data;
   const template = localized;
   const slug = template.slug;
   const templatesPath = localizedPath(locale, '/templates');
@@ -497,6 +498,14 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
           </Container>
         </Box>
       )}
+
+      {/* Cross-links into the guides for this profession (lib/viewData.ts) */}
+      <Container size="lg" pb={80}>
+        <LinkPills
+          title={ui.relatedGuides}
+          links={guides.map((post) => ({ href: localizedPath(locale, `/blog/${post.slug}`), label: post.title }))}
+        />
+      </Container>
 
       <Footer />
     </Box>

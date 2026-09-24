@@ -9,6 +9,7 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { TableOfContents } from '../components/TableOfContents';
 import { RelatedPosts } from '../components/RelatedPosts';
+import { LinkPills } from '../components/LinkPills';
 import ReactMarkdown from 'react-markdown';
 import { useEffect } from 'react';
 import {
@@ -17,7 +18,7 @@ import {
   htmlLangForLocale,
 } from '../lib/seo';
 import type { UiCopy } from '../lib/uiCopy';
-import type { RelatedPostsData } from '../lib/viewData';
+import type { PostCrossLinks, RelatedPostsData } from '../lib/viewData';
 import type { BlogPostMeta } from '../types/blog';
 import { rehypeHeadingIds } from '../lib/headingIds';
 
@@ -27,12 +28,13 @@ interface BlogPostProps {
   post: BlogPostMeta;
   content: string;
   related: RelatedPostsData | null;
+  crossLinks: PostCrossLinks;
   ui: UiCopy;
   locale?: SiteLocale;
 }
 
 /** Data is resolved by the route (server) so content packs stay out of the client bundle. */
-export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPostProps) {
+export function BlogPost({ post, content, related, crossLinks, ui, locale = 'en' }: BlogPostProps) {
   const slug = post.slug;
   const blogLink = localizedPath(locale, '/blog');
   const homePath = localizedPath(locale, '/');
@@ -526,6 +528,22 @@ export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPost
 
               {/* Related Posts (same cluster) */}
               <RelatedPosts data={related} locale={locale} ui={ui} />
+
+              {/* Cross-links into templates and comparisons (lib/viewData.ts) */}
+              <LinkPills
+                title={ui.relatedTemplates}
+                links={crossLinks.templates.map((template) => ({
+                  href: localizedPath(locale, `/templates/${template.slug}`),
+                  label: template.profession,
+                }))}
+              />
+              <LinkPills
+                title={ui.appComparisons}
+                links={crossLinks.comparisons.map((comparison) => ({
+                  href: localizedPath(locale, `/compare/${comparison.slug}`),
+                  label: `Chrobox vs ${comparison.competitor}`,
+                }))}
+              />
 
               {/* CTA */}
               <Box

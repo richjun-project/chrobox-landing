@@ -14,6 +14,7 @@ import {
   seoCopy,
 } from '../../../../lib/seo';
 import { uiCopy } from '../../../../lib/uiCopy';
+import { comparisonGuides, comparisonLinks } from '../../../../lib/viewData';
 
 export const dynamic = 'force-static';
 export const dynamicParams = false;
@@ -98,7 +99,11 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
-      <ComparisonPage comparison={comparison} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
+      <ComparisonPage
+        comparison={comparison}
+        otherComparisons={comparisonLinks(contentLanguageForLocale(locale), comparison.slug)}
+        guides={comparisonGuides(comparison.slug, contentLanguageForLocale(locale))}
+        ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );
 }
