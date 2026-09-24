@@ -13,10 +13,11 @@ const APP_SCREENSHOTS = [
   '/app-brainstorm.webp',
 ];
 
-const SCREENSHOT_ALTS = [
-  'Chrobox app - task prioritization and selection screen',
-  'Chrobox app - time-boxing schedule and timeline view',
-  'Chrobox app - daily brainstorming and task planning screen',
+// i18n keys whose localized titles describe each screenshot (alt text per locale).
+const SCREENSHOT_ALT_KEYS = [
+  'howItWorks.step2.title',
+  'features.timeline.title',
+  'howItWorks.step1.title',
 ];
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
@@ -308,7 +309,7 @@ export function Download() {
                           >
                             <Image
                               src={APP_SCREENSHOTS[currentIndex]}
-                              alt={SCREENSHOT_ALTS[currentIndex]}
+                              alt={`Chrobox — ${t(SCREENSHOT_ALT_KEYS[currentIndex])}`}
                               fill
                               sizes="200px"
                               style={{ objectFit: 'cover' }}
@@ -318,7 +319,7 @@ export function Download() {
                       ) : (
                         <Image
                           src={screenshot}
-                          alt={SCREENSHOT_ALTS[index]}
+                          alt={`Chrobox — ${t(SCREENSHOT_ALT_KEYS[index])}`}
                           fill
                           sizes="200px"
                           style={{

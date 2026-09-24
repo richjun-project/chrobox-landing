@@ -223,6 +223,8 @@ export function BlogCategory({ cluster, category, posts, ui, locale = 'en' }: Bl
                       <Image
                         src={hubPost.image}
                         alt={hubPost.title}
+                        loading="lazy"
+                        decoding="async"
                         style={{
                           width: '100%',
                           height: '100%',
@@ -312,6 +314,8 @@ export function BlogCategory({ cluster, category, posts, ui, locale = 'en' }: Bl
                         <Image
                           src={post.image}
                           alt={post.title}
+                          loading="lazy"
+                          decoding="async"
                           style={{
                             width: '100%',
                             height: '100%',

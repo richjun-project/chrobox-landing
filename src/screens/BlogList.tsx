@@ -175,6 +175,8 @@ export function BlogList({ posts, clusters, ui, locale = 'en' }: BlogListProps) 
                     <Image
                       src={post.image}
                       alt={post.title}
+                      loading={index === 0 ? 'eager' : 'lazy'}
+                      decoding="async"
                       style={{
                         width: '100%',
                         height: '100%',

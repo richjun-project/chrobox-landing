@@ -123,11 +123,12 @@ const APP_SCREENSHOTS = [
   '/app-blocking.webp',
 ];
 
-const SCREENSHOT_ALTS = [
-  'Chrobox app - task prioritization and selection screen',
-  'Chrobox app - time-boxing schedule and timeline view',
-  'Chrobox app - daily brainstorming and task planning screen',
-  'Chrobox app - app blocking and focus mode shield screen',
+// i18n keys whose localized titles describe each screenshot (alt text per locale).
+const SCREENSHOT_ALT_KEYS = [
+  'howItWorks.step2.title',
+  'features.timeline.title',
+  'howItWorks.step1.title',
+  'features.appBlocking.title',
 ];
 
 // The counters tick up after hydration; a fixed-width box keeps the stats row
@@ -505,7 +506,7 @@ export function Hero() {
                       >
                         <Image
                           src={APP_SCREENSHOTS[currentImageIndex]}
-                          alt={SCREENSHOT_ALTS[currentImageIndex]}
+                          alt={`Chrobox — ${t(SCREENSHOT_ALT_KEYS[currentImageIndex])}`}
                           fill
                           priority={currentImageIndex === 0}
                           sizes="280px"

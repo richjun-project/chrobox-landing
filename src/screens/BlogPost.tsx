@@ -240,6 +240,8 @@ export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPost
             <Image
               src={post.image}
               alt={post.title}
+              // The article's featured image is its LCP element.
+              fetchPriority="high"
               style={{
                 width: '100%',
                 aspectRatio: '16/9',

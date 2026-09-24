@@ -11,14 +11,8 @@ const getScreenshotPath = (lang: string, num: number) => {
   return `/screenshots/${folder}/${num}.webp`;
 };
 
-const SCREENSHOT_ALTS: Record<number, string> = {
-  1: 'Chrobox brainstorming screen - listing tasks for the day',
-  2: 'Chrobox priority selection screen - choosing important tasks',
-  3: 'Chrobox time-boxing screen - assigning time slots to tasks',
-  4: 'Chrobox timeline screen - visual daily schedule overview',
-  5: 'Chrobox retrospective screen - daily mood and performance review',
-  6: 'Chrobox AI insights screen - personalized productivity recommendations',
-};
+// Alt text is composed from the already-localized step copy, so every locale
+// gets descriptive alt text in its own language (image search + screen readers).
 
 export function HowItWorks() {
   const { t, i18n } = useTranslation();
@@ -151,7 +145,7 @@ export function HowItWorks() {
                   >
                     <Image
                       src={getScreenshotPath(i18n.language, num)}
-                      alt={SCREENSHOT_ALTS[num]}
+                      alt={`Chrobox — ${t(`howItWorks.step${num}.title`)}: ${t(`howItWorks.step${num}.description`)}`}
                       fill
                       sizes="(max-width: 768px) 33vw, 260px"
                       style={{
