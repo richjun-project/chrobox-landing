@@ -4,11 +4,13 @@ import {
   absoluteUrl,
   fitTitle,
   hreflangAlternates,
+  htmlLangForLocale,
   localizedPath,
   ogAlternateLocales,
   ogLocale,
   type SiteLocale,
 } from './seo';
+import { COMPANY_INFO, THREADS_URL } from './company';
 
 type PageMetadataInput = {
   locale: SiteLocale;
@@ -84,21 +86,22 @@ export function pageMetadata({
 const APP_STORE_URL =
   'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
-// LLMO entity linking: sameAs declares "these surfaces are the same entity", so
-// models stop splitting the brand across them. Only official, verified accounts
-// belong here — a wrong or dead URL weakens the entity instead of reinforcing it.
-// Verified 2026-08-28: canonical host is threads.com (threads.net aliases to it).
-const THREADS_URL = 'https://www.threads.com/@chrobox';
+// Entity ids: every page points at the same Organization / WebSite / app nodes,
+// so parsers merge them into one entity instead of one "Chrobox" per page.
+export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+export const WEBSITE_ID = `${SITE_URL}/#website`;
+export const APP_ID = `${SITE_URL}/#app`;
 
 // Store-verified ratings — update alongside the stores, never hand-edit upward.
 // 2026-08-09: App Store KR 4.0★ × 9 ratings (iTunes lookup API), Play 5.0★ × 5 ratings
 // (Play page JSON-LD). Combined weighted: (4.0×9 + 5.0×5) / 14 = 4.36 → 4.4.
 export const STORE_RATING = { value: '4.4', count: 14 };
 
-export function organizationSchema() {
+/** Compact Organization node for `publisher` — same @id as organizationSchema(). */
+export function organizationRef() {
   return {
-    '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': ORGANIZATION_ID,
     name: 'Chrobox',
     url: SITE_URL,
     logo: {
@@ -107,7 +110,37 @@ export function organizationSchema() {
       width: 512,
       height: 512,
     },
+  };
+}
+
+export function organizationSchema() {
+  return {
+    '@context': 'https://schema.org',
+    ...organizationRef(),
+    // Operator details are the ones printed in the footer (lib/company.ts).
+    legalName: COMPANY_INFO.name,
+    email: COMPANY_INFO.email,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: COMPANY_INFO.email,
+    },
+    // LLMO entity linking: sameAs declares "these surfaces are the same entity".
+    // Only official, verified accounts belong here.
     sameAs: [APP_STORE_URL, PLAY_STORE_URL, THREADS_URL],
+  };
+}
+
+export function websiteSchema(locale: SiteLocale, description: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': WEBSITE_ID,
+    name: 'Chrobox',
+    url: absoluteUrl('/'),
+    description,
+    inLanguage: htmlLangForLocale(locale),
+    publisher: { '@id': ORGANIZATION_ID },
   };
 }
 
@@ -115,6 +148,7 @@ export function softwareApplicationSchema(description: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
+    '@id': APP_ID,
     name: 'Chrobox',
     applicationCategory: 'ProductivityApplication',
     operatingSystem: 'iOS, Android',
@@ -171,6 +205,6 @@ export function softwareApplicationSchema(description: string) {
       bestRating: '5',
       worstRating: '1',
     },
-    publisher: { '@type': 'Organization', name: 'Chrobox', url: SITE_URL },
+    publisher: organizationRef(),
   };
 }

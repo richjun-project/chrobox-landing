@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { Home } from '../screens/Home';
 import { JsonLd } from '../components/JsonLd';
-import { organizationSchema, softwareApplicationSchema, pageMetadata } from '../lib/next-seo';
-import { absoluteUrl, seoCopy } from '../lib/seo';
+import { organizationSchema, softwareApplicationSchema, pageMetadata, websiteSchema } from '../lib/next-seo';
+import { seoCopy } from '../lib/seo';
 import { faqPageSchema } from '../lib/faq-schema';
 
 export const dynamic = 'force-static';
@@ -25,16 +25,7 @@ export default function Page() {
     <>
       <JsonLd data={organizationSchema()} />
       <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
-      <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          name: 'Chrobox',
-          url: absoluteUrl('/'),
-          description: copy.homeDescription,
-          publisher: { '@type': 'Organization', name: 'Chrobox' },
-        }}
-      />
+      <JsonLd data={websiteSchema('en', copy.homeDescription)} />
       <JsonLd data={faqPageSchema('en')} />
       <Home />
     </>

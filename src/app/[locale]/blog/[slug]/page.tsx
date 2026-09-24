@@ -4,7 +4,7 @@ import { BlogPost } from '../../../../screens/BlogPost';
 import { JsonLd } from '../../../../components/JsonLd';
 import { getBlogContent, getBlogPost, translatedBlogLocales } from '../../../../data/blogPosts';
 import { localizedBlogSlugParams, localeFromParam, type LocalizedSlugParam } from '../../../_route-helpers';
-import { pageMetadata } from '../../../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../../../lib/next-seo';
 import {
   absoluteUrl,
   blogArticleSeo,
@@ -124,11 +124,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           inLanguage: htmlLangForLocale(locale),
           image: absoluteUrl(post.image),
           author: { '@type': 'Organization', name: post.author },
-          publisher: {
-            '@type': 'Organization',
-            name: 'Chrobox',
-            logo: { '@type': 'ImageObject', url: absoluteUrl('/logo.png') },
-          },
+          publisher: organizationRef(),
           datePublished: post.date,
           dateModified: post.updated ?? post.date,
           mainEntityOfPage: postUrl,

@@ -4,7 +4,7 @@ import { ScheduleTemplate } from '../../../screens/ScheduleTemplate';
 import { JsonLd } from '../../../components/JsonLd';
 import { getScheduleTemplate } from '../../../data/scheduleTemplates';
 import { templateSlugParams, type SlugParam } from '../../_route-helpers';
-import { pageMetadata } from '../../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, htmlLangForLocale, localizedPath, seoCopy, templateArticleSeo } from '../../../lib/seo';
 
 export const dynamic = 'force-static';
@@ -66,7 +66,7 @@ export default async function Page({ params }: { params: SlugParam }) {
           description: seo.description,
           inLanguage: htmlLangForLocale('en'),
           mainEntityOfPage: canonicalUrl,
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: absoluteUrl('/') },
+          publisher: organizationRef(),
         }}
       />
       <ScheduleTemplate slug={template.slug} locale="en" />

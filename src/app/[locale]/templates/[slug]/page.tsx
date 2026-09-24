@@ -4,7 +4,7 @@ import { ScheduleTemplate } from '../../../../screens/ScheduleTemplate';
 import { JsonLd } from '../../../../components/JsonLd';
 import { getScheduleTemplate, localizeScheduleTemplate } from '../../../../data/scheduleTemplates';
 import { localizedTemplateSlugParams, localeFromParam, type LocalizedSlugParam } from '../../../_route-helpers';
-import { pageMetadata } from '../../../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../../../lib/next-seo';
 import {
   absoluteUrl,
   contentLanguageForLocale,
@@ -85,7 +85,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           description: seo.description,
           inLanguage: htmlLangForLocale(locale),
           mainEntityOfPage: canonicalUrl,
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: absoluteUrl('/') },
+          publisher: organizationRef(),
         }}
       />
       <ScheduleTemplate slug={template.slug} locale={locale} />

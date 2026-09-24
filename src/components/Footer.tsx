@@ -8,20 +8,7 @@ import { Box, Container, Text, Group, Stack, Anchor } from '@mantine/core';
 import { Logo } from './Logo';
 import { tokens } from '../theme';
 import { localeFromPathname, localizedPath } from '../lib/seo';
-
-const COMPANY_INFO = {
-  name: 'silverithm',
-  ceo: '김준형',
-  businessNumber: '107-21-26475',
-  address: '서울특별시 신림동 1547-10',
-  email: 'ggprgrkjh@naver.com',
-  phone: '010-4549-2094',
-};
-
-// LLMO: the same URL declared in Organization.sameAs (lib/next-seo.ts). A
-// crawlable visible link reinforces the entity link that the structured data
-// only asserts — keep the two in sync if the handle ever changes.
-const THREADS_URL = 'https://www.threads.com/@chrobox';
+import { COMPANY_INFO, THREADS_URL } from '../lib/company';
 
 const LEGAL_LINKS = {
   privacy: 'https://relic-baboon-412.notion.site/2bc766a8bb4680839471f31909f3958c',

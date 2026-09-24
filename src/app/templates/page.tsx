@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { ScheduleTemplateList } from '../../screens/ScheduleTemplateList';
 import { JsonLd } from '../../components/JsonLd';
-import { pageMetadata } from '../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../lib/seo';
 
 export const dynamic = 'force-static';
@@ -30,7 +30,7 @@ export default function Page() {
           name: copy.templatesLabel,
           description: copy.templatesDescription,
           url: canonicalUrl,
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: absoluteUrl('/') },
+          publisher: organizationRef(),
         }}
       />
       <ScheduleTemplateList locale="en" />

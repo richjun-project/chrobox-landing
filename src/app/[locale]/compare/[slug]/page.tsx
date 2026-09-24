@@ -4,7 +4,7 @@ import { ComparisonPage } from '../../../../screens/ComparisonPage';
 import { JsonLd } from '../../../../components/JsonLd';
 import { getComparison } from '../../../../data/comparisons';
 import { localizedComparisonSlugParams, localeFromParam, type LocalizedSlugParam } from '../../../_route-helpers';
-import { pageMetadata } from '../../../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../../../lib/next-seo';
 import {
   absoluteUrl,
   comparisonArticleSeo,
@@ -93,7 +93,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           description: seo.description,
           inLanguage: htmlLangForLocale(locale),
           mainEntityOfPage: canonicalUrl,
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: absoluteUrl('/') },
+          publisher: organizationRef(),
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}

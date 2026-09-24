@@ -4,7 +4,7 @@ import { ComparisonPage } from '../../../screens/ComparisonPage';
 import { JsonLd } from '../../../components/JsonLd';
 import { getComparison } from '../../../data/comparisons';
 import { comparisonSlugParams, type SlugParam } from '../../_route-helpers';
-import { pageMetadata } from '../../../lib/next-seo';
+import { pageMetadata, organizationRef } from '../../../lib/next-seo';
 import { absoluteUrl, comparisonArticleSeo, htmlLangForLocale, localizedPath, seoCopy } from '../../../lib/seo';
 
 export const dynamic = 'force-static';
@@ -80,7 +80,7 @@ export default async function Page({ params }: { params: SlugParam }) {
           description: seo.description,
           inLanguage: htmlLangForLocale('en'),
           mainEntityOfPage: canonicalUrl,
-          publisher: { '@type': 'Organization', name: 'Chrobox', url: absoluteUrl('/') },
+          publisher: organizationRef(),
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
