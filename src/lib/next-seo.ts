@@ -56,6 +56,11 @@ export function pageMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages: languageAlternates(englishPath, locales),
+      // Per-locale blog feed (scripts/generate-feeds.mjs) — feed discovery for
+      // readers, AI crawlers, and Naver Search Advisor.
+      types: {
+        'application/rss+xml': absoluteUrl(localizedPath(locale, '/rss.xml')),
+      },
     },
     openGraph: {
       title,
