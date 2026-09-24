@@ -51,9 +51,14 @@ export async function generateMetadata({ params }: { params: LocalizedSlugParam 
     locales: translatedBlogLocales(post.slug),
   });
   const cluster = getClusterBySlug(post.slug);
+  // Until the body is translated this page serves the English article under a
+  // localized title — a near-duplicate of /blog/<slug>. Keep it out of the index
+  // (links still followed); translating the body lifts this automatically.
+  const bodyTranslated = translatedBlogLocales(post.slug).includes(lang);
 
   return {
     ...metadata,
+    ...(bodyTranslated ? {} : { robots: { index: false, follow: true } }),
     authors: [{ name: post.author }],
     openGraph: {
       ...metadata.openGraph,
