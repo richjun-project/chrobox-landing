@@ -111,9 +111,8 @@ export function Navbar() {
           borderBottom: scrolled ? `1px solid ${tokens.colors.gray100}` : 'none',
           transition: 'all 0.3s ease',
         }}
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.5, ease: 'easeOut' }}
+        initial={false}
+        className="enter-slide-down"
       >
         <Container size="xl">
           <Group justify="space-between" align="center">

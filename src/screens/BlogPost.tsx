@@ -55,9 +55,8 @@ export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPost
       >
         <Container size="md">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={false}
+            className="enter-rise"
           >
             {/* Visual breadcrumb navigation */}
             <Box component="nav" aria-label="breadcrumb" style={{ marginBottom: '20px' }}>
@@ -227,9 +226,9 @@ export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPost
       {/* Featured Image */}
       <Container size="md" style={{ marginTop: '-20px' }}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          initial={false}
+          className="enter-rise"
+          style={{ animationDelay: '0.2s' }}
         >
           <Box
             style={{
@@ -254,9 +253,9 @@ export function BlogPost({ post, content, related, ui, locale = 'en' }: BlogPost
       {/* Content */}
       <Container size="lg" py={60}>
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
+          initial={false}
+          className="enter-rise"
+          style={{ animationDelay: '0.3s' }}
         >
           <Box
             style={{

@@ -42,9 +42,8 @@ export function BlogList({ posts, clusters, ui, locale = 'en' }: BlogListProps) 
       >
         <Container size="lg">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={false}
+            className="enter-rise"
           >
             {/* Visual breadcrumb navigation */}
             <Box component="nav" aria-label="breadcrumb" style={{ marginBottom: '20px' }}>

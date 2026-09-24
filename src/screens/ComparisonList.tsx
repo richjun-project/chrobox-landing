@@ -48,7 +48,7 @@ export function ComparisonList({ comparisons, ui, locale = 'en' }: ComparisonLis
         }}
       >
         <Container size="lg">
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp} transition={{ duration: 0.6 }}>
+          <motion.div initial={false} className="enter-rise">
             {/* Breadcrumb */}
             <Box component="nav" aria-label="breadcrumb" mb={32}>
               <Box

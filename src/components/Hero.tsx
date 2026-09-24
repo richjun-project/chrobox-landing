@@ -130,6 +130,18 @@ const SCREENSHOT_ALTS = [
   'Chrobox app - app blocking and focus mode shield screen',
 ];
 
+// The counters tick up after hydration; a fixed-width box keeps the stats row
+// from re-wrapping on every tick (it was re-centering the whole hero: CLS 0.53).
+const STAT_NUMBER_STYLE = {
+  fontSize: '28px',
+  fontWeight: 700,
+  fontFamily: '"Space Mono", monospace',
+  color: tokens.colors.gray900,
+  fontVariantNumeric: 'tabular-nums',
+  display: 'inline-block',
+  minWidth: '5ch',
+} as const;
+
 const PARTICLES = Array.from({ length: 8 }, (_, i) => ({
   delay: i * 0.5,
   size: 6 + ((i * 5) % 8),
@@ -243,9 +255,8 @@ export function Hero() {
             <Stack gap={32} style={{ maxWidth: '600px', flex: 1 }}>
               {/* Badge */}
               <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
+                initial={false}
+                className="enter-rise"
               >
                 <Badge
                   size="lg"
@@ -265,9 +276,9 @@ export function Hero() {
 
               {/* Title */}
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
+                initial={false}
+                className="enter-rise"
+                style={{ animationDelay: '0.1s' }}
               >
                 <Text
                   component="h1"
@@ -286,9 +297,9 @@ export function Hero() {
 
               {/* Subtitle */}
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
+                initial={false}
+                className="enter-rise"
+                style={{ animationDelay: '0.2s' }}
               >
                 <Text
                   size="xl"
@@ -304,9 +315,9 @@ export function Hero() {
 
               {/* Store Buttons */}
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
+                initial={false}
+                className="enter-rise"
+                style={{ animationDelay: '0.3s' }}
               >
                 <Group gap={16}>
                   <motion.div whileHover={{ scale: 1.05, y: -4 }} whileTap={{ scale: 0.98 }}>
@@ -373,21 +384,16 @@ export function Hero() {
 
               {/* Stats */}
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
+                initial={false}
+                className="enter-rise"
+                style={{ animationDelay: '0.4s' }}
               >
                 <Group gap={40} mt={16}>
                   <Box>
                     <Group gap={8} align="center">
                       <IconTrendingUp size={20} style={{ color: tokens.colors.accent }} />
                       <Text
-                        style={{
-                          fontSize: '28px',
-                          fontWeight: 700,
-                          fontFamily: '"Space Mono", monospace',
-                          color: tokens.colors.gray900,
-                        }}
+                        style={STAT_NUMBER_STYLE}
                       >
                         {counts.productivity}%+
                       </Text>
@@ -400,12 +406,7 @@ export function Hero() {
                     <Group gap={8} align="center">
                       <IconClock size={20} style={{ color: tokens.colors.accent }} />
                       <Text
-                        style={{
-                          fontSize: '28px',
-                          fontWeight: 700,
-                          fontFamily: '"Space Mono", monospace',
-                          color: tokens.colors.gray900,
-                        }}
+                        style={STAT_NUMBER_STYLE}
                       >
                         {counts.timeSaved}h+
                       </Text>
@@ -418,12 +419,7 @@ export function Hero() {
                     <Group gap={8} align="center">
                       <IconTargetArrow size={20} style={{ color: tokens.colors.accent }} />
                       <Text
-                        style={{
-                          fontSize: '28px',
-                          fontWeight: 700,
-                          fontFamily: '"Space Mono", monospace',
-                          color: tokens.colors.gray900,
-                        }}
+                        style={STAT_NUMBER_STYLE}
                       >
                         {counts.completion}%+
                       </Text>

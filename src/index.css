@@ -53,6 +53,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/*
+ * Above-the-fold entrance animations run in CSS, not framer-motion: a JS entrance
+ * ships the prerendered HTML at opacity:0 and only reveals it after hydration,
+ * which on mobile pushed LCP out by seconds. CSS animations start at first paint
+ * and override the inline styles framer writes.
+ */
+/*
+ * Transform only, never opacity: Chrome skips elements first painted at
+ * opacity 0 as LCP candidates — a fade-in hero left blog posts with no LCP
+ * entry at all.
+ */
+@keyframes enter-rise {
+  from {
+    transform: translateY(24px);
+  }
+}
+
+@keyframes enter-slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+.enter-rise {
+  animation: enter-rise 0.6s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+.enter-slide-down {
+  animation: enter-slide-down 0.5s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter-rise,
+  .enter-slide-down {
+    animation: none;
+  }
+}
+
 /* 모바일에서만 가로 스크롤 방지 */
 @media (max-width: 768px) {
   html,

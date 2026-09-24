@@ -44,7 +44,7 @@ export function ScheduleTemplateList({ templates, ui, locale = 'en' }: ScheduleT
         }}
       >
         <Container size="lg">
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp} transition={{ duration: 0.6 }}>
+          <motion.div initial={false} className="enter-rise">
             <Badge
               size="lg"
               style={{ background: tokens.colors.accent, color: 'white', marginBottom: '20px' }}

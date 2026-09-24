@@ -44,9 +44,8 @@ export function BlogCategory({ cluster, category, posts, ui, locale = 'en' }: Bl
       >
         <Container size="lg">
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={false}
+            className="enter-rise"
           >
             <Box component="nav" aria-label="breadcrumb" style={{ marginBottom: '20px' }}>
               <Box
@@ -193,9 +192,8 @@ export function BlogCategory({ cluster, category, posts, ui, locale = 'en' }: Bl
               </Text>
             </Group>
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              initial={false}
+              className="enter-rise"
             >
               <Link href={localizedPath(locale, `/blog/${hubPost.slug}`)} style={{ textDecoration: 'none' }}>
                 <Card

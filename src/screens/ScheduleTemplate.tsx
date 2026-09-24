@@ -64,7 +64,7 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
         }}
       >
         <Container size="lg">
-          <motion.div initial="hidden" animate="visible" variants={fadeInUp} transition={{ duration: 0.6 }}>
+          <motion.div initial={false} className="enter-rise">
             {/* Breadcrumb */}
             <Breadcrumbs
               separator={<IconChevronRight size={14} style={{ color: tokens.colors.gray500 }} />}

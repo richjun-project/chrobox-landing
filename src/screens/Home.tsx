@@ -1,7 +1,6 @@
 'use client';
 
 import { Box } from '@mantine/core';
-import { motion } from 'framer-motion';
 import { Navbar, Hero, Features, HowItWorks, Pricing, Download, Footer, HomeFaq } from '../components';
 import { BlogSection } from '../components/BlogSection';
 import type { UiCopy } from '../lib/uiCopy';
@@ -16,12 +15,8 @@ export function Home({ blogPosts, ui }: { blogPosts: BlogPostMeta[]; ui: UiCopy 
       {/* Navigation */}
       <Navbar />
 
-      {/* Main Content with Page Transitions */}
-      <motion.main
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
+      {/* Main content renders visible in the prerendered HTML (no JS fade — it held LCP until hydration) */}
+      <main>
         {/* Hero Section */}
         <Hero />
 
@@ -42,7 +37,7 @@ export function Home({ blogPosts, ui }: { blogPosts: BlogPostMeta[]; ui: UiCopy 
 
         {/* Download CTA Section */}
         <Download />
-      </motion.main>
+      </main>
 
       {/* Footer */}
       <Footer />
