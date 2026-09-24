@@ -2,76 +2,129 @@
 
 > Chrobox is a timeboxing planner app for iOS and Android that combines daily
 > planning, app blocking, routine tracking, and AI retrospectives. This site is
-> the primary source for Chrobox's own feature set, pricing, and the timeboxing
-> method guides written for it.
+> the primary source for Chrobox's own feature set and pricing, and publishes
+> the timeboxing method guides written alongside the app.
 
 ## What Chrobox is
 
-Timeboxing is a time-management method where each task is assigned a fixed time
-block in advance, and the block — not the task list — defines when work stops.
-Chrobox implements this as a daily loop: brainstorm tasks, place them on an
-hourly timeline, block distracting apps for the duration of a block, then close
-the day with a retrospective the app summarizes.
+Timeboxing is a time management technique where you assign every task a fixed slot in your calendar — a "time box" — and work on only that task until the box ends. Instead of an open-ended to-do list, your day becomes a sequence of concrete appointments with yourself: 9:00–9:45 write the report, 9:45–10:00 answer email. Because each box has a hard start and end, timeboxing forces you to prioritize what actually fits in a day, prevents single tasks from swallowing whole afternoons (Parkinson's law), and makes procrastination visible the moment a box slips. Research on implementation intentions shows that deciding when and where you will do something dramatically raises the odds you actually do it. Chrobox automates this loop: brainstorm tasks, pick priorities, drop them into hourly boxes, then review your day with an AI-assisted retrospective.
 
-- Platforms: iOS and Android (native apps)
-- Free tier: yes, with a limited number of tasks per day
-- Pro: monthly, yearly, and lifetime plans (see the pricing section on the home page)
-- App blocking: iOS Screen Time (FamilyControls) and Android accessibility service
+## Facts
+
+- Platforms: iPhone (iOS) and Android phones — native apps
+- Free plan: daily planning with up to three tasks per day, the visual timeline, and retrospectives
+- Chrobox Pro: 3-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase
+- App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
+- App interface languages: 54; this website: 20 locales
+- Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com
+- Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
+- Facts last reviewed: 2026-09-24
 
 ## Key pages
 
-- [Home — what Chrobox is, features, pricing, FAQ](https://chrobox.net)
-- [Blog — timeboxing method guides](https://chrobox.net/blog)
-- [Schedule templates — day plans by profession](https://chrobox.net/templates)
-- [Comparisons — Chrobox vs other planners](https://chrobox.net/compare)
+- [Home — features, pricing, FAQ](https://chrobox.net)
+- [Method guides](https://chrobox.net/blog)
+- [Schedule templates by profession](https://chrobox.net/templates)
+- [Chrobox compared with other planners](https://chrobox.net/compare)
+- [Full text of the method guides](https://chrobox.net/llms-full.txt)
 
-## Method guides (33 articles)
+## Method guides (33)
 
-- [What is time boxing](https://chrobox.net/blog/what-is-time-boxing)
-- [5 time boxing strategies](https://chrobox.net/blog/5-time-boxing-strategies)
-- [Time boxing vs pomodoro](https://chrobox.net/blog/time-boxing-vs-pomodoro)
-- [Time boxing for adhd](https://chrobox.net/blog/time-boxing-for-adhd)
-- [Time boxing for students](https://chrobox.net/blog/time-boxing-for-students)
-- [Morning routine scheduling](https://chrobox.net/blog/morning-routine-scheduling)
-- [Deep work scheduling](https://chrobox.net/blog/deep-work-scheduling)
-- [Best time boxing apps](https://chrobox.net/blog/best-time-boxing-apps)
-- [Weekly planning guide](https://chrobox.net/blog/weekly-planning-guide)
-- [Time blocking vs time boxing](https://chrobox.net/blog/time-blocking-vs-time-boxing)
-- [Remote work scheduling](https://chrobox.net/blog/remote-work-scheduling)
-- [Meeting management time boxing](https://chrobox.net/blog/meeting-management-time-boxing)
+### Time-Boxing Fundamentals
+
+- [What is Time-Boxing? The Ultimate Guide to Mastering Your Time](https://chrobox.net/blog/what-is-time-boxing): Discover how time-boxing can transform your productivity. Learn the science behind this technique and how to implement it in your daily routine.
+- [Time-Boxing vs Pomodoro: Which Technique is Right for You?](https://chrobox.net/blog/time-boxing-vs-pomodoro): A comprehensive comparison of time-boxing and the Pomodoro Technique. Discover which method suits your work style and how to get the most from each.
+- [Time-Blocking vs Time-Boxing: What's the Difference?](https://chrobox.net/blog/time-blocking-vs-time-boxing): Time-blocking and time-boxing sound similar but work differently. Learn the key distinctions and discover which technique suits your work style.
+- [5 Time-Boxing Strategies Used by Top CEOs and Entrepreneurs](https://chrobox.net/blog/5-time-boxing-strategies): Learn the exact time-boxing strategies Elon Musk, Bill Gates, and other top leaders use to maximize productivity and achieve extraordinary results.
+- [10 Common Time-Boxing Mistakes (And How to Fix Them)](https://chrobox.net/blog/time-boxing-mistakes-to-avoid): Time-boxing fails for most people due to a few avoidable mistakes. Learn the 10 most common pitfalls and the exact fix so your schedule sticks.
+- [Parkinson's Law Explained: How to Use It to Double Your Output](https://chrobox.net/blog/parkinsons-law-productivity): Parkinson's Law says work expands to fill the time available. Learn to harness it with deadlines and time-boxing to ship 2x faster without burnout.
+- [Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing](https://chrobox.net/blog/eat-the-frog-time-boxing): Brian Tracy's Eat That Frog says tackle your hardest task first. Combine it with time-boxing for a morning routine that crushes key work before 10 AM.
+
+### Scheduling & Routines
+
+- [How to Build the Perfect Morning Routine with Time-Boxing](https://chrobox.net/blog/morning-routine-scheduling): A structured morning routine sets the tone for your entire day. Find out how time-boxing turns good intentions into reliable daily habits.
+- [The Ultimate Weekly Planning Guide Using Time-Boxing](https://chrobox.net/blog/weekly-planning-guide): Master your week with time-boxing. This step-by-step guide shows you how to plan every hour intentionally and finish each week feeling accomplished.
+- [Deep Work Scheduling: How to Protect Your Most Productive Hours](https://chrobox.net/blog/deep-work-scheduling): Deep work is your most valuable cognitive resource. Learn how deliberate scheduling with time-boxing keeps distractions away and output high.
+- [The Daily Review Ritual: 10 Minutes to Transform Your Day](https://chrobox.net/blog/daily-review-ritual): A structured 10-minute daily review can dramatically improve your focus and output. Learn what to review, when to do it, and how to build the habit.
+- [Energy Management: Schedule Tasks by Your Natural Rhythm](https://chrobox.net/blog/energy-management-scheduling): Learn how to align your daily schedule with your natural energy cycles to maximize focus and output without burning out.
+- [Digital Minimalism Meets Time-Boxing: Reclaim Your Attention](https://chrobox.net/blog/digital-minimalism-scheduling): Combine digital minimalism principles with time-boxing to reduce digital noise, reclaim your attention, and do your best work.
+- [Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries](https://chrobox.net/blog/work-life-balance-scheduling): Learn how strategic time-boxing sets firm boundaries between work and personal life, reduces burnout, and builds a sustainable schedule.
+- [Remote Work Scheduling: Time-Boxing Tips for WFH Productivity](https://chrobox.net/blog/remote-work-scheduling): Working from home blurs boundaries between work and life. Discover how time-boxing helps remote workers stay productive, focused, and balanced.
+
+### Focus & Productivity
+
+- [Focus Time Optimization: How to Enter Flow State Faster](https://chrobox.net/blog/focus-time-optimization): Unlock the science of flow state and practical strategies to enter deep focus faster, protecting your most productive hours.
+- [Beat Procrastination with Time-Boxing: Science-Backed Strategies](https://chrobox.net/blog/beat-procrastination-time-boxing): Understand the psychology of procrastination and how time-boxing counters it — research-backed strategies to start faster and finish consistently.
+- [Beat Decision Fatigue: How Time-Boxing Saves Your Mental Energy](https://chrobox.net/blog/beat-decision-fatigue): You make 35,000 decisions a day, and quality drops as it wears on. Learn how time-boxing eliminates micro-decisions to save energy for what matters.
+- [Task Batching + Time-Boxing: The Ultimate Productivity Combo](https://chrobox.net/blog/task-batching-productivity): Discover how combining task batching with time-boxing eliminates context switching and supercharges your daily productivity.
+- [Productivity for Beginners: Start with Time-Boxing](https://chrobox.net/blog/productivity-for-beginners): New to productivity? Time-boxing is the perfect starting point. This beginner-friendly guide covers everything you need to get started today.
+- [How to Do a Time Audit: Find Where Your Hours Really Go](https://chrobox.net/blog/time-audit-guide): A time audit reveals exactly how you spend your day. Learn the step-by-step process to track, analyze, and optimize your time for maximum productivity.
+- [Meeting Management with Time-Boxing: End Unproductive Meetings](https://chrobox.net/blog/meeting-management-time-boxing): Discover how time-boxing turns unproductive meetings into focused, results-driven sessions — practical strategies to reclaim your calendar.
+
+### Productivity for Every Role
+
+- [Time-Boxing for Teams: Boost Collective Productivity](https://chrobox.net/blog/time-boxing-for-teams): Time-boxing isn't just for individuals. Learn how teams use structured time allocation to improve collaboration and cut meeting overhead.
+- [Time-Boxing for ADHD: A Practical Guide to Staying Focused](https://chrobox.net/blog/time-boxing-for-adhd): Discover how time-boxing can help people with ADHD create structure, reduce overwhelm, and stay focused throughout the day.
+- [Time-Boxing for Students: How to Study Smarter, Not Harder](https://chrobox.net/blog/time-boxing-for-students): Learn how students can use time-boxing to build effective study sessions, avoid burnout, and consistently hit their academic goals.
+- [Time-Boxing for Creative Professionals: Structure + Creativity](https://chrobox.net/blog/time-boxing-for-creative-professionals): Many creatives fear rigid schedules stifle inspiration. Discover how time-boxing actually boosts creative output and protects exploration time.
+- [Time-Boxing for Side Projects: How to Ship Without Burning Out](https://chrobox.net/blog/time-boxing-for-side-projects): Most side projects die in the messy middle. Learn the time-boxing system indie hackers use to make consistent weekly progress on nights and weekends.
+- [Time-Boxing for Working Parents: Reclaim Your Day Without Guilt](https://chrobox.net/blog/time-boxing-for-working-parents): Working parents face brutal scheduling constraints. Learn how time-boxing protects deep work, family time, and personal recovery each week.
+
+### App Blocking & Focus
+
+- [How to Block Distracting Apps and Win Back Your Focus (2026 Guide)](https://chrobox.net/blog/how-to-block-distracting-apps): Blocking distracting apps is the single highest-leverage change you can make to your focus. Learn why it works, how iOS and Android differ, and how to set it up in 10 minutes.
+- [App Blocker + Timeboxing: The Focus Stack That Actually Works](https://chrobox.net/blog/app-blocker-plus-timeboxing): Blocking apps alone rarely sticks. Pair it with timeboxing, a pre-session ritual, and streak tracking and you get a focus stack that survives real life. Here is how it fits together.
+- [A Realistic Digital Detox: Build a Focus Routine You Can Keep](https://chrobox.net/blog/digital-detox-focus-routine): Most digital detoxes fail because they demand too much, too fast. Here is a gradual, realistic approach — phone-free routines, weekly reviews, and streaks — that actually holds up.
+
+### Tools & Comparisons
+
+- [8 Best Timeboxing Apps in 2026: Honest Comparison Guide](https://chrobox.net/blog/best-time-boxing-apps): An honest comparison of the 8 best timeboxing apps in 2026 — Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Calendar, and Todoist — including where each one falls short.
+- [How to Time-Box with Google Calendar, Apple Calendar & Outlook](https://chrobox.net/blog/time-boxing-with-calendar-apps): Learn how to implement time-boxing in Google Calendar, Apple Calendar, and Outlook — step-by-step instructions for any calendar.
 
 ## Schedule templates (20)
 
-- [Software developer](https://chrobox.net/templates/software-developer)
-- [Product manager](https://chrobox.net/templates/product-manager)
-- [Graphic designer](https://chrobox.net/templates/graphic-designer)
-- [Marketing manager](https://chrobox.net/templates/marketing-manager)
-- [Data scientist](https://chrobox.net/templates/data-scientist)
-- [Freelance writer](https://chrobox.net/templates/freelance-writer)
-- [Teacher](https://chrobox.net/templates/teacher)
-- [Nurse](https://chrobox.net/templates/nurse)
-- [Startup founder](https://chrobox.net/templates/startup-founder)
-- [College student](https://chrobox.net/templates/college-student)
+- [Software Developer daily schedule](https://chrobox.net/templates/software-developer): A proven daily schedule for software developers to maximize deep work, code quality, and team collaboration.
+- [Product Manager daily schedule](https://chrobox.net/templates/product-manager): An optimized daily schedule for product managers balancing strategy, stakeholder meetings, and team alignment.
+- [Graphic Designer daily schedule](https://chrobox.net/templates/graphic-designer): A creative daily schedule for graphic designers to fuel inspiration, protect creative flow, and meet client deadlines.
+- [Marketing Manager daily schedule](https://chrobox.net/templates/marketing-manager): A high-impact daily schedule for marketing managers to drive campaigns, analyze results, and lead creative teams.
+- [Data Scientist daily schedule](https://chrobox.net/templates/data-scientist): A structured daily schedule for data scientists to maximize analysis time, model development, and cross-team communication.
+- [Freelance Writer daily schedule](https://chrobox.net/templates/freelance-writer): A disciplined daily schedule for freelance writers to maintain creative output, meet client deadlines, and grow their business.
+- [Teacher daily schedule](https://chrobox.net/templates/teacher): A balanced daily schedule for teachers to manage classroom time, lesson planning, grading, and personal wellbeing.
+- [Nurse daily schedule](https://chrobox.net/templates/nurse): A demanding daily schedule for nurses managing patient care, documentation, and team coordination on shift.
+- [Startup Founder daily schedule](https://chrobox.net/templates/startup-founder): A high-intensity daily schedule for startup founders to build product, fundraise, and lead teams without burning out.
+- [College Student daily schedule](https://chrobox.net/templates/college-student): A structured daily schedule for college students to balance classes, studying, assignments, and social life.
+- [Remote Worker daily schedule](https://chrobox.net/templates/remote-worker): A disciplined daily schedule for remote workers to maintain productivity, avoid isolation, and separate work from home life.
+- [Project Manager daily schedule](https://chrobox.net/templates/project-manager): A structured daily schedule for project managers to keep teams on track, manage risks, and deliver on time.
+- [UX Designer daily schedule](https://chrobox.net/templates/ux-designer): A user-centered daily schedule for UX designers to balance research, design, testing, and cross-functional collaboration.
+- [Sales Representative daily schedule](https://chrobox.net/templates/sales-representative): A high-energy daily schedule for sales representatives to maximize prospect outreach, close deals, and hit quota.
+- [Accountant daily schedule](https://chrobox.net/templates/accountant): A precise daily schedule for accountants to manage financial reporting, client work, and deadline-driven tax season.
+- [Content Creator daily schedule](https://chrobox.net/templates/content-creator): A creative daily schedule for content creators to produce consistent, high-quality content across multiple platforms.
+- [Lawyer daily schedule](https://chrobox.net/templates/lawyer): A demanding daily schedule for lawyers to manage billable hours, client communication, court preparation, and research.
+- [Real Estate Agent daily schedule](https://chrobox.net/templates/real-estate-agent): A client-focused daily schedule for real estate agents to generate leads, show properties, and close transactions.
+- [Executive (CEO/VP) daily schedule](https://chrobox.net/templates/executive): A leadership-focused daily schedule for executives to drive strategy, lead teams, and maintain high-level perspective.
+- [Work-from-Home Parent daily schedule](https://chrobox.net/templates/parent-working-from-home): A realistic daily schedule for parents working from home to balance childcare, household duties, and professional output.
 
 ## Comparisons (10)
 
-- [Chrobox vs todoist](https://chrobox.net/compare/chrobox-vs-todoist)
-- [Chrobox vs google calendar](https://chrobox.net/compare/chrobox-vs-google-calendar)
-- [Chrobox vs notion](https://chrobox.net/compare/chrobox-vs-notion)
-- [Chrobox vs trello](https://chrobox.net/compare/chrobox-vs-trello)
-- [Chrobox vs asana](https://chrobox.net/compare/chrobox-vs-asana)
-- [Chrobox vs clickup](https://chrobox.net/compare/chrobox-vs-clickup)
-- [Chrobox vs apple reminders](https://chrobox.net/compare/chrobox-vs-apple-reminders)
-- [Chrobox vs microsoft to do](https://chrobox.net/compare/chrobox-vs-microsoft-to-do)
-- [Chrobox vs any do](https://chrobox.net/compare/chrobox-vs-any-do)
-- [Chrobox vs ticktick](https://chrobox.net/compare/chrobox-vs-ticktick)
+- [Chrobox vs Todoist](https://chrobox.net/compare/chrobox-vs-todoist): Chrobox and Todoist both help you manage tasks, but they take fundamentally different approaches. Chrobox uses time-boxing to schedule every task into a specific time block, while Todoist focuses on prioritized task lists. Discover which app fits your productivity style.
+- [Chrobox vs Google Calendar](https://chrobox.net/compare/chrobox-vs-google-calendar): Google Calendar is the world's most popular calendar app, great for scheduling meetings and events. Chrobox goes further by combining time-boxing with a task manager so you can plan deep work blocks alongside your calendar commitments.
+- [Chrobox vs Notion](https://chrobox.net/compare/chrobox-vs-notion): Notion is a powerful all-in-one workspace for notes, databases, and projects. Chrobox is a dedicated time-boxing app built for daily scheduling and focused productivity. Learn which tool is right for your workflow.
+- [Chrobox vs Trello](https://chrobox.net/compare/chrobox-vs-trello): Trello organizes work with visual Kanban boards and cards. Chrobox schedules work into time blocks on your calendar. If you want to know when work will happen — not just what needs to be done — Chrobox is the answer.
+- [Chrobox vs Asana](https://chrobox.net/compare/chrobox-vs-asana): Asana is a leading team project management platform with rich features for task dependencies, timelines, and workload management. Chrobox focuses on personal daily scheduling through time-boxing. Compare them to find your perfect fit.
+- [Chrobox vs ClickUp](https://chrobox.net/compare/chrobox-vs-clickup): ClickUp tries to be everything for everyone — tasks, docs, goals, sprints, and more. Chrobox does one thing exceptionally well: time-boxing your day for maximum focus. Find out which is right for you.
+- [Chrobox vs Apple Reminders](https://chrobox.net/compare/chrobox-vs-apple-reminders): Apple Reminders is a built-in iOS/macOS app for simple to-do lists and reminders. Chrobox takes time management to the next level with time-boxing, letting you plan exactly when you'll complete each task.
+- [Chrobox vs Microsoft To Do](https://chrobox.net/compare/chrobox-vs-microsoft-to-do): Microsoft To Do integrates seamlessly with Microsoft 365 and offers smart daily suggestions via My Day. Chrobox goes beyond suggestions by letting you commit every task to a specific time block in your calendar.
+- [Chrobox vs Any.do](https://chrobox.net/compare/chrobox-vs-any-do): Any.do offers smart task management with AI-powered daily planning and a clean interface. Chrobox specializes in time-boxing, turning your tasks into a scheduled block-by-block day. See which approach works better for you.
+- [Chrobox vs TickTick](https://chrobox.net/compare/chrobox-vs-ticktick): TickTick combines tasks, habits, Pomodoro timer, and calendar in one app. Chrobox takes a focused approach to time-boxing your entire day. Compare these two productivity apps to find your ideal tool.
+
+## Languages
+
+Every page exists in 20 locales with translated bodies: [English](https://chrobox.net) · [한국어](https://chrobox.net/ko) · [日本語](https://chrobox.net/ja) · [简体中文](https://chrobox.net/zh-cn) · [繁體中文](https://chrobox.net/zh-tw) · [Español](https://chrobox.net/es) · [Français](https://chrobox.net/fr) · [Deutsch](https://chrobox.net/de) · [Português](https://chrobox.net/pt-br) · [Italiano](https://chrobox.net/it) · [Nederlands](https://chrobox.net/nl) · [Polski](https://chrobox.net/pl) · [Türkçe](https://chrobox.net/tr) · [Bahasa Indonesia](https://chrobox.net/id) · [Tiếng Việt](https://chrobox.net/vi) · [ไทย](https://chrobox.net/th) · [हिन्दी](https://chrobox.net/hi) · [العربية](https://chrobox.net/ar) · [Русский](https://chrobox.net/ru) · [Bahasa Melayu](https://chrobox.net/ms)
 
 ## Content policy
 
-- Author: Chrobox team (independent developer), the app's own maintainers
-- Languages: 20 locales, each with fully translated bodies (not machine-swapped titles)
-- Product facts (pricing, platforms, feature list) are maintained alongside app
-  releases; store ratings shown on the site are copied from the App Store and
-  Play Store listings, never adjusted by hand
-- Citation preference: cite as "Chrobox" and link the specific page, not the domain root
-- Generated: 2026-08-28
+- Written and maintained by the Chrobox team, the app's own developers
+- Store ratings shown on the site are copied from the App Store and Play Store listings, never adjusted by hand
+- Comparison pages describe competitors from their public feature sets; each includes where the other app is the better choice
+- Cite as "Chrobox" and link the specific page rather than the domain root
+- Guides last updated: 2026-08-09
