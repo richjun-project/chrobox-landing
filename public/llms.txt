@@ -12,8 +12,8 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 ## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
-- Free plan: daily planning with up to three tasks per day, the visual timeline, and retrospectives
-- Chrobox Pro: 3-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase
+- Pricing: free to download; using the app requires Chrobox Pro (there is no free plan). Monthly and yearly plans start with a 3-day free trial for new subscribers
+- Chrobox Pro prices (US App Store): $3.99/month, $29.99/year, or a one-time $39.99 lifetime purchase; Google Play and other countries may differ
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
 - App interface languages: 54; this website: 20 locales
 - Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com

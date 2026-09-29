@@ -90,40 +90,39 @@
     "title": "Einfache Preise",
     "subtitle": "Testen Sie alle Pro-Funktionen mit einer 3-tägigen kostenlosen Testphase",
     "trialBadge": "3 Tage kostenlos testen",
-    "trialDescription": "Start ohne Zahlungsinformationen",
+    "trialDescription": "Jederzeit in den Einstellungen von App Store oder Google Play kündbar",
+    "priceNote": "Preise im US-App-Store. Preise bei Google Play und in anderen Ländern können abweichen.",
     "monthly": {
       "name": "Monatlich",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/Monat",
       "features": [
         "Unbegrenzte Aufgaben",
         "KI-gestützte Einblicke",
         "Erweiterte Statistiken",
         "Homescreen-Widget",
-        "Priorisierter Support",
         "Werbefreie Nutzung"
       ],
       "cta": "Kostenlos testen"
     },
     "yearly": {
       "name": "Jährlich",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/Jahr",
-      "badge": "33% RABATT",
-      "monthlyPrice": "$3.33/Monat",
+      "badge": "37% RABATT",
+      "monthlyPrice": "$2.50/Monat",
       "features": [
         "Unbegrenzte Aufgaben",
         "KI-gestützte Einblicke",
         "Erweiterte Statistiken",
         "Homescreen-Widget",
-        "Priorisierter Support",
         "Werbefreie Nutzung"
       ],
       "cta": "Kostenlos testen"
     },
     "lifetime": {
       "name": "Lifetime",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "einmalig",
       "badge": "Bestes Angebot",
       "features": [
@@ -132,7 +131,6 @@
         "Erweiterte Statistiken",
         "Homescreen-Widget",
         "Lebenslange Updates",
-        "Priorisierter Support",
         "Werbefreie Nutzung"
       ],
       "cta": "Lifetime-Zugang sichern"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Ist Chrobox kostenlos?",
-        "answer": "Ja. Der kostenlose Plan umfasst die Tagesplanung mit bis zu drei Aufgaben pro Tag, die visuelle Zeitleiste und Retrospektiven. Chrobox Pro hebt das Aufgabenlimit auf und bietet zusätzlich KI-Einblicke, erweiterte Statistiken, Homescreen-Widgets und bevorzugten Support — mit einer 3-tägigen kostenlosen Testphase, danach 4,99 $/Monat, 39,99 $/Jahr oder ein einmaliger Lebenszeitkauf für 99,99 $."
+        "answer": "Nach der Testphase nicht. Chrobox lässt sich kostenlos herunterladen, und Monats- und Jahresabo beginnen für Neuabonnenten mit einer 3-tägigen kostenlosen Testphase. Danach kostet Chrobox Pro 3,99 $/Monat, 29,99 $/Jahr oder einmalig 39,99 $ für lebenslangen Zugang (Preise im US-App-Store; bei Google Play und in anderen Ländern können sie abweichen). Wenn Sie nicht weitermachen möchten, kündigen Sie vor Ende der Testphase in den Einstellungen von App Store oder Google Play."
       },
       "vsTimeBlocking": {
         "question": "Wie unterscheidet sich Timeboxing von Time Blocking und Pomodoro?",

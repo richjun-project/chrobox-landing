@@ -90,40 +90,39 @@
     "title": "Eenvoudige prijzen",
     "subtitle": "Ervaar alle Pro-functies met een gratis proefperiode van 3 dagen",
     "trialBadge": "Gratis proefperiode van 3 dagen",
-    "trialDescription": "Start zonder betaalgegevens",
+    "trialDescription": "Altijd opzegbaar via de instellingen van de App Store of Google Play",
+    "priceNote": "Prijzen in de Amerikaanse App Store. Prijzen in Google Play en in andere landen kunnen afwijken.",
     "monthly": {
       "name": "Maandelijks",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/maand",
       "features": [
         "Onbeperkt aantal taken",
         "AI-gestuurde inzichten",
         "Geavanceerde statistieken",
         "Startscherm-widget",
-        "Prioriteitsondersteuning",
         "Advertentievrije ervaring"
       ],
       "cta": "Start gratis proefperiode"
     },
     "yearly": {
       "name": "Jaarlijks",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/jaar",
-      "badge": "33% KORTING",
-      "monthlyPrice": "$3.33/mnd",
+      "badge": "37% KORTING",
+      "monthlyPrice": "$2.50/mnd",
       "features": [
         "Onbeperkt aantal taken",
         "AI-gestuurde inzichten",
         "Geavanceerde statistieken",
         "Startscherm-widget",
-        "Prioriteitsondersteuning",
         "Advertentievrije ervaring"
       ],
       "cta": "Start gratis proefperiode"
     },
     "lifetime": {
       "name": "Levenslang",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "eenmalig",
       "badge": "Beste waarde",
       "features": [
@@ -132,7 +131,6 @@
         "Geavanceerde statistieken",
         "Startscherm-widget",
         "Levenslange updates",
-        "Prioriteitsondersteuning",
         "Advertentievrije ervaring"
       ],
       "cta": "Krijg levenslange toegang"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Is Chrobox gratis?",
-        "answer": "Ja. Het gratis abonnement biedt dagplanning met maximaal drie taken per dag, de visuele tijdlijn en terugblikken. Chrobox Pro verwijdert de taaklimiet en voegt AI-inzichten, geavanceerde statistieken, homescreen-widgets en prioriteitsondersteuning toe — met een gratis proefperiode van 3 dagen, daarna $4,99/maand, $39,99/jaar, of een eenmalige levenslange aankoop van $99,99."
+        "answer": "Niet na de proefperiode. Chrobox is gratis te downloaden, en het maand- en jaarabonnement beginnen voor nieuwe abonnees met een gratis proefperiode van 3 dagen. Daarna kost Chrobox Pro $3,99/maand, $29,99/jaar of eenmalig $39,99 voor levenslange toegang (prijzen in de Amerikaanse App Store; in Google Play en in andere landen kunnen ze afwijken). Wil je niet doorgaan, zeg dan vóór het einde van de proefperiode op via de instellingen van de App Store of Google Play."
       },
       "vsTimeBlocking": {
         "question": "Hoe verschilt timeboxing van time blocking en Pomodoro?",

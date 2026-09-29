@@ -90,40 +90,39 @@
     "title": "簡單透明的方案",
     "subtitle": "透過 3 天免費試用體驗所有 Pro 功能",
     "trialBadge": "3 天免費試用",
-    "trialDescription": "免付款資訊即可開始",
+    "trialDescription": "可隨時在 App Store 或 Google Play 設定中取消",
+    "priceNote": "以上為美國 App Store 價格，Google Play 及其他國家／地區的價格可能不同。",
     "monthly": {
       "name": "月繳",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/月",
       "features": [
         "無限任務",
         "AI 智慧洞察",
         "進階統計",
         "主畫面小工具",
-        "優先支援",
         "無廣告體驗"
       ],
       "cta": "開始免費試用"
     },
     "yearly": {
       "name": "年繳",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/年",
-      "badge": "省 33%",
-      "monthlyPrice": "$3.33/月",
+      "badge": "省 37%",
+      "monthlyPrice": "$2.50/月",
       "features": [
         "無限任務",
         "AI 智慧洞察",
         "進階統計",
         "主畫面小工具",
-        "優先支援",
         "無廣告體驗"
       ],
       "cta": "開始免費試用"
     },
     "lifetime": {
       "name": "終身方案",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "一次性付款",
       "badge": "最超值",
       "features": [
@@ -132,7 +131,6 @@
         "進階統計",
         "主畫面小工具",
         "終身更新",
-        "優先支援",
         "無廣告體驗"
       ],
       "cta": "取得終身使用權"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox 是免費的嗎？",
-        "answer": "是的。免費方案包含每天最多三項任務的每日計畫、視覺化時間軸，以及回顧功能。Chrobox Pro 取消了任務數量限制，並新增 AI 洞察、進階統計、主畫面小工具與優先支援——提供 3 天免費試用，之後為每月 $4.99、每年 $39.99，或一次性買斷 $99.99 取得終身使用權。"
+        "answer": "試用期結束後需要付費。Chrobox 可免費下載，月繳與年繳方案在首次訂閱時提供 3 天免費試用。之後 Chrobox Pro 的價格為每月 $3.99、每年 $29.99，或一次性 $39.99 買斷終身使用權（美國 App Store 價格，Google Play 及其他國家／地區可能不同）。如果不打算繼續使用，請在試用結束前到 App Store 或 Google Play 設定中取消訂閱。"
       },
       "vsTimeBlocking": {
         "question": "時間盒法與時間區塊規劃（Time Blocking）、番茄工作法有什麼不同？",

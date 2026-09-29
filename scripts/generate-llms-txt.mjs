@@ -24,7 +24,7 @@ const { BLOG_CLUSTERS } = await jiti.import(join(ROOT, 'src/lib/blogTaxonomy.ts'
 const { scheduleTemplates } = await jiti.import(join(ROOT, 'src/data/scheduleTemplates.ts'));
 const { comparisons } = await jiti.import(join(ROOT, 'src/data/comparisons.ts'));
 const { SEO_LOCALES } = await jiti.import(join(ROOT, 'src/lib/seo.ts'));
-const { COMPANY_INFO, THREADS_URL, APP_LANGUAGE_COUNT, PRO_TRIAL_DAYS } = await jiti.import(join(ROOT, 'src/lib/company.ts'));
+const { COMPANY_INFO, THREADS_URL, APP_LANGUAGE_COUNT, PRO_TRIAL_DAYS, PRO_PRICES_USD } = await jiti.import(join(ROOT, 'src/lib/company.ts'));
 const en = JSON.parse(readFileSync(join(ROOT, 'src/i18n/en.json'), 'utf8'));
 
 // Bump when the "Facts" block below changes. Not the build date: a date that
@@ -43,8 +43,8 @@ const faq = faqKeys.map((key) => en.homeFaq.items[key]);
 const facts = `## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
-- Free plan: daily planning with up to three tasks per day, the visual timeline, and retrospectives
-- Chrobox Pro: ${PRO_TRIAL_DAYS}-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase
+- Pricing: free to download; using the app requires Chrobox Pro (there is no free plan). Monthly and yearly plans start with a ${PRO_TRIAL_DAYS}-day free trial for new subscribers
+- Chrobox Pro prices (US App Store): $${PRO_PRICES_USD.monthly}/month, $${PRO_PRICES_USD.yearly}/year, or a one-time $${PRO_PRICES_USD.lifetime} lifetime purchase; Google Play and other countries may differ
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
 - App interface languages: ${APP_LANGUAGE_COUNT}; this website: ${SEO_LOCALES.length} locales
 - Operator: ${COMPANY_INFO.name} (Seoul, South Korea) — contact ${COMPANY_INFO.email}

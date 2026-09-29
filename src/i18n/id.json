@@ -90,40 +90,39 @@
     "title": "Harga Sederhana",
     "subtitle": "Rasakan semua fitur Pro dengan uji coba gratis 3 hari",
     "trialBadge": "Uji Coba Gratis 3 Hari",
-    "trialDescription": "Mulai tanpa info pembayaran",
+    "trialDescription": "Batalkan kapan saja di pengaturan App Store atau Google Play",
+    "priceNote": "Harga App Store AS. Harga di Google Play dan negara lain dapat berbeda.",
     "monthly": {
       "name": "Bulanan",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/bulan",
       "features": [
         "Tugas tanpa batas",
         "Wawasan bertenaga AI",
         "Statistik lanjutan",
         "Widget layar utama",
-        "Dukungan prioritas",
         "Pengalaman bebas iklan"
       ],
       "cta": "Mulai Uji Coba Gratis"
     },
     "yearly": {
       "name": "Tahunan",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/tahun",
-      "badge": "DISKON 33%",
-      "monthlyPrice": "$3.33/bln",
+      "badge": "DISKON 37%",
+      "monthlyPrice": "$2.50/bln",
       "features": [
         "Tugas tanpa batas",
         "Wawasan bertenaga AI",
         "Statistik lanjutan",
         "Widget layar utama",
-        "Dukungan prioritas",
         "Pengalaman bebas iklan"
       ],
       "cta": "Mulai Uji Coba Gratis"
     },
     "lifetime": {
       "name": "Seumur Hidup",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "sekali bayar",
       "badge": "Nilai Terbaik",
       "features": [
@@ -132,7 +131,6 @@
         "Statistik lanjutan",
         "Widget layar utama",
         "Pembaruan seumur hidup",
-        "Dukungan prioritas",
         "Pengalaman bebas iklan"
       ],
       "cta": "Dapatkan Akses Seumur Hidup"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Apakah Chrobox gratis?",
-        "answer": "Ya. Paket gratis mencakup perencanaan harian dengan hingga tiga tugas per hari, garis waktu visual, dan retrospektif. Chrobox Pro menghapus batas tugas dan menambahkan wawasan AI, statistik lanjutan, widget layar utama, dan dukungan prioritas — dengan uji coba gratis 3 hari, lalu $4.99/bulan, $39.99/tahun, atau pembelian sekali seumur hidup seharga $99.99."
+        "answer": "Tidak setelah masa uji coba. Chrobox gratis diunduh, dan paket bulanan serta tahunan dimulai dengan uji coba gratis 3 hari untuk pelanggan baru. Setelah itu, Chrobox Pro seharga $3.99/bulan, $29.99/tahun, atau sekali bayar $39.99 untuk akses seumur hidup (harga App Store AS; di Google Play dan negara lain bisa berbeda). Jika tidak ingin melanjutkan, batalkan di pengaturan App Store atau Google Play sebelum uji coba berakhir."
       },
       "vsTimeBlocking": {
         "question": "Apa bedanya timeboxing dengan time blocking dan Pomodoro?",

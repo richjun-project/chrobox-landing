@@ -24,3 +24,10 @@ export const THREADS_URL = 'https://www.threads.com/@chrobox';
 export const STORE_RATING = { value: '4.3', count: 15 };
 export const APP_LANGUAGE_COUNT = 54;
 export const PRO_TRIAL_DAYS = 3;
+
+// Chrobox Pro prices on the US App Store, re-checked 2026-09-30 from the App Store
+// listing's in-app purchase list (RevenueCat's catalog shows test-store prices —
+// don't copy from there). Google Play: same monthly/yearly, lifetime $37.99.
+// KR App Store: ₩5,500 / ₩44,000 / ₩66,000 (Play lifetime ₩55,000) — the ko copy in
+// src/i18n/ko.json carries those. Keep src/i18n/*.json pricing in step with this.
+export const PRO_PRICES_USD = { monthly: '3.99', yearly: '29.99', lifetime: '39.99' };

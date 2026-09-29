@@ -90,40 +90,39 @@
     "title": "Basit Fiyatlandırma",
     "subtitle": "3 günlük ücretsiz denemeyle tüm Pro özelliklerini deneyimleyin",
     "trialBadge": "3 Günlük Ücretsiz Deneme",
-    "trialDescription": "Ödeme bilgisi olmadan başlayın",
+    "trialDescription": "App Store veya Google Play ayarlarından istediğiniz zaman iptal edin",
+    "priceNote": "ABD App Store fiyatlarıdır. Google Play'deki ve diğer ülkelerdeki fiyatlar farklı olabilir.",
     "monthly": {
       "name": "Aylık",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/ay",
       "features": [
         "Sınırsız görev",
         "Yapay zeka destekli içgörüler",
         "Gelişmiş istatistikler",
         "Ana ekran widget'ı",
-        "Öncelikli destek",
         "Reklamsız deneyim"
       ],
       "cta": "Ücretsiz Denemeyi Başlat"
     },
     "yearly": {
       "name": "Yıllık",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/yıl",
-      "badge": "%33 İNDİRİM",
-      "monthlyPrice": "$3.33/ay",
+      "badge": "%37 İNDİRİM",
+      "monthlyPrice": "$2.50/ay",
       "features": [
         "Sınırsız görev",
         "Yapay zeka destekli içgörüler",
         "Gelişmiş istatistikler",
         "Ana ekran widget'ı",
-        "Öncelikli destek",
         "Reklamsız deneyim"
       ],
       "cta": "Ücretsiz Denemeyi Başlat"
     },
     "lifetime": {
       "name": "Ömür Boyu",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "tek seferlik",
       "badge": "En İyi Değer",
       "features": [
@@ -132,7 +131,6 @@
         "Gelişmiş istatistikler",
         "Ana ekran widget'ı",
         "Ömür boyu güncellemeler",
-        "Öncelikli destek",
         "Reklamsız deneyim"
       ],
       "cta": "Ömür Boyu Erişim Al"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox ücretsiz mi?",
-        "answer": "Evet. Ücretsiz plan, günde en fazla üç görevle günlük planlamayı, görsel zaman çizelgesini ve retrospektifleri içerir. Chrobox Pro, görev sınırını kaldırır ve yapay zeka içgörüleri, gelişmiş istatistikler, ana ekran widget'ları ve öncelikli destek ekler — 3 günlük ücretsiz deneme, ardından ayda $4.99, yılda $39.99 veya tek seferlik $99.99 ömür boyu satın alma ile."
+        "answer": "Deneme süresinden sonra değil. Chrobox'ı indirmek ücretsizdir ve aylık ile yıllık planlar yeni aboneler için 3 günlük ücretsiz denemeyle başlar. Ardından Chrobox Pro ayda $3.99, yılda $29.99 veya ömür boyu erişim için tek seferlik $39.99'dur (ABD App Store fiyatları; Google Play'de ve diğer ülkelerde farklı olabilir). Devam etmek istemezseniz deneme bitmeden App Store veya Google Play ayarlarından iptal edin."
       },
       "vsTimeBlocking": {
         "question": "Timeboxing, time blocking ve Pomodoro'dan nasıl farklıdır?",

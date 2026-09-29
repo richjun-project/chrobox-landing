@@ -90,40 +90,39 @@
     "title": "Harga Mudah",
     "subtitle": "Alami semua ciri Pro dengan percubaan percuma 3 hari",
     "trialBadge": "Percubaan Percuma 3 Hari",
-    "trialDescription": "Mula tanpa maklumat pembayaran",
+    "trialDescription": "Batalkan bila-bila masa dalam tetapan App Store atau Google Play",
+    "priceNote": "Harga App Store AS. Harga di Google Play dan negara lain mungkin berbeza.",
     "monthly": {
       "name": "Bulanan",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/bulan",
       "features": [
         "Tugasan tanpa had",
         "Wawasan berkuasa AI",
         "Statistik lanjutan",
         "Widget skrin utama",
-        "Sokongan keutamaan",
         "Pengalaman bebas iklan"
       ],
       "cta": "Mulakan Percubaan Percuma"
     },
     "yearly": {
       "name": "Tahunan",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/tahun",
-      "badge": "DISKAUN 33%",
-      "monthlyPrice": "$3.33/bln",
+      "badge": "DISKAUN 37%",
+      "monthlyPrice": "$2.50/bln",
       "features": [
         "Tugasan tanpa had",
         "Wawasan berkuasa AI",
         "Statistik lanjutan",
         "Widget skrin utama",
-        "Sokongan keutamaan",
         "Pengalaman bebas iklan"
       ],
       "cta": "Mulakan Percubaan Percuma"
     },
     "lifetime": {
       "name": "Seumur Hidup",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "bayaran sekali sahaja",
       "badge": "Nilai Terbaik",
       "features": [
@@ -132,7 +131,6 @@
         "Statistik lanjutan",
         "Widget skrin utama",
         "Kemas kini seumur hidup",
-        "Sokongan keutamaan",
         "Pengalaman bebas iklan"
       ],
       "cta": "Dapatkan Akses Seumur Hidup"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Adakah Chrobox percuma?",
-        "answer": "Ya. Pelan percuma termasuk perancangan harian dengan sehingga tiga tugasan sehari, garis masa visual, dan retrospektif. Chrobox Pro menghapuskan had tugasan dan menambah wawasan AI, statistik lanjutan, widget skrin utama, dan sokongan keutamaan — dengan percubaan percuma 3 hari, kemudian $4.99/bulan, $39.99/tahun, atau pembelian sekali sahaja seumur hidup pada $99.99."
+        "answer": "Tidak selepas tempoh percubaan. Chrobox percuma untuk dimuat turun, dan pelan bulanan serta tahunan bermula dengan percubaan percuma 3 hari untuk pelanggan baharu. Selepas itu, Chrobox Pro berharga $3.99/bulan, $29.99/tahun, atau bayaran sekali $39.99 untuk akses seumur hidup (harga App Store AS; di Google Play dan negara lain mungkin berbeza). Jika anda tidak mahu meneruskan, batalkan dalam tetapan App Store atau Google Play sebelum percubaan tamat."
       },
       "vsTimeBlocking": {
         "question": "Apakah bezanya timeboxing dengan time blocking dan Pomodoro?",

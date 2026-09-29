@@ -90,40 +90,39 @@
     "title": "Tarification simple",
     "subtitle": "Découvrez toutes les fonctionnalités Pro avec un essai gratuit de 3 jours",
     "trialBadge": "Essai gratuit de 3 jours",
-    "trialDescription": "Démarrez sans information de paiement",
+    "trialDescription": "Résiliable à tout moment dans les réglages de l'App Store ou de Google Play",
+    "priceNote": "Prix de l'App Store américain. Les prix sur Google Play et dans d'autres pays peuvent différer.",
     "monthly": {
       "name": "Mensuel",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/mois",
       "features": [
         "Tâches illimitées",
         "Analyses propulsées par l'IA",
         "Statistiques avancées",
         "Widget d'accueil",
-        "Support prioritaire",
         "Expérience sans publicité"
       ],
       "cta": "Démarrer l'essai gratuit"
     },
     "yearly": {
       "name": "Annuel",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/an",
-      "badge": "-33%",
-      "monthlyPrice": "$3.33/mois",
+      "badge": "-37%",
+      "monthlyPrice": "$2.50/mois",
       "features": [
         "Tâches illimitées",
         "Analyses propulsées par l'IA",
         "Statistiques avancées",
         "Widget d'accueil",
-        "Support prioritaire",
         "Expérience sans publicité"
       ],
       "cta": "Démarrer l'essai gratuit"
     },
     "lifetime": {
       "name": "À vie",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "paiement unique",
       "badge": "Meilleur rapport qualité-prix",
       "features": [
@@ -132,7 +131,6 @@
         "Statistiques avancées",
         "Widget d'accueil",
         "Mises à jour à vie",
-        "Support prioritaire",
         "Expérience sans publicité"
       ],
       "cta": "Obtenir l'accès à vie"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox est-il gratuit ?",
-        "answer": "Oui. Le forfait gratuit comprend la planification quotidienne jusqu'à trois tâches par jour, la chronologie visuelle et les bilans. Chrobox Pro supprime la limite de tâches et ajoute des analyses IA, des statistiques avancées, des widgets pour l'écran d'accueil et une assistance prioritaire — avec un essai gratuit de 3 jours, puis 4,99 $/mois, 39,99 $/an, ou un achat unique à vie de 99,99 $."
+        "answer": "Pas après l'essai. Chrobox se télécharge gratuitement, et les abonnements mensuel et annuel commencent par un essai gratuit de 3 jours pour les nouveaux abonnés. Ensuite, Chrobox Pro coûte 3,99 $/mois, 29,99 $/an, ou 39,99 $ en achat unique pour un accès à vie (prix de l'App Store américain ; ils peuvent différer sur Google Play et dans d'autres pays). Si vous ne souhaitez pas continuer, résiliez dans les réglages de l'App Store ou de Google Play avant la fin de l'essai."
       },
       "vsTimeBlocking": {
         "question": "En quoi le timeboxing diffère-t-il du time blocking et de la méthode Pomodoro ?",

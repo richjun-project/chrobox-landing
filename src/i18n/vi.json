@@ -90,40 +90,39 @@
     "title": "Bảng Giá Đơn Giản",
     "subtitle": "Trải nghiệm mọi tính năng Pro với 3 ngày dùng thử miễn phí",
     "trialBadge": "Dùng Thử Miễn Phí 3 Ngày",
-    "trialDescription": "Bắt đầu mà không cần thông tin thanh toán",
+    "trialDescription": "Hủy bất cứ lúc nào trong cài đặt App Store hoặc Google Play",
+    "priceNote": "Giá trên App Store Mỹ. Giá trên Google Play và ở các quốc gia khác có thể khác.",
     "monthly": {
       "name": "Hàng Tháng",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/tháng",
       "features": [
         "Công việc không giới hạn",
         "Thông tin chi tiết từ AI",
         "Thống kê nâng cao",
         "Widget màn hình chính",
-        "Hỗ trợ ưu tiên",
         "Trải nghiệm không quảng cáo"
       ],
       "cta": "Bắt Đầu Dùng Thử Miễn Phí"
     },
     "yearly": {
       "name": "Hàng Năm",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/năm",
-      "badge": "GIẢM 33%",
-      "monthlyPrice": "$3.33/tháng",
+      "badge": "GIẢM 37%",
+      "monthlyPrice": "$2.50/tháng",
       "features": [
         "Công việc không giới hạn",
         "Thông tin chi tiết từ AI",
         "Thống kê nâng cao",
         "Widget màn hình chính",
-        "Hỗ trợ ưu tiên",
         "Trải nghiệm không quảng cáo"
       ],
       "cta": "Bắt Đầu Dùng Thử Miễn Phí"
     },
     "lifetime": {
       "name": "Trọn Đời",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "thanh toán một lần",
       "badge": "Giá Trị Tốt Nhất",
       "features": [
@@ -132,7 +131,6 @@
         "Thống kê nâng cao",
         "Widget màn hình chính",
         "Cập nhật trọn đời",
-        "Hỗ trợ ưu tiên",
         "Trải nghiệm không quảng cáo"
       ],
       "cta": "Sở Hữu Trọn Đời"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox có miễn phí không?",
-        "answer": "Có. Gói miễn phí bao gồm lập kế hoạch hàng ngày với tối đa ba công việc mỗi ngày, dòng thời gian trực quan và các buổi tổng kết. Chrobox Pro loại bỏ giới hạn công việc và bổ sung thông tin chuyên sâu từ AI, thống kê nâng cao, widget màn hình chính và hỗ trợ ưu tiên — với 3 ngày dùng thử miễn phí, sau đó $4.99/tháng, $39.99/năm, hoặc mua trọn đời một lần với giá $99.99."
+        "answer": "Không, sau thời gian dùng thử. Chrobox tải về miễn phí, và gói tháng và gói năm bắt đầu bằng 3 ngày dùng thử miễn phí cho người đăng ký mới. Sau đó, Chrobox Pro có giá $3.99/tháng, $29.99/năm hoặc trả một lần $39.99 để dùng trọn đời (giá trên App Store Mỹ; trên Google Play và ở các quốc gia khác có thể khác). Nếu không muốn tiếp tục, hãy hủy trong cài đặt App Store hoặc Google Play trước khi thời gian dùng thử kết thúc."
       },
       "vsTimeBlocking": {
         "question": "Timeboxing khác gì so với time blocking và Pomodoro?",

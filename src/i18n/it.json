@@ -90,40 +90,39 @@
     "title": "Prezzi semplici",
     "subtitle": "Scopri tutte le funzionalità Pro con una prova gratuita di 3 giorni",
     "trialBadge": "Prova gratuita di 3 giorni",
-    "trialDescription": "Inizia senza dati di pagamento",
+    "trialDescription": "Annulla quando vuoi dalle impostazioni di App Store o Google Play",
+    "priceNote": "Prezzi dell'App Store statunitense. I prezzi su Google Play e in altri paesi possono variare.",
     "monthly": {
       "name": "Mensile",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/mese",
       "features": [
         "Attività illimitate",
         "Insight basati sull'IA",
         "Statistiche avanzate",
         "Widget per la Home",
-        "Assistenza prioritaria",
         "Esperienza senza pubblicità"
       ],
       "cta": "Inizia la prova gratuita"
     },
     "yearly": {
       "name": "Annuale",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/anno",
-      "badge": "33% DI SCONTO",
-      "monthlyPrice": "$3.33/mese",
+      "badge": "37% DI SCONTO",
+      "monthlyPrice": "$2.50/mese",
       "features": [
         "Attività illimitate",
         "Insight basati sull'IA",
         "Statistiche avanzate",
         "Widget per la Home",
-        "Assistenza prioritaria",
         "Esperienza senza pubblicità"
       ],
       "cta": "Inizia la prova gratuita"
     },
     "lifetime": {
       "name": "A vita",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "pagamento unico",
       "badge": "Il miglior valore",
       "features": [
@@ -132,7 +131,6 @@
         "Statistiche avanzate",
         "Widget per la Home",
         "Aggiornamenti a vita",
-        "Assistenza prioritaria",
         "Esperienza senza pubblicità"
       ],
       "cta": "Ottieni l'accesso a vita"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox è gratuito?",
-        "answer": "Sì. Il piano gratuito include la pianificazione giornaliera con fino a tre attività al giorno, la timeline visiva e le retrospettive. Chrobox Pro elimina il limite di attività e aggiunge approfondimenti IA, statistiche avanzate, widget per la schermata home e supporto prioritario — con una prova gratuita di 3 giorni, poi $4.99/mese, $39.99/anno, oppure un acquisto una tantum a vita di $99.99."
+        "answer": "Non dopo la prova. Chrobox si scarica gratis e i piani mensile e annuale iniziano con una prova gratuita di 3 giorni per i nuovi abbonati. Dopo, Chrobox Pro costa $3.99/mese, $29.99/anno oppure $39.99 una tantum per l'accesso a vita (prezzi dell'App Store statunitense; su Google Play e in altri paesi possono variare). Se decidi di non continuare, annulla dalle impostazioni di App Store o Google Play prima della fine della prova."
       },
       "vsTimeBlocking": {
         "question": "In cosa il timeboxing differisce dal time blocking e dal Pomodoro?",

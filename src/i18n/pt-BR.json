@@ -90,40 +90,39 @@
     "title": "Preços Simples",
     "subtitle": "Experimente todos os recursos Pro com um teste grátis de 3 dias",
     "trialBadge": "Teste Grátis de 3 Dias",
-    "trialDescription": "Comece sem informar dados de pagamento",
+    "trialDescription": "Cancele quando quiser nas configurações da App Store ou do Google Play",
+    "priceNote": "Preços da App Store dos EUA. Os preços no Google Play e em outros países podem variar.",
     "monthly": {
       "name": "Mensal",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/mês",
       "features": [
         "Tarefas ilimitadas",
         "Insights com IA",
         "Estatísticas avançadas",
         "Widget na tela inicial",
-        "Suporte prioritário",
         "Experiência sem anúncios"
       ],
       "cta": "Começar Teste Grátis"
     },
     "yearly": {
       "name": "Anual",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/ano",
-      "badge": "33% OFF",
-      "monthlyPrice": "$3.33/mês",
+      "badge": "37% OFF",
+      "monthlyPrice": "$2.50/mês",
       "features": [
         "Tarefas ilimitadas",
         "Insights com IA",
         "Estatísticas avançadas",
         "Widget na tela inicial",
-        "Suporte prioritário",
         "Experiência sem anúncios"
       ],
       "cta": "Começar Teste Grátis"
     },
     "lifetime": {
       "name": "Vitalício",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "pagamento único",
       "badge": "Melhor Custo-Benefício",
       "features": [
@@ -132,7 +131,6 @@
         "Estatísticas avançadas",
         "Widget na tela inicial",
         "Atualizações vitalícias",
-        "Suporte prioritário",
         "Experiência sem anúncios"
       ],
       "cta": "Obter Acesso Vitalício"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "O Chrobox é gratuito?",
-        "answer": "Sim. O plano gratuito inclui planejamento diário com até três tarefas por dia, a linha do tempo visual e as retrospectivas. O Chrobox Pro remove o limite de tarefas e adiciona insights de IA, estatísticas avançadas, widgets na tela inicial e suporte prioritário — com um teste gratuito de 3 dias, seguido de $4,99/mês, $39,99/ano, ou uma compra vitalícia única de $99,99."
+        "answer": "Não depois do teste. O Chrobox é gratuito para baixar, e os planos mensal e anual começam com um teste gratuito de 3 dias para novos assinantes. Depois disso, o Chrobox Pro custa $3,99/mês, $29,99/ano ou $39,99 em compra única para acesso vitalício (preços da App Store dos EUA; no Google Play e em outros países podem variar). Se decidir não continuar, cancele nas configurações da App Store ou do Google Play antes do fim do teste."
       },
       "vsTimeBlocking": {
         "question": "Qual a diferença entre timeboxing, time blocking e Pomodoro?",

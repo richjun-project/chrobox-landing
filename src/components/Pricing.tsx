@@ -333,6 +333,9 @@ export function Pricing() {
             />
           ))}
         </Group>
+        <Text size="sm" ta="center" mt={24} style={{ color: tokens.colors.gray500 }}>
+          {t('pricing.priceNote')}
+        </Text>
       </Container>
     </Box>
   );

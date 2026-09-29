@@ -90,40 +90,39 @@
     "title": "Simple Pricing",
     "subtitle": "Experience all Pro features with a 3-day free trial",
     "trialBadge": "3-Day Free Trial",
-    "trialDescription": "Start without payment info",
+    "trialDescription": "Cancel anytime in your App Store or Google Play settings",
+    "priceNote": "US App Store prices. Prices on Google Play and in other countries may differ.",
     "monthly": {
       "name": "Monthly",
-      "price": "$4.99",
+      "price": "$3.99",
       "period": "/month",
       "features": [
         "Unlimited tasks",
         "AI-powered insights",
         "Advanced statistics",
         "Home widget",
-        "Priority support",
         "Ad-free experience"
       ],
       "cta": "Start Free Trial"
     },
     "yearly": {
       "name": "Yearly",
-      "price": "$39.99",
+      "price": "$29.99",
       "period": "/year",
-      "badge": "33% OFF",
-      "monthlyPrice": "$3.33/mo",
+      "badge": "37% OFF",
+      "monthlyPrice": "$2.50/mo",
       "features": [
         "Unlimited tasks",
         "AI-powered insights",
         "Advanced statistics",
         "Home widget",
-        "Priority support",
         "Ad-free experience"
       ],
       "cta": "Start Free Trial"
     },
     "lifetime": {
       "name": "Lifetime",
-      "price": "$99.99",
+      "price": "$39.99",
       "period": "one-time",
       "badge": "Best Value",
       "features": [
@@ -132,7 +131,6 @@
         "Advanced statistics",
         "Home widget",
         "Lifetime updates",
-        "Priority support",
         "Ad-free experience"
       ],
       "cta": "Get Lifetime Access"
@@ -186,7 +184,7 @@
       },
       "isFree": {
         "question": "Is Chrobox free?",
-        "answer": "Yes. The free plan includes daily planning with up to three tasks per day, the visual timeline, and retrospectives. Chrobox Pro removes the task limit and adds AI insights, advanced statistics, home widgets, and priority support — with a 3-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase."
+        "answer": "Not after the trial. Chrobox is free to download, and the monthly and yearly plans start with a 3-day free trial for new subscribers. After that, Chrobox Pro costs $3.99/month, $29.99/year, or a one-time $39.99 for lifetime access (US App Store prices; Google Play and other countries may differ). If you decide not to continue, cancel in your App Store or Google Play settings before the trial ends."
       },
       "vsTimeBlocking": {
         "question": "How is timeboxing different from time blocking and Pomodoro?",

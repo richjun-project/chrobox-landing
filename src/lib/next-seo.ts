@@ -11,7 +11,7 @@ import {
   ogLocale,
   type SiteLocale,
 } from './seo';
-import { COMPANY_INFO, STORE_RATING, THREADS_URL } from './company';
+import { COMPANY_INFO, PRO_PRICES_USD, STORE_RATING, THREADS_URL } from './company';
 
 type PageMetadataInput = {
   locale: SiteLocale;
@@ -177,31 +177,12 @@ export function softwareApplicationSchema(description: string) {
       absoluteUrl('/screenshots/en/8.webp'),
       absoluteUrl('/screenshots/en/6.webp'),
     ],
+    // No free offer: without Pro the app stops at the paywall. Monthly and yearly
+    // start with a store free trial; prices are the US App Store's.
     offers: [
-      {
-        '@type': 'Offer',
-        name: 'Free',
-        price: '0',
-        priceCurrency: 'USD',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Pro Monthly',
-        price: '4.99',
-        priceCurrency: 'USD',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Pro Yearly',
-        price: '39.99',
-        priceCurrency: 'USD',
-      },
-      {
-        '@type': 'Offer',
-        name: 'Pro Lifetime',
-        price: '99.99',
-        priceCurrency: 'USD',
-      },
+      { '@type': 'Offer', name: 'Pro Monthly', price: PRO_PRICES_USD.monthly, priceCurrency: 'USD' },
+      { '@type': 'Offer', name: 'Pro Yearly', price: PRO_PRICES_USD.yearly, priceCurrency: 'USD' },
+      { '@type': 'Offer', name: 'Pro Lifetime', price: PRO_PRICES_USD.lifetime, priceCurrency: 'USD' },
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
