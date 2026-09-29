@@ -5,8 +5,8 @@ export const enBatch2: BlogPostMeta[] = [
     slug: 'best-time-boxing-apps',
     title: '8 Best Timeboxing Apps in 2026: Honest Comparison Guide',
     date: '2025-01-17',
-    updated: '2026-08-09',
-    localesUpdated: '2026-09-24',
+    updated: '2026-09-30',
+    localesUpdated: '2026-09-30',
     itemList: ['Chrobox', 'Sunsama', 'Motion', 'TickTick', 'Structured', 'Tiimo', 'Google Calendar', 'Todoist'],
     author: 'Chrobox Team',
     category: 'Productivity',
@@ -19,20 +19,20 @@ export const enBatch2: BlogPostMeta[] = [
       {
         question: 'What is the best free time-boxing app?',
         questionKo: '최고의 무료 타임박싱 앱은 무엇인가요?',
-        answer: 'Chrobox offers a generous free tier with core time-boxing features. For most users, the free plan provides everything needed to build a solid time-boxing habit.',
-        answerKo: 'Chrobox는 핵심 타임박싱 기능을 포함한 넉넉한 무료 플랜을 제공합니다. 대부분의 사용자에게 무료 플랜은 타임박싱 습관을 만드는 데 충분합니다.',
+        answer: "Chrobox doesn't have a free plan — it's free to download but requires Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
+        answerKo: 'Chrobox는 무료 플랜이 없습니다 — 앱은 무료로 다운로드할 수 있지만 이용하려면 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
       },
       {
         question: 'Which time-boxing app works across iPhone and Android?',
         questionKo: '아이폰과 안드로이드 모두에서 작동하는 타임박싱 앱은 무엇인가요?',
-        answer: 'Chrobox is available on both iOS and Android with real-time sync, making it ideal for users who switch between devices or share tasks with teammates.',
-        answerKo: 'Chrobox는 iOS와 Android 모두에서 실시간 동기화를 지원하여 기기를 전환하거나 팀원과 작업을 공유하는 사용자에게 이상적입니다.',
+        answer: 'Chrobox is available on both iPhone and Android. Your plans, routines, and stats sync across your devices through your account, making it easy to switch between phones.',
+        answerKo: 'Chrobox는 iPhone과 Android 모두에서 사용할 수 있습니다. 계정을 통해 계획, 루틴, 통계가 기기 간에 동기화되어 기기를 전환하기 쉽습니다.',
       },
       {
         question: 'Do time-boxing apps integrate with calendars?',
         questionKo: '타임박싱 앱이 캘린더와 연동되나요?',
-        answer: 'Many top time-boxing apps, including Chrobox, support calendar integration so your time blocks sync with Google Calendar or Apple Calendar automatically.',
-        answerKo: 'Chrobox를 포함한 많은 타임박싱 앱들이 캘린더 연동을 지원하여 시간 블록이 Google 캘린더 또는 Apple 캘린더와 자동으로 동기화됩니다.',
+        answer: "Some time-boxing apps, including Chrobox, show calendar integration: Chrobox displays timed events from the calendars on your phone (including a Google account you've added to your phone) alongside your time boxes, and can optionally copy your Chrobox blocks into one calendar on your phone. It isn't a two-way sync with the Google Calendar or Apple Calendar APIs.",
+        answerKo: '크로박스를 포함한 일부 타임박싱 앱은 캘린더 연동을 제공합니다. 크로박스는 휴대폰의 캘린더(휴대폰에 추가한 Google 계정 포함)에 있는 시간 일정을 타임박스와 함께 보여주고, 원한다면 크로박스 블록을 휴대폰의 캘린더 한 곳에 복사할 수 있습니다. 다만 Google 캘린더나 Apple 캘린더 API와의 양방향 동기화는 아닙니다.',
       },
     ],
   },
@@ -145,7 +145,7 @@ export const koBatch2: BlogPostMeta[] = [
     slug: 'best-time-boxing-apps',
     title: '2026년 최고의 타임박싱 앱 8선: 솔직 비교 가이드',
     date: '2025-01-17',
-    updated: '2026-08-09',
+    updated: '2026-09-30',
     itemList: ['Chrobox', 'Sunsama', 'Motion', 'TickTick', 'Structured', 'Tiimo', 'Google Calendar', 'Todoist'],
     author: 'Chrobox Team',
     category: '생산성',
@@ -158,20 +158,20 @@ export const koBatch2: BlogPostMeta[] = [
       {
         question: 'What is the best free time-boxing app?',
         questionKo: '최고의 무료 타임박싱 앱은 무엇인가요?',
-        answer: 'Chrobox offers a generous free tier with core time-boxing features. For most users, the free plan provides everything needed to build a solid time-boxing habit.',
-        answerKo: 'Chrobox는 핵심 타임박싱 기능을 포함한 넉넉한 무료 플랜을 제공합니다. 대부분의 사용자에게 무료 플랜은 타임박싱 습관을 만드는 데 충분합니다.',
+        answer: "Chrobox doesn't have a free plan — it's free to download but requires Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
+        answerKo: 'Chrobox는 무료 플랜이 없습니다 — 앱은 무료로 다운로드할 수 있지만 이용하려면 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
       },
       {
         question: 'Which time-boxing app works across iPhone and Android?',
         questionKo: '아이폰과 안드로이드 모두에서 작동하는 타임박싱 앱은 무엇인가요?',
-        answer: 'Chrobox is available on both iOS and Android with real-time sync, making it ideal for users who switch between devices or share tasks with teammates.',
-        answerKo: 'Chrobox는 iOS와 Android 모두에서 실시간 동기화를 지원하여 기기를 전환하거나 팀원과 작업을 공유하는 사용자에게 이상적입니다.',
+        answer: 'Chrobox is available on both iPhone and Android. Your plans, routines, and stats sync across your devices through your account, making it easy to switch between phones.',
+        answerKo: 'Chrobox는 iPhone과 Android 모두에서 사용할 수 있습니다. 계정을 통해 계획, 루틴, 통계가 기기 간에 동기화되어 기기를 전환하기 쉽습니다.',
       },
       {
         question: 'Do time-boxing apps integrate with calendars?',
         questionKo: '타임박싱 앱이 캘린더와 연동되나요?',
-        answer: 'Many top time-boxing apps, including Chrobox, support calendar integration so your time blocks sync with Google Calendar or Apple Calendar automatically.',
-        answerKo: 'Chrobox를 포함한 많은 타임박싱 앱들이 캘린더 연동을 지원하여 시간 블록이 Google 캘린더 또는 Apple 캘린더와 자동으로 동기화됩니다.',
+        answer: "Some time-boxing apps, including Chrobox, show calendar integration: Chrobox displays timed events from the calendars on your phone (including a Google account you've added to your phone) alongside your time boxes, and can optionally copy your Chrobox blocks into one calendar on your phone. It isn't a two-way sync with the Google Calendar or Apple Calendar APIs.",
+        answerKo: '크로박스를 포함한 일부 타임박싱 앱은 캘린더 연동을 제공합니다. 크로박스는 휴대폰의 캘린더(휴대폰에 추가한 Google 계정 포함)에 있는 시간 일정을 타임박스와 함께 보여주고, 원한다면 크로박스 블록을 휴대폰의 캘린더 한 곳에 복사할 수 있습니다. 다만 Google 캘린더나 Apple 캘린더 API와의 양방향 동기화는 아닙니다.',
       },
     ],
   },
@@ -296,9 +296,9 @@ We build Chrobox, a timeboxing app — so yes, it appears on this list. But a co
 
 Chrobox is built around the full timeboxing loop rather than a calendar with extra features: brainstorm tasks, pick priorities, drop them into hourly boxes on a visual timeline, then close the day with a guided retrospective that feeds weekly AI analysis. It's also one of the few planners that ties **app blocking** to your time boxes — distracting apps lock exactly during planned deep work.
 
-**Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 21 languages
+**Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 54 languages
 **Weaknesses:** mobile-only (no desktop app), no team features
-**Pricing:** free plan (3 tasks/day); Pro from $4.99/month, $99.99 lifetime
+**Pricing:** 3-day free trial; Pro subscription or one-time lifetime purchase
 
 ### 2. Sunsama — best for calendar-heavy professionals (Web, desktop, mobile)
 
@@ -324,7 +324,7 @@ TickTick is primarily a task manager, but its timeline view and built-in Pomodor
 **Weaknesses:** timeboxing is secondary; no planning ritual or review loop
 **Pricing:** solid free tier; premium around $36/year
 
-### 5. Structured — best visual simplicity (iOS, Android, Mac)
+### 5. Structured — best visual simplicity (iOS, Android, Mac, Watch, Web)
 
 Structured turns your day into a clean vertical timeline and is beloved for its gentle learning curve. Great for students and visual thinkers; less complete when you want statistics or enforcement.
 
@@ -332,13 +332,13 @@ Structured turns your day into a clean vertical timeline and is beloved for its 
 **Weaknesses:** light on analytics, no app blocking
 **Pricing:** free tier; Pro subscription or lifetime
 
-### 6. Tiimo — best for ADHD and neurodivergent planners (iOS, Android)
+### 6. Tiimo — best for ADHD and neurodivergent planners (iOS, Android, Mac, Watch)
 
 Tiimo was designed with and for neurodivergent users: visual schedules, icon-based routines, and gentle transition alerts instead of guilt-inducing overdue flags. If conventional planners have repeatedly failed you, start here or with Chrobox's focus mode.
 
 **Strengths:** genuinely inclusive design, routine visualization
 **Weaknesses:** lighter on classic productivity analytics
-**Pricing:** subscription with free trial
+**Pricing:** limited free tier; Pro yearly includes a 7-day trial (monthly has no trial)
 
 ### 7. Google Calendar — best free option you already have (all platforms)
 
@@ -360,12 +360,12 @@ Todoist's calendar view and Google Calendar two-way sync let checklist devotees 
 
 | App | Core loop | App blocking | Review/retrospective | Free tier | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | ✅ | iOS, Android |
+| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | 3-day trial | iOS, Android |
 | Sunsama | Daily planning | ❌ | ✅ shutdown ritual | trial only | Web, desktop, mobile |
 | Motion | AI scheduling | ❌ | ❌ | trial only | Web, mobile |
 | TickTick | Task list + timeline | ❌ | ❌ | ✅ | All |
-| Structured | Visual timeline | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Visual routines | ❌ | ❌ | trial | iOS, Android |
+| Structured | Visual timeline | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Visual routines | ❌ | ✅ mood/reflection | Limited free | iOS, Android, Mac, Watch |
 | Google Calendar | Manual blocks | ❌ | ❌ | ✅ | All |
 | Todoist | Tasks + calendar | ❌ | ❌ | ✅ | All |
 
@@ -398,9 +398,9 @@ The honest bottom line: any of these apps beats no system at all. Pick the one w
 
 크로박스는 부가 기능이 달린 캘린더가 아니라 타임박싱 루프 전체를 중심으로 설계됐습니다. 할 일 브레인스토밍 → 우선순위 선택 → 시각적 타임라인에 시간대 배치 → 가이드형 회고로 하루 마무리, 그리고 주간 AI 분석까지 이어집니다. 계획한 딥워크 시간에 방해 앱이 정확히 잠기는 **타임박스 연동 앱 차단**을 제공하는 몇 안 되는 플래너이기도 합니다.
 
-**강점:** 계획→집중→회고 루프 완결, 박스 연동 앱 차단, 위젯·Live Activity 타이머, 21개 언어
+**강점:** 계획→집중→회고 루프 완결, 박스 연동 앱 차단, 위젯·Live Activity 타이머, 54개 언어
 **약점:** 모바일 전용(데스크톱 없음), 팀 기능 없음
-**가격:** 무료 플랜(하루 3개 할 일), Pro 월 $4.99부터, $99.99 평생 이용권
+**가격:** 3일 무료 체험; Pro 구독 또는 평생 이용권 단건 구매
 
 ### 2. Sunsama — 캘린더 중심 직장인에게 최적 (웹, 데스크톱, 모바일)
 
@@ -426,7 +426,7 @@ TickTick의 본질은 태스크 매니저지만, 타임라인 뷰와 내장 뽀�
 **약점:** 타임박싱이 부차적 기능, 계획 의식·회고 루프 없음
 **가격:** 탄탄한 무료 플랜, 프리미엄 연 약 $36
 
-### 5. Structured — 시각적 단순함의 최고봉 (iOS, Android, Mac)
+### 5. Structured — 시각적 단순함의 최고봉 (iOS, Android, Mac, Watch, 웹)
 
 Structured는 하루를 깔끔한 세로 타임라인으로 보여주며 완만한 학습 곡선으로 사랑받습니다. 학생과 시각형 사고자에게 좋지만, 통계나 강제 장치를 원하면 아쉽습니다.
 
@@ -434,13 +434,13 @@ Structured는 하루를 깔끔한 세로 타임라인으로 보여주며 완만�
 **약점:** 분석 기능 빈약, 앱 차단 없음
 **가격:** 무료 플랜, Pro 구독 또는 평생 구매
 
-### 6. Tiimo — ADHD·신경다양인 플래너 (iOS, Android)
+### 6. Tiimo — ADHD·신경다양인 플래너 (iOS, Android, Mac, Watch)
 
 Tiimo는 신경다양인 사용자와 함께, 그들을 위해 설계됐습니다. 시각적 일정, 아이콘 기반 루틴, 죄책감을 주는 '기한 초과' 대신 부드러운 전환 알림을 제공합니다. 기존 플래너가 번번이 실패했다면 Tiimo나 크로박스의 집중 모드부터 시도해 보세요.
 
 **강점:** 진정성 있는 포용적 설계, 루틴 시각화
 **약점:** 전통적 생산성 분석은 가벼움
-**가격:** 무료 체험 포함 구독
+**가격:** 제한된 무료 플랜; Pro 연간 요금제는 7일 무료 체험 포함(월간은 체험 없음)
 
 ### 7. Google 캘린더 — 이미 갖고 있는 최고의 무료 옵션 (전 플랫폼)
 
@@ -462,12 +462,12 @@ Todoist의 캘린더 뷰와 Google 캘린더 양방향 동기화 덕분에, 체�
 
 | 앱 | 핵심 루프 | 앱 차단 | 회고 | 무료 플랜 | 플랫폼 |
 |---|---|---|---|---|---|
-| 크로박스 | 타임박싱 전체 | ✅ | ✅ AI 회고 | ✅ | iOS, Android |
+| 크로박스 | 타임박싱 전체 | ✅ | ✅ AI 회고 | 3일 체험 | iOS, Android |
 | Sunsama | 데일리 플래닝 | ❌ | ✅ 마감 의식 | 체험판만 | 웹, 데스크톱, 모바일 |
 | Motion | AI 스케줄링 | ❌ | ❌ | 체험판만 | 웹, 모바일 |
 | TickTick | 할 일 + 타임라인 | ❌ | ❌ | ✅ | 전체 |
-| Structured | 시각 타임라인 | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | 시각 루틴 | ❌ | ❌ | 체험판 | iOS, Android |
+| Structured | 시각 타임라인 | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, 웹 |
+| Tiimo | 시각 루틴 | ❌ | ✅ 기분/회고 | 제한된 무료 | iOS, Android, Mac, Watch |
 | Google 캘린더 | 수동 블록 | ❌ | ❌ | ✅ | 전체 |
 | Todoist | 작업 + 캘린더 | ❌ | ❌ | ✅ | 전체 |
 

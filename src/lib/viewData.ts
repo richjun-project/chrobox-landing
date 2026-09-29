@@ -236,6 +236,11 @@ const DIRECT_ANSWER_SLUGS = new Set([
   'time-boxing-mistakes-to-avoid',
   'digital-detox-focus-routine',
   'time-boxing-for-working-parents',
+  'does-timeboxing-work',
+  'how-to-lock-apps-on-iphone',
+  'how-to-stop-checking-phone-while-studying',
+  'reduce-phone-addiction',
+  'daily-reflection-template',
 ]);
 
 export function postDirectAnswer(post: BlogPostMeta): BlogFaq | null {

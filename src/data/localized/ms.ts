@@ -65,7 +65,7 @@ export const pack: LocalizedContentPack = {
       chroboxPros: [
         'Direka khusus untuk produktiviti peribadi dan kerja fokus',
         'Menggabungkan tugasan dan blok masa dalam satu paparan',
-        'Pemasa fokus gaya Pomodoro terbina dalam',
+        'Pemasa fokus terbina dalam yang dikaitkan dengan setiap blok masa',
         'Mengelakkan kalendar berserabut melalui penjadualan yang terancang',
       ],
       competitorPros: [
@@ -78,7 +78,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Adakah Chrobox disinkronkan dengan Google Calendar?',
-          answer: 'Ya, Chrobox berintegrasi dengan Google Calendar supaya mesyuarat dan acara anda dipaparkan di samping blok kerja penyekatan masa anda untuk paparan hari yang lengkap.',
+          answer: 'Chrobox memaparkan acara daripada kalendar yang sudah ada pada telefon anda — termasuk akaun Google yang telah anda tambahkan ke telefon anda — di samping blok kerja berkotak masa anda, dan secara pilihan boleh menyalin blok Chrobox anda ke dalam satu kalendar pada telefon anda. Ia tidak berhubung terus dengan API Google Calendar atau bersegerak dua hala.',
         },
         {
           question: 'Adakah Chrobox pengganti kepada Google Calendar?',
@@ -301,7 +301,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Adakah Chrobox berfungsi tanpa sambungan internet?',
-          answer: 'Chrobox direka sebagai aplikasi yang mengutamakan peranti mudah alih dan berfungsi secara luar talian untuk ciri-ciri utama kotak masa. Data anda akan disegerakkan apabila anda menyambung semula ke internet.',
+          answer: 'Chrobox memerlukan sambungan internet — rancangan, rutin dan statistik anda disegerakkan ke akaun anda secara masa nyata, dan ia tidak menawarkan mod luar talian buat masa ini.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Adakah Chrobox tersedia di Windows?',
-          answer: 'Chrobox terutamanya merupakan aplikasi mudah alih yang tersedia di iOS dan Android. Bagi pengguna Windows, versi web membolehkan anda mengakses jadual pengkotakan masa anda dari mana-mana pelayar.',
+          answer: 'Chrobox ialah aplikasi mudah alih khusus untuk iPhone dan Android sahaja — tiada aplikasi Windows atau web. Jika anda menggunakan Windows sepanjang hari, anda masih boleh menyemak dan mengemas kini jadual anda daripada telefon anda di sampingnya.',
         },
       ],
     },
@@ -398,7 +398,7 @@ export const pack: LocalizedContentPack = {
       metaDescription: 'Chrobox vs TickTick: time-boxing berfokus untuk seluruh hari anda vs aplikasi serba lengkap dengan tugasan, tabiat, dan pemasa Pomodoro.',
       featureNames: [
         'Time-Boxing',
-        'Pemasa Pomodoro',
+        'Pemasa Fokus',
         'Penjejak Tabiat',
         'Paparan Kalendar',
         'Paparan Jadual Harian',
@@ -421,8 +421,8 @@ export const pack: LocalizedContentPack = {
       verdict: 'TickTick ialah aplikasi serba boleh yang mantap dengan penjejakan tabiat dan pemasa Pomodoro yang hebat. Chrobox adalah lebih baik jika anda mahukan pengalaman time-boxing yang khusus dan lancar tanpa gangguan ciri-ciri tambahan.',
       faqs: [
         {
-          question: 'Adakah Chrobox mempunyai pemasa Pomodoro seperti TickTick?',
-          answer: 'Ya, Chrobox menyertakan pemasa fokus terbina dalam yang direka untuk melengkapkan blok time-boxing anda. Setiap blok masa boleh dimulakan dengan pemasa fokus untuk memastikan anda kekal di landasan yang betul.',
+          question: 'Adakah Chrobox mempunyai pemasa fokus seperti pemasa Pomodoro TickTick?',
+          answer: 'Chrobox menyertakan pemasa fokus terbina dalam untuk setiap blok masa, tetapi ia bukan pemasa Pomodoro — tiada kitaran kerja/rehat atau bilangan sesi. Anda memulakan satu detik imbas tunggal (praset seperti 15/25/30/45/60/90/120 minit, atau tempoh tersuai) untuk tugasan yang sedang anda kerjakan, dan tugasan itu ditandakan selesai apabila pemasa mencecah sifar.',
         },
         {
           question: 'Bolehkah TickTick melakukan time-boxing seperti Chrobox?',
@@ -431,6 +431,221 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Aplikasi manakah yang lebih baik untuk pelajar?',
           answer: 'Kedua-dua aplikasi berfungsi dengan baik untuk pelajar. Penjejak tabiat TickTick sangat bagus untuk membina tabiat belajar, manakala ciri time-boxing Chrobox membantu anda menjadualkan sesi pembelajaran secara realistik supaya anda dapat merangkumi semua subjek tanpa kesuntukan masa.',
+        },
+      ],
+    },
+    'chrobox-vs-structured': {
+      competitor: 'Structured',
+      tagline: 'Chrobox lwn Structured: Penyekatan Aplikasi lwn Garis Masa Ekosistem Apple',
+      description: 'Structured ialah perancang garis masa visual yang kemas dan terikat rapat dengan peranti Apple, dengan pelan percuma dan penjadualan automatik AI pada Pro. Chrobox ialah aplikasi timeboxing khusus telefon yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada pelan percuma dan tiada aplikasi Mac, Watch atau web.',
+      metaDescription: 'Chrobox lwn Structured: penyekatan aplikasi pada setiap kotak masa lwn perancang garis masa ekosistem Apple yang percuma dengan penjadualan AI. Lihat perbandingan sebenar.',
+      featureNames: [
+        'Penyekatan Aplikasi',
+        'Pelan Percuma',
+        'Garis Masa / Pemblokan Masa',
+        'Aplikasi Mac / Apple Watch',
+        'Penjadualan Automatik AI',
+        'Rutin / Rentetan Tabiat',
+        'Pemasa Fokus',
+        'Retrospektif Harian',
+      ],
+      chroboxPros: [
+        'Menyekat aplikasi pilihan anda secara automatik untuk tempoh tepat setiap kotak masa',
+        'Rutin membawa rentetan, peta haba 90 hari dan statistik setiap rutin',
+        'Analisis AI harian dan mingguan bagi tugasan, mood dan tabiat anda yang telah disiapkan',
+        'Retrospektif harian dengan penilaian mood dan dikte suara pilihan',
+      ],
+      competitorPros: [
+        'Peringkat percuma merangkumi garis masa, peti masuk, subtugasan, nota dan widget tanpa langganan',
+        'Aplikasi asli pada Mac, Apple Watch, Vision Pro dan web, bukan sekadar telefon',
+        'Penilaian 4.8 bintang dengan lebih kurang 167,000 penilaian App Store, salah satu perancang paling banyak diulas (setakat September 2026)',
+        'Pro menambah import kalendar dan peringatan, Structured AI dan Replan untuk aliran kerja berteraskan Apple',
+      ],
+      verdict: 'Pilih Structured jika anda menggunakan Mac, Apple Watch dan iPhone secara bersepadu dan mahukan perancang garis masa percuma dengan kehalusan asli Apple. Pilih Chrobox jika anda khususnya mahu masa yang dirancang turut mengunci aplikasi yang mengganggu, ditambah rutin dan refleksi harian, dan anda hanya memerlukannya pada telefon.',
+      faqs: [
+        {
+          question: 'Adakah Chrobox alternatif yang baik untuk Structured?',
+          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda mahukan daripada Structured ialah garis masa ditambah sesuatu yang tidak dilakukan oleh Structured: menyekat aplikasi yang mengganggu secara automatik semasa setiap kotak masa. Ia bukan pengganti jika anda memerlukan pelan percuma Structured atau aplikasi Mac, Apple Watch atau webnya, kerana Chrobox hanya untuk telefon dan hanya Pro.',
+        },
+        {
+          question: 'Apakah perbezaan antara Chrobox dan Structured?',
+          answer: 'Structured ialah perancang garis masa pelbagai platform yang percuma dan terbina rapat dalam ekosistem Apple (Mac, Apple Watch, Vision Pro) dengan penjadualan AI pada peringkat Pro. Chrobox ialah aplikasi timeboxing khusus telefon dan hanya langganan, di mana blok masa yang dirancang juga boleh menyekat aplikasi pilihan secara automatik, serta menambah rentetan rutin dan retrospektif mood harian.',
+        },
+        {
+          question: 'Adakah Structured menyekat aplikasi yang mengganggu seperti Chrobox?',
+          answer: 'Tidak, penyekatan aplikasi bukan sebahagian daripada ciri yang didokumenkan oleh Structured. Structured memberi tumpuan kepada menggabungkan tugasan dan acara kalendar ke dalam satu garis masa visual; jika menyekat aplikasi semasa waktu fokus penting bagi anda, itu adalah ciri khusus Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-tiimo': {
+      competitor: 'Tiimo',
+      tagline: 'Chrobox lwn Tiimo: Penyekatan Aplikasi lwn Perancangan Berfokus Neurodivergen',
+      description: 'Tiimo ialah perancang AI visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif ADHD dan autisme, dan dinamakan Apple\'s 2025 iPhone App of the Year. Chrobox ialah aplikasi timeboxing serba guna untuk telefon yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada reka bentuk khusus ADHD atau pelan percuma seperti Tiimo.',
+      metaDescription: 'Chrobox lwn Tiimo: timeboxing dengan penyekatan aplikasi lwn perancang visual berfokus ADHD/autisme dengan AI. Bandingkan ciri secara jujur sebelum bertukar.',
+      featureNames: [
+        'Penyekatan Aplikasi',
+        'Pelan Percuma',
+        'Garis Masa Visual',
+        'Import Kalendar',
+        'Perancangan AI',
+        'Rutin / Rentetan Tabiat',
+        'Penjejakan Mood / Refleksi',
+        'Aplikasi Mac / Web',
+      ],
+      chroboxPros: [
+        'Menyekat aplikasi pilihan anda secara automatik untuk tempoh tepat setiap kotak masa',
+        'Pemasa fokus dengan praset 15 hingga 120 minit dipaparkan dalam Live Activity / Dynamic Island',
+        'Analisis AI harian dan mingguan merangkumi tugasan, tabiat dan mood, dengan tajuk AI mingguan yang boleh dikongsi',
+        'Rentetan rutin dan peta haba penyiapan 90 hari',
+      ],
+      competitorPros: [
+        'Direka khusus untuk keperluan fungsi eksekutif ADHD dan autisme, dinamakan Apple\'s 2025 iPhone App of the Year',
+        'Peringkat percuma terhad pada iOS dan Android, ditambah pelan Pro dengan percubaan 7 hari untuk bil tahunan',
+        'Import kalendar daripada Google, Apple dan Outlook',
+        'Aplikasi Mac (Apple Silicon), Apple Watch, Vision Pro dan web selain telefon, serta penilaian 4.6 bintang dengan lebih kurang 20,000 penilaian (setakat September 2026)',
+      ],
+      verdict: 'Pilih Tiimo jika anda khususnya memerlukan perancangan visual berorientasikan ADHD/autisme, mahukan peringkat percuma untuk bermula, atau menggunakan Mac atau Apple Watch. Pilih Chrobox jika anda mahukan aplikasi timeboxing yang mudah tetapi turut menyekat aplikasi yang mengganggu semasa kerja berjadual anda, dan anda selesa merancang hanya daripada telefon.',
+      faqs: [
+        {
+          question: 'Adakah Chrobox alternatif yang baik untuk Tiimo?',
+          answer: 'Chrobox ialah alternatif yang munasabah jika anda mahukan timeboxing umum dengan penyekatan aplikasi automatik, kerana Tiimo tidak menyekat aplikasi. Ia bukan pengganti untuk reka bentuk visual khusus ADHD/autisme, peringkat percuma, atau aplikasi Mac dan Apple Watch milik Tiimo, yang tiada pada Chrobox.',
+        },
+        {
+          question: 'Apakah perbezaan antara Chrobox dan Tiimo?',
+          answer: 'Tiimo ialah perancang visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif neurodivergen, dengan peringkat percuma terhad dan aplikasi merentasi Mac, Apple Watch, Vision Pro dan web. Chrobox ialah aplikasi timeboxing khusus telefon dan hanya langganan, dengan perbezaan struktur utama ialah penyekatan aplikasi automatik yang dikaitkan dengan setiap kotak masa yang dirancang.',
+        },
+        {
+          question: 'Adakah Tiimo menyekat aplikasi yang mengganggu seperti Chrobox?',
+          answer: 'Tidak, penyekatan aplikasi bukan sebahagian daripada ciri yang didokumenkan oleh Tiimo. Tiimo memberi tumpuan kepada perancangan visual berbantukan AI dan import kalendar; jika anda mahu masa yang dirancang turut mengunci aplikasi yang mengganggu, itu adalah ciri khusus Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-sunsama': {
+      competitor: 'Sunsama',
+      tagline: 'Chrobox lwn Sunsama: Timeboxing Telefon lwn Hab Kerja Merentasi Platform',
+      description: 'Sunsama ialah perancang harian berasaskan web untuk profesional yang menarik tugasan daripada alat seperti Asana, Notion, Slack dan Gmail, dengan penyegerakan kalendar dua hala yang tulen dan ritual penutup hari yang berstruktur. Chrobox ialah aplikasi timeboxing khusus telefon tanpa integrasi alat tugasan atau penyegerakan kalendar, tetapi ia menambah penyekatan aplikasi automatik dan pemasa fokus yang dikaitkan dengan setiap kotak masa.',
+      metaDescription: 'Chrobox lwn Sunsama: timeboxing khusus telefon dengan penyekatan aplikasi lwn perancang berasaskan web dengan integrasi mendalam dan penyegerakan kalendar.',
+      featureNames: [
+        'Integrasi dengan Alat Tugasan',
+        'Penyegerakan Kalendar Dua Hala',
+        'Aplikasi Mac / Windows / Web',
+        'Penyekatan Aplikasi',
+        'Pelan Percuma',
+        'Semakan Harian / Retrospektif',
+        'Percubaan Percuma',
+        'Rutin / Rentetan Tabiat',
+      ],
+      chroboxPros: [
+        'Menyekat aplikasi pilihan anda secara automatik untuk tempoh tepat setiap kotak masa, yang tidak dilakukan oleh Sunsama',
+        'Pemasa fokus manual dengan praset yang dikaitkan terus dengan setiap tugasan, dipaparkan dalam Live Activity / Dynamic Island',
+        'Rutin dengan rentetan, peta haba 90 hari dan statistik setiap rutin',
+        'Retrospektif harian dengan penilaian mood 5 peringkat dan dikte suara pilihan',
+      ],
+      competitorPros: [
+        'Menarik tugasan daripada Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello dan banyak lagi',
+        'Penyegerakan kalendar dua hala yang tulen dengan Google dan Outlook',
+        'Berjalan pada web, macOS, Windows dan Linux selain telefon, bukan khusus telefon',
+        'Ritual penutup hari yang berstruktur dengan sorotan dan objektif mingguan; $20/bulan atau $16/bulan dibilkan tahunan dengan percubaan percuma 14 hari (setakat September 2026)',
+      ],
+      verdict: 'Pilih Sunsama jika kerja anda sudah tersebar merentasi alat seperti Notion, Slack dan Asana serta anda memerlukan penyegerakan kalendar dua hala pada komputer riba. Pilih Chrobox jika anda merancang terutamanya pada telefon dan mahukan masa berjadual anda turut menyekat aplikasi yang mengganggu, tanpa memerlukan sebarang integrasi.',
+      faqs: [
+        {
+          question: 'Adakah Chrobox alternatif yang baik untuk Sunsama?',
+          answer: 'Chrobox ialah alternatif yang baik hanya jika anda tidak bergantung pada integrasi atau penyegerakan kalendar Sunsama. Chrobox tiada sambungan kepada alat tugasan seperti Notion, Slack atau Asana dan tiada penyegerakan kalendar dua hala, jadi jika itulah sebab anda menggunakan Sunsama, Chrobox tidak akan menggantikannya. Jika anda terutamanya mahukan jadual mudah berasaskan telefon yang turut menyekat aplikasi yang mengganggu, Chrobox merangkumi itu.',
+        },
+        {
+          question: 'Apakah perbezaan antara Chrobox dan Sunsama?',
+          answer: 'Sunsama ialah perancang berasaskan web yang berhubung dengan alat kerja anda yang lain dan bersegerak dua hala dengan kalendar anda, serta berjalan pada web, Mac, Windows dan Linux selain telefon. Chrobox ialah aplikasi khusus telefon tanpa integrasi atau penyegerakan kalendar, tetapi menambah penyekatan aplikasi automatik dan pemasa fokus manual yang dikaitkan dengan setiap kotak masa.',
+        },
+        {
+          question: 'Adakah Chrobox bersegerak dengan Google Calendar seperti Sunsama?',
+          answer: 'Tidak. Chrobox hanya memaparkan acara berwaktu daripada kalendar yang sudah ada pada telefon anda dan boleh menyalin bloknya sendiri ke dalam satu kalendar telefon pilihan; ia tiada sambungan API Google Calendar langsung atau penyegerakan dua hala. Sunsama mempunyai penyegerakan dua hala yang tulen dengan Google dan Outlook.',
+        },
+      ],
+    },
+    'chrobox-vs-opal': {
+      competitor: 'Opal',
+      tagline: 'Chrobox lwn Opal: Penyekatan Berjadual lwn Kawalan Screen Time Sentiasa Aktif',
+      description: 'Opal ialah alat screen time dan penyekatan aplikasi khusus dengan Hard Mode yang ketat dan tidak boleh dimatikan pada pertengahan sesi, ditambah pelan percuma. Chrobox ialah aplikasi timeboxing terlebih dahulu, dan hanya menyekat aplikasi pilihan anda semasa kotak masa yang anda jadualkan, tanpa padanan untuk Hard Mode Opal yang sentiasa aktif dan tiada pelan percuma.',
+      metaDescription: 'Chrobox lwn Opal: penyekatan aplikasi berasaskan jadual dengan perancang sehari penuh lwn penyekat khusus yang sentiasa aktif dengan pelan percuma.',
+      featureNames: [
+        'Garis Masa / Perancang Sehari Penuh',
+        'Penyekatan Aplikasi',
+        'Mod Penyekatan Sentiasa Aktif',
+        'Pelan Percuma',
+        'Perancangan Tugasan',
+        'Pemasa Fokus',
+        'Penjejakan Tabiat / Penggunaan',
+        'Perancangan AI',
+      ],
+      chroboxPros: [
+        'Garis masa sehari penuh yang merancang tugasan terlebih dahulu, kemudian mengaitkan penyekatan aplikasi secara automatik kepada kotak masa tertentu',
+        'Cadangan tugasan AI dan penempatan masa AI berdasarkan 7 hari terakhir tugasan yang anda siapkan',
+        'Rentetan rutin dan peta haba 90 hari di samping penyekatan, bukan sekadar statistik penggunaan',
+        'Analisis AI harian dan mingguan bagi tugasan, tabiat dan mood',
+      ],
+      competitorPros: [
+        'Penyekatan Hard Mode yang tidak boleh dimatikan pada pertengahan sesi, ditambah mod Allow Only, untuk mereka yang memerlukan penyekatan yang benar-benar tidak boleh dielakkan',
+        'Pelan percuma dengan satu peraturan setiap satu untuk jadual, had masa dan had terbuka',
+        'Penilaian 4.7 bintang dengan lebih kurang 89,000 penilaian, antara aplikasi penyekat paling banyak diulas (setakat September 2026)',
+        'Pro pada $19.99/bulan (percubaan 3 hari), $99.99/tahun (percubaan 1 minggu), atau $399 seumur hidup, dengan laporan penggunaan yang jelas (setakat September 2026)',
+      ],
+      verdict: 'Pilih Opal jika anda memerlukan penyekatan yang begitu ketat sehingga tidak boleh dimatikan pada pertengahan sesi, atau mahu bermula secara percuma. Pilih Chrobox jika anda mahu penyekatan berlaku secara automatik sebagai hasil sampingan daripada merancang keseluruhan hari anda, dengan tugasan, rutin dan refleksi yang terbina di dalamnya.',
+      faqs: [
+        {
+          question: 'Adakah Chrobox alternatif yang baik untuk Opal?',
+          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda benar-benar mahukan ialah perancang yang turut menyekat aplikasi semasa kerja berjadual, berbanding penyekat khusus. Ia bukan pengganti untuk Hard Mode Opal, yang tidak boleh dilumpuhkan pada pertengahan sesi dan lebih ketat daripada apa jua yang ditawarkan Chrobox, dan Chrobox tiada pelan percuma manakala Opal ada.',
+        },
+        {
+          question: 'Apakah perbezaan antara Chrobox dan Opal?',
+          answer: 'Opal ialah penyekat screen time khusus dengan pelan percuma dan Hard Mode yang tidak boleh dimatikan sebaik sahaja bermula. Chrobox ialah perancang timeboxing di mana penyekatan aplikasi dikaitkan dengan kotak masa yang anda jadualkan untuk tugasan dan rutin, dan berjalan bersama perancangan tugasan, rutin dan analisis AI, tetapi hanya untuk Pro.',
+        },
+        {
+          question: 'Adakah Chrobox mempunyai Hard Mode seperti Opal?',
+          answer: 'Tidak. Chrobox hanya menyekat aplikasi pilihan anda untuk tempoh kotak masa yang dijadualkan, menggunakan Screen Time API Apple pada iOS atau lapisan Kebolehcapaian pada Android, dan tiada mod sentiasa aktif yang menentang untuk dimatikan pada pertengahan sesi seperti Hard Mode Opal.',
+        },
+      ],
+    },
+    'chrobox-vs-forest': {
+      competitor: 'Forest',
+      tagline: 'Chrobox lwn Forest: Timeboxing Sepanjang Hari lwn Sesi Fokus Bergamifikasi',
+      description: 'Forest ialah pemasa fokus percuma dan bergamifikasi yang menumbuhkan pokok maya semasa anda menjauhi telefon, dengan penyekatan aplikasi dan sesi fokus berkumpulan terbina dalam peringkat percumanya. Chrobox merancang keseluruhan hari anda ke dalam kotak masa dengan rutin dan refleksi, serta menyekat aplikasi yang dikaitkan dengan kotak masa tersebut, tetapi tiada gamifikasi dan tiada pelan percuma.',
+      metaDescription: 'Chrobox lwn Forest: timeboxing sehari penuh dengan penyekatan aplikasi lwn pemasa fokus percuma bergamifikasi dengan sesi berkumpulan dan pokok sebenar.',
+      featureNames: [
+        'Pelan Percuma',
+        'Garis Masa / Perancang Sehari Penuh',
+        'Penyekatan Aplikasi',
+        'Gamifikasi (Pokok, Ganjaran)',
+        'Pemasa Fokus',
+        'Fokus Berkumpulan / Dikongsi',
+        'Rutin / Rentetan Tabiat',
+        'Perancangan AI',
+      ],
+      chroboxPros: [
+        'Merancang keseluruhan hari anda ke dalam kotak masa, bukan sekadar memasa sesi fokus individu',
+        'Penyekatan aplikasi dikaitkan secara automatik dengan tugasan dan rutin tertentu, bukan dimulakan sebagai sesi berasingan',
+        'Rutin dengan rentetan, peta haba 90 hari dan statistik setiap rutin',
+        'Cadangan tugasan AI, penempatan masa AI, serta analisis AI harian/mingguan',
+      ],
+      competitorPros: [
+        'Pengalaman teras percuma merangkumi pemasa fokus, penyekatan aplikasi Deep Focus, fokus berkumpulan dan analitik asas',
+        'Motivasi bergamifikasi: pokok maya tumbuh semasa anda kekal fokus, dengan pokok sebenar ditanam melalui Trees for the Future',
+        'Sesi fokus berkumpulan ("Plant Together") untuk menjauhi telefon bersama rakan',
+        '60 juta+ muat turun (dakwaan sendiri) dan penilaian 4.8 bintang dengan lebih kurang 49,000 penilaian (setakat September 2026)',
+      ],
+      verdict: 'Pilih Forest jika anda mahukan cara percuma dan bermotivasi untuk menjauhi telefon semasa sesi fokus individu, terutamanya bersama rakan. Pilih Chrobox jika anda mahukan keseluruhan hari anda dirancang ke dalam kotak masa, dengan penyekatan aplikasi, rutin dan refleksi dibina di sekeliling jadual tersebut berbanding sesi tunggal.',
+      faqs: [
+        {
+          question: 'Adakah Chrobox alternatif yang baik untuk Forest?',
+          answer: 'Chrobox ialah alternatif yang baik jika anda mahukan penyekatan aplikasi sebagai sebahagian daripada perancangan sehari penuh tugasan berbanding sebagai pemasa sesi berasingan. Ia bukan pengganti untuk peringkat percuma Forest, motivasi bergamifikasi menumbuhkan pokok, atau sesi fokus berkumpulan, yang semuanya tiada pada Chrobox.',
+        },
+        {
+          question: 'Apakah perbezaan antara Chrobox dan Forest?',
+          answer: 'Forest ialah pemasa fokus percuma dan bergamifikasi di mana menjauhi telefon menumbuhkan pokok maya, dan merangkumi penyekatan aplikasi serta sesi berkumpulan dalam peringkat percumanya. Chrobox ialah perancang khusus telefon dan hanya untuk Pro yang menjadualkan keseluruhan hari anda ke dalam kotak masa, mengaitkan penyekatan aplikasi dengan kotak masa dan rutin tersebut, serta menambah perancangan AI dan retrospektif mood harian, tetapi tiada gamifikasi atau ciri berkumpulan.',
+        },
+        {
+          question: 'Adakah Chrobox mempunyai pelan percuma seperti Forest?',
+          answer: 'Tidak. Chrobox percuma untuk dimuat turun tetapi memerlukan Chrobox Pro untuk digunakan, bermula dengan percubaan percuma 3 hari untuk pelanggan baharu pada pelan bulanan atau tahunan. Forest menawarkan pengalaman teras yang benar-benar percuma termasuk pemasa fokus dan penyekatan aplikasi Deep Focus.',
         },
       ],
     },
@@ -568,15 +783,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Apakah aplikasi time-boxing percuma yang terbaik?',
-          answer: 'Chrobox menawarkan pelan percuma yang sangat baik dengan ciri-ciri asas time-boxing. Bagi kebanyakan pengguna, pelan percuma ini sudah memadai untuk membina tabiat time-boxing yang mantap.',
+          answer: 'Chrobox tiada pelan percuma — ia percuma untuk dimuat turun tetapi memerlukan Chrobox Pro, yang bermula dengan percubaan percuma 3 hari. Jika anda mahukan pilihan timeboxing yang sepenuhnya percuma, pemblokan masa manual dalam Google Calendar tidak dikenakan sebarang kos, walaupun ia tiada penangkapan tugasan, pemasa fokus, dan penyekatan aplikasi seperti Chrobox.',
         },
         {
           question: 'Aplikasi time-boxing manakah yang boleh digunakan pada iPhone dan Android?',
-          answer: 'Chrobox tersedia pada kedua-dua iOS dan Android dengan penyegerakan masa nyata, menjadikannya sangat sesuai untuk pengguna yang kerap bertukar peranti atau berkongsi tugasan dengan rakan sepasukan.',
+          answer: 'Chrobox tersedia pada kedua-dua iPhone dan Android. Rancangan, rutin dan statistik anda disegerakkan merentasi peranti anda melalui akaun anda, memudahkan anda bertukar antara telefon.',
         },
         {
           question: 'Adakah aplikasi time-boxing menyokong integrasi dengan kalendar?',
-          answer: 'Banyak aplikasi time-boxing terkemuka, termasuk Chrobox, menyokong integrasi kalendar supaya blok masa anda disegerakkan dengan Google Calendar atau Apple Calendar secara automatik.',
+          answer: 'Sesetengah aplikasi time-boxing, termasuk Chrobox, memaparkan integrasi kalendar: Chrobox memaparkan acara berwaktu daripada kalendar pada telefon anda (termasuk akaun Google yang telah anda tambahkan ke telefon anda) di samping kotak masa anda, dan secara pilihan boleh menyalin blok Chrobox anda ke dalam satu kalendar pada telefon anda. Ia bukan penyegerakan dua hala dengan API Google Calendar atau Apple Calendar.',
         },
       ],
     },
@@ -1051,6 +1266,116 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Adakah detoks digital sama dengan kerja mendalam?',
           answer: 'Kedua-duanya bertindih tetapi tidak serupa. Detoks digital adalah tentang mengurangkan pendedahan keseluruhan kepada skrin dan pemberitahuan untuk mengurangkan tekanan minda serta mengembalikan tempoh tumpuan; manakala kerja mendalam adalah tentang melindungi blok masa tertentu untuk tugasan yang memerlukan keupayaan kognitif yang tinggi. Rutin fokus yang realistik menggunakan tabiat detoks digital (pagi tanpa telefon, menyekat aplikasi yang melalaikan) untuk memudahkan anda memulakan dan mengekalkan sesi kerja mendalam.',
+        },
+      ],
+    },
+    'does-timeboxing-work': {
+      title: 'Adakah Timeboxing Benar-benar Berkesan? Data Penyelesaian daripada 5,077 Tugasan yang Dirancang',
+      excerpt: 'Tugasan yang diberikan slot masa disiapkan 48.1% daripada masa; tugasan yang hanya berada dalam senarai, 17.6%. Data pihak pertama daripada 5,077 tugasan yang dirancang oleh 250 pengguna Chrobox, lengkap dengan metodologi dan hadnya.',
+      faqs: [
+        {
+          question: 'Adakah timeboxing benar-benar berkesan?',
+          answer: 'Dalam data penggunaan Chrobox, tugasan yang diberikan masa mula dan tempoh disiapkan 48.1% daripada masa, berbanding 17.6% untuk tugasan yang hanya ditinggalkan dalam senarai tanpa slot masa — kira-kira 2.7 kali lebih kerap (5,077 tugasan daripada 250 orang, Disember 2025 hingga September 2026). Jurang ini kekal apabila orang yang sama dibandingkan dengan diri sendiri: 35 daripada 41 pengguna menyiapkan lebih banyak tugasan berkotak masa mereka. Ini adalah data pemerhatian, jadi ia menunjukkan perkaitan yang kuat, bukan bukti sebab-akibat.',
+        },
+        {
+          question: 'Apakah tempoh terbaik untuk satu kotak masa?',
+          answer: 'Kadar penyelesaian kekal hampir 50% untuk kotak masa sehingga 90 minit dan menurun kepada kira-kira 44–45% untuk kotak masa lebih daripada 90 minit. 60 minit adalah tempoh yang paling biasa (51% daripada semua kotak masa), sebahagiannya kerana itulah tempoh lalai apabila satu tugasan diletakkan pada satu jam dalam Chrobox. Petua praktikal daripada data ini: kekalkan kotak masa pada 90 minit atau kurang dan pecahkan apa-apa yang lebih panjang.',
+        },
+        {
+          question: 'Pada waktu manakah tugasan yang dirancang paling berkemungkinan disiapkan?',
+          answer: 'Kotak masa awal paling kerap disiapkan. Kotak masa yang bermula antara 5:00 dan 8:59 pagi disiapkan 62.3% daripada masa, dan kadar ini menurun secara konsisten sepanjang hari kepada 33.2% untuk kotak masa yang bermula antara 21:00 dan 23:59. Jika ada satu tugasan yang mesti disiapkan hari ini, jadualkan sebelum tengah hari.',
+        },
+        {
+          question: 'Berapa banyak tugasan patut saya rancang dalam sehari?',
+          answer: 'Purata median hari dalam data ini mempunyai 5 tugasan yang dirancang. Hari dengan 6–8 tugasan mempunyai purata penyelesaian tertinggi (42.7%), manakala hari dengan 9 atau lebih tugasan hanya menyiapkan keseluruhan senarai sekali dalam 198 hari (0.5%). Merancang lebih daripada kira-kira lapan tugasan menjadikan hari yang benar-benar selesai sangat tidak mungkin.',
+        },
+      ],
+    },
+    'how-to-lock-apps-on-iphone': {
+      title: 'Cara Mengunci Aplikasi pada iPhone: 3 Kaedah (Kunci Face ID, Had Screen Time, Penyekatan Berjadual)',
+      excerpt: 'Tiga cara sebenar untuk mengunci aplikasi pada iPhone: kunci aplikasi Face ID untuk privasi, Had Aplikasi Screen Time untuk had harian, dan penyekatan berjadual untuk waktu tertentu, lengkap dengan jadual perbandingan.',
+      faqs: [
+        {
+          question: 'Bagaimana saya mengunci aplikasi pada iPhone saya?',
+          answer: 'Terdapat tiga pilihan berasingan bergantung pada matlamat anda. Gunakan Perlukan Face ID atau Sembunyi dan Perlukan Face ID (iOS 18 ke atas, ditemui dengan menekan lama ikon aplikasi) jika anda ingin merahsiakan sesuatu aplikasi daripada orang lain. Gunakan Had Aplikasi Screen Time jika anda ingin mengehadkan berapa minit sehari anda sendiri menghabiskan masa dalam sesuatu aplikasi. Gunakan penyekatan berjadual, sama ada melalui Downtime Screen Time atau aplikasi seperti Chrobox, jika anda mahu aplikasi tertentu disekat hanya pada waktu tertentu, seperti semasa bekerja.',
+        },
+        {
+          question: 'Adakah mengunci aplikasi dengan Face ID menghalang saya daripada menggunakannya secara berlebihan?',
+          answer: 'Tidak. Kunci aplikasi Face ID hanya menambah satu langkah pengesahan sebelum aplikasi dibuka; sebaik sahaja anda mengesahkan dengan wajah anda sendiri, anda mendapat akses penuh. Ia melindungi privasi anda daripada orang lain yang mengambil telefon anda, tetapi ia tidak mengurangkan penggunaan anda sendiri, kerana anda sentiasa boleh membukanya sendiri.',
+        },
+        {
+          question: 'Bolehkah saya melangkaui had Screen Time yang saya tetapkan untuk diri saya sendiri?',
+          answer: 'Ya, dengan mudah, melainkan anda mengambil satu langkah tambahan. Apabila had yang ditetapkan sendiri tamat, iOS memaparkan butang Abaikan Had untuk Hari Ini yang membuang sekatan itu hanya dengan satu ketikan. Untuk memastikan had itu benar-benar berkuat kuasa, tetapkan kod laluan Screen Time di bawah Tetapan, Screen Time, Guna Kod Laluan Screen Time, dan pastikan seseorang selain anda mengetahui kod itu.',
+        },
+        {
+          question: 'Apakah perbezaan antara Had Aplikasi Screen Time dan Downtime?',
+          answer: 'Had Aplikasi mengehadkan aplikasi atau kategori tertentu mengikut minit sehari dan secara pilihan boleh menyekat aplikasi itu sepenuhnya sebaik sahaja masa tamat. Downtime pula menyekat hampir semua perkara mengikut jadual, seperti setiap malam atau set waktu tersuai, dan hanya membenarkan aplikasi yang telah anda tandakan secara khusus sebagai sentiasa dibenarkan. Downtime lebih menyerupai penyekatan berjadual berasaskan masa, manakala Had Aplikasi lebih menyerupai bajet penggunaan harian.',
+        },
+      ],
+    },
+    'how-to-stop-checking-phone-while-studying': {
+      title: 'Cara Berhenti Menyemak Telefon Semasa Belajar: Rutin yang Praktikal',
+      excerpt: 'Satu rutin praktikal untuk berhenti menyemak telefon semasa belajar: jarak fizikal, penyekatan aplikasi berjadual, dan kotak masa yang tetap, disokong oleh kajian dan data penyelesaian pihak pertama.',
+      faqs: [
+        {
+          question: 'Bagaimana saya berhenti menyemak telefon semasa belajar?',
+          answer: 'Gabungkan tiga perkara: jauhkan telefon anda secara fizikal daripada jangkauan, bukan sekadar meletakkannya menghadap ke bawah berhampiran anda, sekat aplikasi tertentu yang mengganggu anda hanya semasa sesi belajar menggunakan Screen Time, mod Fokus Digital Wellbeing, atau aplikasi seperti Chrobox, dan belajar dalam kotak masa yang tetap dengan matlamat yang jelas untuk setiap satu, dan bukannya "masa belajar" yang tidak berkesudahan. Melakukan ketiga-tiganya menghapuskan keputusan berulang pada saat itu untuk menyemak telefon anda.',
+        },
+        {
+          question: 'Adakah membantu jika saya hanya meletakkan telefon menghadap ke bawah di sebelah saya?',
+          answer: 'Kurang daripada yang anda sangka. Satu kajian pada 2017 oleh Ward, Duke, Gneezy dan Bos mendapati bahawa kewujudan telefon pintar seseorang semata-mata mengurangkan kapasiti kognitif yang tersedia, walaupun ia dimatikan dan tidak disentuh. Memberi jarak sebenar antara anda dan telefon anda, seperti di bilik lain atau di dalam beg yang ditutup, berfungsi lebih baik daripada sekadar meletakkannya menghadap ke bawah di atas meja yang sama.',
+        },
+        {
+          question: 'Apakah tempoh kotak masa yang baik untuk belajar?',
+          answer: 'Kotak belajar 50 minit diikuti rehat 10 minit adalah satu titik permulaan yang biasa dan munasabah, tetapi ia adalah pilihan peribadi dan bukan peraturan tetap atau ciri Pomodoro yang terbina dalam sesuatu aplikasi tertentu. Kotak masa yang lebih pendek seperti 30 minit boleh berfungsi lebih baik untuk bahan yang padat atau sukar, manakala kotak masa yang lebih panjang sekitar 90 minit boleh sesuai untuk tugasan membaca atau menulis yang memerlukan momentum untuk bermula.',
+        },
+        {
+          question: 'Bolehkah saya menyekat aplikasi yang mengganggu semasa belajar tanpa memasang apa-apa yang baharu?',
+          answer: 'Boleh. Pada iPhone, gunakan Downtime Screen Time yang dijadualkan untuk waktu belajar anda, atau Had Aplikasi pada aplikasi tertentu, dengan kod laluan Screen Time yang dipegang oleh orang lain supaya anda tidak boleh membatalkannya dengan mudah. Pada Android, cari mod Fokus Digital Wellbeing di bawah Tetapan, kemudian Digital Wellbeing dan kawalan ibu bapa, walaupun perkataan menu yang tepat berbeza mengikut pengeluar telefon. Aplikasi perancangan seperti Chrobox boleh mengautomasikan ini dengan mengaitkan sekatan itu terus kepada kotak masa belajar anda.',
+        },
+      ],
+    },
+    'reduce-phone-addiction': {
+      title: 'Cara Mengurangkan Ketagihan Telefon: Pelan 7 Langkah untuk Mengurangkan Screen Time',
+      excerpt: 'Satu pelan 7 langkah yang praktikal dan bukan klinikal untuk mengurangkan tabiat menyemak telefon secara kompulsif dan screen time, menggunakan alat terbina dalam ditambah blok fokus yang dirancang.',
+      faqs: [
+        {
+          question: 'Bagaimana saya mengurangkan ketagihan telefon?',
+          answer: 'Mulakan dengan mengukur screen time dan bilangan kali anda mengangkat telefon sebenar menggunakan papan pemuka terbina dalam telefon anda, kemudian buang pencetus yang paling mudah: matikan pemberitahuan yang tidak penting, tambah geseran pada aplikasi terburuk anda, dan gantikan tabiat menyemak tanpa tujuan dengan aktiviti yang dirancang. Menyekat aplikasi yang paling mengganggu anda semasa tempoh fokus tertentu, berbanding cuba berhenti terus, cenderung lebih berkesan kerana ia tidak memerlukan kekuatan tekad yang berterusan.',
+        },
+        {
+          question: 'Adakah ketagihan telefon satu diagnosis yang sah?',
+          answer: 'Tabiat menyemak telefon secara kompulsif adalah corak tingkah laku yang biasa, bukan diagnosis perubatan rasmi dalam kebanyakan sistem pengelasan. Panduan ini menganggapnya sebagai masalah tabiat harian yang boleh anda tangani dengan penjejakan dan geseran. Jika penggunaan telefon benar-benar menjejaskan kerja, hubungan, tidur atau mood anda, sebaiknya berbincang dengan doktor atau ahli terapi berbanding hanya bergantung kepada langkah bantu diri sahaja.',
+        },
+        {
+          question: 'Apakah cara terpantas untuk mengurangkan screen time?',
+          answer: 'Mematikan pemberitahuan yang tidak penting dan mengalih keluar 2-3 aplikasi paling mengganggu anda daripada skrin utama biasanya menghasilkan penurunan screen time harian yang paling ketara dan pantas, selalunya dalam minggu pertama, kerana ia membuang pencetus yang menarik perhatian anda tanpa anda memutuskan untuk mengangkat telefon.',
+        },
+        {
+          question: 'Adakah aplikasi penyekat telefon benar-benar berkesan?',
+          answer: 'Penyekatan berfungsi paling baik apabila ia dihadkan kepada waktu tertentu berbanding sentiasa aktif, kerana sekatan yang sentiasa aktif akan dilumpuhkan sebaik sahaja anda benar-benar memerlukan aplikasi itu untuk sesuatu yang sah. Alat yang menyekat aplikasi yang mengganggu hanya semasa tempoh fokus yang dirancang, seperti yang dilakukan Chrobox untuk tempoh tugasan berkotak masa, cenderung bertahan kerana sekatan itu mempunyai masa tamat yang jelas.',
+        },
+      ],
+    },
+    'daily-reflection-template': {
+      title: 'Templat Refleksi Harian: 4 Format Sedia Guna (Termasuk KPT)',
+      excerpt: 'Empat templat refleksi harian yang sedia disalin, daripada refleksi 3 baris selama 2 minit hinggalah KPT dan semakan rancangan-berbanding-sebenar untuk hari-hari yang berkotak masa.',
+      faqs: [
+        {
+          question: 'Bagaimana saya menulis refleksi harian?',
+          answer: 'Cara paling ringkas adalah refleksi 3 baris: satu baris untuk apa yang berjalan lancar, satu baris untuk apa yang tidak, dan satu baris untuk satu perkara khusus yang akan dicuba esok. Ia mengambil masa kurang dua minit, cukup ringkas untuk diteruskan setiap hari, dan sesuai untuk sebarang hari kerana ia tidak memerlukan banyak struktur atau tenaga untuk diisi.',
+        },
+        {
+          question: 'Apakah templat refleksi KPT?',
+          answer: 'KPT bermaksud Keep, Problem, Try (Kekal, Masalah, Cuba): apa yang berjaya dan patut diteruskan, apa yang tidak berjaya, dan satu perubahan konkrit untuk dicuba seterusnya. Ia berasal daripada retrospektif pasukan agile tetapi berfungsi dengan baik untuk seorang individu yang menyemak satu hari, terutamanya apabila anda secara aktif cuba memperbaiki satu tabiat atau rutin tertentu dari semasa ke semasa.',
+        },
+        {
+          question: 'Apakah templat refleksi harian terbaik untuk hari-hari yang berkotak masa?',
+          answer: 'Semakan rancangan-berbanding-sebenar berfungsi paling baik jika anda menjadualkan hari anda ke dalam blok masa: catatkan berapa banyak kotak yang anda rancang, berapa banyak yang benar-benar anda siapkan, sebab baki yang lain tergelincir, dan satu perubahan untuk rancangan esok. Ini menunjukkan sama ada rancangan itu sendiri perlu dilaraskan, sesuatu yang tidak dapat diketahui hanya daripada penilaian mood sahaja.',
+        },
+        {
+          question: 'Apakah kesilapan paling besar yang dilakukan orang dalam refleksi harian?',
+          answer: 'Kesilapan yang paling biasa adalah menjadikan refleksi sebagai senarai kritikan diri, menulis terlalu banyak sehingga anda tidak pernah membaca semula catatan lama, dan terus melangkau tabiat ini pada hari-hari yang buruk, sedangkan itulah waktu catatan ringkas paling bernilai. Memadankan setiap pemerhatian negatif dengan satu tindakan yang berpandangan ke hadapan membantu mengelakkan kesilapan pertama, dan memastikan catatan ringkas membantu mengatasi dua kesilapan yang lain.',
         },
       ],
     },
@@ -2422,9 +2747,9 @@ Kami membina Chrobox, sebuah aplikasi timeboxing — jadi ya, ia muncul dalam se
 
 Chrobox dibina berdasarkan keseluruhan gelung timeboxing dan bukannya sekadar kalendar dengan ciri tambahan: sumbang saran tugasan, pilih keutamaan, letakkannya ke dalam kotak setiap jam pada garis masa visual, kemudian tutup hari itu dengan retrospektif berpandu yang memberi input kepada analisis AI mingguan. Ia juga salah satu daripada sedikit perancang yang mengikat **penyekatan aplikasi** kepada kotak masa anda — aplikasi yang mengganggu dikunci tepat semasa deep work yang dirancang.
 
-**Kekuatan:** gelung lengkap rancang→fokus→semak, penyekatan aplikasi terikat kepada kotak, widget dan pemasa Live Activity, 21 bahasa
+**Kekuatan:** gelung lengkap rancang→fokus→semak, penyekatan aplikasi terikat kepada kotak, widget dan pemasa Live Activity, 54 bahasa
 **Kelemahan:** hanya untuk mudah alih (tiada aplikasi desktop), tiada ciri pasukan
-**Harga:** pelan percuma (3 tugasan/hari); Pro dari $4.99/bulan, $99.99 seumur hidup
+**Harga:** percubaan percuma 3 hari; langganan Pro atau pembelian seumur hidup sekali sahaja
 
 ### 2. Sunsama — terbaik untuk profesional yang bergantung berat pada kalendar (Web, desktop, mudah alih)
 
@@ -2450,7 +2775,7 @@ TickTick pada asasnya ialah pengurus tugasan, tetapi paparan garis masa dan pema
 **Kelemahan:** timeboxing adalah sekunder; tiada ritual perancangan atau gelung semakan
 **Harga:** peringkat percuma yang kukuh; premium kira-kira $36/tahun
 
-### 5. Structured — kesederhanaan visual terbaik (iOS, Android, Mac)
+### 5. Structured — kesederhanaan visual terbaik (iOS, Android, Mac, Watch, Web)
 
 Structured mengubah hari anda menjadi garis masa menegak yang bersih dan digemari kerana keluk pembelajarannya yang lembut. Sesuai untuk pelajar dan pemikir visual; kurang lengkap apabila anda mahukan statistik atau penguatkuasaan.
 
@@ -2458,13 +2783,13 @@ Structured mengubah hari anda menjadi garis masa menegak yang bersih dan digemar
 **Kelemahan:** kurang analitik, tiada penyekatan aplikasi
 **Harga:** peringkat percuma; langganan Pro atau seumur hidup
 
-### 6. Tiimo — terbaik untuk perancang ADHD dan neurodivergen (iOS, Android)
+### 6. Tiimo — terbaik untuk perancang ADHD dan neurodivergen (iOS, Android, Mac, Watch)
 
 Tiimo direka bersama-sama dan untuk pengguna neurodivergen: jadual visual, rutin berasaskan ikon, dan makluman peralihan yang lembut dan bukannya penanda tertunggak yang menimbulkan rasa bersalah. Jika perancang konvensional telah berulang kali gagal untuk anda, mulakan di sini atau dengan mod fokus Chrobox.
 
 **Kekuatan:** reka bentuk yang benar-benar inklusif, visualisasi rutin
 **Kelemahan:** kurang lengkap dari segi analitik produktiviti klasik
-**Harga:** langganan dengan percubaan percuma
+**Harga:** peringkat percuma terhad; Pro tahunan menyertakan percubaan 7 hari (bulanan tiada percubaan)
 
 ### 7. Google Calendar — pilihan percuma terbaik yang anda sudah miliki (semua platform)
 
@@ -2486,12 +2811,12 @@ Paparan kalendar Todoist dan penyegerakan dua hala dengan Google Calendar membol
 
 | Aplikasi | Gelung teras | Penyekatan aplikasi | Semakan/retrospektif | Peringkat percuma | Platform |
 |---|---|---|---|---|---|
-| Chrobox | Timeboxing penuh | ✅ | ✅ retrospektif AI | ✅ | iOS, Android |
+| Chrobox | Timeboxing penuh | ✅ | ✅ retrospektif AI | Percubaan 3 hari | iOS, Android |
 | Sunsama | Perancangan harian | ❌ | ✅ ritual penutupan | percubaan sahaja | Web, desktop, mudah alih |
 | Motion | Penjadualan AI | ❌ | ❌ | percubaan sahaja | Web, mudah alih |
 | TickTick | Senarai tugasan + garis masa | ❌ | ❌ | ✅ | Semua |
-| Structured | Garis masa visual | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Rutin visual | ❌ | ❌ | percubaan | iOS, Android |
+| Structured | Garis masa visual | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Rutin visual | ❌ | ✅ mood/refleksi | Percuma terhad | iOS, Android, Mac, Watch |
 | Google Calendar | Blok manual | ❌ | ❌ | ✅ | Semua |
 | Todoist | Tugasan + kalendar | ❌ | ❌ | ✅ | Semua |
 
@@ -3198,6 +3523,411 @@ Chrobox menyokong aliran kerja kreatif dengan membolehkan anda mencipta pengelom
 
 Platform ini juga menjejaki blok mana yang anda panjangkan, membantu anda memahami tugasan kreatif mana yang secara konsisten anda kurang anggarkan, supaya anda boleh membina jadual yang lebih realistik untuk projek masa depan.
 `,
+    'does-timeboxing-work': `
+# Adakah Timeboxing Benar-benar Berkesan? Data Penyelesaian daripada 5,077 Tugasan yang Dirancang
+
+Kebanyakan nasihat mengenai timeboxing bersandarkan beberapa kajian yang sama dan banyak testimoni peribadi. Kami membina aplikasi timeboxing, jadi kami boleh melihat sesuatu yang lebih langsung: apa yang sebenarnya berlaku kepada tugasan selepas orang merancangnya. Halaman ini melaporkan apa yang kami temui dalam data penggunaan Chrobox — termasuk bahagian yang kurang menarik, dan had bagi apa yang dapat diberitahu oleh angka-angka ini.
+
+## Jawapan ringkas
+
+Tugasan yang diberikan masa mula dan tempoh ditandakan selesai **48.1%** daripada masa. Tugasan yang kekal dalam senarai tanpa slot masa disiapkan **17.6%** daripada masa. Itu lebih kurang **2.7 kali** lebih kerap.
+
+Perbezaan ini bukan datang daripada segelintir orang yang sangat teratur. Apabila kami membandingkan setiap orang dengan diri sendiri, 35 daripada 41 orang menyiapkan lebih banyak tugasan berkotak masa mereka berbanding tugasan yang tidak dijadualkan.
+
+## Mengenai data ini
+
+| Item | Nilai |
+|---|---|
+| Sumber | Rekod tugasan tanpa nama daripada aplikasi Chrobox (iOS dan Android), akaun yang log masuk |
+| Tempoh | Tugasan bertarikh 3 Disember 2025 hingga 29 September 2026 |
+| Sampel | 5,077 tugasan yang dirancang oleh 250 orang merentasi 799 hari yang dirancang |
+| Diekstrak | 30 September 2026 |
+
+- **Berkotak masa** bermaksud tugasan itu mempunyai masa mula dan tempoh pada garis masa harian.
+- **Selesai** bermaksud orang itu menandakan tugasan sebagai siap. Tugasan yang seseorang siapkan tetapi tidak pernah ditandakan dikira sebagai tidak selesai.
+- Kami mengecualikan acara yang diimport daripada kalendar peranti, tugasan bertarikh hari ini atau selepasnya, akaun pengendali dan ujian, serta akaun yang dipadam.
+- Hanya angka agregat yang diterbitkan. Tiada kumpulan yang lebih kecil daripada 30 tugasan dilaporkan.
+
+## Penemuan 1: Tugasan berkotak masa disiapkan 2.7× lebih kerap
+
+| | Tugasan | Orang | Selesai |
+|---|---|---|---|
+| Dengan kotak masa | 2,317 | 190 | 48.1% |
+| Tanpa kotak masa | 2,760 | 192 | 17.6% |
+
+Dua semakan berikut menjadikan ini lebih daripada sekadar angka tajuk:
+
+- **Pengguna gigih.** Sepuluh akaun paling aktif mencipta 55% daripada semua tugasan. Dengan mereka dikeluarkan, jurang itu hampir tidak berubah: 42.8% untuk tugasan berkotak masa berbanding 14.2% untuk yang tidak dijadualkan.
+- **Orang yang sama, kedua-dua cara.** Antara 41 orang yang merancang sekurang-kurangnya lima tugasan setiap jenis, purata penyelesaian ialah 52.9% dengan kotak masa dan 15.0% tanpanya. 35 orang berjaya lebih baik dengan kotak masa, 2 orang lebih teruk, dan 4 orang setara.
+
+**Apa yang tidak dibuktikan oleh data ini.** Ini adalah data pemerhatian, bukan eksperimen. Orang mungkin memberikan slot masa kepada tugasan yang memang sudah berniat mereka lakukan, dan slot masa juga berfungsi sebagai peringatan. Jadi data ini menunjukkan perkaitan yang kuat, bukan kesan sebab-akibat yang terkawal. Ini selaras dengan kajian mengenai niat pelaksanaan: satu meta-analisis daripada 94 kajian oleh Gollwitzer dan Sheeran (2006) mendapati bahawa memutuskan lebih awal bila dan di mana anda akan bertindak mempunyai kesan sederhana hingga besar terhadap tindak susulan.
+
+## Penemuan 2: Kebanyakan kotak berdurasi sejam, dan tempoh kurang penting daripada yang anda sangka
+
+| Tempoh kotak | Bahagian kotak |
+|---|---|
+| 60 minit | 50.8% |
+| 30 minit | 14.9% |
+| 120 minit | 9.3% |
+| 90 minit | 4.1% |
+| 180 minit | 3.1% |
+
+Median tempoh kotak ialah 60 minit. Sebahagiannya disebabkan aplikasi itu sendiri: apabila satu tugasan diletakkan pada slot sejam dalam garis masa Chrobox, ia bermula sebagai kotak 60 minit, dan ramai orang mengekalkan tetapan lalai itu.
+
+Penyelesaian mengikut tempoh adalah hasil yang lebih berguna:
+
+| Tempoh kotak | Tugasan | Selesai |
+|---|---|---|
+| 15 minit atau kurang | 35 | 48.6% |
+| 16–30 minit | 429 | 48.7% |
+| 31–45 minit | 56 | 53.6% |
+| 46–60 minit | 1,215 | 48.7% |
+| 61–90 minit | 135 | 50.4% |
+| 91–120 minit | 238 | 45.0% |
+| Lebih daripada 120 minit | 209 | 44.0% |
+
+Sehingga 90 minit, tempoh hampir tidak membuat sebarang perbezaan. Melepasi 90 minit, penyelesaian menurun sekitar empat hingga lima mata peratusan. Kotak pendek tidak lebih mudah disiapkan berbanding kotak sejam.
+
+## Penemuan 3: Kotak pagi disiapkan, kotak malam tergelincir
+
+| Masa mula kotak | Tugasan | Orang | Selesai |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34.9% |
+| 05:00–08:59 | 318 | 81 | 62.3% |
+| 09:00–11:59 | 473 | 95 | 52.4% |
+| 12:00–14:59 | 448 | 102 | 52.0% |
+| 15:00–17:59 | 447 | 102 | 44.7% |
+| 18:00–20:59 | 380 | 96 | 40.0% |
+| 21:00–23:59 | 208 | 65 | 33.2% |
+
+Corak itu konsisten: semakin lewat sesuatu kotak bermula, semakin kecil kemungkinan ia disiapkan. Kotak yang bermula sebelum 9:00 pagi hampir dua kali lebih berkemungkinan disiapkan berbanding yang bermula selepas 21:00. Sebahagian daripada ini berkait dengan siapa yang merancang lebih awal — orang yang menjadualkan tugasan 6:30 pagi mungkin memang lebih konsisten — tetapi nasihat praktikalnya tetap sama: letakkan tugasan yang paling perlu disiapkan sebelum tengah hari.
+
+## Penemuan 4: Melepasi lapan tugasan, hari yang selesai sepenuhnya adalah jarang
+
+Median hari yang dirancang mempunyai **5 tugasan**.
+
+| Tugasan dirancang pada hari itu | Hari | Purata bahagian disiapkan | Hari dengan semua tugasan siap |
+|---|---|---|---|
+| 1 | 131 | 7.6% | 7.6% |
+| 2 | 91 | 18.7% | 14.3% |
+| 3 | 105 | 29.2% | 14.3% |
+| 4–5 | 131 | 26.3% | 13.7% |
+| 6–8 | 143 | 42.7% | 18.2% |
+| 9 atau lebih | 198 | 30.7% | 0.5% |
+
+Hari dengan 6–8 tugasan mempunyai penyelesaian terbaik. Hari dengan sembilan tugasan atau lebih hanya menyiapkan keseluruhan senarai sekali dalam 198 hari. Hari dengan satu tugasan kelihatan paling teruk, tetapi kebanyakannya adalah hari pertama — seseorang mencuba aplikasi dengan satu tugasan ujian — jadi bacalah baris ini dengan berhati-hati.
+
+## Penemuan 5: Keutamaan membantu, dan Khamis mengatasi Ahad
+
+Tugasan yang ditandakan sebagai keutamaan disiapkan 44.5% daripada masa (853 tugasan), berbanding 28.9% untuk yang lain (4,224 tugasan).
+
+| Hari | Tugasan | Selesai |
+|---|---|---|
+| Isnin | 940 | 31.4% |
+| Selasa | 854 | 34.2% |
+| Rabu | 990 | 31.9% |
+| Khamis | 815 | 36.2% |
+| Jumaat | 612 | 28.6% |
+| Sabtu | 355 | 27.3% |
+| Ahad | 511 | 25.4% |
+
+Pertengahan minggu paling kukuh, dengan Khamis tertinggi. Hujung minggu paling lemah, dan Ahad adalah hari terendah dalam seminggu.
+
+## Apa yang tidak dapat kami ukur
+
+- **Penyekatan aplikasi.** Hanya 19 tugasan berkotak masa daripada 8 orang mempunyai penyekatan aplikasi dilampirkan dalam tempoh ini. Itu terlalu sedikit untuk melaporkan kadar penyelesaian, jadi kami tidak berbuat demikian.
+- **Mod tetamu.** Versi awal aplikasi menawarkan mod tetamu yang menyimpan tugasan pada peranti, jadi tugasan tersebut tiada dalam data ini.
+- **Siapa penggunanya.** 67% akaun dalam sampel ini menggunakan aplikasi dalam bahasa Korea dan 24% dalam bahasa Inggeris. Hasilnya mungkin tidak terpakai kepada semua budaya atau pekerjaan.
+
+## Cara menggunakan ini dalam perancangan anda sendiri
+
+1. **Berikan setiap tugasan mesti-siap satu masa mula.** Hanya dalam senarai sahaja, kurang daripada satu daripada lima tugasan disiapkan.
+2. **Kekalkan kotak pada 90 minit atau kurang.** Pecahkan apa-apa yang lebih panjang kepada dua kotak.
+3. **Letakkan tugasan paling penting sebelum tengah hari.** Kotak pagi jauh lebih kerap disiapkan.
+4. **Berhenti pada kira-kira lapan kotak sehari.** Melebihi itu, anda sedang merancang hari yang tidak akan anda siapkan.
+5. **Tandakan satu hingga tiga keutamaan.** Tugasan yang ditandakan disiapkan dengan ketara lebih kerap.
+
+## Cara memetik data ini
+
+Chrobox (2026). *Adakah Timeboxing Benar-benar Berkesan? Data Penyelesaian daripada 5,077 Tugasan yang Dirancang.* https://chrobox.net/blog/does-timeboxing-work — data diekstrak 30 September 2026.
+    `,
+    'how-to-lock-apps-on-iphone': `
+# Cara Mengunci Aplikasi pada iPhone: 3 Kaedah (Kunci Face ID, Had Screen Time, Penyekatan Berjadual)
+
+Terdapat tiga cara berasingan untuk mengunci aplikasi pada iPhone, dan masing-masing menyelesaikan masalah yang berbeza. Pada iOS 18 ke atas, anda boleh mewajibkan Face ID untuk membuka aplikasi tertentu demi privasi. Had Aplikasi Screen Time membolehkan anda mengehadkan berapa lama anda boleh menggunakan sesuatu aplikasi atau kategori setiap hari, dengan sekatan keras pilihan sebaik sahaja masa tamat. Dan penyekatan berjadual, sama ada dibina secara manual dengan Screen Time atau diautomasikan oleh aplikasi perancangan seperti Chrobox, menyekat set aplikasi pilihan hanya pada waktu tertentu yang anda tetapkan lebih awal. Kebanyakan orang yang benar-benar mahu mengurangkan penggunaan telefon akhirnya menggabungkan kod laluan Screen Time dengan jadual, kerana had yang boleh anda matikan sendiri sebenarnya bukan had yang sebenar.
+
+## Kaedah 1: Kunci Aplikasi dengan Face ID (iOS 18 ke atas)
+
+Pada iOS 18 ke atas, Apple menambah satu cara terbina dalam untuk mengunci aplikasi individu di sebalik Face ID, Touch ID, atau kod laluan anda, terus daripada Skrin Utama.
+
+Untuk menggunakannya:
+
+1. Tekan lama ikon aplikasi sehingga menu tindakan pantas muncul.
+2. Ketik Perlukan Face ID (perkataan yang dipaparkan mungkin Touch ID atau kod laluan, bergantung pada peranti anda).
+3. Jika anda juga mahu aplikasi tersebut disembunyikan daripada Skrin Utama, App Library, pemberitahuan dan carian, pilih pilihan Sembunyi dan Perlukan Face ID sebaliknya. Aplikasi yang disembunyikan akan beralih ke folder berasingan yang berkunci.
+
+Sebaik sahaja ini diaktifkan, membuka aplikasi memerlukan pengesahan Face ID setiap kali, walaupun untuk seseorang yang sudah membuka kunci telefon anda.
+
+Penting untuk jelas tentang apa yang dilakukan dan tidak dilakukan oleh ciri ini. Ciri ini berkaitan privasi, bukan tentang mengurangkan berapa banyak anda menggunakan sesuatu aplikasi. Ia menghalang orang lain daripada membuka aplikasi perbankan atau mesej anda begitu sahaja jika mereka mengambil telefon anda yang sudah terbuka kunci. Ia tidak melakukan apa-apa untuk menghalang anda sendiri daripada membuka aplikasi tersebut: anda hanya perlu mengesahkan dengan wajah anda sendiri dan terus masuk. Jika matlamat anda adalah untuk menyemak media sosial dengan kurang kerap, kunci Face ID tidak akan membantu, kerana andalah yang membuka kuncinya.
+
+## Kaedah 2: Hadkan atau Sekat Aplikasi dengan Had Aplikasi Screen Time
+
+Had Aplikasi Screen Time adalah alat Apple untuk mengehadkan penggunaan, dan ia adalah pilihan yang tepat apabila matlamatnya ialah "kurangkan penggunaan aplikasi ini setiap hari" berbanding "rahsiakan aplikasi ini."
+
+Untuk menyediakannya:
+
+1. Buka Tetapan, kemudian pergi ke Screen Time.
+2. Ketik Had Aplikasi, kemudian Tambah Had.
+3. Pilih aplikasi tertentu atau keseluruhan kategori (seperti Sosial atau Permainan).
+4. Tetapkan peruntukan masa harian.
+5. Hidupkan Sekat Apabila Had Tamat jika anda mahu aplikasi tersebut benar-benar berhenti dibuka sebaik sahaja masa tamat, bukan sekadar memaparkan peringatan.
+
+Anda juga boleh menetapkan Downtime daripada menu Screen Time yang sama, yang menjadualkan satu tempoh (contohnya, sepanjang malam) di mana hanya aplikasi yang anda benarkan kekal boleh diakses, berbanding mengehadkan aplikasi tertentu mengikut minit.
+
+Masalah dengan Had Aplikasi dan Downtime kedua-duanya ialah penguatkuasaan. Jika anda menetapkan had itu sendiri, satu skrin akan muncul apabila masa tamat menawarkan Abaikan Had untuk Hari Ini, dan satu ketikan membatalkan keseluruhannya. Ini boleh diterima sebagai dorongan lembut, tetapi ia tidak akan mampu bertahan menentang keinginan sebenar untuk terus menatal. Untuk memastikan had Screen Time benar-benar berkuat kuasa, pergi ke Tetapan, Screen Time, dan hidupkan Guna Kod Laluan Screen Time dengan kod yang berbeza daripada kod laluan telefon biasa anda, sebaik-baiknya kod yang diketahui oleh orang lain dan bukan anda, seperti pasangan atau rakan akauntabiliti. Tanpa pemisahan itu, "had" itu sebenarnya hanyalah peringatan yang boleh anda abaikan.
+
+## Kaedah 3: Jadualkan Penyekatan Aplikasi Mengikut Rancangan
+
+Pendekatan ketiga membalikkan logik: berbanding bajet minit harian, anda menyekat set aplikasi pilihan hanya pada waktu tertentu, dikaitkan dengan apa yang sepatutnya anda lakukan pada waktu itu. Anda boleh membina ini secara manual dengan Downtime Screen Time yang dijadualkan untuk waktu kerja anda, atau menggunakan aplikasi perancangan yang mengaitkan penyekatan dengan kalendar tugasan sebenar anda.
+
+Chrobox, sebuah aplikasi timeboxing, berfungsi dengan cara ini: apabila anda meletakkan satu tugasan pada garis masa harian anda dan melampirkan profil sekatan kepadanya, aplikasi yang anda pilih akan disekat secara automatik untuk tempoh kotak masa tersebut, menggunakan Screen Time API Apple (rangka kerja FamilyControls dan Screen Time yang sama yang digunakan oleh alat Apple sendiri) dan skrin kunci tersuai. Sekatan bermula apabila kotak bermula, berakhir apabila kotak berakhir, dan hanya terpakai untuk hari itu, jadi ia tidak berlanjutan ke waktu malam jika rancangan anda berubah. Ini sesuai untuk orang yang masalahnya bukan jumlah penggunaan harian tetapi waktu tertentu, seperti mahu Instagram disekat dari jam 9 hingga 11 semasa bekerja, tetapi tersedia sepenuhnya pada waktu malam.
+
+## Membandingkan Ketiga-tiga Kaedah
+
+| Kaedah | Tujuan | Apa yang disekat | Mudah dipintas sendiri | Memerlukan kod laluan yang dipegang orang lain | Paling sesuai untuk |
+|---|---|---|---|---|---|
+| Kunci aplikasi Face ID | Privasi | Tiada dari segi penggunaan; hanya memerlukan pengesahan untuk dibuka | Ya, jika anda tahu Face ID atau kod laluan anda sendiri | Tidak | Merahsiakan aplikasi tertentu daripada orang lain |
+| Had Aplikasi Screen Time | Had penggunaan | Aplikasi atau kategori terpilih, selepas bajet masa harian | Ya, melalui Abaikan Had untuk Hari Ini, melainkan orang lain memegang kod laluan Screen Time | Ya, untuk memastikan ia berkuat kuasa | Mengurangkan jumlah masa harian pada sesuatu aplikasi |
+| Penyekatan berjadual (Downtime atau Chrobox) | Fokus berasaskan masa | Aplikasi terpilih, hanya pada waktu yang ditetapkan | Bergantung pada siapa yang menetapkan jadual dan memegang kod laluan | Ya, untuk memastikan ia berkuat kuasa | Menyekat gangguan semasa waktu kerja atau belajar tertentu |
+
+## Kaedah Manakah Patut Anda Guna
+
+Jika kebimbangan anda ialah orang lain membuka aplikasi pada telefon anda, kunci Face ID adalah jawapan langsung dan mengambil masa kurang seminit untuk disediakan. Jika kebimbangan anda ialah anda sendiri menghabiskan terlalu banyak masa pada sesuatu aplikasi sepanjang hari, Had Aplikasi Screen Time dengan kod laluan yang dipegang oleh orang lain adalah alat yang lebih jujur. Jika kebimbangan anda khususnya tentang waktu tertentu, seperti mahu menjauhi aplikasi sosial semasa bekerja pada satu blok masa tertentu tetapi tidak kisah apa yang berlaku di luar itu, penyekatan berjadual adalah lebih sesuai, sama ada anda membina jadual itu secara manual dalam Downtime atau membiarkannya mengikuti rancangan anda secara automatik seperti yang dilakukan oleh Chrobox.
+
+Ramai orang akhirnya menggunakan lebih daripada satu kaedah sekali gus: kunci Face ID pada aplikasi perbankan atau pemesejan untuk privasi, dan sekatan berjadual pada aplikasi sosial dan permainan semasa waktu kerja. Tiada satu pun daripada alat ini bersaing antara satu sama lain; masing-masing menjawab soalan yang berbeza.
+    `,
+    'how-to-stop-checking-phone-while-studying': `
+# Cara Berhenti Menyemak Telefon Semasa Belajar: Rutin yang Praktikal
+
+Cara terpantas untuk berhenti menyemak telefon semasa belajar adalah menggabungkan tiga perkara: letakkan telefon secara fizikal di luar jangkauan berbanding sekadar menghadap ke bawah, sekat aplikasi tertentu yang menarik perhatian anda hanya semasa sesi belajar, dan rancang waktu belajar anda sebagai kotak masa yang tetap berbanding "waktu belajar" yang tidak berkesudahan. Tiada satu pun daripada ini memerlukan kekuatan tekad pada saat itu, kerana keputusan dibuat sekali, sebelum anda duduk, berbanding berulang kali sepanjang anda belajar.
+
+## Mengapa Telefon yang Hanya Berhampiran Merosakkan Fokus
+
+Sangat menggoda untuk berfikir bahawa selagi anda tidak mengangkat telefon, meletakkannya menghadap ke bawah di sebelah anda adalah tidak berbahaya. Kajian menunjukkan sebaliknya. Dalam kajian pada 2017 yang sering dirujuk sebagai "Brain Drain," penyelidik Adrian Ward, Kristen Duke, Ayelet Gneezy dan Maarten Bos mendapati bahawa kewujudan telefon pintar seseorang semata-mata mengurangkan kapasiti kognitif yang tersedia untuk tugasan lain, walaupun telefon itu dimatikan dan tidak digunakan. Kesan itu timbul semata-mata daripada telefon berada berhampiran, bukan daripada tindakan menyemaknya.
+
+Kesimpulan praktikalnya bukan "matikan telefon anda" tetapi "letakkan di tempat yang bukan sekadar dalam jangkauan tangan." Telefon di bilik lain, beg yang ditutup rapat, atau laci di seberang bilik semuanya berfungsi lebih baik daripada telefon yang menghadap ke bawah di atas meja yang sama, kerana matlamatnya ialah jarak, bukan sekadar mematikan pemberitahuan.
+
+## Sekat Aplikasi yang Benar-benar Menarik Perhatian Anda, Hanya Semasa Anda Belajar
+
+Jarak sahaja tidak menghentikan refleks untuk menyemak telefon yang masih berhampiran, seperti pada meja yang dikongsi atau meja belajar keluarga, dan ia tidak realistik bagi semua orang untuk meninggalkan telefon mereka di bilik lain selama berjam-jam. Bahagian kedua ialah menyekat aplikasi tertentu yang menyebabkan masalah, tetapi hanya semasa waktu anda sememangnya sepatutnya belajar.
+
+Ini penting kerana sekatan menyeluruh sepanjang hari sukar dikekalkan dan mudah dibenci, manakala sekatan yang dikaitkan dengan sesi belajar sebenar anda berakhir dengan sendirinya sebaik sahaja sesi tamat. Anda boleh melakukan ini tanpa sebarang aplikasi tambahan:
+
+- Pada iPhone, gunakan Downtime Screen Time yang dijadualkan untuk blok belajar anda, atau tetapkan Had Aplikasi pada aplikasi tertentu yang anda hadapi masalah, sebaik-baiknya dengan kod laluan Screen Time yang dipegang oleh orang lain supaya anda tidak boleh mengetik Abaikan Had apabila tergoda.
+- Pada Android, kebanyakan telefon menyertakan mod Fokus Digital Wellbeing, secara amnya ditemui di bawah Tetapan, kemudian Digital Wellbeing dan kawalan ibu bapa, kemudian Mod Fokus, di mana anda memilih aplikasi yang mengganggu untuk dijeda semasa satu tempoh yang ditetapkan. Nama menu yang tepat berbeza mengikut pengeluar telefon, jadi cari "Digital Wellbeing," "Mod Fokus," atau bahagian screen time dengan nama serupa dalam tetapan anda jika perkataannya berbeza.
+
+Jika anda merancang hari anda dengan aplikasi timeboxing seperti Chrobox, langkah ini boleh berlaku secara automatik: apabila anda melampirkan profil sekatan kepada satu tugasan belajar pada garis masa anda, aplikasi yang anda pilih kekal disekat untuk tepat tempoh kotak masa tersebut dan menyahsekat sendiri sebaik sahaja ia tamat, jadi anda tidak perlu lagi mengingati untuk menghidupkan atau mematikan sekatan.
+
+## Rancang Belajar sebagai Kotak Masa, Bukan Sesi Tanpa Had
+
+Rancangan yang tidak berstruktur seperti "belajar kimia malam ini" membuka ruang untuk menyemak telefon anda sebaik sahaja anda berasa sedikit tersekat, kerana tiada unit kerja yang jelas untuk disiapkan dahulu. Memecahkan waktu belajar kepada kotak yang tetap, contohnya kotak 50 minit diikuti rehat 10 minit, memberikan anda titik pemberhentian yang konkrit yang bukan telefon anda. Pembahagian 50/10 hanyalah satu pilihan yang munasabah, bukan peraturan tetap dan bukan ciri gaya Pomodoro yang terbina dalam sesuatu aplikasi tertentu; anda boleh dengan mudah menggunakan 30/5 atau 90/15 bergantung pada subjek dan berapa lama anda benar-benar dapat mengekalkan fokus.
+
+Dua tabiat perancangan membuat perbezaan yang ketara:
+
+- Letakkan subjek yang paling sukar atau paling meletihkan pada kotak paling awal dalam sesi anda, semasa perhatian anda paling segar, berbanding menyimpannya untuk yang terakhir apabila anda lebih berkemungkinan mencapai telefon anda.
+- Tuliskan seperti apa "selesai" bagi setiap kotak sebelum anda memulakannya (contohnya, "siapkan 10 soalan latihan" berbanding "belajar matematik"), kerana kotak yang samar jauh lebih mudah ditinggalkan separuh jalan untuk menyemak telefon.
+
+Data penggunaan Chrobox sendiri, diambil daripada 5,077 tugasan yang dirancang merentasi 250 pengguna antara Disember 2025 dan September 2026, memberi gambaran berguna di sini walaupun ia mengukur penyiapan tugasan berbanding penyemakan telefon secara khusus: tugasan yang diletakkan ke dalam kotak masa berjadual disiapkan 48.1% daripada masa, berbanding 17.6% untuk tugasan tanpa sebarang slot masa langsung, dan kotak yang bermula pada awal pagi (5:00 hingga 8:59) disiapkan 62.3% daripada masa berbanding 33.2% untuk kotak yang bermula lewat malam (21:00 hingga 23:59). Ini adalah data pemerhatian daripada pengguna Chrobox sendiri, bukan eksperimen terkawal, tetapi ia sejajar dengan pengalaman biasa bahawa waktu belajar yang samar dan dijadualkan lewat adalah di mana penyemakan telefon paling kerap menyusup masuk.
+
+## Contoh Hari Belajar untuk Persediaan Peperiksaan
+
+Berikut ialah satu cara untuk menyusun hari belajar menggunakan kotak masa tetap, jarak telefon dan penyekatan aplikasi bersama-sama, untuk seseorang yang bersedia untuk peperiksaan:
+
+| Masa | Kotak | Telefon / penyekatan aplikasi |
+|---|---|---|
+| 07:30 - 08:20 | Subjek tersukar, 50 minit | Telefon di bilik lain; aplikasi yang mengganggu disekat |
+| 08:20 - 08:30 | Rehat | Telefon dibenarkan, tetapi elakkan aplikasi yang mengganggu jika boleh |
+| 08:30 - 09:20 | Subjek kedua, 50 minit | Telefon di bilik lain; aplikasi yang mengganggu disekat |
+| 09:20 - 09:30 | Rehat | Telefon dibenarkan |
+| 09:30 - 10:20 | Soalan latihan, 50 minit | Telefon di bilik lain; aplikasi yang mengganggu disekat |
+| 10:20 - 10:40 | Rehat lebih panjang | Telefon dibenarkan sepenuhnya |
+| 10:40 - 11:30 | Semak semula bahagian lemah, 50 minit | Telefon di bilik lain; aplikasi yang mengganggu disekat |
+
+Anda boleh membina hari seperti ini secara manual dengan perancang kertas, telefon berkunci dalam laci, dan Downtime Screen Time yang merangkumi keempat-empat kotak belajar, atau menyediakannya dalam Chrobox, di mana setiap kotak belajar membawa sekatan aplikasinya sendiri yang hidup dan mati secara automatik semasa anda melalui hari itu, dan anda boleh memulakan pengiraan detik fokus pada mana-mana kotak apabila anda duduk.
+
+## Pemikiran Penutup
+
+Tiada satu pun daripada tiga bahagian ini, jarak fizikal, penyekatan aplikasi berjadual dan kotak masa tetap, berfungsi terlalu baik dengan sendirinya. Telefon di seberang bilik masih akan diambil semasa sesi belajar yang samar dan tidak jelas; sekatan aplikasi yang ketat pada telefon yang terletak di atas meja anda masih membuatkan anda merenung skrin berkunci berbanding nota anda; dan kotak yang dirancang dengan sempurna tidak membantu jika telefon anda bergetar di sebelahnya sepanjang masa. Bersama-sama, ketiga-tiganya menghapuskan keputusan detik-demi-detik itu sepenuhnya, iaitu bahagian yang paling sukar dikekalkan oleh kekuatan tekad selama berjam-jam.
+    `,
+    'reduce-phone-addiction': `
+# Cara Mengurangkan Ketagihan Telefon: Pelan 7 Langkah untuk Mengurangkan Screen Time
+
+Cara terpantas untuk mengurangkan ketagihan telefon ialah mengukur penggunaan sebenar anda dahulu, membuang pencetus yang menyebabkan anda mengangkat telefon tanpa memutuskannya, dan kemudian menyekat aplikasi terburuk anda hanya semasa tempoh tertentu apabila anda cuba fokus. Anda tidak perlu memadam media sosial atau bertukar kepada telefon lipat lama. Kebanyakan orang boleh mengurangkan screen time secara ketara dalam dua hingga tiga minggu dengan mengikuti senarai pendek perubahan tersusun berbanding cuba membaiki semuanya sekali gus.
+
+Panduan ini ditulis untuk penyemakan telefon kompulsif harian, bukan keadaan klinikal. Jika penggunaan telefon anda benar-benar menjejaskan kerja, hubungan, tidur atau mood anda, sila berbincang dengan doktor atau ahli terapi. Berikut ialah pelan praktikal dan tidak menghakimi bagi pengalaman biasa mengangkat telefon anda lebih kerap daripada yang anda mahukan.
+
+## Mengapa Sukar Mengawal Penyemakan Telefon
+
+Telefon pintar tidak direka untuk diletakkan begitu sahaja. Pemberitahuan, suapan tatal tanpa had dan ganjaran boleh ubah (anda tidak pernah tahu sama ada muat semula seterusnya akan memaparkan sesuatu yang menarik) direka khusus untuk menarik perhatian anda berulang kali. Di samping itu, kajian oleh Ward dan rakan-rakan (2017), diterbitkan sebagai 'Brain Drain' dalam Journal of the Association for Consumer Research, mendapati bahawa kewujudan telefon pintar anda berhampiran semata-mata, walaupun dimatikan dan menghadap ke bawah, boleh mengurangkan kapasiti kognitif yang tersedia untuk tugasan lain. Telefon anda tidak perlu digunakan untuk menjadi bebanan kepada perhatian anda.
+
+Ini penting kerana ia mengubah cara kita melihat masalah ini. Anda bukan kekurangan kekuatan tekad. Anda sedang melawan peranti yang dibina oleh orang yang sangat bijak khusus untuk menawan perhatian anda, sambil turut membayar cukai kognitif ambien hanya kerana kewujudannya berhampiran. Penyelesaiannya bukan lebih banyak kekuatan tekad, tetapi mengubah persekitaran anda supaya tingkah laku yang baik memerlukan kurang kekuatan tekad itu.
+
+## Langkah 1: Ukur Sebelum Anda Mengubah Apa-apa
+
+Sebelum memutuskan apa yang perlu dibaiki, lihat angka-angkanya. Kedua-dua platform utama sudah menjejaki ini untuk anda:
+
+- iPhone: Tetapan kemudian Screen Time memaparkan purata screen time harian dan mingguan anda, pecahan mengikut aplikasi dan kategori, serta bilangan kali anda mengangkat telefon dan pemberitahuan setiap hari.
+- Android: Tetapan kemudian Digital Wellbeing dan Kawalan Ibu Bapa memaparkan angka teras yang sama, penggunaan harian, pecahan aplikasi, buka kunci dan pemberitahuan yang diterima.
+
+Buka sekarang dan lihat sahaja, tanpa menghakimi diri sendiri. Catatkan tiga angka: jumlah screen time harian, bilangan kali mengangkat telefon, dan bilangan pemberitahuan. Anda akan menggunakan ini semula pada Langkah 7 untuk melihat sama ada apa-apa benar-benar berubah. Kebanyakan orang terkejut dengan sekurang-kurangnya satu daripada tiga-tiga ini, biasanya bilangan mengangkat telefon atau pemberitahuan, kerana ia berlaku di latar belakang hari tanpa disedari secara sedar.
+
+## Langkah 2: Kenal Pasti Aplikasi Pencetus Anda
+
+Lihat pecahan setiap aplikasi daripada Langkah 1. Anda sedang mencari dua perkara yang berbeza:
+
+- Aplikasi yang mengambil paling banyak masa secara keseluruhan. Ini selalunya aplikasi video, sosial atau kandungan bentuk pendek.
+- Aplikasi yang paling kerap anda buka atas dasar tabiat, walaupun hanya beberapa saat pada satu masa. Ini kadangkala aplikasi pemesejan, kadangkala aplikasi sosial tertentu, dan tidak selalu sama dengan peneraju masa.
+
+Namakan dua atau tiga aplikasi pencetus utama anda secara khusus. Matlamat yang samar seperti 'kurangkan penggunaan telefon saya' gagal kerana ia tidak memberi anda apa-apa yang konkrit untuk diubah. Matlamat seperti 'berhenti membuka aplikasi khusus ini antara tugasan' adalah sesuatu yang benar-benar boleh anda lakukan.
+
+## Langkah 3: Matikan Pemberitahuan yang Tidak Penting
+
+Masuk ke tetapan pemberitahuan setiap aplikasi pencetus dan matikan semua yang bukan mesej terus daripada seseorang yang sebenar. Tolakan pemasaran, 'seseorang menyukai siaran anda,' amaran cadangan dan dorongan penglibatan semula ('anda mempunyai kandungan baharu menunggu') adalah mekanisme utama yang digunakan oleh aplikasi untuk mengganggu anda dan menarik anda kembali. Kekalkan pemberitahuan untuk perkara yang benar-benar memerlukan perhatian segera anda, seperti panggilan, mesej teks dan peringatan kalendar, dan matikan hampir semua yang lain. Langkah tunggal ini selalunya menghasilkan penurunan ketara dalam bilangan mengangkat telefon dalam beberapa hari, kerana anda tidak lagi dicetuskan untuk membuka aplikasi itu pada mulanya.
+
+## Langkah 4: Tambah Geseran pada Aplikasi Terburuk Anda
+
+Sebaik sahaja pemberitahuan lebih senyap, masalah yang tinggal ialah pembukaan tabiat tanpa memerlukan pemberitahuan: membuka kunci telefon anda dan mengetik ikon aplikasi kerana bosan atau tabiat. Tambah sedikit geseran supaya ini memerlukan keputusan sedar berbanding automatik:
+
+- Alihkan aplikasi pencetus daripada skrin utama dan dok anda, ke dalam folder pada skrin sekunder.
+- Tukar telefon anda kepada skala kelabu semasa waktu anda paling ingin mengurangkan penggunaannya (iPhone: Tetapan, Kebolehcapaian, Paparan & Saiz Teks, Penapis Warna; pada Android biasanya di bawah tetapan kebolehcapaian atau mod Bedtime Digital Wellbeing, bergantung pada pengeluar). Warna adalah sebahagian daripada apa yang menjadikan suapan begitu menarik, dan membuangnya mengurangkan daya tarikan itu dengan ketara.
+- Log keluar daripada satu aplikasi supaya membukanya memerlukan memasukkan semula kata laluan, berbanding ketikan segera.
+
+Tiada satu pun daripada perubahan ini menjadikan aplikasi itu mustahil digunakan. Ia hanya menambah jeda dua atau tiga saat, yang selalunya cukup untuk keinginan itu berlalu atau untuk anda sedar bahawa anda melakukannya atas dasar tabiat berbanding niat.
+
+## Langkah 5: Gantikan Slot Menyemak dengan Aktiviti yang Dirancang
+
+Membuang satu tabiat tanpa menggantikannya cenderung gagal, kerana keinginan untuk menyemak masih muncul pada saat yang sama, semasa beratur, antara mesyuarat, sebaik sahaja bangun tidur. Berbanding hanya cuba menahan diri, letakkan sesuatu yang lain dengan sengaja pada slot itu. Di sinilah timeboxing membantu: jika anda merancang hari anda ke dalam blok terlebih dahulu, saat-saat yang dahulunya diisi dengan penyemakan telefon tanpa tujuan kini diisi dengan tugasan seterusnya yang khusus, jadi terdapat lebih sedikit masa tidak berstruktur untuk tabiat itu mengisinya.
+
+## Langkah 6: Sekat Aplikasi Terburuk Anda Semasa Tempoh Fokus
+
+Bagi aplikasi yang paling sukar ditahan walaupun selepas Langkah 3 hingga 5, hadkan sekatan keras kepada waktu tertentu berbanding cuba mematikannya sepanjang hari, yang cenderung ditinggalkan sebaik sahaja anda mempunyai sebab yang sah untuk menggunakan aplikasi itu. Kedua-dua platform mempunyai alat pihak pertama untuk ini:
+
+- iPhone: Had aplikasi Screen Time dan Downtime, dibina atas Screen Time API Apple.
+- Android: Pemasa aplikasi Digital Wellbeing dan mod Fokus (nama menu berbeza mengikut pengeluar).
+
+Chrobox juga menyekat aplikasi, tetapi mengaitkan sekatan itu dengan kotak masa yang anda rancang berbanding had harian yang tetap: apabila anda melampirkan profil sekatan kepada satu tugasan atau rutin, aplikasi yang anda pilih disekat secara automatik hanya untuk tempoh kotak itu, kemudian menyahsekat sendiri apabila kotak itu tamat. Pada iPhone ini berjalan menggunakan Screen Time API Apple (FamilyControls dan skrin shield tersuai); pada Android ia menggunakan lapisan perkhidmatan kebolehcapaian. Tiada butang 'sekat sekarang' berasingan untuk anda lawan, sekatan itu dihadkan kepada tempoh kerja yang sudah anda rancang, yang selalunya lebih mudah dikekalkan berbanding had sepanjang hari.
+
+## Langkah 7: Semak Semula Angka Anda Setiap Minggu
+
+Kembali ke papan pemuka Screen Time atau Digital Wellbeing yang sama sekali seminggu dan bandingkan dengan angka yang anda catatkan pada Langkah 1. Lihat secara khusus bilangan mengangkat telefon dan pemberitahuan, bukan sekadar jumlah masa, kerana kedua-dua itu selalunya bergerak dahulu dan merupakan isyarat awal yang lebih baik bahawa perubahan geseran dan sekatan sedang berkesan. Jika sesuatu angka tidak bergerak, ia biasanya bermakna satu aplikasi tertentu masih mempunyai pemberitahuan dihidupkan, atau masih berada pada skrin utama anda di mana anda melihatnya secara berterusan. Laraskan satu perkara itu berbanding merombak keseluruhan pelan.
+
+| Langkah | Apa yang perlu dilakukan | Masa diperlukan |
+|---|---|---|
+| 1. Ukur | Semak Screen Time (iPhone) atau Digital Wellbeing (Android) untuk masa harian, bilangan mengangkat telefon dan pemberitahuan | 5 minit |
+| 2. Kenal pasti pencetus | Namakan 2-3 aplikasi teratas anda mengikut masa dan kekerapan dibuka | 5 minit |
+| 3. Kurangkan pemberitahuan | Matikan amaran yang tidak penting dalam aplikasi pencetus | 10 minit |
+| 4. Tambah geseran | Alihkan aplikasi daripada skrin utama, hidupkan skala kelabu, log keluar daripada satu aplikasi | 10 minit |
+| 5. Gantikan slot | Rancang hari anda ke dalam kotak masa supaya saat lapang mempunyai tugasan | 10-15 minit, sekali sehari |
+| 6. Sekat semasa waktu fokus | Tetapkan had aplikasi atau lampirkan profil sekatan kepada kotak fokus | 5 minit untuk sediakan |
+| 7. Semak semula mingguan | Bandingkan angka minggu ini dengan garis dasar anda | 5 minit, sekali seminggu |
+
+## Nota Mengenai Apa yang Bukan Panduan Ini
+
+Ini adalah pelan untuk mengurangkan penyemakan kompulsif harian, bukan rawatan bagi keadaan yang didiagnosis. Sesetengah orang mendapati bahawa walaupun selepas mencuba geseran, sekatan dan aktiviti gantian, penggunaan telefon mereka masih berkait dengan kebimbangan, mood rendah, masalah tidur, atau satu dorongan yang terasa di luar kawalan mereka. Itu adalah tanda untuk berbincang dengan seorang profesional berbanding cuba lebih keras sendirian dengan sebuah aplikasi. Chrobox, dan alat seperti itu, boleh menyokong perubahan tingkah laku bagi orang yang ingin membina tabiat harian yang lebih baik, tetapi ia bukan pengganti penjagaan perubatan atau kesihatan mental.
+
+## Menggabungkan Semuanya
+
+Tiada satu pun daripada tujuh langkah ini memerlukan anda berhenti terus daripada telefon atau aplikasi kegemaran anda. Mengukur dahulu memberitahu anda di mana masalah sebenarnya, berbanding meneka-neka. Mengurangkan pemberitahuan dan menambah geseran membuang pencetus automatik. Merancang hari anda ke dalam blok, secara pilihan dengan aplikasi seperti Chrobox (yang juga menawarkan percubaan percuma 3 hari pada Pro jika anda mahukan ciri penyekatan automatik), memberikan masa yang telah dibebaskan itu tempat yang berguna untuk pergi berbanding hanya meninggalkan jurang yang akan diisi oleh telefon dengan sendirinya. Menyemak semula setiap minggu memastikan anda jujur sama ada ia benar-benar berkesan, berbanding bergantung pada perasaan. Kebanyakan orang perasan perbezaan sebenar dalam masa dua hingga tiga minggu selepas mengikuti senarai ini secara tersusun.
+    `,
+    'daily-reflection-template': `
+# Templat Refleksi Harian: 4 Format Sedia Guna (Termasuk KPT)
+
+Templat refleksi harian paling pantas ialah refleksi 3 baris: satu baris untuk apa yang berjalan lancar, satu untuk apa yang tidak, dan satu untuk apa yang akan anda lakukan esok. Ia mengambil masa kurang dua minit dan menghapuskan alasan tiada masa. Jika anda mahukan lebih struktur, KPT (Keep, Problem, Try) dan semakan rancangan-berbanding-sebenar untuk hari-hari yang berkotak masa turut dibincangkan di bawah, bersama format mood-tambah-satu-ayat yang ringkas untuk hari-hari anda yang paling rendah tenaganya. Pilih satu yang sesuai dengan berapa banyak masa dan tenaga yang anda ada pada malam itu, bukan yang kelihatan paling mengagumkan.
+
+## Mengapa Templat Lebih Penting daripada Motivasi
+
+Kebanyakan orang yang cuba mengekalkan tabiat refleksi harian berhenti dalam masa dua atau tiga minggu, bukan kerana refleksi tidak berguna, tetapi kerana mereka bermula tanpa sebarang format. Kotak teks kosong terasa menggerunkan setiap malam, dan pada hari yang buruk ia bertukar menjadi tiada apa-apa (anda melangkauinya) atau luahan tidak berstruktur yang membuatkan anda berasa lebih teruk. Templat menyelesaikan ini dengan memberi anda slot tetap untuk diisi, jadi tabiat itu tidak bergantung pada perasaan terinspirasi atau mempunyai hari yang baik. Ini juga cara tab retrospektif Chrobox sendiri berfungsi: penilaian mood 5 peringkat (teruk, biasa, okay, baik, hebat) ditambah teks bebas, dengan dikte suara pilihan untuk hari-hari anda lebih suka bercakap daripada menaip, jadi format itu sendiri menghapuskan geseran sebelum anda menulis walaupun satu perkataan.
+
+Berikut ialah empat templat. Setiap satu mempunyai pertukaran yang berbeza antara kepantasan, struktur dan jenis hari yang paling sesuai dengannya.
+
+## Templat 1: Refleksi 3 Baris
+
+Ini ialah pilihan dengan geseran paling rendah dan yang menjadi pilihan lalai pada hari-hari sibuk atau letih.
+
+Apa yang berjalan lancar hari ini, satu baris
+Apa yang tidak berjalan lancar atau terasa sukar, satu baris
+Satu perkara khusus untuk dilakukan secara berbeza esok, satu baris
+
+Masa diperlukan: 1 hingga 2 minit.
+
+Bila ia sesuai: sebarang hari, tetapi terutamanya hari-hari apabila anda letih, sedang bermusafir, atau kesuntukan masa. Ia juga format yang tepat untuk diberikan kepada seseorang yang tidak pernah menulis jurnal sebelum ini, kerana tiga baris pendek terasa boleh dicapai dengan cara yang tidak dimiliki oleh halaman kosong.
+
+Kesilapan biasa: menjadikan baris kedua sebagai senarai segala yang salah. Kekalkan pada satu perkara sahaja. Jika lima perkara tidak kena, pilih satu yang paling patut ditangani esok dan biarkan yang lain untuk malam ini.
+
+## Templat 2: KPT (Keep, Problem, Try)
+
+KPT berasal daripada retrospektif pasukan agile tetapi berfungsi sama baiknya untuk seorang individu yang menyemak satu hari.
+
+Keep (Kekal): apa yang berjaya hari ini yang anda mahu teruskan
+Problem (Masalah): apa yang menghalang atau tidak berjaya
+Try (Cuba): satu perubahan konkrit untuk dicuba esok, berdasarkan baris Problem
+
+Masa diperlukan: 3 hingga 5 minit.
+
+Bila ia sesuai: hari-hari dengan cukup banyak perkara berlaku sehingga satu baris setiap bahagian tidak mencukupi, atau apabila anda cuba memperbaiki satu tabiat atau aliran kerja tertentu selama beberapa hari dan mahukan rekod berterusan tentang apa yang anda ubah dan sama ada ia membantu. KPT lebih berguna daripada format 3 baris apabila anda secara aktif bereksperimen dengan rutin anda, kerana baris Try menjadi sesuatu yang boleh anda semak berbanding baris Keep atau Problem esok.
+
+Kesilapan biasa: menulis Problem tanpa Try yang sepadan. Problem sahaja hanya menjadi rungutan yang anda ulangi setiap hari. Baris Try adalah yang menjadikan refleksi itu satu gelung penambahbaikan sebenar berbanding diari rasa kecewa.
+
+## Templat 3: Rancangan Berbanding Sebenar, untuk Hari-hari yang Berkotak Masa
+
+Templat ini dibina khusus untuk orang yang merancang hari mereka ke dalam blok masa, sama ada dalam kalendar, perancang, atau aplikasi seperti Chrobox.
+
+Kotak dirancang hari ini: (nombor)
+Kotak yang benar-benar disiapkan: (nombor)
+Sebab baki yang lain tergelincir: (satu baris setiap kotak yang tidak berlaku, atau satu baris keseluruhan jika sebabnya sama untuk semua)
+Satu perubahan untuk rancangan esok: (satu baris)
+
+Masa diperlukan: 3 hingga 5 minit.
+
+Bila ia sesuai: sebarang hari anda merancang masa anda terlebih dahulu dan ingin tahu sama ada rancangan itu sepadan dengan kenyataan, yang selalunya lebih memberi maklumat berbanding penilaian mood sahaja. Jika anda secara konsisten merancang sembilan tugasan dan menyiapkan dua, masalahnya biasanya adalah rancangan itu sendiri, bukan usaha anda. Data penggunaan Chrobox sendiri merentasi 5,077 tugasan yang dirancang oleh 250 orang menunjukkan bahawa pada hari-hari dengan sembilan atau lebih tugasan dirancang, keseluruhan senarai disiapkan hanya sekali dalam 198 hari, kira-kira separuh peratus daripada masa, manakala hari median mempunyai lima tugasan dirancang. Itu penanda aras yang berguna apabila anda memutuskan sama ada jurang rancangan-berbanding-sebenar anda sendiri adalah normal atau perlu dibaiki. Ini adalah data pemerhatian daripada penggunaan aplikasi, bukan kajian terkawal, jadi anggap ia sebagai titik rujukan kasar berbanding satu peraturan.
+
+Kesilapan biasa: menganggap kotak yang tergelincir sebagai kegagalan peribadi berbanding isyarat perancangan. Jika jenis kotak yang sama tergelincir hampir setiap hari, contohnya apa-apa yang dijadualkan selepas 9 malam, itu adalah maklumat tentang bila anda patut berhenti menjadualkan jenis tugasan itu, bukan bukti bahawa anda kurang disiplin.
+
+## Templat 4: Mood Tambah Satu Ayat
+
+Untuk hari-hari apabila walaupun tiga baris terasa terlalu banyak.
+
+Mood: (pilih satu perkataan atau skala 1 hingga 5)
+Satu ayat tentang hari ini
+
+Masa diperlukan: kurang 1 minit.
+
+Bila ia sesuai: hari-hari anda yang paling rendah tenaganya, atau sebagai pilihan sandaran supaya rentetan itu tidak terputus sepenuhnya. Catatan ringkas yang mengekalkan tabiat itu hidup bernilai jauh lebih tinggi daripada hari yang dilangkau, kerana bahagian paling sukar bagi mana-mana amalan harian biasanya ialah memulakannya semula selepas satu jurang. Menulis walaupun satu ayat memberi anda sesuatu untuk dilihat semula kemudian yang tidak dimiliki oleh skor mood sahaja.
+
+Kesilapan biasa: melangkau catatan sepenuhnya kerana ia terasa terlalu kecil untuk diambil peduli. Catatan satu ayat pada hari yang buruk masih merupakan satu titik data, dan melihat semula sebulan catatan yang ringkas pun biasanya menunjukkan corak yang tidak akan didedahkan oleh mana-mana satu hari.
+
+## Memilih Antara Keempat-empatnya
+
+Gunakan format 3 baris sebagai lalai anda. Beralih kepada KPT pada hari-hari apabila anda secara aktif cuba membaiki sesuatu yang khusus, kerana baris Try memberi anda sesuatu untuk disusuli. Gunakan format rancangan-berbanding-sebenar pada hari-hari anda menjadualkan jadual anda mengikut kotak masa, kerana ia memberitahu anda sama ada rancangan itu sendiri perlu dilaraskan. Kembali kepada mood-tambah-satu-ayat pada hari-hari tersukar anda, sekadar untuk mengekalkan tabiat itu hidup berbanding membiarkan satu jurang bertukar menjadi berminggu-minggu tanpa menulis langsung. Tiada pilihan yang salah di sini; satu-satunya kesilapan sebenar ialah menganggap mana-mana satu daripadanya sebagai wajib setiap hari tanpa gagal.
+
+## Kesilapan Biasa Merentasi Keempat-empat Templat
+
+Beberapa masalah timbul tanpa mengira templat mana yang anda gunakan.
+
+Menjadikannya kritikan diri. Refleksi yang hanya menyenaraikan kesalahan melatih anda untuk takut akan tabiat itu. Setiap templat di atas memadankan pemerhatian negatif dengan satu tindakan berpandangan ke hadapan, dan ini adalah sengaja. Jika anda perasan catatan anda kebanyakannya rungutan tentang diri sendiri, tambah satu baris "apa yang berjalan lancar" walaupun kepada KPT atau templat rancangan-berbanding-sebenar.
+
+Menulis terlalu banyak. Catatan panjang mengambil masa lebih lama untuk ditulis dan lebih lama lagi untuk disemak semula, yang bermakna anda berhenti menyemak catatan lama, padahal itulah separuh daripada tujuan menyimpannya. Jika satu catatan mengambil masa lebih daripada lima minit, anda mungkin telah beralih daripada refleksi kepada luahan perasaan. Simpan luahan itu di tempat lain dan pastikan refleksi cukup ringkas supaya anda benar-benar akan membacanya semula.
+
+Melangkau tabiat itu sepenuhnya pada hari-hari buruk. Ini adalah cara paling biasa tabiat itu mati. Hari-hari buruk justeru adalah bila catatan mood-tambah-satu-ayat yang pantas paling bernilai, baik kerana anda memerlukan saluran mahupun kerana rentetan hari buruk berbaloi untuk dapat dilihat semula kemudian.
+
+## Di Mana Ini Sesuai dengan Sebuah Aplikasi
+
+Anda boleh menjalankan mana-mana daripada empat templat ini di atas kertas, dalam aplikasi nota, atau dalam alat khusus. Jika anda sudah merancang hari anda dalam kotak masa, Chrobox menyimpan rancangan dan retrospektif harian dalam aplikasi yang sama, jadi templat rancangan-berbanding-sebenar hanya mengambil masa seminit: kotak yang anda rancang dan yang anda tandakan sudah pun ada di sana. Catatan turut membina rentetan penulisan dan, pada Chrobox Pro, memberi input kepada analisis AI harian dan mingguan automatik dengan mesej keselesaan AI pilihan pada satu catatan, jadi tabiat harian yang kecil itu terkumpul menjadi pandangan jangka panjang tanpa kerja manual tambahan. Tiada satu pun daripada itu diperlukan untuk mendapat manfaat daripada templat ini. Nota pelekat dan dua minit berfungsi sama baiknya dengan mana-mana aplikasi.
+
+## Membina Tabiat Itu
+
+Templat itu kurang penting berbanding hadir dengan mana-mana templat sekalipun, kebanyakan malam, selama beberapa minggu. Pilih satu yang sesuai dengan tenaga malam ini berbanding menyasarkan catatan anda yang paling terperinci setiap kali, dan anggap catatan ringkas sebagai satu kejayaan penuh berbanding versi yang kurang daripada catatan panjang. Matlamat refleksi harian bukanlah rekod yang sempurna; ia adalah tabiat yang benar-benar anda kekalkan, kerana tabiat yang anda kekalkan selama sebulan memberitahu anda jauh lebih banyak tentang hari-hari anda berbanding mana-mana satu catatan terperinci sekalipun.
+    `,
   },
   templates: {
     'software-developer': {

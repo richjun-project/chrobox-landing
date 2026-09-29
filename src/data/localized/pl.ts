@@ -65,7 +65,7 @@ export const pack: LocalizedContentPack = {
       chroboxPros: [
         'Zaprojektowany specjalnie z myślą o osobistej produktywności i głębokiej pracy',
         'Łączy zadania i bloki czasu w jednym widoku',
-        'Wbudowany timer skupienia w stylu Pomodoro',
+        'Wbudowany minutnik skupienia powiązany z każdym blokiem czasu',
         'Zapobiega przeładowaniu kalendarza dzięki świadomemu planowaniu',
       ],
       competitorPros: [
@@ -78,7 +78,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Czy Chrobox synchronizuje się z Google Calendar?',
-          answer: 'Tak, Chrobox integruje się z Google Calendar, dzięki czemu Twoje spotkania i wydarzenia pojawiają się obok zaplanowanych bloków pracy, dając pełny podgląd dnia.',
+          answer: 'Chrobox wyświetla wydarzenia z kalendarzy już dodanych na Twoim telefonie — w tym z konta Google dodanego do telefonu — obok Twoich zaplanowanych bloków pracy i może opcjonalnie skopiować bloki z Chrobox do jednego kalendarza na telefonie. Nie łączy się bezpośrednio z API Google Calendar ani nie synchronizuje się dwukierunkowo.',
         },
         {
           question: 'Czy Chrobox zastępuje Google Calendar?',
@@ -301,7 +301,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Czy Chrobox działa bez połączenia z internetem?',
-          answer: 'Chrobox został zaprojektowany przede wszystkim jako aplikacja mobilna i działa w trybie offline w zakresie kluczowych funkcji time-boxingu. Twoje dane zsynchronizują się automatycznie po ponownym połączeniu z internetem.',
+          answer: 'Chrobox wymaga połączenia z internetem — Twoje plany, rutyny i statystyki synchronizują się z Twoim kontem w czasie rzeczywistym, a aplikacja nie oferuje obecnie trybu offline.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Czy Chrobox jest dostępny na system Windows?',
-          answer: 'Chrobox to przede wszystkim aplikacja mobilna dostępna na systemy iOS i Android. Dla użytkowników systemu Windows dostępna jest wersja przeglądarkowa, która umożliwia korzystanie z harmonogramu time-boxingu w dowolnej przeglądarce.',
+          answer: 'Chrobox to aplikacja mobilna dostępna wyłącznie na iPhone\'a i Androida — nie ma wersji na Windows ani aplikacji webowej. Jeśli w ciągu dnia korzystasz z Windows, nadal możesz sprawdzać i aktualizować swój harmonogram z telefonu równolegle.',
         },
       ],
     },
@@ -398,7 +398,7 @@ export const pack: LocalizedContentPack = {
       metaDescription: 'Chrobox vs TickTick: skoncentrowany time-boxing na cały dzień kontra uniwersalna aplikacja z zadaniami, nawykami i timerem Pomodoro.',
       featureNames: [
         'Time-boxing',
-        'Timer Pomodoro',
+        'Minutnik skupienia',
         'Śledzenie nawyków',
         'Widok kalendarza',
         'Widok harmonogramu dnia',
@@ -421,8 +421,8 @@ export const pack: LocalizedContentPack = {
       verdict: 'TickTick to wszechstronne narzędzie ze śledzeniem nawyków i świetnym timerem Pomodoro. Chrobox sprawdzi się lepiej, jeśli szukasz prostego, dedykowanego rozwiązania do time-boxingu bez rozpraszania się zbędnymi funkcjami.',
       faqs: [
         {
-          question: 'Czy Chrobox ma timer Pomodoro tak jak TickTick?',
-          answer: 'Tak, Chrobox zawiera wbudowany timer skupienia, który dopełnia bloki time-boxingu. Każdy blok czasu można uruchomić wraz z timerem skupienia, co pomaga utrzymać koncentrację.',
+          question: 'Czy Chrobox ma minutnik skupienia, taki jak timer Pomodoro w TickTick?',
+          answer: 'Chrobox zawiera wbudowany minutnik skupienia dla każdego bloku czasu, ale to nie jest timer Pomodoro — nie ma cykli praca/przerwa ani liczników sesji. Uruchamiasz pojedyncze odliczanie (gotowe długości 15/25/30/45/60/90/120 minut lub własna długość) dla zadania, nad którym pracujesz, a zadanie jest oznaczane jako ukończone, gdy licznik dojdzie do zera.',
         },
         {
           question: 'Czy w TickTick można stosować time-boxing tak jak w Chrobox?',
@@ -431,6 +431,221 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Która aplikacja jest lepsza dla studentów?',
           answer: 'Obie aplikacje świetnie sprawdzą się w przypadku studentów. Monitorowanie nawyków w TickTick pomaga w budowaniu nawyków związanych z nauką, podczas gdy time-boxing w Chrobox pozwala realistycznie zaplanować sesje nauki, ułatwiając opanowanie całego materiału bez ryzyka, że zabraknie Ci czasu.',
+        },
+      ],
+    },
+    'chrobox-vs-structured': {
+      competitor: 'Structured',
+      tagline: 'Chrobox vs Structured: blokowanie aplikacji kontra oś czasu w ekosystemie Apple',
+      description: 'Structured to dopracowany, wizualny planer osi czasu głęboko zintegrowany z urządzeniami Apple, z darmowym planem i automatycznym planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon, która dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma darmowego planu ani aplikacji na Maca, Watcha czy w wersji webowej.',
+      metaDescription: 'Chrobox vs Structured: blokowanie aplikacji przy każdym bloku czasu kontra darmowy planer osi czasu w ekosystemie Apple z planowaniem AI. Zobacz realne kompromisy.',
+      featureNames: [
+        'Blokowanie aplikacji',
+        'Darmowy plan',
+        'Oś czasu / bloki czasowe',
+        'Aplikacja na Maca / Apple Watch',
+        'Automatyczne planowanie AI',
+        'Serie rutyn / nawyków',
+        'Timer skupienia',
+        'Codzienna retrospektywa',
+      ],
+      chroboxPros: [
+        'Automatycznie blokuje wybrane przez Ciebie aplikacje dokładnie na czas trwania każdego bloku czasu',
+        'Rutyny mają serie, 90-dniową mapę cieplną i statystyki dla każdej rutyny',
+        'Codzienna i tygodniowa analiza AI ukończonych zadań, nastroju i nawyków',
+        'Codzienna retrospektywa z oceną nastroju i opcjonalną dyktowaniem głosowym',
+      ],
+      competitorPros: [
+        'Darmowy plan obejmuje oś czasu, skrzynkę odbiorczą, podzadania, notatki i widżety bez subskrypcji',
+        'Natywne aplikacje na Maca, Apple Watch, Vision Pro i w wersji webowej, nie tylko na telefony',
+        '4,8 gwiazdki przy około 167 000 ocen w App Store — jeden z najczęściej ocenianych planerów (stan na wrzesień 2026)',
+        'Wersja Pro dodaje import kalendarza i przypomnień, Structured AI oraz funkcję Replan do zorientowanego na Apple sposobu pracy',
+      ],
+      verdict: 'Wybierz Structured, jeśli korzystasz z Maca, Apple Watch i iPhone\'a jednocześnie i chcesz darmowego planera osi czasu z dopracowaniem typowym dla Apple. Wybierz Chrobox, jeśli konkretnie chcesz, aby zaplanowany czas jednocześnie blokował rozpraszające aplikacje, plus rutyny i codzienną refleksję, a potrzebujesz tego wyłącznie na telefonie.',
+      faqs: [
+        {
+          question: 'Czy Chrobox to dobra alternatywa dla Structured?',
+          answer: 'Chrobox jest dobrą alternatywą, jeśli to, czego szukasz w Structured, to oś czasu plus coś, czego Structured nie robi: automatyczne blokowanie rozpraszających aplikacji podczas każdego bloku czasu. Nie jest zamiennikiem, jeśli potrzebujesz darmowego planu Structured lub jego aplikacji na Maca, Apple Watch czy w wersji webowej, ponieważ Chrobox działa wyłącznie na telefonie i wymaga wersji Pro.',
+        },
+        {
+          question: 'Jaka jest różnica między Chrobox a Structured?',
+          answer: 'Structured to darmowy, wieloplatformowy planer osi czasu głęboko zintegrowany z ekosystemem Apple (Mac, Apple Watch, Vision Pro), z planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon i wyłącznie w subskrypcji, której zaplanowane bloki czasu mogą również automatycznie blokować wybrane aplikacje, a dodatkowo oferuje serie rutyn i codzienną retrospektywę nastroju.',
+        },
+        {
+          question: 'Czy Structured blokuje rozpraszające aplikacje tak jak Chrobox?',
+          answer: 'Nie, blokowanie aplikacji nie jest częścią udokumentowanych funkcji Structured. Structured koncentruje się na łączeniu zadań i wydarzeń z kalendarza w jedną wizualną oś czasu; jeśli blokowanie aplikacji podczas czasu skupienia jest dla Ciebie ważne, to funkcja charakterystyczna dla Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-tiimo': {
+      competitor: 'Tiimo',
+      tagline: 'Chrobox vs Tiimo: blokowanie aplikacji kontra planowanie ukierunkowane na neuroróżnorodność',
+      description: 'Tiimo to wizualny planer AI oparty na piktogramach, stworzony specjalnie z myślą o wsparciu funkcji wykonawczych w ADHD i autyzmie, uznany Aplikacją Roku na iPhone\'a 2025 przez Apple. Chrobox to uniwersalna aplikacja do timeboxingu na telefon, która dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma specjalistycznego projektu dla ADHD ani darmowego planu Tiimo.',
+      metaDescription: 'Chrobox vs Tiimo: timeboxing z blokowaniem aplikacji kontra wizualny planer AI skierowany do osób z ADHD/autyzmem. Porównaj funkcje uczciwie przed zmianą.',
+      featureNames: [
+        'Blokowanie aplikacji',
+        'Darmowy plan',
+        'Wizualna oś czasu',
+        'Import kalendarza',
+        'Planowanie AI',
+        'Serie rutyn / nawyków',
+        'Śledzenie nastroju / refleksja',
+        'Aplikacja na Maca / w wersji webowej',
+      ],
+      chroboxPros: [
+        'Automatycznie blokuje wybrane przez Ciebie aplikacje dokładnie na czas trwania każdego bloku czasu',
+        'Timer skupienia z ustawieniami od 15 do 120 minut wyświetlanymi w Live Activity / Dynamic Island',
+        'Codzienna i tygodniowa analiza AI obejmująca zadania, nawyki i nastrój, wraz z tygodniowym tytułem AI, którym można się podzielić',
+        'Serie rutyn i 90-dniowa mapa cieplna ukończeń',
+      ],
+      competitorPros: [
+        'Zaprojektowana specjalnie pod kątem potrzeb funkcji wykonawczych w ADHD i autyzmie, uznana Aplikacją Roku na iPhone\'a 2025 przez Apple',
+        'Ograniczony darmowy plan na iOS i Androidzie, plus plan Pro z 7-dniowym okresem próbnym przy rozliczeniu rocznym',
+        'Import kalendarza z Google, Apple i Outlooka',
+        'Aplikacje na Maca (Apple Silicon), Apple Watch, Vision Pro i w wersji webowej, nie tylko na telefony, oraz 4,6 gwiazdki przy około 20 000 ocen (stan na wrzesień 2026)',
+      ],
+      verdict: 'Wybierz Tiimo, jeśli konkretnie potrzebujesz wizualnego planowania ukierunkowanego na ADHD/autyzm, chcesz zacząć od darmowego planu lub korzystasz z Maca czy Apple Watch. Wybierz Chrobox, jeśli chcesz prostej aplikacji do timeboxingu, która dodatkowo blokuje rozpraszające aplikacje podczas zaplanowanej pracy, i nie przeszkadza Ci planowanie wyłącznie z telefonu.',
+      faqs: [
+        {
+          question: 'Czy Chrobox to dobra alternatywa dla Tiimo?',
+          answer: 'Chrobox to rozsądna alternatywa, jeśli chcesz ogólnego timeboxingu z automatycznym blokowaniem aplikacji, ponieważ Tiimo nie blokuje aplikacji. Nie jest zamiennikiem wizualnego projektu Tiimo skierowanego do osób z ADHD/autyzmem, jego darmowego planu ani aplikacji na Maca i Apple Watch, których Chrobox nie posiada.',
+        },
+        {
+          question: 'Jaka jest różnica między Chrobox a Tiimo?',
+          answer: 'Tiimo to wizualny planer oparty na piktogramach, zaprojektowany specjalnie z myślą o wsparciu funkcji wykonawczych osób neuroatypowych, z ograniczonym darmowym planem i aplikacjami na Maca, Apple Watch, Vision Pro i w wersji webowej. Chrobox to aplikacja do timeboxingu wyłącznie na telefon i wyłącznie w subskrypcji, której główną różnicą strukturalną jest automatyczne blokowanie aplikacji powiązane z każdym zaplanowanym blokiem czasu.',
+        },
+        {
+          question: 'Czy Tiimo blokuje rozpraszające aplikacje tak jak Chrobox?',
+          answer: 'Nie, blokowanie aplikacji nie jest częścią udokumentowanych funkcji Tiimo. Tiimo koncentruje się na wizualnym planowaniu wspieranym przez AI i imporcie kalendarza; jeśli chcesz, aby zaplanowany czas jednocześnie blokował rozpraszające aplikacje, to funkcja charakterystyczna dla Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-sunsama': {
+      competitor: 'Sunsama',
+      tagline: 'Chrobox vs Sunsama: timeboxing na telefonie kontra centrum pracy na wielu platformach',
+      description: 'Sunsama to planer dnia stworzony przede wszystkim z myślą o przeglądarce, przeznaczony dla profesjonalistów, który pobiera zadania z narzędzi takich jak Asana, Notion, Slack i Gmail, oferując prawdziwą dwukierunkową synchronizację kalendarza oraz uporządkowany rytuał codziennego zamknięcia dnia. Chrobox to aplikacja do timeboxingu wyłącznie na telefon, bez integracji z narzędziami do zadań ani synchronizacji kalendarza, ale dodaje automatyczne blokowanie aplikacji i timer skupienia powiązany z każdym blokiem czasu.',
+      metaDescription: 'Chrobox vs Sunsama: timeboxing wyłącznie na telefonie z blokowaniem aplikacji kontra planer przeznaczony na przeglądarkę z głębokimi integracjami i synchronizacją kalendarza.',
+      featureNames: [
+        'Integracje z narzędziami do zadań',
+        'Dwukierunkowa synchronizacja kalendarza',
+        'Aplikacja na Maca / Windows / w wersji webowej',
+        'Blokowanie aplikacji',
+        'Darmowy plan',
+        'Codzienny przegląd / retrospektywa',
+        'Darmowy okres próbny',
+        'Serie rutyn / nawyków',
+      ],
+      chroboxPros: [
+        'Automatycznie blokuje wybrane przez Ciebie aplikacje dokładnie na czas trwania każdego bloku czasu, czego Sunsama nie robi',
+        'Ręczny timer skupienia z ustawieniami powiązanymi bezpośrednio z każdym zadaniem, wyświetlany w Live Activity / Dynamic Island',
+        'Rutyny z seriami, 90-dniową mapą cieplną i statystykami dla każdej rutyny',
+        'Codzienna retrospektywa z 5-stopniową oceną nastroju i opcjonalnym dyktowaniem głosowym',
+      ],
+      competitorPros: [
+        'Pobiera zadania z Asany, ClickUp, GitHub, Gmaila, Jiry, Linear, Notion, Outlooka, Slacka, Todoist, Trello i wielu innych',
+        'Prawdziwa dwukierunkowa synchronizacja kalendarza z Google i Outlookiem',
+        'Działa w przeglądarce oraz na macOS, Windows i Linux, a nie tylko na telefonach',
+        'Uporządkowany rytuał codziennego zamknięcia dnia z najważniejszymi punktami i celami tygodniowymi; 20 USD/miesiąc lub 16 USD/miesiąc przy rozliczeniu rocznym z 14-dniowym darmowym okresem próbnym (stan na wrzesień 2026)',
+      ],
+      verdict: 'Wybierz Sunsama, jeśli Twoja praca już toczy się w narzędziach takich jak Notion, Slack i Asana i potrzebujesz dwukierunkowej synchronizacji kalendarza na laptopie. Wybierz Chrobox, jeśli planujesz głównie z telefonu i chcesz, aby zaplanowany czas jednocześnie blokował rozpraszające aplikacje, bez potrzeby żadnych integracji.',
+      faqs: [
+        {
+          question: 'Czy Chrobox to dobra alternatywa dla Sunsama?',
+          answer: 'Chrobox jest dobrą alternatywą tylko wtedy, gdy nie zależysz od integracji Sunsama ani synchronizacji kalendarza. Chrobox nie łączy się z narzędziami do zadań, takimi jak Notion, Slack czy Asana, i nie ma dwukierunkowej synchronizacji kalendarza, więc jeśli to właśnie dlatego korzystasz z Sunsama, Chrobox go nie zastąpi. Jeśli natomiast chcesz przede wszystkim prostego harmonogramu opartego na telefonie, który dodatkowo blokuje rozpraszające aplikacje, Chrobox to zapewnia.',
+        },
+        {
+          question: 'Jaka jest różnica między Chrobox a Sunsama?',
+          answer: 'Sunsama to planer stworzony przede wszystkim z myślą o przeglądarce, który łączy się z Twoimi innymi narzędziami do pracy i synchronizuje się dwukierunkowo z kalendarzem, działając w przeglądarce oraz na Macu, Windows i Linuksie, a także na telefonach. Chrobox to aplikacja wyłącznie na telefon, bez integracji ani synchronizacji kalendarza, ale dodaje automatyczne blokowanie aplikacji i ręczny timer skupienia powiązany z każdym blokiem czasu.',
+        },
+        {
+          question: 'Czy Chrobox synchronizuje się z Kalendarzem Google tak jak Sunsama?',
+          answer: 'Nie. Chrobox wyświetla jedynie wydarzenia z godzinami z kalendarzy już znajdujących się na Twoim telefonie i może kopiować swoje własne bloki do jednego wybranego kalendarza telefonu; nie ma bezpośredniego połączenia z API Kalendarza Google ani dwukierunkowej synchronizacji. Sunsama ma prawdziwą dwukierunkową synchronizację z Google i Outlookiem.',
+        },
+      ],
+    },
+    'chrobox-vs-opal': {
+      competitor: 'Opal',
+      tagline: 'Chrobox vs Opal: blokowanie według harmonogramu kontra stała kontrola czasu przed ekranem',
+      description: 'Opal to dedykowane narzędzie do zarządzania czasem przed ekranem i blokowania aplikacji, z restrykcyjnym Trybem Hard Mode, którego nie można wyłączyć w trakcie sesji, oraz darmowym planem. Chrobox to przede wszystkim aplikacja do timeboxingu, która blokuje wybrane przez Ciebie aplikacje tylko podczas zaplanowanych bloków czasu, bez odpowiednika stałego Trybu Hard Mode Opala i bez darmowego planu.',
+      metaDescription: 'Chrobox vs Opal: blokowanie aplikacji oparte na harmonogramie z pełnym planerem dnia kontra dedykowany, stale aktywny bloker z darmowym planem.',
+      featureNames: [
+        'Pełna oś czasu / planer dnia',
+        'Blokowanie aplikacji',
+        'Tryb stałego blokowania',
+        'Darmowy plan',
+        'Planowanie zadań',
+        'Timer skupienia',
+        'Śledzenie nawyków / użytkowania',
+        'Planowanie AI',
+      ],
+      chroboxPros: [
+        'Pełna oś czasu dnia, która najpierw planuje zadania, a następnie automatycznie dołącza blokowanie aplikacji do konkretnych bloków czasu',
+        'Sugestie zadań AI i automatyczne rozmieszczanie w czasie na podstawie ostatnich 7 dni ukończonych zadań',
+        'Serie rutyn i 90-dniowa mapa cieplna obok blokowania, a nie tylko statystyki użytkowania',
+        'Codzienna i tygodniowa analiza AI zadań, nawyków i nastroju',
+      ],
+      competitorPros: [
+        'Blokowanie w Trybie Hard Mode, którego nie można wyłączyć w trakcie sesji, plus tryb Allow Only, dla osób, które potrzebują blokady naprawdę niemożliwej do obejścia',
+        'Darmowy plan z jedną regułą dla harmonogramów, limitów czasowych i limitów otwarć',
+        '4,7 gwiazdki przy około 89 000 ocen — jedna z najczęściej ocenianych aplikacji blokujących (stan na wrzesień 2026)',
+        'Wersja Pro za 19,99 USD/miesiąc (3-dniowy okres próbny), 99,99 USD/rok (1-tygodniowy okres próbny) lub 399 USD dożywotnio, z przejrzystym raportowaniem użytkowania (stan na wrzesień 2026)',
+      ],
+      verdict: 'Wybierz Opal, jeśli potrzebujesz blokowania tak restrykcyjnego, że nie da się go wyłączyć w trakcie sesji, lub chcesz zacząć za darmo. Wybierz Chrobox, jeśli chcesz, aby blokowanie odbywało się automatycznie jako efekt uboczny planowania całego dnia, z wbudowanymi zadaniami, rutynami i refleksją.',
+      faqs: [
+        {
+          question: 'Czy Chrobox to dobra alternatywa dla Opala?',
+          answer: 'Chrobox to dobra alternatywa, jeśli tak naprawdę chcesz planera, który dodatkowo blokuje aplikacje podczas zaplanowanej pracy, a nie dedykowanego blokera. Nie jest zamiennikiem Trybu Hard Mode Opala, którego nie można wyłączyć w trakcie sesji i który jest bardziej restrykcyjny niż cokolwiek oferowane przez Chrobox, a Chrobox nie ma darmowego planu, podczas gdy Opal go ma.',
+        },
+        {
+          question: 'Jaka jest różnica między Chrobox a Opalem?',
+          answer: 'Opal to dedykowany bloker czasu przed ekranem z darmowym planem i Trybem Hard Mode, którego nie można wyłączyć po rozpoczęciu. Chrobox to planer oparty na timeboxingu, w którym blokowanie aplikacji jest powiązane z blokami czasu zaplanowanymi dla zadań i rutyn, i działa równolegle z planowaniem zadań, rutynami oraz analizą AI, ale wymaga wersji Pro.',
+        },
+        {
+          question: 'Czy Chrobox ma Tryb Hard Mode tak jak Opal?',
+          answer: 'Nie. Chrobox blokuje wybrane przez Ciebie aplikacje tylko na czas trwania zaplanowanego bloku czasu, wykorzystując Screen Time API firmy Apple na iOS lub nakładkę usługi ułatwień dostępu (Accessibility) na Androidzie, i nie ma stałego trybu, który opiera się wyłączeniu w trakcie sesji tak, jak robi to Tryb Hard Mode Opala.',
+        },
+      ],
+    },
+    'chrobox-vs-forest': {
+      competitor: 'Forest',
+      tagline: 'Chrobox vs Forest: timeboxing całego dnia kontra grywalizowane sesje skupienia',
+      description: 'Forest to darmowy, grywalizowany timer skupienia, w którym podczas trzymania się z dala od telefonu rośnie wirtualne drzewo, a blokowanie aplikacji i wspólne sesje skupienia są wbudowane w darmowy plan. Chrobox planuje cały Twój dzień w blokach czasu z rutynami i refleksją oraz blokuje aplikacje powiązane z tymi blokami, ale nie ma grywalizacji ani darmowego planu.',
+      metaDescription: 'Chrobox vs Forest: timeboxing całego dnia z blokowaniem aplikacji kontra darmowy, grywalizowany timer skupienia ze wspólnymi sesjami i prawdziwymi drzewami.',
+      featureNames: [
+        'Darmowy plan',
+        'Pełna oś czasu / planer dnia',
+        'Blokowanie aplikacji',
+        'Grywalizacja (drzewa, nagrody)',
+        'Timer skupienia',
+        'Wspólne / grupowe skupienie',
+        'Serie rutyn / nawyków',
+        'Planowanie AI',
+      ],
+      chroboxPros: [
+        'Planuje cały Twój dzień w blokach czasu, zamiast jedynie mierzyć czas pojedynczych sesji skupienia',
+        'Blokowanie aplikacji jest automatycznie powiązane z konkretnymi zadaniami i rutynami, a nie uruchamiane jako osobna sesja',
+        'Rutyny z seriami, 90-dniową mapą cieplną i statystykami dla każdej rutyny',
+        'Sugestie zadań AI, automatyczne rozmieszczanie w czasie oraz codzienna i tygodniowa analiza AI',
+      ],
+      competitorPros: [
+        'Darmowa podstawowa wersja obejmuje timer skupienia, blokowanie aplikacji Deep Focus, wspólne skupienie i podstawową analitykę',
+        'Grywalizowana motywacja: wirtualne drzewo rośnie, gdy utrzymujesz skupienie, a prawdziwe drzewa są sadzone za pośrednictwem Trees for the Future',
+        'Wspólne sesje skupienia ("Plant Together") pozwalające trzymać się z dala od telefonu razem ze znajomymi',
+        'Ponad 60 milionów pobrań (deklaracja własna) oraz 4,8 gwiazdki przy około 49 000 ocen (stan na wrzesień 2026)',
+      ],
+      verdict: 'Wybierz Forest, jeśli chcesz darmowego, motywującego sposobu na trzymanie się z dala od telefonu podczas indywidualnych sesji skupienia, zwłaszcza ze znajomymi. Wybierz Chrobox, jeśli chcesz, aby cały Twój dzień był zaplanowany w blokach czasu, z blokowaniem aplikacji, rutynami i refleksją zbudowanymi wokół tego harmonogramu, a nie wokół pojedynczych sesji.',
+      faqs: [
+        {
+          question: 'Czy Chrobox to dobra alternatywa dla Forest?',
+          answer: 'Chrobox to dobra alternatywa, jeśli chcesz blokowania aplikacji jako elementu planowania całego dnia zadań, a nie jako samodzielnego timera sesji. Nie jest zamiennikiem darmowego planu Forest, grywalizowanej motywacji w postaci rosnącego drzewa ani wspólnych sesji skupienia, których Chrobox nie posiada.',
+        },
+        {
+          question: 'Jaka jest różnica między Chrobox a Forest?',
+          answer: 'Forest to darmowy, grywalizowany timer skupienia, w którym trzymanie się z dala od telefonu powoduje wzrost wirtualnego drzewa, a blokowanie aplikacji i sesje grupowe są zawarte w darmowym planie. Chrobox to planer wyłącznie na telefon i wyłącznie w wersji Pro, który planuje cały Twój dzień w blokach czasu, wiąże blokowanie aplikacji z tymi blokami i rutynami oraz dodaje planowanie AI i codzienną retrospektywę nastroju, ale nie ma grywalizacji ani funkcji grupowych.',
+        },
+        {
+          question: 'Czy Chrobox ma darmowy plan tak jak Forest?',
+          answer: 'Nie. Chrobox jest darmowy do pobrania, ale do korzystania wymaga Chrobox Pro, zaczynając od 3-dniowego darmowego okresu próbnego dla nowych subskrybentów w planie miesięcznym lub rocznym. Forest oferuje naprawdę darmową podstawową wersję, obejmującą timer skupienia i blokowanie aplikacji Deep Focus.',
         },
       ],
     },
@@ -568,15 +783,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Jaka jest najlepsza darmowa aplikacja do timeboxingu?',
-          answer: 'Chrobox oferuje bogaty darmowy pakiet z kluczowymi funkcjami timeboxingu. Dla większości użytkowników bezpłatny plan zapewnia wszystko, co niezbędne do wyrobienia solidnego nawyku timeboxingu.',
+          answer: 'Chrobox nie ma darmowego planu — pobranie aplikacji jest bezpłatne, ale wymaga Chrobox Pro, które zaczyna się od 3-dniowego bezpłatnego okresu próbnego. Jeśli szukasz zupełnie darmowej opcji do time-boxingu, ręczne blokowanie czasu w Kalendarzu Google nic nie kosztuje, choć brakuje mu przechwytywania zadań, minutnika skupienia i blokowania aplikacji, które ma Chrobox.',
         },
         {
           question: 'Która aplikacja do timeboxingu działa na iPhone i Androidzie?',
-          answer: 'Chrobox jest dostępny zarówno na iOS, jak i Android z synchronizacją w czasie rzeczywistym. To idealne rozwiązanie dla osób, które zmieniają urządzenia lub dzielą się zadaniami ze współpracownikami.',
+          answer: 'Chrobox jest dostępny zarówno na iPhone\'a, jak i na Androida. Twoje plany, rutyny i statystyki synchronizują się między urządzeniami dzięki Twojemu kontu, co ułatwia przełączanie się między telefonami.',
         },
         {
           question: 'Czy aplikacje do timeboxingu integrują się z kalendarzami?',
-          answer: 'Wiele najlepszych aplikacji do timeboxingu, w tym Chrobox, obsługuje integrację z kalendarzami, dzięki czemu Twoje bloki czasu automatycznie synchronizują się z Google Calendar lub Apple Calendar.',
+          answer: 'Niektóre aplikacje do time-boxingu, w tym Chrobox, oferują integrację z kalendarzem: Chrobox wyświetla wydarzenia z godzinami z kalendarzy na Twoim telefonie (w tym z konta Google dodanego do telefonu) obok Twoich bloków czasu i może opcjonalnie skopiować bloki z Chrobox do jednego kalendarza na telefonie. To nie jest dwukierunkowa synchronizacja z API Google Calendar ani Apple Calendar.',
         },
       ],
     },
@@ -1051,6 +1266,116 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Czy cyfrowy detoks to to samo co praca głęboka?',
           answer: 'Te pojęcia się pokrywają, ale nie są tożsame. Cyfrowy detoks polega na ograniczeniu ogólnego kontaktu z ekranami i powiadomieniami, aby zmniejszyć codzienny stres i odzyskać zdolność koncentracji. Praca głęboka to ochrona konkretnych bloków czasu na wymagające intelektualnie zadania. Realistyczny plan skupienia wykorzystuje nawyki z cyfrowego detoksu (poranki bez telefonu, blokowanie rozpraszających aplikacji) aby ułatwić wchodzenie w stan głębokiej pracy i utrzymanie go.',
+        },
+      ],
+    },
+    'does-timeboxing-work': {
+      title: 'Czy timeboxing działa? Dane o ukończeniu 5077 zaplanowanych zadań',
+      excerpt: 'Zadania przypisane do konkretnego przedziału czasowego były ukończone w 48,1% przypadków; zadania pozostawione tylko na liście — w 17,6%. Dane własne z 5077 zadań zaplanowanych przez 250 użytkowników Chrobox, wraz z metodologią i ograniczeniami.',
+      faqs: [
+        {
+          question: 'Czy timeboxing naprawdę działa?',
+          answer: 'Według danych z użytkowania Chrobox, zadania, którym przypisano godzinę rozpoczęcia i czas trwania, były ukończone w 48,1% przypadków, w porównaniu z 17,6% dla zadań pozostawionych na liście bez przypisanego przedziału czasowego — czyli około 2,7 razy częściej (5077 zadań od 250 osób, od grudnia 2025 do września 2026). Różnica utrzymywała się również przy porównaniu tych samych osób z samymi sobą: 35 z 41 użytkowników kończyło więcej zadań zaplanowanych w blokach czasu. Są to dane obserwacyjne, więc pokazują silny związek, a nie dowód na związek przyczynowy.',
+        },
+        {
+          question: 'Jaka jest najlepsza długość bloku czasu?',
+          answer: 'Wskaźnik ukończenia utrzymywał się blisko 50% dla bloków trwających do 90 minut i spadał do około 44–45% dla bloków dłuższych niż 90 minut. Najczęstszą długością było 60 minut (51% bloków), częściowo dlatego, że jest to wartość domyślna, gdy zadanie zostanie umieszczone na pełnej godzinie w Chrobox. Praktyczna zasada wynikająca z danych: trzymaj bloki w granicach 90 minut lub krócej, a dłuższe zadania dziel na części.',
+        },
+        {
+          question: 'O jakiej porze dnia zaplanowane zadania są najczęściej wykonywane?',
+          answer: 'Najczęściej kończone były wczesne bloki. Bloki czasu rozpoczynające się między 5:00 a 8:59 były ukończone w 62,3% przypadków, a wskaźnik ten systematycznie spadał w ciągu dnia, osiągając 33,2% dla bloków rozpoczynających się między 21:00 a 23:59. Jeśli jedno zadanie koniecznie musi zostać wykonane dzisiaj, zaplanuj je przed południem.',
+        },
+        {
+          question: 'Ile zadań powinienem zaplanować na dzień?',
+          answer: 'Mediana liczby zaplanowanych zadań w ciągu dnia wynosiła 5. Dni z 6–8 zadaniami miały najwyższy średni wskaźnik ukończenia (42,7%), podczas gdy dni z 9 lub więcej zadaniami kończyły się wykonaniem całej listy tylko raz na 198 dni (0,5%). Planowanie więcej niż około ośmiu zadań sprawia, że ukończenie całego dnia staje się bardzo mało prawdopodobne.',
+        },
+      ],
+    },
+    'how-to-lock-apps-on-iphone': {
+      title: 'Jak zablokować aplikacje na iPhonie: 3 metody (blokada Face ID, limity Czasu przed ekranem, blokowanie według harmonogramu)',
+      excerpt: 'Trzy realne sposoby blokowania aplikacji na iPhonie: blokada Face ID dla prywatności, Limity aplikacji w Czasie przed ekranem dla dziennych ograniczeń oraz blokowanie według harmonogramu dla konkretnych godzin — wraz z tabelą porównawczą.',
+      faqs: [
+        {
+          question: 'Jak zablokować aplikacje na moim iPhonie?',
+          answer: 'Istnieją trzy oddzielne opcje, w zależności od celu. Użyj funkcji Wymagaj Face ID lub Ukryj i wymagaj Face ID (iOS 18 i nowsze, dostępnej po długim przytrzymaniu ikony aplikacji), jeśli chcesz zachować prywatność aplikacji przed innymi osobami. Użyj Limitów aplikacji w Czasie przed ekranem, jeśli chcesz ograniczyć liczbę minut dziennie, które sam spędzasz w danej aplikacji. Użyj blokowania według harmonogramu — poprzez funkcję Czas wolny (Downtime) w Czasie przed ekranem lub aplikację taką jak Chrobox — jeśli chcesz, aby określone aplikacje były blokowane tylko w konkretnych godzinach, na przykład podczas pracy.',
+        },
+        {
+          question: 'Czy zablokowanie aplikacji za pomocą Face ID powstrzyma mnie przed nadmiernym korzystaniem z niej?',
+          answer: 'Nie. Blokada aplikacji za pomocą Face ID dodaje jedynie krok uwierzytelniania przed otwarciem aplikacji — gdy uwierzytelnisz się własną twarzą, masz pełny dostęp. Chroni to Twoją prywatność przed innymi osobami, które mogłyby wziąć Twój telefon do ręki, ale w żaden sposób nie ogranicza Twojego własnego korzystania z aplikacji, ponieważ zawsze możesz sam ją odblokować.',
+        },
+        {
+          question: 'Czy mogę obejść limit Czasu przed ekranem, który sam sobie ustawiłem?',
+          answer: 'Tak, i to bardzo łatwo, chyba że wykonasz jeden dodatkowy krok. Gdy limit ustawiony samodzielnie się wyczerpie, iOS wyświetla przycisk Zignoruj limit na dziś, który jednym dotknięciem usuwa ograniczenie. Aby limit faktycznie obowiązywał, ustaw kod Czasu przed ekranem w Ustawieniach, w sekcji Czas przed ekranem, Użyj kodu Czasu przed ekranem — i spraw, by znała go inna osoba niż Ty sam.',
+        },
+        {
+          question: 'Jaka jest różnica między Limitami aplikacji a funkcją Czas wolny w Czasie przed ekranem?',
+          answer: 'Limity aplikacji ograniczają konkretne aplikacje lub kategorie do określonej liczby minut dziennie i opcjonalnie mogą blokować aplikację po wyczerpaniu czasu. Funkcja Czas wolny (Downtime) działa inaczej — blokuje niemal wszystko według harmonogramu, na przykład każdego wieczoru lub w wybranych godzinach, pozostawiając dostęp tylko do aplikacji wyraźnie oznaczonych jako zawsze dozwolone. Czas wolny bliższy jest blokowaniu według harmonogramu opartemu na czasie, natomiast Limity aplikacji przypominają raczej dzienny budżet użytkowania.',
+        },
+      ],
+    },
+    'how-to-stop-checking-phone-while-studying': {
+      title: 'Jak przestać sprawdzać telefon podczas nauki: praktyczna rutyna',
+      excerpt: 'Praktyczna rutyna, dzięki której przestaniesz sprawdzać telefon podczas nauki: fizyczny dystans, blokowanie aplikacji według harmonogramu i stałe bloki czasu — poparte badaniami naukowymi oraz własnymi danymi o ukończeniu zadań.',
+      faqs: [
+        {
+          question: 'Jak przestać sprawdzać telefon podczas nauki?',
+          answer: 'Połącz trzy elementy: trzymaj telefon fizycznie poza zasięgiem ręki, zamiast po prostu kłaść go ekranem w dół obok siebie; blokuj konkretne aplikacje, które Cię rozpraszają, wyłącznie podczas sesji nauki, korzystając z Czasu przed ekranem, trybu skupienia Digital Wellbeing lub aplikacji takiej jak Chrobox; oraz ucz się w stałych blokach czasu z jasno określonym celem dla każdego z nich, zamiast nieokreślonego "czasu na naukę". Zastosowanie wszystkich trzech elementów eliminuje powtarzającą się w danej chwili decyzję o sprawdzeniu telefonu.',
+        },
+        {
+          question: 'Czy pomaga samo położenie telefonu ekranem w dół obok siebie?',
+          answer: 'Mniej, niż mogłoby się wydawać. Badanie Ward, Duke, Gneezy i Bos (2017) wykazało, że sama obecność własnego smartfona obniża dostępne zasoby poznawcze, nawet gdy telefon jest wyłączony i nietknięty. Realne oddalenie telefonu od siebie — na przykład do innego pomieszczenia lub zamkniętej torby — działa lepiej niż pozostawienie go ekranem w dół na tym samym biurku.',
+        },
+        {
+          question: 'Jaka jest dobra długość bloku czasu na naukę?',
+          answer: '50-minutowy blok nauki, po którym następuje 10-minutowa przerwa, to popularny i rozsądny punkt wyjścia, ale jest to kwestia indywidualnego wyboru, a nie sztywna zasada czy wbudowana w konkretną aplikację funkcja Pomodoro. Krótsze bloki, na przykład 30-minutowe, mogą lepiej sprawdzić się przy gęstym lub trudnym materiale, natomiast dłuższe bloki, rzędu 90 minut, mogą pasować do zadań czytelniczych lub pisarskich, które wymagają rozpędu, by się w nie zaangażować.',
+        },
+        {
+          question: 'Czy mogę zablokować rozpraszające aplikacje podczas nauki bez instalowania niczego nowego?',
+          answer: 'Tak. Na iPhonie skorzystaj z funkcji Czas wolny (Downtime) zaplanowanej na godziny nauki lub z Limitu aplikacji dla konkretnych aplikacji, z kodem Czasu przed ekranem znanym innej osobie, byś nie mógł łatwo go ominąć. Na Androidzie poszukaj trybu skupienia Digital Wellbeing w Ustawieniach, w sekcji Digital Wellbeing i kontrola rodzicielska — dokładne nazwy menu różnią się w zależności od producenta telefonu. Aplikacja do planowania, taka jak Chrobox, może zautomatyzować ten proces, wiążąc blokadę bezpośrednio z zaplanowanymi blokami czasu na naukę.',
+        },
+      ],
+    },
+    'reduce-phone-addiction': {
+      title: 'Jak ograniczyć uzależnienie od telefonu: plan w 7 krokach na skrócenie czasu przed ekranem',
+      excerpt: 'Praktyczny, niekliniczny plan w 7 krokach, który pomoże ograniczyć kompulsywne sprawdzanie telefonu i czas przed ekranem — wykorzystujący wbudowane narzędzia oraz zaplanowane bloki skupienia.',
+      faqs: [
+        {
+          question: 'Jak ograniczyć uzależnienie od telefonu?',
+          answer: 'Zacznij od zmierzenia rzeczywistego czasu przed ekranem i liczby odblokowań telefonu za pomocą wbudowanego panelu. Następnie usuń najłatwiejsze wyzwalacze: wyłącz zbędne powiadomienia, dodaj tarcie do najbardziej problematycznych aplikacji i zastąp bezmyślne sprawdzanie telefonu zaplanowaną aktywnością. Blokowanie najbardziej rozpraszających aplikacji w konkretnych okresach skupienia zwykle działa lepiej niż próba całkowitego odcięcia się na raz, ponieważ nie wymaga nieustannej silnej woli.',
+        },
+        {
+          question: 'Czy uzależnienie od telefonu to prawdziwa diagnoza medyczna?',
+          answer: 'Kompulsywne sprawdzanie telefonu to powszechny wzorzec zachowania, a nie formalna diagnoza medyczna w większości systemów klasyfikacji. Ten przewodnik traktuje to jako codzienny problem nawykowy, z którym można sobie poradzić dzięki monitorowaniu i wprowadzaniu tarcia. Jeśli korzystanie z telefonu poważnie zakłóca Twoją pracę, relacje, sen lub nastrój, warto porozmawiać z lekarzem lub terapeutą, zamiast polegać wyłącznie na samodzielnych krokach.',
+        },
+        {
+          question: 'Jaki jest najszybszy sposób na skrócenie czasu przed ekranem?',
+          answer: 'Wyłączenie zbędnych powiadomień i usunięcie 2–3 najbardziej rozpraszających aplikacji z ekranu głównego zwykle daje najszybszy widoczny spadek dziennego czasu przed ekranem, często już w ciągu pierwszego tygodnia, ponieważ eliminuje to bodźce przyciągające uwagę bez Twojej świadomej decyzji o sięgnięciu po telefon.',
+        },
+        {
+          question: 'Czy aplikacje blokujące telefon naprawdę działają?',
+          answer: 'Blokowanie działa najlepiej, gdy jest ograniczone do konkretnych godzin, a nie włączone przez cały czas, ponieważ blokady działające bez przerwy zostają wyłączone przy pierwszej uzasadnionej potrzebie skorzystania z aplikacji. Narzędzia, które blokują rozpraszające aplikacje tylko podczas zaplanowanego okresu skupienia — tak jak robi to Chrobox przez czas trwania zadania zaplanowanego w bloku czasu — sprawdzają się lepiej, ponieważ ograniczenie ma jasno określony czas zakończenia.',
+        },
+      ],
+    },
+    'daily-reflection-template': {
+      title: 'Szablon codziennej retrospektywy: 4 gotowe formaty (w tym KPT)',
+      excerpt: 'Cztery gotowe do użycia szablony codziennej retrospektywy — od 2-minutowej refleksji w 3 liniach, przez KPT, po porównanie planu z rzeczywistością dla dni zaplanowanych w blokach czasu.',
+      faqs: [
+        {
+          question: 'Jak napisać codzienną retrospektywę?',
+          answer: 'Najprostszym sposobem jest refleksja w 3 liniach: jedna linia opisująca, co poszło dobrze, jedna — co nie wyszło, i jedna wskazująca konkretną rzecz do wypróbowania jutro. Zajmuje to mniej niż dwie minuty, co wystarcza, aby utrzymać ten nawyk każdego dnia, i sprawdza się w każdej sytuacji, ponieważ wypełnienie jej nie wymaga dużej struktury ani energii.',
+        },
+        {
+          question: 'Czym jest szablon retrospektywy KPT?',
+          answer: 'KPT oznacza Keep, Problem, Try (Kontynuuj, Problem, Wypróbuj): co się sprawdziło i powinno być kontynuowane, co nie zadziałało oraz jedna konkretna zmiana do wypróbowania następnym razem. Metoda ta pochodzi z retrospektyw zespołów pracujących w podejściu zwinnym (agile), ale świetnie sprawdza się również przy indywidualnym podsumowywaniu pojedynczego dnia, zwłaszcza gdy aktywnie próbujesz z czasem poprawić konkretny nawyk lub rutynę.',
+        },
+        {
+          question: 'Jaki jest najlepszy szablon codziennej retrospektywy dla dni zaplanowanych w blokach czasu?',
+          answer: 'Porównanie planu z rzeczywistością sprawdza się najlepiej, jeśli dzielisz swój dzień na bloki czasu: zapisz, ile bloków zaplanowałeś, ile faktycznie ukończyłeś, dlaczego reszta się nie udała, oraz jedną zmianę do wprowadzenia w jutrzejszym planie. Pokazuje, czy sam plan wymaga korekty — czego sama ocena nastroju Ci nie powie.',
+        },
+        {
+          question: 'Jaki jest największy błąd popełniany przy codziennej retrospektywie?',
+          answer: 'Najczęstsze błędy obejmują zamienianie retrospektywy w listę samokrytyki, pisanie tak dużo, że nigdy nie wraca się do ponownego czytania wcześniejszych wpisów, oraz całkowite pomijanie tego nawyku w gorsze dni — czyli właśnie wtedy, gdy krótki wpis jest najbardziej wartościowy. Łączenie każdej negatywnej obserwacji z jednym działaniem skierowanym na przyszłość pomaga uniknąć pierwszego błędu, a utrzymywanie krótkich wpisów pomaga z pozostałymi dwoma.',
         },
       ],
     },
@@ -2418,9 +2743,9 @@ Tworzymy Chrobox, aplikację do time-boxingu — więc tak, ona też znajduje si
 
 Chrobox jest zbudowany wokół całej pętli time-boxingu, a nie kalendarza z dodatkowymi funkcjami: burza mózgów nad zadaniami, wybór priorytetów, umieszczenie ich w godzinowych blokach na wizualnej osi czasu, a na koniec dnia — poprowadzona retrospektywa, która zasila cotygodniową analizę AI. To także jedna z niewielu aplikacji planujących, które łączą **blokowanie aplikacji** z Twoimi blokami czasu — rozpraszające aplikacje blokują się dokładnie w zaplanowanym czasie pracy głębokiej.
 
-**Mocne strony:** kompletna pętla plan→skupienie→przegląd, blokowanie aplikacji powiązane z blokami, widżety i minutnik Live Activity, 21 języków
+**Mocne strony:** kompletna pętla plan→skupienie→przegląd, blokowanie aplikacji powiązane z blokami, widżety i minutnik Live Activity, 54 języki
 **Słabe strony:** tylko mobilnie (brak aplikacji desktopowej), brak funkcji zespołowych
-**Cena:** plan darmowy (3 zadania dziennie); Pro od 4,99 USD/miesiąc, 99,99 USD dożywotnio
+**Cena:** 3-dniowy bezpłatny okres próbny; subskrypcja Pro lub jednorazowy zakup dożywotni
 
 ### 2. Sunsama — najlepsza dla profesjonalistów żyjących w kalendarzu (Web, desktop, mobile)
 
@@ -2446,7 +2771,7 @@ TickTick to przede wszystkim menedżer zadań, ale jego widok osi czasu i wbudow
 **Słabe strony:** time-boxing jest funkcją drugorzędną; brak rytuału planowania czy pętli przeglądu
 **Cena:** solidny plan darmowy; premium ok. 36 USD/rok
 
-### 5. Structured — najlepsza wizualna prostota (iOS, Android, Mac)
+### 5. Structured — najlepsza wizualna prostota (iOS, Android, Mac, Watch, Web)
 
 Structured zamienia Twój dzień w przejrzystą pionową oś czasu i jest uwielbiana za łagodną krzywą uczenia się. Świetna dla studentów i osób myślących wizualnie; mniej kompletna, gdy chcesz statystyk lub egzekwowania.
 
@@ -2454,13 +2779,13 @@ Structured zamienia Twój dzień w przejrzystą pionową oś czasu i jest uwielb
 **Słabe strony:** skromna analityka, brak blokowania aplikacji
 **Cena:** plan darmowy; subskrypcja Pro lub licencja dożywotnia
 
-### 6. Tiimo — najlepsza dla ADHD i osób neuroróżnorodnych (iOS, Android)
+### 6. Tiimo — najlepsza dla ADHD i osób neuroróżnorodnych (iOS, Android, Mac, Watch)
 
 Tiimo zostało zaprojektowane z myślą o użytkownikach neuroróżnorodnych i dla nich: wizualne harmonogramy, rutyny oparte na ikonach oraz łagodne alerty o przejściu zamiast wywołujących poczucie winy oznaczeń przeterminowania. Jeśli konwencjonalne aplikacje planujące zawodziły Cię wielokrotnie, zacznij tutaj lub od trybu skupienia w Chrobox.
 
 **Mocne strony:** naprawdę inkluzywny design, wizualizacja rutyn
 **Słabe strony:** skromniejsza klasyczna analityka produktywności
-**Cena:** subskrypcja z darmowym okresem próbnym
+**Cena:** ograniczony plan darmowy; roczna subskrypcja Pro zawiera 7-dniowy trial (miesięczna bez triala)
 
 ### 7. Google Kalendarz — najlepsza darmowa opcja, którą już masz (wszystkie platformy)
 
@@ -2482,12 +2807,12 @@ Widok kalendarza w Todoist i dwukierunkowa synchronizacja z Google Kalendarzem p
 
 | Aplikacja | Główna pętla | Blokowanie aplikacji | Przegląd/retrospektywa | Plan darmowy | Platformy |
 |---|---|---|---|---|---|
-| Chrobox | Pełny time-boxing | ✅ | ✅ retrospektywa AI | ✅ | iOS, Android |
+| Chrobox | Pełny time-boxing | ✅ | ✅ retrospektywa AI | 3-dniowy trial | iOS, Android |
 | Sunsama | Codzienne planowanie | ❌ | ✅ rytuał zamknięcia dnia | tylko trial | Web, desktop, mobile |
 | Motion | Planowanie AI | ❌ | ❌ | tylko trial | Web, mobile |
 | TickTick | Lista zadań + oś czasu | ❌ | ❌ | ✅ | Wszystkie |
-| Structured | Wizualna oś czasu | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Wizualne rutyny | ❌ | ❌ | trial | iOS, Android |
+| Structured | Wizualna oś czasu | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Wizualne rutyny | ❌ | ✅ nastrój/refleksja | Ograniczony darmowy | iOS, Android, Mac, Watch |
 | Google Kalendarz | Ręczne bloki | ❌ | ❌ | ✅ | Wszystkie |
 | Todoist | Zadania + kalendarz | ❌ | ❌ | ✅ | Wszystkie |
 
@@ -3178,6 +3503,411 @@ Przeglądaj swoją listę zapisanych pomysłów na początku każdego bloku twó
 Chrobox wspiera kreatywne przepływy pracy, pozwalając tworzyć grupowania bloków czasu na poziomie projektu. Projekt projektowy może mieć bloki na research, rozwój koncepcji, realizację i przegląd z klientem, każdy o innej długości. Chrobox planuje je w Twoim kalendarzu na podstawie terminów i Twojej dostępnej pojemności, dając Ci pełny obraz tego, kiedy odbędzie się praca twórcza, bez konieczności ręcznego planowania każdej sesji.
 
 Platforma śledzi też, które bloki wydłużasz, pomagając Ci zrozumieć, które zadania twórcze konsekwentnie nie doszacowujesz, byś mógł budować bardziej realistyczne harmonogramy dla przyszłych projektów.`,
+    'does-timeboxing-work': `
+# Czy timeboxing działa? Dane o ukończeniu 5077 zaplanowanych zadań
+
+Większość porad dotyczących timeboxingu opiera się na tych samych kilku badaniach oraz mnóstwie osobistych świadectw. My tworzymy aplikację do timeboxingu, więc możemy przyjrzeć się czemuś bardziej bezpośredniemu: temu, co faktycznie dzieje się z zadaniami po tym, jak ludzie je zaplanują. Ta strona przedstawia to, co znaleźliśmy w danych z użytkowania Chrobox — łącznie z częściami mniej pochlebnymi — oraz ograniczenia tego, co te liczby mogą powiedzieć.
+
+## Krótka odpowiedź
+
+Zadania, którym przypisano godzinę rozpoczęcia i czas trwania, zostały oznaczone jako ukończone w **48,1%** przypadków. Zadania, które pozostały na liście bez przydzielonego przedziału czasowego, zostały ukończone w **17,6%** przypadków. To mniej więcej **2,7 razy** częściej.
+
+Różnica nie wynikała z garstki wyjątkowo zorganizowanych osób. Gdy porównaliśmy każdą osobę z nią samą, 35 z 41 osób kończyło więcej zadań zaplanowanych w blokach czasu niż zadań niezaplanowanych.
+
+## O tych danych
+
+| Element | Wartość |
+|---|---|
+| Źródło | Zanonimizowane rekordy zadań z aplikacji Chrobox (iOS i Android), konta zalogowanych użytkowników |
+| Okres | Zadania z datami od 3 grudnia 2025 do 29 września 2026 |
+| Próba | 5077 zadań zaplanowanych przez 250 osób w ciągu 799 zaplanowanych dni |
+| Wyodrębniono | 30 września 2026 |
+
+- **Zaplanowane w bloku czasu** oznacza, że zadanie miało zarówno godzinę rozpoczęcia, jak i czas trwania na osi dnia.
+- **Ukończone** oznacza, że dana osoba odznaczyła zadanie jako wykonane. Zadanie, które ktoś skończył, ale nigdy nie odznaczył, liczy się jako nieukończone.
+- Wykluczyliśmy wydarzenia zaimportowane z kalendarzy urządzeń, zadania z datą dzisiejszą lub przyszłą, konta operatorów i testowe oraz konta usunięte.
+- Publikowane są wyłącznie dane zagregowane. Żadna grupa mniejsza niż 30 zadań nie jest raportowana.
+
+## Wniosek 1: Zadania zaplanowane w blokach czasu były ukończone 2,7× częściej
+
+| | Zadania | Osoby | Ukończone |
+|---|---|---|---|
+| Z blokiem czasu | 2317 | 190 | 48,1% |
+| Bez bloku czasu | 2760 | 192 | 17,6% |
+
+Dwa sprawdziany sprawiają, że to więcej niż tylko efektowna liczba w nagłówku:
+
+- **Aktywni użytkownicy.** Dziesięć najbardziej aktywnych kont utworzyło 55% wszystkich zadań. Po ich usunięciu różnica prawie się nie zmienia: 42,8% dla zadań zaplanowanych w blokach czasu wobec 14,2% dla niezaplanowanych.
+- **Ta sama osoba, oba warianty.** Wśród 41 osób, które zaplanowały co najmniej pięć zadań każdego rodzaju, średni wskaźnik ukończenia wynosił 52,9% z blokiem czasu i 15,0% bez niego. 35 osób radziło sobie lepiej z blokami czasu, 2 gorzej, a 4 osiągnęły ten sam wynik.
+
+**Czego to nie dowodzi.** To dane obserwacyjne, a nie eksperyment. Ludzie mogą przypisywać przedziały czasowe zadaniom, które i tak zamierzali wykonać, a sam slot działa też jak przypomnienie. Dane pokazują więc silny związek, a nie kontrolowany efekt przyczynowy. Jest to spójne z badaniami nad intencjami implementacyjnymi: metaanaliza 94 badań autorstwa Gollwitzer and Sheeran (2006) wykazała, że wcześniejsze zdecydowanie, kiedy i gdzie podejmiesz działanie, ma średni do dużego wpływ na jego faktyczną realizację.
+
+## Wniosek 2: Większość bloków trwa godzinę, a długość ma mniejsze znaczenie, niż mogłoby się wydawać
+
+| Długość bloku | Udział bloków |
+|---|---|
+| 60 minut | 50,8% |
+| 30 minut | 14,9% |
+| 120 minut | 9,3% |
+| 90 minut | 4,1% |
+| 180 minut | 3,1% |
+
+Medianą była długość 60 minut. Częściowo wynika to z samej aplikacji: gdy zadanie zostanie umieszczone na pełnej godzinie na osi czasu Chrobox, zaczyna jako blok 60-minutowy, a wiele osób zachowuje tę wartość domyślną.
+
+Bardziej użyteczny jest wynik ukończenia w zależności od długości:
+
+| Długość bloku | Zadania | Ukończone |
+|---|---|---|
+| 15 minut lub mniej | 35 | 48,6% |
+| 16–30 minut | 429 | 48,7% |
+| 31–45 minut | 56 | 53,6% |
+| 46–60 minut | 1215 | 48,7% |
+| 61–90 minut | 135 | 50,4% |
+| 91–120 minut | 238 | 45,0% |
+| Powyżej 120 minut | 209 | 44,0% |
+
+Do 90 minut długość praktycznie nie miała znaczenia. Powyżej 90 minut wskaźnik ukończenia spadał o około cztery do pięciu punktów procentowych. Krótkie bloki nie były łatwiejsze do ukończenia niż godzinne.
+
+## Wniosek 3: Poranne bloki są kończone, wieczorne się rozjeżdżają
+
+| Godzina rozpoczęcia bloku | Zadania | Osoby | Ukończone |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34,9% |
+| 05:00–08:59 | 318 | 81 | 62,3% |
+| 09:00–11:59 | 473 | 95 | 52,4% |
+| 12:00–14:59 | 448 | 102 | 52,0% |
+| 15:00–17:59 | 447 | 102 | 44,7% |
+| 18:00–20:59 | 380 | 96 | 40,0% |
+| 21:00–23:59 | 208 | 65 | 33,2% |
+
+Wzorzec jest stały: im później zaczyna się blok, tym mniejsza szansa na jego ukończenie. Blok rozpoczynający się przed 9:00 był niemal dwukrotnie bardziej prawdopodobny do ukończenia niż ten zaczynający się po 21:00. Częściowo wynika to z tego, kto planuje wcześnie — osoby planujące zadanie na 6:30 mogą po prostu być bardziej konsekwentne — ale praktyczna rada pozostaje taka sama: umieść zadanie, które najbardziej musisz skończyć, przed południem.
+
+## Wniosek 4: Powyżej ośmiu zadań ukończony dzień zdarza się rzadko
+
+Mediana zaplanowanego dnia wynosiła **5 zadań**.
+
+| Zaplanowane zadania w danym dniu | Dni | Średni udział ukończonych | Dni z wykonaniem wszystkich zadań |
+|---|---|---|---|
+| 1 | 131 | 7,6% | 7,6% |
+| 2 | 91 | 18,7% | 14,3% |
+| 3 | 105 | 29,2% | 14,3% |
+| 4–5 | 131 | 26,3% | 13,7% |
+| 6–8 | 143 | 42,7% | 18,2% |
+| 9 lub więcej | 198 | 30,7% | 0,5% |
+
+Dni z 6–8 zadaniami miały najlepszy wskaźnik ukończenia. Dni z dziewięcioma lub więcej zadaniami zakończyły się wykonaniem całej listy raz na 198 dni. Dni z jednym zadaniem wyglądają najgorzej, ale wiele z nich to pierwsze dni — ktoś wypróbowujący aplikację z jednym zadaniem testowym — więc ten wiersz warto traktować z ostrożnością.
+
+## Wniosek 5: Priorytety pomagają, a czwartek bije niedzielę
+
+Zadania oznaczone jako priorytetowe były ukończone w 44,5% przypadków (853 zadania), wobec 28,9% dla pozostałych (4224 zadania).
+
+| Dzień | Zadania | Ukończone |
+|---|---|---|
+| Poniedziałek | 940 | 31,4% |
+| Wtorek | 854 | 34,2% |
+| Środa | 990 | 31,9% |
+| Czwartek | 815 | 36,2% |
+| Piątek | 612 | 28,6% |
+| Sobota | 355 | 27,3% |
+| Niedziela | 511 | 25,4% |
+
+Środek tygodnia był najsilniejszy, z czwartkiem na czele. Weekendy wypadły najsłabiej, a niedziela była najgorszym dniem tygodnia.
+
+## Czego nie mogliśmy zmierzyć
+
+- **Blokowanie aplikacji.** Tylko 19 zadań zaplanowanych w blokach czasu od 8 osób miało w tym okresie dołączone blokowanie aplikacji. To zbyt mało, by podać wskaźnik ukończenia, więc tego nie robimy.
+- **Tryb gościa.** Wcześniejsze wersje aplikacji oferowały tryb gościa, który przechowywał zadania na urządzeniu, więc tych zadań nie ma w tych danych.
+- **Kim są użytkownicy.** 67% kont w próbie korzysta z aplikacji w języku koreańskim, a 24% w języku angielskim. Wyniki mogą nie przekładać się na każdą kulturę czy zawód.
+
+## Jak wykorzystać to we własnym planowaniu
+
+1. **Przypisz każdemu koniecznemu zadaniu godzinę rozpoczęcia.** Na samej liście mniej niż jedno na pięć zadań zostało wykonane.
+2. **Trzymaj bloki w granicach 90 minut lub krócej.** Dłuższe zadania dziel na dwa bloki.
+3. **Umieść najważniejsze zadanie przed południem.** Poranne bloki były kończone znacznie częściej.
+4. **Zatrzymaj się na około ośmiu blokach dziennie.** Powyżej tej liczby planujesz dzień, którego nie skończysz.
+5. **Oznacz od jednego do trzech priorytetów.** Oznaczone zadania były ukończone zauważalnie częściej.
+
+## Jak cytować te dane
+
+Chrobox (2026). *Czy timeboxing działa? Dane o ukończeniu 5077 zaplanowanych zadań.* https://chrobox.net/blog/does-timeboxing-work — dane wyodrębniono 30 września 2026.
+    `,
+    'how-to-lock-apps-on-iphone': `
+# Jak zablokować aplikacje na iPhonie: 3 metody (blokada Face ID, limity Czasu przed ekranem, blokowanie według harmonogramu)
+
+Istnieją trzy odrębne sposoby blokowania aplikacji na iPhonie, które rozwiązują różne problemy. Na iOS 18 i nowszych możesz wymagać Face ID do otwarcia konkretnej aplikacji, aby zapewnić prywatność. Limity aplikacji w Czasie przed ekranem pozwalają ograniczyć, ile czasu dziennie możesz spędzać w aplikacji lub kategorii, z opcjonalną twardą blokadą po wyczerpaniu czasu. A blokowanie według harmonogramu — czy to skonfigurowane ręcznie za pomocą Czasu przed ekranem, czy zautomatyzowane przez aplikację do planowania, taką jak Chrobox — blokuje wybrany zestaw aplikacji tylko w określonych, wcześniej ustalonych godzinach. Większość osób, które naprawdę chcą ograniczyć korzystanie z telefonu, kończy na połączeniu kodu Czasu przed ekranem z harmonogramem, ponieważ limit, który możesz sam wyłączyć, tak naprawdę nie jest limitem.
+
+## Metoda 1: Zablokuj aplikację za pomocą Face ID (iOS 18 i nowsze)
+
+Na iOS 18 i nowszych Apple dodało wbudowany sposób blokowania pojedynczych aplikacji za pomocą Face ID, Touch ID lub kodu, bezpośrednio z ekranu głównego.
+
+Aby z tego skorzystać:
+
+1. Przytrzymaj ikonę aplikacji, aż pojawi się menu szybkich akcji.
+2. Dotknij Wymagaj Face ID (w zależności od urządzenia może pojawić się opcja z Touch ID lub kodem).
+3. Jeśli chcesz również ukryć aplikację z ekranu głównego, Biblioteki aplikacji, powiadomień i wyszukiwania, wybierz zamiast tego opcję Ukryj i wymagaj Face ID. Ukryta aplikacja trafia do osobnego, zablokowanego folderu.
+
+Po włączeniu tej funkcji otwarcie aplikacji będzie za każdym razem wymagało uwierzytelnienia Face ID, nawet dla kogoś, kto ma już Twój telefon odblokowany.
+
+Ważne jest, by jasno rozumieć, co ta funkcja robi, a czego nie. Ta funkcja dotyczy prywatności, a nie ograniczania tego, jak dużo korzystasz z aplikacji. Powstrzymuje kogoś innego przed przypadkowym otwarciem Twojej aplikacji bankowej czy wiadomości, jeśli weźmie do ręki Twój odblokowany telefon. Nie robi jednak nic, by powstrzymać Ciebie samego przed otwarciem aplikacji: po prostu uwierzytelniasz się własną twarzą i wchodzisz od razu do środka. Jeśli Twoim celem jest rzadsze sprawdzanie mediów społecznościowych, blokada Face ID nie pomoże, ponieważ to Ty sam ją odblokowujesz.
+
+## Metoda 2: Ogranicz lub zablokuj aplikację za pomocą Limitów aplikacji w Czasie przed ekranem
+
+Limity aplikacji w Czasie przed ekranem to narzędzie Apple do ograniczania użytkowania i są właściwym wyborem, gdy celem jest "mniej tej aplikacji dziennie", a nie "zachowanie prywatności tej aplikacji".
+
+Aby je skonfigurować:
+
+1. Otwórz Ustawienia, a następnie przejdź do Czasu przed ekranem.
+2. Dotknij Limity aplikacji, a następnie Dodaj limit.
+3. Wybierz konkretne aplikacje lub całą kategorię (na przykład Społecznościowe lub Gry).
+4. Ustaw dzienny limit czasu.
+5. Włącz opcję Zablokuj po zakończeniu limitu, jeśli chcesz, aby aplikacja faktycznie przestała się otwierać po wyczerpaniu czasu, zamiast jedynie wyświetlać przypomnienie.
+
+Z tego samego menu Czasu przed ekranem możesz też ustawić Czas wolny (Downtime), który wyznacza okno (na przykład na noc), w którym dostępne pozostają tylko dozwolone przez Ciebie aplikacje, zamiast ograniczać konkretną aplikację liczbą minut.
+
+Problem zarówno z Limitami aplikacji, jak i Czasem wolnym dotyczy egzekwowania. Jeśli sam ustawisz limit, po wyczerpaniu czasu pojawia się ekran z opcją Zignoruj limit na dziś, a jedno dotknięcie cofa całe ograniczenie. To działa jako łagodne przypomnienie, ale nie wytrzyma prawdziwej pokusy dalszego przewijania. Aby limit Czasu przed ekranem faktycznie obowiązywał, przejdź do Ustawień, Czasu przed ekranem i włącz opcję Użyj kodu Czasu przed ekranem z kodem innym niż Twój zwykły kod telefonu, najlepiej znanym komuś innemu, a nie Tobie — na przykład partnerowi lub osobie, która ma Cię rozliczać. Bez tego rozdzielenia "limit" jest tak naprawdę tylko przypomnieniem, które możesz odrzucić.
+
+## Metoda 3: Zaplanuj blokowanie aplikacji wokół planu dnia
+
+Trzecie podejście odwraca logikę: zamiast dziennego budżetu minut, blokujesz wybrany zestaw aplikacji tylko w określonych godzinach, powiązanych z tym, co masz w danym momencie robić. Możesz zbudować to ręcznie za pomocą Czasu wolnego (Downtime) zaplanowanego na godziny pracy, albo skorzystać z aplikacji do planowania, która wiąże blokowanie z Twoim rzeczywistym harmonogramem zadań.
+
+Chrobox, aplikacja do timeboxingu, działa właśnie w ten sposób: gdy umieszczasz zadanie na swojej dziennej osi czasu i dołączasz do niego profil blokady, wybrane przez Ciebie aplikacje są automatycznie blokowane na czas trwania tego bloku, wykorzystując Screen Time API Apple (ten sam framework FamilyControls i Screen Time, z którego korzystają narzędzia samego Apple) oraz niestandardowy ekran blokady. Blokada zaczyna się wraz z rozpoczęciem bloku, kończy się wraz z jego zakończeniem i obowiązuje tylko tego dnia, więc nie utrzymuje się do wieczora, jeśli Twój plan się zmieni. Sprawdza się to u osób, których problemem nie jest całkowite dzienne użytkowanie, lecz konkretne godziny — na przykład chęć zablokowania Instagrama od 9 do 11 podczas pracy, przy pełnej dostępności wieczorem.
+
+## Porównanie trzech metod
+
+| Metoda | Cel | Co blokuje | Łatwa do samodzielnego obejścia | Wymaga kodu trzymanego przez kogoś innego | Najlepsza dla |
+|---|---|---|---|---|---|
+| Blokada aplikacji Face ID | Prywatność | Nic pod względem użytkowania; wymaga jedynie uwierzytelnienia przy otwarciu | Tak, jeśli znasz własny Face ID lub kod | Nie | Zachowania prywatności konkretnych aplikacji przed innymi osobami |
+| Limity aplikacji w Czasie przed ekranem | Ograniczenie użytkowania | Wybrane aplikacje lub kategorie, po wyczerpaniu dziennego budżetu czasu | Tak, poprzez Zignoruj limit na dziś, chyba że kod Czasu przed ekranem trzyma ktoś inny | Tak, aby utrzymać skuteczność | Ograniczenia całkowitego dziennego czasu w aplikacji |
+| Blokowanie według harmonogramu (Czas wolny lub Chrobox) | Skupienie oparte na czasie | Wybrane aplikacje, tylko w ustalonych godzinach | Zależy od tego, kto ustawił harmonogram i trzyma kod | Tak, aby utrzymać skuteczność | Blokowania rozpraszaczy podczas konkretnych godzin pracy lub nauki |
+
+## Którą metodę wybrać
+
+Jeśli Twoim problemem jest to, że ktoś inny otwiera aplikację na Twoim telefonie, blokada Face ID to bezpośrednia odpowiedź, a jej skonfigurowanie zajmuje mniej niż minutę. Jeśli Twoim problemem jest to, że Ty sam spędzasz zbyt dużo czasu w aplikacji w ciągu całego dnia, Limity aplikacji w Czasie przed ekranem z kodem trzymanym przez kogoś innego są uczciwszym narzędziem. Jeśli Twój problem dotyczy konkretnie pewnych godzin — na przykład chęci trzymania się z dala od aplikacji społecznościowych podczas określonego bloku pracy, bez znaczenia, co dzieje się poza nim — lepiej sprawdzi się blokowanie według harmonogramu, niezależnie od tego, czy zbudujesz harmonogram ręcznie w Czasie wolnym, czy pozwolisz mu automatycznie podążać za Twoim planem, tak jak robi to Chrobox.
+
+Wiele osób korzysta w końcu z więcej niż jednej metody naraz: blokada Face ID na aplikacji bankowej lub komunikatorze dla prywatności oraz zaplanowana blokada aplikacji społecznościowych i gier podczas godzin pracy. Żadne z tych narzędzi nie konkuruje ze sobą — odpowiadają na różne pytania.
+    `,
+    'how-to-stop-checking-phone-while-studying': `
+# Jak przestać sprawdzać telefon podczas nauki: praktyczna rutyna
+
+Najszybszym sposobem, by przestać sprawdzać telefon podczas nauki, jest połączenie trzech rzeczy: trzymanie telefonu fizycznie poza zasięgiem ręki, zamiast po prostu kładzenia go ekranem w dół obok siebie; blokowanie konkretnych aplikacji, które Cię rozpraszają, wyłącznie podczas sesji nauki; oraz planowanie nauki w postaci stałych bloków czasu, zamiast nieokreślonego "czasu na naukę". Żadna z tych rzeczy nie wymaga silnej woli w danym momencie, ponieważ decyzja zapada raz, zanim usiądziesz do nauki, a nie wielokrotnie w jej trakcie.
+
+## Dlaczego samo posiadanie telefonu w pobliżu szkodzi skupieniu
+
+Kuszące jest myślenie, że dopóki nie bierzesz telefonu do ręki, trzymanie go ekranem w dół obok siebie jest nieszkodliwe. Badania sugerują coś innego. W badaniu z 2017 roku, często nazywanym "Brain Drain", badacze Adrian Ward, Kristen Duke, Ayelet Gneezy i Maarten Bos wykazali, że sama obecność własnego smartfona obniżała zdolności poznawcze dostępne do innych zadań, nawet gdy telefon był wyłączony i nieużywany. Efekt pojawiał się już przez samą bliskość telefonu, a nie przez jego faktyczne sprawdzanie.
+
+Praktyczny wniosek nie brzmi "wyłącz telefon", lecz "połóż go w miejscu, które nie jest po prostu w zasięgu ręki". Telefon w innym pomieszczeniu, w zapiętej torbie lub w szufladzie po drugiej stronie pokoju — wszystko to działa lepiej niż telefon leżący ekranem w dół na tym samym biurku, ponieważ celem jest dystans, a nie tylko wyciszenie powiadomień.
+
+## Blokuj aplikacje, które naprawdę Cię rozpraszają, ale tylko podczas nauki
+
+Sam dystans nie powstrzymuje odruchu sprawdzania telefonu, który wciąż jest w pobliżu, na przykład na wspólnym biurku lub rodzinnym stole do nauki, a dla wielu osób pozostawienie telefonu w innym pomieszczeniu na wiele godzin nie jest realistyczne. Drugim elementem jest blokowanie konkretnych aplikacji, które powodują problem, ale tylko w godzinach, w których faktycznie powinieneś się uczyć.
+
+Ma to znaczenie, ponieważ ogólna, całodniowa blokada jest trudna do utrzymania i łatwo budzi opór, podczas gdy blokada powiązana z Twoją rzeczywistą sesją nauki kończy się sama, gdy sesja się kończy. Możesz to zrobić bez żadnej dodatkowej aplikacji:
+
+- Na iPhonie skorzystaj z Czasu wolnego (Downtime) zaplanowanego na Twój blok nauki lub ustaw Limit aplikacji na konkretne aplikacje sprawiające Ci problem, najlepiej z kodem Czasu przed ekranem trzymanym przez kogoś innego, byś nie mógł dotknąć Zignoruj limit w chwili pokusy.
+- Na Androidzie większość telefonów ma tryb skupienia Digital Wellbeing, zwykle dostępny w Ustawieniach, w sekcji Digital Wellbeing i kontrola rodzicielska, a następnie Tryb skupienia, gdzie wybierasz rozpraszające aplikacje do wstrzymania na ustalony czas. Dokładne nazwy menu różnią się w zależności od producenta telefonu, więc jeśli sformułowania są inne, poszukaj w ustawieniach sekcji "Digital Wellbeing", "Tryb skupienia" lub podobnie nazwanej opcji dotyczącej czasu przed ekranem.
+
+Jeśli planujesz swój dzień za pomocą aplikacji do timeboxingu, takiej jak Chrobox, ten krok może dziać się automatycznie: gdy dołączysz profil blokady do zadania nauki na swojej osi czasu, wybrane przez Ciebie aplikacje pozostają zablokowane dokładnie na czas trwania tego bloku i odblokowują się same w chwili jego zakończenia, więc nigdy nie musisz pamiętać o włączeniu lub wyłączeniu blokady.
+
+## Planuj naukę w blokach czasu, a nie w otwartych sesjach
+
+Nieustrukturyzowany plan, taki jak "pouczyć się dziś wieczorem chemii", zostawia otwarte drzwi do sprawdzania telefonu w chwili, gdy tylko poczujesz się choć trochę zablokowany, ponieważ nie ma jasnej jednostki pracy do ukończenia w pierwszej kolejności. Podzielenie czasu nauki na stałe bloki, na przykład 50-minutowy blok, po którym następuje 10-minutowa przerwa, daje konkretny punkt zatrzymania, który nie jest Twoim telefonem. Podział 50/10 to po prostu jeden z rozsądnych wyborów, a nie sztywna zasada ani wbudowana w konkretną aplikację funkcja w stylu Pomodoro; równie dobrze możesz użyć 30/5 lub 90/15, w zależności od przedmiotu i tego, jak długo faktycznie potrafisz utrzymać skupienie.
+
+Dwa nawyki planowania robią zauważalną różnicę:
+
+- Umieść swój najtrudniejszy lub najbardziej wyczerpujący przedmiot w najwcześniejszym bloku sesji, gdy Twoja uwaga jest najświeższa, zamiast zostawiać go na koniec, gdy bardziej prawdopodobne jest sięgnięcie po telefon.
+- Zapisz przed rozpoczęciem bloku, jak wygląda "ukończenie" dla każdego z nich (na przykład "skończyć 10 zadań ćwiczeniowych", a nie "uczyć się matematyki"), ponieważ niejasny blok znacznie łatwiej porzucić w połowie na rzecz sprawdzenia telefonu.
+
+Dane z użytkowania samego Chrobox, pochodzące z 5077 zaplanowanych zadań od 250 użytkowników między grudniem 2025 a wrześniem 2026, są tu pouczające, mimo że mierzą ukończenie zadań, a nie samo sprawdzanie telefonu: zadania umieszczone w zaplanowanym bloku czasu były ukończone w 48,1% przypadków, w porównaniu z 17,6% dla zadań bez żadnego przedziału czasowego, a bloki rozpoczynające się wczesnym rankiem (5:00–8:59) były ukończone w 62,3% przypadków wobec 33,2% dla bloków rozpoczynających się późno w nocy (21:00–23:59). To dane obserwacyjne pochodzące od użytkowników samego Chrobox, a nie kontrolowany eksperyment, ale pokrywają się z powszechnym doświadczeniem, że to właśnie niejasny, późno zaplanowany czas nauki jest miejscem, w którym najczęściej wkrada się sprawdzanie telefonu.
+
+## Przykładowy dzień nauki do przygotowania na egzamin
+
+Oto jeden ze sposobów zorganizowania dnia nauki, łączący stałe bloki czasu, dystans od telefonu i blokowanie aplikacji, dla osoby przygotowującej się do egzaminu:
+
+| Godzina | Blok | Telefon / blokowanie aplikacji |
+|---|---|---|
+| 07:30 - 08:20 | Najtrudniejszy przedmiot, 50 min | Telefon w innym pomieszczeniu; rozpraszające aplikacje zablokowane |
+| 08:20 - 08:30 | Przerwa | Telefon dozwolony, ale w miarę możliwości z dala od rozpraszających aplikacji |
+| 08:30 - 09:20 | Drugi przedmiot, 50 min | Telefon w innym pomieszczeniu; rozpraszające aplikacje zablokowane |
+| 09:20 - 09:30 | Przerwa | Telefon dozwolony |
+| 09:30 - 10:20 | Zadania ćwiczeniowe, 50 min | Telefon w innym pomieszczeniu; rozpraszające aplikacje zablokowane |
+| 10:20 - 10:40 | Dłuższa przerwa | Telefon w pełni dozwolony |
+| 10:40 - 11:30 | Powtórka słabszych obszarów, 50 min | Telefon w innym pomieszczeniu; rozpraszające aplikacje zablokowane |
+
+Możesz zbudować taki dzień ręcznie, korzystając z papierowego planera, telefonu zamkniętego w szufladzie i Czasu wolnego (Downtime) obejmującego cztery bloki nauki, albo skonfigurować to w Chrobox, gdzie każdy blok nauki niesie własną blokadę aplikacji, która włącza się i wyłącza automatycznie w miarę upływu dnia, i gdzie możesz uruchomić odliczanie skupienia dla dowolnego bloku, gdy tylko usiądziesz do pracy.
+
+## Myśl na zakończenie
+
+Żaden z tych trzech elementów — fizyczny dystans, zaplanowane blokowanie aplikacji i stałe bloki czasu — nie działa szczególnie dobrze sam. Telefon leżący w innym pomieszczeniu wciąż zostaje przyniesiony podczas niejasnej, nieokreślonej sesji nauki; ścisła blokada aplikacji na telefonie leżącym na biurku wciąż sprawia, że wpatrujesz się w zablokowany ekran zamiast w notatki; a idealnie zaplanowany blok nic nie da, jeśli telefon cały czas wibruje obok niego. Razem całkowicie eliminują decyzję podejmowaną w danej chwili, a to właśnie ten rodzaj decyzji silna wola radzi sobie utrzymać najgorzej przez wiele godzin z rzędu.
+    `,
+    'reduce-phone-addiction': `
+# Jak ograniczyć uzależnienie od telefonu: plan w 7 krokach na skrócenie czasu przed ekranem
+
+Najszybszym sposobem na ograniczenie uzależnienia od telefonu jest najpierw zmierzenie rzeczywistego użytkowania, usunięcie wyzwalaczy, które sprawiają, że sięgasz po telefon bez świadomej decyzji, a następnie blokowanie najgorszych aplikacji tylko w konkretnych okresach, gdy próbujesz się skupić. Nie musisz usuwać mediów społecznościowych ani przechodzić na telefon z klapką. Większość osób może znacząco skrócić czas przed ekranem w ciągu dwóch do trzech tygodni, przechodząc przez krótką, uporządkowaną listę zmian, zamiast próbować naprawić wszystko naraz.
+
+Ten przewodnik napisano z myślą o codziennym, kompulsywnym sprawdzaniu telefonu, a nie o stanie klinicznym. Jeśli korzystanie z telefonu poważnie wpływa na Twoją pracę, relacje, sen lub nastrój, porozmawiaj z lekarzem lub terapeutą. Poniżej znajduje się praktyczny, wolny od osądzania plan na powszechne doświadczenie sięgania po telefon częściej, niż byś chciał.
+
+## Dlaczego sprawdzanie telefonu jest trudne do kontrolowania
+
+Smartfony nie są zaprojektowane, by je odkładać. Powiadomienia, nieskończenie przewijane kanały treści i zmienne nagrody (nigdy nie wiesz, czy kolejne odświeżenie przyniesie coś ciekawego) są zaprojektowane tak, by wielokrotnie przyciągać Twoją uwagę z powrotem. Do tego dochodzą badania Warda i współpracowników (2017), opublikowane jako "Brain Drain" w Journal of the Association for Consumer Research, które wykazały, że sama obecność smartfona w pobliżu, nawet wyłączonego i leżącego ekranem w dół, może obniżać dostępne zasoby poznawcze potrzebne do innych zadań. Twój telefon nie musi być używany, by obciążać Twoją uwagę.
+
+To ma znaczenie, ponieważ zmienia sposób patrzenia na problem. Nie brakuje Ci silnej woli. Walczysz z urządzeniem zbudowanym przez bardzo inteligentnych ludzi specjalnie po to, by przechwytywać Twoją uwagę, jednocześnie płacąc niejawny podatek poznawczy tylko za samą jego obecność w pobliżu. Rozwiązaniem nie jest więcej silnej woli, lecz zmiana otoczenia, tak by dobre zachowanie wymagało jej mniej.
+
+## Krok 1: Zmierz, zanim cokolwiek zmienisz
+
+Zanim zdecydujesz, co naprawić, spójrz na liczby. Obie główne platformy już to za Ciebie śledzą:
+
+- iPhone: Ustawienia, a następnie Czas przed ekranem pokazują Twój dzienny i tygodniowy średni czas przed ekranem, podział na aplikacje i kategorie oraz liczbę odblokowań i powiadomień dziennie.
+- Android: Ustawienia, a następnie Digital Wellbeing i kontrola rodzicielska pokazują te same podstawowe liczby: dzienne użytkowanie, podział na aplikacje, odblokowania i otrzymane powiadomienia.
+
+Otwórz to teraz i po prostu spójrz, bez oceniania siebie. Zapisz trzy liczby: całkowity dzienny czas przed ekranem, liczbę odblokowań oraz liczbę powiadomień. Wykorzystasz je ponownie w Kroku 7, by sprawdzić, czy cokolwiek się faktycznie zmieniło. Większość osób jest zaskoczona przynajmniej jedną z tych trzech liczb, zwykle odblokowaniami lub powiadomieniami, ponieważ dzieją się one w tle dnia, nie rejestrując się świadomie.
+
+## Krok 2: Zidentyfikuj swoje aplikacje-wyzwalacze
+
+Spójrz na podział na aplikacje z Kroku 1. Szukasz dwóch różnych rzeczy:
+
+- Aplikacji, która pochłania najwięcej łącznego czasu. Często jest to aplikacja wideo, społecznościowa lub z krótkimi materiałami.
+- Aplikacji, którą otwierasz najczęściej z przyzwyczajenia, nawet na kilka sekund naraz. Czasem jest to komunikator, czasem konkretna aplikacja społecznościowa, i niekoniecznie jest to ta sama aplikacja, która zajmuje najwięcej czasu.
+
+Nazwij konkretnie swoje dwie lub trzy główne aplikacje-wyzwalacze. Niejasne cele, takie jak "korzystać z telefonu mniej", zawodzą, ponieważ nie dają Ci niczego konkretnego do zmiany. Cel w rodzaju "przestać otwierać tę konkretną aplikację między zadaniami" to coś, na czym możesz faktycznie działać.
+
+## Krok 3: Wyłącz zbędne powiadomienia
+
+Wejdź w ustawienia powiadomień każdej aplikacji-wyzwalacza i wyłącz wszystko, co nie jest bezpośrednią wiadomością od prawdziwej osoby. Powiadomienia marketingowe, "komuś spodobał się Twój post", alerty rekomendacyjne i przypomnienia mające skłonić Cię do powrotu ("masz nowe treści do obejrzenia") to główny mechanizm, dzięki któremu aplikacje przerywają Ci dzień i przyciągają Cię z powrotem. Zachowaj powiadomienia dla rzeczy, które naprawdę wymagają natychmiastowej uwagi, jak połączenia, wiadomości tekstowe i przypomnienia z kalendarza, a niemal wszystko inne wyłącz. Ten pojedynczy krok często daje widoczny spadek liczby odblokowań w ciągu kilku dni, ponieważ nic już nie skłania Cię do otwarcia aplikacji w pierwszej kolejności.
+
+## Krok 4: Dodaj tarcie do najgorszych aplikacji
+
+Gdy powiadomienia są już cichsze, pozostałym problemem staje się nawykowe otwieranie bez powiadomienia: odblokowanie telefonu i dotknięcie ikony aplikacji z nudów lub przyzwyczajenia. Dodaj niewielkie tarcie, aby wymagało to świadomej decyzji zamiast automatycznej:
+
+- Przenieś aplikacje-wyzwalacze z ekranu głównego i doku do folderu na dodatkowym ekranie.
+- Włącz odcienie szarości na telefonie w godzinach, w których najbardziej chcesz ograniczyć korzystanie (iPhone: Ustawienia, Dostępność, Ekran i rozmiar tekstu, Filtry kolorów; na Androidzie zwykle znajduje się to w ustawieniach dostępności lub w trybie Bedtime w Digital Wellbeing, w zależności od producenta). Kolor jest częścią tego, co czyni kanały treści tak wciągającymi, a jego usunięcie zauważalnie zmniejsza pokusę.
+- Wyloguj się z aplikacji, tak by jej otwarcie wymagało ponownego wpisania hasła, zamiast błyskawicznego dotknięcia.
+
+Żadna z tych zmian nie sprawia, że aplikacja staje się niemożliwa do użycia. Po prostu dodają dwie lub trzy sekundy przerwy, co często wystarcza, by pokusa minęła lub byś zauważył, że robisz to z przyzwyczajenia, a nie z zamiaru.
+
+## Krok 5: Zastąp moment sprawdzania zaplanowaną aktywnością
+
+Usunięcie nawyku bez zastąpienia go czymś innym zwykle się nie udaje, ponieważ potrzeba sprawdzenia telefonu wciąż pojawia się w tych samych momentach: w kolejce, między spotkaniami, zaraz po przebudzeniu. Zamiast po prostu próbować się oprzeć, celowo wstaw w to miejsce coś innego. Tu z pomocą przychodzi timeboxing: jeśli zaplanujesz swój dzień w blokach z wyprzedzeniem, momenty, które wcześniej wypełniało bezmyślne sprawdzanie telefonu, wypełnia zamiast tego konkretne kolejne zadanie, więc zostaje mniej nieustrukturyzowanego czasu, który mógłby wypełnić ten nawyk.
+
+## Krok 6: Blokuj najgorsze aplikacje w okresach skupienia
+
+Dla aplikacji, której najtrudniej się oprzeć nawet po Krokach 3–5, ogranicz twardą blokadę do konkretnych okien czasowych, zamiast próbować trzymać ją wyłączoną przez cały dzień, co zwykle zostaje porzucone przy pierwszej uzasadnionej potrzebie skorzystania z aplikacji. Obie platformy mają do tego wbudowane narzędzia:
+
+- iPhone: limity aplikacji w Czasie przed ekranem oraz Czas wolny (Downtime), zbudowane na Screen Time API Apple.
+- Android: liczniki czasu aplikacji i Tryb skupienia w Digital Wellbeing (nazwy menu różnią się w zależności od producenta).
+
+Chrobox również blokuje aplikacje, ale wiąże blokadę z zaplanowanymi przez Ciebie blokami czasu, a nie ze stałym dziennym limitem: gdy dołączysz profil blokady do zadania lub rutyny, wybrane przez Ciebie aplikacje są automatycznie blokowane tylko na czas trwania tego bloku, a następnie same się odblokowują po jego zakończeniu. Na iPhonie działa to na Screen Time API Apple (FamilyControls i niestandardowy ekran tarczy); na Androidzie wykorzystuje nakładkę usługi ułatwień dostępu. Nie ma osobnego przycisku "zablokuj teraz", z którym trzeba walczyć — blokada jest ograniczona do okresu pracy, który już zaplanowałeś, co często łatwiej utrzymać niż całodniowy limit.
+
+## Krok 7: Przeglądaj swoje liczby co tydzień
+
+Wracaj co tydzień do tego samego panelu Czasu przed ekranem lub Digital Wellbeing i porównuj z liczbami zapisanymi w Kroku 1. Zwróć uwagę zwłaszcza na odblokowania i powiadomienia, a nie tylko na całkowity czas, ponieważ te dwie liczby często zmieniają się jako pierwsze i są lepszym wczesnym sygnałem, że wprowadzone tarcie i blokady działają. Jeśli jakaś liczba się nie zmienia, zwykle oznacza to, że jedna konkretna aplikacja wciąż ma włączone powiadomienia lub wciąż znajduje się na ekranie głównym, gdzie stale ją widzisz. Popraw właśnie tę jedną rzecz, zamiast przebudowywać cały plan.
+
+| Krok | Co zrobić | Potrzebny czas |
+|---|---|---|
+| 1. Zmierz | Sprawdź Czas przed ekranem (iPhone) lub Digital Wellbeing (Android): dzienny czas, odblokowania i powiadomienia | 5 minut |
+| 2. Zidentyfikuj wyzwalacze | Nazwij swoje 2-3 główne aplikacje pod względem czasu i częstotliwości otwierania | 5 minut |
+| 3. Ogranicz powiadomienia | Wyłącz zbędne alerty w aplikacjach-wyzwalaczach | 10 minut |
+| 4. Dodaj tarcie | Przenieś aplikacje z ekranu głównego, włącz odcienie szarości, wyloguj się z jednej aplikacji | 10 minut |
+| 5. Zastąp moment sprawdzania | Zaplanuj dzień w blokach czasu, aby puste chwile miały przypisane zadanie | 10-15 minut, raz dziennie |
+| 6. Blokuj podczas czasu skupienia | Ustaw limit aplikacji lub dołącz profil blokady do bloku skupienia | 5 minut na konfigurację |
+| 7. Przeglądaj co tydzień | Porównaj tegotygodniowe liczby z punktem wyjścia | 5 minut, raz w tygodniu |
+
+## Uwaga na temat tego, czym ten przewodnik nie jest
+
+To plan na ograniczenie codziennego, kompulsywnego sprawdzania telefonu, a nie leczenie zdiagnozowanego stanu. Niektóre osoby stwierdzają, że nawet po wypróbowaniu tarcia, blokowania i zastępczych aktywności, ich korzystanie z telefonu wciąż jest związane z lękiem, obniżonym nastrojem, problemami ze snem lub kompulsją, która wydaje się poza ich kontrolą. To znak, by porozmawiać ze specjalistą, zamiast próbować bardziej samodzielnie, z pomocą aplikacji. Chrobox i podobne narzędzia mogą wspierać zmianę zachowania u osób, które chcą budować lepsze codzienne nawyki, ale nie zastępują opieki medycznej ani zdrowia psychicznego.
+
+## Podsumowanie
+
+Żaden z tych siedmiu kroków nie wymaga całkowitego rezygnowania z telefonu ani ulubionych aplikacji. Zmierzenie na początku pokazuje, gdzie naprawdę leży problem, zamiast zgadywania. Ograniczenie powiadomień i dodanie tarcia usuwają automatyczne wyzwalacze. Zaplanowanie dnia w blokach, opcjonalnie za pomocą aplikacji takiej jak Chrobox (która oferuje też 3-dniowy darmowy okres próbny wersji Pro, jeśli chcesz skorzystać z automatycznego blokowania), daje uwolnionemu czasowi sensowne miejsce, zamiast po prostu zostawiać lukę, którą telefon sam wypełni. Cotygodniowy przegląd utrzymuje uczciwość co do tego, czy to naprawdę działa, zamiast polegać na przeczuciu. Większość osób zauważa realną różnicę w ciągu dwóch do trzech tygodni pracy z tą listą w podanej kolejności.
+    `,
+    'daily-reflection-template': `
+# Szablon codziennej retrospektywy: 4 gotowe formaty (w tym KPT)
+
+Najszybszym szablonem codziennej retrospektywy jest refleksja w 3 liniach: jedna linia na to, co poszło dobrze, jedna na to, co nie wyszło, i jedna na to, co zrobisz jutro. Zajmuje to mniej niż dwie minuty i eliminuje wymówkę braku czasu. Jeśli chcesz więcej struktury, poniżej opisano również KPT (Kontynuuj, Problem, Wypróbuj) oraz porównanie planu z rzeczywistością dla dni zaplanowanych w blokach czasu, a także prosty format nastrój-plus-jedno-zdanie na dni o najniższej energii. Wybierz ten, który pasuje do ilości czasu i energii, jaką masz danego wieczoru, a nie ten, który wygląda najbardziej imponująco.
+
+## Dlaczego szablon ma większe znaczenie niż motywacja
+
+Większość osób, które próbują utrzymać nawyk codziennej retrospektywy, przestaje po dwóch lub trzech tygodniach, nie dlatego, że refleksja jest bezużyteczna, lecz dlatego, że zaczynają bez żadnego formatu. Puste pole tekstowe budzi niepokój każdego wieczoru, a w gorszy dzień zamienia się albo w nic (pomijasz wpis), albo w nieustrukturyzowane wylanie żalu, które sprawia, że czujesz się jeszcze gorzej. Szablon rozwiązuje to, dając Ci stałe pola do wypełnienia, więc nawyk nie zależy od poczucia natchnienia czy dobrego dnia. Tak właśnie działa również zakładka retrospektywy w samym Chrobox: 5-stopniowa ocena nastroju (źle, tak sobie, w porządku, dobrze, świetnie) plus dowolny tekst, z opcjonalnym dyktowaniem głosowym na dni, w których wolisz mówić niż pisać, więc sam format usuwa opór, zanim jeszcze napiszesz choć jedno słowo.
+
+Poniżej znajdziesz cztery szablony. Każdy z nich oferuje inny kompromis między szybkością, strukturą a tym, do jakiego rodzaju dnia najlepiej pasuje.
+
+## Szablon 1: Refleksja w 3 liniach
+
+To opcja o najniższym progu wejścia i domyślny wybór na dni zabiegane lub zmęczone.
+
+Co poszło dobrze dzisiaj, jedna linia
+Co nie poszło dobrze lub było trudne, jedna linia
+Jedna konkretna rzecz do zrobienia inaczej jutro, jedna linia
+
+Potrzebny czas: 1 do 2 minut.
+
+Kiedy pasuje: w każdy dzień, ale zwłaszcza gdy jesteś zmęczony, w podróży lub masz mało czasu. To również właściwy format do przekazania komuś, kto nigdy wcześniej nie prowadził dziennika, ponieważ trzy krótkie linie wydają się osiągalne w sposób, w jaki nie wydaje się pusta strona.
+
+Częsty błąd: zamienianie drugiej linii w listę wszystkiego, co poszło źle. Ogranicz się do jednej rzeczy. Jeśli poszło źle pięć rzeczy, wybierz tę, którą najbardziej warto rozwiązać jutro, a resztę odpuść na dziś wieczór.
+
+## Szablon 2: KPT (Kontynuuj, Problem, Wypróbuj)
+
+KPT pochodzi z retrospektyw zespołów pracujących w podejściu zwinnym (agile), ale sprawdza się równie dobrze przy indywidualnym podsumowywaniu pojedynczego dnia.
+
+Kontynuuj: co się dziś sprawdziło i chcesz to robić dalej
+Problem: co stanęło na przeszkodzie lub nie zadziałało
+Wypróbuj: jedna konkretna zmiana do wypróbowania jutro, na podstawie linii Problem
+
+Potrzebny czas: 3 do 5 minut.
+
+Kiedy pasuje: w dni, w których dzieje się na tyle dużo, że pojedyncza linia na sekcję nie wystarcza, lub gdy próbujesz poprawić konkretny nawyk czy sposób pracy przez kilka dni i chcesz mieć bieżący zapis tego, co zmieniłeś i czy to pomogło. KPT jest bardziej użyteczne niż format 3 linii, gdy aktywnie eksperymentujesz ze swoją rutyną, ponieważ linia Wypróbuj staje się czymś, co możesz sprawdzić względem jutrzejszej linii Kontynuuj lub Problem.
+
+Częsty błąd: napisanie Problemu bez odpowiadającego mu Wypróbuj. Sam Problem staje się jedynie skargą powtarzaną każdego dnia. To linia Wypróbuj sprawia, że refleksja staje się rzeczywistą pętlą doskonalenia, a nie dziennikiem frustracji.
+
+## Szablon 3: Plan kontra rzeczywistość, dla dni zaplanowanych w blokach czasu
+
+Ten szablon jest stworzony specjalnie dla osób, które planują swój dzień w blokach czasu, czy to w kalendarzu, w planerze, czy w aplikacji takiej jak Chrobox.
+
+Zaplanowane dziś bloki: (liczba)
+Faktycznie ukończone bloki: (liczba)
+Dlaczego pozostałe się nie udały: (jedna linia na każdy blok, który się nie odbył, lub jedna linia łącznie, jeśli powód był taki sam dla wszystkich)
+Jedna zmiana w jutrzejszym planie: (jedna linia)
+
+Potrzebny czas: 3 do 5 minut.
+
+Kiedy pasuje: w każdy dzień, w którym zaplanowałeś swój czas z wyprzedzeniem i chcesz wiedzieć, czy plan zgadzał się z rzeczywistością, co często jest bardziej pouczające niż sama ocena nastroju. Jeśli konsekwentnie planujesz dziewięć zadań, a kończysz dwa, problemem zwykle jest sam plan, a nie Twój wysiłek. Dane z użytkowania samego Chrobox, obejmujące 5077 zaplanowanych zadań od 250 osób, pokazują, że w dni z dziewięcioma lub więcej zaplanowanymi zadaniami cała lista została ukończona tylko raz na 198 dni, czyli w około pół procenta przypadków, podczas gdy mediana dnia to pięć zaplanowanych zadań. To użyteczny punkt odniesienia, gdy zastanawiasz się, czy Twoja własna rozbieżność między planem a rzeczywistością jest normalna, czy warto ją poprawić. To dane obserwacyjne z użytkowania aplikacji, a nie kontrolowane badanie, więc traktuj je jako przybliżony punkt odniesienia, a nie zasadę.
+
+Częsty błąd: traktowanie nieudanego bloku jako osobistej porażki zamiast sygnału planistycznego. Jeśli ten sam rodzaj bloku nie udaje się w większość dni, na przykład wszystko zaplanowane po 9 wieczorem, to informacja o tym, kiedy przestać planować ten rodzaj zadania, a nie dowód braku dyscypliny.
+
+## Szablon 4: Nastrój plus jedno zdanie
+
+Na dni, w które nawet trzy linie wydają się zbyt dużym wysiłkiem.
+
+Nastrój: (wybierz jedno słowo lub skalę od 1 do 5)
+Jedno zdanie o dzisiejszym dniu
+
+Potrzebny czas: poniżej 1 minuty.
+
+Kiedy pasuje: w Twoje dni o najniższej energii, lub jako awaryjny wariant, by seria wpisów nie została całkowicie przerwana. Krótki wpis, który podtrzymuje nawyk, jest wart znacznie więcej niż pominięty dzień, ponieważ najtrudniejszą częścią każdej codziennej praktyki jest zwykle jej wznowienie po przerwie. Napisanie choćby jednego zdania daje Ci coś, do czego później możesz wrócić, a czego sama ocena nastroju nie zapewnia.
+
+Częsty błąd: całkowite pominięcie wpisu, ponieważ wydaje się zbyt mały, by się nim zajmować. Jednozdaniowy wpis w gorszy dzień wciąż jest punktem danych, a spojrzenie wstecz na miesiąc nawet krótkich wpisów zwykle ujawnia wzorce, których nie pokazałby żaden pojedynczy dzień.
+
+## Wybór między czwórką szablonów
+
+Używaj formatu 3 linii jako domyślnego. Przełącz się na KPT w dni, gdy aktywnie próbujesz coś konkretnego naprawić, ponieważ linia Wypróbuj daje Ci coś do sprawdzenia później. Użyj formatu plan kontra rzeczywistość w dni, w które zaplanowałeś swój harmonogram w blokach czasu, ponieważ mówi Ci, czy sam plan wymaga korekty. Wróć do formatu nastrój-plus-jedno-zdanie w najtrudniejsze dni, po prostu by podtrzymać nawyk, zamiast pozwolić, by przerwa zamieniła się w tygodnie bez pisania. Nie ma tu złego wyboru; jedynym prawdziwym błędem jest traktowanie któregokolwiek z nich jako obowiązkowego każdego dnia bez wyjątku.
+
+## Częste błędy wspólne dla wszystkich czterech szablonów
+
+Kilka problemów pojawia się niezależnie od tego, którego szablonu używasz.
+
+Zamienianie tego w samokrytykę. Refleksja, która wymienia tylko wady, uczy Cię obawiać się tego nawyku. Każdy z powyższych szablonów celowo łączy negatywną obserwację z działaniem skierowanym na przyszłość. Jeśli zauważysz, że Twoje wpisy to głównie skargi na siebie, dodaj linię "co poszło dobrze" nawet do KPT lub szablonu plan kontra rzeczywistość.
+
+Pisanie zbyt dużo. Długie wpisy zajmują więcej czasu na napisanie, a jeszcze więcej na przejrzenie, co oznacza, że przestajesz wracać do wcześniejszych wpisów, co jest połową sensu ich prowadzenia. Jeśli wpis zajmuje Ci więcej niż pięć minut, prawdopodobnie zboczyłeś z refleksji w wylewanie żalu. Zachowaj wylewanie żalu na inną okazję, a refleksję trzymaj wystarczająco krótką, byś naprawdę do niej wrócił.
+
+Całkowite pomijanie nawyku w gorsze dni. To najczęstszy sposób, w jaki ten nawyk umiera. Gorsze dni to właśnie te, w które szybki wpis nastrój-plus-jedno-zdanie ma największe znaczenie, zarówno dlatego, że potrzebujesz ujścia, jak i dlatego, że ciąg gorszych dni warto móc później zobaczyć.
+
+## Gdzie to pasuje do aplikacji
+
+Każdy z tych czterech szablonów możesz prowadzić na papierze, w aplikacji do notatek lub w dedykowanym narzędziu. Jeśli już planujesz swój dzień w blokach czasu, Chrobox trzyma plan i codzienną retrospektywę w tej samej aplikacji, więc szablon plan kontra rzeczywistość zajmuje minutę: zaplanowane bloki i te odznaczone jako ukończone są już tam zapisane. Wpisy budują też serię pisania, a w Chrobox Pro zasilają automatyczną dzienną i tygodniową analizę z opcjonalną, kojącą wiadomością AI do wpisu, więc mały codzienny nawyk kumuluje się w dłuższą perspektywę bez dodatkowej ręcznej pracy. Żadne z tego nie jest jednak konieczne, by skorzystać z tych szablonów. Karteczka samoprzylepna i dwie minuty działają równie dobrze jak każda aplikacja.
+
+## Budowanie nawyku
+
+Szablon ma mniejsze znaczenie niż samo pojawianie się z jakimkolwiek szablonem, przez większość wieczorów, przez kilka tygodni. Wybierz ten, który pasuje do dzisiejszej energii, zamiast dążyć za każdym razem do najbardziej dogłębnego wpisu, i traktuj krótki wpis jako pełny sukces, a nie gorszą wersję długiego. Celem codziennej retrospektywy nie jest doskonały zapis; to nawyk, który faktycznie utrzymasz, ponieważ nawyk utrzymywany przez miesiąc powie Ci o Twoich dniach znacznie więcej niż jakikolwiek pojedynczy, szczegółowy wpis.
+    `,
   },
   templates: {
     'software-developer': {

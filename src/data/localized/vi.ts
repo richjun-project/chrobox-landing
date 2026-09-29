@@ -65,7 +65,7 @@ export const pack: LocalizedContentPack = {
       chroboxPros: [
         'Được thiết kế chuyên biệt cho hiệu suất cá nhân và làm việc sâu',
         'Kết hợp công việc và các khối thời gian trong cùng một chế độ xem',
-        'Tích hợp sẵn trình hẹn giờ tập trung theo phương pháp Pomodoro',
+        'Tích hợp sẵn bộ đếm giờ tập trung gắn liền với từng khối thời gian',
         'Tránh tình trạng quá tải lịch trình nhờ việc lên lịch có chủ đích',
       ],
       competitorPros: [
@@ -78,7 +78,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox có đồng bộ hóa với Google Calendar không?',
-          answer: 'Có, Chrobox tích hợp với Google Calendar để các cuộc họp và sự kiện của bạn xuất hiện ngay cạnh các khối thời gian làm việc, giúp bạn có cái nhìn toàn diện về ngày của mình.',
+          answer: 'Chrobox hiển thị các sự kiện từ những lịch đã có sẵn trên điện thoại của bạn — bao gồm cả một tài khoản Google bạn đã thêm vào điện thoại — cạnh các khối công việc được phân bổ thời gian của bạn, và có thể tùy chọn sao chép các khối của Chrobox vào một lịch trên điện thoại của bạn. Nó không kết nối trực tiếp với API Google Calendar hay đồng bộ hai chiều.',
         },
         {
           question: 'Chrobox có thay thế cho Google Calendar không?',
@@ -301,7 +301,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Chrobox có hoạt động khi không có kết nối internet không?',
-          answer: 'Chrobox được thiết kế tối ưu cho thiết bị di động và hoạt động ngoại tuyến đối với các tính năng time-boxing cốt lõi. Dữ liệu của bạn sẽ được đồng bộ hóa ngay khi kết nối internet trở lại.',
+          answer: 'Chrobox cần có kết nối internet — các kế hoạch, thói quen và số liệu thống kê của bạn được đồng bộ hóa với tài khoản của bạn theo thời gian thực, và hiện tại ứng dụng chưa cung cấp chế độ ngoại tuyến.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Chrobox có hỗ trợ trên Windows không?',
-          answer: 'Chrobox chủ yếu là ứng dụng di động hoạt động trên iOS và Android. Đối với người dùng Windows, phiên bản web cho phép bạn truy cập lịch trình chia khối thời gian của mình từ bất kỳ trình duyệt nào.',
+          answer: 'Chrobox là một ứng dụng di động chỉ dành cho iPhone và Android — không có ứng dụng Windows hay web. Nếu bạn dùng Windows trong ngày, bạn vẫn có thể kiểm tra và cập nhật lịch trình của mình từ điện thoại song song với đó.',
         },
       ],
     },
@@ -398,7 +398,7 @@ export const pack: LocalizedContentPack = {
       metaDescription: 'Chrobox vs TickTick: phương pháp time-boxing tập trung cho cả ngày so với ứng dụng tất cả trong một tích hợp công việc, thói quen và đồng hồ Pomodoro.',
       featureNames: [
         'Time-Boxing',
-        'Đồng hồ Pomodoro',
+        'Bộ đếm giờ tập trung',
         'Theo dõi thói quen',
         'Chế độ xem lịch',
         'Chế độ xem lịch trình hàng ngày',
@@ -421,8 +421,8 @@ export const pack: LocalizedContentPack = {
       verdict: 'TickTick là một ứng dụng toàn diện mạnh mẽ với tính năng theo dõi thói quen và đồng hồ Pomodoro tuyệt vời. Chrobox sẽ là lựa chọn tốt hơn nếu bạn muốn có một trải nghiệm time-boxing chuyên sâu, tinh gọn mà không bị phân tâm bởi các tính năng phụ trợ.',
       faqs: [
         {
-          question: 'Chrobox có đồng hồ Pomodoro giống như TickTick không?',
-          answer: 'Có, Chrobox tích hợp sẵn đồng hồ tập trung được thiết kế để bổ trợ cho các khối time-boxing của bạn. Bạn có thể bắt đầu mỗi khối thời gian bằng một đồng hồ tập trung để luôn đi đúng hướng.',
+          question: 'Chrobox có bộ đếm giờ tập trung giống như đồng hồ Pomodoro của TickTick không?',
+          answer: 'Chrobox có một bộ đếm giờ tập trung tích hợp sẵn cho mỗi khối thời gian, nhưng đó không phải là đồng hồ Pomodoro — không có chu kỳ làm việc/nghỉ hay số phiên đếm. Bạn bắt đầu một lần đếm ngược duy nhất (các mức cài sẵn như 15/25/30/45/60/90/120 phút, hoặc một độ dài tùy chỉnh) cho nhiệm vụ bạn đang thực hiện, và nhiệm vụ được đánh dấu hoàn thành khi bộ đếm giờ về 0.',
         },
         {
           question: 'TickTick có thể thực hiện time-boxing giống như Chrobox không?',
@@ -431,6 +431,221 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Ứng dụng nào tốt hơn cho học sinh, sinh viên?',
           answer: 'Cả hai ứng dụng đều hoạt động tốt cho học sinh, sinh viên. Tính năng theo dõi thói quen của TickTick rất tuyệt vời để xây dựng thói quen học tập, trong khi phương pháp time-boxing của Chrobox giúp bạn lên lịch cho các buổi học một cách thực tế để có thể hoàn thành tất cả các môn học mà không lo thiếu thời gian.',
+        },
+      ],
+    },
+    'chrobox-vs-structured': {
+      competitor: 'Structured',
+      tagline: 'Chrobox so với Structured: Chặn Ứng Dụng so với Dòng Thời Gian Hệ Sinh Thái Apple',
+      description: 'Structured là một trình lập kế hoạch dòng thời gian trực quan, tinh tế, gắn bó sâu sắc với các thiết bị Apple, có gói miễn phí và tính năng tự động lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có gói miễn phí và không có ứng dụng Mac, Watch hay web.',
+      metaDescription: 'Chrobox so với Structured: chặn ứng dụng trên mọi hộp thời gian so với một trình lập kế hoạch dòng thời gian miễn phí, gắn với hệ sinh thái Apple và có lên lịch bằng AI. Xem những đánh đổi thực sự.',
+      featureNames: [
+        'Chặn Ứng Dụng',
+        'Gói Miễn Phí',
+        'Dòng Thời Gian / Khóa Thời Gian',
+        'Ứng Dụng Mac / Apple Watch',
+        'Tự Động Lên Lịch Bằng AI',
+        'Chuỗi Thói Quen / Thói Quen Lặp Lại',
+        'Bộ Đếm Giờ Tập Trung',
+        'Đánh Giá Hàng Ngày',
+      ],
+      chroboxPros: [
+        'Tự động chặn các ứng dụng bạn chọn đúng bằng độ dài của mỗi hộp thời gian',
+        'Các thói quen đi kèm chuỗi ngày liên tục, bản đồ nhiệt 90 ngày và thống kê riêng cho từng thói quen',
+        'Phân tích bằng AI hàng ngày và hàng tuần về các nhiệm vụ đã hoàn thành, tâm trạng và thói quen của bạn',
+        'Đánh giá hàng ngày với thang đo tâm trạng và tùy chọn đọc chính tả bằng giọng nói',
+      ],
+      competitorPros: [
+        'Gói miễn phí bao gồm dòng thời gian, hộp thư đến, nhiệm vụ con, ghi chú và tiện ích màn hình mà không cần đăng ký trả phí',
+        'Có ứng dụng gốc trên Mac, Apple Watch, Vision Pro và web, không chỉ giới hạn ở điện thoại',
+        '4,8 sao với khoảng 167.000 lượt đánh giá trên App Store, một trong những ứng dụng lập kế hoạch được đánh giá nhiều nhất (tính đến tháng chín năm 2026)',
+        'Bản Pro bổ sung tính năng nhập lịch và nhắc nhở, Structured AI và Replan để tối ưu cho quy trình làm việc ưu tiên hệ sinh thái Apple',
+      ],
+      verdict: 'Hãy chọn Structured nếu bạn sống xuyên suốt giữa Mac, Apple Watch và iPhone, và muốn một trình lập kế hoạch dòng thời gian miễn phí với sự tinh tế đặc trưng của Apple. Hãy chọn Chrobox nếu bạn đặc biệt muốn thời gian đã lên kế hoạch của mình cũng khóa luôn các ứng dụng gây xao nhãng, cộng với các thói quen và đánh giá hàng ngày, và bạn chỉ cần dùng nó trên điện thoại.',
+      faqs: [
+        {
+          question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Structured không?',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn muốn từ Structured là dòng thời gian cộng với một thứ mà Structured không làm được: tự động chặn các ứng dụng gây xao nhãng trong mỗi hộp thời gian. Nhưng nó không thể thay thế nếu bạn cần gói miễn phí của Structured hoặc các ứng dụng Mac, Apple Watch hay web của nó, vì Chrobox chỉ dành cho điện thoại và chỉ dành cho người dùng Pro.',
+        },
+        {
+          question: 'Sự khác biệt giữa Chrobox và Structured là gì?',
+          answer: 'Structured là một trình lập kế hoạch dòng thời gian đa nền tảng, miễn phí, gắn bó sâu sắc vào hệ sinh thái Apple (Mac, Apple Watch, Vision Pro) với tính năng lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, chỉ hoạt động qua đăng ký trả phí, mà các khối thời gian đã lên kế hoạch của nó cũng có thể tự động chặn các ứng dụng bạn chọn, đồng thời bổ sung chuỗi thói quen liên tục và đánh giá tâm trạng hàng ngày.',
+        },
+        {
+          question: 'Structured có chặn các ứng dụng gây xao nhãng như Chrobox không?',
+          answer: 'Không, tính năng chặn ứng dụng không nằm trong danh sách tính năng được công bố của Structured. Structured tập trung vào việc gộp các nhiệm vụ và sự kiện lịch vào một dòng thời gian trực quan duy nhất; nếu việc chặn ứng dụng trong thời gian tập trung quan trọng với bạn, đó là một tính năng riêng của Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-tiimo': {
+      competitor: 'Tiimo',
+      tagline: 'Chrobox so với Tiimo: Chặn Ứng Dụng so với Lập Kế Hoạch Dành Riêng Cho Người Thần Kinh Đa Dạng',
+      description: 'Tiimo là một trình lập kế hoạch AI trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho ADHD và tự kỷ, và đã được vinh danh là Ứng Dụng iPhone Của Năm 2025 của Apple. Chrobox là một ứng dụng time-boxing đa dụng cho điện thoại, bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có thiết kế chuyên biệt cho ADHD như Tiimo hay gói miễn phí.',
+      metaDescription: 'Chrobox so với Tiimo: time-boxing có chặn ứng dụng so với một trình lập kế hoạch trực quan tập trung vào ADHD/tự kỷ với AI. So sánh trung thực các tính năng trước khi chuyển đổi.',
+      featureNames: [
+        'Chặn Ứng Dụng',
+        'Gói Miễn Phí',
+        'Dòng Thời Gian Trực Quan',
+        'Nhập Lịch',
+        'Lập Kế Hoạch Bằng AI',
+        'Chuỗi Thói Quen / Thói Quen Lặp Lại',
+        'Theo Dõi Tâm Trạng / Đánh Giá',
+        'Ứng Dụng Mac / Web',
+      ],
+      chroboxPros: [
+        'Tự động chặn các ứng dụng bạn chọn đúng bằng độ dài của mỗi hộp thời gian',
+        'Bộ đếm giờ tập trung với các mức cài sẵn từ 15 đến 120 phút hiển thị trong Live Activity / Dynamic Island',
+        'Phân tích bằng AI hàng ngày và hàng tuần bao quát nhiệm vụ, thói quen và tâm trạng, kèm tiêu đề AI hàng tuần có thể chia sẻ',
+        'Chuỗi thói quen liên tục và bản đồ nhiệt hoàn thành trong 90 ngày',
+      ],
+      competitorPros: [
+        'Được thiết kế riêng cho nhu cầu chức năng điều hành của ADHD và tự kỷ, được vinh danh là Ứng Dụng iPhone Của Năm 2025 của Apple',
+        'Gói miễn phí có giới hạn trên iOS và Android, cùng gói Pro có 7 ngày dùng thử khi thanh toán theo năm',
+        'Nhập lịch từ Google, Apple và Outlook',
+        'Có ứng dụng Mac (chip Apple Silicon), Apple Watch, Vision Pro và web ngoài điện thoại, đạt 4,6 sao với khoảng 20.000 lượt đánh giá (tính đến tháng chín năm 2026)',
+      ],
+      verdict: 'Hãy chọn Tiimo nếu bạn đặc biệt cần lập kế hoạch trực quan hướng đến ADHD/tự kỷ, muốn bắt đầu với gói miễn phí, hoặc dùng Mac hay Apple Watch. Hãy chọn Chrobox nếu bạn muốn một ứng dụng time-boxing đơn giản, trực tiếp, đồng thời chặn các ứng dụng gây xao nhãng trong thời gian làm việc đã lên lịch, và bạn thoải mái với việc chỉ lập kế hoạch trên điện thoại.',
+      faqs: [
+        {
+          question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Tiimo không?',
+          answer: 'Chrobox là một lựa chọn thay thế hợp lý nếu bạn muốn time-boxing đa dụng với tính năng tự động chặn ứng dụng, vì Tiimo không chặn ứng dụng. Nó không thể thay thế thiết kế trực quan chuyên biệt cho ADHD/tự kỷ, gói miễn phí, hay các ứng dụng Mac và Apple Watch của Tiimo, những thứ mà Chrobox không có.',
+        },
+        {
+          question: 'Sự khác biệt giữa Chrobox và Tiimo là gì?',
+          answer: 'Tiimo là một trình lập kế hoạch trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho người thần kinh đa dạng, có gói miễn phí giới hạn và ứng dụng trên Mac, Apple Watch, Vision Pro và web. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, chỉ hoạt động qua đăng ký trả phí, với khác biệt cấu trúc chính là tính năng tự động chặn ứng dụng gắn liền với mỗi hộp thời gian đã lên kế hoạch.',
+        },
+        {
+          question: 'Tiimo có chặn các ứng dụng gây xao nhãng như Chrobox không?',
+          answer: 'Không, tính năng chặn ứng dụng không nằm trong các tính năng được công bố của Tiimo. Tiimo tập trung vào lập kế hoạch trực quan, có sự hỗ trợ của AI và nhập lịch; nếu bạn muốn thời gian đã lên kế hoạch của mình cũng khóa luôn các ứng dụng gây xao nhãng, đó là một tính năng riêng của Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-sunsama': {
+      competitor: 'Sunsama',
+      tagline: 'Chrobox so với Sunsama: Time-Boxing Trên Điện Thoại so với Trung Tâm Làm Việc Đa Nền Tảng',
+      description: 'Sunsama là một trình lập kế hoạch hàng ngày ưu tiên nền web dành cho dân văn phòng, kéo nhiệm vụ từ các công cụ như Asana, Notion, Slack và Gmail về, có đồng bộ lịch hai chiều thực sự và một nghi thức kết thúc ngày làm việc có cấu trúc. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, không có tích hợp công cụ nhiệm vụ hay đồng bộ lịch, nhưng bổ sung tính năng tự động chặn ứng dụng và bộ đếm giờ tập trung gắn liền với mỗi hộp thời gian.',
+      metaDescription: 'Chrobox so với Sunsama: công cụ time-boxing chỉ dành cho điện thoại có chặn ứng dụng so với một trình lập kế hoạch ưu tiên nền web với tích hợp sâu và đồng bộ lịch.',
+      featureNames: [
+        'Tích Hợp Với Công Cụ Nhiệm Vụ',
+        'Đồng Bộ Lịch Hai Chiều',
+        'Ứng Dụng Mac / Windows / Web',
+        'Chặn Ứng Dụng',
+        'Gói Miễn Phí',
+        'Đánh Giá / Xem Lại Hàng Ngày',
+        'Dùng Thử Miễn Phí',
+        'Chuỗi Thói Quen / Thói Quen Lặp Lại',
+      ],
+      chroboxPros: [
+        'Tự động chặn các ứng dụng bạn chọn đúng bằng độ dài của mỗi hộp thời gian, điều mà Sunsama không làm',
+        'Bộ đếm giờ tập trung thủ công với các mức cài sẵn gắn trực tiếp vào từng nhiệm vụ, hiển thị trong Live Activity / Dynamic Island',
+        'Các thói quen đi kèm chuỗi ngày liên tục, bản đồ nhiệt 90 ngày và thống kê riêng cho từng thói quen',
+        'Đánh giá hàng ngày với thang đo tâm trạng 5 mức và tùy chọn đọc chính tả bằng giọng nói',
+      ],
+      competitorPros: [
+        'Kéo nhiệm vụ từ Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello và nhiều công cụ khác',
+        'Đồng bộ lịch hai chiều thực sự với Google và Outlook',
+        'Chạy trên web, macOS, Windows và Linux ngoài điện thoại, không chỉ giới hạn ở điện thoại',
+        'Một nghi thức kết thúc ngày làm việc có cấu trúc với các điểm nổi bật và mục tiêu hàng tuần; 20 đô la Mỹ mỗi tháng hoặc 16 đô la Mỹ mỗi tháng nếu thanh toán theo năm, kèm 14 ngày dùng thử miễn phí (tính đến tháng chín năm 2026)',
+      ],
+      verdict: 'Hãy chọn Sunsama nếu công việc của bạn đã gắn liền với các công cụ như Notion, Slack và Asana, và bạn cần đồng bộ lịch hai chiều trên máy tính xách tay. Hãy chọn Chrobox nếu bạn lập kế hoạch chủ yếu trên điện thoại và muốn thời gian đã lên lịch của mình cũng chặn luôn các ứng dụng gây xao nhãng, mà không cần bất kỳ tích hợp nào.',
+      faqs: [
+        {
+          question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Sunsama không?',
+          answer: 'Chrobox chỉ là một lựa chọn thay thế tốt nếu bạn không phụ thuộc vào các tích hợp hoặc đồng bộ lịch của Sunsama. Chrobox không có kết nối với các công cụ nhiệm vụ như Notion, Slack hay Asana, và không có đồng bộ lịch hai chiều, vì vậy nếu đó là lý do bạn dùng Sunsama, Chrobox sẽ không thể thay thế nó. Nếu bạn chủ yếu muốn một lịch trình đơn giản dựa trên điện thoại cũng chặn luôn các ứng dụng gây xao nhãng, Chrobox đáp ứng được điều đó.',
+        },
+        {
+          question: 'Sự khác biệt giữa Chrobox và Sunsama là gì?',
+          answer: 'Sunsama là một trình lập kế hoạch ưu tiên nền web, kết nối với các công cụ làm việc khác của bạn và đồng bộ hai chiều với lịch, chạy trên web, Mac, Windows và Linux ngoài điện thoại. Chrobox là một ứng dụng chỉ dành cho điện thoại, không có tích hợp hay đồng bộ lịch, nhưng bổ sung tính năng tự động chặn ứng dụng và bộ đếm giờ tập trung thủ công gắn liền với mỗi hộp thời gian.',
+        },
+        {
+          question: 'Chrobox có đồng bộ với Google Calendar như Sunsama không?',
+          answer: 'Không. Chrobox chỉ hiển thị các sự kiện có giờ cụ thể từ các lịch đã có sẵn trên điện thoại của bạn, và có thể sao chép các khối thời gian của chính nó vào một lịch điện thoại bạn chọn; nó không có kết nối API Google Calendar trực tiếp hay đồng bộ hai chiều. Sunsama có đồng bộ hai chiều thực sự với Google và Outlook.',
+        },
+      ],
+    },
+    'chrobox-vs-opal': {
+      competitor: 'Opal',
+      tagline: 'Chrobox so với Opal: Chặn Theo Lịch so với Kiểm Soát Thời Gian Sử Dụng Màn Hình Luôn Bật',
+      description: 'Opal là một công cụ chuyên biệt cho thời gian sử dụng màn hình và chặn ứng dụng, có Hard Mode nghiêm ngặt mà bạn không thể tắt giữa chừng phiên làm việc, cùng một gói miễn phí. Chrobox trước hết là một ứng dụng time-boxing, chỉ chặn các ứng dụng bạn chọn trong những hộp thời gian bạn đã lên lịch, không có tính năng tương đương với Hard Mode luôn bật của Opal và không có gói miễn phí.',
+      metaDescription: 'Chrobox so với Opal: chặn ứng dụng theo lịch trình với một trình lập kế hoạch trọn ngày so với một công cụ chặn chuyên biệt, luôn bật, có gói miễn phí.',
+      featureNames: [
+        'Dòng Thời Gian / Bộ Lập Kế Hoạch Trọn Ngày',
+        'Chặn Ứng Dụng',
+        'Chế Độ Chặn Luôn Bật',
+        'Gói Miễn Phí',
+        'Lập Kế Hoạch Nhiệm Vụ',
+        'Bộ Đếm Giờ Tập Trung',
+        'Theo Dõi Thói Quen / Mức Sử Dụng',
+        'Lập Kế Hoạch Bằng AI',
+      ],
+      chroboxPros: [
+        'Một dòng thời gian trọn ngày lên kế hoạch nhiệm vụ trước, sau đó tự động gắn tính năng chặn ứng dụng vào các hộp thời gian cụ thể',
+        'Gợi ý nhiệm vụ bằng AI và sắp xếp thời gian bằng AI dựa trên các nhiệm vụ đã hoàn thành trong 7 ngày gần nhất của bạn',
+        'Chuỗi thói quen liên tục và bản đồ nhiệt 90 ngày đi kèm tính năng chặn, chứ không chỉ là thống kê sử dụng',
+        'Phân tích bằng AI hàng ngày và hàng tuần về nhiệm vụ, thói quen và tâm trạng',
+      ],
+      competitorPros: [
+        'Chặn theo Hard Mode không thể tắt giữa chừng phiên làm việc, cùng chế độ Allow Only, dành cho những người cần một kiểu chặn thực sự không thể vượt qua',
+        'Gói miễn phí với một quy tắc cho mỗi loại lịch trình, giới hạn thời gian và giới hạn mở',
+        '4,7 sao với khoảng 89.000 lượt đánh giá, nằm trong số các ứng dụng chặn được đánh giá nhiều nhất (tính đến tháng chín năm 2026)',
+        'Bản Pro giá 19,99 đô la Mỹ mỗi tháng (dùng thử 3 ngày), 99,99 đô la Mỹ mỗi năm (dùng thử 1 tuần), hoặc 399 đô la Mỹ trọn đời, kèm báo cáo sử dụng rõ ràng (tính đến tháng chín năm 2026)',
+      ],
+      verdict: 'Hãy chọn Opal nếu bạn cần một kiểu chặn nghiêm ngặt đến mức không thể tắt giữa chừng phiên làm việc, hoặc muốn bắt đầu với gói miễn phí. Hãy chọn Chrobox nếu bạn muốn việc chặn ứng dụng diễn ra tự động như một hệ quả của việc lên kế hoạch cho cả ngày, cùng với nhiệm vụ, thói quen và đánh giá được tích hợp sẵn.',
+      faqs: [
+        {
+          question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Opal không?',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn thực sự muốn là một trình lập kế hoạch cũng chặn ứng dụng trong thời gian làm việc đã lên lịch, thay vì một công cụ chặn chuyên biệt. Nó không thể thay thế Hard Mode của Opal, vốn không thể tắt giữa chừng phiên làm việc và nghiêm ngặt hơn bất cứ điều gì Chrobox cung cấp, và Chrobox không có gói miễn phí trong khi Opal có.',
+        },
+        {
+          question: 'Sự khác biệt giữa Chrobox và Opal là gì?',
+          answer: 'Opal là một công cụ chặn thời gian sử dụng màn hình chuyên biệt, có gói miễn phí và Hard Mode không thể tắt một khi đã bắt đầu. Chrobox là một trình lập kế hoạch time-boxing, trong đó việc chặn ứng dụng được gắn với các hộp thời gian bạn lên lịch cho nhiệm vụ và thói quen, hoạt động song song với lập kế hoạch nhiệm vụ, thói quen và phân tích bằng AI, nhưng chỉ dành cho người dùng Pro.',
+        },
+        {
+          question: 'Chrobox có Hard Mode như Opal không?',
+          answer: 'Không. Chrobox chỉ chặn các ứng dụng bạn chọn trong suốt thời lượng của một hộp thời gian đã lên lịch, sử dụng Screen Time API của Apple trên iOS hoặc một lớp phủ Accessibility trên Android, và không có chế độ luôn bật nào chống lại việc bị tắt giữa chừng như Hard Mode của Opal.',
+        },
+      ],
+    },
+    'chrobox-vs-forest': {
+      competitor: 'Forest',
+      tagline: 'Chrobox so với Forest: Time-Boxing Trọn Ngày so với Các Phiên Tập Trung Được Game Hóa',
+      description: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, giúp trồng một cái cây ảo trong khi bạn không dùng điện thoại, với tính năng chặn ứng dụng và các phiên tập trung nhóm có sẵn trong gói miễn phí. Chrobox lên kế hoạch cả ngày của bạn thành các hộp thời gian với thói quen và đánh giá, và chặn ứng dụng gắn liền với các hộp đó, nhưng không có yếu tố game hóa và không có gói miễn phí.',
+      metaDescription: 'Chrobox so với Forest: time-boxing trọn ngày có chặn ứng dụng so với một bộ đếm giờ tập trung miễn phí, được game hóa, có phiên nhóm và trồng cây thật.',
+      featureNames: [
+        'Gói Miễn Phí',
+        'Dòng Thời Gian / Bộ Lập Kế Hoạch Trọn Ngày',
+        'Chặn Ứng Dụng',
+        'Game Hóa (Cây, Phần Thưởng)',
+        'Bộ Đếm Giờ Tập Trung',
+        'Tập Trung Nhóm / Chia Sẻ',
+        'Chuỗi Thói Quen / Thói Quen Lặp Lại',
+        'Lập Kế Hoạch Bằng AI',
+      ],
+      chroboxPros: [
+        'Lên kế hoạch cả ngày của bạn thành các hộp thời gian thay vì chỉ đếm giờ cho từng phiên tập trung riêng lẻ',
+        'Tính năng chặn ứng dụng được tự động gắn với các nhiệm vụ và thói quen cụ thể, chứ không phải bắt đầu như một phiên riêng biệt',
+        'Các thói quen đi kèm chuỗi ngày liên tục, bản đồ nhiệt 90 ngày và thống kê riêng cho từng thói quen',
+        'Gợi ý nhiệm vụ bằng AI, sắp xếp thời gian bằng AI, và phân tích bằng AI hàng ngày/hàng tuần',
+      ],
+      competitorPros: [
+        'Trải nghiệm cốt lõi miễn phí bao gồm bộ đếm giờ tập trung, chặn ứng dụng Deep Focus, tập trung nhóm và phân tích cơ bản',
+        'Động lực được game hóa: một cái cây ảo lớn lên khi bạn duy trì sự tập trung, kèm những cây thật được trồng qua chương trình Trees for the Future',
+        'Các phiên tập trung nhóm ("Plant Together") để cùng bạn bè tránh xa điện thoại',
+        'Hơn 60 triệu lượt tải (theo công bố riêng) và 4,8 sao với khoảng 49.000 lượt đánh giá (tính đến tháng chín năm 2026)',
+      ],
+      verdict: 'Hãy chọn Forest nếu bạn muốn một cách miễn phí, tạo động lực để tránh xa điện thoại trong các phiên tập trung riêng lẻ, đặc biệt là cùng bạn bè. Hãy chọn Chrobox nếu bạn muốn cả ngày của mình được lên kế hoạch thành các hộp thời gian, với tính năng chặn ứng dụng, thói quen và đánh giá được xây dựng quanh lịch trình đó thay vì quanh từng phiên riêng lẻ.',
+      faqs: [
+        {
+          question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Forest không?',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu bạn muốn tính năng chặn ứng dụng như một phần của việc lên kế hoạch cho cả ngày nhiệm vụ, thay vì một bộ đếm giờ phiên độc lập. Nó không thể thay thế gói miễn phí, động lực trồng cây được game hóa, hay các phiên tập trung nhóm của Forest, những thứ mà Chrobox không có.',
+        },
+        {
+          question: 'Sự khác biệt giữa Chrobox và Forest là gì?',
+          answer: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, nơi việc tránh xa điện thoại giúp một cái cây ảo lớn lên, và gói miễn phí của nó bao gồm cả tính năng chặn ứng dụng lẫn các phiên nhóm. Chrobox là một trình lập kế hoạch chỉ dành cho người dùng Pro, chỉ dành cho điện thoại, lên lịch cả ngày của bạn thành các hộp thời gian, gắn tính năng chặn ứng dụng với các hộp đó và các thói quen, đồng thời bổ sung lập kế hoạch bằng AI và đánh giá tâm trạng hàng ngày, nhưng không có game hóa hay tính năng nhóm.',
+        },
+        {
+          question: 'Chrobox có gói miễn phí như Forest không?',
+          answer: 'Không. Chrobox có thể tải miễn phí, nhưng cần Chrobox Pro để sử dụng, bắt đầu bằng 3 ngày dùng thử miễn phí cho người đăng ký mới trên gói theo tháng hoặc theo năm. Forest cung cấp một trải nghiệm cốt lõi thực sự miễn phí, bao gồm bộ đếm giờ tập trung và tính năng chặn ứng dụng Deep Focus.',
         },
       ],
     },
@@ -568,15 +783,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'App time-boxing miễn phí nào tốt nhất?',
-          answer: 'Chrobox cung cấp gói miễn phí cực kỳ chất lượng với đầy đủ các tính năng time-boxing cốt lõi. Với hầu hết người dùng, phiên bản miễn phí này đã có đủ mọi thứ cần thiết để xây dựng thói quen time-boxing vững chắc.',
+          answer: 'Chrobox không có gói miễn phí — ứng dụng có thể tải miễn phí, nhưng cần Chrobox Pro để sử dụng, bắt đầu bằng 3 ngày dùng thử miễn phí. Nếu bạn muốn một lựa chọn time-boxing hoàn toàn miễn phí, tính năng chia khối thời gian thủ công của Google Calendar không mất phí, dù nó thiếu tính năng ghi nhận nhiệm vụ, bộ đếm giờ tập trung và chặn ứng dụng của Chrobox.',
         },
         {
           question: 'Ứng dụng time-boxing nào hoạt động trên cả iPhone và Android?',
-          answer: 'Chrobox hỗ trợ cả iOS và Android với khả năng đồng bộ hóa theo thời gian thực, là lựa chọn lý tưởng cho những ai thường xuyên chuyển đổi thiết bị hoặc muốn chia sẻ công việc với đồng nghiệp.',
+          answer: 'Chrobox có sẵn trên cả iPhone và Android. Các kế hoạch, thói quen và số liệu thống kê của bạn được đồng bộ hóa giữa các thiết bị thông qua tài khoản của bạn, giúp bạn dễ dàng chuyển đổi giữa các điện thoại.',
         },
         {
           question: 'Các ứng dụng time-boxing có tích hợp với lịch không?',
-          answer: 'Nhiều ứng dụng time-boxing hàng đầu, bao gồm Chrobox, có hỗ trợ tích hợp lịch để các khối thời gian của bạn tự động đồng bộ hóa với Google Calendar hoặc Apple Calendar.',
+          answer: 'Một số ứng dụng time-boxing, bao gồm Chrobox, có hiển thị tích hợp lịch: Chrobox hiển thị các sự kiện có giờ cụ thể từ những lịch trên điện thoại của bạn (bao gồm cả một tài khoản Google bạn đã thêm vào điện thoại) cạnh các hộp thời gian của bạn, và có thể tùy chọn sao chép các khối của Chrobox vào một lịch trên điện thoại của bạn. Đây không phải là đồng bộ hai chiều với API của Google Calendar hay Apple Calendar.',
         },
       ],
     },
@@ -1051,6 +1266,116 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Cai nghiện kỹ thuật số có giống với làm việc sâu (deep work) không?',
           answer: 'Hai khái niệm này có giao thoa nhưng không hoàn toàn giống nhau. Cai nghiện kỹ thuật số tập trung vào việc giảm thời gian tiếp xúc với màn hình và thông báo nói chung để giảm bớt căng thẳng tích tụ và lấy lại khả năng tập trung; trong khi làm việc sâu (deep work) là bảo vệ các khung thời gian cụ thể cho các nhiệm vụ đòi hỏi tư duy cao. Một thói quen tập trung thực tế sẽ sử dụng các thói quen cai nghiện kỹ thuật số (như buổi sáng không điện thoại, chặn các ứng dụng gây xao nhãng) để giúp bạn dễ dàng bắt đầu và duy trì các phiên làm việc sâu hơn.',
+        },
+      ],
+    },
+    'does-timeboxing-work': {
+      title: 'Time-Boxing Có Thực Sự Hiệu Quả? Dữ Liệu Hoàn Thành Từ 5.077 Nhiệm Vụ Đã Lên Kế Hoạch',
+      excerpt: 'Các nhiệm vụ được gán một khung giờ có tỷ lệ hoàn thành 48,1%; các nhiệm vụ chỉ nằm trên danh sách có tỷ lệ 17,6%. Dữ liệu độc quyền từ 5.077 nhiệm vụ do 250 người dùng Chrobox lên kế hoạch, kèm phương pháp luận và giới hạn.',
+      faqs: [
+        {
+          question: 'Time-boxing có thực sự hiệu quả không?',
+          answer: 'Trong dữ liệu sử dụng của Chrobox, các nhiệm vụ được gán thời điểm bắt đầu và thời lượng cụ thể có tỷ lệ hoàn thành 48,1%, so với 17,6% đối với các nhiệm vụ chỉ nằm trên danh sách mà không có khung giờ — tức là gấp khoảng 2,7 lần (5.077 nhiệm vụ từ 250 người, từ tháng Mười Hai năm 2025 đến tháng Chín năm 2026). Khoảng cách này vẫn giữ nguyên khi so sánh cùng một người với chính họ: 35 trong số 41 người dùng hoàn thành nhiều nhiệm vụ được phân bổ thời gian hơn. Đây là dữ liệu quan sát, nên nó cho thấy một mối liên hệ mạnh chứ không phải bằng chứng về quan hệ nhân quả.',
+        },
+        {
+          question: 'Độ dài lý tưởng cho một hộp thời gian là bao lâu?',
+          answer: 'Tỷ lệ hoàn thành giữ ở mức gần 50% đối với các hộp thời gian dài tới 90 phút, và giảm xuống còn khoảng 44–45% đối với các hộp dài hơn 90 phút. 60 phút là độ dài phổ biến nhất (chiếm 51% số hộp thời gian), một phần vì đó là thời lượng mặc định khi một nhiệm vụ được thả vào một khung giờ trong Chrobox. Một quy tắc thực tế rút ra từ dữ liệu: hãy giữ các hộp thời gian ở mức 90 phút trở xuống và chia nhỏ bất cứ hộp nào dài hơn.',
+        },
+        {
+          question: 'Thời điểm nào trong ngày các nhiệm vụ đã lên kế hoạch có khả năng hoàn thành cao nhất?',
+          answer: 'Các hộp thời gian buổi sáng sớm được hoàn thành nhiều nhất. Các hộp thời gian bắt đầu từ 5:00 đến 8:59 có tỷ lệ hoàn thành 62,3%, và tỷ lệ này giảm dần trong ngày xuống còn 33,2% đối với các hộp bắt đầu từ 21:00 đến 23:59. Nếu có một nhiệm vụ bắt buộc phải hoàn thành hôm nay, hãy sắp xếp nó trước buổi trưa.',
+        },
+        {
+          question: 'Tôi nên lên kế hoạch bao nhiêu nhiệm vụ trong một ngày?',
+          answer: 'Số nhiệm vụ trung vị mỗi ngày trong dữ liệu là 5. Những ngày có 6–8 nhiệm vụ có tỷ lệ hoàn thành trung bình cao nhất (42,7%), trong khi những ngày có 9 nhiệm vụ trở lên chỉ hoàn thành toàn bộ danh sách đúng một lần trong 198 ngày (0,5%). Lên kế hoạch nhiều hơn khoảng tám nhiệm vụ khiến một ngày hoàn thành trọn vẹn trở nên rất khó xảy ra.',
+        },
+      ],
+    },
+    'how-to-lock-apps-on-iphone': {
+      title: 'Cách Khóa Ứng Dụng Trên iPhone: 3 Phương Pháp (Khóa Face ID, Giới Hạn Screen Time, Chặn Theo Lịch)',
+      excerpt: 'Ba cách thực tế để khóa ứng dụng trên iPhone: khóa ứng dụng bằng Face ID để bảo mật riêng tư, Screen Time App Limits để giới hạn theo ngày, và chặn theo lịch cho các khung giờ cụ thể, kèm bảng so sánh.',
+      faqs: [
+        {
+          question: 'Làm thế nào để khóa ứng dụng trên iPhone của tôi?',
+          answer: 'Có ba lựa chọn riêng biệt tùy theo mục tiêu của bạn. Hãy dùng Yêu cầu Face ID hoặc Ẩn và Yêu cầu Face ID (iOS 18 trở lên, tìm bằng cách nhấn giữ biểu tượng ứng dụng) nếu bạn muốn giữ một ứng dụng riêng tư trước người khác. Hãy dùng Screen Time App Limits nếu bạn muốn giới hạn số phút mỗi ngày mà chính bạn dùng cho một ứng dụng. Hãy dùng tính năng chặn theo lịch, thông qua Screen Time Downtime hoặc một ứng dụng như Chrobox, nếu bạn muốn một số ứng dụng nhất định chỉ bị chặn trong những khung giờ cụ thể, chẳng hạn như khi đang làm việc.',
+        },
+        {
+          question: 'Khóa một ứng dụng bằng Face ID có ngăn tôi dùng nó quá nhiều không?',
+          answer: 'Không. Khóa ứng dụng bằng Face ID chỉ thêm một bước xác thực trước khi ứng dụng mở ra; một khi bạn xác thực bằng chính khuôn mặt mình, bạn có toàn quyền truy cập. Nó bảo vệ sự riêng tư của bạn trước việc người khác cầm điện thoại của bạn lên, nhưng không hề làm giảm mức sử dụng của chính bạn, vì bạn luôn có thể tự mở khóa nó.',
+        },
+        {
+          question: 'Tôi có thể vượt qua giới hạn Screen Time mà chính tôi đã đặt cho mình không?',
+          answer: 'Có, và rất dễ dàng, trừ khi bạn thực hiện thêm một bước. Khi một giới hạn tự đặt hết hạn, iOS sẽ hiện nút Bỏ Qua Giới Hạn Hôm Nay, chỉ cần chạm một lần là xóa bỏ hoàn toàn giới hạn đó. Để giới hạn thực sự có hiệu lực, hãy đặt mã Screen Time trong Cài đặt, Screen Time, Sử Dụng Mã Screen Time, và để một người khác ngoài bạn biết mã đó.',
+        },
+        {
+          question: 'Sự khác biệt giữa Screen Time App Limits và Downtime là gì?',
+          answer: 'App Limits giới hạn các ứng dụng hoặc danh mục cụ thể theo số phút mỗi ngày và có thể tùy chọn chặn ứng dụng khi hết thời gian. Downtime thì ngược lại, chặn gần như mọi thứ theo một lịch trình, chẳng hạn như mỗi buổi tối hoặc một khoảng thời gian tùy chỉnh, chỉ cho phép các ứng dụng bạn đã đánh dấu là luôn được phép. Downtime gần với việc chặn theo lịch, dựa trên thời gian, còn App Limits gần với một ngân sách sử dụng hàng ngày hơn.',
+        },
+      ],
+    },
+    'how-to-stop-checking-phone-while-studying': {
+      title: 'Cách Ngừng Kiểm Tra Điện Thoại Khi Đang Học: Một Thói Quen Thực Tế',
+      excerpt: 'Một thói quen thực tế để ngừng kiểm tra điện thoại khi đang học: khoảng cách vật lý, chặn ứng dụng theo lịch, và các hộp thời gian cố định, được hỗ trợ bởi nghiên cứu và dữ liệu hoàn thành độc quyền.',
+      faqs: [
+        {
+          question: 'Làm thế nào để tôi ngừng kiểm tra điện thoại khi đang học?',
+          answer: 'Hãy kết hợp ba điều: giữ điện thoại thực sự ngoài tầm với thay vì chỉ úp mặt xuống bên cạnh, chặn những ứng dụng cụ thể khiến bạn xao nhãng chỉ trong các buổi học bằng Screen Time, chế độ Focus của Digital Wellbeing, hoặc một ứng dụng như Chrobox, và học theo các hộp thời gian cố định với mục tiêu rõ ràng cho mỗi hộp thay vì một "thời gian học" mơ hồ. Làm cả ba điều này sẽ loại bỏ quyết định lặp đi lặp lại ngay tại thời điểm đó về việc có nên kiểm tra điện thoại hay không.',
+        },
+        {
+          question: 'Việc chỉ để điện thoại úp mặt xuống bên cạnh có giúp ích gì không?',
+          answer: 'Ít hơn bạn nghĩ. Một nghiên cứu năm 2017 của Ward, Duke, Gneezy và Bos phát hiện rằng chỉ riêng sự hiện diện của chiếc điện thoại thông minh của một người cũng làm giảm năng lực nhận thức sẵn có, ngay cả khi nó đã tắt nguồn và không bị chạm vào. Việc tạo ra khoảng cách thực sự giữa bạn và điện thoại, chẳng hạn như để ở một phòng khác hoặc trong một chiếc túi đã kéo khóa, hiệu quả hơn so với việc để nó úp mặt xuống trên cùng một bàn.',
+        },
+        {
+          question: 'Độ dài hộp thời gian nào phù hợp cho việc học?',
+          answer: 'Một hộp học 50 phút tiếp theo là 10 phút nghỉ là một điểm khởi đầu phổ biến và hợp lý, nhưng đó là một lựa chọn cá nhân chứ không phải một quy tắc cố định hay một tính năng kiểu Pomodoro được tích hợp sẵn trong một ứng dụng cụ thể nào. Các hộp ngắn hơn như 30 phút có thể phù hợp hơn với tài liệu dày đặc hoặc khó, trong khi các hộp dài hơn khoảng 90 phút có thể phù hợp với các nhiệm vụ đọc hoặc viết cần đà để đi vào guồng.',
+        },
+        {
+          question: 'Tôi có thể chặn các ứng dụng gây xao nhãng khi học mà không cần cài thêm gì mới không?',
+          answer: 'Có. Trên iPhone, hãy dùng Screen Time Downtime được lên lịch cho khung giờ học của bạn, hoặc đặt App Limit cho các ứng dụng cụ thể, lý tưởng nhất là với mã Screen Time do người khác giữ để bạn không thể dễ dàng ghi đè. Trên Android, hãy tìm chế độ Focus của Digital Wellbeing trong Cài đặt, sau đó là Digital Wellbeing và kiểm soát của phụ huynh, dù tên menu chính xác có thể khác nhau tùy nhà sản xuất điện thoại. Một ứng dụng lập kế hoạch như Chrobox có thể tự động hóa bước này bằng cách gắn trực tiếp việc chặn vào các hộp thời gian học của bạn.',
+        },
+      ],
+    },
+    'reduce-phone-addiction': {
+      title: 'Cách Giảm Nghiện Điện Thoại: Kế Hoạch 7 Bước Để Cắt Giảm Thời Gian Sử Dụng Màn Hình',
+      excerpt: 'Một kế hoạch 7 bước thực tế, không mang tính lâm sàng, để giảm việc kiểm tra điện thoại theo thói quen cưỡng bức và thời gian sử dụng màn hình, bằng cách dùng các công cụ có sẵn cộng với các khối thời gian tập trung đã lên kế hoạch.',
+      faqs: [
+        {
+          question: 'Làm thế nào để tôi giảm nghiện điện thoại?',
+          answer: 'Hãy bắt đầu bằng việc đo lường thời gian sử dụng màn hình và số lần cầm điện thoại thực tế của bạn bằng bảng điều khiển tích hợp sẵn trên điện thoại, sau đó loại bỏ những tác nhân dễ dàng nhất: tắt các thông báo không cần thiết, thêm rào cản cho những ứng dụng tệ nhất của bạn, và thay thế việc kiểm tra vô thức bằng một hoạt động đã lên kế hoạch. Việc chặn những ứng dụng gây xao nhãng nhất của bạn trong các khoảng thời gian tập trung cụ thể, thay vì cố gắng bỏ hẳn ngay lập tức, thường hiệu quả hơn vì nó không đòi hỏi ý chí liên tục.',
+        },
+        {
+          question: 'Nghiện điện thoại có phải là một chẩn đoán y khoa thực sự không?',
+          answer: 'Việc kiểm tra điện thoại một cách cưỡng bức là một dạng hành vi phổ biến, không phải là một chẩn đoán y khoa chính thức trong hầu hết các hệ thống phân loại. Hướng dẫn này xem đó là một vấn đề thói quen hàng ngày mà bạn có thể giải quyết bằng cách theo dõi và thêm rào cản. Nếu việc sử dụng điện thoại đang ảnh hưởng nghiêm trọng đến công việc, các mối quan hệ, giấc ngủ hoặc tâm trạng của bạn, hãy trao đổi với bác sĩ hoặc chuyên gia trị liệu thay vì chỉ dựa vào các bước tự thực hiện.',
+        },
+        {
+          question: 'Cách nhanh nhất để cắt giảm thời gian sử dụng màn hình là gì?',
+          answer: 'Việc tắt các thông báo không cần thiết và loại bỏ 2-3 ứng dụng gây xao nhãng hàng đầu khỏi màn hình chính thường tạo ra sự sụt giảm rõ rệt nhanh nhất trong thời gian sử dụng màn hình hàng ngày, thường là trong tuần đầu tiên, vì nó loại bỏ các tác nhân kéo sự chú ý của bạn trước khi bạn kịp quyết định cầm điện thoại lên.',
+        },
+        {
+          question: 'Các ứng dụng chặn điện thoại có thực sự hiệu quả không?',
+          answer: 'Việc chặn hoạt động tốt nhất khi được giới hạn trong những khoảng thời gian cụ thể thay vì luôn bật, vì việc chặn luôn bật sẽ bị tắt ngay lần đầu tiên bạn có lý do chính đáng để dùng ứng dụng đó. Các công cụ chỉ chặn ứng dụng gây xao nhãng trong một khoảng thời gian tập trung đã lên kế hoạch, như cách Chrobox làm trong suốt thời lượng của một nhiệm vụ được phân bổ thời gian, thường bền vững hơn vì giới hạn đó có một thời điểm kết thúc rõ ràng.',
+        },
+      ],
+    },
+    'daily-reflection-template': {
+      title: 'Mẫu Đánh Giá Hàng Ngày: 4 Định Dạng Sẵn Sàng Sử Dụng (Bao Gồm KPT)',
+      excerpt: 'Bốn mẫu đánh giá hàng ngày có thể sao chép và dùng ngay, từ đánh giá 3 dòng chỉ mất 2 phút đến KPT và một bảng kiểm tra kế hoạch so với thực tế cho những ngày được phân bổ thời gian.',
+      faqs: [
+        {
+          question: 'Làm thế nào để tôi viết một bài đánh giá hàng ngày?',
+          answer: 'Cách đơn giản nhất là đánh giá 3 dòng: một dòng cho điều diễn ra tốt đẹp, một dòng cho điều không tốt, và một dòng cho điều cụ thể bạn sẽ thử vào ngày mai. Việc này mất chưa đến hai phút, đủ ngắn để duy trì mỗi ngày, và phù hợp với bất kỳ ngày nào vì nó không đòi hỏi nhiều cấu trúc hay năng lượng để hoàn thành.',
+        },
+        {
+          question: 'Mẫu đánh giá KPT là gì?',
+          answer: 'KPT là viết tắt của Keep (Giữ lại), Problem (Vấn đề), Try (Thử): những gì đã hiệu quả và nên tiếp tục, những gì chưa hiệu quả, và một thay đổi cụ thể để thử tiếp theo. Nó bắt nguồn từ các buổi đánh giá của đội nhóm agile nhưng cũng hoạt động tốt cho một cá nhân xem lại một ngày của mình, đặc biệt khi bạn đang chủ động cố gắng cải thiện một thói quen hoặc quy trình cụ thể theo thời gian.',
+        },
+        {
+          question: 'Mẫu đánh giá hàng ngày nào tốt nhất cho những ngày được phân bổ thời gian?',
+          answer: 'Một bảng kiểm tra kế hoạch so với thực tế hoạt động tốt nhất nếu bạn lên lịch cho ngày của mình theo các khối thời gian: ghi lại bạn đã lên kế hoạch bao nhiêu hộp thời gian, thực tế hoàn thành bao nhiêu, lý do những hộp còn lại bị trượt, và một thay đổi cho kế hoạch của ngày mai. Điều này cho thấy liệu bản thân kế hoạch có cần điều chỉnh hay không, điều mà chỉ riêng một chỉ số tâm trạng sẽ không cho bạn biết.',
+        },
+        {
+          question: 'Sai lầm lớn nhất mọi người mắc phải với việc đánh giá hàng ngày là gì?',
+          answer: 'Những sai lầm phổ biến nhất là biến bài đánh giá thành một danh sách tự chỉ trích bản thân, viết quá nhiều đến mức bạn không bao giờ quay lại đọc những mục đã viết trước đó, và bỏ qua thói quen này hoàn toàn vào những ngày tồi tệ, vốn thường là lúc một mục ghi ngắn gọn có giá trị nhất. Việc ghép mỗi quan sát tiêu cực với một hành động hướng tới tương lai giúp tránh sai lầm đầu tiên, và giữ các mục ghi ngắn gọn giúp tránh hai sai lầm còn lại.',
         },
       ],
     },
@@ -2422,9 +2747,9 @@ Chúng tôi xây dựng Chrobox, một ứng dụng timeboxing — vậy nên đ
 
 Chrobox được xây dựng xoay quanh toàn bộ vòng lặp timeboxing, thay vì chỉ là một lịch có thêm vài tính năng: động não các nhiệm vụ, chọn ưu tiên, thả chúng vào các hộp theo giờ trên một dòng thời gian trực quan, sau đó khép lại ngày với một buổi hồi tưởng có hướng dẫn, cung cấp dữ liệu cho phân tích AI hàng tuần. Đây cũng là một trong số ít ứng dụng lập kế hoạch gắn kết **chặn ứng dụng** với các time box của bạn — các ứng dụng gây xao nhãng sẽ bị khóa đúng vào lúc bạn đang deep work theo kế hoạch.
 
-**Điểm mạnh:** vòng lặp hoàn chỉnh lập kế hoạch → tập trung → đánh giá, chặn ứng dụng gắn với các box, widget và bộ đếm giờ Live Activity, 21 ngôn ngữ
+**Điểm mạnh:** vòng lặp hoàn chỉnh lập kế hoạch → tập trung → đánh giá, chặn ứng dụng gắn với các box, widget và bộ đếm giờ Live Activity, 54 ngôn ngữ
 **Điểm yếu:** chỉ có trên di động (không có ứng dụng desktop), không có tính năng cho nhóm
-**Giá:** gói miễn phí (3 nhiệm vụ/ngày); Pro từ 4,99 đô la/tháng, 99,99 đô la trọn đời
+**Giá:** 3 ngày dùng thử miễn phí; Pro có gói đăng ký hoặc mua trọn đời một lần
 
 ### 2. Sunsama — tốt nhất cho dân chuyên nghiệp bận rộn với lịch (Web, desktop, di động)
 
@@ -2450,7 +2775,7 @@ TickTick chủ yếu là một trình quản lý nhiệm vụ, nhưng chế đ�
 **Điểm yếu:** timeboxing chỉ là tính năng phụ; không có nghi thức lập kế hoạch hay vòng lặp đánh giá
 **Giá:** gói miễn phí ổn; gói cao cấp khoảng 36 đô la/năm
 
-### 5. Structured — đơn giản trực quan tốt nhất (iOS, Android, Mac)
+### 5. Structured — đơn giản trực quan tốt nhất (iOS, Android, Mac, Watch, Web)
 
 Structured biến ngày của bạn thành một dòng thời gian dọc gọn gàng và được yêu thích vì đường cong học tập nhẹ nhàng. Tuyệt vời cho học sinh, sinh viên và những người tư duy trực quan; kém hoàn thiện hơn khi bạn muốn có thống kê hoặc tính năng thực thi.
 
@@ -2458,13 +2783,13 @@ Structured biến ngày của bạn thành một dòng thời gian dọc gọn g
 **Điểm yếu:** phân tích còn hạn chế, không có tính năng chặn ứng dụng
 **Giá:** gói miễn phí; gói Pro trả phí định kỳ hoặc trọn đời
 
-### 6. Tiimo — tốt nhất cho ADHD và người có thần kinh khác biệt (iOS, Android)
+### 6. Tiimo — tốt nhất cho ADHD và người có thần kinh khác biệt (iOS, Android, Mac, Watch)
 
 Tiimo được thiết kế cùng với và dành cho người dùng có thần kinh khác biệt: lịch trình trực quan, thói quen dựa trên biểu tượng, và cảnh báo chuyển tiếp nhẹ nhàng thay vì những cờ báo quá hạn gây cảm giác tội lỗi. Nếu các ứng dụng lập kế hoạch thông thường liên tục khiến bạn thất bại, hãy bắt đầu ở đây hoặc với chế độ tập trung của Chrobox.
 
 **Điểm mạnh:** thiết kế thực sự hòa nhập, trực quan hóa thói quen
 **Điểm yếu:** phân tích năng suất kiểu cổ điển còn nhẹ
-**Giá:** gói trả phí có bản dùng thử miễn phí
+**Giá:** có gói miễn phí giới hạn; Pro theo năm kèm 7 ngày dùng thử (theo tháng không có dùng thử)
 
 ### 7. Google Calendar — lựa chọn miễn phí tốt nhất mà bạn đã có sẵn (mọi nền tảng)
 
@@ -2486,12 +2811,12 @@ Chế độ xem lịch của Todoist và đồng bộ hai chiều với Google C
 
 | Ứng dụng | Vòng lặp cốt lõi | Chặn ứng dụng | Đánh giá/hồi tưởng | Gói miễn phí | Nền tảng |
 |---|---|---|---|---|---|
-| Chrobox | Timeboxing đầy đủ | ✅ | ✅ Hồi tưởng AI | ✅ | iOS, Android |
+| Chrobox | Timeboxing đầy đủ | ✅ | ✅ Hồi tưởng AI | Dùng thử 3 ngày | iOS, Android |
 | Sunsama | Lập kế hoạch hàng ngày | ❌ | ✅ nghi thức kết ngày | chỉ dùng thử | Web, desktop, di động |
 | Motion | Lập lịch bằng AI | ❌ | ❌ | chỉ dùng thử | Web, di động |
 | TickTick | Danh sách nhiệm vụ + dòng thời gian | ❌ | ❌ | ✅ | Mọi nền tảng |
-| Structured | Dòng thời gian trực quan | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Lịch trình trực quan | ❌ | ❌ | dùng thử | iOS, Android |
+| Structured | Dòng thời gian trực quan | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Lịch trình trực quan | ❌ | ✅ tâm trạng/đánh giá | Miễn phí giới hạn | iOS, Android, Mac, Watch |
 | Google Calendar | Khối thủ công | ❌ | ❌ | ✅ | Mọi nền tảng |
 | Todoist | Nhiệm vụ + lịch | ❌ | ❌ | ✅ | Mọi nền tảng |
 
@@ -3197,6 +3522,411 @@ Hãy xem lại danh sách ghi chú của bạn vào đầu mỗi khối sáng t�
 Chrobox hỗ trợ quy trình làm việc sáng tạo bằng cách cho phép bạn tạo các nhóm khối thời gian ở cấp độ dự án. Một dự án thiết kế có thể có các khối cho nghiên cứu, phát triển ý tưởng, thực thi, và xem lại cùng khách hàng, mỗi khối có thời lượng khác nhau. Chrobox lên lịch những khối này trên khắp lịch của bạn dựa trên deadline và khả năng sẵn có của bạn, mang lại cho bạn một cái nhìn toàn diện về thời điểm công việc sáng tạo sẽ diễn ra mà không cần bạn phải lên kế hoạch thủ công cho từng phiên.
 
 Nền tảng này cũng theo dõi những khối nào bạn kéo dài, giúp bạn hiểu những nhiệm vụ sáng tạo nào bạn liên tục ước lượng thấp, để bạn có thể xây dựng những lịch trình thực tế hơn cho các dự án tương lai.
+`,
+    'does-timeboxing-work': `
+# Time-Boxing Có Thực Sự Hiệu Quả? Dữ Liệu Hoàn Thành Từ 5.077 Nhiệm Vụ Đã Lên Kế Hoạch
+
+Hầu hết các lời khuyên về time-boxing đều dựa trên cùng một vài nghiên cứu và rất nhiều lời chứng thực cá nhân. Chúng tôi xây dựng một ứng dụng time-boxing, nên chúng tôi có thể nhìn vào một thứ trực tiếp hơn: điều thực sự xảy ra với các nhiệm vụ sau khi mọi người lên kế hoạch cho chúng. Trang này báo cáo những gì chúng tôi tìm thấy trong dữ liệu sử dụng của Chrobox — bao gồm cả những phần kém hào nhoáng hơn, và giới hạn của những gì các con số này có thể nói lên.
+
+## Câu trả lời ngắn gọn
+
+Các nhiệm vụ được gán một thời điểm bắt đầu và một thời lượng được đánh dấu hoàn thành **48,1%** số lần. Các nhiệm vụ nằm lại trên danh sách mà không có khung giờ được hoàn thành **17,6%** số lần. Đó là khoảng **2,7 lần** thường xuyên hơn.
+
+Sự khác biệt này không đến từ một nhóm nhỏ những người cực kỳ có tổ chức. Khi chúng tôi so sánh mỗi người với chính họ, 35 trong số 41 người hoàn thành nhiều nhiệm vụ được phân bổ thời gian của họ hơn so với các nhiệm vụ không lên lịch.
+
+## Về dữ liệu này
+
+| Mục | Giá trị |
+|---|---|
+| Nguồn | Hồ sơ nhiệm vụ được ẩn danh từ ứng dụng Chrobox (iOS và Android), các tài khoản đã đăng nhập |
+| Giai đoạn | Các nhiệm vụ có ngày từ 3 tháng Mười Hai năm 2025 đến 29 tháng Chín năm 2026 |
+| Mẫu | 5.077 nhiệm vụ được 250 người lên kế hoạch trong 799 ngày có kế hoạch |
+| Trích xuất | 30 tháng Chín năm 2026 |
+
+- **Được phân bổ thời gian** nghĩa là nhiệm vụ có cả thời điểm bắt đầu và thời lượng trên dòng thời gian trong ngày.
+- **Đã hoàn thành** nghĩa là người dùng đã đánh dấu hoàn thành nhiệm vụ đó. Một nhiệm vụ ai đó đã làm xong nhưng chưa bao giờ đánh dấu hoàn thành được tính là chưa hoàn thành.
+- Chúng tôi đã loại trừ các sự kiện được nhập từ lịch thiết bị, các nhiệm vụ có ngày là hôm nay hoặc sau đó, các tài khoản vận hành và thử nghiệm, cũng như các tài khoản đã bị xóa.
+- Chỉ các số liệu tổng hợp được công bố. Không nhóm nào nhỏ hơn 30 nhiệm vụ được báo cáo.
+
+## Phát hiện 1: Các nhiệm vụ được phân bổ thời gian được hoàn thành nhiều gấp 2,7 lần
+
+| | Nhiệm vụ | Người dùng | Đã hoàn thành |
+|---|---|---|---|
+| Có hộp thời gian | 2.317 | 190 | 48,1% |
+| Không có hộp thời gian | 2.760 | 192 | 17,6% |
+
+Hai phép kiểm tra khiến con số này không chỉ là một tiêu đề gây chú ý:
+
+- **Người dùng năng suất cao.** Mười tài khoản hoạt động tích cực nhất tạo ra 55% tổng số nhiệm vụ. Khi loại bỏ họ, khoảng cách gần như không thay đổi: 42,8% đối với các nhiệm vụ được phân bổ thời gian so với 14,2% đối với các nhiệm vụ không lên lịch.
+- **Cùng một người, cả hai cách.** Trong số 41 người đã lên kế hoạch ít nhất năm nhiệm vụ cho mỗi loại, tỷ lệ hoàn thành trung bình là 52,9% với hộp thời gian và 15,0% không có. 35 người làm tốt hơn với hộp thời gian, 2 người làm kém hơn và 4 người ngang bằng.
+
+**Điều này không chứng minh được gì.** Đây là dữ liệu quan sát, không phải một thí nghiệm. Mọi người có thể gán khung giờ cho những nhiệm vụ mà họ đã có ý định làm từ trước, và một khung giờ cũng có tác dụng như một lời nhắc. Vì vậy, dữ liệu này cho thấy một mối liên hệ mạnh, chứ không phải một hiệu ứng nhân quả được kiểm soát. Điều này phù hợp với các nghiên cứu về ý định thực thi: một phân tích tổng hợp 94 nghiên cứu của Gollwitzer và Sheeran (2006) phát hiện rằng việc quyết định trước khi nào và ở đâu bạn sẽ hành động có tác động từ trung bình đến lớn đối với việc thực hiện.
+
+## Phát hiện 2: Hầu hết các hộp thời gian dài một giờ, và độ dài ít quan trọng hơn bạn nghĩ
+
+| Độ dài hộp thời gian | Tỷ lệ số hộp |
+|---|---|
+| 60 phút | 50,8% |
+| 30 phút | 14,9% |
+| 120 phút | 9,3% |
+| 90 phút | 4,1% |
+| 180 phút | 3,1% |
+
+Độ dài trung vị của một hộp thời gian là 60 phút. Một phần là do chính ứng dụng: khi một nhiệm vụ được thả vào một khung giờ trên dòng thời gian của Chrobox, nó bắt đầu như một hộp 60 phút, và nhiều người giữ nguyên mặc định đó.
+
+Tỷ lệ hoàn thành theo độ dài là kết quả hữu ích hơn:
+
+| Độ dài hộp thời gian | Nhiệm vụ | Đã hoàn thành |
+|---|---|---|
+| 15 phút trở xuống | 35 | 48,6% |
+| 16–30 phút | 429 | 48,7% |
+| 31–45 phút | 56 | 53,6% |
+| 46–60 phút | 1.215 | 48,7% |
+| 61–90 phút | 135 | 50,4% |
+| 91–120 phút | 238 | 45,0% |
+| Hơn 120 phút | 209 | 44,0% |
+
+Cho đến 90 phút, độ dài gần như không tạo ra khác biệt. Sau 90 phút, tỷ lệ hoàn thành giảm khoảng bốn đến năm điểm phần trăm. Các hộp ngắn không dễ hoàn thành hơn các hộp dài một giờ.
+
+## Phát hiện 3: Hộp thời gian buổi sáng được hoàn thành, hộp thời gian buổi tối dễ bị trượt
+
+| Thời điểm bắt đầu hộp thời gian | Nhiệm vụ | Người dùng | Đã hoàn thành |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34,9% |
+| 05:00–08:59 | 318 | 81 | 62,3% |
+| 09:00–11:59 | 473 | 95 | 52,4% |
+| 12:00–14:59 | 448 | 102 | 52,0% |
+| 15:00–17:59 | 447 | 102 | 44,7% |
+| 18:00–20:59 | 380 | 96 | 40,0% |
+| 21:00–23:59 | 208 | 65 | 33,2% |
+
+Khuôn mẫu này khá ổn định: hộp thời gian bắt đầu càng muộn, khả năng hoàn thành càng thấp. Một hộp bắt đầu trước 9:00 có khả năng hoàn thành cao gần gấp đôi so với một hộp bắt đầu sau 21:00. Một phần của điều này liên quan đến việc ai là người lên kế hoạch sớm — những người đặt lịch một nhiệm vụ lúc 6:30 có thể đơn giản là kỷ luật hơn — nhưng lời khuyên thực tế vẫn như vậy: hãy đặt nhiệm vụ bạn cần hoàn thành nhất trước buổi trưa.
+
+## Phát hiện 4: Sau tám nhiệm vụ, một ngày hoàn thành trọn vẹn là hiếm gặp
+
+Ngày có kế hoạch trung vị có **5 nhiệm vụ**.
+
+| Số nhiệm vụ lên kế hoạch trong ngày | Số ngày | Tỷ lệ hoàn thành trung bình | Số ngày hoàn thành mọi nhiệm vụ |
+|---|---|---|---|
+| 1 | 131 | 7,6% | 7,6% |
+| 2 | 91 | 18,7% | 14,3% |
+| 3 | 105 | 29,2% | 14,3% |
+| 4–5 | 131 | 26,3% | 13,7% |
+| 6–8 | 143 | 42,7% | 18,2% |
+| 9 trở lên | 198 | 30,7% | 0,5% |
+
+Những ngày có 6–8 nhiệm vụ có tỷ lệ hoàn thành tốt nhất. Những ngày có chín nhiệm vụ trở lên chỉ hoàn thành toàn bộ danh sách đúng một lần trong 198 ngày. Những ngày chỉ có một nhiệm vụ có vẻ tệ nhất, nhưng nhiều ngày trong số đó là những ngày đầu tiên — ai đó dùng thử ứng dụng với một nhiệm vụ thử nghiệm — vì vậy hãy đọc dòng này một cách thận trọng.
+
+## Phát hiện 5: Ưu tiên có ích, và thứ Năm vượt trội hơn Chủ Nhật
+
+Các nhiệm vụ được đánh dấu là ưu tiên có tỷ lệ hoàn thành 44,5% (853 nhiệm vụ), so với 28,9% cho mọi nhiệm vụ khác (4.224 nhiệm vụ).
+
+| Ngày | Nhiệm vụ | Đã hoàn thành |
+|---|---|---|
+| Thứ Hai | 940 | 31,4% |
+| Thứ Ba | 854 | 34,2% |
+| Thứ Tư | 990 | 31,9% |
+| Thứ Năm | 815 | 36,2% |
+| Thứ Sáu | 612 | 28,6% |
+| Thứ Bảy | 355 | 27,3% |
+| Chủ Nhật | 511 | 25,4% |
+
+Giữa tuần là mạnh nhất, với thứ Năm cao nhất. Cuối tuần yếu nhất, và Chủ Nhật là ngày có tỷ lệ hoàn thành thấp nhất trong tuần.
+
+## Những gì chúng tôi không thể đo lường
+
+- **Chặn ứng dụng.** Chỉ có 19 nhiệm vụ được phân bổ thời gian từ 8 người có gắn tính năng chặn ứng dụng trong giai đoạn này. Con số đó quá ít để báo cáo một tỷ lệ hoàn thành, vì vậy chúng tôi không làm điều đó.
+- **Chế độ khách.** Các phiên bản trước của ứng dụng cung cấp chế độ khách, giữ nhiệm vụ trên thiết bị, vì vậy những nhiệm vụ đó không nằm trong dữ liệu này.
+- **Người dùng là ai.** 67% tài khoản trong mẫu dùng ứng dụng bằng tiếng Hàn và 24% bằng tiếng Anh. Kết quả có thể không áp dụng cho mọi nền văn hóa hay công việc.
+
+## Cách sử dụng điều này trong kế hoạch của riêng bạn
+
+1. **Gán một thời điểm bắt đầu cho mọi nhiệm vụ bắt buộc phải làm.** Chỉ nằm trên danh sách thôi, chưa đến một phần năm số nhiệm vụ được hoàn thành.
+2. **Giữ các hộp thời gian ở mức 90 phút trở xuống.** Chia bất cứ hộp nào dài hơn thành hai hộp.
+3. **Đặt nhiệm vụ quan trọng nhất trước buổi trưa.** Các hộp thời gian buổi sáng được hoàn thành nhiều hơn hẳn.
+4. **Dừng lại ở khoảng tám hộp thời gian một ngày.** Vượt quá con số đó, bạn đang lên kế hoạch cho một ngày mà bạn sẽ không hoàn thành.
+5. **Đánh dấu một đến ba ưu tiên.** Các nhiệm vụ được đánh dấu có tỷ lệ hoàn thành cao hơn rõ rệt.
+
+## Cách trích dẫn dữ liệu này
+
+Chrobox (2026). *Time-Boxing Có Thực Sự Hiệu Quả? Dữ Liệu Hoàn Thành Từ 5.077 Nhiệm Vụ Đã Lên Kế Hoạch.* https://chrobox.net/blog/does-timeboxing-work — dữ liệu được trích xuất ngày 30 tháng Chín năm 2026.
+`,
+    'how-to-lock-apps-on-iphone': `
+# Cách Khóa Ứng Dụng Trên iPhone: 3 Phương Pháp (Khóa Face ID, Giới Hạn Screen Time, Chặn Theo Lịch)
+
+Có ba cách riêng biệt để khóa một ứng dụng trên iPhone, và chúng giải quyết những vấn đề khác nhau. Trên iOS 18 trở lên, bạn có thể yêu cầu Face ID để mở một ứng dụng cụ thể nhằm bảo vệ sự riêng tư. Screen Time App Limits cho phép bạn giới hạn thời lượng sử dụng một ứng dụng hoặc danh mục mỗi ngày, với tùy chọn chặn cứng khi hết thời gian. Và tính năng chặn theo lịch, dù được thiết lập thủ công bằng Screen Time hay tự động hóa bởi một ứng dụng lập kế hoạch như Chrobox, chỉ chặn một nhóm ứng dụng đã chọn trong những khung giờ cụ thể mà bạn đặt trước. Hầu hết những người thực sự muốn giảm sử dụng điện thoại cuối cùng đều kết hợp mã Screen Time với một lịch trình, vì một giới hạn mà bạn có thể tự tắt thì không thực sự là một giới hạn.
+
+## Phương pháp 1: Khóa một ứng dụng bằng Face ID (iOS 18 trở lên)
+
+Trên iOS 18 trở lên, Apple đã bổ sung một cách tích hợp sẵn để khóa từng ứng dụng riêng lẻ đằng sau Face ID, Touch ID, hoặc mã của bạn, trực tiếp từ Màn hình chính.
+
+Để sử dụng:
+
+1. Nhấn giữ biểu tượng ứng dụng cho đến khi menu thao tác nhanh xuất hiện.
+2. Chạm vào Yêu Cầu Face ID (nội dung hiển thị có thể là Touch ID hoặc mã tùy theo thiết bị của bạn).
+3. Nếu bạn cũng muốn ứng dụng bị ẩn khỏi Màn hình chính, Thư viện Ứng dụng, thông báo và tìm kiếm, hãy chọn tùy chọn Ẩn và Yêu Cầu Face ID thay thế. Một ứng dụng bị ẩn sẽ chuyển vào một thư mục riêng, đã khóa.
+
+Một khi tính năng này được bật, việc mở ứng dụng đó luôn đòi hỏi xác thực bằng Face ID mỗi lần, ngay cả với người đã mở khóa điện thoại của bạn.
+
+Điều quan trọng là phải rõ ràng về việc tính năng này làm được gì và không làm được gì. Tính năng này liên quan đến sự riêng tư, không phải để giảm mức độ bạn sử dụng một ứng dụng. Nó ngăn người khác vô tình mở ứng dụng ngân hàng hoặc tin nhắn của bạn nếu họ cầm chiếc điện thoại đã mở khóa của bạn. Nhưng nó không làm gì để ngăn chính bạn mở ứng dụng đó: bạn chỉ cần xác thực bằng khuôn mặt của chính mình và vào thẳng bên trong. Nếu mục tiêu của bạn là kiểm tra mạng xã hội ít hơn, khóa Face ID sẽ không giúp được gì, vì chính bạn là người mở khóa nó.
+
+## Phương pháp 2: Giới hạn hoặc chặn một ứng dụng bằng Screen Time App Limits
+
+Screen Time App Limits là công cụ của Apple để giới hạn mức sử dụng, và đây là lựa chọn đúng khi mục tiêu là "dùng ứng dụng này ít hơn mỗi ngày" thay vì "giữ ứng dụng này riêng tư".
+
+Để thiết lập:
+
+1. Mở Cài đặt, sau đó vào Screen Time.
+2. Chạm vào App Limits, sau đó Add Limit.
+3. Chọn các ứng dụng cụ thể hoặc toàn bộ một danh mục (như Social hoặc Games).
+4. Đặt một hạn mức thời gian hàng ngày.
+5. Bật Block at End of Limit nếu bạn muốn ứng dụng thực sự ngừng mở khi hết thời gian, thay vì chỉ hiển thị một lời nhắc.
+
+Bạn cũng có thể đặt Downtime từ cùng menu Screen Time, tính năng này lên lịch một khoảng thời gian (ví dụ: qua đêm) mà chỉ các ứng dụng bạn cho phép mới có thể truy cập được, thay vì giới hạn một ứng dụng cụ thể theo số phút.
+
+Vấn đề với cả App Limits lẫn Downtime là việc thực thi. Nếu bạn tự đặt giới hạn, một màn hình sẽ hiện ra khi hết thời gian, đưa ra tùy chọn Ignore Limit for Today, và chỉ cần một lần chạm là hủy bỏ toàn bộ giới hạn. Điều này ổn như một lời nhắc nhẹ nhàng, nhưng nó sẽ không đứng vững trước một cơn thèm muốn thực sự muốn tiếp tục lướt. Để một giới hạn Screen Time thực sự có hiệu lực, hãy vào Cài đặt, Screen Time, và bật Use Screen Time Passcode với một mã khác với mã điện thoại thông thường của bạn, lý tưởng nhất là một mã mà người khác biết còn bạn thì không, chẳng hạn như bạn đời hoặc một người bạn đồng hành giám sát trách nhiệm. Nếu không có sự tách biệt đó, "giới hạn" thực chất chỉ là một lời nhắc bạn có thể bỏ qua.
+
+## Phương pháp 3: Lên lịch chặn ứng dụng theo một kế hoạch
+
+Cách tiếp cận thứ ba đảo ngược logic: thay vì một ngân sách số phút hàng ngày, bạn chỉ chặn một nhóm ứng dụng đã chọn trong những khung giờ cụ thể, gắn liền với việc bạn nên làm gì vào lúc đó. Bạn có thể tự xây dựng điều này bằng Screen Time Downtime được lên lịch cho giờ làm việc của mình, hoặc dùng một ứng dụng lập kế hoạch gắn việc chặn với lịch nhiệm vụ thực tế của bạn.
+
+Chrobox, một ứng dụng time-boxing, hoạt động theo cách này: khi bạn đặt một nhiệm vụ vào dòng thời gian hàng ngày và gắn một hồ sơ chặn vào đó, các ứng dụng bạn chọn sẽ tự động bị chặn trong suốt độ dài của hộp thời gian đó, sử dụng Screen Time API của Apple (cùng khung FamilyControls và Screen Time mà các công cụ của chính Apple sử dụng) và một màn hình khóa tùy chỉnh. Việc chặn bắt đầu khi hộp thời gian bắt đầu, kết thúc khi hộp thời gian kết thúc, và chỉ áp dụng cho ngày hôm đó, nên nó không kéo dài đến buổi tối nếu kế hoạch của bạn thay đổi. Điều này phù hợp với những người có vấn đề không phải là tổng mức sử dụng hàng ngày mà là những khung giờ cụ thể, chẳng hạn như muốn Instagram bị chặn từ 9 đến 11 giờ khi đang làm việc, nhưng hoàn toàn sẵn sàng dùng được vào buổi tối.
+
+## So sánh ba phương pháp
+
+| Phương pháp | Mục đích | Nó chặn gì | Dễ tự vượt qua | Cần mã do người khác giữ | Phù hợp nhất cho |
+|---|---|---|---|---|---|
+| Khóa ứng dụng bằng Face ID | Riêng tư | Không liên quan đến mức sử dụng; chỉ yêu cầu xác thực để mở | Có, nếu bạn biết Face ID hoặc mã của chính mình | Không | Giữ các ứng dụng cụ thể riêng tư trước người khác |
+| Screen Time App Limits | Giới hạn mức sử dụng | Các ứng dụng hoặc danh mục đã chọn, sau một ngân sách thời gian hàng ngày | Có, qua Ignore Limit for Today, trừ khi người khác giữ mã Screen Time | Có, để giới hạn thực sự có hiệu lực | Giảm tổng thời gian sử dụng hàng ngày trên một ứng dụng |
+| Chặn theo lịch (Downtime hoặc Chrobox) | Tập trung dựa trên thời gian | Các ứng dụng đã chọn, chỉ trong những giờ đã đặt | Tùy thuộc vào ai đặt lịch và giữ mã | Có, để giới hạn thực sự có hiệu lực | Chặn xao nhãng trong những giờ làm việc hoặc học tập cụ thể |
+
+## Bạn nên dùng phương pháp nào
+
+Nếu điều bạn lo ngại là người khác mở một ứng dụng trên điện thoại của bạn, khóa Face ID là câu trả lời trực tiếp và chỉ mất chưa đầy một phút để thiết lập. Nếu điều bạn lo ngại là chính bạn dành quá nhiều thời gian cho một ứng dụng trong suốt cả ngày, Screen Time App Limits với mã do người khác giữ là công cụ trung thực hơn. Nếu điều bạn lo ngại cụ thể là những khung giờ nhất định, chẳng hạn như muốn tránh xa các ứng dụng mạng xã hội trong một khoảng thời gian làm việc cụ thể nhưng không quan tâm điều gì xảy ra ngoài khoảng đó, chặn theo lịch là lựa chọn phù hợp hơn, dù bạn tự xây dựng lịch trình bằng Downtime hay để nó tự động theo kế hoạch của bạn như cách Chrobox làm.
+
+Nhiều người cuối cùng dùng nhiều hơn một cách cùng lúc: khóa Face ID trên một ứng dụng ngân hàng hoặc tin nhắn để bảo vệ riêng tư, và chặn theo lịch trên các ứng dụng mạng xã hội và trò chơi trong giờ làm việc. Không công cụ nào trong số này cạnh tranh với nhau; chúng trả lời những câu hỏi khác nhau.
+`,
+    'how-to-stop-checking-phone-while-studying': `
+# Cách Ngừng Kiểm Tra Điện Thoại Khi Đang Học: Một Thói Quen Thực Tế
+
+Cách nhanh nhất để ngừng kiểm tra điện thoại khi đang học là kết hợp ba điều: đặt điện thoại thực sự ngoài tầm với thay vì chỉ úp mặt xuống, chỉ chặn những ứng dụng cụ thể kéo bạn ra xa trong các buổi học của bạn, và lên kế hoạch học tập theo các hộp thời gian cố định thay vì một "thời gian học" mở, không giới hạn. Không điều nào trong số này đòi hỏi ý chí ngay tại thời điểm đó, vì quyết định chỉ được đưa ra một lần, trước khi bạn ngồi xuống, thay vì lặp đi lặp lại trong suốt quá trình học.
+
+## Vì sao chỉ cần điện thoại ở gần cũng làm hại sự tập trung
+
+Thật hấp dẫn khi nghĩ rằng miễn là bạn không cầm điện thoại lên, việc để nó úp mặt xuống bên cạnh là vô hại. Nghiên cứu cho thấy điều ngược lại. Trong một nghiên cứu năm 2017 thường được gọi là "Brain Drain", các nhà nghiên cứu Adrian Ward, Kristen Duke, Ayelet Gneezy và Maarten Bos phát hiện rằng chỉ riêng sự hiện diện của chiếc điện thoại thông minh của một người cũng làm giảm năng lực nhận thức mà họ có sẵn cho các nhiệm vụ khác, ngay cả khi điện thoại đã tắt và không được sử dụng. Hiệu ứng này xuất hiện chỉ đơn giản từ việc điện thoại ở gần, chứ không phải từ việc thực sự kiểm tra nó.
+
+Bài học thực tế không phải là "tắt điện thoại của bạn" mà là "đặt nó ở một nơi không đơn giản là trong tầm với". Một chiếc điện thoại ở phòng khác, trong một chiếc túi đã kéo khóa, hoặc trong một ngăn kéo ở phía bên kia phòng đều hiệu quả hơn so với việc để nó úp mặt xuống trên cùng một chiếc bàn, vì mục tiêu là khoảng cách, chứ không chỉ là tắt tiếng thông báo.
+
+## Chỉ chặn những ứng dụng thực sự kéo bạn ra xa, và chỉ trong lúc bạn học
+
+Chỉ riêng khoảng cách không ngăn được phản xạ muốn kiểm tra một chiếc điện thoại vẫn còn ở gần, chẳng hạn như trên một chiếc bàn chung hoặc bàn học gia đình, và không phải ai cũng có thể để điện thoại ở phòng khác trong nhiều giờ liền. Phần thứ hai là chặn những ứng dụng cụ thể gây ra vấn đề, nhưng chỉ trong những giờ bạn thực sự nên học.
+
+Điều này quan trọng vì một lệnh chặn toàn diện, cả ngày rất khó duy trì và dễ khiến bạn khó chịu, trong khi một lệnh chặn gắn với buổi học thực tế của bạn sẽ tự kết thúc khi buổi học kết thúc. Bạn có thể làm điều này mà không cần bất kỳ ứng dụng bổ sung nào:
+
+- Trên iPhone, hãy dùng Screen Time Downtime được lên lịch cho khung giờ học của bạn, hoặc đặt App Limit cho các ứng dụng cụ thể bạn hay gặp khó khăn, lý tưởng nhất là với mã Screen Time do người khác giữ để bạn không thể chạm vào Ignore Limit khi bị cám dỗ.
+- Trên Android, hầu hết điện thoại đều có chế độ Focus của Digital Wellbeing, thường nằm trong Cài đặt, sau đó Digital Wellbeing và kiểm soát của phụ huynh, sau đó Focus mode, nơi bạn chọn các ứng dụng gây xao nhãng để tạm dừng trong một khoảng thời gian đặt trước. Tên menu chính xác khác nhau tùy theo nhà sản xuất điện thoại, vì vậy hãy tìm "Digital Wellbeing", "Focus mode", hoặc một mục tương tự về thời gian sử dụng màn hình trong phần cài đặt của bạn nếu tên gọi khác đi.
+
+Nếu bạn lên kế hoạch cho ngày của mình bằng một ứng dụng time-boxing như Chrobox, bước này có thể diễn ra tự động: khi bạn gắn một hồ sơ chặn vào một nhiệm vụ học trên dòng thời gian của mình, các ứng dụng bạn chọn sẽ bị chặn đúng bằng độ dài của hộp thời gian đó và tự mở khóa ngay khi nó kết thúc, nên bạn không bao giờ phải nhớ bật hay tắt lệnh chặn.
+
+## Lên kế hoạch học tập theo hộp thời gian, không phải các phiên mở, không giới hạn
+
+Một kế hoạch thiếu cấu trúc như "tối nay học hóa" để ngỏ cánh cửa cho việc kiểm tra điện thoại ngay khi bạn cảm thấy hơi bế tắc, vì không có một đơn vị công việc rõ ràng để hoàn thành trước. Chia thời gian học thành các hộp cố định, ví dụ một hộp 50 phút tiếp theo là 10 phút nghỉ, cho bạn một điểm dừng cụ thể không phải là điện thoại. Cách chia 50/10 chỉ đơn giản là một lựa chọn hợp lý, không phải một quy tắc cố định và cũng không phải một tính năng kiểu Pomodoro được tích hợp sẵn trong bất kỳ ứng dụng cụ thể nào; bạn hoàn toàn có thể dùng 30/5 hoặc 90/15 tùy theo môn học và khoảng thời gian bạn thực sự có thể duy trì sự tập trung.
+
+Hai thói quen lập kế hoạch tạo ra sự khác biệt đáng kể:
+
+- Đặt môn học khó nhất hoặc tiêu hao năng lượng nhất của bạn vào hộp thời gian sớm nhất trong buổi học, khi sự chú ý của bạn còn sung sức nhất, thay vì để dành nó đến cuối cùng khi bạn nhiều khả năng sẽ với lấy điện thoại hơn.
+- Viết ra trước khi bắt đầu mỗi hộp thời gian rằng "hoàn thành" đối với hộp đó trông như thế nào (ví dụ, "làm xong 10 bài tập" thay vì "học toán"), vì một hộp thời gian mơ hồ dễ bị bỏ dở giữa chừng để kiểm tra điện thoại hơn nhiều.
+
+Dữ liệu sử dụng của chính Chrobox, được rút ra từ 5.077 nhiệm vụ đã lên kế hoạch trên 250 người dùng từ tháng Mười Hai năm 2025 đến tháng Chín năm 2026, rất hữu ích ở đây dù nó đo lường việc hoàn thành nhiệm vụ chứ không đo trực tiếp việc kiểm tra điện thoại: các nhiệm vụ được đặt vào một hộp thời gian đã lên lịch có tỷ lệ hoàn thành 48,1%, so với 17,6% đối với các nhiệm vụ hoàn toàn không có khung giờ, và các hộp thời gian bắt đầu vào sáng sớm (5:00 đến 8:59) có tỷ lệ hoàn thành 62,3% so với 33,2% đối với các hộp bắt đầu muộn vào ban đêm (21:00 đến 23:59). Đây là dữ liệu quan sát từ chính người dùng của Chrobox, không phải một thí nghiệm được kiểm soát, nhưng nó phù hợp với trải nghiệm phổ biến rằng thời gian học mơ hồ, được lên lịch muộn là nơi việc kiểm tra điện thoại len lỏi vào nhiều nhất.
+
+## Một ngày học mẫu để ôn thi
+
+Đây là một cách để sắp xếp một ngày học kết hợp các hộp thời gian cố định, khoảng cách với điện thoại, và chặn ứng dụng, dành cho ai đó đang chuẩn bị cho một kỳ thi:
+
+| Thời gian | Hộp | Điện thoại / chặn ứng dụng |
+|---|---|---|
+| 07:30 - 08:20 | Môn khó nhất, 50 phút | Điện thoại ở phòng khác; các ứng dụng gây xao nhãng bị chặn |
+| 08:20 - 08:30 | Nghỉ | Được dùng điện thoại, nhưng nên tránh các ứng dụng gây xao nhãng nếu có thể |
+| 08:30 - 09:20 | Môn thứ hai, 50 phút | Điện thoại ở phòng khác; các ứng dụng gây xao nhãng bị chặn |
+| 09:20 - 09:30 | Nghỉ | Được dùng điện thoại |
+| 09:30 - 10:20 | Bài tập luyện, 50 phút | Điện thoại ở phòng khác; các ứng dụng gây xao nhãng bị chặn |
+| 10:20 - 10:40 | Nghỉ dài hơn | Được dùng điện thoại thoải mái |
+| 10:40 - 11:30 | Ôn lại phần yếu, 50 phút | Điện thoại ở phòng khác; các ứng dụng gây xao nhãng bị chặn |
+
+Bạn có thể tự xây dựng một ngày như thế này bằng một cuốn sổ kế hoạch giấy, điện thoại khóa trong ngăn kéo, và Screen Time Downtime bao phủ bốn hộp học, hoặc thiết lập nó trong Chrobox, nơi mỗi hộp học mang theo lệnh chặn ứng dụng riêng, tự động bật và tắt khi bạn đi qua các phần trong ngày, và bạn có thể bắt đầu đếm ngược tập trung cho bất kỳ hộp nào khi bạn ngồi xuống.
+
+## Suy nghĩ kết
+
+Không điều nào trong ba yếu tố này — khoảng cách vật lý, chặn ứng dụng theo lịch, và các hộp thời gian cố định — hoạt động đặc biệt tốt khi đứng riêng lẻ. Một chiếc điện thoại ở phía bên kia phòng vẫn bị lấy về trong một buổi học mơ hồ, không xác định; một lệnh chặn ứng dụng nghiêm ngặt trên một chiếc điện thoại nằm trên bàn của bạn vẫn khiến bạn nhìn chằm chằm vào một màn hình bị khóa thay vì ghi chú của mình; và một hộp thời gian được canh giờ hoàn hảo cũng chẳng ích gì nếu điện thoại rung liên tục bên cạnh nó suốt cả thời gian đó. Kết hợp lại với nhau, chúng loại bỏ hoàn toàn quyết định từng khoảnh khắc — chính là phần mà ý chí thường yếu nhất khi phải giữ vững trong nhiều giờ liền.
+`,
+    'reduce-phone-addiction': `
+# Cách Giảm Nghiện Điện Thoại: Kế Hoạch 7 Bước Để Cắt Giảm Thời Gian Sử Dụng Màn Hình
+
+Cách nhanh nhất để giảm nghiện điện thoại là trước tiên đo lường mức sử dụng thực tế của bạn, loại bỏ các tác nhân khiến bạn cầm điện thoại lên mà không hề quyết định, và sau đó chỉ chặn những ứng dụng tệ nhất của bạn trong những khoảng thời gian cụ thể khi bạn đang cố gắng tập trung. Bạn không cần xóa mạng xã hội hay chuyển sang dùng điện thoại nắp gập. Hầu hết mọi người có thể cắt giảm đáng kể thời gian sử dụng màn hình trong hai đến ba tuần bằng cách thực hiện lần lượt một danh sách ngắn, có thứ tự các thay đổi thay vì cố sửa mọi thứ cùng một lúc.
+
+Hướng dẫn này được viết cho việc kiểm tra điện thoại cưỡng bức hàng ngày, không phải một tình trạng lâm sàng. Nếu việc sử dụng điện thoại của bạn đang ảnh hưởng nghiêm trọng đến công việc, các mối quan hệ, giấc ngủ, hoặc tâm trạng, xin hãy trao đổi với bác sĩ hoặc chuyên gia trị liệu. Những gì tiếp theo là một kế hoạch thực tế, không phán xét, dành cho trải nghiệm phổ biến của việc cầm điện thoại lên nhiều hơn mức bạn mong muốn.
+
+## Vì sao việc kiểm tra điện thoại khó kiểm soát đến vậy
+
+Điện thoại thông minh không được thiết kế để bị đặt xuống. Thông báo, các nguồn tin cuộn vô tận, và phần thưởng biến đổi (bạn không bao giờ biết liệu lần làm mới tiếp theo có điều gì thú vị hay không) được thiết kế để kéo sự chú ý của bạn trở lại hết lần này đến lần khác. Bên cạnh đó, nghiên cứu của Ward và các cộng sự (2017), được công bố với tên "Brain Drain" trên Journal of the Association for Consumer Research, phát hiện rằng chỉ riêng sự hiện diện của điện thoại thông minh của bạn ở gần, ngay cả khi đã tắt và úp mặt xuống, cũng có thể làm giảm năng lực nhận thức bạn có sẵn cho các nhiệm vụ khác. Điện thoại của bạn không cần phải đang được sử dụng để vẫn tiêu hao sự chú ý của bạn.
+
+Điều này quan trọng vì nó định hình lại vấn đề. Bạn không thiếu ý chí. Bạn đang chống lại một thiết bị được những người rất thông minh xây dựng nên với mục đích cụ thể là chiếm lấy sự chú ý của bạn, đồng thời phải trả một khoản "thuế nhận thức" âm thầm chỉ vì nó ở gần. Giải pháp không phải là thêm ý chí, mà là thay đổi môi trường của bạn để hành vi tốt đòi hỏi ít ý chí hơn.
+
+## Bước 1: Đo lường trước khi thay đổi bất cứ điều gì
+
+Trước khi quyết định sửa gì, hãy nhìn vào các con số. Cả hai nền tảng lớn đều đã theo dõi điều này cho bạn:
+
+- iPhone: Cài đặt sau đó Screen Time hiển thị thời gian sử dụng màn hình trung bình hàng ngày và hàng tuần của bạn, phân tích theo ứng dụng và danh mục, cùng số lần bạn cầm điện thoại lên và số thông báo mỗi ngày.
+- Android: Cài đặt sau đó Digital Wellbeing và kiểm soát của phụ huynh hiển thị các con số cốt lõi tương tự: mức sử dụng hàng ngày, phân tích theo ứng dụng, số lần mở khóa, và số thông báo nhận được.
+
+Hãy mở nó lên ngay bây giờ và chỉ cần nhìn, không phán xét bản thân. Ghi lại ba con số: tổng thời gian sử dụng màn hình hàng ngày, số lần cầm điện thoại lên, và số thông báo. Bạn sẽ dùng lại những con số này ở Bước 7 để xem liệu có điều gì thực sự thay đổi hay không. Hầu hết mọi người bất ngờ trước ít nhất một trong ba con số, thường là số lần cầm điện thoại hoặc số thông báo, vì những điều này diễn ra trong hậu trường của một ngày mà không được nhận thức một cách có ý thức.
+
+## Bước 2: Xác định các ứng dụng kích hoạt của bạn
+
+Nhìn vào phần phân tích theo từng ứng dụng ở Bước 1. Bạn đang tìm hai điều khác nhau:
+
+- Ứng dụng ngốn nhiều tổng thời gian nhất. Đây thường là một ứng dụng video, mạng xã hội, hoặc nội dung ngắn.
+- Ứng dụng bạn mở nhiều nhất theo thói quen, ngay cả chỉ trong vài giây mỗi lần. Đây đôi khi là một ứng dụng nhắn tin, đôi khi là một ứng dụng mạng xã hội cụ thể, và không phải lúc nào cũng giống với ứng dụng dẫn đầu về thời gian.
+
+Hãy nêu cụ thể hai hoặc ba ứng dụng kích hoạt hàng đầu của bạn. Những mục tiêu mơ hồ như "dùng điện thoại ít hơn" thất bại vì chúng không cho bạn bất cứ điều gì cụ thể để thay đổi. Một mục tiêu như "ngừng mở ứng dụng cụ thể này giữa các nhiệm vụ" là điều bạn thực sự có thể hành động theo.
+
+## Bước 3: Tắt các thông báo không cần thiết
+
+Vào phần cài đặt thông báo của từng ứng dụng kích hoạt và tắt mọi thứ không phải là tin nhắn trực tiếp từ một người thật. Các thông báo tiếp thị, "ai đó đã thích bài đăng của bạn", cảnh báo đề xuất, và các lời nhắc kéo lại ("bạn có nội dung mới đang chờ") là cơ chế chính mà các ứng dụng dùng để làm gián đoạn bạn và kéo bạn trở lại. Giữ lại thông báo cho những thứ thực sự cần bạn chú ý ngay lập tức, như cuộc gọi, tin nhắn, và nhắc lịch, và tắt gần như mọi thứ khác. Chỉ một bước này thường tạo ra sự sụt giảm rõ rệt trong số lần cầm điện thoại chỉ trong vài ngày, vì bạn không còn bị thúc đẩy để mở ứng dụng ngay từ đầu.
+
+## Bước 4: Thêm rào cản cho những ứng dụng tệ nhất của bạn
+
+Một khi thông báo đã im ắng hơn, vấn đề còn lại là việc mở ứng dụng theo thói quen, không cần thông báo: mở khóa điện thoại và chạm vào biểu tượng ứng dụng vì buồn chán hoặc thói quen. Hãy thêm một chút rào cản để việc này đòi hỏi một quyết định có ý thức thay vì tự động:
+
+- Di chuyển các ứng dụng kích hoạt ra khỏi màn hình chính và thanh dock, vào một thư mục trên màn hình phụ.
+- Chuyển điện thoại sang chế độ thang xám trong những giờ bạn muốn cắt giảm nhất (iPhone: Cài đặt, Accessibility, Display & Text Size, Color Filters; trên Android thường nằm trong cài đặt accessibility hoặc chế độ Bedtime của Digital Wellbeing, tùy theo nhà sản xuất). Màu sắc là một phần khiến các nguồn tin trở nên hấp dẫn, và loại bỏ nó làm giảm rõ rệt sức hút đó.
+- Đăng xuất khỏi một ứng dụng để việc mở nó đòi hỏi nhập lại mật khẩu, thay vì chạm vào là vào ngay.
+
+Không thay đổi nào trong số này khiến ứng dụng không thể dùng được. Chúng chỉ thêm một khoảng dừng hai hoặc ba giây, mà thường là đủ để cơn thôi thúc qua đi hoặc để bạn nhận ra mình đang làm điều đó vì thói quen chứ không phải chủ đích.
+
+## Bước 5: Thay thế khoảng trống kiểm tra bằng một hoạt động đã lên kế hoạch
+
+Loại bỏ một thói quen mà không thay thế nó có xu hướng thất bại, vì cơn thôi thúc muốn kiểm tra vẫn xuất hiện ở đúng những thời điểm đó, khi xếp hàng, giữa các cuộc họp, ngay sau khi thức dậy. Thay vì chỉ cố kháng cự, hãy chủ động đặt một thứ khác vào khoảng trống đó. Đây là lúc time-boxing phát huy tác dụng: nếu bạn lên kế hoạch cho ngày của mình thành các khối trước, những khoảnh khắc từng bị lấp đầy bởi việc kiểm tra điện thoại vô thức giờ sẽ được lấp đầy bằng một nhiệm vụ tiếp theo cụ thể, nên có ít thời gian không cấu trúc hơn để thói quen đó lấp vào.
+
+## Bước 6: Chặn những ứng dụng tệ nhất của bạn trong các khoảng thời gian tập trung
+
+Đối với ứng dụng vẫn khó cưỡng lại nhất ngay cả sau Bước 3 đến Bước 5, hãy giới hạn một lệnh chặn cứng vào những khung giờ cụ thể thay vì cố giữ nó tắt cả ngày, điều này có xu hướng bị từ bỏ ngay lần đầu tiên bạn có lý do chính đáng để dùng ứng dụng đó. Cả hai nền tảng đều có công cụ riêng cho việc này:
+
+- iPhone: giới hạn ứng dụng của Screen Time và Downtime, được xây dựng trên Screen Time API của Apple.
+- Android: bộ đếm giờ ứng dụng của Digital Wellbeing và chế độ Focus (tên menu khác nhau tùy nhà sản xuất).
+
+Chrobox cũng chặn ứng dụng, nhưng gắn lệnh chặn với các hộp thời gian đã lên kế hoạch của bạn thay vì một giới hạn hàng ngày cố định: khi bạn gắn một hồ sơ chặn vào một nhiệm vụ hoặc thói quen, các ứng dụng bạn chọn chỉ bị chặn tự động trong suốt thời lượng của hộp đó, rồi tự mở khóa khi hộp kết thúc. Trên iPhone, việc này chạy trên Screen Time API của Apple (FamilyControls và một màn hình chắn tùy chỉnh); trên Android, nó dùng một lớp phủ accessibility service. Không có nút "chặn ngay" riêng biệt để bạn phải đấu tranh với nó, lệnh chặn được giới hạn trong khoảng thời gian làm việc bạn đã lên kế hoạch từ trước, điều này thường dễ duy trì hơn một giới hạn cả ngày.
+
+## Bước 7: Xem lại các con số của bạn mỗi tuần
+
+Quay lại cùng một bảng điều khiển Screen Time hoặc Digital Wellbeing mỗi tuần một lần và so sánh với các con số bạn đã ghi lại ở Bước 1. Hãy đặc biệt chú ý đến số lần cầm điện thoại và số thông báo, chứ không chỉ tổng thời gian, vì hai chỉ số đó thường thay đổi trước tiên và là tín hiệu sớm tốt hơn cho việc liệu các thay đổi về rào cản và chặn ứng dụng có đang hiệu quả hay không. Nếu một con số không thay đổi, thường có nghĩa là một ứng dụng cụ thể nào đó vẫn còn bật thông báo, hoặc vẫn nằm trên màn hình chính nơi bạn liên tục nhìn thấy nó. Hãy điều chỉnh riêng điều đó thay vì làm lại toàn bộ kế hoạch.
+
+| Bước | Việc cần làm | Thời gian cần thiết |
+|---|---|---|
+| 1. Đo lường | Kiểm tra Screen Time (iPhone) hoặc Digital Wellbeing (Android) để xem thời gian hàng ngày, số lần cầm lên, và thông báo | 5 phút |
+| 2. Xác định tác nhân | Nêu tên 2-3 ứng dụng hàng đầu của bạn theo thời gian và tần suất mở | 5 phút |
+| 3. Cắt thông báo | Tắt các cảnh báo không cần thiết trong các ứng dụng kích hoạt | 10 phút |
+| 4. Thêm rào cản | Di chuyển ứng dụng ra khỏi màn hình chính, bật thang xám, đăng xuất khỏi một ứng dụng | 10 phút |
+| 5. Thay thế khoảng trống | Lên kế hoạch cho ngày của bạn thành các hộp thời gian để những lúc rảnh có một nhiệm vụ thay thế | 10-15 phút, mỗi ngày một lần |
+| 6. Chặn trong giờ tập trung | Đặt một giới hạn ứng dụng hoặc gắn một hồ sơ chặn vào một hộp tập trung | 5 phút để thiết lập |
+| 7. Xem lại hàng tuần | So sánh các con số của tuần này với mức cơ sở của bạn | 5 phút, mỗi tuần một lần |
+
+## Lưu ý về những gì hướng dẫn này không phải
+
+Đây là một kế hoạch để giảm việc kiểm tra cưỡng bức hàng ngày, không phải một phương pháp điều trị cho một tình trạng đã được chẩn đoán. Một số người nhận thấy rằng ngay cả sau khi thử thêm rào cản, chặn ứng dụng, và các hoạt động thay thế, việc sử dụng điện thoại của họ vẫn liên quan đến lo âu, tâm trạng thấp, các vấn đề về giấc ngủ, hoặc một sự cưỡng bức cảm thấy nằm ngoài tầm kiểm soát của họ. Đó là dấu hiệu nên trao đổi với một chuyên gia thay vì cố gắng nhiều hơn với một ứng dụng. Chrobox, và các công cụ tương tự, có thể hỗ trợ thay đổi hành vi cho những người muốn xây dựng thói quen hàng ngày tốt hơn, nhưng nó không thay thế cho chăm sóc y tế hoặc sức khỏe tâm thần chuyên nghiệp.
+
+## Tổng hợp lại
+
+Không bước nào trong bảy bước này đòi hỏi bạn phải từ bỏ hoàn toàn điện thoại hoặc các ứng dụng yêu thích của mình. Đo lường trước tiên cho bạn biết vấn đề thực sự nằm ở đâu, thay vì đoán mò. Cắt giảm thông báo và thêm rào cản loại bỏ các tác nhân tự động. Lên kế hoạch cho ngày của bạn thành các khối thời gian — tùy chọn dùng một ứng dụng như Chrobox (cũng cung cấp 3 ngày dùng thử miễn phí cho Pro nếu bạn muốn tính năng chặn tự động) — cho khoảng thời gian được giải phóng một nơi hữu ích để đi thay vì chỉ để lại một khoảng trống mà điện thoại sẽ tự lấp đầy. Xem lại hàng tuần giúp bạn trung thực về việc liệu nó có thực sự hiệu quả hay không, thay vì dựa vào cảm giác. Hầu hết mọi người nhận thấy sự khác biệt thực sự trong vòng hai đến ba tuần khi thực hiện lần lượt danh sách này.
+`,
+    'daily-reflection-template': `
+# Mẫu Đánh Giá Hàng Ngày: 4 Định Dạng Sẵn Sàng Sử Dụng (Bao Gồm KPT)
+
+Mẫu đánh giá hàng ngày nhanh nhất là đánh giá 3 dòng: một dòng cho điều diễn ra tốt đẹp, một dòng cho điều không tốt, và một dòng cho điều bạn sẽ làm vào ngày mai. Việc này mất chưa đến hai phút và loại bỏ lý do bào chữa "không có thời gian". Nếu bạn muốn nhiều cấu trúc hơn, KPT (Keep, Problem, Try) và một bảng kiểm tra kế hoạch so với thực tế cho những ngày được phân bổ thời gian cũng được trình bày bên dưới, cùng với một định dạng đơn giản kiểu tâm trạng cộng một câu dành cho những ngày năng lượng thấp nhất của bạn. Hãy chọn mẫu phù hợp với lượng thời gian và năng lượng bạn có vào buổi tối đó, chứ không phải mẫu trông ấn tượng nhất.
+
+## Vì sao một mẫu quan trọng hơn động lực
+
+Hầu hết những người cố gắng duy trì thói quen đánh giá hàng ngày đều dừng lại trong vòng hai hoặc ba tuần, không phải vì việc đánh giá không hữu ích, mà vì họ bắt đầu mà không có bất kỳ định dạng nào cả. Một ô văn bản trống khiến người ta e ngại mỗi tối, và vào một ngày tồi tệ, nó biến thành không viết gì cả (bạn bỏ qua) hoặc một sự trút bầu tâm sự không có cấu trúc khiến bạn cảm thấy tệ hơn. Một mẫu giải quyết vấn đề này bằng cách cho bạn những ô cố định để điền vào, nên thói quen này không phụ thuộc vào việc có cảm hứng hay có một ngày tốt lành. Đây cũng chính là cách tab đánh giá của chính Chrobox hoạt động: một thang đo tâm trạng 5 mức (tệ, tạm, ổn, tốt, tuyệt) cộng với văn bản tự do, có tùy chọn đọc chính tả bằng giọng nói cho những ngày bạn muốn nói hơn là gõ chữ, nên bản thân định dạng đã loại bỏ rào cản trước khi bạn viết chữ đầu tiên.
+
+Dưới đây là bốn mẫu. Mỗi mẫu có một sự đánh đổi khác nhau giữa tốc độ, cấu trúc, và loại ngày nó phù hợp nhất.
+
+## Mẫu 1: Đánh giá 3 dòng
+
+Đây là lựa chọn ít rào cản nhất và là mẫu mặc định cho những ngày bận rộn hoặc mệt mỏi.
+
+Điều diễn ra tốt đẹp hôm nay, một dòng
+Điều không tốt hoặc cảm thấy khó khăn, một dòng
+Một điều cụ thể sẽ làm khác đi vào ngày mai, một dòng
+
+Thời gian cần: 1 đến 2 phút.
+
+Khi nào phù hợp: bất kỳ ngày nào, nhưng đặc biệt là những ngày bạn mệt mỏi, đang di chuyển, hoặc thiếu thời gian. Đây cũng là định dạng đúng để đưa cho người chưa từng viết nhật ký, vì ba dòng ngắn tạo cảm giác khả thi theo cách mà một trang giấy trống không làm được.
+
+Sai lầm thường gặp: biến dòng thứ hai thành một danh sách mọi thứ đã sai. Hãy chỉ giữ lại một điều. Nếu có năm điều sai, hãy chọn điều đáng giải quyết nhất vào ngày mai và để phần còn lại qua đêm nay.
+
+## Mẫu 2: KPT (Keep, Problem, Try)
+
+KPT bắt nguồn từ các buổi đánh giá của đội nhóm agile nhưng cũng hoạt động tốt cho một cá nhân xem lại một ngày của mình.
+
+Keep (Giữ lại): điều gì hôm nay đã hiệu quả mà bạn muốn tiếp tục làm
+Problem (Vấn đề): điều gì đã cản trở hoặc không hiệu quả
+Try (Thử): một thay đổi cụ thể để thử vào ngày mai, dựa trên dòng Vấn đề
+
+Thời gian cần: 3 đến 5 phút.
+
+Khi nào phù hợp: những ngày có nhiều việc diễn ra đến mức một dòng cho mỗi phần là không đủ, hoặc khi bạn đang cố cải thiện một thói quen hay quy trình cụ thể trong nhiều ngày và muốn có một bản ghi liên tục về những gì bạn đã thay đổi và liệu nó có hiệu quả hay không. KPT hữu ích hơn định dạng 3 dòng khi bạn đang chủ động thử nghiệm với thói quen của mình, vì dòng Thử trở thành điều bạn có thể đối chiếu với dòng Giữ lại hoặc Vấn đề của ngày mai.
+
+Sai lầm thường gặp: viết một Vấn đề mà không có một Thử tương ứng. Một Vấn đề đứng một mình chỉ trở thành một lời than phiền bạn lặp lại mỗi ngày. Dòng Thử mới là điều biến việc đánh giá thành một vòng lặp cải thiện thực sự thay vì một cuốn nhật ký của sự bực dọc.
+
+## Mẫu 3: Kế hoạch so với thực tế, cho những ngày được phân bổ thời gian
+
+Mẫu này được xây dựng riêng cho những người lên kế hoạch cho ngày của mình theo các khối thời gian, dù là trong lịch, một cuốn sổ kế hoạch, hay một ứng dụng như Chrobox.
+
+Số hộp đã lên kế hoạch hôm nay: (số lượng)
+Số hộp thực tế đã hoàn thành: (số lượng)
+Lý do những hộp còn lại bị trượt: (một dòng cho mỗi hộp không diễn ra, hoặc một dòng tổng nếu lý do giống nhau cho tất cả)
+Một thay đổi cho kế hoạch ngày mai: (một dòng)
+
+Thời gian cần: 3 đến 5 phút.
+
+Khi nào phù hợp: bất kỳ ngày nào bạn đã lên kế hoạch thời gian trước và muốn biết liệu kế hoạch có khớp với thực tế hay không, điều này thường cho nhiều thông tin hơn là chỉ riêng một chỉ số tâm trạng. Nếu bạn liên tục lên kế hoạch chín nhiệm vụ nhưng chỉ hoàn thành hai, vấn đề thường nằm ở kế hoạch, chứ không phải nỗ lực của bạn. Dữ liệu sử dụng của chính Chrobox trên 5.077 nhiệm vụ đã lên kế hoạch từ 250 người cho thấy rằng vào những ngày có chín nhiệm vụ đã lên kế hoạch trở lên, toàn bộ danh sách chỉ được hoàn thành đúng một lần trong 198 ngày, khoảng nửa phần nghìn số lần, trong khi một ngày trung vị có năm nhiệm vụ đã lên kế hoạch. Đó là một chuẩn tham khảo hữu ích khi bạn đang xác định liệu khoảng cách giữa kế hoạch và thực tế của chính bạn là bình thường hay đáng để khắc phục. Đây là dữ liệu quan sát từ việc sử dụng ứng dụng, không phải một nghiên cứu có kiểm soát, nên hãy xem nó như một điểm tham khảo gần đúng chứ không phải một quy tắc.
+
+Sai lầm thường gặp: xem một hộp thời gian bị trượt như một thất bại cá nhân thay vì một tín hiệu lập kế hoạch. Nếu cùng một loại hộp thời gian bị trượt hầu hết các ngày, ví dụ bất cứ điều gì được lên lịch sau 9 giờ tối, đó là thông tin về thời điểm bạn nên ngừng lên lịch loại nhiệm vụ đó, chứ không phải bằng chứng cho thấy bạn thiếu kỷ luật.
+
+## Mẫu 4: Tâm trạng cộng một câu
+
+Dành cho những ngày mà ngay cả ba dòng cũng cảm thấy quá nhiều.
+
+Tâm trạng: (chọn một từ hoặc thang điểm 1 đến 5)
+Một câu về hôm nay
+
+Thời gian cần: dưới 1 phút.
+
+Khi nào phù hợp: những ngày năng lượng thấp nhất của bạn, hoặc như một phương án dự phòng để chuỗi ngày không bị đứt hoàn toàn. Một mục ghi ngắn giữ cho thói quen này sống sót có giá trị hơn nhiều so với việc bỏ qua một ngày, vì phần khó nhất của bất kỳ thói quen hàng ngày nào thường là bắt đầu lại sau một khoảng trống. Viết dù chỉ một câu cũng cho bạn điều gì đó để nhìn lại sau này mà chỉ riêng một điểm tâm trạng không thể làm được.
+
+Sai lầm thường gặp: bỏ qua hoàn toàn mục ghi vì cảm thấy nó quá nhỏ để bận tâm. Một mục ghi một câu vào một ngày tồi tệ vẫn là một điểm dữ liệu, và nhìn lại một tháng dù toàn những mục ghi ngắn thường vẫn cho thấy những khuôn mẫu mà không một ngày đơn lẻ nào có thể tiết lộ.
+
+## Chọn giữa bốn mẫu
+
+Hãy dùng định dạng 3 dòng làm mặc định của bạn. Chuyển sang KPT vào những ngày bạn đang chủ động cố sửa một điều cụ thể, vì dòng Thử cho bạn điều gì đó để theo dõi tiếp. Dùng định dạng kế hoạch so với thực tế vào những ngày bạn đã phân bổ thời gian cho lịch trình của mình, vì nó cho bạn biết liệu bản thân kế hoạch có cần điều chỉnh hay không. Quay về tâm trạng cộng một câu vào những ngày khó khăn nhất, chỉ để giữ cho thói quen này sống sót thay vì để một khoảng trống biến thành nhiều tuần không viết gì. Không có lựa chọn sai ở đây; sai lầm thực sự duy nhất là xem bất kỳ mẫu nào trong số này là bắt buộc mỗi ngày.
+
+## Những sai lầm thường gặp ở cả bốn mẫu
+
+Một vài vấn đề xuất hiện bất kể bạn dùng mẫu nào.
+
+Biến nó thành tự chỉ trích bản thân. Một bài đánh giá chỉ liệt kê lỗi lầm sẽ khiến bạn ngày càng ngại thói quen này. Mỗi mẫu ở trên đều cố tình ghép một quan sát tiêu cực với một hành động hướng tới tương lai. Nếu bạn nhận thấy các mục ghi của mình phần lớn là lời than phiền về bản thân, hãy thêm một dòng "điều diễn ra tốt đẹp" ngay cả vào KPT hay mẫu kế hoạch so với thực tế.
+
+Viết quá nhiều. Các mục ghi dài mất nhiều thời gian hơn để viết và còn mất nhiều thời gian hơn để xem lại, nghĩa là bạn sẽ ngừng xem lại các mục ghi trước đó — điều vốn là một nửa mục đích của việc giữ chúng. Nếu một mục ghi mất hơn năm phút, có lẽ bạn đã trôi từ đánh giá sang trút bầu tâm sự. Hãy dành việc trút bầu tâm sự cho một nơi khác và giữ các mục ghi đủ ngắn để bạn thực sự sẽ đọc lại chúng.
+
+Bỏ qua hoàn toàn thói quen vào những ngày tồi tệ. Đây là cách phổ biến nhất khiến thói quen này chết đi. Những ngày tồi tệ chính xác là lúc một mục ghi tâm trạng cộng một câu ngắn gọn có giá trị nhất, vừa vì bạn cần một lối thoát, vừa vì một chuỗi những ngày tồi tệ là điều đáng để có thể nhìn lại sau này.
+
+## Điều này phù hợp thế nào với một ứng dụng
+
+Bạn có thể thực hiện bất kỳ mẫu nào trong bốn mẫu này trên giấy, trong một ứng dụng ghi chú, hoặc trong một công cụ chuyên dụng. Nếu bạn đã lên kế hoạch cho ngày của mình theo hộp thời gian, Chrobox giữ kế hoạch và đánh giá hàng ngày trong cùng một ứng dụng, nên mẫu kế hoạch so với thực tế chỉ mất một phút: các hộp bạn đã lên kế hoạch và những hộp bạn đã đánh dấu hoàn thành đã có sẵn ở đó. Các mục ghi cũng tạo thành một chuỗi viết liên tục, và trên Chrobox Pro, còn nuôi dưỡng một phân tích tự động hàng ngày và hàng tuần với một lời nhắn an ủi bằng AI tùy chọn cho một mục ghi, để thói quen nhỏ hàng ngày này tích lũy thành một góc nhìn dài hạn hơn mà không cần thêm công sức thủ công. Tuy nhiên, bạn không cần tất cả những điều đó để hưởng lợi từ các mẫu này. Một mẩu giấy nhớ và hai phút cũng hiệu quả không kém bất kỳ ứng dụng nào.
+
+## Xây dựng thói quen
+
+Bản thân mẫu ít quan trọng hơn việc xuất hiện với bất kỳ mẫu nào, vào hầu hết các buổi tối, trong vài tuần. Hãy chọn mẫu phù hợp với năng lượng của tối nay thay vì luôn nhắm đến mục ghi kỹ lưỡng nhất của bạn, và xem một mục ghi ngắn là một thành công trọn vẹn chứ không phải một phiên bản kém hơn của một mục ghi dài. Mục tiêu của việc đánh giá hàng ngày không phải là một bản ghi hoàn hảo; đó là một thói quen bạn thực sự duy trì được, vì một thói quen bạn giữ được trong một tháng cho bạn biết nhiều hơn về những ngày của mình so với bất kỳ mục ghi chi tiết đơn lẻ nào từng có thể.
 `,
   },
   templates: {

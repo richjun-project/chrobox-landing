@@ -18,6 +18,19 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
 - Facts last reviewed: 2026-09-30
 
+## First-party data
+
+Chrobox publishes aggregate completion data from its own app. Source page:
+[Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
+(5,077 tasks planned by 250 people, tasks dated 2025-12-03 to 2026-09-29, extracted 2026-09-30).
+
+- Tasks given a time box were completed 48.1% of the time vs 17.6% for tasks left unscheduled
+- Same-person comparison: 35 of 41 people completed more of their time-boxed tasks
+- Boxes starting 05:00–08:59 were completed 62.3%; boxes starting 21:00–23:59, 33.2%
+- Priority-marked tasks: 44.5% vs 28.9%
+- Median time box: 60 minutes (also the app's default); median 5 tasks planned per day
+- Observational data: an association, not a controlled experiment. Cite as "Chrobox (2026)" with the source page URL
+
 ## Frequently asked questions
 
 ### What is Chrobox?
@@ -639,6 +652,137 @@ Tonight, pick tomorrow's frog. Block 90 minutes. Show up. Eat it. Then watch the
 
 ---
 
+## Does Timeboxing Work? Completion Data from 5,077 Planned Tasks
+
+Source: https://chrobox.net/blog/does-timeboxing-work · Updated: 2026-09-30
+
+Most advice about timeboxing rests on the same few studies and a lot of personal testimony. We build a timeboxing app, so we can look at something more direct: what actually happens to tasks after people plan them. This page reports what we found in Chrobox usage data — including the parts that are less flattering, and the limits of what the numbers can tell you.
+
+### The short answer
+
+Tasks that were given a start time and a duration were marked complete **48.1%** of the time. Tasks that stayed on the list without a time slot were completed **17.6%** of the time. That is roughly **2.7 times** as often.
+
+The difference did not come from a handful of very organized people. When we compared each person with themselves, 35 of 41 people finished more of their time-boxed tasks than their unscheduled ones.
+
+### About this data
+
+| Item | Value |
+|---|---|
+| Source | Anonymized task records from the Chrobox app (iOS and Android), signed-in accounts |
+| Period | Tasks dated 3 December 2025 to 29 September 2026 |
+| Sample | 5,077 tasks planned by 250 people across 799 planned days |
+| Extracted | 30 September 2026 |
+
+- **Time-boxed** means the task had both a start time and a duration on the day timeline.
+- **Completed** means the person checked the task off. A task someone finished but never checked off counts as not completed.
+- We excluded events imported from device calendars, tasks dated today or later, operator and test accounts, and deleted accounts.
+- Only aggregate figures are published. No group smaller than 30 tasks is reported.
+
+### Finding 1: Time-boxed tasks were completed 2.7× as often
+
+| | Tasks | People | Completed |
+|---|---|---|---|
+| With a time box | 2,317 | 190 | 48.1% |
+| Without a time box | 2,760 | 192 | 17.6% |
+
+Two checks make this more than a headline number:
+
+- **Heavy users.** The ten most active accounts created 55% of all tasks. With them removed, the gap barely moves: 42.8% for time-boxed tasks against 14.2% for unscheduled ones.
+- **Same person, both ways.** Among the 41 people who planned at least five tasks of each kind, average completion was 52.9% with a time box and 15.0% without. 35 did better with time boxes, 2 did worse and 4 were even.
+
+**What this does not prove.** This is observational data, not an experiment. People may give time slots to tasks they already intend to do, and a slot also works as a reminder. So the data shows a strong association, not a controlled causal effect. It is consistent with research on implementation intentions: a meta-analysis of 94 studies by Gollwitzer and Sheeran (2006) found that deciding in advance when and where you will act has a medium-to-large effect on follow-through.
+
+### Finding 2: Most boxes are an hour, and length matters less than you think
+
+| Box length | Share of boxes |
+|---|---|
+| 60 minutes | 50.8% |
+| 30 minutes | 14.9% |
+| 120 minutes | 9.3% |
+| 90 minutes | 4.1% |
+| 180 minutes | 3.1% |
+
+The median box was 60 minutes. Part of that is the app itself: when a task is dropped onto an hour on the Chrobox timeline, it starts as a 60-minute box, and many people keep the default.
+
+Completion by length is the more useful result:
+
+| Box length | Tasks | Completed |
+|---|---|---|
+| 15 minutes or less | 35 | 48.6% |
+| 16–30 minutes | 429 | 48.7% |
+| 31–45 minutes | 56 | 53.6% |
+| 46–60 minutes | 1,215 | 48.7% |
+| 61–90 minutes | 135 | 50.4% |
+| 91–120 minutes | 238 | 45.0% |
+| More than 120 minutes | 209 | 44.0% |
+
+Up to 90 minutes, length made almost no difference. Past 90 minutes, completion dropped by about four to five points. Short boxes were not easier to finish than hour-long ones.
+
+### Finding 3: Morning boxes get done, evening boxes slip
+
+| Box start time | Tasks | People | Completed |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34.9% |
+| 05:00–08:59 | 318 | 81 | 62.3% |
+| 09:00–11:59 | 473 | 95 | 52.4% |
+| 12:00–14:59 | 448 | 102 | 52.0% |
+| 15:00–17:59 | 447 | 102 | 44.7% |
+| 18:00–20:59 | 380 | 96 | 40.0% |
+| 21:00–23:59 | 208 | 65 | 33.2% |
+
+The pattern is steady: the later a box starts, the less likely it is to be finished. A box starting before 9:00 was nearly twice as likely to be completed as one starting after 21:00. Some of this is who plans early — people who schedule a 6:30 task may simply be more consistent — but the practical advice is the same: put the task you most need to finish before noon.
+
+### Finding 4: Past eight tasks, a finished day is rare
+
+The median planned day had **5 tasks**.
+
+| Tasks planned that day | Days | Average share completed | Days with every task done |
+|---|---|---|---|
+| 1 | 131 | 7.6% | 7.6% |
+| 2 | 91 | 18.7% | 14.3% |
+| 3 | 105 | 29.2% | 14.3% |
+| 4–5 | 131 | 26.3% | 13.7% |
+| 6–8 | 143 | 42.7% | 18.2% |
+| 9 or more | 198 | 30.7% | 0.5% |
+
+Days with 6–8 tasks had the best completion. Days with nine or more tasks finished the entire list once in 198 days. Days with a single task look worst, but many of those are first days — someone trying the app with one test task — so read that row with care.
+
+### Finding 5: Priorities help, and Thursday beats Sunday
+
+Tasks marked as a priority were completed 44.5% of the time (853 tasks), against 28.9% for everything else (4,224 tasks).
+
+| Day | Tasks | Completed |
+|---|---|---|
+| Monday | 940 | 31.4% |
+| Tuesday | 854 | 34.2% |
+| Wednesday | 990 | 31.9% |
+| Thursday | 815 | 36.2% |
+| Friday | 612 | 28.6% |
+| Saturday | 355 | 27.3% |
+| Sunday | 511 | 25.4% |
+
+Midweek was strongest, with Thursday highest. Weekends were weakest, and Sunday was the lowest day of the week.
+
+### What we could not measure
+
+- **App blocking.** Only 19 time-boxed tasks from 8 people had app blocking attached in this period. That is too few to report a completion rate, so we do not.
+- **Guest mode.** Earlier versions of the app offered a guest mode that kept tasks on the device, so those tasks are not in this data.
+- **Who the users are.** 67% of accounts in the sample use the app in Korean and 24% in English. Results may not transfer to every culture or job.
+
+### How to use this in your own planning
+
+1. **Give every must-do task a start time.** On the list alone, fewer than one in five tasks got done.
+2. **Keep boxes at 90 minutes or less.** Split anything longer into two boxes.
+3. **Put the most important task before noon.** Morning boxes were finished far more often.
+4. **Stop at about eight boxes a day.** Beyond that, you are planning a day you will not finish.
+5. **Mark one to three priorities.** Marked tasks were completed noticeably more often.
+
+### How to cite this data
+
+Chrobox (2026). *Does Timeboxing Work? Completion Data from 5,077 Planned Tasks.* https://chrobox.net/blog/does-timeboxing-work — data extracted 30 September 2026.
+
+---
+
 ## How to Build the Perfect Morning Routine with Time-Boxing
 
 Source: https://chrobox.net/blog/morning-routine-scheduling · Updated: 2026-08-09
@@ -1086,6 +1230,98 @@ Track these weekly metrics using Chrobox's analytics:
 - Consistency of shutdown time
 
 Improving these numbers over 4-6 weeks reveals your productivity patterns and helps you build a remote work schedule that's both productive and sustainable.
+
+---
+
+## Daily Reflection Template: 4 Ready-to-Use Formats (Including KPT)
+
+Source: https://chrobox.net/blog/daily-reflection-template · Updated: 2026-09-30
+
+The fastest daily reflection template is the 3-line reflection: one line for what went well, one for what did not, and one for what you will do tomorrow. It takes under two minutes and removes the excuse of not having time. If you want more structure, KPT (Keep, Problem, Try) and a plan-vs-actual check for time-boxed days are also covered below, along with a simple mood-plus-one-sentence format for your lowest-energy days. Pick the one that matches how much time and energy you have that evening, not the one that looks most impressive.
+
+### Why a template matters more than motivation
+
+Most people who try to keep a daily reflection habit stop within two or three weeks, not because reflection is not useful, but because they start with no format at all. An empty text box is intimidating every single night, and on a bad day it turns into either nothing (you skip it) or an unstructured vent that leaves you feeling worse. A template solves this by giving you fixed slots to fill in, so the habit does not depend on feeling inspired or having a good day. This is also how Chrobox's own retrospective tab works: a 5-level mood rating (bad, meh, okay, good, great) plus free text, with optional voice dictation for days you would rather talk than type, so the format itself removes friction before you write a word.
+
+Below are four templates. Each has a different trade-off between speed, structure, and what kind of day it fits best.
+
+### Template 1: The 3-line reflection
+
+This is the lowest-friction option and the one to default to on busy or tired days.
+
+What went well today, one line
+What did not go well or felt hard, one line
+One specific thing to do differently tomorrow, one line
+
+Time needed: 1 to 2 minutes.
+
+When it fits: any day, but especially days when you are tired, traveling, or otherwise short on time. It is also the right format to hand to someone who has never journaled before, since three short lines feel achievable in a way an open page does not.
+
+Common mistake: turning the second line into a list of everything that went wrong. Keep it to one thing. If five things went wrong, pick the one that is most worth addressing tomorrow and let the rest go for tonight.
+
+### Template 2: KPT (Keep, Problem, Try)
+
+KPT comes from agile team retrospectives but works just as well for a single person reviewing a single day.
+
+Keep: what worked today that you want to keep doing
+Problem: what got in the way or did not work
+Try: one concrete change to try tomorrow, based on the Problem line
+
+Time needed: 3 to 5 minutes.
+
+When it fits: days with enough going on that a single line per section is not enough, or when you are trying to improve a specific habit or workflow over several days and want a running record of what you changed and whether it helped. KPT is more useful than the 3-line format when you are actively experimenting with your routine, because the Try line becomes something you can check against tomorrow's Keep or Problem line.
+
+Common mistake: writing a Problem without a matching Try. A Problem on its own just becomes a complaint you repeat every day. The Try line is what turns the reflection into an actual improvement loop instead of a diary of frustrations.
+
+### Template 3: Plan versus actual, for time-boxed days
+
+This template is built specifically for people who plan their day into time blocks, whether in a calendar, a planner, or an app like Chrobox.
+
+Boxes planned today: (number)
+Boxes actually finished: (number)
+Why the others slipped: (one line per box that did not happen, or one line total if the reason was the same for all of them)
+One change for tomorrow's plan: (one line)
+
+Time needed: 3 to 5 minutes.
+
+When it fits: any day you planned your time in advance and want to know whether the plan matched reality, which is often more informative than a mood rating alone. If you consistently plan nine tasks and finish two, the problem is usually the plan, not your effort. Chrobox's own usage data across 5,077 planned tasks from 250 people shows that on days with nine or more planned tasks, the whole list was finished only once in 198 days, about half a percent of the time, while a median day has five tasks planned. That is a useful benchmark when you are deciding whether your own plan-versus-actual gap is normal or worth fixing. It is observational data from app usage, not a controlled study, so treat it as a rough reference point rather than a rule.
+
+Common mistake: treating a slipped box as a personal failure instead of a planning signal. If the same type of box slips most days, for example anything scheduled after 9pm, that is information about when you should stop scheduling that kind of task, not evidence that you lack discipline.
+
+### Template 4: Mood plus one sentence
+
+For the days when even three lines feels like too much.
+
+Mood: (pick one word or a 1 to 5 scale)
+One sentence about today
+
+Time needed: under 1 minute.
+
+When it fits: your lowest-energy days, or as a fallback so the streak does not break entirely. A short entry that keeps the habit alive is worth far more than a skipped day, since the hardest part of any daily practice is usually restarting it after a gap. Writing even one sentence gives you something to look back on later that a mood score alone does not.
+
+Common mistake: skipping the entry entirely because it feels too small to bother with. A one-sentence entry on a bad day is still a data point, and looking back at a month of even short entries usually shows patterns that no single day would reveal.
+
+### Choosing between the four
+
+Use the 3-line format as your default. Switch to KPT on days when you are actively trying to fix something specific, since the Try line gives you something to follow up on. Use the plan-versus-actual format on days you time-boxed your schedule, since it tells you whether the plan itself needs adjusting. Fall back to mood-plus-one-sentence on your hardest days, just to keep the habit alive rather than letting a gap turn into weeks of not writing at all. There is no wrong choice here; the only real mistake is treating any one of them as mandatory every single day.
+
+### Common mistakes across all four templates
+
+A few problems show up regardless of which template you use.
+
+Turning it into self-criticism. A reflection that only lists faults trains you to dread the habit. Every template above pairs a negative observation with a forward-looking action, which is intentional. If you notice your entries are mostly complaints about yourself, add a "what went well" line even to KPT or the plan-versus-actual template.
+
+Writing too much. Long entries take longer to write and even longer to review, which means you stop reviewing past entries, which is half the point of keeping them. If an entry is taking more than five minutes, you have probably drifted from reflection into venting. Save the venting for somewhere else and keep the reflection short enough that you will actually reread it.
+
+Skipping the habit entirely on bad days. This is the single most common way the habit dies. Bad days are exactly when a quick mood-plus-one-sentence entry matters most, both because you need the outlet and because a string of bad days is worth being able to see later.
+
+### Where this fits with an app
+
+You can run any of these four templates on paper, in a notes app, or in a dedicated tool. If you already plan your day in time boxes, Chrobox keeps the plan and the daily retrospective in the same app, so the plan-versus-actual template takes a minute: the boxes you planned and the ones you checked off are already there. Entries also build a writing streak and, on Chrobox Pro, feed an automatic daily and weekly analysis with an optional AI comfort message on an entry, so the small daily habit compounds into a longer-term view without extra manual work. None of that is required to benefit from these templates, though. A sticky note and two minutes work just as well as any app.
+
+### Building the habit
+
+The template matters less than showing up with any template at all, most evenings, for a few weeks. Pick the one that matches tonight's energy rather than aiming for your most thorough entry every time, and treat a short entry as a full success rather than a lesser version of a long one. The goal of a daily reflection is not a perfect record; it is a habit you actually keep, because a habit you keep for a month tells you far more about your days than a single detailed entry ever could.
 
 ---
 
@@ -2188,9 +2424,206 @@ A digital detox that survives contact with real life is not the one that removes
 
 ---
 
+## How to Lock Apps on iPhone: 3 Methods (Face ID Lock, Screen Time Limits, Scheduled Blocking)
+
+Source: https://chrobox.net/blog/how-to-lock-apps-on-iphone · Updated: 2026-09-30
+
+There are three separate ways to lock an app on iPhone, and they solve different problems. On iOS 18 and later, you can require Face ID to open a specific app for privacy. Screen Time App Limits let you cap how long you can use an app or category each day, with an optional hard block once the time runs out. And scheduled blocking, either built manually with Screen Time or automated by a planning app like Chrobox, blocks a chosen set of apps only during specific hours you set in advance. Most people who actually want to reduce phone use end up combining a Screen Time passcode with a schedule, because a limit you can turn off yourself is not really a limit.
+
+### Method 1: Lock an App with Face ID (iOS 18 and later)
+
+On iOS 18 and later, Apple added a built-in way to lock individual apps behind Face ID, Touch ID, or your passcode, directly from the Home Screen.
+
+To use it:
+
+1. Long-press the app icon until the quick actions menu appears.
+2. Tap Require Face ID (the wording may show Touch ID or passcode instead, depending on your device).
+3. If you also want the app hidden from your Home Screen, App Library, notifications, and search, choose the Hide and Require Face ID option instead. A hidden app moves into a separate, locked folder.
+
+Once this is turned on, opening the app requires Face ID authentication every time, even for someone who already has your phone unlocked.
+
+It is important to be clear about what this does and does not do. This feature is about privacy, not about reducing how much you use an app. It stops someone else from casually opening your banking app or messages if they pick up your unlocked phone. It does nothing to stop you from opening the app yourself: you just authenticate with your own face and go straight in. If your goal is to check social media less, Face ID lock will not help, because you are the one unlocking it.
+
+### Method 2: Limit or Block an App with Screen Time App Limits
+
+Screen Time App Limits are Apple's tool for capping usage, and they are the right choice when the goal is "less of this app per day" rather than "keep this app private."
+
+To set one up:
+
+1. Open Settings, then go to Screen Time.
+2. Tap App Limits, then Add Limit.
+3. Choose specific apps or a whole category (like Social or Games).
+4. Set a daily time allowance.
+5. Turn on Block at End of Limit if you want the app to actually stop opening once time runs out, rather than just showing a reminder.
+
+You can also set Downtime from the same Screen Time menu, which schedules a window (for example, overnight) when only apps you allow stay accessible, instead of limiting a specific app by minutes.
+
+The catch with both App Limits and Downtime is enforcement. If you set the limit yourself, a screen appears when time runs out offering Ignore Limit for Today, and one tap undoes the whole thing. This is fine as a gentle nudge, but it will not hold up against a real urge to keep scrolling. To make a Screen Time limit actually stick, go to Settings, Screen Time, and turn on Use Screen Time Passcode with a code that is different from your normal phone passcode, ideally one that someone else knows and you do not, such as a partner or accountability friend. Without that separation, the "limit" is really just a reminder you can dismiss.
+
+### Method 3: Schedule App Blocking Around a Plan
+
+The third approach flips the logic: instead of a daily minute budget, you block a chosen set of apps only during specific hours, tied to what you are supposed to be doing at that time. You can build this manually with Screen Time Downtime scheduled for your work hours, or use a planning app that ties blocking to your actual calendar of tasks.
+
+Chrobox, a timeboxing app, works this way: when you place a task on your daily timeline and attach a block profile to it, the apps you chose are blocked automatically for the length of that time box, using Apple's Screen Time API (the same FamilyControls and Screen Time framework Apple's own tools use) and a custom lock screen. The block starts when the box starts, ends when the box ends, and only applies for that day, so it does not linger into the evening if your plan changes. This suits people whose problem is not total daily usage but specific hours, like wanting Instagram blocked from 9 to 11 while working, but fully available in the evening.
+
+### Comparing the Three Methods
+
+| Method | Purpose | What it blocks | Easy to bypass yourself | Needs a passcode someone else holds | Best for |
+|---|---|---|---|---|---|
+| Face ID app lock | Privacy | Nothing usage-wise; just requires authentication to open | Yes, if you know your own Face ID or passcode | No | Keeping specific apps private from other people |
+| Screen Time App Limits | Usage cap | Selected apps or categories, after a daily time budget | Yes, via Ignore Limit for Today, unless someone else holds the Screen Time passcode | Yes, to make it stick | Reducing total daily time on an app |
+| Scheduled blocking (Downtime or Chrobox) | Time-based focus | Selected apps, only during set hours | Depends on who set the schedule and holds the passcode | Yes, to make it stick | Blocking distractions during specific work or study hours |
+
+### Which Method Should You Use
+
+If your concern is someone else opening an app on your phone, Face ID lock is the direct answer and takes under a minute to set up. If your concern is that you personally spend too much time on an app across the whole day, Screen Time App Limits with a passcode held by someone else is the more honest tool. If your concern is specifically about certain hours, like wanting to stay off social apps while working a particular block of time but not caring what happens outside it, scheduled blocking is the better fit, whether you build the schedule manually in Downtime or let it follow your plan automatically the way Chrobox does.
+
+Many people end up using more than one at once: Face ID lock on a banking or messaging app for privacy, and a scheduled block on social and games apps during work hours. None of these tools are competing with each other; they answer different questions.
+
+---
+
+## How to Stop Checking Your Phone While Studying: A Practical Routine
+
+Source: https://chrobox.net/blog/how-to-stop-checking-phone-while-studying · Updated: 2026-09-30
+
+The fastest way to stop checking your phone while studying is to combine three things: put the phone physically out of reach instead of just face down, block the specific apps that pull you away only during your study sessions, and plan your studying as fixed time boxes rather than open-ended "study time." None of these require willpower in the moment, because the decision is made once, before you sit down, instead of over and over while you study.
+
+### Why Just Having Your Phone Nearby Hurts Focus
+
+It is tempting to think that as long as you do not pick up your phone, having it sit face down next to you is harmless. Research suggests otherwise. In a 2017 study often referred to as "Brain Drain," researchers Adrian Ward, Kristen Duke, Ayelet Gneezy, and Maarten Bos found that the mere presence of a person's own smartphone reduced the cognitive capacity they had available for other tasks, even when the phone was off and not in use. The effect showed up simply from the phone being nearby, not from actually checking it.
+
+The practical takeaway is not "turn your phone off" but "put it somewhere that is not simply within arm's reach." A phone in another room, a bag zipped shut, or a drawer across the room all work better than a phone face-down on the same desk, because the goal is distance, not just muting notifications.
+
+### Block the Apps That Actually Pull You Away, Only While You Study
+
+Distance alone does not stop the reflex to check a phone that is still nearby, like on a shared desk or a family study table, and it is not realistic for everyone to leave their phone in another room for hours. The second piece is blocking the specific apps that cause the problem, but only during the hours you are actually supposed to be studying.
+
+This matters because a blanket, all-day block is hard to sustain and easy to resent, while a block tied to your actual study session ends on its own once the session is over. You can do this without any extra app:
+
+- On iPhone, use Screen Time Downtime scheduled for your study block, or set an App Limit on the specific apps you struggle with, ideally with a Screen Time passcode someone else holds so you cannot tap Ignore Limit when tempted.
+- On Android, most phones include a Digital Wellbeing Focus mode, generally found under Settings, then Digital Wellbeing and parental controls, then Focus mode, where you pick distracting apps to pause during a set time. The exact menu names vary by phone manufacturer, so look for "Digital Wellbeing," "Focus mode," or a similarly named screen-time section in your settings if the wording is different.
+
+If you plan your day with a timeboxing app like Chrobox, this step can happen automatically: when you attach a block profile to a study task on your timeline, the apps you chose stay blocked for exactly the length of that time box and unblock themselves the moment it ends, so you never have to remember to turn a block on or off.
+
+### Plan Studying as Time Boxes, Not Open-Ended Sessions
+
+An unstructured plan like "study chemistry tonight" leaves the door open to checking your phone the moment you feel even slightly stuck, because there is no clear unit of work to finish first. Breaking study time into fixed boxes, for example a 50-minute box followed by a 10-minute break, gives you a concrete stopping point that is not your phone. The 50/10 split is simply one reasonable choice, not a fixed rule and not a Pomodoro-style feature baked into any particular app; you can just as easily use 30/5 or 90/15 depending on the subject and how long you can actually hold focus.
+
+Two planning habits make a noticeable difference:
+
+- Put your hardest or most draining subject in the earliest box of your session, while your attention is freshest, rather than saving it for last when you are more likely to reach for your phone instead.
+- Write down what "done" looks like for each box before you start it (for example, "finish 10 practice problems" rather than "study math"), since a vague box is much easier to abandon halfway through for a phone check.
+
+Chrobox's own usage data, drawn from 5,077 planned tasks across 250 users between December 2025 and September 2026, is instructive here even though it measures task completion rather than phone checking specifically: tasks placed into a scheduled time box were completed 48.1% of the time, compared to 17.6% for tasks with no time slot at all, and boxes started in the early morning (5:00 to 8:59) were completed 62.3% of the time versus 33.2% for boxes started late at night (21:00 to 23:59). This is observational data from Chrobox's own users, not a controlled experiment, but it lines up with the common experience that vague, late-scheduled study time is where phone checking creeps in the most.
+
+### A Sample Study Day for Exam Prep
+
+Here is one way to structure a study day using fixed time boxes, phone distance, and app blocking together, for someone preparing for an exam:
+
+| Time | Box | Phone / app blocking |
+|---|---|---|
+| 07:30 - 08:20 | Hardest subject, 50 min | Phone in another room; distracting apps blocked |
+| 08:20 - 08:30 | Break | Phone allowed, but stay off distracting apps if possible |
+| 08:30 - 09:20 | Second subject, 50 min | Phone in another room; distracting apps blocked |
+| 09:20 - 09:30 | Break | Phone allowed |
+| 09:30 - 10:20 | Practice problems, 50 min | Phone in another room; distracting apps blocked |
+| 10:20 - 10:40 | Longer break | Phone fully allowed |
+| 10:40 - 11:30 | Review weak areas, 50 min | Phone in another room; distracting apps blocked |
+
+You can build a day like this manually with a paper planner, a phone locked in a drawer, and Screen Time Downtime covering the four study boxes, or set it up in Chrobox, where each study box carries its own app block that turns on and off automatically as you move through the day, and you can start a focus countdown on any box when you sit down.
+
+### Closing Thought
+
+None of these three pieces, physical distance, scheduled app blocking, and fixed time boxes, works especially well alone. A phone across the room still gets fetched during a vague, undefined study session; a strict app block on a phone sitting on your desk still leaves you staring at a locked screen instead of your notes; and a perfectly timed box does nothing if your phone is buzzing next to it the whole time. Together, they remove the moment-by-moment decision entirely, which is the part willpower is bad at holding onto for hours at a time.
+
+---
+
+## How to Reduce Phone Addiction: A 7-Step Plan to Cut Screen Time
+
+Source: https://chrobox.net/blog/reduce-phone-addiction · Updated: 2026-09-30
+
+The fastest way to reduce phone addiction is to measure your actual usage first, remove the triggers that make you pick up your phone without deciding to, and then block your worst apps only during specific periods when you are trying to focus. You do not need to delete social media or switch to a flip phone. Most people can cut meaningful screen time in two to three weeks by working through a short, ordered list of changes rather than trying to fix everything at once.
+
+This guide is written for everyday compulsive phone checking, not a clinical condition. If your phone use is seriously affecting your job, relationships, sleep, or mood, please talk to a doctor or therapist. What follows is a practical, non-judgmental plan for the common experience of picking up your phone more than you would like.
+
+### Why phone checking is hard to control
+
+Smartphones are not designed to be put down. Notifications, infinite scroll feeds, and variable rewards (you never know if the next refresh has something interesting) are engineered to pull attention back again and again. On top of that, research by Ward and colleagues (2017), published as 'Brain Drain' in the Journal of the Association for Consumer Research, found that the mere presence of your smartphone nearby, even turned off and face down, can reduce the cognitive capacity you have available for other tasks. Your phone does not have to be in use to be a drain on your attention.
+
+This matters because it reframes the problem. You are not lacking willpower. You are fighting a device that was built by very smart people specifically to capture your attention, while also paying an ambient cognitive tax just from having it nearby. The fix is not more willpower, it is changing your environment so that good behavior requires less of it.
+
+### Step 1: Measure before you change anything
+
+Before you decide what to fix, look at the numbers. Both major platforms already track this for you:
+
+- iPhone: Settings then Screen Time shows your daily and weekly average screen time, a breakdown by app and category, and your number of pickups and notifications per day.
+- Android: Settings then Digital Wellbeing and Parental Controls shows the same core numbers, daily usage, app breakdown, unlocks, and notifications received.
+
+Open it now and just look, without judging yourself. Write down three numbers: total daily screen time, number of pickups, and number of notifications. You will use these again in Step 7 to see if anything actually changed. Most people are surprised by at least one of the three, usually pickups or notifications, since those happen in the background of a day without registering consciously.
+
+### Step 2: Identify your trigger apps
+
+Look at the per-app breakdown from Step 1. You are looking for two different things:
+
+- The app that eats the most total time. This is often a video, social, or short-form content app.
+- The app you open most often out of habit, even for a few seconds at a time. This is sometimes a messaging app, sometimes a specific social app, and is not always the same as the time leader.
+
+Name your top two or three trigger apps specifically. Vague goals like 'use my phone less' fail because they give you nothing concrete to change. A goal like 'stop opening this specific app between tasks' is something you can actually act on.
+
+### Step 3: Turn off non-essential notifications
+
+Go into each trigger app's notification settings and turn off everything that is not a direct message from a real person. Marketing pushes, 'someone liked your post,' recommendation alerts, and re-engagement nudges ('you have new content waiting') are the main mechanism apps use to interrupt you and pull you back in. Keep notifications for things that genuinely need your immediate attention, like calls, texts, and calendar reminders, and turn off nearly everything else. This single step often produces a visible drop in pickups within a few days, because you are no longer being pinged into opening the app in the first place.
+
+### Step 4: Add friction to your worst apps
+
+Once notifications are quieter, the remaining problem is habitual, no-notification-needed opening: unlocking your phone and tapping the app icon out of boredom or habit. Add small amounts of friction so this requires a conscious decision instead of an automatic one:
+
+- Move trigger apps off your home screen and out of your dock, into a folder on a secondary screen.
+- Turn your phone to grayscale during the hours you most want to cut down (iPhone: Settings, Accessibility, Display & Text Size, Color Filters; on Android it is usually under accessibility settings or Digital Wellbeing's Bedtime mode, depending on the manufacturer). Color is part of what makes feeds compelling, and removing it noticeably reduces the pull.
+- Log out of an app so that opening it requires re-entering a password, rather than an instant tap-in.
+
+None of these changes make the app impossible to use. They just add a two or three second pause, which is often enough for the urge to pass or for you to notice you are doing it out of habit rather than intent.
+
+### Step 5: Replace the checking slot with a planned activity
+
+Removing a habit without replacing it tends to fail, because the urge to check still shows up at the same moments, waiting in line, between meetings, right after waking up. Instead of just trying to resist, put something else in that slot on purpose. This is where timeboxing helps: if you plan your day into blocks ahead of time, the moments that used to be filled with idle phone checking get filled with a specific next task instead, so there is less unstructured time for the habit to fill.
+
+### Step 6: Block your worst apps during focus periods
+
+For the app that is hardest to resist even after Steps 3 through 5, scope a hard block to specific time windows rather than trying to keep it off all day, which tends to get abandoned the first time you have a legitimate reason to use the app. Both platforms have first-party tools for this:
+
+- iPhone: Screen Time app limits and Downtime, built on Apple's Screen Time API.
+- Android: Digital Wellbeing's app timers and Focus mode (menu names vary by manufacturer).
+
+Chrobox also blocks apps, but ties the block to your planned time boxes instead of a flat daily limit: when you attach a block profile to a task or routine, the apps you choose are blocked automatically only for that box's duration, then unblock on their own when the box ends. On iPhone this runs on Apple's Screen Time API (FamilyControls and a custom shield screen); on Android it uses an accessibility service overlay. There is no separate 'block now' button to fight with, the block is scoped to the work period you already planned, which is often easier to stick to than an all-day limit.
+
+### Step 7: Review your numbers weekly
+
+Go back to the same Screen Time or Digital Wellbeing dashboard once a week and compare against the numbers you wrote down in Step 1. Look specifically at pickups and notifications, not just total time, since those two often move first and are a better early signal that the friction and blocking changes are working. If a number is not moving, it usually means one specific app still has notifications on, or is still sitting on your home screen where you see it constantly. Adjust that one thing rather than overhauling the whole plan.
+
+| Step | What to do | Time needed |
+|---|---|---|
+| 1. Measure | Check Screen Time (iPhone) or Digital Wellbeing (Android) for daily time, pickups, and notifications | 5 minutes |
+| 2. Identify triggers | Name your top 2-3 apps by time and by open frequency | 5 minutes |
+| 3. Cut notifications | Turn off non-essential alerts in trigger apps | 10 minutes |
+| 4. Add friction | Move apps off home screen, enable grayscale, log out of one app | 10 minutes |
+| 5. Replace the slot | Plan your day into time boxes so idle moments have a task instead | 10-15 minutes, once a day |
+| 6. Block during focus time | Set an app limit or attach a block profile to a focus box | 5 minutes to set up |
+| 7. Review weekly | Compare this week's numbers to your baseline | 5 minutes, once a week |
+
+### A note on what this guide is not
+
+This is a plan for reducing everyday compulsive checking, not a treatment for a diagnosed condition. Some people find that even after trying friction, blocking, and replacement activities, their phone use is still connected to anxiety, low mood, sleep problems, or a compulsion that feels outside their control. That is a sign to talk to a professional rather than to try harder on your own with an app. Chrobox, and tools like it, can support behavior change for people who want to build better daily habits, but it is not a substitute for medical or mental health care.
+
+### Putting it together
+
+None of these seven steps require quitting your phone or your favorite apps entirely. Measuring first tells you where the problem actually is, instead of guessing. Cutting notifications and adding friction remove the automatic triggers. Planning your day into blocks, optionally with an app like Chrobox (which also offers a 3-day free trial on Pro if you want the automatic blocking feature), gives the freed-up time somewhere useful to go instead of just leaving a gap the phone will fill on its own. Reviewing weekly keeps you honest about whether it is actually working, rather than relying on a feeling. Most people notice a real difference within two to three weeks of working through this list in order.
+
+---
+
 ## 8 Best Timeboxing Apps in 2026: Honest Comparison Guide
 
-Source: https://chrobox.net/blog/best-time-boxing-apps · Updated: 2026-08-09
+Source: https://chrobox.net/blog/best-time-boxing-apps · Updated: 2026-09-30
 
 ### Why Trust This Comparison?
 
@@ -2210,9 +2643,9 @@ We build Chrobox, a timeboxing app — so yes, it appears on this list. But a co
 
 Chrobox is built around the full timeboxing loop rather than a calendar with extra features: brainstorm tasks, pick priorities, drop them into hourly boxes on a visual timeline, then close the day with a guided retrospective that feeds weekly AI analysis. It's also one of the few planners that ties **app blocking** to your time boxes — distracting apps lock exactly during planned deep work.
 
-**Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 21 languages
+**Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 54 languages
 **Weaknesses:** mobile-only (no desktop app), no team features
-**Pricing:** free plan (3 tasks/day); Pro from $4.99/month, $99.99 lifetime
+**Pricing:** 3-day free trial; Pro subscription or one-time lifetime purchase
 
 #### 2. Sunsama — best for calendar-heavy professionals (Web, desktop, mobile)
 
@@ -2238,7 +2671,7 @@ TickTick is primarily a task manager, but its timeline view and built-in Pomodor
 **Weaknesses:** timeboxing is secondary; no planning ritual or review loop
 **Pricing:** solid free tier; premium around $36/year
 
-#### 5. Structured — best visual simplicity (iOS, Android, Mac)
+#### 5. Structured — best visual simplicity (iOS, Android, Mac, Watch, Web)
 
 Structured turns your day into a clean vertical timeline and is beloved for its gentle learning curve. Great for students and visual thinkers; less complete when you want statistics or enforcement.
 
@@ -2246,13 +2679,13 @@ Structured turns your day into a clean vertical timeline and is beloved for its 
 **Weaknesses:** light on analytics, no app blocking
 **Pricing:** free tier; Pro subscription or lifetime
 
-#### 6. Tiimo — best for ADHD and neurodivergent planners (iOS, Android)
+#### 6. Tiimo — best for ADHD and neurodivergent planners (iOS, Android, Mac, Watch)
 
 Tiimo was designed with and for neurodivergent users: visual schedules, icon-based routines, and gentle transition alerts instead of guilt-inducing overdue flags. If conventional planners have repeatedly failed you, start here or with Chrobox's focus mode.
 
 **Strengths:** genuinely inclusive design, routine visualization
 **Weaknesses:** lighter on classic productivity analytics
-**Pricing:** subscription with free trial
+**Pricing:** limited free tier; Pro yearly includes a 7-day trial (monthly has no trial)
 
 #### 7. Google Calendar — best free option you already have (all platforms)
 
@@ -2274,12 +2707,12 @@ Todoist's calendar view and Google Calendar two-way sync let checklist devotees 
 
 | App | Core loop | App blocking | Review/retrospective | Free tier | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | ✅ | iOS, Android |
+| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | 3-day trial | iOS, Android |
 | Sunsama | Daily planning | ❌ | ✅ shutdown ritual | trial only | Web, desktop, mobile |
 | Motion | AI scheduling | ❌ | ❌ | trial only | Web, mobile |
 | TickTick | Task list + timeline | ❌ | ❌ | ✅ | All |
-| Structured | Visual timeline | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Visual routines | ❌ | ❌ | trial | iOS, Android |
+| Structured | Visual timeline | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Visual routines | ❌ | ✅ mood/reflection | Limited free | iOS, Android, Mac, Watch |
 | Google Calendar | Manual blocks | ❌ | ❌ | ✅ | All |
 | Todoist | Tasks + calendar | ❌ | ❌ | ✅ | All |
 

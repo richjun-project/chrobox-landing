@@ -65,7 +65,7 @@ export const pack: LocalizedContentPack = {
       chroboxPros: [
         'Kişisel üretkenlik ve derin çalışma için özel olarak tasarlanmıştır',
         'Görevleri ve zaman bloklarını tek bir görünümde birleştirir',
-        'Yerleşik Pomodoro tarzı odaklanma zamanlayıcısı',
+        'Her zaman bloğuna bağlı yerleşik bir odaklanma zamanlayıcısı',
         'Bilinçli planlama ile takvim kalabalığını önler',
       ],
       competitorPros: [
@@ -78,7 +78,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox, Google Calendar ile senkronize olur mu?',
-          answer: 'Evet, Chrobox Google Calendar ile entegre olur; böylece gününüzü eksiksiz bir şekilde görebilmeniz için toplantılarınız ve etkinlikleriniz, zaman bloklu çalışma bloklarınızın yanında görünür.',
+          answer: 'Chrobox, telefonunuzda zaten bulunan takvimlerdeki etkinlikleri — telefonunuza eklediğiniz bir Google hesabı dahil — zaman kutulanmış çalışma bloklarınızın yanında gösterir ve isteğe bağlı olarak Chrobox kutularınızı telefonunuzdaki tek bir takvime kopyalayabilir. Google Calendar API\'sine doğrudan bağlanmaz veya iki yönlü senkronize olmaz.',
         },
         {
           question: 'Chrobox, Google Calendar\'ın yerini mi alıyor?',
@@ -301,7 +301,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Chrobox internet bağlantısı olmadan çalışır mı?',
-          answer: 'Mobil öncelikli bir uygulama olarak tasarlanan Chrobox, temel zaman bloklama özellikleri için çevrimdışı çalışabilir. İnternete tekrar bağlandığınızda verileriniz eşzamanlanır.',
+          answer: 'Chrobox internet bağlantısı gerektirir — planlarınız, rutinleriniz ve istatistikleriniz hesabınıza gerçek zamanlı olarak senkronize edilir ve şu anda çevrimdışı bir mod sunmamaktadır.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Chrobox, Windows\'ta kullanılabilir mi?',
-          answer: 'Chrobox öncelikle iOS ve Android platformlarında kullanılabilen bir mobil uygulamadır. Windows kullanıcıları için web sürümü, zaman bloklama programınıza herhangi bir tarayıcıdan erişim sağlar.',
+          answer: 'Chrobox yalnızca iPhone ve Android için bir mobil uygulamadır — Windows veya web uygulaması yoktur. Gün içinde Windows kullanıyorsanız, programınızı yine de telefonunuzdan kontrol edip güncelleyebilirsiniz.',
         },
       ],
     },
@@ -398,7 +398,7 @@ export const pack: LocalizedContentPack = {
       metaDescription: 'Chrobox vs TickTick: Tüm gününüz için odaklanmış zaman bloklama ile görevler, alışkanlıklar ve Pomodoro zamanlayıcısı sunan hepsi bir arada bir uygulamanın karşılaştırması.',
       featureNames: [
         'Zaman Bloklama',
-        'Pomodoro Zamanlayıcı',
+        'Odaklanma Zamanlayıcısı',
         'Alışkanlık Takibi',
         'Takvim Görünümü',
         'Günlük Program Görünümü',
@@ -421,8 +421,8 @@ export const pack: LocalizedContentPack = {
       verdict: 'TickTick, alışkanlık takibi ve harika bir Pomodoro zamanlayıcısı sunan güçlü ve çok yönlü bir uygulamadır. Chrobox ise ekstra özelliklerin dikkat dağıtıcılığı olmadan, sadeleştirilmiş ve özel bir zaman bloklama deneyimi isteyenler için daha iyidir.',
       faqs: [
         {
-          question: 'Chrobox\'ta TickTick gibi bir Pomodoro zamanlayıcı var mı?',
-          answer: 'Evet, Chrobox zaman bloklarınızı tamamlamak üzere tasarlanmış yerleşik bir odaklanma zamanlayıcısı içerir. Doğru yolda kalmanızı sağlamak için her zaman bloğu bir odaklanma zamanlayıcıyla başlatılabilir.',
+          question: 'Chrobox\'ta TickTick\'in Pomodoro zamanlayıcısı gibi bir odaklanma zamanlayıcısı var mı?',
+          answer: 'Chrobox, her zaman bloğu için yerleşik bir odaklanma zamanlayıcısı içerir, ancak bu bir Pomodoro zamanlayıcısı değildir — çalışma/mola döngüleri veya seans sayıları yoktur. Üzerinde çalıştığınız görev için tek bir geri sayım başlatırsınız (15/25/30/45/60/90/120 dakika gibi önceden ayarlanmış süreler veya özel bir uzunluk) ve zamanlayıcı sıfıra ulaştığında görev tamamlanmış olarak işaretlenir.',
         },
         {
           question: 'TickTick, Chrobox gibi zaman bloklama yapabilir mi?',
@@ -431,6 +431,221 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Which app is better for students?',
           answer: 'Her iki uygulama da öğrenciler için oldukça kullanışlıdır. TickTick\'in alışkanlık takibi ders çalışma alışkanlıkları kazanmak için harikayken, Chrobox\'ın zaman bloklama özelliği ders çalışma seanslarınızı gerçekçi bir şekilde planlamanıza yardımcı olur; böylece zamanınız tükenmeden tüm konuları kapsayabilirsiniz.',
+        },
+      ],
+    },
+    'chrobox-vs-structured': {
+      competitor: 'Structured',
+      tagline: 'Chrobox vs Structured: Uygulama Engelleme ile Apple Ekosistemi Zaman Çizelgesi',
+      description: 'Structured, Apple cihazlarına derinlemesine bağlı, ücretsiz bir katmanı ve Pro\'da AI otomatik zamanlama özelliği olan gösterişli bir görsel zaman çizelgesi planlayıcısıdır. Chrobox ise her zaman kutusu sırasında otomatik uygulama engelleme ekleyen, yalnızca telefonda çalışan bir timeboxing uygulamasıdır, ancak ücretsiz planı ve Mac, Watch veya web uygulaması yoktur.',
+      metaDescription: 'Chrobox vs Structured: her zaman kutusunda uygulama engelleme ile AI zamanlamalı, ücretsiz bir Apple ekosistemi zaman çizelgesi planlayıcısı. Gerçek artı ve eksileri görün.',
+      featureNames: [
+        'Uygulama Engelleme',
+        'Ücretsiz Plan',
+        'Zaman Çizelgesi / Zaman Bloklama',
+        'Mac / Apple Watch Uygulaması',
+        'AI Otomatik Zamanlama',
+        'Rutin / Alışkanlık Serileri',
+        'Odaklanma Zamanlayıcısı',
+        'Günlük Retrospektif',
+      ],
+      chroboxPros: [
+        'Seçtiğiniz uygulamaları her zaman kutusunun tam süresi boyunca otomatik olarak engeller',
+        'Rutinler seriler, 90 günlük bir ısı haritası ve rutin başına istatistikler taşır',
+        'Tamamlanan görevleriniz, ruh haliniz ve alışkanlıklarınız hakkında günlük ve haftalık AI analizi',
+        'Ruh hali derecelendirmesi ve isteğe bağlı sesli yazdırma ile günlük retrospektif',
+      ],
+      competitorPros: [
+        'Ücretsiz katman, abonelik olmadan zaman çizelgesini, gelen kutusunu, alt görevleri, notları ve widget\'ları kapsar',
+        'Sadece telefonlarda değil, Mac, Apple Watch, Vision Pro ve web\'de yerel uygulamalar',
+        '4.8 yıldız ve yaklaşık 167,000 App Store puanıyla en çok değerlendirilen planlayıcılardan biri (Eylül 2026 itibarıyla)',
+        'Pro, Apple öncelikli bir iş akışına takvim ve hatırlatıcı içe aktarma, Structured AI ve Replan ekler',
+      ],
+      verdict: 'Mac, Apple Watch ve iPhone arasında yaşıyorsanız ve Apple\'a özgü inceliğe sahip ücretsiz bir zaman çizelgesi planlayıcısı istiyorsanız Structured\'ı seçin. Özellikle planlanmış zamanınızın dikkat dağıtıcı uygulamaları da kilitlemesini, ayrıca rutinleri ve günlük değerlendirmeyi istiyorsanız ve bunu yalnızca telefonunuzda kullanmanız yeterliyse Chrobox\'ı seçin.',
+      faqs: [
+        {
+          question: 'Chrobox, Structured\'a iyi bir alternatif mi?',
+          answer: 'Structured\'dan istediğiniz şey zaman çizelgesi artı Structured\'ın yapmadığı bir şeyse — her zaman kutusu sırasında dikkat dağıtıcı uygulamaları otomatik olarak engellemek — Chrobox iyi bir alternatiftir. Structured\'ın ücretsiz katmanına veya Mac, Apple Watch ya da web uygulamalarına ihtiyacınız varsa yerini tutmaz, çünkü Chrobox yalnızca telefonda ve yalnızca Pro\'da çalışır.',
+        },
+        {
+          question: 'Chrobox ile Structured arasındaki fark nedir?',
+          answer: 'Structured, Apple ekosistemine (Mac, Apple Watch, Vision Pro) derinlemesine entegre edilmiş, Pro katmanında AI zamanlama sunan ücretsiz, çoklu platform bir zaman çizelgesi planlayıcısıdır. Chrobox ise yalnızca telefonda çalışan, yalnızca abonelikle kullanılabilen bir timeboxing uygulamasıdır; planlanmış zaman blokları seçilen uygulamaları da otomatik olarak engelleyebilir ve rutin serileri ile günlük ruh hali retrospektifi ekler.',
+        },
+        {
+          question: 'Structured, Chrobox gibi dikkat dağıtıcı uygulamaları engelliyor mu?',
+          answer: 'Hayır, uygulama engelleme Structured\'ın belgelenmiş özellik setinin bir parçası değildir. Structured, görevleri ve takvim etkinliklerini tek bir görsel zaman çizelgesinde birleştirmeye odaklanır; odaklanma zamanında uygulamaları engellemek sizin için önemliyse, bu Chrobox\'a özgü bir özelliktir.',
+        },
+      ],
+    },
+    'chrobox-vs-tiimo': {
+      competitor: 'Tiimo',
+      tagline: 'Chrobox vs Tiimo: Uygulama Engelleme ile Nörodivergent Odaklı Planlama',
+      description: 'Tiimo, özellikle DEHB ve otizm yönetici işlev desteği için tasarlanmış, piktogram tabanlı bir AI planlayıcısıdır ve Apple\'ın 2025 iPhone Yılın Uygulaması seçilmiştir. Chrobox ise her zaman kutusu sırasında otomatik uygulama engelleme ekleyen, telefonlar için genel amaçlı bir timeboxing uygulamasıdır, ancak Tiimo\'nun DEHB\'ye özgü tasarımına veya ücretsiz katmanına sahip değildir.',
+      metaDescription: 'Chrobox vs Tiimo: uygulama engellemeli timeboxing ile AI destekli, DEHB/otizm odaklı bir görsel planlayıcı. Geçmeden önce özellikleri dürüstçe karşılaştırın.',
+      featureNames: [
+        'Uygulama Engelleme',
+        'Ücretsiz Plan',
+        'Görsel Zaman Çizelgesi',
+        'Takvim İçe Aktarma',
+        'AI Planlama',
+        'Rutin / Alışkanlık Serileri',
+        'Ruh Hali Takibi / Değerlendirme',
+        'Mac / Web Uygulaması',
+      ],
+      chroboxPros: [
+        'Seçtiğiniz uygulamaları her zaman kutusunun tam süresi boyunca otomatik olarak engeller',
+        'Live Activity / Dynamic Island\'da gösterilen 15 ila 120 dakika arası önceden ayarlanmış odaklanma zamanlayıcısı',
+        'Görevleri, alışkanlıkları ve ruh halini kapsayan, paylaşabileceğiniz bir haftalık AI başlığıyla günlük ve haftalık AI analizi',
+        'Rutin serileri ve 90 günlük bir tamamlanma ısı haritası',
+      ],
+      competitorPros: [
+        'Özellikle DEHB ve otizm yönetici işlev ihtiyaçları için tasarlanmıştır, Apple\'ın 2025 iPhone Yılın Uygulaması seçilmiştir',
+        'iOS ve Android\'de sınırlı bir ücretsiz katman, ayrıca yıllık faturalandırmada 7 günlük deneme sunan bir Pro plan',
+        'Google, Apple ve Outlook\'tan takvim içe aktarma',
+        'Telefonlara ek olarak Mac (Apple Silicon), Apple Watch, Vision Pro ve web uygulamaları, ayrıca yaklaşık 20,000 puanla 4.6 yıldız (Eylül 2026 itibarıyla)',
+      ],
+      verdict: 'Özellikle DEHB/otizm odaklı görsel planlamaya ihtiyacınız varsa, başlamak için ücretsiz bir katman istiyorsanız veya bir Mac ya da Apple Watch kullanıyorsanız Tiimo\'yu seçin. Planlanmış işiniz sırasında dikkat dağıtıcı uygulamaları da engelleyen basit bir timeboxing uygulaması istiyorsanız ve yalnızca telefonunuzdan planlama yapmaktan rahatsınız Chrobox\'ı seçin.',
+      faqs: [
+        {
+          question: 'Chrobox, Tiimo\'ya iyi bir alternatif mi?',
+          answer: 'Tiimo uygulamaları engellemediği için, otomatik uygulama engellemeli genel timeboxing istiyorsanız Chrobox makul bir alternatiftir. Chrobox\'ta bulunmayan Tiimo\'nun DEHB/otizme özgü görsel tasarımının, ücretsiz katmanının veya Mac ve Apple Watch uygulamalarının yerini tutmaz.',
+        },
+        {
+          question: 'Chrobox ile Tiimo arasındaki fark nedir?',
+          answer: 'Tiimo, nörodivergent yönetici işlev desteği için özel olarak tasarlanmış, piktogram tabanlı görsel bir planlayıcıdır; sınırlı bir ücretsiz katmanı ve Mac, Apple Watch, Vision Pro ve web\'de uygulamaları vardır. Chrobox ise yalnızca telefonda, yalnızca abonelikle çalışan bir timeboxing uygulamasıdır ve ana yapısal farkı her planlanmış zaman kutusuna bağlı otomatik uygulama engellemedir.',
+        },
+        {
+          question: 'Tiimo, Chrobox gibi dikkat dağıtıcı uygulamaları engelliyor mu?',
+          answer: 'Hayır, uygulama engelleme Tiimo\'nun belgelenmiş özelliklerinin bir parçası değildir. Tiimo, görsel, AI destekli planlama ve takvim içe aktarmaya odaklanır; planlanmış zamanınızın dikkat dağıtıcı uygulamaları da kilitlemesini istiyorsanız, bu Chrobox\'a özgü bir özelliktir.',
+        },
+      ],
+    },
+    'chrobox-vs-sunsama': {
+      competitor: 'Sunsama',
+      tagline: 'Chrobox vs Sunsama: Telefonda Timeboxing ile Çoklu Platform Çalışma Merkezi',
+      description: 'Sunsama, Asana, Notion, Slack ve Gmail gibi araçlardan görevleri çeken, gerçek iki yönlü takvim senkronizasyonu ve yapılandırılmış bir günlük kapanış ritüeline sahip, profesyoneller için web öncelikli bir günlük planlayıcıdır. Chrobox ise görev aracı entegrasyonları veya takvim senkronizasyonu olmayan, yalnızca telefonda çalışan bir timeboxing uygulamasıdır, ancak her zaman kutusuna bağlı otomatik uygulama engelleme ve odaklanma zamanlayıcısı ekler.',
+      metaDescription: 'Chrobox vs Sunsama: uygulama engellemeli, yalnızca telefonda timeboxing ile derin entegrasyonlara ve takvim senkronizasyonuna sahip web öncelikli bir planlayıcı.',
+      featureNames: [
+        'Görev Araçlarıyla Entegrasyonlar',
+        'İki Yönlü Takvim Senkronizasyonu',
+        'Mac / Windows / Web Uygulaması',
+        'Uygulama Engelleme',
+        'Ücretsiz Plan',
+        'Günlük İnceleme / Retrospektif',
+        'Ücretsiz Deneme',
+        'Rutin / Alışkanlık Serileri',
+      ],
+      chroboxPros: [
+        'Sunsama\'nın yapmadığı şekilde, seçtiğiniz uygulamaları her zaman kutusunun tam süresi boyunca otomatik olarak engeller',
+        'Live Activity / Dynamic Island\'da gösterilen, doğrudan her göreve bağlı önceden ayarlanmış manuel odaklanma zamanlayıcısı',
+        'Seriler, 90 günlük bir ısı haritası ve rutin başına istatistiklerle rutinler',
+        '5 seviyeli ruh hali derecelendirmesi ve isteğe bağlı sesli yazdırma ile günlük retrospektif',
+      ],
+      competitorPros: [
+        'Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello ve daha fazlasından görevleri çeker',
+        'Google ve Outlook ile gerçek iki yönlü takvim senkronizasyonu',
+        'Sadece telefonlarda değil, web, macOS, Windows ve Linux\'ta da çalışır',
+        'Öne çıkanlar ve haftalık hedeflerle yapılandırılmış bir günlük kapanış ritüeli; ayda 20$ veya yıllık faturalandırmada ayda 16$, 14 günlük ücretsiz deneme ile (Eylül 2026 itibarıyla)',
+      ],
+      verdict: 'İşiniz zaten Notion, Slack ve Asana gibi araçlar arasında yaşıyorsa ve bir dizüstü bilgisayarda iki yönlü takvim senkronizasyonuna ihtiyacınız varsa Sunsama\'yı seçin. Ağırlıklı olarak telefonunuzda planlama yapıyorsanız ve planlanmış zamanınızın entegrasyon gerekmeden dikkat dağıtıcı uygulamaları da engellemesini istiyorsanız Chrobox\'ı seçin.',
+      faqs: [
+        {
+          question: 'Chrobox, Sunsama\'ya iyi bir alternatif mi?',
+          answer: 'Chrobox, yalnızca Sunsama\'nın entegrasyonlarına veya takvim senkronizasyonuna bağımlı değilseniz iyi bir alternatiftir. Chrobox\'ın Notion, Slack veya Asana gibi görev araçlarıyla bağlantısı ve iki yönlü takvim senkronizasyonu yoktur, bu yüzden Sunsama\'yı bunun için kullanıyorsanız Chrobox onun yerini tutmaz. Ağırlıklı olarak dikkat dağıtıcı uygulamaları da engelleyen basit, telefon tabanlı bir program istiyorsanız Chrobox bunu karşılar.',
+        },
+        {
+          question: 'Chrobox ile Sunsama arasındaki fark nedir?',
+          answer: 'Sunsama, diğer çalışma araçlarınıza bağlanan ve takviminizle iki yönlü senkronize olan, web, Mac, Windows ve Linux\'ta ve ayrıca telefonlarda çalışan web öncelikli bir planlayıcıdır. Chrobox ise entegrasyon veya takvim senkronizasyonu olmayan, yalnızca telefonda çalışan bir uygulamadır, ancak her zaman kutusuna bağlı otomatik uygulama engelleme ve manuel bir odaklanma zamanlayıcısı ekler.',
+        },
+        {
+          question: 'Chrobox, Sunsama gibi Google Takvim ile senkronize oluyor mu?',
+          answer: 'Hayır. Chrobox yalnızca telefonunuzda zaten bulunan takvimlerden zamanlanmış etkinlikleri gösterir ve kendi kutularını seçtiğiniz tek bir telefon takvimine kopyalayabilir; doğrudan bir Google Takvim API bağlantısı veya iki yönlü senkronizasyonu yoktur. Sunsama\'nın Google ve Outlook ile gerçek iki yönlü senkronizasyonu vardır.',
+        },
+      ],
+    },
+    'chrobox-vs-opal': {
+      competitor: 'Opal',
+      tagline: 'Chrobox vs Opal: Zamanlanmış Engelleme ile Her Zaman Açık Ekran Süresi Kontrolü',
+      description: 'Opal, oturum ortasında kapatamayacağınız sıkı bir Hard Mode\'a ve ücretsiz bir katmana sahip, özel bir ekran süresi ve uygulama engelleme aracıdır. Chrobox ise öncelikle bir timeboxing uygulamasıdır ve seçtiğiniz uygulamaları yalnızca planladığınız zaman kutuları sırasında engeller; Opal\'ın her zaman açık Hard Mode\'una eşdeğer bir şeyi ve ücretsiz planı yoktur.',
+      metaDescription: 'Chrobox vs Opal: tam günlük planlayıcılı, zamana dayalı uygulama engelleme ile ücretsiz katmanlı, her zaman açık, özel bir engelleyici.',
+      featureNames: [
+        'Tam Gün Zaman Çizelgesi / Planlayıcı',
+        'Uygulama Engelleme',
+        'Her Zaman Açık Engelleme Modu',
+        'Ücretsiz Plan',
+        'Görev Planlama',
+        'Odaklanma Zamanlayıcısı',
+        'Alışkanlık / Kullanım Takibi',
+        'AI Planlama',
+      ],
+      chroboxPros: [
+        'Önce görevleri planlayan, ardından uygulama engellemeyi otomatik olarak belirli zaman kutularına ekleyen tam bir gün zaman çizelgesi',
+        'Son 7 gündeki tamamlanan görevlerinize dayalı AI görev önerileri ve AI zaman yerleştirme',
+        'Sadece kullanım istatistikleri değil, engellemenin yanında rutin serileri ve 90 günlük bir ısı haritası',
+        'Görevler, alışkanlıklar ve ruh hali için günlük ve haftalık AI analizi',
+      ],
+      competitorPros: [
+        'Gerçekten atlanamayan bir engellemeye ihtiyaç duyan kişiler için, oturum ortasında kapatılamayan Hard Mode engelleme, ayrıca bir Allow Only modu',
+        'Program, zaman sınırı ve açık sınır için birer kural içeren ücretsiz plan',
+        'Yaklaşık 89,000 puanla 4.7 yıldız, en çok değerlendirilen engelleme uygulamalarından biri (Eylül 2026 itibarıyla)',
+        'Ayda 19.99$ (3 günlük deneme), yılda 99.99$ (1 haftalık deneme) veya 399$ ömür boyu fiyatlandırmayla ve net kullanım raporlamasıyla Pro (Eylül 2026 itibarıyla)',
+      ],
+      verdict: 'Oturum ortasında kapatılamayacak kadar sıkı bir engellemeye ihtiyacınız varsa veya ücretsiz başlamak istiyorsanız Opal\'ı seçin. Engellemenin, tüm gününüzü planlamanın bir yan ürünü olarak otomatik gerçekleşmesini ve görevlerin, rutinlerin ve değerlendirmenin dahil olmasını istiyorsanız Chrobox\'ı seçin.',
+      faqs: [
+        {
+          question: 'Chrobox, Opal\'a iyi bir alternatif mi?',
+          answer: 'Gerçekten istediğiniz şey özel bir engelleyici değil de planlanmış iş sırasında uygulamaları da engelleyen bir planlayıcıysa Chrobox iyi bir alternatiftir. Oturum ortasında devre dışı bırakılamayan ve Chrobox\'ın sunduğu her şeyden daha sıkı olan Opal\'ın Hard Mode\'unun yerini tutmaz ve Opal\'ın aksine Chrobox\'ın ücretsiz bir planı yoktur.',
+        },
+        {
+          question: 'Chrobox ile Opal arasındaki fark nedir?',
+          answer: 'Opal, ücretsiz bir planı ve başladıktan sonra kapatılamayan bir Hard Mode\'u olan özel bir ekran süresi engelleyicisidir. Chrobox ise uygulama engellemenin görevler ve rutinler için planladığınız zaman kutularına bağlı olduğu bir timeboxing planlayıcısıdır ve görev planlama, rutinler ve AI analiziyle birlikte çalışır, ancak yalnızca Pro\'da kullanılabilir.',
+        },
+        {
+          question: 'Chrobox\'ın Opal gibi bir Hard Mode\'u var mı?',
+          answer: 'Hayır. Chrobox, iOS\'ta Apple\'ın Ekran Süresi API\'sini veya Android\'de bir Erişilebilirlik katmanını kullanarak, seçtiğiniz uygulamaları yalnızca planlanmış bir zaman kutusunun süresi boyunca engeller ve Opal\'ın Hard Mode\'unun yaptığı gibi oturum ortasında kapatılmaya direnen her zaman açık bir modu yoktur.',
+        },
+      ],
+    },
+    'chrobox-vs-forest': {
+      competitor: 'Forest',
+      tagline: 'Chrobox vs Forest: Tüm Gün Timeboxing ile Oyunlaştırılmış Odaklanma Seansları',
+      description: 'Forest, telefonunuzdan uzak durduğunuzda sanal bir ağaç büyüten, ücretsiz katmanında uygulama engelleme ve grup odaklanma seansları bulunan ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır. Chrobox, tüm gününüzü rutinler ve değerlendirmeyle birlikte zaman kutularına planlar ve bu kutulara bağlı uygulamaları engeller, ancak oyunlaştırma ve ücretsiz planı yoktur.',
+      metaDescription: 'Chrobox vs Forest: uygulama engellemeli tam gün timeboxing ile grup seansları ve gerçek ağaçlarla ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısı.',
+      featureNames: [
+        'Ücretsiz Plan',
+        'Tam Gün Zaman Çizelgesi / Planlayıcı',
+        'Uygulama Engelleme',
+        'Oyunlaştırma (Ağaçlar, Ödüller)',
+        'Odaklanma Zamanlayıcısı',
+        'Grup / Paylaşılan Odaklanma',
+        'Rutin / Alışkanlık Serileri',
+        'AI Planlama',
+      ],
+      chroboxPros: [
+        'Yalnızca bireysel odaklanma seanslarını zamanlamak yerine tüm gününüzü zaman kutularına planlar',
+        'Uygulama engelleme ayrı bir seans olarak başlatılmak yerine otomatik olarak belirli görevlere ve rutinlere bağlanır',
+        'Seriler, 90 günlük bir ısı haritası ve rutin başına istatistiklerle rutinler',
+        'AI görev önerileri, AI zaman yerleştirme ve günlük/haftalık AI analizi',
+      ],
+      competitorPros: [
+        'Ücretsiz temel deneyim, odaklanma zamanlayıcısını, Deep Focus uygulama engellemesini, grup odaklanmayı ve temel analitiği içerir',
+        'Oyunlaştırılmış motivasyon: odaklanmaya devam ederken sanal bir ağaç büyür, Trees for the Future aracılığıyla gerçek ağaçlar dikilir',
+        'Arkadaşlarla telefondan uzak durmak için grup odaklanma seansları ("Plant Together")',
+        '60 milyondan fazla indirme (kendi iddiaları) ve yaklaşık 49,000 puanla 4.8 yıldız (Eylül 2026 itibarıyla)',
+      ],
+      verdict: 'Bireysel odaklanma seansları sırasında telefondan uzak durmak için ücretsiz, motive edici bir yol istiyorsanız, özellikle arkadaşlarla birlikte, Forest\'ı seçin. Tüm gününüzün zaman kutularına planlanmasını, uygulama engelleme, rutinler ve değerlendirmenin tek seanslar etrafında değil bu program etrafında kurulmasını istiyorsanız Chrobox\'ı seçin.',
+      faqs: [
+        {
+          question: 'Chrobox, Forest\'a iyi bir alternatif mi?',
+          answer: 'Bağımsız bir seans zamanlayıcısı yerine tam bir günlük görev planlamasının parçası olarak uygulama engelleme istiyorsanız Chrobox iyi bir alternatiftir. Chrobox\'ta bulunmayan Forest\'ın ücretsiz katmanının, oyunlaştırılmış ağaç büyütme motivasyonunun veya grup odaklanma seanslarının yerini tutmaz.',
+        },
+        {
+          question: 'Chrobox ile Forest arasındaki fark nedir?',
+          answer: 'Forest, telefondan uzak durmanın sanal bir ağaç büyüttüğü ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır ve ücretsiz katmanında uygulama engelleme ile grup seansları bulunur. Chrobox ise tüm gününüzü zaman kutularına planlayan, uygulama engellemeyi bu kutulara ve rutinlere bağlayan, AI planlama ve günlük bir ruh hali retrospektifi ekleyen, ancak oyunlaştırma veya grup özellikleri olmayan, yalnızca telefonda ve yalnızca Pro\'da çalışan bir planlayıcıdır.',
+        },
+        {
+          question: 'Chrobox\'ın Forest gibi ücretsiz bir planı var mı?',
+          answer: 'Hayır. Chrobox indirmesi ücretsizdir ancak kullanmak için Chrobox Pro gerektirir; yeni aboneler için aylık veya yıllık planlarda 3 günlük ücretsiz denemeyle başlar. Forest, odaklanma zamanlayıcısı ve Deep Focus uygulama engellemesi dahil gerçekten ücretsiz bir temel deneyim sunar.',
         },
       ],
     },
@@ -568,15 +783,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'En iyi ücretsiz zaman bloklama uygulaması hangisidir?',
-          answer: 'Chrobox, temel zaman bloklama özelliklerini içeren cömert bir ücretsiz plan sunar. Çoğu kullanıcı için bu ücretsiz plan, güçlü bir zaman bloklama alışkanlığı kazanmak için gereken her şeyi sağlar.',
+          answer: 'Chrobox\'ın ücretsiz bir planı yoktur — indirmesi ücretsizdir ancak 3 günlük ücretsiz deneme ile başlayan Chrobox Pro\'yu gerektirir. Tamamen ücretsiz bir zaman bloklama seçeneği istiyorsanız, Google Takvim\'in manuel zaman bloklaması ücretsizdir, ancak Chrobox\'ın görev yakalama, odaklanma zamanlayıcısı ve uygulama engelleme özelliklerinden yoksundur.',
         },
         {
           question: 'Hangi zaman bloklama uygulaması hem iPhone hem de Android ile uyumludur?',
-          answer: 'Chrobox, gerçek zamanlı senkronizasyon özelliğiyle hem iOS hem de Android platformlarında mevcuttur; bu da onu cihazlar arasında geçiş yapan veya ekip arkadaşlarıyla görev paylaşan kullanıcılar için ideal kılar.',
+          answer: 'Chrobox hem iPhone hem de Android\'de kullanılabilir. Planlarınız, rutinleriniz ve istatistikleriniz hesabınız aracılığıyla cihazlarınız arasında senkronize edilir, bu da telefonlar arasında geçiş yapmayı kolaylaştırır.',
         },
         {
           question: 'Zaman bloklama uygulamaları takvimlerle entegre çalışır mı?',
-          answer: 'Chrobox dahil en iyi zaman bloklama uygulamalarının birçoğu takvim entegrasyonunu destekler, böylece zaman bloklarınız Google Calendar veya Apple Takvim ile otomatik olarak senkronize edilir.',
+          answer: 'Chrobox dahil bazı zaman bloklama uygulamaları takvim entegrasyonu gösterir: Chrobox, telefonunuzdaki takvimlerden (telefonunuza eklediğiniz bir Google hesabı dahil) zamanlanmış etkinlikleri zaman kutularınızın yanında görüntüler ve isteğe bağlı olarak Chrobox kutularınızı telefonunuzdaki tek bir takvime kopyalayabilir. Bu, Google Calendar veya Apple Takvim API\'leriyle iki yönlü bir senkronizasyon değildir.',
         },
       ],
     },
@@ -1051,6 +1266,116 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Dijital detoks ile derin çalışma (deep work) aynı şey mi?',
           answer: 'Örtüşseler de aynı şey değillerdir. Dijital detoks, arka plan stresini azaltmak ve dikkat süresini geri kazanmak için genel ekran ve bildirim maruziyetini azaltmakla ilgilidir; derin çalışma ise bilişsel olarak zorlayıcı görevler için belirli zaman bloklarını korumaktır. Gerçekçi bir odaklanma rutini, derin çalışma seanslarına başlamayı ve bunları sürdürmeyi kolaylaştırmak için dijital detoks alışkanlıklarını (telefonsuz sabahlar, dikkat dağıtan engellenmiş uygulamalar) kullanır.',
+        },
+      ],
+    },
+    'does-timeboxing-work': {
+      title: 'Time Boxing Gerçekten İşe Yarıyor mu? 5,077 Planlanmış Görevden Elde Edilen Tamamlanma Verileri',
+      excerpt: 'Bir zaman dilimine yerleştirilen görevler %48.1 oranında tamamlandı; listede bırakılanlar ise %17.6 oranında tamamlandı. 250 Chrobox kullanıcısının planladığı 5,077 göreve dayanan birinci taraf veriler, yöntem ve sınırlarıyla birlikte.',
+      faqs: [
+        {
+          question: 'Time boxing gerçekten işe yarıyor mu?',
+          answer: 'Chrobox kullanım verilerinde, bir başlangıç saati ve süresi verilen görevler %48.1 oranında tamamlandı; buna karşılık zaman dilimi olmadan listede bırakılan görevler %17.6 oranında tamamlandı — yaklaşık 2.7 kat daha sık (250 kişiden 5,077 görev, Aralık 2025\'ten Eylül 2026\'ya kadar). Aynı kişiler kendileriyle karşılaştırıldığında da fark korundu: 41 kullanıcıdan 35\'i zaman kutulanmış görevlerinin daha fazlasını tamamladı. Bu gözlemsel bir veridir, dolayısıyla nedensellik kanıtından çok güçlü bir ilişki gösterir.',
+        },
+        {
+          question: 'Bir zaman kutusu için en iyi uzunluk nedir?',
+          answer: '90 dakikaya kadar olan kutularda tamamlanma oranı %50\'ye yakın kaldı ve 90 dakikadan uzun kutularda yaklaşık %44–45\'e düştü. 60 dakika en yaygın uzunluktu (kutuların %51\'i), bu kısmen Chrobox\'ta bir görev bir saate bırakıldığında varsayılan süre olmasından kaynaklanıyor. Verilerden pratik bir kural: kutuları 90 dakika veya daha kısa tutun ve daha uzun olan her şeyi bölün.',
+        },
+        {
+          question: 'Planlanmış görevlerin günün hangi saatinde tamamlanma olasılığı en yüksek?',
+          answer: 'Erken kutular en sık tamamlandı. 5:00 ile 8:59 arasında başlayan zaman kutuları %62.3 oranında tamamlandı ve bu oran gün boyunca istikrarlı biçimde düşerek 21:00–23:59 arasında başlayanlarda %33.2\'ye indi. Bugün mutlaka bitirilmesi gereken bir görev varsa, öğleden önce planlayın.',
+        },
+        {
+          question: 'Bir günde kaç görev planlamalıyım?',
+          answer: 'Verilerdeki medyan günde 5 planlanmış görev vardı. 6–8 görevli günler en yüksek ortalama tamamlanma oranına sahipti (%42.7), 9 veya daha fazla göreve sahip günler ise 198 günde yalnızca bir kez tüm listeyi tamamladı (%0.5). Günde sekizden fazla görev planlamak, tamamlanmış bir günü çok düşük ihtimalli hale getiriyor.',
+        },
+      ],
+    },
+    'how-to-lock-apps-on-iphone': {
+      title: 'iPhone\'da Uygulamalar Nasıl Kilitlenir: 3 Yöntem (Face ID Kilidi, Ekran Süresi Sınırları, Zamanlanmış Engelleme)',
+      excerpt: 'iPhone\'da uygulamaları kilitlemenin üç gerçek yolu: gizlilik için Face ID uygulama kilidi, günlük sınırlar için Ekran Süresi Uygulama Sınırları ve belirli saatler için zamanlanmış engelleme, karşılaştırma tablosuyla birlikte.',
+      faqs: [
+        {
+          question: 'iPhone\'umda uygulamaları nasıl kilitlerim?',
+          answer: 'Amacınıza bağlı olarak üç ayrı seçenek vardır. Bir uygulamayı diğer insanlardan gizli tutmak istiyorsanız Face ID Gerektir veya Gizle ve Face ID Gerektir (iOS 18 ve sonrası, uygulama simgesine uzun basarak bulunur) seçeneğini kullanın. Günlük olarak bir uygulamada kaç dakika geçirdiğinizi sınırlamak istiyorsanız Ekran Süresi Uygulama Sınırları\'nı kullanın. Belirli uygulamaların yalnızca çalışırken gibi belirli saatlerde engellenmesini istiyorsanız, Ekran Süresi Kısıtlı Süre üzerinden veya Chrobox gibi bir uygulama aracılığıyla zamanlanmış engellemeyi kullanın.',
+        },
+        {
+          question: 'Bir uygulamayı Face ID ile kilitlemek onu fazla kullanmamı engeller mi?',
+          answer: 'Hayır. Face ID uygulama kilidi yalnızca uygulama açılmadan önce bir kimlik doğrulama adımı ekler; kendi yüzünüzle doğruladığınızda tam erişime sahip olursunuz. Telefonunuzu eline alan başka biri karşısında gizliliğinizi korur, ancak kendi kullanımınızı azaltmak için hiçbir şey yapmaz, çünkü kilidi her zaman kendiniz açabilirsiniz.',
+        },
+        {
+          question: 'Kendim için belirlediğim bir Ekran Süresi sınırını aşabilir miyim?',
+          answer: 'Evet, ek bir adım atmadığınız sürece çok kolayca. Kendi belirlediğiniz bir sınır dolduğunda, iOS tek dokunuşla kısıtlamayı kaldıran Bugün İçin Sınırı Yok Say düğmesini gösterir. Bir sınırın kalıcı olmasını sağlamak için Ayarlar, Ekran Süresi, Ekran Süresi Parolası Kullan altında bir parola belirleyin ve bu kodu sizden başka birinin bilmesini sağlayın.',
+        },
+        {
+          question: 'Ekran Süresi Uygulama Sınırları ile Kısıtlı Süre arasındaki fark nedir?',
+          answer: 'Uygulama Sınırları belirli uygulamaları veya kategorileri günlük dakika olarak sınırlar ve isteğe bağlı olarak süre dolduğunda uygulamayı engelleyebilir. Kısıtlı Süre ise her akşam veya özel bir saat aralığı gibi bir zaman diliminde neredeyse her şeyi engeller ve yalnızca açıkça her zaman izinli olarak işaretlediğiniz uygulamalara izin verir. Kısıtlı Süre, zamanlanmış engellemeye daha yakınken, Uygulama Sınırları günlük bir kullanım bütçesine daha yakındır.',
+        },
+      ],
+    },
+    'how-to-stop-checking-phone-while-studying': {
+      title: 'Ders Çalışırken Telefonu Kontrol Etmeyi Nasıl Durdurursunuz: Pratik Bir Rutin',
+      excerpt: 'Ders çalışırken telefonu kontrol etmeyi durdurmak için pratik bir rutin: fiziksel mesafe, zamanlanmış uygulama engelleme ve sabit zaman kutuları, araştırma ve birinci taraf tamamlanma verileriyle desteklenmiş.',
+      faqs: [
+        {
+          question: 'Ders çalışırken telefonumu kontrol etmeyi nasıl durdururum?',
+          answer: 'Üç şeyi birleştirin: telefonu sadece yüzü aşağı bakacak şekilde yakınınızda bırakmak yerine fiziksel olarak erişemeyeceğiniz bir yere koyun, dikkatinizi dağıtan belirli uygulamaları yalnızca çalışma seanslarınız sırasında Ekran Süresi, Digital Wellbeing Odak modu veya Chrobox gibi bir uygulama ile engelleyin ve açık uçlu bir "çalışma zamanı" yerine her biri için net bir hedefi olan sabit zaman kutularında çalışın. Üçünü birden yapmak, telefonu kontrol etme kararını anlık olarak tekrar tekrar vermenizi ortadan kaldırır.',
+        },
+        {
+          question: 'Telefonumu yanı başıma yüzü aşağı koymak yardımcı olur mu?',
+          answer: 'Düşündüğünüzden daha az. Ward, Duke, Gneezy ve Bos tarafından 2017 yılında yapılan bir araştırma, kişinin kendi akıllı telefonunun sadece yakınlarda bulunmasının, kapalı ve dokunulmamış olsa bile kullanılabilir bilişsel kapasiteyi azalttığını buldu. Telefonunuzla aranıza gerçek bir mesafe koymak — başka bir oda, kapalı bir çanta gibi — aynı masada yüzü aşağı bırakmaktan daha iyi çalışır.',
+        },
+        {
+          question: 'Çalışmak için iyi bir zaman kutusu uzunluğu nedir?',
+          answer: '50 dakikalık bir çalışma kutusunun ardından 10 dakikalık bir mola, yaygın ve makul bir başlangıç noktasıdır, ancak bu sabit bir kural veya belirli bir uygulamaya gömülü bir Pomodoro özelliği değil, kişisel bir tercihtir. 30 dakika gibi daha kısa kutular yoğun veya zor materyaller için daha iyi çalışabilirken, 90 dakika civarındaki daha uzun kutular momentum gerektiren okuma veya yazma görevlerine uygun olabilir.',
+        },
+        {
+          question: 'Yeni bir şey yüklemeden ders çalışırken dikkat dağıtıcı uygulamaları engelleyebilir miyim?',
+          answer: 'Evet. iPhone\'da, çalışma saatleriniz için zamanlanmış Ekran Süresi Kısıtlı Süre\'yi kullanın veya bunu kolayca geçersiz kılamamanız için başka birinin tuttuğu bir Ekran Süresi parolasıyla belirli uygulamalarda bir Uygulama Sınırı belirleyin. Android\'de, genellikle Ayarlar, ardından Dijital Denge ve ebeveyn denetimleri altında bulunan Dijital Denge Odak modunu arayın, ancak tam menü ifadeleri telefon üreticisine göre değişir. Chrobox gibi bir zaman kutulama uygulamasıyla gününüzü planlarsanız, bir engelleme profilini zaman çizelgenizdeki bir çalışma görevine ekleyerek bu adım otomatik olarak gerçekleşebilir.',
+        },
+      ],
+    },
+    'reduce-phone-addiction': {
+      title: 'Telefon Bağımlılığı Nasıl Azaltılır: Ekran Süresini Kesmek İçin 7 Adımlık Bir Plan',
+      excerpt: 'Yerleşik araçlar ve planlanmış odak blokları kullanarak kompülsif telefon kontrolünü ve ekran süresini azaltmak için pratik, klinik olmayan 7 adımlık bir plan.',
+      faqs: [
+        {
+          question: 'Telefon bağımlılığını nasıl azaltırım?',
+          answer: 'Telefonunuzun yerleşik panosuyla gerçek ekran süresini ve elinize alma sayınızı ölçerek başlayın, ardından en kolay tetikleyicileri kaldırın: gereksiz bildirimleri kapatın, en çok dikkatinizi dağıtan uygulamalara sürtünme ekleyin ve amaçsız kontrol etmeyi planlanmış bir etkinlikle değiştirin. En çok dikkat dağıtan uygulamalarınızı birdenbire bırakmak yerine belirli odaklanma dönemlerinde engellemek, sürekli irade gücü gerektirmediği için genellikle daha iyi çalışır.',
+        },
+        {
+          question: 'Telefon bağımlılığı gerçek bir tanı mı?',
+          answer: 'Kompülsif telefon kontrolü, çoğu sınıflandırma sisteminde resmi bir tıbbi tanı değil, yaygın bir davranış kalıbıdır. Bu rehber, bunu takip ve sürtünmeyle ele alabileceğiniz günlük bir alışkanlık sorunu olarak ele alır. Telefon kullanımı işinizi, ilişkilerinizi, uykunuzu veya ruh halinizi ciddi şekilde etkiliyorsa, yalnızca kendi kendine yardım adımlarına güvenmek yerine bir doktor veya terapistle konuşmakta fayda var.',
+        },
+        {
+          question: 'Ekran süresini kesmenin en hızlı yolu nedir?',
+          answer: 'Gereksiz bildirimleri kapatmak ve en dikkat dağıtıcı 2-3 uygulamanızı ana ekranınızdan kaldırmak, genellikle ilk hafta içinde günlük ekran süresinde en hızlı görünür düşüşü sağlar, çünkü bu, telefonu almaya karar vermeden dikkatinizi çeken tetikleyicileri ortadan kaldırır.',
+        },
+        {
+          question: 'Telefon engelleme uygulamaları gerçekten işe yarıyor mu?',
+          answer: 'Engelleme, her zaman açık olmak yerine belirli zamanlarla sınırlandığında en iyi şekilde işe yarar, çünkü her zaman açık engellemeler, uygulamaya meşru bir nedenle ihtiyaç duyduğunuz ilk anda devre dışı bırakılır. Chrobox\'ın zaman kutulanmış bir görevin süresi boyunca yaptığı gibi, dikkat dağıtan uygulamaları yalnızca planlanmış bir odaklanma döneminde engelleyen araçlar, kısıtlamanın net bir bitiş zamanı olduğu için kalıcı olma eğilimindedir.',
+        },
+      ],
+    },
+    'daily-reflection-template': {
+      title: 'Günlük Değerlendirme Şablonu: Kullanıma Hazır 4 Format (KPT Dahil)',
+      excerpt: '2 dakikalık 3 satırlık bir değerlendirmeden KPT\'ye ve zaman kutulanmış günler için plan-gerçekleşen karşılaştırmasına kadar dört kopyala-yapıştır günlük değerlendirme şablonu.',
+      faqs: [
+        {
+          question: 'Günlük değerlendirmemi nasıl yazarım?',
+          answer: 'En basit yol 3 satırlık bir değerlendirmedir: biri neyin iyi gittiği, biri neyin gitmediği ve biri yarın deneyeceğiniz belirli bir şey için. İki dakikadan az sürer, bu da her gün sürdürülebilecek kadar kısadır ve fazla yapı veya enerji gerektirmediği için herhangi bir gün için işe yarar.',
+        },
+        {
+          question: 'KPT değerlendirme şablonu nedir?',
+          answer: 'KPT, Keep (Sürdür), Problem (Sorun), Try (Dene) anlamına gelir: neyin işe yaradığı ve devam etmesi gerektiği, neyin işe yaramadığı ve bir sonraki adımda denenecek somut bir değişiklik. Çevik ekip retrospektiflerinden gelir ancak tek bir kişinin tek bir günü gözden geçirmesi için de iyi çalışır, özellikle belirli bir alışkanlığı veya rutini zaman içinde aktif olarak geliştirmeye çalışıyorsanız.',
+        },
+        {
+          question: 'Zaman kutulanmış günler için en iyi günlük değerlendirme şablonu nedir?',
+          answer: 'Gününüzü zaman bloklarına planlıyorsanız plan-gerçekleşen karşılaştırması en iyi sonucu verir: kaç kutu planladığınızı, gerçekte kaçını tamamladığınızı, geri kalanların neden kaydığını ve yarının planı için bir değişikliği kaydedin. Bu, yalnızca bir ruh hali puanının size söylemeyeceği şekilde, planın kendisinin ayarlanmaya ihtiyacı olup olmadığını gösterir.',
+        },
+        {
+          question: 'İnsanların günlük değerlendirmede yaptığı en büyük hata nedir?',
+          answer: 'En yaygın hatalar değerlendirmeyi bir öz eleştiri listesine dönüştürmek, geçmiş girdileri asla yeniden okumayacak kadar çok yazmak ve genellikle kısa bir girdinin en değerli olduğu kötü günlerde alışkanlığı tamamen atlamaktır. Her olumsuz gözlemi ileriye dönük bir eylemle eşleştirmek ilk hatayı önlemeye yardımcı olur, girdileri kısa tutmak ise diğer ikisine yardımcı olur.',
         },
       ],
     },
@@ -2418,9 +2743,9 @@ Chrobox'u biz geliştiriyoruz, bir time-boxing uygulaması — yani evet, bu lis
 
 Chrobox, ekstra özellikli bir takvim yerine tam time-boxing döngüsü etrafında kurulmuştur: görevler için beyin fırtınası yapın, öncelikleri seçin, görsel bir zaman tünelinde saatlik kutulara yerleştirin, ardından günü haftalık AI analizini besleyen rehberli bir retrospektifle kapatın. Ayrıca **uygulama engellemeyi** zaman kutularınıza bağlayan az sayıdaki planlayıcıdan biridir — dikkat dağıtıcı uygulamalar tam olarak planlanan derin çalışma sırasında kilitlenir.
 
-**Güçlü yönleri:** tam plan→odak→inceleme döngüsü, kutulara bağlı uygulama engelleme, widget'lar ve Live Activity zamanlayıcı, 21 dil
+**Güçlü yönleri:** tam plan→odak→inceleme döngüsü, kutulara bağlı uygulama engelleme, widget'lar ve Live Activity zamanlayıcı, 54 dil
 **Zayıf yönleri:** yalnızca mobil (masaüstü uygulaması yok), takım özellikleri yok
-**Fiyatlandırma:** ücretsiz plan (günde 3 görev); Pro ayda 4,99 dolardan başlıyor, ömür boyu 99,99 dolar
+**Fiyatlandırma:** 3 günlük ücretsiz deneme; Pro abonelik veya tek seferlik ömür boyu satın alma
 
 ### 2. Sunsama — takvim yoğun profesyoneller için en iyisi (Web, masaüstü, mobil)
 
@@ -2446,7 +2771,7 @@ TickTick öncelikle bir görev yöneticisidir ama zaman tüneli görünümü ve 
 **Zayıf yönleri:** time-boxing ikincil; planlama ritüeli veya inceleme döngüsü yok
 **Fiyatlandırma:** sağlam ücretsiz plan; premium yılda yaklaşık 36 dolar
 
-### 5. Structured — en iyi görsel sadelik (iOS, Android, Mac)
+### 5. Structured — en iyi görsel sadelik (iOS, Android, Mac, Watch, Web)
 
 Structured, gününüzü temiz bir dikey zaman tüneline dönüştürür ve yumuşak öğrenme eğrisiyle sevilir. Öğrenciler ve görsel düşünenler için harika; istatistik veya zorlama istediğinizde daha az eksiksiz.
 
@@ -2454,13 +2779,13 @@ Structured, gününüzü temiz bir dikey zaman tüneline dönüştürür ve yumu
 **Zayıf yönleri:** analitik açısından zayıf, uygulama engelleme yok
 **Fiyatlandırma:** ücretsiz plan; Pro abonelik veya ömür boyu
 
-### 6. Tiimo — DEHB ve nörodiverjan planlayıcılar için en iyisi (iOS, Android)
+### 6. Tiimo — DEHB ve nörodiverjan planlayıcılar için en iyisi (iOS, Android, Mac, Watch)
 
 Tiimo, nörodiverjan kullanıcılarla ve onlar için tasarlandı: görsel programlar, ikon tabanlı rutinler ve suçluluk uyandıran gecikme işaretleri yerine nazik geçiş uyarıları. Geleneksel planlayıcılar sizi tekrar tekrar hayal kırıklığına uğrattıysa, buradan veya Chrobox'un odak modundan başlayın.
 
 **Güçlü yönleri:** gerçekten kapsayıcı tasarım, rutin görselleştirme
 **Zayıf yönleri:** klasik üretkenlik analitiğinde daha hafif
-**Fiyatlandırma:** ücretsiz denemeli abonelik
+**Fiyatlandırma:** sınırlı ücretsiz katman; Pro yıllık planda 7 günlük deneme var (aylıkta deneme yok)
 
 ### 7. Google Takvim — zaten sahip olduğunuz en iyi ücretsiz seçenek (tüm platformlar)
 
@@ -2482,12 +2807,12 @@ Todoist'in takvim görünümü ve Google Takvim ile çift yönlü senkronizasyon
 
 | Uygulama | Ana döngü | Uygulama engelleme | İnceleme/retrospektif | Ücretsiz plan | Platformlar |
 |---|---|---|---|---|---|
-| Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | ✅ | iOS, Android |
+| Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | 3 günlük deneme | iOS, Android |
 | Sunsama | Günlük planlama | ❌ | ✅ kapanış ritüeli | yalnızca deneme | Web, masaüstü, mobil |
 | Motion | AI planlama | ❌ | ❌ | yalnızca deneme | Web, mobil |
 | TickTick | Görev listesi + zaman tüneli | ❌ | ❌ | ✅ | Tümü |
-| Structured | Görsel zaman tüneli | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Görsel rutinler | ❌ | ❌ | deneme | iOS, Android |
+| Structured | Görsel zaman tüneli | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Görsel rutinler | ❌ | ✅ ruh hali/değerlendirme | Sınırlı ücretsiz | iOS, Android, Mac, Watch |
 | Google Takvim | Manuel bloklar | ❌ | ❌ | ✅ | Tümü |
 | Todoist | Görevler + takvim | ❌ | ❌ | ✅ | Tümü |
 
@@ -3178,6 +3503,411 @@ Her yaratıcı bloğun başında yakalama listenizi gözden geçirin. Genellikle
 Chrobox, zaman bloklarının proje düzeyinde gruplandırılmasına olanak tanıyarak yaratıcı iş akışlarını destekler. Bir tasarım projesinin araştırma, konsept geliştirme, uygulama ve müşteri incelemesi için farklı sürelere sahip blokları olabilir. Chrobox, bunları son tarihlere ve mevcut kapasitenize göre takviminize planlayarak, her oturumu manuel olarak planlamanıza gerek kalmadan yaratıcı çalışmanın ne zaman gerçekleşeceğine dair size tam bir görünüm sunar.
 
 Platform ayrıca hangi blokları uzattığınızı takip ederek, hangi yaratıcı görevleri tutarlı bir şekilde az tahmin ettiğinizi anlamanıza yardımcı olur, böylece gelecekteki projeler için daha gerçekçi programlar oluşturabilirsiniz.`,
+    'does-timeboxing-work': `
+# Time Boxing Gerçekten İşe Yarıyor mu? 5,077 Planlanmış Görevden Elde Edilen Tamamlanma Verileri
+
+Timeboxing hakkındaki tavsiyelerin çoğu aynı birkaç çalışmaya ve pek çok kişisel tanıklığa dayanır. Biz bir timeboxing uygulaması geliştiriyoruz, bu yüzden daha doğrudan bir şeye bakabiliyoruz: insanlar görevlerini planladıktan sonra gerçekte ne oluyor. Bu sayfa Chrobox kullanım verilerinde bulduklarımızı raporluyor — daha az gurur verici kısımlar ve rakamların size söyleyebileceklerinin sınırları dahil.
+
+## Kısa cevap
+
+Bir başlangıç saati ve süresi verilen görevler **48.1%** oranında tamamlandı olarak işaretlendi. Zaman dilimi olmadan listede kalan görevler ise **17.6%** oranında tamamlandı. Bu, yaklaşık **2.7 kat** daha sık demek.
+
+Fark, oldukça organize birkaç kişiden kaynaklanmıyordu. Her kişiyi kendisiyle karşılaştırdığımızda, 41 kişiden 35'i zamana kutulanmış görevlerinin planlanmamış görevlerinden daha fazlasını tamamladı.
+
+## Bu veri hakkında
+
+| Öğe | Değer |
+|---|---|
+| Kaynak | Chrobox uygulamasından (iOS ve Android) anonimleştirilmiş görev kayıtları, oturum açmış hesaplar |
+| Dönem | 3 Aralık 2025 ile 29 Eylül 2026 arasındaki görevler |
+| Örneklem | 799 planlanmış günde 250 kişi tarafından planlanan 5,077 görev |
+| Alındığı tarih | 30 Eylül 2026 |
+
+- **Zaman kutulanmış**, görevin gün zaman çizelgesinde hem bir başlangıç saatine hem de bir süreye sahip olduğu anlamına gelir.
+- **Tamamlanmış**, kişinin görevi işaretlediği anlamına gelir. Birinin bitirdiği ama hiç işaretlemediği bir görev, tamamlanmamış sayılır.
+- Cihaz takvimlerinden içe aktarılan etkinlikleri, bugün veya sonrası için tarihlendirilmiş görevleri, operatör ve test hesaplarını ve silinmiş hesapları hariç tuttuk.
+- Yalnızca toplu rakamlar yayınlanır. 30 görevden küçük hiçbir grup raporlanmaz.
+
+## Bulgu 1: Zaman kutulanmış görevler 2.7 kat daha sık tamamlandı
+
+| | Görev | Kişi | Tamamlanma |
+|---|---|---|---|
+| Zaman kutusu ile | 2,317 | 190 | 48.1% |
+| Zaman kutusu olmadan | 2,760 | 192 | 17.6% |
+
+İki kontrol bunu sadece bir başlık rakamından daha fazlası yapıyor:
+
+- **Yoğun kullanıcılar.** En aktif on hesap tüm görevlerin %55'ini oluşturdu. Onlar çıkarıldığında fark neredeyse değişmiyor: zamana kutulanmış görevler için %42.8, planlanmamış görevler için %14.2.
+- **Aynı kişi, iki şekilde de.** Her iki türden en az beş görev planlayan 41 kişi arasında, ortalama tamamlanma zaman kutusuyla %52.9, kutusuz %15.0 oldu. 35 kişi zaman kutularıyla daha iyi sonuç aldı, 2 kişi daha kötü sonuç aldı ve 4 kişi eşitti.
+
+**Bunun kanıtlamadığı şey.** Bu, bir deney değil, gözlemsel bir veridir. İnsanlar zaten yapmayı planladıkları görevlere zaman dilimi vermiş olabilir ve bir zaman dilimi aynı zamanda bir hatırlatıcı görevi de görür. Dolayısıyla veriler, kontrollü bir nedensel etkiden çok güçlü bir ilişki gösteriyor. Bu, uygulama niyetleri üzerine yapılan araştırmalarla tutarlıdır: Gollwitzer ve Sheeran'ın (2006) 94 çalışmayı kapsayan meta-analizi, ne zaman ve nerede harekete geçeceğinize önceden karar vermenin, işi sonuna kadar götürme üzerinde orta ila büyük bir etkisi olduğunu buldu.
+
+## Bulgu 2: Kutuların çoğu bir saat ve uzunluk düşündüğünüzden daha az önemli
+
+| Kutu uzunluğu | Kutuların payı |
+|---|---|
+| 60 dakika | 50.8% |
+| 30 dakika | 14.9% |
+| 120 dakika | 9.3% |
+| 90 dakika | 4.1% |
+| 180 dakika | 3.1% |
+
+Medyan kutu 60 dakikaydı. Bunun bir kısmı uygulamanın kendisinden kaynaklanıyor: bir görev Chrobox zaman çizelgesinde bir saate bırakıldığında 60 dakikalık bir kutu olarak başlıyor ve birçok kişi bu varsayılanı koruyor.
+
+Uzunluğa göre tamamlanma, daha yararlı bir sonuç:
+
+| Kutu uzunluğu | Görev | Tamamlanma |
+|---|---|---|
+| 15 dakika veya daha az | 35 | 48.6% |
+| 16–30 dakika | 429 | 48.7% |
+| 31–45 dakika | 56 | 53.6% |
+| 46–60 dakika | 1,215 | 48.7% |
+| 61–90 dakika | 135 | 50.4% |
+| 91–120 dakika | 238 | 45.0% |
+| 120 dakikadan fazla | 209 | 44.0% |
+
+90 dakikaya kadar uzunluk neredeyse hiçbir fark yaratmadı. 90 dakikayı geçince tamamlanma oranı yaklaşık dört ila beş puan düştü. Kısa kutular, bir saatlik kutulardan daha kolay bitirilmiyordu.
+
+## Bulgu 3: Sabah kutuları tamamlanıyor, akşam kutuları kayıyor
+
+| Kutu başlangıç saati | Görev | Kişi | Tamamlanma |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34.9% |
+| 05:00–08:59 | 318 | 81 | 62.3% |
+| 09:00–11:59 | 473 | 95 | 52.4% |
+| 12:00–14:59 | 448 | 102 | 52.0% |
+| 15:00–17:59 | 447 | 102 | 44.7% |
+| 18:00–20:59 | 380 | 96 | 40.0% |
+| 21:00–23:59 | 208 | 65 | 33.2% |
+
+Örüntü istikrarlı: bir kutu ne kadar geç başlarsa, tamamlanma olasılığı o kadar azalıyor. 9:00'dan önce başlayan bir kutu, 21:00'den sonra başlayan bir kutudan neredeyse iki kat daha fazla tamamlanma olasılığına sahipti. Bunun bir kısmı erkenden planlayan kişilerin kim olduğuyla ilgili — 6:30'a bir görev planlayan kişiler basitçe daha tutarlı olabilir — ama pratik tavsiye aynı: en çok bitirmeniz gereken görevi öğleden önceye koyun.
+
+## Bulgu 4: Sekiz görevi geçince tamamlanmış bir gün nadir
+
+Medyan planlanmış günde **5 görev** vardı.
+
+| O gün planlanan görev sayısı | Gün | Ortalama tamamlanma oranı | Her görevin bittiği günler |
+|---|---|---|---|
+| 1 | 131 | 7.6% | 7.6% |
+| 2 | 91 | 18.7% | 14.3% |
+| 3 | 105 | 29.2% | 14.3% |
+| 4–5 | 131 | 26.3% | 13.7% |
+| 6–8 | 143 | 42.7% | 18.2% |
+| 9 veya daha fazla | 198 | 30.7% | 0.5% |
+
+6–8 görevli günler en iyi tamamlanmaya sahipti. Dokuz veya daha fazla görevli günler, 198 günde bir kez tüm listeyi bitirdi. Tek görevli günler en kötü görünüyor, ancak bunların çoğu ilk günler — uygulamayı bir test göreviyle deneyen biri — bu yüzden bu satırı dikkatle okuyun.
+
+## Bulgu 5: Öncelikler yardımcı oluyor ve Perşembe Pazar'ı geride bırakıyor
+
+Öncelik olarak işaretlenen görevler %44.5 oranında tamamlandı (853 görev), diğer her şey için bu oran %28.9 oldu (4,224 görev).
+
+| Gün | Görev | Tamamlanma |
+|---|---|---|
+| Pazartesi | 940 | 31.4% |
+| Salı | 854 | 34.2% |
+| Çarşamba | 990 | 31.9% |
+| Perşembe | 815 | 36.2% |
+| Cuma | 612 | 28.6% |
+| Cumartesi | 355 | 27.3% |
+| Pazar | 511 | 25.4% |
+
+Hafta ortası en güçlüsüydü ve en yüksek Perşembe günüydü. Hafta sonları en zayıftı ve Pazar haftanın en düşük günüydü.
+
+## Ölçemediklerimiz
+
+- **Uygulama engelleme.** Bu dönemde yalnızca 8 kişiden 19 zaman kutulanmış görevde uygulama engelleme eklenmişti. Bu, bir tamamlanma oranı raporlamak için çok az, bu yüzden raporlamıyoruz.
+- **Misafir modu.** Uygulamanın önceki sürümleri, görevleri cihazda tutan bir misafir modu sunuyordu, bu yüzden bu görevler bu verilerde yer almıyor.
+- **Kullanıcıların kim olduğu.** Örneklemdeki hesapların %67'si uygulamayı Korece, %24'ü İngilizce olarak kullanıyor. Sonuçlar her kültüre veya işe aktarılamayabilir.
+
+## Bunu kendi planlamanızda nasıl kullanırsınız
+
+1. **Yapılması şart olan her göreve bir başlangıç saati verin.** Yalnızca listede kalan görevlerin beşte birinden azı tamamlandı.
+2. **Kutuları 90 dakika veya daha kısa tutun.** Daha uzun olan her şeyi iki kutuya bölün.
+3. **En önemli görevi öğleden önceye koyun.** Sabah kutuları çok daha sık tamamlandı.
+4. **Günde yaklaşık sekiz kutuda durun.** Bunun ötesinde, bitiremeyeceğiniz bir gün planlıyorsunuz demektir.
+5. **Bir ila üç öncelik işaretleyin.** İşaretlenen görevler belirgin şekilde daha sık tamamlandı.
+
+## Bu veriyi nasıl alıntılarsınız
+
+Chrobox (2026). *Time Boxing Gerçekten İşe Yarıyor mu? 5,077 Planlanmış Görevden Elde Edilen Tamamlanma Verileri.* https://chrobox.net/blog/does-timeboxing-work — veri 30 Eylül 2026 tarihinde alınmıştır.
+    `,
+    'how-to-lock-apps-on-iphone': `
+# iPhone'da Uygulamalar Nasıl Kilitlenir: 3 Yöntem (Face ID Kilidi, Ekran Süresi Sınırları, Zamanlanmış Engelleme)
+
+iPhone'da bir uygulamayı kilitlemenin birbirinden ayrı üç yolu vardır ve bunlar farklı sorunları çözer. iOS 18 ve sonrasında, gizlilik için belirli bir uygulamayı açmak üzere Face ID gerektirebilirsiniz. Ekran Süresi Uygulama Sınırları, bir uygulamayı veya kategoriyi her gün ne kadar kullanabileceğinizi sınırlamanıza olanak tanır ve süre dolduğunda isteğe bağlı sert bir engelleme uygular. Zamanlanmış engelleme ise, ister Ekran Süresi ile manuel olarak kurulsun ister Chrobox gibi bir planlama uygulaması tarafından otomatikleştirilsin, önceden belirlediğiniz saatlerde yalnızca seçtiğiniz bir grup uygulamayı engeller. Telefon kullanımını gerçekten azaltmak isteyen çoğu kişi, sonunda bir Ekran Süresi parolasını bir zaman çizelgesiyle birleştirir, çünkü kendi kapatabileceğiniz bir sınır aslında gerçek bir sınır değildir.
+
+## Yöntem 1: Bir Uygulamayı Face ID ile Kilitleyin (iOS 18 ve sonrası)
+
+iOS 18 ve sonrasında Apple, Ana Ekran'dan doğrudan, tek tek uygulamaları Face ID, Touch ID veya parolanızın arkasına kilitlemek için yerleşik bir yol ekledi.
+
+Kullanmak için:
+
+1. Hızlı işlemler menüsü görünene kadar uygulama simgesine uzun basın.
+2. Face ID Gerektir'e dokunun (cihazınıza bağlı olarak bunun yerine Touch ID veya parola ifadesi görünebilir).
+3. Uygulamayı Ana Ekran'dan, Uygulama Kitaplığı'ndan, bildirimlerden ve aramadan da gizlemek isterseniz, bunun yerine Gizle ve Face ID Gerektir seçeneğini seçin. Gizlenen bir uygulama ayrı, kilitli bir klasöre taşınır.
+
+Bu açıldıktan sonra, telefonunuzun kilidi zaten açık olan biri için bile, uygulamayı açmak her seferinde Face ID doğrulaması gerektirir.
+
+Bunun ne yaptığı ve ne yapmadığı konusunda net olmak önemli. Bu özellik gizlilikle ilgilidir, bir uygulamayı ne kadar kullandığınızı azaltmakla ilgili değildir. Kilidi açık telefonunuzu eline alan başka birinin bankacılık uygulamanızı veya mesajlarınızı rastgele açmasını engeller. Ancak sizin uygulamayı kendiniz açmanızı engellemek için hiçbir şey yapmaz: sadece kendi yüzünüzle doğrulama yapar ve doğrudan girersiniz. Amacınız sosyal medyayı daha az kontrol etmekse, Face ID kilidi yardımcı olmayacaktır, çünkü kilidi açan kişi sizsiniz.
+
+## Yöntem 2: Ekran Süresi Uygulama Sınırları ile Bir Uygulamayı Sınırlayın veya Engelleyin
+
+Ekran Süresi Uygulama Sınırları, Apple'ın kullanım sınırlama aracıdır ve amaç "bu uygulamayı gizli tutmak" değil de "bu uygulamayı günde daha az kullanmak" olduğunda doğru seçimdir.
+
+Bir tane ayarlamak için:
+
+1. Ayarlar'ı açın, ardından Ekran Süresi'ne gidin.
+2. Uygulama Sınırları'na, ardından Sınır Ekle'ye dokunun.
+3. Belirli uygulamaları veya tüm bir kategoriyi (Sosyal veya Oyunlar gibi) seçin.
+4. Günlük bir zaman payı belirleyin.
+5. Süre dolduğunda uygulamanın sadece bir hatırlatma göstermek yerine gerçekten açılmayı durdurmasını istiyorsanız Sınır Sonunda Engelle'yi açın.
+
+Aynı Ekran Süresi menüsünden, belirli bir uygulamayı dakika bazında sınırlamak yerine yalnızca izin verdiğiniz uygulamaların erişilebilir kaldığı bir zaman penceresi (örneğin gece boyunca) belirleyen Kısıtlı Süre'yi de ayarlayabilirsiniz.
+
+Hem Uygulama Sınırları hem de Kısıtlı Süre'nin sorunu uygulanabilirliktir. Sınırı kendiniz belirlerseniz, süre dolduğunda Bugün İçin Sınırı Yok Say seçeneğini sunan bir ekran belirir ve tek bir dokunuş her şeyi geri alır. Bu, hafif bir hatırlatma olarak işe yarar ama kaydırmaya devam etme dürtüsüne karşı dayanmaz. Bir Ekran Süresi sınırının gerçekten kalıcı olmasını sağlamak için Ayarlar, Ekran Süresi'ne gidin ve normal telefon parolanızdan farklı, ideal olarak bir partner veya hesap verebilirlik arkadaşı gibi sizin bilmediğiniz ama başka birinin bildiği bir kodla Ekran Süresi Parolası Kullan'ı açın. Bu ayrım olmadan, "sınır" aslında yalnızca kapatabileceğiniz bir hatırlatmadır.
+
+## Yöntem 3: Uygulama Engellemesini Bir Plan Etrafında Zamanlayın
+
+Üçüncü yaklaşım mantığı tersine çevirir: günlük bir dakika bütçesi yerine, seçtiğiniz bir grup uygulamayı yalnızca o saatte yapmanız gereken şeye bağlı olarak belirli saatlerde engellersiniz. Bunu çalışma saatleriniz için zamanlanmış Ekran Süresi Kısıtlı Süre ile manuel olarak kurabilir veya engellemeyi gerçek görev takviminize bağlayan bir planlama uygulaması kullanabilirsiniz.
+
+Bir timeboxing uygulaması olan Chrobox tam olarak bu şekilde çalışır: günlük zaman çizelgenize bir görev yerleştirip ona bir engelleme profili eklediğinizde, seçtiğiniz uygulamalar Apple'ın Ekran Süresi API'sini (Apple'ın kendi araçlarının kullandığı aynı FamilyControls ve Screen Time çerçevesi) ve özel bir kilit ekranını kullanarak o zaman kutusunun süresi boyunca otomatik olarak engellenir. Engelleme kutu başladığında başlar, kutu bittiğinde biter ve yalnızca o gün için geçerlidir, bu yüzden planınız değişirse akşama sarkmaz. Bu, sorunu toplam günlük kullanım değil de belirli saatler olan kişilere uygundur; örneğin çalışırken 9'dan 11'e kadar Instagram'ın engellenmesini ama akşam tamamen erişilebilir olmasını isteyenler için.
+
+## Üç Yöntemin Karşılaştırılması
+
+| Yöntem | Amaç | Neyi engelliyor | Kendi kendinize aşmak kolay mı | Başka birinin tuttuğu bir parola gerekiyor mu | En uygun olduğu durum |
+|---|---|---|---|---|---|
+| Face ID uygulama kilidi | Gizlilik | Kullanım açısından hiçbir şey; sadece açmak için kimlik doğrulama gerektirir | Evet, kendi Face ID'nizi veya parolanızı biliyorsanız | Hayır | Belirli uygulamaları diğer insanlardan gizli tutmak |
+| Ekran Süresi Uygulama Sınırları | Kullanım sınırı | Seçilen uygulamalar veya kategoriler, günlük bir zaman bütçesinden sonra | Evet, Bugün İçin Sınırı Yok Say ile, Ekran Süresi parolasını başka biri tutmadığı sürece | Evet, kalıcı olması için | Bir uygulamadaki toplam günlük süreyi azaltmak |
+| Zamanlanmış engelleme (Kısıtlı Süre veya Chrobox) | Zaman bazlı odaklanma | Seçilen uygulamalar, yalnızca belirlenen saatlerde | Zaman çizelgesini kimin belirlediğine ve parolayı kimin tuttuğuna bağlı | Evet, kalıcı olması için | Belirli çalışma veya ders saatlerinde dikkat dağıtıcıları engellemek |
+
+## Hangi Yöntemi Kullanmalısınız
+
+Endişeniz başka birinin telefonunuzda bir uygulama açması ise, Face ID kilidi doğrudan cevaptır ve kurulumu bir dakikadan az sürer. Endişeniz kişisel olarak bir uygulamada tüm gün boyunca çok fazla zaman geçirmeniz ise, başka birinin tuttuğu bir parolayla Ekran Süresi Uygulama Sınırları daha dürüst bir araçtır. Endişeniz özellikle belirli saatlerle ilgiliyse — örneğin belirli bir zaman bloğunda çalışırken sosyal uygulamalardan uzak durmak istemek ama bunun dışında ne olduğunu umursamamak gibi — zamanlanmış engelleme daha uygun bir seçimdir; ister zaman çizelgesini Kısıtlı Süre'de manuel olarak oluşturun, ister Chrobox'ın yaptığı gibi planınızı otomatik olarak takip etmesine izin verin.
+
+Birçok kişi sonunda birden fazlasını aynı anda kullanır: gizlilik için bankacılık veya mesajlaşma uygulamasında Face ID kilidi ve çalışma saatlerinde sosyal ve oyun uygulamalarında zamanlanmış bir engelleme. Bu araçların hiçbiri birbiriyle rekabet etmiyor; farklı sorulara cevap veriyorlar.
+    `,
+    'how-to-stop-checking-phone-while-studying': `
+# Ders Çalışırken Telefonu Kontrol Etmeyi Nasıl Durdurursunuz: Pratik Bir Rutin
+
+Ders çalışırken telefonu kontrol etmeyi durdurmanın en hızlı yolu üç şeyi birleştirmektir: telefonu sadece yüzü aşağı koymak yerine fiziksel olarak erişilemeyecek bir yere koymak, dikkatinizi çalışma seanslarınız sırasında dağıtan belirli uygulamaları yalnızca o sırada engellemek ve çalışmanızı açık uçlu bir "çalışma zamanı" yerine sabit zaman kutuları olarak planlamak. Bunların hiçbiri anlık irade gücü gerektirmez, çünkü karar bir kez, oturmadan önce verilir; çalışırken tekrar tekrar değil.
+
+## Telefonunuzun Sadece Yakınlarda Olması Neden Odaklanmaya Zarar Verir
+
+Telefonunuzu elinize almadığınız sürece, yanı başınızda yüzü aşağı durmasının zararsız olduğunu düşünmek caziptir. Araştırmalar bunun aksini gösteriyor. Genellikle "Brain Drain" olarak anılan 2017 tarihli bir çalışmada, araştırmacılar Adrian Ward, Kristen Duke, Ayelet Gneezy ve Maarten Bos, kişinin kendi akıllı telefonunun sadece yakınlarda bulunmasının, telefon kapalı ve kullanılmıyor olsa bile diğer görevler için kullanılabilir bilişsel kapasiteyi azalttığını buldu. Etki, telefonun gerçekten kontrol edilmesinden değil, sadece yakında olmasından ortaya çıkıyordu.
+
+Buradaki pratik ders "telefonunuzu kapatın" değil, "onu kolunuzun erişemeyeceği bir yere koyun"dur. Başka bir odadaki bir telefon, fermuarı kapalı bir çanta veya odanın diğer ucundaki bir çekmece, aynı masada yüzü aşağı duran bir telefondan daha iyi çalışır, çünkü amaç sadece bildirimleri susturmak değil, mesafe yaratmaktır.
+
+## Sizi Gerçekten Uzaklaştıran Uygulamaları, Yalnızca Çalışırken Engelleyin
+
+Sadece mesafe, paylaşılan bir masa veya aile çalışma masası gibi hâlâ yakınlarda olan bir telefonu kontrol etme refleksini durdurmaz ve herkesin telefonunu saatlerce başka bir odada bırakması gerçekçi değildir. İkinci parça, sorunu yaratan belirli uygulamaları, ama yalnızca gerçekten çalışmanız gereken saatlerde engellemektir.
+
+Bu önemlidir çünkü tüm günü kapsayan genel bir engelleme sürdürmesi zor ve gücenmesi kolaydır, oysa gerçek çalışma seansınıza bağlı bir engelleme, seans bittiğinde kendiliğinden sona erer. Bunu ekstra bir uygulama olmadan da yapabilirsiniz:
+
+- iPhone'da, çalışma bloğunuz için zamanlanmış Ekran Süresi Kısıtlı Süre'yi kullanın veya zorlandığınız belirli uygulamalarda bir Uygulama Sınırı belirleyin; ideal olarak, baştan çıktığınızda Sınırı Yok Say'a dokunamamanız için başka birinin tuttuğu bir Ekran Süresi parolasıyla.
+- Android'de, çoğu telefon genellikle Ayarlar, ardından Dijital Denge ve ebeveyn denetimleri, ardından Odak modu altında bulunan bir Dijital Denge Odak modu içerir; burada belirli bir süre boyunca duraklatılacak dikkat dağıtıcı uygulamaları seçersiniz. Tam menü adları telefon üreticisine göre değişir, bu yüzden ifadeler farklıysa ayarlarınızda "Dijital Denge", "Odak modu" veya benzer adlandırılmış bir ekran süresi bölümü arayın.
+
+Gününüzü Chrobox gibi bir timeboxing uygulamasıyla planlarsanız, bu adım otomatik olarak gerçekleşebilir: zaman çizelgenizdeki bir çalışma görevine bir engelleme profili eklediğinizde, seçtiğiniz uygulamalar tam olarak o zaman kutusunun süresi boyunca engelli kalır ve kutu bittiği anda kendiliğinden engeli kaldırır, böylece bir engellemeyi açmayı veya kapatmayı hatırlamak zorunda kalmazsınız.
+
+## Çalışmayı Açık Uçlu Seanslar Değil, Zaman Kutuları Olarak Planlayın
+
+"Bu akşam kimya çalış" gibi yapılandırılmamış bir plan, hafifçe takıldığınızı hissettiğiniz anda telefonu kontrol etmenin kapısını açık bırakır, çünkü önce bitirilecek net bir iş birimi yoktur. Çalışma süresini sabit kutulara bölmek — örneğin ardından 10 dakikalık bir mola gelen 50 dakikalık bir kutu — size telefonunuz olmayan somut bir durma noktası verir. 50/10 bölünmesi yalnızca makul bir seçenektir, sabit bir kural veya belirli bir uygulamaya gömülü bir Pomodoro tarzı özellik değildir; konuya ve gerçekte ne kadar süre odaklanabildiğinize bağlı olarak 30/5 veya 90/15'i de aynı kolaylıkla kullanabilirsiniz.
+
+İki planlama alışkanlığı belirgin bir fark yaratır:
+
+- En zor veya en yorucu konunuzu, dikkatinizin en taze olduğu seansınızın en erken kutusuna koyun; bunu sona saklamak yerine, çünkü o zaman telefonunuza uzanma olasılığınız daha yüksektir.
+- Her kutuya başlamadan önce "bitmiş"in neye benzediğini yazın (örneğin "matematik çalış" yerine "10 pratik problemi bitir"), çünkü belirsiz bir kutuyu yarıda bırakıp telefonu kontrol etmek çok daha kolaydır.
+
+Aralık 2025 ile Eylül 2026 arasında 250 kullanıcıdan 5,077 planlanmış görevden elde edilen Chrobox'ın kendi kullanım verileri, özellikle telefon kontrol etmeyi değil görev tamamlanmasını ölçmesine rağmen burada öğretici: zamanlanmış bir kutuya yerleştirilen görevler %48.1 oranında tamamlanırken, hiç zaman dilimi olmayan görevler için bu oran %17.6 oldu ve sabahın erken saatlerinde (5:00–8:59) başlayan kutular %62.3 oranında tamamlanırken, gece geç saatlerde (21:00–23:59) başlayan kutular için bu oran %33.2 oldu. Bu, Chrobox'ın kendi kullanıcılarından elde edilen gözlemsel bir veridir, kontrollü bir deney değildir, ama belirsiz ve geç saate planlanmış çalışma zamanının, telefon kontrol etmenin en çok sızdığı yer olduğu yönündeki yaygın deneyimle örtüşüyor.
+
+## Sınav Hazırlığı İçin Örnek Bir Çalışma Günü
+
+Bir sınava hazırlanan biri için sabit zaman kutularını, telefon mesafesini ve uygulama engellemeyi bir arada kullanarak bir çalışma gününü yapılandırmanın bir yolu:
+
+| Saat | Kutu | Telefon / uygulama engelleme |
+|---|---|---|
+| 07:30 - 08:20 | En zor konu, 50 dk | Telefon başka bir odada; dikkat dağıtıcı uygulamalar engelli |
+| 08:20 - 08:30 | Mola | Telefona izin var, ama mümkünse dikkat dağıtıcı uygulamalardan uzak durun |
+| 08:30 - 09:20 | İkinci konu, 50 dk | Telefon başka bir odada; dikkat dağıtıcı uygulamalar engelli |
+| 09:20 - 09:30 | Mola | Telefona izin var |
+| 09:30 - 10:20 | Pratik problemler, 50 dk | Telefon başka bir odada; dikkat dağıtıcı uygulamalar engelli |
+| 10:20 - 10:40 | Daha uzun mola | Telefona tamamen izin var |
+| 10:40 - 11:30 | Zayıf alanları gözden geçir, 50 dk | Telefon başka bir odada; dikkat dağıtıcı uygulamalar engelli |
+
+Böyle bir günü kağıt bir planlayıcı, bir çekmecede kilitli bir telefon ve dört çalışma kutusunu kapsayan Ekran Süresi Kısıtlı Süre ile manuel olarak oluşturabilir, ya da her çalışma kutusunun gün boyunca otomatik olarak açılıp kapanan kendi uygulama engellemesini taşıdığı ve oturduğunuzda herhangi bir kutuda bir odaklanma geri sayımı başlatabileceğiniz Chrobox'ta kurabilirsiniz.
+
+## Kapanış Düşüncesi
+
+Bu üç parçanın — fiziksel mesafe, zamanlanmış uygulama engelleme ve sabit zaman kutuları — hiçbiri tek başına özellikle iyi çalışmaz. Odanın diğer ucundaki bir telefon, belirsiz ve tanımsız bir çalışma seansı sırasında yine de getirilir; masanızda duran bir telefondaki sıkı bir uygulama engellemesi, sizi notlarınız yerine kilitli bir ekrana bakarken bırakmaya devam eder; ve mükemmel zamanlanmış bir kutu, telefonunuz yanı başınızda sürekli titreşiyorsa hiçbir işe yaramaz. Birlikte, iradenin saatlerce sürdürmekte kötü olduğu an be an verilen kararı tamamen ortadan kaldırırlar.
+    `,
+    'reduce-phone-addiction': `
+# Telefon Bağımlılığı Nasıl Azaltılır: Ekran Süresini Kesmek İçin 7 Adımlık Bir Plan
+
+Telefon bağımlılığını azaltmanın en hızlı yolu önce gerçek kullanımınızı ölçmek, telefonunuzu karar vermeden almanıza neden olan tetikleyicileri kaldırmak ve ardından odaklanmaya çalıştığınız belirli dönemlerde en kötü uygulamalarınızı engellemektir. Sosyal medyayı silmenize veya tuşlu bir telefona geçmenize gerek yok. Çoğu kişi, her şeyi bir kerede düzeltmeye çalışmak yerine kısa, sıralı bir değişiklik listesini takip ederek iki ila üç hafta içinde ekran süresini anlamlı ölçüde azaltabilir.
+
+Bu rehber, klinik bir durum için değil, günlük kompülsif telefon kontrolü için yazılmıştır. Telefon kullanımınız işinizi, ilişkilerinizi, uykunuzu veya ruh halinizi ciddi şekilde etkiliyorsa lütfen bir doktor veya terapistle konuşun. Aşağıda, telefonunuzu istediğinizden daha fazla elinize alma konusundaki yaygın deneyim için pratik, yargılamayan bir plan bulacaksınız.
+
+## Telefon kontrol etmek neden zor kontrol edilir
+
+Akıllı telefonlar bırakılmak üzere tasarlanmamıştır. Bildirimler, sonsuz kaydırmalı akışlar ve değişken ödüller (bir sonraki yenilemede ilginç bir şey olup olmadığını asla bilemezsiniz) dikkati tekrar tekrar geri çekmek üzere tasarlanmıştır. Bunun üzerine, Ward ve meslektaşlarının (2017) 'Brain Drain' başlığıyla Journal of the Association for Consumer Research'te yayımlanan araştırması, akıllı telefonunuzun yakınlarda bulunmasının, kapalı ve yüzü aşağı olsa bile, diğer görevler için kullanılabilir bilişsel kapasitenizi azaltabileceğini buldu. Telefonunuzun dikkatinizi tüketmesi için kullanılıyor olması gerekmiyor.
+
+Bu önemli çünkü sorunu yeniden çerçeveliyor. İrade gücünüz eksik değil. Özellikle dikkatinizi ele geçirmek için çok akıllı insanlar tarafından tasarlanmış bir cihazla mücadele ediyorsunuz, üstelik sadece yakınlarda olması nedeniyle çevresel bir bilişsel vergi de ödüyorsunuz. Çözüm daha fazla irade gücü değil, ortamınızı iyi davranışın daha azına ihtiyaç duyacağı şekilde değiştirmektir.
+
+## Adım 1: Herhangi Bir Şeyi Değiştirmeden Önce Ölçün
+
+Neyi düzelteceğinize karar vermeden önce rakamlara bakın. İki büyük platform da bunu sizin için zaten takip ediyor:
+
+- iPhone: Ayarlar, ardından Ekran Süresi, günlük ve haftalık ortalama ekran sürenizi, uygulama ve kategoriye göre dökümü ve günlük telefon eline alma ve bildirim sayınızı gösterir.
+- Android: Ayarlar, ardından Dijital Denge ve Ebeveyn Denetimleri, aynı temel rakamları gösterir: günlük kullanım, uygulama dökümü, kilit açmalar ve alınan bildirimler.
+
+Şimdi açın ve kendinizi yargılamadan sadece bakın. Üç rakamı yazın: toplam günlük ekran süresi, telefon eline alma sayısı ve bildirim sayısı. Gerçekten bir şeyin değişip değişmediğini görmek için bunları Adım 7'de tekrar kullanacaksınız. Çoğu kişi bu üçünden en az biri konusunda şaşırır, genellikle telefon eline alma ya da bildirimler, çünkü bunlar bilinçli olarak fark edilmeden günün arka planında gerçekleşir.
+
+## Adım 2: Tetikleyici Uygulamalarınızı Belirleyin
+
+Adım 1'deki uygulama başına dökümüne bakın. İki farklı şeyi arıyorsunuz:
+
+- En çok toplam zamanı tüketen uygulama. Bu genellikle bir video, sosyal medya veya kısa içerik uygulamasıdır.
+- Alışkanlıkla en sık açtığınız, bir seferde sadece birkaç saniye için bile olsa açtığınız uygulama. Bu bazen bir mesajlaşma uygulaması, bazen belirli bir sosyal uygulamadır ve her zaman zaman lideriyle aynı olmaz.
+
+En önemli iki veya üç tetikleyici uygulamanızı özellikle adlandırın. 'Telefonumu daha az kullan' gibi belirsiz hedefler başarısız olur çünkü değiştirmeniz için somut hiçbir şey vermez. 'Görevler arasında bu belirli uygulamayı açmayı bırak' gibi bir hedef ise gerçekten üzerinde harekete geçebileceğiniz bir şeydir.
+
+## Adım 3: Gereksiz Bildirimleri Kapatın
+
+Her tetikleyici uygulamanın bildirim ayarlarına girin ve gerçek bir kişiden gelen doğrudan bir mesaj olmayan her şeyi kapatın. Pazarlama bildirimleri, 'birisi gönderinizi beğendi', öneri uyarıları ve yeniden katılım dürtmeleri ('yeni içerikleriniz sizi bekliyor'), uygulamaların sizi kesintiye uğratıp geri çekmek için kullandığı temel mekanizmadır. Aramalar, mesajlar ve takvim hatırlatmaları gibi gerçekten anlık dikkatinizi gerektiren şeyler için bildirimleri açık tutun ve neredeyse geri kalan her şeyi kapatın. Bu tek adım genellikle birkaç gün içinde telefon eline alma sayısında görünür bir düşüş sağlar, çünkü artık sizi uygulamayı açmaya iten bir uyarı almıyorsunuzdur.
+
+## Adım 4: En Kötü Uygulamalarınıza Sürtünme Ekleyin
+
+Bildirimler sessizleştiğinde, geriye kalan sorun alışkanlık haline gelmiş, bildirim gerektirmeyen açmadır: sıkıntıdan veya alışkanlıktan telefonunuzun kilidini açıp uygulama simgesine dokunmak. Bunun otomatik değil bilinçli bir karar gerektirmesi için küçük miktarlarda sürtünme ekleyin:
+
+- Tetikleyici uygulamaları ana ekranınızdan ve dock'unuzdan kaldırıp ikincil bir ekrandaki bir klasöre taşıyın.
+- En çok azaltmak istediğiniz saatlerde telefonunuzu gri tonlamaya çevirin (iPhone: Ayarlar, Erişilebilirlik, Görüntü ve Metin Boyutu, Renk Filtreleri; Android'de genellikle üreticiye bağlı olarak erişilebilirlik ayarları veya Dijital Denge'nin Uyku Zamanı modu altındadır). Renk, akışları çekici kılan şeyin bir parçasıdır ve onu kaldırmak çekiciliği belirgin şekilde azaltır.
+- Bir uygulamadan çıkış yapın, böylece onu açmak anlık bir dokunuş yerine parolayı yeniden girmeyi gerektirsin.
+
+Bu değişikliklerin hiçbiri uygulamayı kullanılamaz hale getirmez. Sadece iki veya üç saniyelik bir duraklama ekler, bu da genellikle dürtünün geçmesi veya bunu niyetten çok alışkanlıktan yaptığınızı fark etmeniz için yeterlidir.
+
+## Adım 5: Kontrol Etme Anını Planlanmış Bir Etkinlikle Değiştirin
+
+Bir alışkanlığı onun yerine bir şey koymadan kaldırmak genellikle başarısız olur, çünkü kontrol etme dürtüsü hâlâ aynı anlarda ortaya çıkar: sırada beklerken, toplantılar arasında, uyandıktan hemen sonra. Sadece direnmeye çalışmak yerine, o zaman dilimine kasıtlı olarak başka bir şey koyun. Timeboxing'in yardımcı olduğu yer burasıdır: gününüzü önceden bloklara planlarsanız, eskiden amaçsız telefon kontrolüyle dolan anlar bunun yerine belirli bir sonraki görevle dolar, böylece alışkanlığın doldurabileceği yapılandırılmamış zaman azalır.
+
+## Adım 6: En Kötü Uygulamalarınızı Odaklanma Dönemlerinde Engelleyin
+
+3'ten 5'e kadar olan adımlardan sonra bile direnilmesi en zor olan uygulama için, tüm gün boyunca kapalı tutmaya çalışmak yerine sert bir engellemeyi belirli zaman pencerelerine sınırlayın; genel engelleme, uygulamayı kullanmak için meşru bir nedeniniz olduğu ilk anda terk edilme eğilimindedir. Her iki platformda da bunun için birinci taraf araçlar vardır:
+
+- iPhone: Apple'ın Ekran Süresi API'si üzerine kurulu Ekran Süresi uygulama sınırları ve Kısıtlı Süre.
+- Android: Dijital Denge'nin uygulama zamanlayıcıları ve Odak modu (menü adları üreticiye göre değişir).
+
+Chrobox da uygulamaları engeller, ancak engellemeyi sabit bir günlük sınır yerine planladığınız zaman kutularına bağlar: bir göreve veya rutine bir engelleme profili eklediğinizde, seçtiğiniz uygulamalar otomatik olarak yalnızca o kutunun süresi boyunca engellenir, ardından kutu bittiğinde kendiliğinden engeli kalkar. iPhone'da bu, Apple'ın Ekran Süresi API'si üzerinde çalışır (FamilyControls ve özel bir kalkan ekranı); Android'de bir erişilebilirlik hizmeti katmanı kullanır. Mücadele edilecek ayrı bir 'şimdi engelle' düğmesi yoktur; engelleme, zaten planladığınız çalışma dönemiyle sınırlıdır, bu da genellikle tüm gün süren bir sınırdan daha kolay uyulabilir olmasını sağlar.
+
+## Adım 7: Rakamlarınızı Haftalık Olarak Gözden Geçirin
+
+Haftada bir kez aynı Ekran Süresi veya Dijital Denge panosuna geri dönün ve Adım 1'de yazdığınız rakamlarla karşılaştırın. Sadece toplam süreye değil, özellikle telefon eline alma ve bildirimlere bakın, çünkü bu ikisi genellikle önce hareket eder ve sürtünme ile engelleme değişikliklerinin işe yaradığına dair daha iyi bir erken sinyaldir. Bir rakam hareket etmiyorsa, bu genellikle belirli bir uygulamanın hâlâ bildirimlerinin açık olduğu veya hâlâ sürekli gördüğünüz ana ekranınızda durduğu anlamına gelir. Tüm planı yeniden düzenlemek yerine o tek şeyi ayarlayın.
+
+| Adım | Ne yapmalı | Gereken süre |
+|---|---|---|
+| 1. Ölçün | Günlük süre, telefon eline alma ve bildirimler için Ekran Süresi'ni (iPhone) veya Dijital Denge'yi (Android) kontrol edin | 5 dakika |
+| 2. Tetikleyicileri belirleyin | Süreye ve açma sıklığına göre en önemli 2-3 uygulamanızı adlandırın | 5 dakika |
+| 3. Bildirimleri kesin | Tetikleyici uygulamalarda gereksiz uyarıları kapatın | 10 dakika |
+| 4. Sürtünme ekleyin | Uygulamaları ana ekrandan kaldırın, gri tonlamayı etkinleştirin, bir uygulamadan çıkış yapın | 10 dakika |
+| 5. Anı değiştirin | Amaçsız anların yerine bir görev olsun diye gününüzü zaman kutularına planlayın | Günde bir kez, 10-15 dakika |
+| 6. Odaklanma süresinde engelleyin | Bir uygulama sınırı belirleyin veya bir odaklanma kutusuna engelleme profili ekleyin | Kurmak için 5 dakika |
+| 7. Haftalık gözden geçirin | Bu haftanın rakamlarını başlangıç noktanızla karşılaştırın | Haftada bir kez, 5 dakika |
+
+## Bu Rehberin Ne Olmadığına Dair Bir Not
+
+Bu, tanısı konmuş bir durumun tedavisi değil, günlük kompülsif kontrol etmeyi azaltmak için bir plandır. Bazı kişiler, sürtünme, engelleme ve yerine koyma etkinliklerini denedikten sonra bile telefon kullanımlarının hâlâ kaygı, düşük ruh hali, uyku sorunları veya kontrolleri dışında hissedilen bir dürtüyle bağlantılı olduğunu fark eder. Bu, bir uygulamayla kendi başınıza daha çok çabalamak yerine bir uzmanla konuşmanız gerektiğine dair bir işarettir. Chrobox ve benzeri araçlar, daha iyi günlük alışkanlıklar oluşturmak isteyen kişiler için davranış değişikliğini destekleyebilir, ancak tıbbi veya ruh sağlığı bakımının yerini tutmaz.
+
+## Hepsini Bir Araya Getirmek
+
+Bu yedi adımın hiçbiri telefonunuzu veya en sevdiğiniz uygulamaları tamamen bırakmanızı gerektirmez. Önce ölçmek, tahmin etmek yerine sorunun gerçekte nerede olduğunu size söyler. Bildirimleri kesmek ve sürtünme eklemek otomatik tetikleyicileri kaldırır. Gününüzü isteğe bağlı olarak Chrobox gibi bir uygulamayla (otomatik engelleme özelliğini istiyorsanız Pro'da 3 günlük ücretsiz deneme de sunar) bloklara planlamak, boşalan zamanı telefonun kendiliğinden dolduracağı bir boşluk bırakmak yerine yararlı bir yere yönlendirir. Haftalık gözden geçirme, bir hisse güvenmek yerine gerçekten işe yarayıp yaramadığı konusunda sizi dürüst tutar. Çoğu kişi bu listeyi sırayla takip ederek iki ila üç hafta içinde gerçek bir fark fark eder.
+    `,
+    'daily-reflection-template': `
+# Günlük Değerlendirme Şablonu: Kullanıma Hazır 4 Format (KPT Dahil)
+
+En hızlı günlük değerlendirme şablonu 3 satırlık değerlendirmedir: biri neyin iyi gittiği, biri neyin gitmediği ve biri yarın ne yapacağınız için. İki dakikadan az sürer ve zamanınız yok bahanesini ortadan kaldırır. Daha fazla yapı isterseniz, KPT (Keep, Problem, Try — Sürdür, Sorun, Dene) ve zaman kutulanmış günler için bir plan-gerçekleşen karşılaştırması da aşağıda ele alınıyor; en düşük enerjili günleriniz için basit bir ruh hali artı tek cümle formatıyla birlikte. En etkileyici görüneni değil, o akşam ne kadar zamanınız ve enerjiniz olduğuna uyanı seçin.
+
+## Bir Şablon Neden Motivasyondan Daha Önemlidir
+
+Günlük bir değerlendirme alışkanlığını sürdürmeye çalışan çoğu kişi iki veya üç hafta içinde bırakır; bunun nedeni değerlendirmenin faydasız olması değil, hiçbir formatla başlamamış olmalarıdır. Boş bir metin kutusu her gece göz korkutucudur ve kötü bir günde ya hiçbir şeye dönüşür (atlarsınız) ya da sizi daha kötü hissettiren yapılandırılmamış bir dökülmeye dönüşür. Bir şablon, doldurmanız için sabit alanlar vererek bunu çözer, böylece alışkanlık ilham almış hissetmeye veya iyi bir gün geçirmeye bağlı olmaz. Chrobox'ın kendi retrospektif sekmesi de böyle çalışır: 5 seviyeli bir ruh hali derecelendirmesi (kötü, şöyle böyle, idare eder, iyi, harika) artı serbest metin, yazmak yerine konuşmayı tercih ettiğiniz günler için isteğe bağlı sesli yazdırma ile; böylece formatın kendisi siz bir kelime yazmadan önce sürtünmeyi ortadan kaldırır.
+
+Aşağıda dört şablon var. Her birinin hız, yapı ve en uygun olduğu gün türü arasında farklı bir denge noktası var.
+
+## Şablon 1: 3 Satırlık Değerlendirme
+
+Bu, en az sürtünmeli seçenektir ve yoğun veya yorgun günlerde varsayılan olarak kullanılmalıdır.
+
+Bugün neyin iyi gittiği, bir satır
+Neyin iyi gitmediği veya zor hissettirdiği, bir satır
+Yarın farklı yapılacak belirli bir şey, bir satır
+
+Gereken süre: 1 ila 2 dakika.
+
+Ne zaman uygun: herhangi bir gün, ama özellikle yorgun olduğunuz, seyahat ettiğiniz veya başka bir şekilde zamanınızın kısıtlı olduğu günler. Daha önce hiç günlük tutmamış birine vermek için de doğru formattır, çünkü üç kısa satır, açık bir sayfanın vermediği şekilde ulaşılabilir hisseder.
+
+Yaygın hata: ikinci satırı yanlış giden her şeyin bir listesine dönüştürmek. Bunu tek bir şeyle sınırlı tutun. Beş şey yanlış gittiyse, yarın ele almaya en değer olanı seçin ve gerisini bu gece bırakın.
+
+## Şablon 2: KPT (Keep, Problem, Try — Sürdür, Sorun, Dene)
+
+KPT, çevik ekip retrospektiflerinden gelir ama tek bir günü gözden geçiren tek bir kişi için de aynı derecede iyi çalışır.
+
+Sürdür (Keep): bugün işe yarayan ve yapmaya devam etmek istediğiniz şey
+Sorun (Problem): önüne çıkan veya işe yaramayan şey
+Dene (Try): Sorun satırına dayanarak yarın deneyecek somut bir değişiklik
+
+Gereken süre: 3 ila 5 dakika.
+
+Ne zaman uygun: bölüm başına tek bir satırın yetmeyeceği kadar çok şeyin olduğu günler, ya da belirli bir alışkanlığı veya iş akışını birkaç gün boyunca geliştirmeye çalışırken neyi değiştirdiğinizin ve işe yarayıp yaramadığının sürekli bir kaydını istediğinizde. Rutininizle aktif olarak deney yaparken KPT, 3 satırlık formattan daha kullanışlıdır, çünkü Dene satırı, yarının Sürdür veya Sorun satırıyla karşılaştırabileceğiniz bir şeye dönüşür.
+
+Yaygın hata: eşleşen bir Dene olmadan bir Sorun yazmak. Tek başına bir Sorun, her gün tekrarladığınız bir şikayete dönüşür. Dene satırı, değerlendirmeyi bir hayal kırıklığı günlüğü yerine gerçek bir iyileştirme döngüsüne dönüştüren şeydir.
+
+## Şablon 3: Zaman Kutulanmış Günler İçin Plan-Gerçekleşen Karşılaştırması
+
+Bu şablon, günlerini ister bir takvimde, ister bir planlayıcıda, ister Chrobox gibi bir uygulamada zaman bloklarına planlayan kişiler için özel olarak tasarlanmıştır.
+
+Bugün planlanan kutular: (sayı)
+Gerçekte bitirilen kutular: (sayı)
+Diğerlerinin neden kaydığı: (gerçekleşmeyen her kutu için bir satır, ya da nedeni hepsi için aynıysa toplamda bir satır)
+Yarının planı için bir değişiklik: (bir satır)
+
+Gereken süre: 3 ila 5 dakika.
+
+Ne zaman uygun: zamanınızı önceden planladığınız ve planın gerçeklikle eşleşip eşleşmediğini bilmek istediğiniz herhangi bir gün; bu genellikle tek başına bir ruh hali derecelendirmesinden daha bilgilendiricidir. Sürekli olarak dokuz görev planlayıp ikisini bitiriyorsanız, sorun genellikle çabanız değil plandır. 250 kişiden 5,077 planlanmış görev üzerindeki Chrobox'ın kendi kullanım verileri, dokuz veya daha fazla görevin planlandığı günlerde tüm listenin 198 günde yalnızca bir kez, yani yaklaşık yüzde yarım oranında bitirildiğini gösteriyor; medyan bir günde ise beş görev planlanıyor. Bu, kendi plan-gerçekleşen açığınızın normal mi yoksa düzeltilmeye değer mi olduğuna karar verirken yararlı bir kıyaslama noktasıdır. Bu, kontrollü bir çalışma değil, uygulama kullanımından elde edilen gözlemsel bir veridir, bu yüzden bir kural yerine kaba bir referans noktası olarak ele alın.
+
+Yaygın hata: kayan bir kutuyu bir planlama sinyali yerine kişisel bir başarısızlık olarak ele almak. Aynı tür kutu çoğu gün kayıyorsa — örneğin akşam 9'dan sonra planlanan her şey — bu, disiplinden yoksun olduğunuza dair bir kanıt değil, o tür bir görevi ne zaman planlamayı bırakmanız gerektiğine dair bir bilgidir.
+
+## Şablon 4: Ruh Hali Artı Tek Cümle
+
+Üç satırın bile fazla geldiği günler için.
+
+Ruh hali: (bir kelime seçin veya 1 ila 5 arası bir ölçek kullanın)
+Bugün hakkında bir cümle
+
+Gereken süre: 1 dakikadan az.
+
+Ne zaman uygun: en düşük enerjili günleriniz, veya serinin tamamen bozulmaması için bir yedek olarak. Alışkanlığı canlı tutan kısa bir kayıt, atlanan bir günden çok daha değerlidir, çünkü herhangi bir günlük pratiğin en zor kısmı genellikle bir aradan sonra yeniden başlamaktır. Tek bir cümle yazmak bile, sadece bir ruh hali puanının vermeyeceği, daha sonra geri bakabileceğiniz bir şey verir.
+
+Yaygın hata: uğraşmaya değmeyecek kadar küçük hissettiği için kaydı tamamen atlamak. Kötü bir gündeki tek cümlelik bir kayıt bile hâlâ bir veri noktasıdır ve kısa kayıtlarla dolu bir aya geriye dönüp bakmak genellikle tek bir günün ortaya koyamayacağı örüntüleri gösterir.
+
+## Dördü Arasında Seçim Yapmak
+
+3 satırlık formatı varsayılanınız olarak kullanın. Belirli bir şeyi aktif olarak düzeltmeye çalıştığınız günlerde KPT'ye geçin, çünkü Dene satırı size takip edecek bir şey verir. Zaman çizelgenizi kutuladığınız günlerde plan-gerçekleşen formatını kullanın, çünkü size planın kendisinin ayarlanmaya ihtiyacı olup olmadığını söyler. En zor günlerinizde ruh hali artı tek cümleye geri dönün; sadece bir aranın hiç yazmadığınız haftalara dönüşmesine izin vermek yerine alışkanlığı canlı tutmak için. Burada yanlış bir seçim yoktur; tek gerçek hata, bunlardan herhangi birini her gün zorunluymuş gibi ele almaktır.
+
+## Dört Şablonun Tümünde Görülen Yaygın Hatalar
+
+Hangi şablonu kullandığınızdan bağımsız olarak birkaç sorun ortaya çıkar.
+
+Onu öz eleştiriye dönüştürmek. Yalnızca hataları listeleyen bir değerlendirme, sizi alışkanlıktan korkmaya alıştırır. Yukarıdaki her şablon, olumsuz bir gözlemi ileriye dönük bir eylemle eşleştirir ve bu kasıtlıdır. Kayıtlarınızın çoğunlukla kendinizle ilgili şikayetler olduğunu fark ederseniz, KPT'ye veya plan-gerçekleşen şablonuna bile bir "neyin iyi gittiği" satırı ekleyin.
+
+Çok fazla yazmak. Uzun kayıtları yazmak daha uzun sürer ve gözden geçirmek daha da uzun sürer, bu da geçmiş kayıtları gözden geçirmeyi bırakmanız anlamına gelir; oysa bu, onları tutmanın amacının yarısıdır. Bir kayıt beş dakikadan fazla sürüyorsa, muhtemelen değerlendirmeden dökülmeye kaymışsınızdır. Dökülmeyi başka bir yer için saklayın ve değerlendirmeyi gerçekten yeniden okuyacak kadar kısa tutun.
+
+Kötü günlerde alışkanlığı tamamen atlamak. Bu, alışkanlığın öldüğü en yaygın tek yoldur. Kötü günler tam olarak hızlı bir ruh hali artı tek cümlelik kaydın en çok önem taşıdığı zamanlardır; hem bir çıkışa ihtiyacınız olduğu için hem de bir dizi kötü günü daha sonra görebilmenin değerli olduğu için.
+
+## Bir Uygulamayla Nasıl Uyumlu Olduğu
+
+Bu dört şablondan herhangi birini kağıt üzerinde, bir not uygulamasında veya özel bir araçta çalıştırabilirsiniz. Gününüzü zaten zaman kutularına planlıyorsanız, Chrobox planı ve günlük retrospektifi aynı uygulamada tutar, bu yüzden plan-gerçekleşen şablonu bir dakika sürer: planladığınız kutular ve işaretlediğiniz kutular zaten oradadır. Kayıtlar ayrıca bir yazma serisi oluşturur ve Chrobox Pro'da, bir kayıt üzerinde isteğe bağlı bir AI rahatlatma mesajıyla otomatik günlük ve haftalık bir analizi besler, böylece küçük günlük alışkanlık ekstra manuel çaba olmadan daha uzun vadeli bir görünüme dönüşür. Ancak bu şablonlardan yararlanmak için bunların hiçbiri gerekli değildir. Yapışkan bir not ve iki dakika, herhangi bir uygulama kadar iyi işe yarar.
+
+## Alışkanlığı Oluşturmak
+
+Şablon, birkaç hafta boyunca çoğu akşam herhangi bir şablonla ortaya çıkmaktan daha az önemlidir. Her seferinde en kapsamlı kaydınızı hedeflemek yerine bu akşamın enerjisine uyanı seçin ve kısa bir kaydı uzun bir kaydın daha düşük bir versiyonu yerine tam bir başarı olarak ele alın. Günlük bir değerlendirmenin amacı mükemmel bir kayıt değildir; gerçekten sürdürdüğünüz bir alışkanlıktır, çünkü bir ay boyunca sürdürdüğünüz bir alışkanlık, tek bir ayrıntılı kayıttan çok daha fazlasını günleriniz hakkında size anlatır.
+    `,
   },
   templates: {
     'software-developer': {

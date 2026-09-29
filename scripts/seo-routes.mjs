@@ -33,6 +33,11 @@ const INDEXABLE_LOCALE_CODES = new Set(ALL_SEO_LOCALES.map((locale) => locale.co
 // Blog posts already earning impressions in Search Console (non-brand queries) plus the
 // app-blocking cluster targeted for growth. Crawl-budget concentration for indexing.
 const PRIORITY_BLOG_SLUGS = new Set([
+  'does-timeboxing-work',
+  'how-to-lock-apps-on-iphone',
+  'how-to-stop-checking-phone-while-studying',
+  'reduce-phone-addiction',
+  'daily-reflection-template',
   'time-blocking-vs-time-boxing',
   'time-boxing-vs-pomodoro',
   '5-time-boxing-strategies',

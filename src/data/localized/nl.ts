@@ -65,7 +65,7 @@ export const pack: LocalizedContentPack = {
       chroboxPros: [
         'Speciaal ontworpen voor persoonlijke productiviteit en focuswerk',
         'Combineert taken en tijdsblokken in één overzicht',
-        'Ingebouwde focustimer in Pomodoro-stijl',
+        'Ingebouwde focustimer gekoppeld aan elk tijdsblok',
         'Voorkomt een overvolle agenda door bewust te plannen',
       ],
       competitorPros: [
@@ -78,7 +78,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Synchroniseert Chrobox met Google Calendar?',
-          answer: 'Ja, Chrobox integreert met Google Calendar, zodat je vergaderingen en evenementen naast je getimeboxte werkblokken verschijnen voor een compleet overzicht van je dag.',
+          answer: 'Chrobox toont gebeurtenissen uit de agenda\'s die al op je telefoon staan — inclusief een Google-account dat je aan je telefoon hebt toegevoegd — naast je getimeboxte werkblokken, en kan je Chrobox-blokken optioneel kopiëren naar één agenda op je telefoon. Het maakt geen directe verbinding met de Google Calendar API en synchroniseert niet in twee richtingen.',
         },
         {
           question: 'Is Chrobox een vervanger voor Google Calendar?',
@@ -301,7 +301,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Werkt Chrobox zonder internetverbinding?',
-          answer: 'Chrobox is ontworpen als een mobile-first app en werkt offline voor de belangrijkste time-boxing-functies. Je gegevens worden gesynchroniseerd zodra je weer verbinding maakt met internet.',
+          answer: 'Chrobox vereist een internetverbinding — je planning, routines en statistieken synchroniseren in realtime met je account, en de app biedt momenteel geen offline modus.',
         },
       ],
     },
@@ -344,7 +344,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Is Chrobox beschikbaar voor Windows?',
-          answer: 'Chrobox is in de eerste plaats een mobiele app die beschikbaar is voor iOS en Android. Voor Windows-gebruikers biedt de webversie toegang tot je timeboxing-planning vanuit elke browser.',
+          answer: 'Chrobox is uitsluitend een mobiele app voor iPhone en Android — er is geen Windows- of webapp. Gebruik je overdag Windows, dan kun je je planning nog steeds vanaf je telefoon ernaast bekijken en bijwerken.',
         },
       ],
     },
@@ -398,7 +398,7 @@ export const pack: LocalizedContentPack = {
       metaDescription: 'Chrobox vs TickTick: gerichte time-boxing voor je hele dag vs een alles-in-één app met taken, gewoontes en een Pomodoro-timer.',
       featureNames: [
         'Time-boxing',
-        'Pomodoro-timer',
+        'Focustimer',
         'Gewoonte-tracker',
         'Agendaweergave',
         'Dagschemaweergave',
@@ -421,8 +421,8 @@ export const pack: LocalizedContentPack = {
       verdict: 'TickTick is een sterke allrounder met een gewoonte-tracker en een geweldige Pomodoro-timer. Chrobox is de betere keuze als je op zoek bent naar een gestroomlijnde, specifieke time-boxing-ervaring zonder de afleiding van overbodige functies.',
       faqs: [
         {
-          question: 'Heeft Chrobox een Pomodoro-timer net als TickTick?',
-          answer: 'Ja, Chrobox heeft een ingebouwde focustimer die speciaal is ontworpen als aanvulling op je time-boxing-blokken. Je kunt bij elk tijdsblok een focustimer starten om geconcentreerd te blijven.',
+          question: 'Heeft Chrobox een focustimer zoals de Pomodoro-timer van TickTick?',
+          answer: 'Chrobox heeft een ingebouwde focustimer voor elk tijdsblok, maar dit is geen Pomodoro-timer — er zijn geen werk-/pauzecycli of sessietellingen. Je start één aftelling (met voorinstellingen zoals 15/25/30/45/60/90/120 minuten, of een aangepaste lengte) voor de taak waaraan je werkt, en de taak wordt als voltooid gemarkeerd zodra de timer op nul staat.',
         },
         {
           question: 'Kun je met TickTick ook aan time-boxing doen zoals met Chrobox?',
@@ -431,6 +431,221 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Welke app is beter voor studenten?',
           answer: 'Beide apps zijn zeer geschikt voor studenten. De gewoonte-tracker van TickTick is ideaal voor het opbouwen van studiegewoontes, terwijl de time-boxing van Chrobox je helpt om studiesessies realistisch in te plannen, zodat je alle vakken kunt behandelen zonder in tijdnood te komen.',
+        },
+      ],
+    },
+    'chrobox-vs-structured': {
+      competitor: 'Structured',
+      tagline: 'Chrobox vs Structured: App-blokkering vs Apple-ecosysteemtijdlijn',
+      description: 'Structured vormt een gepolijste visuele tijdlijnplanner die diep verweven zit met Apple-apparaten, met een gratis niveau en AI-autoplanning op Pro. Chrobox werkt alleen op de telefoon en voegt automatische app-blokkering toe tijdens elk tijdsblok, maar heeft geen gratis plan en geen Mac-, Watch- of webapp.',
+      metaDescription: 'Chrobox vs Structured: app-blokkering op elk tijdsblok versus een gratis Apple-ecosysteemtijdlijnplanner met AI-planning. Bekijk de echte afwegingen.',
+      featureNames: [
+        'App-blokkering',
+        'Gratis plan',
+        'Tijdlijn / Time-blocking',
+        'Mac / Apple Watch-app',
+        'AI-autoplanning',
+        'Routine-/gewoontereeksen',
+        'Focustimer',
+        'Dagelijkse retrospectief',
+      ],
+      chroboxPros: [
+        'Blokkeert automatisch de apps die je kiest, voor precies de duur van elk tijdsblok',
+        'Routines dragen reeksen, een heatmap van 90 dagen en statistieken per routine met zich mee',
+        'Dagelijkse en wekelijkse AI-analyse van je afgeronde taken, stemming en gewoontes',
+        'Dagelijkse retrospectief met stemmingsscore en optionele spraakdictatie',
+      ],
+      competitorPros: [
+        'Gratis niveau omvat de tijdlijn, inbox, subtaken, notities en widgets zonder abonnement',
+        'Native apps op Mac, Apple Watch, Vision Pro en het web, niet alleen op telefoons',
+        '4,8 sterren met ongeveer 167.000 beoordelingen in de App Store, een van de meest beoordeelde planners (per september 2026)',
+        'Pro voegt import van agenda\'s en herinneringen, Structured AI en Replan toe aan een Apple-first workflow',
+      ],
+      verdict: 'Kies voor Structured als je leeft tussen Mac, Apple Watch en iPhone en een gratis tijdlijnplanner wilt met Apple-native afwerking. Kies voor Chrobox als je specifiek wilt dat je geplande tijd ook afleidende apps vergrendelt, plus routines en dagelijkse reflectie, en je hem alleen op je telefoon nodig hebt.',
+      faqs: [
+        {
+          question: 'Vormt Chrobox een goed alternatief voor Structured?',
+          answer: 'Chrobox vormt een goed alternatief als je van Structured de tijdlijn wilt plus iets wat Structured niet doet: automatisch afleidende apps blokkeren tijdens elk tijdsblok. Het vervangt Structured niet als je het gratis niveau daarvan nodig hebt of de Mac-, Apple Watch- of webapps ervan, aangezien Chrobox alleen op de telefoon werkt en alleen voor Pro bedoeld is.',
+        },
+        {
+          question: 'Waarin verschillen Chrobox en Structured?',
+          answer: 'Structured vormt een gratis, platformoverstijgende tijdlijnplanner die diep ingebed zit in het Apple-ecosysteem (Mac, Apple Watch, Vision Pro) met AI-planning in het Pro-niveau. Chrobox draait alleen op de telefoon en alleen op abonnement, waarbij de geplande tijdsblokken ook automatisch gekozen apps kunnen blokkeren, en voegt routinereeksen en een dagelijkse stemmingsretrospectief toe.',
+        },
+        {
+          question: 'Blokkeert Structured afleidende apps zoals Chrobox?',
+          answer: 'Nee, app-blokkering maakt geen deel uit van de gedocumenteerde functieset van Structured. Structured richt zich op het samenvoegen van taken en agenda-afspraken in één visuele tijdlijn; wil je apps blokkeren tijdens focustijd, dan gaat het om een functie die specifiek bij Chrobox hoort.',
+        },
+      ],
+    },
+    'chrobox-vs-tiimo': {
+      competitor: 'Tiimo',
+      tagline: 'Chrobox vs Tiimo: App-blokkering vs Planning gericht op Neurodivergentie',
+      description: 'Tiimo is een visuele, pictogramgebaseerde AI-planner die specifiek is gebouwd voor ondersteuning bij ADHD en autisme op het gebied van executieve functies, en werd uitgeroepen tot Apples iPhone App van het Jaar 2025. Chrobox is een timeboxing-app voor algemeen gebruik op telefoons die automatische app-blokkering toevoegt tijdens elk tijdsblok, maar mist het ADHD-specifieke ontwerp en gratis niveau van Tiimo.',
+      metaDescription: 'Chrobox vs Tiimo: timeboxing met app-blokkering versus een op ADHD/autisme gerichte visuele planner met AI. Vergelijk functies eerlijk voordat je overstapt.',
+      featureNames: [
+        'App-blokkering',
+        'Gratis plan',
+        'Visuele tijdlijn',
+        'Agenda-import',
+        'AI-planning',
+        'Routine-/gewoontereeksen',
+        'Stemming bijhouden / reflectie',
+        'Mac- / webapp',
+      ],
+      chroboxPros: [
+        'Blokkeert automatisch de apps die je kiest, voor precies de duur van elk tijdsblok',
+        'Focustimer met voorinstellingen van 15 tot 120 minuten, getoond in de Live Activity / Dynamic Island',
+        'Dagelijkse en wekelijkse AI-analyse van taken, gewoontes en stemming, met een deelbare wekelijkse AI-titel',
+        'Routinereeksen en een voltooiingsheatmap van 90 dagen',
+      ],
+      competitorPros: [
+        'Specifiek ontworpen voor executieve-functiebehoeften bij ADHD en autisme, uitgeroepen tot Apples iPhone App van het Jaar 2025',
+        'Beperkt gratis niveau op iOS en Android, plus een Pro-abonnement met een proefperiode van 7 dagen bij jaarlijkse facturering',
+        'Agenda-import vanuit Google, Apple en Outlook',
+        'Mac (Apple Silicon), Apple Watch, Vision Pro en webapps naast telefoons, en 4,6 sterren met ongeveer 20.000 beoordelingen (per september 2026)',
+      ],
+      verdict: 'Kies voor Tiimo als je specifiek op ADHD/autisme gerichte visuele planning nodig hebt, gratis wilt beginnen, of een Mac of Apple Watch gebruikt. Kies voor Chrobox als je een eenvoudige timeboxing-app wilt die ook afleidende apps blokkeert tijdens je geplande werk, en je er geen moeite mee hebt om alleen vanaf je telefoon te plannen.',
+      faqs: [
+        {
+          question: 'Is Chrobox een goed alternatief voor Tiimo?',
+          answer: 'Chrobox is een redelijk alternatief als je algemene timeboxing wilt met automatische app-blokkering, aangezien Tiimo geen apps blokkeert. Het is geen vervanging voor het ADHD/autisme-specifieke visuele ontwerp, het gratis niveau, of de Mac- en Apple Watch-apps van Tiimo, die Chrobox niet heeft.',
+        },
+        {
+          question: 'Wat is het verschil tussen Chrobox en Tiimo?',
+          answer: 'Tiimo is een pictogramgebaseerde visuele planner die speciaal is gebouwd voor ondersteuning van neurodivergente executieve functies, met een beperkt gratis niveau en apps op Mac, Apple Watch, Vision Pro en het web. Chrobox is een timeboxing-app die alleen op de telefoon en alleen op abonnement werkt, waarvan het belangrijkste structurele verschil automatische app-blokkering is, gekoppeld aan elk gepland tijdsblok.',
+        },
+        {
+          question: 'Blokkeert Tiimo afleidende apps zoals Chrobox?',
+          answer: 'Nee, app-blokkering maakt geen deel uit van de gedocumenteerde functies van Tiimo. Tiimo richt zich op visuele, AI-ondersteunde planning en agenda-import; als je wilt dat je geplande tijd ook afleidende apps vergrendelt, is dat een functie die specifiek is voor Chrobox.',
+        },
+      ],
+    },
+    'chrobox-vs-sunsama': {
+      competitor: 'Sunsama',
+      tagline: 'Chrobox vs Sunsama: Timeboxing op de Telefoon vs Platformoverstijgende Werkhub',
+      description: 'Sunsama vormt een web-first dagelijkse planner voor professionals die taken binnenhaalt vanuit tools zoals Asana, Notion, Slack en Gmail, met echte tweerichtingsagendasynchronisatie en een gestructureerd dagelijks afsluitritueel. Chrobox werkt alleen op de telefoon, zonder taaktool-integraties of agendasynchronisatie, maar voegt automatische app-blokkering en een focustimer toe die aan elk tijdsblok gekoppeld zit.',
+      metaDescription: 'Chrobox vs Sunsama: timeboxing alleen op de telefoon met app-blokkering versus een web-first planner met diepgaande integraties en agendasynchronisatie.',
+      featureNames: [
+        'Integraties met taaktools',
+        'Tweerichtingsagendasynchronisatie',
+        'Mac- / Windows- / Webapp',
+        'App-blokkering',
+        'Gratis plan',
+        'Dagelijkse review / retrospectief',
+        'Gratis proefperiode',
+        'Routine-/gewoontereeksen',
+      ],
+      chroboxPros: [
+        'Blokkeert automatisch de apps die je kiest, voor precies de duur van elk tijdsblok, iets wat Sunsama niet doet',
+        'Handmatige focustimer met voorinstellingen, direct gekoppeld aan elke taak, getoond in de Live Activity / Dynamic Island',
+        'Routines met reeksen, een heatmap van 90 dagen en statistieken per routine',
+        'Dagelijkse retrospectief met een stemmingsscore van 5 niveaus en optionele spraakdictatie',
+      ],
+      competitorPros: [
+        'Haalt taken binnen vanuit Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello en meer',
+        'Echte tweerichtingsagendasynchronisatie met Google en Outlook',
+        'Werkt op het web, macOS, Windows en Linux, naast telefoons, dus niet alleen op de telefoon',
+        'Een gestructureerd dagelijks afsluitritueel met hoogtepunten en wekelijkse doelen; 20 dollar per maand of 16 dollar per maand bij jaarlijkse facturering, met een gratis proefperiode van 14 dagen (per september 2026)',
+      ],
+      verdict: 'Kies voor Sunsama als je werk al verspreid zit over tools zoals Notion, Slack en Asana en je tweerichtingsagendasynchronisatie op een laptop nodig hebt. Kies voor Chrobox als je vooral op je telefoon plant en wilt dat je geplande tijd ook afleidende apps blokkeert, zonder dat er integraties nodig zijn.',
+      faqs: [
+        {
+          question: 'Vormt Chrobox een goed alternatief voor Sunsama?',
+          answer: 'Chrobox vormt alleen een goed alternatief als je niet afhankelijk bent van de integraties of agendasynchronisatie van Sunsama. Chrobox heeft geen koppelingen met taaktools zoals Notion, Slack of Asana en geen tweerichtingsagendasynchronisatie, dus gebruik je Sunsama daarvoor, dan zal Chrobox het niet vervangen. Als je vooral een eenvoudige, op de telefoon gebaseerde planning wilt die ook afleidende apps blokkeert, dekt Chrobox dat.',
+        },
+        {
+          question: 'Waarin verschillen Chrobox en Sunsama?',
+          answer: 'Sunsama vormt een web-first planner die verbinding maakt met je andere werktools en synchroniseert twee kanten op met je agenda, en werkt op het web, Mac, Windows en Linux plus telefoons. Chrobox werkt alleen op de telefoon, zonder integraties of agendasynchronisatie, maar voegt automatische app-blokkering en een handmatige focustimer toe die aan elk tijdsblok gekoppeld zit.',
+        },
+        {
+          question: 'Synchroniseert Chrobox met Google Agenda zoals Sunsama?',
+          answer: 'Nee. Chrobox toont alleen tijdgebonden gebeurtenissen uit de agenda\'s die al op je telefoon staan en kan zijn eigen blokken kopiëren naar één gekozen telefoonagenda; het heeft geen directe Google Agenda-API-koppeling of tweerichtingssynchronisatie. Sunsama heeft echte tweerichtingssynchronisatie met Google en Outlook.',
+        },
+      ],
+    },
+    'chrobox-vs-opal': {
+      competitor: 'Opal',
+      tagline: 'Chrobox vs Opal: Geplande Blokkering vs Altijd-Actieve Schermtijdcontrole',
+      description: 'Opal vormt een speciale tool voor schermtijd en app-blokkering met een strikte Hard Mode die je midden in een sessie niet kunt uitschakelen, plus een gratis niveau. Chrobox draait in de eerste plaats om timeboxing en blokkeert de apps die je kiest alleen tijdens de tijdsblokken die je inplant, zonder equivalent van Opals altijd-actieve Hard Mode en zonder gratis plan.',
+      metaDescription: 'Chrobox vs Opal: schemagestuurde app-blokkering met een volledige dagplanner versus een speciale, altijd-actieve blokkeerder met een gratis niveau.',
+      featureNames: [
+        'Volledige dagtijdlijn / planner',
+        'App-blokkering',
+        'Altijd-actieve blokkeermodus',
+        'Gratis plan',
+        'Taakplanning',
+        'Focustimer',
+        'Gewoonte-/gebruiksregistratie',
+        'AI-planning',
+      ],
+      chroboxPros: [
+        'Een volledige dagtijdlijn die eerst taken plant en vervolgens automatisch app-blokkering koppelt aan specifieke tijdsblokken',
+        'AI-taaksuggesties en AI-tijdsplaatsing op basis van je afgeronde taken van de afgelopen 7 dagen',
+        'Routinereeksen en een heatmap van 90 dagen naast de blokkering, niet alleen gebruiksstatistieken',
+        'Dagelijkse en wekelijkse AI-analyse van taken, gewoontes en stemming',
+      ],
+      competitorPros: [
+        'Hard Mode-blokkering die midden in een sessie niet kan worden uitgeschakeld, plus een Alleen-toestaan-modus, voor mensen die een blokkering nodig hebben die ze echt niet kunnen omzeilen',
+        'Gratis plan met één regel elk voor schema\'s, tijdslimieten en open limieten',
+        '4,7 sterren met ongeveer 89.000 beoordelingen, een van de meest beoordeelde blokkeer-apps (per september 2026)',
+        'Pro voor 19,99 dollar per maand (proefperiode van 3 dagen), 99,99 dollar per jaar (proefperiode van 1 week), of 399 dollar levenslang, met duidelijke gebruiksrapportage (per september 2026)',
+      ],
+      verdict: 'Kies voor Opal als je een blokkering nodig hebt die zo strikt aanvoelt dat hij midden in een sessie niet kan worden uitgeschakeld, of gratis wilt beginnen. Kies voor Chrobox als je wilt dat blokkering automatisch gebeurt als bijproduct van het plannen van je hele dag, met taken, routines en reflectie ingebouwd.',
+      faqs: [
+        {
+          question: 'Vormt Chrobox een goed alternatief voor Opal?',
+          answer: 'Chrobox vormt een goed alternatief als je eigenlijk een planner wilt die ook apps blokkeert tijdens gepland werk, in plaats van een speciale blokkeerder. Het vervangt de Hard Mode van Opal niet, die niet kan worden uitgeschakeld midden in een sessie en strikter aanvoelt dan alles wat Chrobox biedt, en Chrobox heeft geen gratis plan terwijl Opal dat wel heeft.',
+        },
+        {
+          question: 'Waarin verschillen Chrobox en Opal?',
+          answer: 'Opal vormt een speciale schermtijdblokkeerder met een gratis plan en een Hard Mode die niet kan worden uitgeschakeld zodra hij eenmaal gestart is. Chrobox vormt een timeboxing-planner waarbij app-blokkering gekoppeld zit aan de tijdsblokken die je inplant voor taken en routines, en die samengaat met taakplanning, routines en AI-analyse, maar alleen voor Pro bedoeld is.',
+        },
+        {
+          question: 'Heeft Chrobox een Hard Mode zoals Opal?',
+          answer: 'Nee. Chrobox blokkeert de apps die je kiest alleen voor de duur van een gepland tijdsblok, met behulp van Apples Screen Time API op iOS of een toegankelijkheidsoverlay op Android, en er bestaat geen altijd-actieve modus die weerstand biedt tegen uitschakelen midden in een sessie zoals de Hard Mode van Opal dat doet.',
+        },
+      ],
+    },
+    'chrobox-vs-forest': {
+      competitor: 'Forest',
+      tagline: 'Chrobox vs Forest: Timeboxing voor de Hele Dag vs Gegamificeerde Focussessies',
+      description: 'Forest vormt een gratis, gegamificeerde focustimer die een virtuele boom laat groeien terwijl je van je telefoon wegblijft, met app-blokkering en groepsfocussessies ingebouwd in het gratis niveau. Chrobox plant je hele dag in tijdsblokken met routines en reflectie, en blokkeert apps die aan die blokken gekoppeld zitten, maar heeft geen gamification en geen gratis plan.',
+      metaDescription: 'Chrobox vs Forest: timeboxing voor de hele dag met app-blokkering versus een gratis, gegamificeerde focustimer met groepssessies en echte bomen.',
+      featureNames: [
+        'Gratis plan',
+        'Volledige dagtijdlijn / planner',
+        'App-blokkering',
+        'Gamification (bomen, beloningen)',
+        'Focustimer',
+        'Groeps-/gedeelde focus',
+        'Routine-/gewoontereeksen',
+        'AI-planning',
+      ],
+      chroboxPros: [
+        'Plant je hele dag in tijdsblokken in plaats van alleen individuele focussessies te timen',
+        'App-blokkering zit automatisch gekoppeld aan specifieke taken en routines, in plaats van te starten als een aparte sessie',
+        'Routines met reeksen, een heatmap van 90 dagen en statistieken per routine',
+        'AI-taaksuggesties, AI-tijdsplaatsing en dagelijkse/wekelijkse AI-analyse',
+      ],
+      competitorPros: [
+        'De gratis kernervaring omvat de focustimer, Deep Focus app-blokkering, groepsfocus en basisanalyses',
+        'Gegamificeerde motivatie: een virtuele boom groeit terwijl je gefocust blijft, met echte bomen geplant via Trees for the Future',
+        'Groepsfocussessies (\'Plant Together\') om samen met vrienden van je telefoon weg te blijven',
+        'Meer dan 60 miljoen downloads (eigen claim) en 4,8 sterren met ongeveer 49.000 beoordelingen (per september 2026)',
+      ],
+      verdict: 'Kies voor Forest als je een gratis, motiverende manier wilt om tijdens individuele focussessies van je telefoon weg te blijven, vooral met vrienden. Kies voor Chrobox als je je hele dag in tijdsblokken wilt plannen, met app-blokkering, routines en reflectie opgebouwd rond dat schema in plaats van rond losse sessies.',
+      faqs: [
+        {
+          question: 'Vormt Chrobox een goed alternatief voor Forest?',
+          answer: 'Chrobox vormt een goed alternatief als je app-blokkering wilt als onderdeel van het plannen van een volledige dag met taken, in plaats van als een losstaande sessietimer. Het vervangt het gratis niveau van Forest niet, noch de gegamificeerde boom-groei-motivatie, noch de groepsfocussessies, waarvan Chrobox er geen heeft.',
+        },
+        {
+          question: 'Waarin verschillen Chrobox en Forest?',
+          answer: 'Forest vormt een gratis, gegamificeerde focustimer waarbij van je telefoon wegblijven een virtuele boom laat groeien, en het bevat app-blokkering en groepssessies in het gratis niveau. Chrobox vormt een planner die alleen voor Pro en alleen op de telefoon werkt, je hele dag in tijdsblokken indeelt, app-blokkering koppelt aan die blokken en routines, en AI-planning en een dagelijkse stemmingsretrospectief toevoegt, maar heeft geen gamification of groepsfuncties.',
+        },
+        {
+          question: 'Heeft Chrobox een gratis plan zoals Forest?',
+          answer: 'Nee. Chrobox kun je gratis downloaden, maar het vereist Chrobox Pro om te gebruiken, te beginnen met een gratis proefperiode van 3 dagen voor nieuwe abonnees op maand- of jaarplannen. Forest biedt een echt gratis kernervaring, inclusief de focustimer en Deep Focus app-blokkering.',
         },
       ],
     },
@@ -568,15 +783,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Wat is de beste gratis time-boxing-app?',
-          answer: 'Chrobox biedt een royaal gratis abonnement met de belangrijkste time-boxing-functies. Voor de meeste gebruikers biedt de gratis versie alles wat nodig is om een solide time-boxing-gewoonte op te bouwen.',
+          answer: 'Chrobox heeft geen gratis abonnement — de app is gratis te downloaden, maar vereist Chrobox Pro, dat begint met een gratis proefperiode van 3 dagen. Wil je een volledig gratis time-boxing-optie, dan kost handmatig time-blocking in Google Calendar niets, al mist het de taakregistratie, focustimer en appblokkering van Chrobox.',
         },
         {
           question: 'Welke time-boxing-app werkt op zowel iPhone als Android?',
-          answer: 'Chrobox is beschikbaar voor zowel iOS als Android met realtime synchronisatie, wat het ideaal maakt voor gebruikers die tussen apparaten wisselen of taken delen met teamleden.',
+          answer: 'Chrobox is beschikbaar voor zowel iPhone als Android. Je planning, routines en statistieken synchroniseren via je account tussen je apparaten, waardoor je gemakkelijk kunt wisselen tussen telefoons.',
         },
         {
           question: 'Integreren time-boxing-apps met agenda\'s?',
-          answer: 'Veel toonaangevende time-boxing-apps, waaronder Chrobox, ondersteunen agenda-integratie, zodat je tijdsblokken automatisch synchroniseren met Google Calendar of Apple Calendar.',
+          answer: 'Sommige time-boxing-apps, waaronder Chrobox, bieden agenda-integratie: Chrobox toont tijdgebonden gebeurtenissen uit de agenda\'s op je telefoon (inclusief een Google-account dat je aan je telefoon hebt toegevoegd) naast je tijdsblokken, en kan je Chrobox-blokken optioneel kopiëren naar één agenda op je telefoon. Dit is geen tweerichtingssynchronisatie met de Google Calendar- of Apple Calendar-API\'s.',
         },
       ],
     },
@@ -1051,6 +1266,116 @@ export const pack: LocalizedContentPack = {
         {
           question: 'Is een digitale detox hetzelfde als deep work?',
           answer: 'Ze overlappen elkaar, maar zijn niet identiek. Een digitale detox draait om het verminderen van je totale schermtijd en meldingen om achtergrondstress te verlagen en je aandachtsspanne terug te krijgen. Deep work gaat over het beschermen van specifieke tijdsblokken voor cognitief veeleisende taken. Een realistische focusroutine gebruikt gewoontes uit de digitale detox (telefoonvrije ochtenden, het blokkeren van afleidende apps) om makkelijker in deep work-sessies te komen en deze vol te houden.',
+        },
+      ],
+    },
+    'does-timeboxing-work': {
+      title: 'Werkt Timeboxing? Voltooiingsdata van 5.077 Geplande Taken',
+      excerpt: 'Taken met een tijdslot werden in 48,1% van de gevallen voltooid; taken die alleen op de lijst stonden, in 17,6%. Eigen data van 5.077 taken, gepland door 250 Chrobox-gebruikers, met methodologie en beperkingen.',
+      faqs: [
+        {
+          question: 'Werkt timeboxing echt?',
+          answer: 'In de gebruiksdata van Chrobox werden taken met een starttijd en een duur in 48,1% van de gevallen voltooid, tegenover 17,6% voor taken die zonder tijdslot op de lijst bleven staan — ongeveer 2,7 keer zo vaak (5.077 taken van 250 mensen, december 2025 tot september 2026). Het verschil bleef staan wanneer dezelfde mensen met zichzelf werden vergeleken: 35 van de 41 gebruikers voltooiden meer van hun getimeboxte taken. Dit betreft observationele data, dus het toont een sterk verband en geen bewijs van oorzakelijkheid.',
+        },
+        {
+          question: 'Wat is de beste lengte voor een timebox?',
+          answer: 'De voltooiing bleef dicht bij 50% voor blokken tot 90 minuten en zakte naar ongeveer 44–45% voor blokken langer dan 90 minuten. 60 minuten vormde de meest voorkomende lengte (51% van de blokken), deels omdat dit de standaardinstelling wordt zodra een taak op een uur geplaatst wordt in Chrobox. Een praktische vuistregel uit de data: houd blokken op 90 minuten of korter en splits alles wat langer duurt.',
+        },
+        {
+          question: 'Op welk moment van de dag worden geplande taken het vaakst afgerond?',
+          answer: 'Vroege blokken werden het vaakst afgerond. Timeboxen die begonnen tussen 5:00 en 8:59 uur werden in 62,3% van de gevallen voltooid, en dat percentage daalde gestaag gedurende de dag tot 33,2% voor blokken die tussen 21:00 en 23:59 uur begonnen. Als er één taak per se vandaag af moet, plan die dan vóór de middag.',
+        },
+        {
+          question: 'Hoeveel taken moet ik per dag plannen?',
+          answer: 'De mediane dag in de data had 5 geplande taken. Dagen met 6 tot 8 taken hadden de hoogste gemiddelde voltooiing (42,7%), terwijl dagen met 9 of meer taken de hele lijst maar één keer in 198 dagen (0,5%) volledig afrondden. Meer dan ongeveer acht taken plannen maakt een volledig afgeronde dag zeer onwaarschijnlijk.',
+        },
+      ],
+    },
+    'how-to-lock-apps-on-iphone': {
+      title: 'Apps Vergrendelen op iPhone: 3 Methoden (Face ID-vergrendeling, Schermtijdlimieten, Geplande Blokkering)',
+      excerpt: 'Drie echte manieren om apps op je iPhone te vergrendelen: Face ID app-vergrendeling voor privacy, App-limieten via Schermtijd voor dagelijkse maxima, en geplande blokkering voor specifieke uren, met een vergelijkingstabel.',
+      faqs: [
+        {
+          question: 'Hoe vergrendel ik apps op mijn iPhone?',
+          answer: 'Er zijn drie aparte opties, afhankelijk van je doel. Gebruik Face ID vereisen of Verbergen en Face ID vereisen (iOS 18 en later, te vinden door het app-icoon lang ingedrukt te houden) als je een app privé wilt houden voor anderen. Gebruik App-limieten via Schermtijd als je zelf wilt beperken hoeveel minuten per dag je in een app doorbrengt. Gebruik geplande blokkering, via Schermtijd-downtime of een app zoals Chrobox, als je bepaalde apps alleen tijdens specifieke uren wilt blokkeren, zoals tijdens het werken.',
+        },
+        {
+          question: 'Zorgt het vergrendelen van een app met Face ID ervoor dat ik hem niet te veel gebruik?',
+          answer: 'Nee. Face ID app-vergrendeling voegt alleen een authenticatiestap toe voordat de app opent; zodra je jezelf hebt geverifieerd met je eigen gezicht, heb je volledige toegang. Het beschermt je privacy tegen anderen die je telefoon oppakken, maar het doet niets om je eigen gebruik te verminderen, omdat je hem altijd zelf kunt ontgrendelen.',
+        },
+        {
+          question: 'Kan ik een Schermtijdlimiet die ik zelf heb ingesteld omzeilen?',
+          answer: 'Ja, gemakkelijk zelfs, tenzij je één extra stap zet. Wanneer een zelf ingestelde limiet is bereikt, toont iOS een knop \'Limiet voor vandaag negeren\' waarmee de beperking met één tik wordt opgeheven. Om een limiet echt te laten standhouden, stel je een Schermtijdcode in via Instellingen, Schermtijd, Schermtijdcode gebruiken, en laat je iemand anders dan jijzelf die code weten.',
+        },
+        {
+          question: 'Wat is het verschil tussen App-limieten en Downtime in Schermtijd?',
+          answer: 'App-limieten beperken specifieke apps of categorieën tot een aantal minuten per dag en kunnen optioneel de app blokkeren zodra de tijd op is. Downtime blokkeert in plaats daarvan bijna alles volgens een schema, bijvoorbeeld elke avond of een aangepaste reeks uren, en staat alleen apps toe die je expliciet als altijd toegestaan hebt gemarkeerd. Downtime lijkt meer op geplande, tijdgebonden blokkering, terwijl App-limieten meer op een dagelijks gebruiksbudget lijken.',
+        },
+      ],
+    },
+    'how-to-stop-checking-phone-while-studying': {
+      title: 'Stoppen met je Telefoon Checken Tijdens het Studeren: Een Praktische Routine',
+      excerpt: 'Een praktische routine om te stoppen met je telefoon checken tijdens het studeren: fysieke afstand, geplande app-blokkering en vaste tijdsblokken, onderbouwd met onderzoek en eigen voltooiingsdata.',
+      faqs: [
+        {
+          question: 'Hoe stop ik met mijn telefoon checken tijdens het studeren?',
+          answer: 'Combineer drie dingen: houd je telefoon fysiek buiten bereik in plaats van hem alleen met het scherm naar beneden neer te leggen, blokkeer de specifieke apps die je afleiden alleen tijdens je studiesessies met Schermtijd, de Focus-modus van Digital Wellbeing, of een app zoals Chrobox, en studeer in vaste tijdsblokken met een duidelijk doel voor elk blok in plaats van open "studietijd". Door alle drie te doen, verdwijnt de herhaalde beslissing van dat moment zelf om je telefoon te checken.',
+        },
+        {
+          question: 'Helpt het om mijn telefoon gewoon met het scherm naar beneden naast me te leggen?',
+          answer: 'Minder dan je zou denken. Een onderzoek uit 2017 van Ward, Duke, Gneezy en Bos toonde aan dat de enkele aanwezigheid van iemands eigen smartphone de beschikbare cognitieve capaciteit verminderde, zelfs wanneer die uit stond en niet werd aangeraakt. Echte afstand creëren tussen jou en je telefoon, zoals een andere kamer of een gesloten tas, werkt beter dan hem met het scherm naar beneden op hetzelfde bureau te leggen.',
+        },
+        {
+          question: 'Wat is een goede lengte voor een studietimebox?',
+          answer: 'Een studieblok van 50 minuten gevolgd door een pauze van 10 minuten is een gangbaar, redelijk startpunt, maar het is een persoonlijke keuze en geen vaste regel of een Pomodoro-functie die in een specifieke app is ingebouwd. Kortere blokken van bijvoorbeeld 30 minuten kunnen beter werken voor dichte of moeilijke stof, terwijl langere blokken van rond de 90 minuten geschikter kunnen zijn voor lees- of schrijftaken die op gang moeten komen.',
+        },
+        {
+          question: 'Kan ik afleidende apps blokkeren tijdens het studeren zonder iets nieuws te installeren?',
+          answer: 'Ja. Op de iPhone gebruik je Schermtijd-downtime, ingepland voor je studie-uren, of een App-limiet op specifieke apps, met een Schermtijdcode die iemand anders bewaart zodat je hem niet gemakkelijk kunt omzeilen. Op Android zoek je naar de Focus-modus van Digital Wellbeing onder Instellingen, dan Digital Wellbeing en ouderlijk toezicht, al verschilt de exacte menutekst per telefoonmerk. Een planningsapp zoals Chrobox kan dit automatiseren door de blokkering direct te koppelen aan je studietijdsblokken.',
+        },
+      ],
+    },
+    'reduce-phone-addiction': {
+      title: 'Telefoonverslaving Verminderen: Een Plan in 7 Stappen om je Schermtijd te Verlagen',
+      excerpt: 'Een praktisch, niet-klinisch plan in 7 stappen om compulsief telefoongebruik en schermtijd te verminderen, met ingebouwde tools plus geplande focusblokken.',
+      faqs: [
+        {
+          question: 'Hoe verminder ik telefoonverslaving?',
+          answer: 'Begin met het meten van je werkelijke schermtijd en het aantal keren dat je je telefoon oppakt, via het ingebouwde dashboard van je telefoon, en verwijder vervolgens de gemakkelijkste triggers: zet niet-essentiële meldingen uit, voeg wrijving toe aan je ergste apps en vervang lukraak checken door een geplande activiteit. Het blokkeren van je meest afleidende apps tijdens specifieke focusperiodes, in plaats van in één keer volledig te stoppen, werkt doorgaans beter omdat het geen constante wilskracht vereist.',
+        },
+        {
+          question: 'Vormt telefoonverslaving een echte diagnose?',
+          answer: 'Compulsief telefoongebruik vormt een veelvoorkomend gedragspatroon, geen formele medische diagnose in de meeste classificatiesystemen. Deze gids behandelt het als een alledaags gewoonteprobleem dat je kunt aanpakken met bijhouden en wrijving. Als telefoongebruik je werk, relaties, slaap of stemming ernstig verstoort, loont het om met een arts of therapeut te praten in plaats van alleen op zelfhulpstappen te vertrouwen.',
+        },
+        {
+          question: 'Wat is de snelste manier om schermtijd te verlagen?',
+          answer: 'Het uitzetten van niet-essentiële meldingen en het verwijderen van je top 2 à 3 meest afleidende apps van je startscherm levert meestal de snelste zichtbare daling in dagelijkse schermtijd op, vaak al binnen de eerste week, omdat dit de triggers wegneemt die je aandacht trekken zonder dat je bewust besluit je telefoon te pakken.',
+        },
+        {
+          question: 'Werken apps om je telefoon te blokkeren echt?',
+          answer: 'Blokkeren werkt het beste wanneer het beperkt blijft tot specifieke tijden in plaats van altijd actief te zijn, omdat een altijd-actieve blokkering wordt uitgeschakeld zodra je de app een keer legitiem nodig hebt. Tools die afleidende apps alleen blokkeren tijdens een geplande focusperiode, zoals Chrobox doet voor de duur van een getimeboxte taak, houden beter stand omdat de beperking een duidelijk eindtijdstip heeft.',
+        },
+      ],
+    },
+    'daily-reflection-template': {
+      title: 'Dagelijks Reflectiesjabloon: 4 Kant-en-klare Formats (Inclusief KPT)',
+      excerpt: 'Vier direct bruikbare sjablonen voor dagelijkse reflectie, van een reflectie van 2 minuten in 3 regels tot KPT en een plan-versus-werkelijkheid-check voor getimeboxte dagen.',
+      faqs: [
+        {
+          question: 'Hoe schrijf ik een dagelijkse reflectie?',
+          answer: 'De eenvoudigste manier is een reflectie van 3 regels: één regel voor wat goed ging, één voor wat niet goed ging, en één concreet punt om morgen te proberen. Het kost minder dan twee minuten, wat kort genoeg is om elke dag vol te houden, en het werkt voor elke dag omdat het weinig structuur of energie vraagt om in te vullen.',
+        },
+        {
+          question: 'Wat is een KPT-reflectiesjabloon?',
+          answer: 'KPT staat voor Keep, Problem, Try: wat werkte en zou moeten worden voortgezet, wat niet werkte, en één concrete verandering om vervolgens te proberen. Het komt uit agile team-retrospectives, maar werkt ook goed voor één persoon die één dag evalueert, vooral wanneer je actief probeert een specifieke gewoonte of routine na verloop van tijd te verbeteren.',
+        },
+        {
+          question: 'Wat is het beste dagelijkse reflectiesjabloon voor getimeboxte dagen?',
+          answer: 'Een plan-versus-werkelijkheid-check werkt het beste als je je dag in tijdsblokken indeelt: noteer hoeveel blokken je had gepland, hoeveel je er daadwerkelijk hebt afgerond, waarom de rest niet lukte, en één verandering voor het plan van morgen. Dit laat zien of het plan zelf aanpassing nodig heeft, iets wat een stemmingsscore alleen je niet vertelt.',
+        },
+        {
+          question: 'Wat is de grootste fout die mensen maken bij dagelijkse reflectie?',
+          answer: 'De meest voorkomende fouten zijn: van de reflectie een lijst met zelfkritiek maken, zo veel schrijven dat je nooit meer teruggaat om eerdere notities te herlezen, en de gewoonte helemaal overslaan op slechte dagen, terwijl juist dan een korte notitie het meest waardevol is. Elke negatieve observatie koppelen aan één vooruitkijkende actie helpt de eerste fout te vermijden, en notities kort houden helpt bij de andere twee.',
         },
       ],
     },
@@ -2422,9 +2747,9 @@ Wij bouwen Chrobox, een time-boxing-app — dus ja, die staat op deze lijst. Maa
 
 Chrobox is gebouwd rond de volledige time-boxingcyclus in plaats van rond een agenda met extra functies: taken brainstormen, prioriteiten kiezen, ze in uurblokken op een visuele tijdlijn zetten en de dag afsluiten met een begeleide terugblik die weekelijkse AI-analyse voedt. Het is ook een van de weinige planners die **appblokkering** koppelt aan je timeboxen — afleidende apps worden precies tijdens geplande deep work vergrendeld.
 
-**Sterke punten:** complete cyclus plannen→focussen→terugblikken, appblokkering gekoppeld aan boxen, widgets en Live Activity-timer, 21 talen
+**Sterke punten:** complete cyclus plannen→focussen→terugblikken, appblokkering gekoppeld aan boxen, widgets en Live Activity-timer, 54 talen
 **Zwakke punten:** alleen mobiel (geen desktop-app), geen teamfuncties
-**Prijs:** gratis abonnement (3 taken/dag); Pro vanaf $4,99/maand, $99,99 eenmalig (lifetime)
+**Prijs:** gratis proefperiode van 3 dagen; Pro-abonnement of eenmalige lifetime-aankoop
 
 ### 2. Sunsama — beste voor professionals met een volle agenda (web, desktop, mobiel)
 
@@ -2450,7 +2775,7 @@ TickTick is in de eerste plaats een takenbeheerder, maar de tijdlijnweergave en 
 **Zwakke punten:** time-boxing is bijzaak; geen planningsritueel of terugblikcyclus
 **Prijs:** solide gratis versie; premium ongeveer $36/jaar
 
-### 5. Structured — beste visuele eenvoud (iOS, Android, Mac)
+### 5. Structured — beste visuele eenvoud (iOS, Android, Mac, Watch, Web)
 
 Structured maakt van je dag een overzichtelijke verticale tijdlijn en wordt gewaardeerd om de zachte leercurve. Geweldig voor studenten en visuele denkers; minder compleet als je statistieken of afdwinging wilt.
 
@@ -2458,13 +2783,13 @@ Structured maakt van je dag een overzichtelijke verticale tijdlijn en wordt gewa
 **Zwakke punten:** weinig analyses, geen appblokkering
 **Prijs:** gratis versie; Pro-abonnement of lifetime
 
-### 6. Tiimo — beste voor planners met ADHD en neurodivergentie (iOS, Android)
+### 6. Tiimo — beste voor planners met ADHD en neurodivergentie (iOS, Android, Mac, Watch)
 
 Tiimo is ontworpen met en voor neurodivergente gebruikers: visuele schema's, routines op basis van iconen en zachte overgangsmeldingen in plaats van schuldgevoel oproepende vlaggen voor achterstallige taken. Als gewone planners je herhaaldelijk hebben teleurgesteld, begin dan hier of met de focusmodus van Chrobox.
 
 **Sterke punten:** echt inclusief ontwerp, routinevisualisatie
 **Zwakke punten:** minder klassieke productiviteitsanalyses
-**Prijs:** abonnement met gratis proefperiode
+**Prijs:** beperkt gratis niveau; Pro jaarlijks inclusief proefperiode van 7 dagen (maandelijks geen proefperiode)
 
 ### 7. Google Calendar — beste gratis optie die je al hebt (alle platforms)
 
@@ -2486,12 +2811,12 @@ Met de agendaweergave van Todoist en de tweerichtingssynchronisatie met Google C
 
 | App | Kerncyclus | Appblokkering | Terugblik/retrospectief | Gratis versie | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Volledige time-boxing | ✅ | ✅ AI-terugblik | ✅ | iOS, Android |
+| Chrobox | Volledige time-boxing | ✅ | ✅ AI-terugblik | proefperiode van 3 dagen | iOS, Android |
 | Sunsama | Dagplanning | ❌ | ✅ afsluitritueel | alleen proefperiode | Web, desktop, mobiel |
 | Motion | AI-planning | ❌ | ❌ | alleen proefperiode | Web, mobiel |
 | TickTick | Takenlijst + tijdlijn | ❌ | ❌ | ✅ | Alle |
-| Structured | Visuele tijdlijn | ❌ | ❌ | ✅ | iOS, Android, Mac |
-| Tiimo | Visuele routines | ❌ | ❌ | proefperiode | iOS, Android |
+| Structured | Visuele tijdlijn | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
+| Tiimo | Visuele routines | ❌ | ✅ stemming/reflectie | Beperkt gratis | iOS, Android, Mac, Watch |
 | Google Calendar | Handmatige blokken | ❌ | ❌ | ✅ | Alle |
 | Todoist | Taken + agenda | ❌ | ❌ | ✅ | Alle |
 
@@ -3197,6 +3522,411 @@ Bekijk je lijst met vastgelegde ideeën aan het begin van elk creatief blok. Vaa
 Chrobox ondersteunt creatieve workflows doordat je tijdblokken op projectniveau kunt groeperen. Een ontwerpproject kan blokken hebben voor onderzoek, conceptontwikkeling, uitvoering en klantfeedback, elk met een andere duur. Chrobox plant deze in je agenda op basis van deadlines en je beschikbare capaciteit, zodat je een compleet beeld hebt van wanneer creatief werk plaatsvindt, zonder dat je elke sessie handmatig hoeft te plannen.
 
 Het platform houdt ook bij welke blokken je verlengt, zodat je begrijpt welke creatieve taken je consequent onderschat en je realistischere schema's kunt bouwen voor toekomstige projecten.
+`,
+    'does-timeboxing-work': `
+# Werkt Timeboxing? Voltooiingsdata van 5.077 Geplande Taken
+
+De meeste adviezen over timeboxing steunen op dezelfde paar onderzoeken en veel persoonlijke ervaringen. Wij bouwen een timeboxing-app, dus we kunnen naar iets directers kijken: wat er daadwerkelijk gebeurt met taken nadat mensen ze plannen. Deze pagina beschrijft wat we vonden in de gebruiksdata van Chrobox — inclusief de minder flatterende onderdelen, en de beperkingen van wat de cijfers je kunnen vertellen.
+
+## Het korte antwoord
+
+Taken met een starttijd en een duur werden in **48,1%** van de gevallen als voltooid gemarkeerd. Taken die zonder tijdslot op de lijst bleven staan, werden in **17,6%** van de gevallen voltooid. Dat is ongeveer **2,7 keer** zo vaak.
+
+Het verschil kwam niet door een handjevol zeer georganiseerde mensen. Toen we elke persoon met zichzelf vergeleken, voltooiden 35 van de 41 mensen meer van hun getimeboxte taken dan hun ongeplande taken.
+
+## Over deze data
+
+| Item | Waarde |
+|---|---|
+| Bron | Geanonimiseerde taakgegevens uit de Chrobox-app (iOS en Android), ingelogde accounts |
+| Periode | Taken gedateerd van 3 december 2025 tot 29 september 2026 |
+| Steekproef | 5.077 taken, gepland door 250 mensen, verspreid over 799 geplande dagen |
+| Geëxtraheerd | 30 september 2026 |
+
+- **Getimeboxt** betekent dat de taak zowel een starttijd als een duur had op de dagtijdlijn.
+- **Voltooid** betekent dat de persoon de taak afvinkte. Een taak die iemand wel afrondde maar nooit afvinkte, telt als niet voltooid.
+- We hebben events geïmporteerd uit apparaatagenda's, taken gedateerd op vandaag of later, operator- en testaccounts, en verwijderde accounts uitgesloten.
+- Alleen geaggregeerde cijfers worden gepubliceerd. Geen enkele groep kleiner dan 30 taken wordt gerapporteerd.
+
+## Bevinding 1: Getimeboxte taken werden 2,7× zo vaak voltooid
+
+| | Taken | Mensen | Voltooid |
+|---|---|---|---|
+| Met een timebox | 2.317 | 190 | 48,1% |
+| Zonder timebox | 2.760 | 192 | 17,6% |
+
+Twee controles maken dit tot meer dan een kop boven een artikel:
+
+- **Zware gebruikers.** De tien meest actieve accounts creëerden 55% van alle taken. Zonder hen verandert het verschil nauwelijks: 42,8% voor getimeboxte taken tegenover 14,2% voor ongeplande taken.
+- **Dezelfde persoon, beide kanten.** Onder de 41 mensen die minstens vijf taken van elk type planden, was de gemiddelde voltooiing 52,9% met een timebox en 15,0% zonder. 35 deden het beter met timeboxen, 2 deden het slechter en 4 waren gelijk.
+
+**Wat dit niet bewijst.** Dit is observationele data, geen experiment. Mensen geven mogelijk tijdsloten aan taken die ze toch al van plan waren te doen, en een tijdslot werkt ook als herinnering. De data toont dus een sterk verband, geen gecontroleerd causaal effect. Dit sluit aan bij onderzoek naar implementatie-intenties: een meta-analyse van 94 studies door Gollwitzer en Sheeran (2006) vond dat vooraf beslissen wanneer en waar je iets zult doen een gemiddeld tot groot effect heeft op daadwerkelijke uitvoering.
+
+## Bevinding 2: De meeste blokken duren een uur, en lengte maakt minder uit dan je denkt
+
+| Bloklengte | Aandeel van blokken |
+|---|---|
+| 60 minuten | 50,8% |
+| 30 minuten | 14,9% |
+| 120 minuten | 9,3% |
+| 90 minuten | 4,1% |
+| 180 minuten | 3,1% |
+
+Het mediane blok was 60 minuten. Dat komt deels door de app zelf: wanneer een taak op een uur op de tijdlijn van Chrobox wordt geplaatst, begint het als een blok van 60 minuten, en veel mensen houden de standaardinstelling aan.
+
+Voltooiing per lengte is het nuttigere resultaat:
+
+| Bloklengte | Taken | Voltooid |
+|---|---|---|
+| 15 minuten of minder | 35 | 48,6% |
+| 16–30 minuten | 429 | 48,7% |
+| 31–45 minuten | 56 | 53,6% |
+| 46–60 minuten | 1.215 | 48,7% |
+| 61–90 minuten | 135 | 50,4% |
+| 91–120 minuten | 238 | 45,0% |
+| Meer dan 120 minuten | 209 | 44,0% |
+
+Tot 90 minuten maakte de lengte nauwelijks verschil. Voorbij 90 minuten daalde de voltooiing met ongeveer vier tot vijf procentpunten. Korte blokken waren niet gemakkelijker af te ronden dan blokken van een uur.
+
+## Bevinding 3: Ochtendblokken worden afgerond, avondblokken schuiven door
+
+| Startmoment van het blok | Taken | Mensen | Voltooid |
+|---|---|---|---|
+| 00:00–04:59 | 43 | 20 | 34,9% |
+| 05:00–08:59 | 318 | 81 | 62,3% |
+| 09:00–11:59 | 473 | 95 | 52,4% |
+| 12:00–14:59 | 448 | 102 | 52,0% |
+| 15:00–17:59 | 447 | 102 | 44,7% |
+| 18:00–20:59 | 380 | 96 | 40,0% |
+| 21:00–23:59 | 208 | 65 | 33,2% |
+
+Het patroon is stabiel: hoe later een blok begint, hoe kleiner de kans dat het wordt afgerond. Een blok dat vóór 9:00 uur begon, werd bijna twee keer zo vaak voltooid als een blok dat na 21:00 uur begon. Een deel hiervan komt doordat wie vroeg plant nu eenmaal anders is — mensen die een taak om 6:30 uur inplannen, zijn mogelijk simpelweg consequenter — maar het praktische advies blijft hetzelfde: plan de taak die je het meest moet afronden vóór de middag.
+
+## Bevinding 4: Voorbij acht taken is een volledig afgeronde dag zeldzaam
+
+De mediane geplande dag had **5 taken**.
+
+| Geplande taken die dag | Dagen | Gemiddeld afgerond aandeel | Dagen met alle taken afgerond |
+|---|---|---|---|
+| 1 | 131 | 7,6% | 7,6% |
+| 2 | 91 | 18,7% | 14,3% |
+| 3 | 105 | 29,2% | 14,3% |
+| 4–5 | 131 | 26,3% | 13,7% |
+| 6–8 | 143 | 42,7% | 18,2% |
+| 9 of meer | 198 | 30,7% | 0,5% |
+
+Dagen met 6 tot 8 taken hadden de beste voltooiing. Dagen met negen of meer taken rondden de hele lijst maar één keer in 198 dagen volledig af. Dagen met slechts één taak lijken het slechtst, maar veel daarvan zijn eerste dagen — iemand die de app uitprobeert met één testtaak — dus bekijk die rij met enige voorzichtigheid.
+
+## Bevinding 5: Prioriteiten helpen, en donderdag verslaat zondag
+
+Taken die als prioriteit waren gemarkeerd, werden in 44,5% van de gevallen voltooid (853 taken), tegenover 28,9% voor al het overige (4.224 taken).
+
+| Dag | Taken | Voltooid |
+|---|---|---|
+| Maandag | 940 | 31,4% |
+| Dinsdag | 854 | 34,2% |
+| Woensdag | 990 | 31,9% |
+| Donderdag | 815 | 36,2% |
+| Vrijdag | 612 | 28,6% |
+| Zaterdag | 355 | 27,3% |
+| Zondag | 511 | 25,4% |
+
+Midden in de week was het sterkst, met donderdag als hoogste. Weekenden waren het zwakst, en zondag was de laagste dag van de week.
+
+## Wat we niet konden meten
+
+- **App-blokkering.** Slechts 19 getimeboxte taken van 8 mensen hadden app-blokkering gekoppeld in deze periode. Dat is te weinig om een voltooiingspercentage te rapporteren, dus doen we dat niet.
+- **Gastmodus.** Eerdere versies van de app boden een gastmodus die taken op het apparaat zelf bewaarde, dus die taken zitten niet in deze data.
+- **Wie de gebruikers zijn.** 67% van de accounts in de steekproef gebruikt de app in het Koreaans en 24% in het Engels. Resultaten zijn mogelijk niet overdraagbaar naar elke cultuur of baan.
+
+## Hoe je dit in je eigen planning gebruikt
+
+1. **Geef elke must-do-taak een starttijd.** Op de lijst alleen werd minder dan één op de vijf taken afgerond.
+2. **Houd blokken op 90 minuten of korter.** Splits alles wat langer is in twee blokken.
+3. **Plan de belangrijkste taak vóór de middag.** Ochtendblokken werden veel vaker afgerond.
+4. **Stop bij ongeveer acht blokken per dag.** Daarboven plan je een dag die je niet zult afronden.
+5. **Markeer één tot drie prioriteiten.** Gemarkeerde taken werden merkbaar vaker voltooid.
+
+## Hoe je deze data citeert
+
+Chrobox (2026). *Werkt Timeboxing? Voltooiingsdata van 5.077 Geplande Taken.* https://chrobox.net/blog/does-timeboxing-work — data geëxtraheerd op 30 september 2026.
+`,
+    'how-to-lock-apps-on-iphone': `
+# Apps Vergrendelen op iPhone: 3 Methoden (Face ID-vergrendeling, Schermtijdlimieten, Geplande Blokkering)
+
+Er zijn drie aparte manieren om een app op de iPhone te vergrendelen, en ze lossen verschillende problemen op. Op iOS 18 en later kun je Face ID vereisen om een specifieke app te openen, voor privacy. App-limieten via Schermtijd laten je beperken hoelang je elke dag een app of categorie mag gebruiken, met een optionele harde blokkering zodra de tijd op is. En geplande blokkering, ofwel handmatig opgebouwd met Schermtijd, ofwel geautomatiseerd door een planningsapp zoals Chrobox, blokkeert een gekozen reeks apps alleen tijdens specifieke uren die je vooraf instelt. De meeste mensen die hun telefoongebruik echt willen verminderen, combineren uiteindelijk een Schermtijdcode met een schema, omdat een limiet die je zelf kunt uitschakelen geen echte limiet is.
+
+## Methode 1: Een App Vergrendelen met Face ID (iOS 18 en later)
+
+Op iOS 18 en later heeft Apple een ingebouwde manier toegevoegd om individuele apps achter Face ID, Touch ID of je toegangscode te vergrendelen, rechtstreeks vanaf het startscherm.
+
+Zo gebruik je het:
+
+1. Houd het app-icoon lang ingedrukt totdat het snelmenu verschijnt.
+2. Tik op Face ID vereisen (de tekst kan in plaats daarvan Touch ID of toegangscode tonen, afhankelijk van je apparaat).
+3. Als je de app ook wilt verbergen voor je startscherm, App-bibliotheek, meldingen en zoeken, kies dan de optie Verbergen en Face ID vereisen. Een verborgen app verhuist naar een aparte, vergrendelde map.
+
+Zodra dit ingeschakeld staat, is voor het openen van de app elke keer Face ID-authenticatie vereist, zelfs voor iemand die je telefoon al ontgrendeld in handen heeft.
+
+Belangrijk om hier duidelijk over te zijn: wat dit wel en niet doet. Deze functie gaat over privacy, niet over het verminderen van hoeveel je een app gebruikt. Het voorkomt dat iemand anders zomaar je bank-app of berichten opent als diegene je ontgrendelde telefoon oppakt. Het doet niets om jezelf tegen te houden om de app te openen: je verifieert jezelf gewoon met je eigen gezicht en bent meteen binnen. Als je doel is om minder op sociale media te kijken, helpt Face ID-vergrendeling niet, omdat jij degene bent die hem ontgrendelt.
+
+## Methode 2: Een App Beperken of Blokkeren met App-limieten via Schermtijd
+
+App-limieten via Schermtijd zijn Apples tool om gebruik te beperken, en ze zijn de juiste keuze wanneer het doel 'minder van deze app per dag' is in plaats van 'deze app privé houden'.
+
+Zo stel je er een in:
+
+1. Open Instellingen en ga naar Schermtijd.
+2. Tik op App-limieten, dan op Limiet toevoegen.
+3. Kies specifieke apps of een hele categorie (zoals Sociale netwerken of Games).
+4. Stel een dagelijkse tijdstoewijzing in.
+5. Zet Blokkeren na afloop van limiet aan als je wilt dat de app daadwerkelijk stopt met openen zodra de tijd op is, in plaats van alleen een herinnering te tonen.
+
+Je kunt vanuit hetzelfde Schermtijd-menu ook Downtime instellen, waarmee je een periode inplant (bijvoorbeeld 's nachts) waarin alleen apps die je hebt toegestaan bereikbaar blijven, in plaats van een specifieke app in minuten te beperken.
+
+Het probleem met zowel App-limieten als Downtime is de handhaving. Als je de limiet zelf instelt, verschijnt er een scherm zodra de tijd op is met de optie Limiet voor vandaag negeren, en met één tik maak je het geheel ongedaan. Dat is prima als zachte aansporing, maar het houdt geen stand tegen een echte drang om te blijven scrollen. Om een Schermtijdlimiet echt te laten standhouden, ga je naar Instellingen, Schermtijd, en zet je Schermtijdcode gebruiken aan met een code die anders is dan je normale toegangscode, idealiter een code die iemand anders kent en jij niet, zoals een partner of een vriend die je erbij helpt verantwoording af te leggen. Zonder die scheiding is de 'limiet' eigenlijk gewoon een herinnering die je kunt wegtikken.
+
+## Methode 3: App-blokkering Inplannen rond een Planning
+
+De derde aanpak draait de logica om: in plaats van een dagelijks minutenbudget blokkeer je een gekozen reeks apps alleen tijdens specifieke uren, gekoppeld aan wat je op dat moment zou moeten doen. Je kunt dit handmatig opbouwen met Schermtijd-downtime ingepland voor je werkuren, of een planningsapp gebruiken die blokkering koppelt aan je daadwerkelijke agenda met taken.
+
+Chrobox, een timeboxing-app, werkt op deze manier: wanneer je een taak op je dagtijdlijn plaatst en er een blokkeerprofiel aan koppelt, worden de apps die je hebt gekozen automatisch geblokkeerd voor de duur van die timebox, met behulp van Apples Screen Time API (hetzelfde FamilyControls- en Schermtijd-framework dat Apples eigen tools gebruiken) en een aangepast vergrendelscherm. De blokkering begint wanneer het blok begint, eindigt wanneer het blok eindigt, en geldt alleen voor die dag, zodat het niet tot in de avond blijft hangen als je planning verandert. Dit is geschikt voor mensen wier probleem niet het totale dagelijkse gebruik is maar specifieke uren, zoals Instagram geblokkeerd willen hebben van 9 tot 11 uur tijdens het werken, maar volledig beschikbaar in de avond.
+
+## De Drie Methoden Vergeleken
+
+| Methode | Doel | Wat het blokkeert | Gemakkelijk zelf te omzeilen | Vereist een toegangscode die iemand anders bewaart | Het beste voor |
+|---|---|---|---|---|---|
+| Face ID app-vergrendeling | Privacy | Niets qua gebruik; vereist alleen authenticatie om te openen | Ja, als je je eigen Face ID of toegangscode kent | Nee | Specifieke apps privé houden voor anderen |
+| App-limieten via Schermtijd | Gebruiksmaximum | Geselecteerde apps of categorieën, na een dagelijks tijdsbudget | Ja, via Limiet voor vandaag negeren, tenzij iemand anders de Schermtijdcode bewaart | Ja, om het te laten standhouden | De totale dagelijkse tijd op een app verminderen |
+| Geplande blokkering (Downtime of Chrobox) | Tijdgebonden focus | Geselecteerde apps, alleen tijdens ingestelde uren | Hangt af van wie het schema instelde en de code bewaart | Ja, om het te laten standhouden | Afleidingen blokkeren tijdens specifieke werk- of studie-uren |
+
+## Welke Methode Moet Je Gebruiken
+
+Ben je vooral bang dat iemand anders een app op je telefoon opent, dan is Face ID-vergrendeling het directe antwoord en kost het instellen minder dan een minuut. Ben je vooral bang dat je persoonlijk te veel tijd besteedt aan een app gedurende de hele dag, dan vormt App-limieten via Schermtijd met een toegangscode die iemand anders bewaart de eerlijkere tool. Als je zorg specifiek over bepaalde uren gaat, zoals tijdens een bepaald werkblok van sociale apps willen wegblijven maar het niet uitmaakt wat er daarbuiten gebeurt, is geplande blokkering de betere match, of je het schema nu handmatig opbouwt in Downtime of het automatisch je planning laat volgen zoals Chrobox doet.
+
+Veel mensen gebruiken er uiteindelijk meerdere tegelijk: Face ID-vergrendeling op een bank- of berichten-app voor privacy, en een geplande blokkering op sociale en gaming-apps tijdens werkuren. Geen van deze tools concurreert met elkaar; ze beantwoorden verschillende vragen.
+`,
+    'how-to-stop-checking-phone-while-studying': `
+# Stoppen met je Telefoon Checken Tijdens het Studeren: Een Praktische Routine
+
+De snelste manier om te stoppen met je telefoon checken tijdens het studeren, bestaat uit drie dingen combineren: leg je telefoon fysiek buiten bereik in plaats van hem alleen met het scherm naar beneden neer te leggen, blokkeer de specifieke apps die je afleiden alleen tijdens je studiesessies, en plan je studeren als vaste tijdsblokken en niet als open “studietijd”. Geen van deze drie vereist wilskracht op het moment zelf, omdat de beslissing één keer wordt genomen, voordat je gaat zitten, en niet keer op keer tijdens het studeren.
+
+## Waarom Alleen al de Nabijheid van je Telefoon je Focus Schaadt
+
+Het lijkt verleidelijk te denken dat het onschuldig zou zijn om je telefoon met het scherm naar beneden naast je te laten liggen, zolang je hem maar niet oppakt. Onderzoek suggereert het tegendeel. Uit een onderzoek uit 2017, vaak aangeduid als “Brain Drain”, ontdekten de onderzoekers Adrian Ward, Kristen Duke, Ayelet Gneezy en Maarten Bos dat de enkele aanwezigheid van iemands eigen smartphone de cognitieve capaciteit verminderde die beschikbaar bleef voor andere taken, zelfs wanneer de telefoon uit stond en niet werd gebruikt. Het effect ontstond simpelweg doordat de telefoon dichtbij lag, niet doordat hij daadwerkelijk werd gecheckt.
+
+De praktische les luidt niet “zet je telefoon uit” maar “leg hem ergens neer waar hij niet zomaar binnen handbereik ligt”. Een andere kamer, een dichtgeritste tas, of een lade aan de andere kant van de kamer werken voor je telefoon allemaal beter dan het scherm naar beneden op hetzelfde bureau, want je wilt afstand, niet alleen het dempen van meldingen.
+
+## Blokkeer de Apps die je Echt Afleiden, Alleen Tijdens het Studeren
+
+Afstand alleen stopt niet de reflex om een telefoon te checken die nog steeds dichtbij ligt, zoals op een gedeeld bureau of een gezamenlijke studietafel, en het is niet voor iedereen haalbaar om de telefoon urenlang weg te leggen in een andere kamer. Het tweede onderdeel behelst het blokkeren van de specifieke apps die het probleem veroorzaken, maar alleen tijdens de uren dat je daadwerkelijk zou moeten studeren.
+
+Dit telt zwaar mee, omdat een algehele, de hele dag durende blokkering moeilijk vol te houden blijft en gemakkelijk irritatie oproept, terwijl een blokkering die gekoppeld zit aan je daadwerkelijke studiesessie vanzelf eindigt zodra de sessie voorbij is. Je kunt dit doen zonder extra app:
+
+- Gebruik op de iPhone Schermtijd-downtime, ingepland voor je studieblok, of stel een App-limiet in op de specifieke apps waar je moeite mee hebt, idealiter met een Schermtijdcode die iemand anders bewaart zodat je niet op Limiet negeren kunt tikken zodra je in de verleiding komt.
+- Op Android hebben de meeste telefoons een Focus-modus van Digital Wellbeing, doorgaans te vinden onder Instellingen, dan Digital Wellbeing en ouderlijk toezicht, dan Focus-modus, waar je afleidende apps kiest die worden gepauzeerd gedurende een ingestelde tijd. De exacte menunamen verschillen per telefoonmerk, dus zoek naar “Digital Wellbeing”, “Focus-modus”, of een soortgelijk genoemde schermtijdsectie in je instellingen als de tekst anders is.
+
+Als je je dag plant met een timeboxing-app zoals Chrobox, kan deze stap automatisch gebeuren: wanneer je een blokkeerprofiel koppelt aan een studietaak op je tijdlijn, blijven de apps die je hebt gekozen precies zo lang geblokkeerd als die timebox duurt en worden ze automatisch weer vrijgegeven zodra hij eindigt, zodat je nooit hoeft te onthouden om een blokkering aan of uit te zetten.
+
+## Plan Studeren als Tijdsblokken, Niet als Open Sessies
+
+Een ongestructureerd plan zoals “vanavond scheikunde studeren” laat de deur open om je telefoon te checken zodra je je ook maar een beetje vastzit, omdat er geen duidelijke werkeenheid eerst afgerond hoeft te worden. Studietijd opdelen in vaste blokken, bijvoorbeeld een blok van 50 minuten gevolgd door een pauze van 10 minuten, geeft je een concreet stoppunt dat niet je telefoon vormt. De verdeling 50/10 vormt gewoon één redelijke keuze, geen vaste regel en geen Pomodoro-achtige functie die ingebakken zit in een specifieke app; je kunt net zo goed 30/5 of 90/15 gebruiken, afhankelijk van het vak en hoe lang je daadwerkelijk je focus kunt vasthouden.
+
+Twee planningsgewoontes maken een merkbaar verschil:
+
+- Plaats je moeilijkste of meest vermoeiende vak in het vroegste blok van je sessie, terwijl je aandacht nog op zijn frist staat, en bewaar het niet voor het laatst wanneer je eerder naar je telefoon grijpt.
+- Schrijf voordat je aan een blok begint op hoe “klaar” er voor dat blok uitziet (bijvoorbeeld “10 oefenopgaven afmaken” in plaats van “wiskunde studeren”), omdat een vaag blok veel gemakkelijker halverwege wordt opgegeven voor een telefooncheck.
+
+De eigen gebruiksdata van Chrobox, afkomstig van 5.077 geplande taken van 250 gebruikers tussen december 2025 en september 2026, werkt hier verhelderend, ook al meet die taakvoltooiing en niet specifiek telefoongebruik: taken die op een geplande timebox stonden, werden voor 48,1% voltooid, tegenover 17,6% voor taken zonder enig tijdslot, en blokken die vroeg op de ochtend begonnen (5:00 tot 8:59 uur) werden voor 62,3% voltooid tegenover 33,2% voor blokken die laat op de avond begonnen (21:00 tot 23:59 uur). Dit betreft observationele data van de eigen gebruikers van Chrobox, geen gecontroleerd experiment, maar het sluit aan bij de veelvoorkomende ervaring dat vage, laat ingeplande studietijd het meest ruimte laat voor telefoongebruik.
+
+## Een Voorbeeld Studiedag voor Examenvoorbereiding
+
+Zo richt je een studiedag in met vaste tijdsblokken, telefoonafstand en app-blokkering samen, voor iemand die zich voorbereidt op een examen:
+
+| Tijd | Blok | Telefoon-/app-blokkering |
+|---|---|---|
+| 07:30 - 08:20 | Moeilijkste vak, 50 min | Telefoon naar andere kamer; afleidende apps geblokkeerd |
+| 08:20 - 08:30 | Pauze | Telefoon toegestaan, maar blijf indien mogelijk uit afleidende apps |
+| 08:30 - 09:20 | Tweede vak, 50 min | Telefoon naar andere kamer; afleidende apps geblokkeerd |
+| 09:20 - 09:30 | Pauze | Telefoon toegestaan |
+| 09:30 - 10:20 | Oefenopgaven, 50 min | Telefoon naar andere kamer; afleidende apps geblokkeerd |
+| 10:20 - 10:40 | Langere pauze | Telefoon volledig toegestaan |
+| 10:40 - 11:30 | Zwakke punten herzien, 50 min | Telefoon naar andere kamer; afleidende apps geblokkeerd |
+
+Je kunt een dag als deze handmatig opbouwen met een papieren planner, een telefoon weggeborgen in een lade, en Schermtijd-downtime die de vier studieblokken afdekt, of je zet het op in Chrobox, waar elk studieblok zijn eigen app-blokkering meedraagt die automatisch aan- en uitgaat naarmate je door de dag beweegt, en waar je op elk blok een focusaftelling kunt starten zodra je gaat zitten.
+
+## Slotgedachte
+
+Geen van deze drie onderdelen, fysieke afstand, geplande app-blokkering en vaste tijdsblokken, werkt bijzonder goed op zichzelf. Een telefoon aan de andere kant van de kamer wordt nog steeds opgehaald tijdens een vage, ongedefinieerde studiesessie; een strikte app-blokkering op een telefoon die op je bureau ligt, laat je nog steeds naar een vergrendeld scherm staren en niet naar je aantekeningen; en een perfect getimede timebox doet niets als je telefoon er de hele tijd naast ligt te trillen. Samen nemen ze de moment-tot-moment beslissing volledig weg, en juist dat volhouden gaat wilskracht urenlang slecht af.
+`,
+    'reduce-phone-addiction': `
+# Telefoonverslaving Verminderen: Een Plan in 7 Stappen om je Schermtijd te Verlagen
+
+De snelste manier om telefoonverslaving te verminderen: meet eerst je werkelijke gebruik, verwijder de triggers die je ertoe brengen zonder na te denken je telefoon te pakken, en blokkeer vervolgens je ergste apps alleen tijdens specifieke periodes waarin je probeert te focussen. Je hoeft geen sociale media te verwijderen of over te stappen op een simpele telefoon. De meeste mensen kunnen binnen twee tot drie weken merkbaar minder schermtijd hebben door een korte, geordende lijst met veranderingen door te werken en niet alles ineens aan te pakken.
+
+Deze gids is geschreven voor alledaags compulsief telefoongebruik, geen klinische aandoening. Als je telefoongebruik je werk, relaties, slaap of stemming ernstig beïnvloedt, praat dan met een arts of therapeut. Wat volgt is een praktisch, niet-veroordelend plan voor de veelvoorkomende ervaring van vaker naar je telefoon grijpen dan je zou willen.
+
+## Waarom Telefoongebruik Moeilijk te Beheersen Is
+
+Smartphones zijn niet ontworpen om weg te leggen. Meldingen, oneindig scrollende feeds en variabele beloningen (je weet nooit of de volgende verversing iets interessants oplevert) zijn ontworpen om je aandacht keer op keer terug te trekken. Daarbovenop ontdekte onderzoek van Ward en collega's (2017), gepubliceerd als 'Brain Drain' in het Journal of the Association for Consumer Research, dat de enkele aanwezigheid van je smartphone dichtbij, zelfs uitgeschakeld en met het scherm naar beneden, de cognitieve capaciteit kan verminderen die je beschikbaar hebt voor andere taken. Je telefoon hoeft niet gebruikt te worden om je aandacht af te tappen.
+
+Dit weegt zwaar mee, want het herkadert het probleem. Het ontbreekt je niet aan wilskracht. Je vecht tegen een apparaat dat zeer slimme mensen specifiek hebben gebouwd om je aandacht te veroveren, terwijl het bovendien een sluipende cognitieve tol heft simpelweg doordat het dichtbij ligt. De oplossing vormt niet meer wilskracht, maar het veranderen van je omgeving zodat goed gedrag er minder van nodig heeft.
+
+## Stap 1: Meet Voordat je Iets Verandert
+
+Voordat je beslist wat je gaat aanpakken, bekijk de cijfers. Beide grote platforms houden dit al voor je bij:
+
+- iPhone: Instellingen, dan Schermtijd toont je dagelijkse en wekelijkse gemiddelde schermtijd, een uitsplitsing per app en categorie, en het aantal keren dat je je telefoon oppakt en het aantal meldingen per dag.
+- Android: Instellingen, dan Digital Wellbeing en ouderlijk toezicht toont dezelfde kerncijfers: dagelijks gebruik, uitsplitsing per app, ontgrendelingen en ontvangen meldingen.
+
+Open het nu en kijk gewoon, zonder jezelf te veroordelen. Schrijf drie cijfers op: totale dagelijkse schermtijd, aantal keren opgepakt, en aantal meldingen. Je gebruikt deze opnieuw in Stap 7 om te zien of er daadwerkelijk iets is veranderd. De meeste mensen zijn verrast door minstens één van de drie, meestal het aantal keren opgepakt of het aantal meldingen, omdat die zich op de achtergrond van een dag afspelen zonder bewust te registreren.
+
+## Stap 2: Identificeer je Triggerapps
+
+Bekijk de uitsplitsing per app uit Stap 1. Je zoekt naar twee verschillende dingen:
+
+- De app die de meeste totale tijd opslokt. Dit is vaak een video-, sociale of kortevideo-app.
+- De app die je uit gewoonte het vaakst opent, zelfs voor slechts een paar seconden per keer. Dit is soms een berichtenapp, soms een specifieke sociale app, en is niet altijd dezelfde als de tijdleider.
+
+Benoem je top twee of drie triggerapps specifiek. Vage doelen zoals 'minder mijn telefoon gebruiken' mislukken omdat ze je niets concreets geven om te veranderen. Een doel zoals 'stop met deze specifieke app openen tussen taken door' is iets waar je daadwerkelijk naar kunt handelen.
+
+## Stap 3: Zet Niet-essentiële Meldingen Uit
+
+Ga naar de meldingsinstellingen van elke triggerapp en zet alles uit wat geen direct bericht van een echt persoon is. Marketingpushberichten, 'iemand heeft je post geliket', aanbevelingsmeldingen en heractiveringsprikkels ('je hebt nieuwe content klaarstaan') zijn het belangrijkste mechanisme waarmee apps je onderbreken en terugtrekken. Houd meldingen aan voor dingen die echt je onmiddellijke aandacht nodig hebben, zoals gesprekken, sms'jes en agenda-herinneringen, en zet bijna al het andere uit. Deze ene stap levert vaak al binnen enkele dagen een zichtbare daling in het aantal keren opgepakt op, omdat je niet langer wordt aangespoord om de app in de eerste plaats te openen.
+
+## Stap 4: Voeg Wrijving Toe aan je Ergste Apps
+
+Zodra meldingen rustiger zijn, blijft het gewoontematige probleem over: zonder melding je telefoon ontgrendelen en uit verveling of gewoonte op het app-icoon tikken. Voeg kleine hoeveelheden wrijving toe zodat dit een bewuste beslissing vereist in plaats van een automatische:
+
+- Verplaats triggerapps van je startscherm en uit je dock naar een map op een tweede scherm.
+- Zet je telefoon op zwart-wit gedurende de uren waarin je het meest wilt minderen (iPhone: Instellingen, Toegankelijkheid, Beeldscherm en tekstgrootte, Kleurfilters; op Android staat dit meestal onder toegankelijkheidsinstellingen of de Bedtijdmodus van Digital Wellbeing, afhankelijk van de fabrikant). Kleur is een deel van wat feeds aantrekkelijk maakt, en het verwijderen ervan vermindert de aantrekkingskracht merkbaar.
+- Log uit een app zodat het openen ervan vereist dat je een wachtwoord opnieuw invoert, in plaats van een directe tik om binnen te komen.
+
+Geen van deze veranderingen maakt de app onbruikbaar. Ze voegen alleen een pauze van twee of drie seconden toe, wat vaak genoeg is om de drang te laten wegebben of om te merken dat je het uit gewoonte doet in plaats van met opzet.
+
+## Stap 5: Vervang het Checkmoment door een Geplande Activiteit
+
+Een gewoonte verwijderen zonder haar te vervangen, mislukt meestal, omdat de drang om te checken nog steeds opduikt op dezelfde momenten: in de rij staan, tussen vergaderingen door, meteen na het wakker worden. In plaats van alleen te proberen weerstand te bieden, zet je daar opzettelijk iets anders neer. Precies daar helpt timeboxing: verdeel je dag vooraf in blokken, worden de momenten die vroeger werden gevuld met lukraak telefoongebruik in plaats daarvan gevuld met een specifieke volgende taak, waardoor er minder ongestructureerde tijd overblijft die de gewoonte kan opvullen.
+
+## Stap 6: Blokkeer je Ergste Apps Tijdens Focusperiodes
+
+Voor de app waaraan je het moeilijkst weerstand kunt bieden, zelfs na Stappen 3 tot en met 5, beperk je een harde blokkering tot specifieke tijdvensters, en probeer niet hem de hele dag uit te schakelen, wat meestal wordt opgegeven zodra je een legitieme reden hebt om de app te gebruiken. Beide platforms hebben hier eigen tools voor:
+
+- iPhone: App-limieten en Downtime via Schermtijd, gebouwd op Apples Screen Time API.
+- Android: de app-timers en Focus-modus van Digital Wellbeing (menu-namen verschillen per fabrikant).
+
+Chrobox blokkeert ook apps, maar koppelt de blokkering aan je geplande timeboxen, niet aan een vast dagelijks maximum: wanneer je een blokkeerprofiel koppelt aan een taak of routine, worden de apps die je kiest automatisch alleen geblokkeerd voor de duur van dat blok, en worden ze vanzelf weer vrijgegeven zodra het blok eindigt. Op de iPhone draait dit op Apples Screen Time API (FamilyControls en een aangepast schermscherm); op Android gebruikt het een toegankelijkheidsservice-overlay. Er bestaat geen aparte 'nu blokkeren'-knop om tegen te vechten; de blokkering blijft beperkt tot de werkperiode die je al had gepland, wat vaak makkelijker vol te houden blijkt dan een limiet voor de hele dag.
+
+## Stap 7: Bekijk je Cijfers Wekelijks
+
+Ga eens per week terug naar hetzelfde Schermtijd- of Digital Wellbeing-dashboard en vergelijk met de cijfers die je in Stap 1 hebt opgeschreven. Kijk specifiek naar het aantal keren opgepakt en het aantal meldingen, niet alleen naar de totale tijd, omdat deze twee vaak als eerste bewegen en een beter vroeg signaal zijn dat de veranderingen in wrijving en blokkering werken. Als een cijfer niet beweegt, betekent dit meestal dat één specifieke app nog steeds meldingen aan heeft staan, of nog steeds op je startscherm staat waar je hem voortdurend ziet. Pas dat ene ding aan in plaats van het hele plan om te gooien.
+
+| Stap | Wat je doet | Benodigde tijd |
+|---|---|---|
+| 1. Meten | Controleer Schermtijd (iPhone) of Digital Wellbeing (Android) voor dagelijkse tijd, aantal keren opgepakt en meldingen | 5 minuten |
+| 2. Triggers identificeren | Benoem je top 2-3 apps naar tijd en naar openingsfrequentie | 5 minuten |
+| 3. Meldingen beperken | Zet niet-essentiële meldingen uit in triggerapps | 10 minuten |
+| 4. Wrijving toevoegen | Verplaats apps van het startscherm, schakel zwart-wit in, log uit bij één app | 10 minuten |
+| 5. Het checkmoment vervangen | Plan je dag in tijdsblokken zodat lege momenten een taak hebben in plaats van niets | 10-15 minuten, één keer per dag |
+| 6. Blokkeren tijdens focustijd | Stel een app-limiet in of koppel een blokkeerprofiel aan een focusblok | 5 minuten om in te stellen |
+| 7. Wekelijks bekijken | Vergelijk de cijfers van deze week met je uitgangswaarde | 5 minuten, één keer per week |
+
+## Een Opmerking over Wat deze Gids Niet Is
+
+Dit vormt een plan om alledaags compulsief checken te verminderen, geen behandeling voor een gediagnosticeerde aandoening. Sommige mensen merken dat, zelfs na wrijving, blokkering en vervangende activiteiten te hebben geprobeerd, hun telefoongebruik nog steeds samenhangt met angst, een sombere stemming, slaapproblemen, of een dwang die buiten hun controle voelt. Dat vormt een teken om met een professional te praten, niet harder je best te doen met een app. Chrobox, en tools zoals deze, kunnen gedragsverandering ondersteunen voor mensen die betere dagelijkse gewoontes willen opbouwen, maar het vervangt geen medische of geestelijke gezondheidszorg.
+
+## Alles Samenvoegen
+
+Geen van deze zeven stappen vereist dat je je telefoon of je favoriete apps volledig opgeeft. Eerst meten laat zien waar het probleem daadwerkelijk zit, zonder te hoeven gissen. Meldingen beperken en wrijving toevoegen verwijderen de automatische triggers. Je dag in blokken plannen, eventueel met een app zoals Chrobox (die ook een gratis proefperiode van 3 dagen op Pro biedt als je de automatische blokkeerfunctie wilt), geeft de vrijgekomen tijd een nuttige bestemming, zonder gewoon een gat achter te laten dat de telefoon vanzelf zal opvullen. Wekelijks bekijken houdt je eerlijk over of het daadwerkelijk werkt, zonder te vertrouwen op een gevoel. De meeste mensen merken binnen twee tot drie weken een echt verschil als ze deze lijst in volgorde doorwerken.
+`,
+    'daily-reflection-template': `
+# Dagelijks Reflectiesjabloon: 4 Kant-en-klare Formats (Inclusief KPT)
+
+Het snelste dagelijkse reflectiesjabloon: de reflectie van 3 regels: één regel voor wat goed ging, één voor wat niet goed ging, en één voor wat je morgen gaat doen. Het kost minder dan twee minuten en neemt het excuus weg dat je geen tijd hebt. Als je meer structuur wilt, worden KPT (Keep, Problem, Try) en een plan-versus-werkelijkheid-check voor getimeboxte dagen hieronder ook behandeld, samen met een eenvoudig format van stemming plus één zin voor je dagen met de minste energie. Kies degene die past bij hoeveel tijd en energie je die avond hebt, niet degene die er het indrukwekkendst uitziet.
+
+## Waarom een Sjabloon Belangrijker Weegt dan Motivatie
+
+De meeste mensen die proberen een dagelijkse reflectiegewoonte vol te houden, stoppen binnen twee of drie weken, niet omdat reflectie nutteloos zou zijn, maar omdat ze zonder enig format beginnen. Een leeg tekstvak voelt elke avond opnieuw intimiderend, en op een slechte dag wordt het óf niets (je slaat het over) óf een ongestructureerde uitbarsting die je slechter laat voelen. Een sjabloon lost dit op door je vaste vakjes te geven om in te vullen, zodat de gewoonte niet afhangt van geïnspireerd zijn of een goede dag hebben. Zo werkt ook het retrospectief-tabblad van Chrobox zelf: een stemmingsscore van 5 niveaus (slecht, matig, oké, goed, geweldig) plus vrije tekst, met optionele spraakdictatie voor dagen waarop je liever praat dan typt, zodat het format zelf wrijving wegneemt voordat je een woord schrijft.
+
+Hieronder staan vier sjablonen. Elk heeft een andere afweging tussen snelheid, structuur en bij welk soort dag het het beste past.
+
+## Sjabloon 1: De Reflectie van 3 Regels
+
+Dit vormt de optie met de minste wrijving en degene waar je standaard naar teruggrijpt op drukke of vermoeiende dagen.
+
+Wat ging er vandaag goed, één regel
+Wat ging er niet goed of voelde zwaar, één regel
+Eén concreet ding om morgen anders te doen, één regel
+
+Benodigde tijd: 1 tot 2 minuten.
+
+Wanneer het past: elke dag, maar vooral op dagen dat je moe bent, aan het reizen bent, of anderszins weinig tijd hebt. Het werkt ook als het juiste format om te geven aan iemand die nog nooit heeft gejournaald, omdat drie korte regels haalbaar aanvoelen op een manier die een open pagina niet doet.
+
+Veelgemaakte fout: van de tweede regel een lijst maken van alles wat er misging. Houd het bij één ding. Als er vijf dingen misgingen, kies dan degene die het meest de moeite waard is om morgen aan te pakken en laat de rest voor vanavond los.
+
+## Sjabloon 2: KPT (Keep, Problem, Try)
+
+KPT komt uit agile team-retrospectives, maar werkt net zo goed voor één persoon die één dag evalueert.
+
+Keep: wat vandaag werkte en wat je wilt blijven doen
+Problem: wat in de weg zat of niet werkte
+Try: één concrete verandering om morgen te proberen, gebaseerd op de Problem-regel
+
+Benodigde tijd: 3 tot 5 minuten.
+
+Wanneer het past: dagen waarop er genoeg gebeurt dat één regel per onderdeel niet volstaat, of wanneer je probeert een specifieke gewoonte of werkwijze over meerdere dagen te verbeteren en een lopend overzicht wilt bijhouden van wat je hebt veranderd en of het hielp. KPT is nuttiger dan het format van 3 regels wanneer je actief met je routine experimenteert, omdat de Try-regel iets wordt waar je de volgende dag je Keep- of Problem-regel tegen kunt afzetten.
+
+Veelgemaakte fout: een Problem schrijven zonder een bijbehorende Try. Een Problem op zichzelf wordt gewoon een klacht die je elke dag herhaalt. De Try-regel maakt van de reflectie een echte verbeteringslus in plaats van een dagboek vol frustraties.
+
+## Sjabloon 3: Plan versus Werkelijkheid, voor Getimeboxte Dagen
+
+Dit sjabloon werd speciaal gebouwd voor mensen die hun dag in tijdsblokken indelen, in een agenda, een planner, of een app zoals Chrobox.
+
+Vandaag geplande blokken: (aantal)
+Blokken die daadwerkelijk zijn afgerond: (aantal)
+Waarom de rest niet lukte: (één regel per blok dat niet gebeurde, of één regel in totaal als de reden voor alle blokken hetzelfde bleef)
+Eén verandering voor het plan van morgen: (één regel)
+
+Benodigde tijd: 3 tot 5 minuten.
+
+Wanneer het past: elke dag waarop je je tijd van tevoren hebt gepland en wilt weten of het plan overeenkwam met de werkelijkheid, wat vaak informatiever uitpakt dan een stemmingsscore alleen. Als je consequent negen taken plant en er twee afrondt, ligt het probleem meestal bij het plan, niet bij je inzet. De eigen gebruiksdata van Chrobox over 5.077 geplande taken van 250 mensen laat zien dat op dagen met negen of meer geplande taken de hele lijst maar één keer in 198 dagen volledig werd afgerond, ongeveer een half procent van de tijd, terwijl een mediane dag vijf geplande taken heeft. Dat vormt een nuttige ijkwaarde wanneer je bepaalt of je eigen plan-versus-werkelijkheid-verschil normaal aanvoelt of de moeite waard is om aan te pakken. Het betreft observationele data uit app-gebruik, geen gecontroleerde studie, dus behandel het als een ruwe referentiewaarde in plaats van een regel.
+
+Veelgemaakte fout: een misgelopen blok behandelen als een persoonlijk falen in plaats van een planningssignaal. Als hetzelfde soort blok de meeste dagen misloopt, bijvoorbeeld alles wat na 9 uur 's avonds ingepland staat, dan vormt dat informatie over wanneer je dat soort taak beter niet meer kunt inplannen, geen bewijs dat je discipline mist.
+
+## Sjabloon 4: Stemming plus één Zin
+
+Voor de dagen waarop zelfs drie regels te veel voelen.
+
+Stemming: (kies één woord of een schaal van 1 tot 5)
+Eén zin over vandaag
+
+Benodigde tijd: minder dan 1 minuut.
+
+Wanneer het past: je dagen met de minste energie, of als terugvaloptie zodat de reeks niet helemaal afbreekt. Een korte notitie die de gewoonte levend houdt, weegt veel zwaarder dan een overgeslagen dag, aangezien het moeilijkste onderdeel van elke dagelijkse gewoonte meestal het herstarten ervan vormt na een onderbreking. Zelfs één zin schrijven geeft je later iets om op terug te kijken, wat een stemmingsscore alleen niet doet.
+
+Veelgemaakte fout: de notitie helemaal overslaan omdat het te klein aanvoelt om de moeite waard te zijn. Eén zin op een slechte dag is nog steeds een datapunt, en terugkijken op een maand met zelfs korte notities laat meestal patronen zien die geen enkele losse dag zou onthullen.
+
+## Kiezen tussen de Vier
+
+Gebruik het format van 3 regels als je standaard. Schakel over naar KPT op dagen dat je actief probeert iets specifieks op te lossen, aangezien de Try-regel je iets geeft om op terug te komen. Gebruik het plan-versus-werkelijkheid-format op dagen dat je je planning in tijdsblokken had ingedeeld, aangezien het je vertelt of het plan zelf aanpassing nodig heeft. Val terug op stemming-plus-één-zin op je zwaarste dagen, alleen om de gewoonte levend te houden in plaats van een onderbreking te laten uitgroeien tot weken zonder schrijven. Er bestaat hier geen verkeerde keuze; de enige echte fout is om een van deze als verplicht te behandelen op elke enkele dag.
+
+## Veelgemaakte Fouten bij Alle Vier de Sjablonen
+
+Een paar problemen duiken op ongeacht welk sjabloon je gebruikt.
+
+Er zelfkritiek van maken. Een reflectie die alleen tekortkomingen opsomt, traint je om de gewoonte te gaan vrezen. Elk sjabloon hierboven koppelt een negatieve observatie aan een vooruitkijkende actie, en dat gebeurt met opzet. Als je merkt dat je notities vooral klachten over jezelf zijn, voeg dan zelfs aan KPT of het plan-versus-werkelijkheid-sjabloon een regel 'wat ging er goed' toe.
+
+Te veel schrijven. Lange notities kosten meer tijd om te schrijven en nog meer tijd om te herlezen, wat betekent dat je stopt met eerdere notities herlezen, wat half het doel is van ze bijhouden. Als een notitie meer dan vijf minuten kost, ben je waarschijnlijk afgedwaald van reflectie naar uitbarsten. Bewaar het uitbarsten voor ergens anders en houd de reflectie kort genoeg dat je hem daadwerkelijk zult herlezen.
+
+De gewoonte helemaal overslaan op slechte dagen. Dit vormt de meest voorkomende manier waarop de gewoonte doodgaat. Slechte dagen zijn precies wanneer een snelle notitie van stemming plus één zin het meest telt, zowel omdat je de uitlaatklep nodig hebt als omdat een reeks slechte dagen later de moeite waard is om terug te kunnen zien.
+
+## Waar Dit Past bij een App
+
+Je kunt elk van deze vier sjablonen op papier, in een notitie-app, of in een speciale tool uitvoeren. Als je je dag al in tijdsblokken plant, houdt Chrobox het plan en de dagelijkse retrospectief in dezelfde app, zodat het plan-versus-werkelijkheid-sjabloon een minuut kost: de blokken die je hebt gepland en de blokken die je hebt afgevinkt staan er al. Notities bouwen ook een schrijfreeks op en voeden, op Chrobox Pro, een automatische dagelijkse en wekelijkse analyse met een optioneel AI-troostbericht bij een notitie, zodat de kleine dagelijkse gewoonte uitgroeit tot een langetermijnoverzicht zonder extra handmatig werk. Niets daarvan blijkt echter vereist om van deze sjablonen te profiteren. Een plaknotitie en twee minuten werken net zo goed als elke app.
+
+## De Gewoonte Opbouwen
+
+Het sjabloon maakt minder uit dan de meeste avonden opdagen met welk sjabloon dan ook, gedurende een paar weken. Kies degene die past bij de energie van vanavond in plaats van elke keer je meest uitgebreide notitie na te streven, en behandel een korte notitie als een volledig succes in plaats van een mindere versie van een lange. Bij een dagelijkse reflectie draait het niet om een perfect verslag; het draait om een gewoonte die je daadwerkelijk volhoudt, omdat een gewoonte die je een maand volhoudt je veel meer over je dagen vertelt dan één enkele uitgebreide notitie ooit zou kunnen.
 `,
   },
   templates: {

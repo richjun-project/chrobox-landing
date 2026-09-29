@@ -5,8 +5,48 @@
     <link>https://chrobox.net/ja/blog</link>
     <description>タイムボクシング、集中、時間管理の実践的なヒントをChroboxブログで紹介します。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ja/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>タイムボクシングは効果があるのか?5,077件のタスクから見る完了データ</title>
+      <link>https://chrobox.net/ja/blog/does-timeboxing-work</link>
+      <guid isPermaLink="true">https://chrobox.net/ja/blog/does-timeboxing-work</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>時間枠を設定したタスクの完了率は48.1%、リストに残したままのタスクは17.6%でした。250人のChroboxユーザーが計画した5,077件のタスクによる一次データと、その手法・限界を紹介します。</description>
+      <category>タイムボクシングの基本</category>
+    </item>
+    <item>
+      <title>iPhoneでアプリをロックする方法:3つの手段(Face IDロック、スクリーンタイム制限、時間指定ブロック)</title>
+      <link>https://chrobox.net/ja/blog/how-to-lock-apps-on-iphone</link>
+      <guid isPermaLink="true">https://chrobox.net/ja/blog/how-to-lock-apps-on-iphone</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>iPhoneでアプリをロックする実際の三つの方法:プライバシー保護のためのFace IDアプリロック、一日の上限を設けるスクリーンタイムのApp使用時間の制限、特定の時間帯だけブロックする時間指定ブロックを、比較表とともに紹介します。</description>
+      <category>アプリブロック＆集中</category>
+    </item>
+    <item>
+      <title>勉強中にスマホを確認する癖をやめる方法:実践的なルーティン</title>
+      <link>https://chrobox.net/ja/blog/how-to-stop-checking-phone-while-studying</link>
+      <guid isPermaLink="true">https://chrobox.net/ja/blog/how-to-stop-checking-phone-while-studying</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>勉強中のスマホチェックをやめるための実践的なルーティン。物理的な距離、時間指定のアプリブロック、固定のタイムボックスを組み合わせ、研究結果と一次完了データで裏付けます。</description>
+      <category>アプリブロック＆集中</category>
+    </item>
+    <item>
+      <title>スマホ依存を減らす方法:スクリーンタイムを削減する7ステップ計画</title>
+      <link>https://chrobox.net/ja/blog/reduce-phone-addiction</link>
+      <guid isPermaLink="true">https://chrobox.net/ja/blog/reduce-phone-addiction</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>標準搭載のツールと計画的な集中ブロックを使い、強迫的なスマホチェックとスクリーンタイムを減らすための、臨床的ではない実践的な7ステップ計画です。</description>
+      <category>アプリブロック＆集中</category>
+    </item>
+    <item>
+      <title>デイリーリフレクションのテンプレート:すぐ使える4つの形式(KPTを含む)</title>
+      <link>https://chrobox.net/ja/blog/daily-reflection-template</link>
+      <guid isPermaLink="true">https://chrobox.net/ja/blog/daily-reflection-template</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2分でできる3行振り返りから、KPT、タイムボックス化した日のための計画対実績チェックまで、そのまま使える四つのデイリーリフレクションテンプレートを紹介します。</description>
+      <category>スケジュールとルーティン</category>
+    </item>
     <item>
       <title>デジタルデトックスを現実的に：挫折しない集中習慣の作り方</title>
       <link>https://chrobox.net/ja/blog/digital-detox-focus-routine</link>

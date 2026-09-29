@@ -12,6 +12,7 @@ import {
   type SiteLocale,
 } from './seo';
 import { COMPANY_INFO, PRO_PRICES_USD, STORE_RATING, THREADS_URL } from './company';
+import { USAGE_STATS, USAGE_STATS_VARIABLES } from '../data/usageStats';
 
 type PageMetadataInput = {
   locale: SiteLocale;
@@ -192,5 +193,35 @@ export function softwareApplicationSchema(description: string) {
       worstRating: '1',
     },
     publisher: organizationRef(),
+  };
+}
+
+/**
+ * Dataset JSON-LD for the first-party usage-data post. Name and description are the
+ * post's own (visible) title and excerpt; the figures behind them live in
+ * data/usageStats.ts alongside the numbers the markdown quotes.
+ */
+export function usageDatasetSchema(input: {
+  name: string;
+  description: string;
+  url: string;
+  inLanguage: string;
+  datePublished: string;
+  dateModified: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: input.name,
+    description: input.description,
+    url: input.url,
+    inLanguage: input.inLanguage,
+    creator: organizationRef(),
+    datePublished: input.datePublished,
+    dateModified: input.dateModified,
+    temporalCoverage: `${USAGE_STATS.periodStart}/${USAGE_STATS.periodEnd}`,
+    variableMeasured: USAGE_STATS_VARIABLES,
+    measurementTechnique: `Aggregated, anonymized task records from the Chrobox app (${USAGE_STATS.tasks} tasks, ${USAGE_STATS.people} signed-in accounts, extracted ${USAGE_STATS.extracted})`,
+    isAccessibleForFree: true,
   };
 }

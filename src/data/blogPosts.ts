@@ -9,6 +9,7 @@ import { enBatch5, koBatch5, contentBatch5 } from './blogBatch5';
 import { enBatch6, koBatch6, contentBatch6 } from './blogBatch6';
 import { enBatch7, koBatch7, contentBatch7 } from './blogBatch7';
 import { enBatch8, koBatch8, contentBatch8 } from './blogBatch8';
+import { enBatch9, koBatch9, contentBatch9 } from './blogBatch9';
 import {
   getClusterBySlug,
   clusterCategoryName,
@@ -112,7 +113,7 @@ export const enBlogPosts: BlogPostMeta[] = [
       },
     ],
   },
-  ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5, ...enBatch6, ...enBatch7, ...enBatch8,
+  ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5, ...enBatch6, ...enBatch7, ...enBatch8, ...enBatch9,
 ];
 
 // Korean blog posts
@@ -213,7 +214,7 @@ export const koBlogPosts: BlogPostMeta[] = [
       },
     ],
   },
-  ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7, ...koBatch8,
+  ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7, ...koBatch8, ...koBatch9,
 ];
 
 function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
@@ -312,7 +313,7 @@ const asLangFirst = (
 
 const normalizedBatches = [
   contentBatch1, contentBatch2, contentBatch3, contentBatch4,
-  contentBatch5, contentBatch6, contentBatch7, contentBatch8,
+  contentBatch5, contentBatch6, contentBatch7, contentBatch8, contentBatch9,
 ].map(asLangFirst);
 
 // Blog post content (markdown)

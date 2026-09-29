@@ -41,6 +41,8 @@ export interface BlogPostMeta {
   faqs?: BlogFaq[];
   /** Ranked item names for listicle posts; emitted as ItemList JSON-LD. */
   itemList?: string[];
+  /** First-party data post: emits Dataset JSON-LD built from src/data/usageStats.ts. */
+  dataset?: boolean;
   clusterId?: string;
   clusterSlug?: string;
   hubSlug?: string;

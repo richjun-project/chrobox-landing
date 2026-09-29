@@ -5,8 +5,48 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>타임박싱, 정말 효과 있을까? 할 일 5,077개의 완료율 데이터</title>
+      <link>https://chrobox.net/ko/blog/does-timeboxing-work</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/does-timeboxing-work</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>시간을 정해 둔 할 일은 48.1%, 목록에만 둔 할 일은 17.6%가 완료됐습니다. Chrobox 사용자 250명이 계획한 할 일 5,077개로 본 1차 데이터와 측정 방법, 한계까지 정리했습니다.</description>
+      <category>타임박싱 기초</category>
+    </item>
+    <item>
+      <title>아이폰 앱 잠금 방법 3가지: Face ID 잠금·스크린타임 제한·시간대 차단</title>
+      <link>https://chrobox.net/ko/blog/how-to-lock-apps-on-iphone</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/how-to-lock-apps-on-iphone</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>아이폰 앱 잠금 방법 3가지를 비교합니다. Face ID 잠금, 스크린타임 앱 시간 제한, 시간대별 차단의 목적과 우회 가능성을 정리했습니다.</description>
+      <category>앱 차단과 집중</category>
+    </item>
+    <item>
+      <title>공부할 때 핸드폰 안 보는 법: 거리 두기·앱 차단·타임박싱 루틴</title>
+      <link>https://chrobox.net/ko/blog/how-to-stop-checking-phone-while-studying</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/how-to-stop-checking-phone-while-studying</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>공부할 때 핸드폰 안 보는 법을 거리 두기, 시간대별 앱 차단, 타임박싱 루틴으로 정리했습니다. 2017년 연구와 Chrobox 실제 데이터를 근거로 합니다.</description>
+      <category>앱 차단과 집중</category>
+    </item>
+    <item>
+      <title>폰중독 벗어나는 법: 스크린타임을 줄이는 7단계</title>
+      <link>https://chrobox.net/ko/blog/reduce-phone-addiction</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/reduce-phone-addiction</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>스크린타임 앱으로 먼저 측정하고, 트리거를 없애고, 집중 시간대에만 차단하는 현실적인 7단계 폰중독 탈출법입니다.</description>
+      <category>앱 차단과 집중</category>
+    </item>
+    <item>
+      <title>하루 회고 쓰는 법: 5분이면 되는 회고 템플릿 4가지 (KPT·3줄 회고)</title>
+      <link>https://chrobox.net/ko/blog/daily-reflection-template</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/daily-reflection-template</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>2분이면 끝나는 3줄 회고부터 KPT, 시간배치용 계획 대비 실행 체크까지 바로 쓸 수 있는 하루 회고 템플릿 4가지를 소개합니다.</description>
+      <category>스케줄링과 루틴</category>
+    </item>
     <item>
       <title>현실적인 디지털 디톡스: 지킬 수 있는 집중 루틴 만들기</title>
       <link>https://chrobox.net/ko/blog/digital-detox-focus-routine</link>

@@ -20,6 +20,19 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
 - Facts last reviewed: 2026-09-30
 
+## First-party data
+
+Chrobox publishes aggregate completion data from its own app. Source page:
+[Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
+(5,077 tasks planned by 250 people, tasks dated 2025-12-03 to 2026-09-29, extracted 2026-09-30).
+
+- Tasks given a time box were completed 48.1% of the time vs 17.6% for tasks left unscheduled
+- Same-person comparison: 35 of 41 people completed more of their time-boxed tasks
+- Boxes starting 05:00–08:59 were completed 62.3%; boxes starting 21:00–23:59, 33.2%
+- Priority-marked tasks: 44.5% vs 28.9%
+- Median time box: 60 minutes (also the app's default); median 5 tasks planned per day
+- Observational data: an association, not a controlled experiment. Cite as "Chrobox (2026)" with the source page URL
+
 ## Key pages
 
 - [Home — features, pricing, FAQ](https://chrobox.net)
@@ -28,7 +41,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - [Chrobox compared with other planners](https://chrobox.net/compare)
 - [Full text of the method guides](https://chrobox.net/llms-full.txt)
 
-## Method guides (33)
+## Method guides (38)
 
 ### Time-Boxing Fundamentals
 
@@ -39,6 +52,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - [10 Common Time-Boxing Mistakes (And How to Fix Them)](https://chrobox.net/blog/time-boxing-mistakes-to-avoid): Time-boxing fails for most people due to a few avoidable mistakes. Learn the 10 most common pitfalls and the exact fix so your schedule sticks.
 - [Parkinson's Law Explained: How to Use It to Double Your Output](https://chrobox.net/blog/parkinsons-law-productivity): Parkinson's Law says work expands to fill the time available. Learn to harness it with deadlines and time-boxing to ship 2x faster without burnout.
 - [Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing](https://chrobox.net/blog/eat-the-frog-time-boxing): Brian Tracy's Eat That Frog says tackle your hardest task first. Combine it with time-boxing for a morning routine that crushes key work before 10 AM.
+- [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work): Tasks given a time slot were completed 48.1% of the time; tasks left on the list, 17.6%. First-party data from 5,077 tasks planned by 250 Chrobox users, with methodology and limits.
 
 ### Scheduling & Routines
 
@@ -50,6 +64,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - [Digital Minimalism Meets Time-Boxing: Reclaim Your Attention](https://chrobox.net/blog/digital-minimalism-scheduling): Combine digital minimalism principles with time-boxing to reduce digital noise, reclaim your attention, and do your best work.
 - [Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries](https://chrobox.net/blog/work-life-balance-scheduling): Learn how strategic time-boxing sets firm boundaries between work and personal life, reduces burnout, and builds a sustainable schedule.
 - [Remote Work Scheduling: Time-Boxing Tips for WFH Productivity](https://chrobox.net/blog/remote-work-scheduling): Working from home blurs boundaries between work and life. Discover how time-boxing helps remote workers stay productive, focused, and balanced.
+- [Daily Reflection Template: 4 Ready-to-Use Formats (Including KPT)](https://chrobox.net/blog/daily-reflection-template): Four copy-ready daily reflection templates, from a 2-minute 3-line reflection to KPT and a plan-versus-actual check for time-boxed days.
 
 ### Focus & Productivity
 
@@ -75,6 +90,9 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - [How to Block Distracting Apps and Win Back Your Focus (2026 Guide)](https://chrobox.net/blog/how-to-block-distracting-apps): Blocking distracting apps is the single highest-leverage change you can make to your focus. Learn why it works, how iOS and Android differ, and how to set it up in 10 minutes.
 - [App Blocker + Timeboxing: The Focus Stack That Actually Works](https://chrobox.net/blog/app-blocker-plus-timeboxing): Blocking apps alone rarely sticks. Pair it with timeboxing, a pre-session ritual, and streak tracking and you get a focus stack that survives real life. Here is how it fits together.
 - [A Realistic Digital Detox: Build a Focus Routine You Can Keep](https://chrobox.net/blog/digital-detox-focus-routine): Most digital detoxes fail because they demand too much, too fast. Here is a gradual, realistic approach — phone-free routines, weekly reviews, and streaks — that actually holds up.
+- [How to Lock Apps on iPhone: 3 Methods (Face ID Lock, Screen Time Limits, Scheduled Blocking)](https://chrobox.net/blog/how-to-lock-apps-on-iphone): Three real ways to lock apps on iPhone: Face ID app lock for privacy, Screen Time App Limits for daily caps, and scheduled blocking for specific hours, with a comparison table.
+- [How to Stop Checking Your Phone While Studying: A Practical Routine](https://chrobox.net/blog/how-to-stop-checking-phone-while-studying): A practical routine to stop checking your phone while studying: physical distance, scheduled app blocking, and fixed time boxes, backed by research and first-party completion data.
+- [How to Reduce Phone Addiction: A 7-Step Plan to Cut Screen Time](https://chrobox.net/blog/reduce-phone-addiction): A practical, non-clinical 7-step plan to reduce compulsive phone checking and screen time, using built-in tools plus planned focus blocks.
 
 ### Tools & Comparisons
 
@@ -104,8 +122,13 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - [Executive (CEO/VP) daily schedule](https://chrobox.net/templates/executive): A leadership-focused daily schedule for executives to drive strategy, lead teams, and maintain high-level perspective.
 - [Work-from-Home Parent daily schedule](https://chrobox.net/templates/parent-working-from-home): A realistic daily schedule for parents working from home to balance childcare, household duties, and professional output.
 
-## Comparisons (10)
+## Comparisons (15)
 
+- [Chrobox vs Structured](https://chrobox.net/compare/chrobox-vs-structured): Structured is a polished visual timeline planner deeply tied to Apple devices, with a free tier and AI auto-scheduling on Pro. Chrobox is a phone-only timeboxing app that adds automatic app blocking during each time box, but has no free plan and no Mac, Watch, or web app.
+- [Chrobox vs Tiimo](https://chrobox.net/compare/chrobox-vs-tiimo): Tiimo is a visual, pictogram-based AI planner built specifically for ADHD and autism executive-function support, and was named Apple's 2025 iPhone App of the Year. Chrobox is a general-purpose timeboxing app for phones that adds automatic app blocking during each time box, but does not have Tiimo's ADHD-specific design or free tier.
+- [Chrobox vs Sunsama](https://chrobox.net/compare/chrobox-vs-sunsama): Sunsama is a web-first daily planner for professionals that pulls tasks in from tools like Asana, Notion, Slack, and Gmail, with genuine two-way calendar sync and a structured daily shutdown ritual. Chrobox is a phone-only timeboxing app with no task-tool integrations or calendar sync, but it adds automatic app blocking and a focus timer tied to each time box.
+- [Chrobox vs Opal](https://chrobox.net/compare/chrobox-vs-opal): Opal is a dedicated screen-time and app-blocking tool with a strict Hard Mode you cannot switch off mid-session, plus a free tier. Chrobox is a timeboxing app first, and blocks the apps you choose only during the time boxes you schedule, with no equivalent to Opal's always-on Hard Mode and no free plan.
+- [Chrobox vs Forest](https://chrobox.net/compare/chrobox-vs-forest): Forest is a free, gamified focus timer that grows a virtual tree while you stay off your phone, with app blocking and group focus sessions built into its free tier. Chrobox plans your whole day into time boxes with routines and reflection, and blocks apps tied to those boxes, but has no gamification and no free plan.
 - [Chrobox vs Todoist](https://chrobox.net/compare/chrobox-vs-todoist): Chrobox and Todoist both help you manage tasks, but they take fundamentally different approaches. Chrobox uses time-boxing to schedule every task into a specific time block, while Todoist focuses on prioritized task lists. Discover which app fits your productivity style.
 - [Chrobox vs Google Calendar](https://chrobox.net/compare/chrobox-vs-google-calendar): Google Calendar is the world's most popular calendar app, great for scheduling meetings and events. Chrobox goes further by combining time-boxing with a task manager so you can plan deep work blocks alongside your calendar commitments.
 - [Chrobox vs Notion](https://chrobox.net/compare/chrobox-vs-notion): Notion is a powerful all-in-one workspace for notes, databases, and projects. Chrobox is a dedicated time-boxing app built for daily scheduling and focused productivity. Learn which tool is right for your workflow.
@@ -127,4 +150,4 @@ Every page exists in 20 locales with translated bodies: [English](https://chrobo
 - Store ratings shown on the site are copied from the App Store and Play Store listings, never adjusted by hand
 - Comparison pages describe competitors from their public feature sets; each includes where the other app is the better choice
 - Cite as "Chrobox" and link the specific page rather than the domain root
-- Guides last updated: 2026-08-09
+- Guides last updated: 2026-09-30

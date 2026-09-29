@@ -4,7 +4,7 @@ import { BlogPost } from '../../../screens/BlogPost';
 import { JsonLd } from '../../../components/JsonLd';
 import { getBlogContent, getBlogPost, translatedBlogLocales } from '../../../data/blogPosts';
 import { blogSlugParams, type SlugParam } from '../../_route-helpers';
-import { pageMetadata, organizationRef } from '../../../lib/next-seo';
+import { pageMetadata, organizationRef, usageDatasetSchema } from '../../../lib/next-seo';
 import { absoluteUrl, blogArticleSeo, htmlLangForLocale, localizedPath, seoCopy, truncateAtSentence } from '../../../lib/seo';
 import { getClusterBySlug } from '../../../lib/blogTaxonomy';
 import { postCrossLinks, postDirectAnswer, relatedPostsData } from '../../../lib/viewData';
@@ -121,6 +121,18 @@ export default async function Page({ params }: { params: SlugParam }) {
         }}
       />
       {faqSchema && <JsonLd data={faqSchema} />}
+      {post.dataset && (
+        <JsonLd
+          data={usageDatasetSchema({
+            name: post.title,
+            description: post.excerpt,
+            url: postUrl,
+            inLanguage: 'en',
+            datePublished: post.date,
+            dateModified: post.updated ?? post.date,
+          })}
+        />
+      )}
       {post.itemList && (
         <JsonLd
           data={{

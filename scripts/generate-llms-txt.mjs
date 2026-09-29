@@ -24,6 +24,7 @@ const { BLOG_CLUSTERS } = await jiti.import(join(ROOT, 'src/lib/blogTaxonomy.ts'
 const { scheduleTemplates } = await jiti.import(join(ROOT, 'src/data/scheduleTemplates.ts'));
 const { comparisons } = await jiti.import(join(ROOT, 'src/data/comparisons.ts'));
 const { SEO_LOCALES } = await jiti.import(join(ROOT, 'src/lib/seo.ts'));
+const { USAGE_STATS } = await jiti.import(join(ROOT, 'src/data/usageStats.ts'));
 const { COMPANY_INFO, THREADS_URL, APP_LANGUAGE_COUNT, PRO_TRIAL_DAYS, PRO_PRICES_USD } = await jiti.import(join(ROOT, 'src/lib/company.ts'));
 const en = JSON.parse(readFileSync(join(ROOT, 'src/i18n/en.json'), 'utf8'));
 
@@ -50,6 +51,22 @@ const facts = `## Facts
 - Operator: ${COMPANY_INFO.name} (Seoul, South Korea) — contact ${COMPANY_INFO.email}
 - Official accounts: [Threads @chrobox](${THREADS_URL}), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
 - Facts last reviewed: ${FACTS_REVIEWED}`;
+
+// Principle: be the primary source. These figures exist nowhere else; they come
+// from the same object the data post's Dataset JSON-LD is built from.
+const u = USAGE_STATS;
+const firstPartyData = `## First-party data
+
+Chrobox publishes aggregate completion data from its own app. Source page:
+[${postBySlug.get(u.slug)?.title ?? u.slug}](${urlForPath(`/blog/${u.slug}`)})
+(${u.tasks.toLocaleString('en-US')} tasks planned by ${u.people} people, tasks dated ${u.periodStart} to ${u.periodEnd}, extracted ${u.extracted}).
+
+- Tasks given a time box were completed ${u.completion.timeBoxed}% of the time vs ${u.completion.unscheduled}% for tasks left unscheduled
+- Same-person comparison: ${u.completion.sameUserBoxedHigher} of ${u.completion.sameUserPeople} people completed more of their time-boxed tasks
+- Boxes starting 05:00–08:59 were completed ${u.completion.morning0500to0859}%; boxes starting 21:00–23:59, ${u.completion.evening2100to2359}%
+- Priority-marked tasks: ${u.completion.priority}% vs ${u.completion.nonPriority}%
+- Median time box: ${u.medianBoxMinutes} minutes (also the app's default); median ${u.medianTasksPerDay} tasks planned per day
+- Observational data: an association, not a controlled experiment. Cite as "Chrobox (2026)" with the source page URL`;
 
 const definition = `## What Chrobox is
 
@@ -86,6 +103,8 @@ const llms = `# Chrobox
 ${definition}
 
 ${facts}
+
+${firstPartyData}
 
 ## Key pages
 
@@ -140,6 +159,8 @@ const llmsFull = `# Chrobox — full reference
 ${definition}
 
 ${facts}
+
+${firstPartyData}
 
 ## Frequently asked questions
 

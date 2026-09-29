@@ -59,6 +59,7 @@ export const BLOG_CLUSTERS: BlogClusterDefinition[] = [
       'time-boxing-mistakes-to-avoid',
       'parkinsons-law-productivity',
       'eat-the-frog-time-boxing',
+      'does-timeboxing-work',
     ],
   },
   {
@@ -96,6 +97,7 @@ export const BLOG_CLUSTERS: BlogClusterDefinition[] = [
       'digital-minimalism-scheduling',
       'work-life-balance-scheduling',
       'remote-work-scheduling',
+      'daily-reflection-template',
     ],
   },
   {
@@ -199,6 +201,9 @@ export const BLOG_CLUSTERS: BlogClusterDefinition[] = [
       'how-to-block-distracting-apps',
       'app-blocker-plus-timeboxing',
       'digital-detox-focus-routine',
+      'how-to-lock-apps-on-iphone',
+      'how-to-stop-checking-phone-while-studying',
+      'reduce-phone-addiction',
     ],
   },
   {
