@@ -16,9 +16,10 @@
     "cta": "3-दिन का मुफ्त ट्रायल शुरू करें",
     "ctaSecondary": "यह कैसे काम करता है",
     "stats": {
-      "productivity": "उत्पादकता में वृद्धि",
-      "timeSaved": "रोज़ बचा समय",
-      "completion": "कार्य पूर्णता"
+      "rating": "App Store और Google Play रेटिंग",
+      "languages": "ऐप में भाषाएं",
+      "trial": "मुफ़्त Pro ट्रायल",
+      "trialValue": "{{days}} दिन"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "क्रॉस-प्लेटफ़ॉर्म सिंक",
-      "description": "कहीं से भी अपनी योजनाओं तक पहुंचें। iOS, Android और डेस्कटॉप पर सहज सिंक।"
+      "description": "कहीं से भी अपनी योजनाओं तक पहुंचें। iOS और Android के बीच सहज सिंक।"
     },
     "retrospective": {
       "title": "दैनिक रेट्रोस्पेक्टिव",

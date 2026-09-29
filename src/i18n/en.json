@@ -16,9 +16,10 @@
     "cta": "Start 3-Day Free Trial",
     "ctaSecondary": "How It Works",
     "stats": {
-      "productivity": "Productivity Boost",
-      "timeSaved": "Daily Time Saved",
-      "completion": "Task Completion"
+      "rating": "App Store & Google Play rating",
+      "languages": "Languages in the app",
+      "trial": "Free Pro trial",
+      "trialValue": "{{days}} days"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Cross-Platform Sync",
-      "description": "Access your plans anywhere. Seamless sync across iOS, Android, and desktop."
+      "description": "Access your plans anywhere. Seamless sync between iOS and Android."
     },
     "retrospective": {
       "title": "Daily Retrospective",

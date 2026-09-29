@@ -103,16 +103,19 @@ function extractBlogEntries(relativePaths) {
       const after = source.slice(match.index, match.index + 600);
       const dateMatch = after.match(/\bdate:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
       const updatedMatch = after.match(/\bupdated:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
+      const localesUpdatedMatch = after.match(/\blocalesUpdated:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/);
       // A substantive revision (`updated`) is the post's real last modification.
       const date = [dateMatch?.[1], updatedMatch?.[1]].filter(Boolean).sort().pop();
+      // The 18 translated locales can change on a different day than en/ko.
+      const localesDate = [date, localesUpdatedMatch?.[1]].filter(Boolean).sort().pop();
 
-      if (!entries.has(slug) || (date && !entries.get(slug))) {
-        entries.set(slug, date);
+      if (!entries.has(slug) || (date && !entries.get(slug).date)) {
+        entries.set(slug, { date, localesDate });
       }
     }
   }
 
-  return [...entries].map(([slug, date]) => ({ slug, date }));
+  return [...entries].map(([slug, dates]) => ({ slug, ...dates }));
 }
 
 function extractCategorySlugs() {
@@ -248,6 +251,8 @@ function routeGroup(enPath, options = {}) {
     section: options.section ?? 'pages',
     changefreq: options.changefreq ?? 'monthly',
     priority: options.priority ?? '0.8',
+    // Overrides `lastmod` for every locale except en/ko (see localesUpdated).
+    localeLastmod: options.localeLastmod,
     lastmod: options.lastmod ?? latestSourceDate([
       ...BLOG_SOURCES,
       TEMPLATE_SOURCE,
@@ -298,7 +303,7 @@ export function getSeoRouteGroups() {
         section: 'categories',
       })
     )),
-    ...extractBlogEntries(BLOG_SOURCES).map(({ slug, date }) => {
+    ...extractBlogEntries(BLOG_SOURCES).map(({ slug, date, localesDate }) => {
       // Priority pages: those already earning impressions in Search Console, plus the
       // new app-blocking cluster we want crawled and ranked first. Raised crawl priority
       // + weekly changefreq concentrates crawl budget where it converts.
@@ -307,6 +312,7 @@ export function getSeoRouteGroups() {
         changefreq: isPriority ? 'weekly' : 'monthly',
         priority: isPriority ? '0.9' : '0.8',
         lastmod: date ?? blogLastmod,
+        localeLastmod: localesDate && localesDate !== date ? localesDate : undefined,
         section: 'blog',
       });
     }),

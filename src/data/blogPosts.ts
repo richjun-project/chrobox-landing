@@ -270,6 +270,7 @@ export const getBlogPosts = (lang: ContentLanguage): BlogPostMeta[] => {
 
       return {
         ...post,
+        updated: [post.updated, post.localesUpdated].filter(Boolean).sort().pop(),
         title: copy.title,
         excerpt: copy.excerpt,
         faqs: post.faqs?.map((faq, index) => (copy.faqs?.[index]

@@ -16,9 +16,10 @@
     "cta": "3日間無料トライアルを始める",
     "ctaSecondary": "使い方を見る",
     "stats": {
-      "productivity": "生産性アップ",
-      "timeSaved": "1日の時間短縮",
-      "completion": "タスク完了率"
+      "rating": "App Store・Google Play 評価",
+      "languages": "アプリの対応言語",
+      "trial": "Pro無料体験",
+      "trialValue": "{{days}}日間"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "クロスプラットフォーム同期",
-      "description": "どこからでもプランにアクセス。iOS、Android、デスクトップ間でシームレスに同期します。"
+      "description": "どこからでもプランにアクセス。iOSとAndroidの間でシームレスに同期します。"
     },
     "retrospective": {
       "title": "デイリー振り返り",

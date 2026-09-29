@@ -16,9 +16,10 @@
     "cta": "Mulai Uji Coba Gratis 3 Hari",
     "ctaSecondary": "Cara Kerja",
     "stats": {
-      "productivity": "Peningkatan Produktivitas",
-      "timeSaved": "Waktu Hemat Harian",
-      "completion": "Penyelesaian Tugas"
+      "rating": "Rating di App Store & Google Play",
+      "languages": "Bahasa di aplikasi",
+      "trial": "Uji coba Pro gratis",
+      "trialValue": "{{days}} hari"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Sinkronisasi Lintas Platform",
-      "description": "Akses rencana Anda di mana saja. Sinkronisasi mulus di iOS, Android, dan desktop."
+      "description": "Akses rencana Anda di mana saja. Sinkronisasi mulus antara iOS dan Android."
     },
     "retrospective": {
       "title": "Retrospeksi Harian",

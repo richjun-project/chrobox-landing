@@ -18,7 +18,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - App interface languages: 54; this website: 20 locales
 - Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
-- Facts last reviewed: 2026-09-24
+- Facts last reviewed: 2026-09-30
 
 ## Key pages
 

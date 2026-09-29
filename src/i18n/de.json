@@ -16,9 +16,10 @@
     "cta": "3 Tage kostenlos testen",
     "ctaSecondary": "So funktioniert's",
     "stats": {
-      "productivity": "Mehr Produktivität",
-      "timeSaved": "Täglich gesparte Zeit",
-      "completion": "Erledigte Aufgaben"
+      "rating": "Bewertung im App Store & Google Play",
+      "languages": "Sprachen in der App",
+      "trial": "Pro kostenlos testen",
+      "trialValue": "{{days}} Tage"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Plattformübergreifende Synchronisierung",
-      "description": "Greifen Sie überall auf Ihre Pläne zu. Nahtlose Synchronisierung zwischen iOS, Android und Desktop."
+      "description": "Greifen Sie überall auf Ihre Pläne zu. Nahtlose Synchronisierung zwischen iOS und Android."
     },
     "retrospective": {
       "title": "Tägliche Rückschau",

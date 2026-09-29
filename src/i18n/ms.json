@@ -16,9 +16,10 @@
     "cta": "Mulakan Percubaan Percuma 3 Hari",
     "ctaSecondary": "Cara Berfungsi",
     "stats": {
-      "productivity": "Peningkatan Produktiviti",
-      "timeSaved": "Masa Dijimatkan Setiap Hari",
-      "completion": "Penyelesaian Tugasan"
+      "rating": "Penarafan App Store & Google Play",
+      "languages": "Bahasa dalam aplikasi",
+      "trial": "Percubaan Pro percuma",
+      "trialValue": "{{days}} hari"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Penyegerakan Rentas Platform",
-      "description": "Akses pelan anda di mana sahaja. Penyegerakan lancar merentasi iOS, Android, dan desktop."
+      "description": "Akses pelan anda di mana sahaja. Penyegerakan lancar antara iOS dan Android."
     },
     "retrospective": {
       "title": "Retrospektif Harian",

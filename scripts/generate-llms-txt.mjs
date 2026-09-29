@@ -24,12 +24,12 @@ const { BLOG_CLUSTERS } = await jiti.import(join(ROOT, 'src/lib/blogTaxonomy.ts'
 const { scheduleTemplates } = await jiti.import(join(ROOT, 'src/data/scheduleTemplates.ts'));
 const { comparisons } = await jiti.import(join(ROOT, 'src/data/comparisons.ts'));
 const { SEO_LOCALES } = await jiti.import(join(ROOT, 'src/lib/seo.ts'));
-const { COMPANY_INFO, THREADS_URL } = await jiti.import(join(ROOT, 'src/lib/company.ts'));
+const { COMPANY_INFO, THREADS_URL, APP_LANGUAGE_COUNT, PRO_TRIAL_DAYS } = await jiti.import(join(ROOT, 'src/lib/company.ts'));
 const en = JSON.parse(readFileSync(join(ROOT, 'src/i18n/en.json'), 'utf8'));
 
 // Bump when the "Facts" block below changes. Not the build date: a date that
 // moves on every deploy says nothing about when the facts were last checked.
-const FACTS_REVIEWED = '2026-09-24';
+const FACTS_REVIEWED = '2026-09-30';
 
 const postBySlug = new Map(enBlogPosts.map((post) => [post.slug, post]));
 const contentUpdated = enBlogPosts
@@ -44,9 +44,9 @@ const facts = `## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
 - Free plan: daily planning with up to three tasks per day, the visual timeline, and retrospectives
-- Chrobox Pro: 3-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase
+- Chrobox Pro: ${PRO_TRIAL_DAYS}-day free trial, then $4.99/month, $39.99/year, or a one-time $99.99 lifetime purchase
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
-- App interface languages: 54; this website: ${SEO_LOCALES.length} locales
+- App interface languages: ${APP_LANGUAGE_COUNT}; this website: ${SEO_LOCALES.length} locales
 - Operator: ${COMPANY_INFO.name} (Seoul, South Korea) — contact ${COMPANY_INFO.email}
 - Official accounts: [Threads @chrobox](${THREADS_URL}), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
 - Facts last reviewed: ${FACTS_REVIEWED}`;

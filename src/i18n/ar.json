@@ -16,9 +16,10 @@
     "cta": "ابدأ تجربة مجانية لمدة 3 أيام",
     "ctaSecondary": "كيف يعمل",
     "stats": {
-      "productivity": "زيادة الإنتاجية",
-      "timeSaved": "الوقت الموفر يومياً",
-      "completion": "إنجاز المهام"
+      "rating": "التقييم على App Store وGoogle Play",
+      "languages": "لغة في التطبيق",
+      "trial": "تجربة Pro المجانية",
+      "trialValue": "{{days}} أيام"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "مزامنة عبر المنصات",
-      "description": "صِل إلى خططك من أي مكان. مزامنة سلسة عبر iOS وAndroid وسطح المكتب."
+      "description": "صِل إلى خططك من أي مكان. مزامنة سلسة بين iOS وAndroid."
     },
     "retrospective": {
       "title": "مراجعة يومية",

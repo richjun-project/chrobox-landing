@@ -16,9 +16,10 @@
     "cta": "Bắt Đầu Dùng Thử Miễn Phí 3 Ngày",
     "ctaSecondary": "Cách Hoạt Động",
     "stats": {
-      "productivity": "Tăng Năng Suất",
-      "timeSaved": "Thời Gian Tiết Kiệm Mỗi Ngày",
-      "completion": "Hoàn Thành Công Việc"
+      "rating": "Đánh giá trên App Store & Google Play",
+      "languages": "Ngôn ngữ trong ứng dụng",
+      "trial": "Dùng thử Pro miễn phí",
+      "trialValue": "{{days}} ngày"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Đồng Bộ Đa Nền Tảng",
-      "description": "Truy cập kế hoạch của bạn ở mọi nơi. Đồng bộ liền mạch trên iOS, Android và desktop."
+      "description": "Truy cập kế hoạch của bạn ở mọi nơi. Đồng bộ liền mạch giữa iOS và Android."
     },
     "retrospective": {
       "title": "Nhìn Lại Cuối Ngày",

@@ -16,9 +16,10 @@
     "cta": "Essai gratuit de 3 jours",
     "ctaSecondary": "Comment ça marche",
     "stats": {
-      "productivity": "Gain de productivité",
-      "timeSaved": "Temps gagné par jour",
-      "completion": "Taux d'achèvement des tâches"
+      "rating": "Note sur l'App Store et Google Play",
+      "languages": "Langues dans l'app",
+      "trial": "Essai gratuit de Pro",
+      "trialValue": "{{days}} jours"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Synchronisation multiplateforme",
-      "description": "Accédez à vos plans partout. Synchronisation fluide entre iOS, Android et ordinateur."
+      "description": "Accédez à vos plans partout. Synchronisation fluide entre iOS et Android."
     },
     "retrospective": {
       "title": "Rétrospective quotidienne",

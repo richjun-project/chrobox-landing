@@ -16,7 +16,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 - App interface languages: 54; this website: 20 locales
 - Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
-- Facts last reviewed: 2026-09-24
+- Facts last reviewed: 2026-09-30
 
 ## Frequently asked questions
 
@@ -196,7 +196,7 @@ There's no universally "better" technique—only what works better for you. Expe
 
 ## Time-Blocking vs Time-Boxing: What's the Difference?
 
-Source: https://chrobox.net/blog/time-blocking-vs-time-boxing · Updated: 2025-01-23
+Source: https://chrobox.net/blog/time-blocking-vs-time-boxing · Updated: 2026-08-09
 
 ### Two Powerful Techniques, One Crucial Difference
 
@@ -641,7 +641,7 @@ Tonight, pick tomorrow's frog. Block 90 minutes. Show up. Eat it. Then watch the
 
 ## How to Build the Perfect Morning Routine with Time-Boxing
 
-Source: https://chrobox.net/blog/morning-routine-scheduling · Updated: 2025-01-11
+Source: https://chrobox.net/blog/morning-routine-scheduling · Updated: 2026-08-09
 
 The morning is the one part of the day you can control most completely. No meetings have been scheduled, no emails demand immediate replies, and your willpower reserve is at its highest. Time-boxing that window turns good intentions into a repeatable system.
 
@@ -692,7 +692,7 @@ Your best days start the night before, with a plan already in place.
 
 ## The Ultimate Weekly Planning Guide Using Time-Boxing
 
-Source: https://chrobox.net/blog/weekly-planning-guide · Updated: 2025-01-20
+Source: https://chrobox.net/blog/weekly-planning-guide · Updated: 2026-08-09
 
 ### Why Weekly Planning Changes Everything
 
@@ -755,7 +755,7 @@ The first weekly planning session feels awkward. By the third or fourth week, it
 
 ## Deep Work Scheduling: How to Protect Your Most Productive Hours
 
-Source: https://chrobox.net/blog/deep-work-scheduling · Updated: 2025-01-14
+Source: https://chrobox.net/blog/deep-work-scheduling · Updated: 2026-08-09
 
 Cal Newport defines deep work as 'professional activities performed in a state of distraction-free concentration that push your cognitive capabilities to their limit.' It produces the work that moves careers forward. Yet most knowledge workers get less than one hour of genuine deep work per day.
 
@@ -812,7 +812,7 @@ Protect your deep hours. Everything else can wait.
 
 ## The Daily Review Ritual: 10 Minutes to Transform Your Day
 
-Source: https://chrobox.net/blog/daily-review-ritual · Updated: 2025-02-28
+Source: https://chrobox.net/blog/daily-review-ritual · Updated: 2026-08-09
 
 ### Why Most People Skip the Daily Review
 
@@ -854,7 +854,7 @@ Over time, Chrobox's analytics show you patterns: which days of the week you are
 
 ## Energy Management: Schedule Tasks by Your Natural Rhythm
 
-Source: https://chrobox.net/blog/energy-management-scheduling · Updated: 2025-02-10
+Source: https://chrobox.net/blog/energy-management-scheduling · Updated: 2026-08-09
 
 ### Why Energy Management Outperforms Time Management
 
@@ -903,7 +903,7 @@ Don't overhaul your entire schedule at once. Begin by protecting just one 90-min
 
 ## Digital Minimalism Meets Time-Boxing: Reclaim Your Attention
 
-Source: https://chrobox.net/blog/digital-minimalism-scheduling · Updated: 2025-02-19
+Source: https://chrobox.net/blog/digital-minimalism-scheduling · Updated: 2026-08-09
 
 ### The Attention Economy Is Working Against You
 
@@ -977,7 +977,7 @@ Small structural changes compound. Digital minimalism combined with time-boxing 
 
 ## Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries
 
-Source: https://chrobox.net/blog/work-life-balance-scheduling · Updated: 2025-02-01
+Source: https://chrobox.net/blog/work-life-balance-scheduling · Updated: 2026-08-09
 
 ### Why Work-Life Balance Is a Scheduling Problem
 
@@ -1019,7 +1019,7 @@ Commit to a 30-day experiment: time-box at least two personal commitments per da
 
 ## Remote Work Scheduling: Time-Boxing Tips for WFH Productivity
 
-Source: https://chrobox.net/blog/remote-work-scheduling · Updated: 2025-01-26
+Source: https://chrobox.net/blog/remote-work-scheduling · Updated: 2026-08-09
 
 ### The Remote Work Scheduling Challenge
 
@@ -1091,7 +1091,7 @@ Improving these numbers over 4-6 weeks reveals your productivity patterns and he
 
 ## Focus Time Optimization: How to Enter Flow State Faster
 
-Source: https://chrobox.net/blog/focus-time-optimization · Updated: 2025-02-16
+Source: https://chrobox.net/blog/focus-time-optimization · Updated: 2026-08-09
 
 ### The Science of Flow State
 
@@ -1150,7 +1150,7 @@ Identify your best 90-minute window. Block it in your calendar. Set up your envi
 
 ## Beat Procrastination with Time-Boxing: Science-Backed Strategies
 
-Source: https://chrobox.net/blog/beat-procrastination-time-boxing · Updated: 2025-02-25
+Source: https://chrobox.net/blog/beat-procrastination-time-boxing · Updated: 2026-08-09
 
 ### The Real Reason You Procrastinate
 
@@ -1338,7 +1338,7 @@ That is what decision-fatigue freedom feels like.
 
 ## Task Batching + Time-Boxing: The Ultimate Productivity Combo
 
-Source: https://chrobox.net/blog/task-batching-productivity · Updated: 2025-02-13
+Source: https://chrobox.net/blog/task-batching-productivity · Updated: 2026-08-09
 
 ### The Hidden Cost of Switching Tasks
 
@@ -1389,7 +1389,7 @@ Task batching and time-boxing are individually powerful. Together they are a pro
 
 ## Productivity for Beginners: Start with Time-Boxing
 
-Source: https://chrobox.net/blog/productivity-for-beginners · Updated: 2025-02-04
+Source: https://chrobox.net/blog/productivity-for-beginners · Updated: 2026-08-09
 
 ### Why Time-Boxing Is the Best First Productivity Technique
 
@@ -1513,7 +1513,7 @@ Start your time audit today with Chrobox's 3-day free trial.
 
 ## Meeting Management with Time-Boxing: End Unproductive Meetings
 
-Source: https://chrobox.net/blog/meeting-management-time-boxing · Updated: 2025-01-29
+Source: https://chrobox.net/blog/meeting-management-time-boxing · Updated: 2026-08-09
 
 ### The Hidden Cost of Unproductive Meetings
 
@@ -1559,7 +1559,7 @@ Start with your next recurring meeting. Apply a timed agenda, designate a timeke
 
 ## Time-Boxing for Teams: Boost Collective Productivity
 
-Source: https://chrobox.net/blog/time-boxing-for-teams · Updated: 2025-02-07
+Source: https://chrobox.net/blog/time-boxing-for-teams · Updated: 2026-08-09
 
 ### Why Teams Struggle with Productivity Differently Than Individuals
 
@@ -1611,7 +1611,7 @@ Time-boxing for teams is not about control — it is about creating the conditio
 
 ## Time-Boxing for ADHD: A Practical Guide to Staying Focused
 
-Source: https://chrobox.net/blog/time-boxing-for-adhd · Updated: 2025-01-05
+Source: https://chrobox.net/blog/time-boxing-for-adhd · Updated: 2026-08-09
 
 ADHD makes it hard to start tasks, switch between them, and—perhaps most frustratingly—stop working on something engaging to do something important. Time-boxing addresses all three challenges by creating pre-decided boundaries around every activity.
 
@@ -1655,7 +1655,7 @@ Start with three time-boxed blocks tomorrow morning. That's all it takes to begi
 
 ## Time-Boxing for Students: How to Study Smarter, Not Harder
 
-Source: https://chrobox.net/blog/time-boxing-for-students · Updated: 2025-01-08
+Source: https://chrobox.net/blog/time-boxing-for-students · Updated: 2026-08-09
 
 Studying harder is rarely the answer. Students who perform consistently well don't necessarily log the most hours—they protect the quality of each hour they study. Time-boxing is the mechanism that makes this possible.
 
@@ -1709,7 +1709,7 @@ Smarter studying starts with knowing exactly how your time is being spent.
 
 ## Time-Boxing for Creative Professionals: Structure + Creativity
 
-Source: https://chrobox.net/blog/time-boxing-for-creative-professionals · Updated: 2025-03-03
+Source: https://chrobox.net/blog/time-boxing-for-creative-professionals · Updated: 2026-08-09
 
 ### The Creative Professional's Dilemma
 
@@ -2299,7 +2299,7 @@ The honest bottom line: any of these apps beats no system at all. Pick the one w
 
 ## How to Time-Box with Google Calendar, Apple Calendar & Outlook
 
-Source: https://chrobox.net/blog/time-boxing-with-calendar-apps · Updated: 2025-02-22
+Source: https://chrobox.net/blog/time-boxing-with-calendar-apps · Updated: 2026-08-09
 
 ### Why Your Calendar is Already a Time-Boxing Tool
 

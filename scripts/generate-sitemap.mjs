@@ -39,7 +39,15 @@ function escapeXml(value) {
     .replace(/'/g, '&apos;');
 }
 
-function renderUrlEntry(path, group) {
+// en/ko carry the original copy; the other locales are translations that can be
+// revised on their own schedule (group.localeLastmod).
+function lastmodFor(group, localeCode) {
+  return group.localeLastmod && localeCode !== 'en' && localeCode !== 'ko'
+    ? group.localeLastmod
+    : group.lastmod;
+}
+
+function renderUrlEntry(path, group, localeCode) {
   const alternates = [
     ...SEO_LOCALES.filter((locale) => localeAllowed(group, locale.code)).map(
       (locale) => [locale.code, urlForPath(group.paths[locale.code])],
@@ -49,7 +57,7 @@ function renderUrlEntry(path, group) {
 
   return `  <url>
     <loc>${escapeXml(urlForPath(path))}</loc>
-    <lastmod>${group.lastmod}</lastmod>
+    <lastmod>${lastmodFor(group, localeCode)}</lastmod>
     <changefreq>${group.changefreq}</changefreq>
     <priority>${group.priority}</priority>
 ${alternates.map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${escapeXml(href)}"/>`).join('\n')}
@@ -77,7 +85,7 @@ function renderUrlset(groups) {
           gatedUrlCount += 1;
           return [];
         }
-        return [renderUrlEntry(path, group)];
+        return [renderUrlEntry(path, group, localeCode)];
       }),
     )
     .join('\n\n');
@@ -102,7 +110,9 @@ for (const section of SECTION_ORDER) {
   const xml = renderUrlset(groups);
   writeFileSync(path, xml);
 
-  const lastmod = groups.reduce((latest, group) => (group.lastmod > latest ? group.lastmod : latest), '0000-00-00');
+  const lastmod = groups
+    .flatMap((group) => [group.lastmod, group.localeLastmod].filter(Boolean))
+    .reduce((latest, date) => (date > latest ? date : latest), '0000-00-00');
   const urlCount = (xml.match(/<url>/g) || []).length;
   sections.push({ filename, lastmod, urlCount });
   console.log(`Generated public/${filename} (${urlCount} URLs)`);

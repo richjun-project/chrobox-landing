@@ -11,7 +11,7 @@ import {
   ogLocale,
   type SiteLocale,
 } from './seo';
-import { COMPANY_INFO, THREADS_URL } from './company';
+import { COMPANY_INFO, STORE_RATING, THREADS_URL } from './company';
 
 type PageMetadataInput = {
   locale: SiteLocale;
@@ -99,9 +99,8 @@ export const WEBSITE_ID = `${SITE_URL}/#website`;
 export const APP_ID = `${SITE_URL}/#app`;
 
 // Store-verified ratings — update alongside the stores, never hand-edit upward.
-// 2026-08-09: App Store KR 4.0★ × 9 ratings (iTunes lookup API), Play 5.0★ × 5 ratings
-// (Play page JSON-LD). Combined weighted: (4.0×9 + 5.0×5) / 14 = 4.36 → 4.4.
-export const STORE_RATING = { value: '4.4', count: 14 };
+// Store rating lives in ./company (shared with the hero stats row).
+export { STORE_RATING };
 
 /** Compact Organization node for `publisher` — same @id as organizationSchema(). */
 export function organizationRef() {

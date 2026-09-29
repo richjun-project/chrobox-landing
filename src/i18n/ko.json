@@ -16,9 +16,10 @@
     "cta": "3일 무료 체험",
     "ctaSecondary": "사용 방법",
     "stats": {
-      "productivity": "생산성 향상",
-      "timeSaved": "하루 평균 절약",
-      "completion": "작업 완료율"
+      "rating": "앱스토어·구글플레이 평점",
+      "languages": "앱 지원 언어",
+      "trial": "Pro 무료 체험",
+      "trialValue": "{{days}}일"
     }
   },
   "features": {

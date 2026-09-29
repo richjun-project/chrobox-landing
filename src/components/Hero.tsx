@@ -3,8 +3,9 @@ import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion'
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { Box, Container, Text, Group, Badge, Stack } from '@mantine/core';
-import { IconTrendingUp, IconClock, IconTargetArrow, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
+import { IconStarFilled, IconLanguage, IconGift, IconBrandApple, IconBrandGooglePlay } from '@tabler/icons-react';
 import { tokens } from '../theme';
+import { APP_LANGUAGE_COUNT, PRO_TRIAL_DAYS, STORE_RATING } from '../lib/company';
 
 const APP_STORE_URL = 'https://apps.apple.com/kr/app/%ED%81%AC%EB%A1%9C%EB%B0%95%EC%8A%A4-%ED%83%80%EC%9E%84%EB%B0%95%EC%8A%A4-%ED%94%8C%EB%9E%98%EB%84%88/id6755880209';
 const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.richjunproject.chrobox';
@@ -131,16 +132,15 @@ const SCREENSHOT_ALT_KEYS = [
   'features.appBlocking.title',
 ];
 
-// The counters tick up after hydration; a fixed-width box keeps the stats row
-// from re-wrapping on every tick (it was re-centering the whole hero: CLS 0.53).
+// Every figure in the stats row is a checkable product fact read from
+// lib/company — the same constants the structured data and llms.txt assert —
+// and is rendered final on the server (no count-up from 0).
 const STAT_NUMBER_STYLE = {
   fontSize: '28px',
   fontWeight: 700,
   fontFamily: '"Space Mono", monospace',
   color: tokens.colors.gray900,
   fontVariantNumeric: 'tabular-nums',
-  display: 'inline-block',
-  minWidth: '5ch',
 } as const;
 
 const PARTICLES = Array.from({ length: 8 }, (_, i) => ({
@@ -157,7 +157,6 @@ export function Hero() {
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
   const scale = useTransform(scrollY, [0, 300], [1, 0.95]);
 
-  const [counts, setCounts] = useState({ productivity: 0, timeSaved: 0, completion: 0 });
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -165,30 +164,6 @@ export function Hero() {
       setCurrentImageIndex((prev) => (prev + 1) % APP_SCREENSHOTS.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    const targetProductivity = 40;
-    const targetTimeSaved = 2;
-    const targetCompletion = 85;
-    const duration = 2000;
-    const steps = 60;
-    const interval = duration / steps;
-
-    let step = 0;
-    const timer = setInterval(() => {
-      step++;
-      const progress = step / steps;
-      const easeOut = 1 - Math.pow(1 - progress, 3);
-      setCounts({
-        productivity: Math.floor(targetProductivity * easeOut),
-        timeSaved: Math.round(targetTimeSaved * easeOut * 10) / 10,
-        completion: Math.floor(targetCompletion * easeOut),
-      });
-      if (step >= steps) clearInterval(timer);
-    }, interval);
-
-    return () => clearInterval(timer);
   }, []);
 
   const timeBlocks = [
@@ -392,41 +367,31 @@ export function Hero() {
                 <Group gap={40} mt={16}>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconTrendingUp size={20} style={{ color: tokens.colors.accent }} />
-                      <Text
-                        style={STAT_NUMBER_STYLE}
-                      >
-                        {counts.productivity}%+
-                      </Text>
+                      <IconStarFilled size={20} style={{ color: tokens.colors.accent }} />
+                      <Text style={STAT_NUMBER_STYLE}>{`${STORE_RATING.value}★`}</Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.productivity')}
+                      {t('hero.stats.rating')}
                     </Text>
                   </Box>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconClock size={20} style={{ color: tokens.colors.accent }} />
-                      <Text
-                        style={STAT_NUMBER_STYLE}
-                      >
-                        {counts.timeSaved}h+
-                      </Text>
+                      <IconLanguage size={20} style={{ color: tokens.colors.accent }} />
+                      <Text style={STAT_NUMBER_STYLE}>{APP_LANGUAGE_COUNT}</Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.timeSaved')}
+                      {t('hero.stats.languages')}
                     </Text>
                   </Box>
                   <Box>
                     <Group gap={8} align="center">
-                      <IconTargetArrow size={20} style={{ color: tokens.colors.accent }} />
-                      <Text
-                        style={STAT_NUMBER_STYLE}
-                      >
-                        {counts.completion}%+
+                      <IconGift size={20} style={{ color: tokens.colors.accent }} />
+                      <Text style={STAT_NUMBER_STYLE}>
+                        {t('hero.stats.trialValue', { days: PRO_TRIAL_DAYS })}
                       </Text>
                     </Group>
                     <Text size="sm" style={{ color: tokens.colors.gray500 }}>
-                      {t('hero.stats.completion')}
+                      {t('hero.stats.trial')}
                     </Text>
                   </Box>
                 </Group>

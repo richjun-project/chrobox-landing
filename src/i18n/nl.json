@@ -16,9 +16,10 @@
     "cta": "Start gratis proefperiode van 3 dagen",
     "ctaSecondary": "Hoe het werkt",
     "stats": {
-      "productivity": "Productiviteitsboost",
-      "timeSaved": "Dagelijks bespaarde tijd",
-      "completion": "Voltooide taken"
+      "rating": "Beoordeling in App Store en Google Play",
+      "languages": "Talen in de app",
+      "trial": "Pro gratis proberen",
+      "trialValue": "{{days}} dagen"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Cross-platform synchronisatie",
-      "description": "Bekijk je planning overal. Naadloze synchronisatie tussen iOS, Android en desktop."
+      "description": "Bekijk je planning overal. Naadloze synchronisatie tussen iOS en Android."
     },
     "retrospective": {
       "title": "Dagelijkse terugblik",

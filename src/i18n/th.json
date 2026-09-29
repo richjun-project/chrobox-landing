@@ -16,9 +16,10 @@
     "cta": "เริ่มทดลองใช้ฟรี 3 วัน",
     "ctaSecondary": "วิธีใช้งาน",
     "stats": {
-      "productivity": "เพิ่มประสิทธิภาพการทำงาน",
-      "timeSaved": "เวลาที่ประหยัดได้ต่อวัน",
-      "completion": "อัตราความสำเร็จของงาน"
+      "rating": "คะแนนใน App Store และ Google Play",
+      "languages": "ภาษาในแอป",
+      "trial": "ทดลองใช้ Pro ฟรี",
+      "trialValue": "{{days}} วัน"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "ซิงค์ข้ามแพลตฟอร์ม",
-      "description": "เข้าถึงแผนของคุณได้ทุกที่ ซิงค์ได้อย่างราบรื่นระหว่าง iOS, Android และเดสก์ท็อป"
+      "description": "เข้าถึงแผนของคุณได้ทุกที่ ซิงค์ได้อย่างราบรื่นระหว่าง iOS และ Android"
     },
     "retrospective": {
       "title": "ทบทวนประจำวัน",

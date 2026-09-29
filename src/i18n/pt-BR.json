@@ -16,9 +16,10 @@
     "cta": "Comece o Teste Grátis de 3 Dias",
     "ctaSecondary": "Como Funciona",
     "stats": {
-      "productivity": "Aumento de Produtividade",
-      "timeSaved": "Tempo Economizado por Dia",
-      "completion": "Conclusão de Tarefas"
+      "rating": "Nota na App Store e no Google Play",
+      "languages": "Idiomas no app",
+      "trial": "Teste grátis do Pro",
+      "trialValue": "{{days}} dias"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Sincronização Multiplataforma",
-      "description": "Acesse seus planos de qualquer lugar. Sincronização perfeita entre iOS, Android e desktop."
+      "description": "Acesse seus planos de qualquer lugar. Sincronização perfeita entre iOS e Android."
     },
     "retrospective": {
       "title": "Retrospectiva Diária",

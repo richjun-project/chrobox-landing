@@ -16,9 +16,10 @@
     "cta": "开始 3 天免费试用",
     "ctaSecondary": "查看使用方法",
     "stats": {
-      "productivity": "效率提升",
-      "timeSaved": "每日节省时间",
-      "completion": "任务完成率"
+      "rating": "App Store · Google Play 评分",
+      "languages": "应用支持语言",
+      "trial": "Pro 免费试用",
+      "trialValue": "{{days}} 天"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "跨平台同步",
-      "description": "随时随地访问你的计划，iOS、Android 与桌面端无缝同步。"
+      "description": "随时随地访问你的计划，iOS 与 Android 无缝同步。"
     },
     "retrospective": {
       "title": "每日复盘",

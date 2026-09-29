@@ -16,9 +16,10 @@
     "cta": "開始 3 天免費試用",
     "ctaSecondary": "使用方式",
     "stats": {
-      "productivity": "生產力提升",
-      "timeSaved": "每日節省時間",
-      "completion": "任務完成率"
+      "rating": "App Store · Google Play 評分",
+      "languages": "App 支援語言",
+      "trial": "Pro 免費試用",
+      "trialValue": "{{days}} 天"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "跨平台同步",
-      "description": "隨時隨地存取你的計畫，iOS、Android 與桌面版無縫同步。"
+      "description": "隨時隨地存取你的計畫，iOS 與 Android 無縫同步。"
     },
     "retrospective": {
       "title": "每日回顧",

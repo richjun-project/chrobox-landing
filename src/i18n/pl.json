@@ -16,9 +16,10 @@
     "cta": "Rozpocznij 3-dniowy okres próbny",
     "ctaSecondary": "Jak to działa",
     "stats": {
-      "productivity": "Wzrost produktywności",
-      "timeSaved": "Zaoszczędzony czas dziennie",
-      "completion": "Ukończone zadania"
+      "rating": "Ocena w App Store i Google Play",
+      "languages": "Języki w aplikacji",
+      "trial": "Darmowy okres próbny Pro",
+      "trialValue": "{{days}} dni"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Synchronizacja między platformami",
-      "description": "Uzyskaj dostęp do swoich planów z dowolnego miejsca. Bezproblemowa synchronizacja między iOS, Android i komputerem."
+      "description": "Uzyskaj dostęp do swoich planów z dowolnego miejsca. Bezproblemowa synchronizacja między iOS i Androidem."
     },
     "retrospective": {
       "title": "Codzienna retrospektywa",

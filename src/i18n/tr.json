@@ -16,9 +16,10 @@
     "cta": "3 Günlük Ücretsiz Denemeyi Başlat",
     "ctaSecondary": "Nasıl Çalışır",
     "stats": {
-      "productivity": "Verimlilik Artışı",
-      "timeSaved": "Günlük Kazanılan Zaman",
-      "completion": "Görev Tamamlama"
+      "rating": "App Store ve Google Play puanı",
+      "languages": "Uygulama dili",
+      "trial": "Ücretsiz Pro denemesi",
+      "trialValue": "{{days}} gün"
     }
   },
   "features": {
@@ -38,7 +39,7 @@
     },
     "sync": {
       "title": "Platformlar Arası Senkronizasyon",
-      "description": "Planlarınıza her yerden erişin. iOS, Android ve masaüstü arasında sorunsuz senkronizasyon."
+      "description": "Planlarınıza her yerden erişin. iOS ve Android arasında sorunsuz senkronizasyon."
     },
     "retrospective": {
       "title": "Günlük Değerlendirme",

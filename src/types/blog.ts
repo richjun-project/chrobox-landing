@@ -25,6 +25,12 @@ export interface BlogPostMeta {
   date: string;
   /** ISO date of the last substantive content revision; falls back to `date` in schema. */
   updated?: string;
+  /**
+   * ISO date the body in the other 18 locales was last substantively revised
+   * (e.g. an English-fallback body replaced by a real translation). Those locales
+   * report max(updated, localesUpdated); en/ko use `updated` alone.
+   */
+  localesUpdated?: string;
   author: string;
   category: string;
   tags: string[];
