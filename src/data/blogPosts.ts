@@ -1,6 +1,7 @@
 import type { BlogPostMeta } from '../types/blog';
-import type { ContentLanguage } from '../lib/seo';
+import { localizedPath, type ContentLanguage } from '../lib/seo';
 import { LOCALIZED_CONTENT } from './localized';
+import { DATA_SECTIONS, DATA_SECTION_SOURCE } from './dataSections';
 import { enBatch1, koBatch1, contentBatch1 } from './blogBatch1';
 import { enBatch2, koBatch2, contentBatch2 } from './blogBatch2';
 import { enBatch3, koBatch3, contentBatch3 } from './blogBatch3';
@@ -682,11 +683,29 @@ export const translatedBlogLocales = (slug: string): ContentLanguage[] => {
 // with its own `# Title` line would put a second h1 on the page.
 const withoutLeadingTitle = (markdown: string) => markdown.replace(/^\s*#[ \t]+[^\n]*\n+/, '');
 
+// Puts a guide's first-party data section ahead of its Chrobox section, so the
+// evidence comes before the tool; guides without one get it before their last section.
+const withDataSection = (markdown: string, slug: string, lang: ContentLanguage, bodyLang: ContentLanguage): string => {
+  const section = DATA_SECTIONS[slug]?.[bodyLang] ?? DATA_SECTIONS[slug]?.en;
+  if (!section) return markdown;
+
+  const source = getBlogPost(DATA_SECTION_SOURCE, bodyLang);
+  const filled = section
+    .replace('{dataPostTitle}', source?.title ?? DATA_SECTION_SOURCE)
+    .replace('{dataPostPath}', localizedPath(lang, `/blog/${DATA_SECTION_SOURCE}`));
+  const headings = [...markdown.matchAll(/^## .*$/gm)];
+  const anchor = headings.find((heading) => heading[0].includes('Chrobox')) ?? headings.at(-1);
+  if (anchor?.index === undefined) return `${markdown.trimEnd()}\n\n${filled}\n`;
+
+  return `${markdown.slice(0, anchor.index)}${filled}\n\n${markdown.slice(anchor.index)}`;
+};
+
 export const getBlogContent = (slug: string, lang: ContentLanguage): string => {
   if (lang !== 'en' && lang !== 'ko') {
     const localized = LOCALIZED_CONTENT[lang]?.blogContents[slug];
-    return withoutLeadingTitle(localized || blogContents.en?.[slug] || '');
+    // An untranslated body falls back to English, and so does its data section.
+    return withDataSection(withoutLeadingTitle(localized || blogContents.en?.[slug] || ''), slug, lang, localized ? lang : 'en');
   }
 
-  return withoutLeadingTitle(blogContents[lang]?.[slug] || '');
+  return withDataSection(withoutLeadingTitle(blogContents[lang]?.[slug] || ''), slug, lang, lang);
 };
