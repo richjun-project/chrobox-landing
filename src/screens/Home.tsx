@@ -3,10 +3,12 @@
 import { Box } from '@mantine/core';
 import { Navbar, Hero, Features, HowItWorks, Pricing, Download, Footer, HomeFaq } from '../components';
 import { BlogSection } from '../components/BlogSection';
+import { HomeExplore } from '../components/HomeExplore';
 import type { UiCopy } from '../lib/uiCopy';
 import type { BlogPostMeta } from '../types/blog';
+import type { HomeExploreData } from '../lib/viewData';
 
-export function Home({ blogPosts, ui }: { blogPosts: BlogPostMeta[]; ui: UiCopy }) {
+export function Home({ blogPosts, explore, ui }: { blogPosts: BlogPostMeta[]; explore: HomeExploreData; ui: UiCopy }) {
   return (
     <Box style={{ minHeight: '100vh' }}>
       {/* Noise Overlay for texture */}
@@ -34,6 +36,9 @@ export function Home({ blogPosts, ui }: { blogPosts: BlogPostMeta[]; ui: UiCopy 
 
         {/* Blog Section */}
         <BlogSection posts={blogPosts} ui={ui} />
+
+        {/* Comparisons & templates people search for */}
+        <HomeExplore explore={explore} ui={ui} />
 
         {/* Download CTA Section */}
         <Download />

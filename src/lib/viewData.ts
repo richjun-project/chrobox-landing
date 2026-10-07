@@ -18,14 +18,19 @@ import {
 import { categoryLabel } from '../data/templateCategories';
 import type { BlogFaq, BlogPostMeta } from '../types/blog';
 import { BLOG_CLUSTERS, clusterCopy, getClusterBySlug } from './blogTaxonomy';
-import type { ContentLanguage } from './seo';
+import { htmlLangForLocale, type ContentLanguage } from './seo';
 
-// Curated to pass homepage authority (priority 1.0) to the posts that already earn
-// non-brand impressions in Search Console and the app-blocking hub we want ranked.
+// The home page is the page Google crawls most often, so its links are how new pages
+// get discovered. Curated: the first-party data post, pages that already earn
+// non-brand impressions in Search Console (app blocking, time blocking vs boxing),
+// and the 2026-09-30 guides that URL Inspection still reported as unknown on 10-07.
 const HOME_FEATURED_SLUGS = [
+  'does-timeboxing-work',
   'how-to-block-distracting-apps',
+  'how-to-lock-apps-on-iphone',
   'time-blocking-vs-time-boxing',
-  '5-time-boxing-strategies',
+  'best-time-boxing-apps',
+  'reduce-phone-addiction',
 ];
 
 export function homeBlogPosts(lang: ContentLanguage): BlogPostMeta[] {
@@ -34,7 +39,52 @@ export function homeBlogPosts(lang: ContentLanguage): BlogPostMeta[] {
     .map((slug) => allPosts.find((post) => post.slug === slug))
     .filter((post): post is BlogPostMeta => Boolean(post));
 
-  return featured.length === 3 ? featured : allPosts.slice(0, 3);
+  return featured.length ? featured : allPosts.slice(0, HOME_FEATURED_SLUGS.length);
+}
+
+// Direct competitors first (the 2026-09-30 comparisons), then the general tools people
+// compare Chrobox with. Templates ordered by Search Console demand (product manager
+// and executive schedules lead non-brand impressions).
+const HOME_COMPARISONS = [
+  'chrobox-vs-structured',
+  'chrobox-vs-tiimo',
+  'chrobox-vs-sunsama',
+  'chrobox-vs-opal',
+  'chrobox-vs-forest',
+  'chrobox-vs-todoist',
+  'chrobox-vs-google-calendar',
+  'chrobox-vs-notion',
+];
+const HOME_TEMPLATES = [
+  'product-manager',
+  'executive',
+  'software-developer',
+  'startup-founder',
+  'college-student',
+  'remote-worker',
+  'nurse',
+  'teacher',
+];
+
+export interface HomeExploreData {
+  comparisons: ComparisonLink[];
+  templates: TemplateLink[];
+}
+
+export function homeExplore(lang: ContentLanguage): HomeExploreData {
+  const comparisons = comparisonLinks(lang);
+  return {
+    comparisons: HOME_COMPARISONS
+      .map((slug) => comparisons.find((item) => item.slug === slug))
+      .filter((item): item is ComparisonLink => Boolean(item)),
+    templates: HOME_TEMPLATES
+      .map((slug) => getScheduleTemplate(slug))
+      .filter((item): item is NonNullable<typeof item> => Boolean(item))
+      .map((item) => {
+        const localized = localizeScheduleTemplate(item, lang);
+        return { slug: localized.slug, profession: localized.profession };
+      }),
+  };
 }
 
 export interface ClusterLink {
@@ -58,7 +108,7 @@ export interface RelatedPostsData {
   siblings: BlogPostMeta[];
 }
 
-export function relatedPostsData(slug: string, lang: ContentLanguage, limit = 4): RelatedPostsData | null {
+export function relatedPostsData(slug: string, lang: ContentLanguage, limit = 8): RelatedPostsData | null {
   const cluster = getClusterBySlug(slug);
 
   if (!cluster) {
@@ -81,11 +131,66 @@ export function localizedTemplates(lang: ContentLanguage): LocalizedScheduleTemp
   return scheduleTemplates.map((template) => localizeScheduleTemplate(template, lang));
 }
 
+export interface TimeBudget {
+  /** Number of blocks in the plan */
+  blocks: number;
+  /** First start – last end, e.g. "08:00–17:00" */
+  span: string;
+  /** Planned hours, formatted for the locale ("9 hr", "9시간", "9 Std.") */
+  total: string;
+  items: { category: TimeBlock['category']; label: string; hours: string; share: number }[];
+}
+
 export interface TemplateViewData {
   template: LocalizedScheduleTemplate;
   related: LocalizedScheduleTemplate[];
   categoryLabels: Record<TimeBlock['category'], string>;
   guides: BlogPostMeta[];
+  budget: TimeBudget;
+}
+
+const toMinutes = (hhmm: string) => {
+  const [h, m] = hhmm.trim().split(':').map(Number);
+  return h * 60 + m;
+};
+
+/**
+ * Where the template's day goes, computed from its own schedule rows — category totals
+ * are facts about the plan on the page, not claims. Formatted on the server so the
+ * prerendered HTML and hydration agree.
+ */
+function timeBudget(
+  schedule: TimeBlock[],
+  labels: Record<TimeBlock['category'], string>,
+  lang: ContentLanguage,
+): TimeBudget {
+  const ranges = schedule.map((block) => block.time.split('-').map(toMinutes));
+  const minutes: Partial<Record<TimeBlock['category'], number>> = {};
+  schedule.forEach((block, index) => {
+    const [start, end] = ranges[index];
+    minutes[block.category] = (minutes[block.category] ?? 0) + Math.max(0, end - start);
+  });
+  const totalMinutes = Object.values(minutes).reduce((sum, value) => sum + (value ?? 0), 0);
+  const hours = new Intl.NumberFormat(htmlLangForLocale(lang), {
+    style: 'unit',
+    unit: 'hour',
+    unitDisplay: 'short',
+    maximumFractionDigits: 1,
+  });
+  const clock = (value: number) => `${String(Math.floor(value / 60)).padStart(2, '0')}:${String(value % 60).padStart(2, '0')}`;
+  return {
+    blocks: schedule.length,
+    span: `${clock(Math.min(...ranges.map((r) => r[0])))}–${clock(Math.max(...ranges.map((r) => r[1])))}`,
+    total: hours.format(totalMinutes / 60),
+    items: (Object.entries(minutes) as [TimeBlock['category'], number][])
+      .sort((a, b) => b[1] - a[1])
+      .map(([category, value]) => ({
+        category,
+        label: labels[category],
+        hours: hours.format(value / 60),
+        share: totalMinutes ? value / totalMinutes : 0,
+      })),
+  };
 }
 
 export function templateViewData(slug: string, lang: ContentLanguage): TemplateViewData | null {
@@ -101,14 +206,17 @@ export function templateViewData(slug: string, lang: ContentLanguage): TemplateV
     .slice(0, 4)
     .map((item) => localizeScheduleTemplate(item, lang));
   const categories: TimeBlock['category'][] = ['focus', 'meeting', 'break', 'admin', 'creative', 'learning'];
+  const categoryLabels = Object.fromEntries(
+    categories.map((category) => [category, categoryLabel(category, lang)]),
+  ) as Record<TimeBlock['category'], string>;
+  const localized = localizeScheduleTemplate(template, lang);
 
   return {
-    template: localizeScheduleTemplate(template, lang),
+    template: localized,
     related,
     guides: templateGuides(slug, lang),
-    categoryLabels: Object.fromEntries(
-      categories.map((category) => [category, categoryLabel(category, lang)]),
-    ) as Record<TimeBlock['category'], string>,
+    budget: timeBudget(localized.schedule, categoryLabels, lang),
+    categoryLabels,
   };
 }
 

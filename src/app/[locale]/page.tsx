@@ -5,7 +5,7 @@ import { JsonLd } from '../../components/JsonLd';
 import { organizationSchema, softwareApplicationSchema, pageMetadata, websiteSchema } from '../../lib/next-seo';
 import { contentLanguageForLocale, seoCopy } from '../../lib/seo';
 import { faqPageSchema } from '../../lib/faq-schema';
-import { homeBlogPosts } from '../../lib/viewData';
+import { homeBlogPosts, homeExplore } from '../../lib/viewData';
 import { uiCopy } from '../../lib/uiCopy';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../_route-helpers';
 
@@ -50,7 +50,11 @@ export default async function Page({ params }: { params: LocaleParam }) {
       <JsonLd data={softwareApplicationSchema(copy.homeDescription)} />
       <JsonLd data={websiteSchema(locale, copy.homeDescription)} />
       <JsonLd data={faqPageSchema(locale)} />
-      <Home blogPosts={homeBlogPosts(contentLanguageForLocale(locale))} ui={uiCopy(contentLanguageForLocale(locale))} />
+      <Home
+        blogPosts={homeBlogPosts(contentLanguageForLocale(locale))}
+        explore={homeExplore(contentLanguageForLocale(locale))}
+        ui={uiCopy(contentLanguageForLocale(locale))}
+      />
     </>
   );
 }

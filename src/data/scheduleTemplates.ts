@@ -1,5 +1,6 @@
 import type { ContentLanguage } from '../lib/seo';
 import { LOCALIZED_CONTENT } from './localized';
+import { SCHEDULE_TASKS_KO } from './scheduleTasksKo';
 
 export interface TimeBlock {
   time: string;
@@ -777,7 +778,8 @@ export function localizeScheduleTemplate(
     tips: copy?.tips?.length ? copy.tips : (isKorean ? template.tipsKo : template.tips),
     schedule: template.schedule.map((block, index) => ({
       ...block,
-      task: copy?.scheduleTasks?.[index] || block.task,
+      // ko is a source language for the i18n pipeline, so its rows live in scheduleTasksKo.ts.
+      task: copy?.scheduleTasks?.[index] || (isKorean ? SCHEDULE_TASKS_KO[template.slug]?.[index] : undefined) || block.task,
     })),
   };
 }

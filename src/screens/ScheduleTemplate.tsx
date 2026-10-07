@@ -40,7 +40,7 @@ interface ScheduleTemplateProps {
 
 export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplateProps) {
   const copy = seoCopy(locale);
-  const { template: localized, related: relatedTemplates, categoryLabels, guides } = data;
+  const { template: localized, related: relatedTemplates, categoryLabels, guides, budget } = data;
   const template = localized;
   const slug = template.slug;
   const templatesPath = localizedPath(locale, '/templates');
@@ -125,6 +125,44 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
           </motion.div>
         </Container>
       </Box>
+
+      {/* Where the day goes — category totals computed from this schedule (lib/viewData.ts timeBudget) */}
+      <Container size="lg" pt={56}>
+        <Text component="h2" style={{ fontSize: '22px', fontWeight: 700, color: tokens.colors.gray900, marginBottom: '6px' }}>
+          {ui.dailyTimeBlocks}
+        </Text>
+        <Text style={{ color: tokens.colors.gray500, marginBottom: '16px' }}>
+          {budget.blocks} {ui.timeBlocks} · {budget.span} · {budget.total}
+        </Text>
+        <Box style={{ display: 'flex', height: '12px', borderRadius: '6px', overflow: 'hidden', marginBottom: '16px', maxWidth: '640px' }}>
+          {budget.items.map((item) => (
+            <div key={item.category} style={{ width: `${item.share * 100}%`, background: categoryColors[item.category] }} />
+          ))}
+        </Box>
+        <Box component="table" style={{ borderCollapse: 'collapse', fontSize: '15px', color: tokens.colors.gray700 }}>
+          <tbody>
+            {budget.items.map((item) => (
+              <tr key={item.category}>
+                <td style={{ padding: '4px 16px 4px 0' }}>
+                  <span
+                    style={{
+                      display: 'inline-block',
+                      width: '10px',
+                      height: '10px',
+                      borderRadius: '5px',
+                      background: categoryColors[item.category],
+                      marginInlineEnd: '8px',
+                    }}
+                  />
+                  {item.label}
+                </td>
+                <td style={{ padding: '4px 16px 4px 0', fontWeight: 700, color: tokens.colors.gray900 }}>{item.hours}</td>
+                <td style={{ padding: '4px 0', color: tokens.colors.gray500 }}>{Math.round(item.share * 100)}%</td>
+              </tr>
+            ))}
+          </tbody>
+        </Box>
+      </Container>
 
       {/* Timeline */}
       <Container size="lg" py={80}>
