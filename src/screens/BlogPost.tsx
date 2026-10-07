@@ -11,6 +11,7 @@ import { TableOfContents } from '../components/TableOfContents';
 import { RelatedPosts } from '../components/RelatedPosts';
 import { LinkPills } from '../components/LinkPills';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { useEffect } from 'react';
 import {
   localizedPath,
@@ -314,6 +315,7 @@ export function BlogPost({ post, content, related, crossLinks, directAnswer, ui,
                 }}
               >
                 <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
                   rehypePlugins={[rehypeHeadingIds]}
                   components={{
                     // The page title is the only h1; a body-level h1 would compete with it.
@@ -416,17 +418,19 @@ export function BlogPost({ post, content, related, crossLinks, directAnswer, ui,
                         {children}
                       </Text>
                     ),
+                    // Wide tables scroll inside their own box so the page never scrolls sideways on phones.
                     table: ({ children }) => (
-                      <Box
-                        component="table"
-                        style={{
-                          width: '100%',
-                          borderCollapse: 'collapse',
-                          marginBottom: '24px',
-                          fontSize: '15px',
-                        }}
-                      >
-                        {children}
+                      <Box style={{ overflowX: 'auto', marginBottom: '24px' }}>
+                        <Box
+                          component="table"
+                          style={{
+                            width: '100%',
+                            borderCollapse: 'collapse',
+                            fontSize: '15px',
+                          }}
+                        >
+                          {children}
+                        </Box>
                       </Box>
                     ),
                     th: ({ children }) => (
