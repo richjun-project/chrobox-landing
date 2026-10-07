@@ -133,8 +133,14 @@ const sitemapPath = join(EXPORT_DIR, 'sitemap.xml');
 const sitemapExists = existsSync(sitemapPath);
 record('static export sitemap exists', sitemapExists);
 if (sitemapExists) {
-  const sitemap = readFileSync(sitemapPath, 'utf8');
-  const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  const index = readFileSync(sitemapPath, 'utf8');
+  // sitemap.xml is an index of shards; audit the URL entries across all of them.
+  const shardFiles = index.includes('<sitemapindex')
+    ? [...index.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => join(EXPORT_DIR, new URL(match[1]).pathname))
+    : [sitemapPath];
+  record('sitemap shards exist', shardFiles.every((file) => existsSync(file)), `${shardFiles.length} files`);
+  const sitemap = shardFiles.filter((file) => existsSync(file)).map((file) => readFileSync(file, 'utf8')).join('\n');
+  const locs = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
   const expectedUrls = getPrerenderRoutes().map(urlForPath);
   record('sitemap URL count matches route count', locs.length === expectedUrls.length, `${locs.length}/${expectedUrls.length}`);
   record('sitemap contains all canonical URLs', expectedUrls.every((url) => locs.some((loc) => sameUrl(loc, url))));
