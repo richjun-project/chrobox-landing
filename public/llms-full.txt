@@ -523,7 +523,7 @@ Try it on tomorrow's most important task. Set a timer for 70% of your gut estima
 
 ## Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing
 
-Source: https://chrobox.net/blog/eat-the-frog-time-boxing · Updated: 2026-04-19
+Source: https://chrobox.net/blog/eat-the-frog-time-boxing · Updated: 2026-10-07
 
 In 2001, productivity author Brian Tracy published a book that became one of the best-selling time-management titles of all time. The premise was a Mark Twain quote:
 
@@ -634,6 +634,23 @@ Bad sleep nights are when frog-eating matters most. Even 30 minutes of progress 
 #### Mistake 4: Confusing Urgent for Important
 
 Eisenhower Matrix: Important + Not Urgent is the frog quadrant. If a task is screaming for attention but does not advance your top goals, it is not a frog — it is a distraction wearing a frog costume.
+
+### What Chrobox usage data says about mornings
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, the time of day a box started made a large difference to whether it got finished. Boxes that started between 5:00 and 8:59 were completed 62.3% of the time. Boxes that started after 21:00 were completed 33.2% of the time.
+
+| Box start time | Completed |
+|---|---|
+| 05:00–08:59 | 62.3% |
+| 09:00–11:59 | 52.4% |
+| 12:00–14:59 | 52.0% |
+| 15:00–17:59 | 44.7% |
+| 18:00–20:59 | 40.0% |
+| 21:00–23:59 | 33.2% |
+
+This is observational data, not an experiment — people who plan a 6:30 box may simply be more consistent. But it points the same way as eating the frog: give the task that matters most a morning box.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Eat-the-Frog with Chrobox
 
@@ -836,7 +853,7 @@ Your best days start the night before, with a plan already in place.
 
 ## The Ultimate Weekly Planning Guide Using Time-Boxing
 
-Source: https://chrobox.net/blog/weekly-planning-guide · Updated: 2026-08-09
+Source: https://chrobox.net/blog/weekly-planning-guide · Updated: 2026-10-07
 
 ### Why Weekly Planning Changes Everything
 
@@ -879,6 +896,26 @@ After deep work blocks, schedule supporting tasks—email, administrative work, 
 #### Step 6: Build in Buffer Time
 
 Leave at least 20% of your schedule as buffer. Unexpected tasks will arise. Buffer blocks give you flexibility without derailing your whole day.
+
+### How many tasks per day: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, the median planned day had 5 tasks. Days with 6–8 tasks had the best average completion (42.7%). Days with nine or more tasks finished the entire list on just 1 of 198 days.
+
+The day of the week mattered too:
+
+| Day | Completed |
+|---|---|
+| Monday | 31.4% |
+| Tuesday | 34.2% |
+| Wednesday | 31.9% |
+| Thursday | 36.2% |
+| Friday | 28.6% |
+| Saturday | 27.3% |
+| Sunday | 25.4% |
+
+For a weekly plan, that suggests putting the heaviest work midweek, keeping each day to about six to eight tasks, and leaving Friday and the weekend lighter.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox for Weekly Planning
 
@@ -998,7 +1035,7 @@ Over time, Chrobox's analytics show you patterns: which days of the week you are
 
 ## Energy Management: Schedule Tasks by Your Natural Rhythm
 
-Source: https://chrobox.net/blog/energy-management-scheduling · Updated: 2026-08-09
+Source: https://chrobox.net/blog/energy-management-scheduling · Updated: 2026-10-07
 
 ### Why Energy Management Outperforms Time Management
 
@@ -1032,6 +1069,23 @@ There are three energy zones to work with:
 - **Schedule breaks** at the end of each 90-minute cycle.
 - **Limit meetings** to your recovery zone when possible.
 - **Avoid caffeine** during your natural peak — save it for the trough.
+
+### Completion by time of day: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, the later in the day a time box started, the less likely it was to be finished.
+
+| Box start time | Completed |
+|---|---|
+| 05:00–08:59 | 62.3% |
+| 09:00–11:59 | 52.4% |
+| 12:00–14:59 | 52.0% |
+| 15:00–17:59 | 44.7% |
+| 18:00–20:59 | 40.0% |
+| 21:00–23:59 | 33.2% |
+
+This is observational data — early planners may also be more consistent people — but the slope matches what energy management predicts. Put demanding work in the first half of the day and keep evening boxes for lighter tasks.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox to Align Your Schedule
 
@@ -1121,7 +1175,7 @@ Small structural changes compound. Digital minimalism combined with time-boxing 
 
 ## Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries
 
-Source: https://chrobox.net/blog/work-life-balance-scheduling · Updated: 2026-08-09
+Source: https://chrobox.net/blog/work-life-balance-scheduling · Updated: 2026-10-07
 
 ### Why Work-Life Balance Is a Scheduling Problem
 
@@ -1148,6 +1202,14 @@ The solution is to treat personal time with the same structural formality as pro
 ### The 80/20 Availability Rule
 
 Not all work time needs to be equally accessible. Consider making 80% of your work time box hours fully focused (notifications off, status set to "Do Not Disturb") and 20% open for collaboration and response. This structure dramatically reduces the pressure to be constantly available, which is one of the main drivers of work bleeding into personal time.
+
+### Evenings and weekends: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes that started after 21:00 were completed 33.2% of the time, against 62.3% for boxes that started between 5:00 and 8:59. By day of the week, Thursday was strongest at 36.2%, while Saturday (27.3%) and Sunday (25.4%) were the weakest days.
+
+This is observational data, but it supports a simple boundary: planning evenings and weekends as if they were extra workdays mostly produces unfinished tasks. Keep those slots light, and protect them on purpose.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox for Work-Life Balance
 
@@ -1386,7 +1448,7 @@ Identify your best 90-minute window. Block it in your calendar. Set up your envi
 
 ## Beat Procrastination with Time-Boxing: Science-Backed Strategies
 
-Source: https://chrobox.net/blog/beat-procrastination-time-boxing · Updated: 2026-08-09
+Source: https://chrobox.net/blog/beat-procrastination-time-boxing · Updated: 2026-10-07
 
 ### The Real Reason You Procrastinate
 
@@ -1418,6 +1480,16 @@ The moment before starting a dreaded task is when discomfort peaks. Acknowledge 
 
 Then start your timer and begin. The discomfort drops dramatically within two to three minutes of genuine effort, which is why the five-minute start protocol is so effective.
 
+### What Chrobox usage data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, tasks that were given a start time and a duration were completed 48.1% of the time. Tasks that stayed on a list without a time slot were completed 17.6% of the time — about 2.7 times less often.
+
+The gap held within the same person: among 41 people who planned at least five tasks of each kind, 35 finished more of their time-boxed tasks than their unscheduled ones. With the ten most active accounts removed, the figures were 42.8% and 14.2%.
+
+This is observational data, so it shows a strong association rather than a controlled effect. For procrastination, the practical reading is simple: a task with a time slot is far more likely to get started than a task that is only on a list.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### Building Momentum Across the Day
 
 Schedule your most avoided task first thing in the morning before your brain has time to negotiate. After completing it, the psychological payoff gives you momentum for the rest of the day. Chrobox can automatically prioritize avoided tasks by tracking which items get repeatedly rescheduled, flagging them so you confront them early rather than pushing them indefinitely forward.
@@ -1426,7 +1498,7 @@ Schedule your most avoided task first thing in the morning before your brain has
 
 ## Beat Decision Fatigue: How Time-Boxing Saves Your Mental Energy
 
-Source: https://chrobox.net/blog/beat-decision-fatigue · Updated: 2026-04-25
+Source: https://chrobox.net/blog/beat-decision-fatigue · Updated: 2026-10-07
 
 You make about 35,000 decisions a day. Most are tiny — what to wear, what to eat, when to check email. But each one taxes the same finite mental resource.
 
@@ -1553,6 +1625,14 @@ Scheduling 6 hours of meetings means 6 hours of continuous decision-making. Cap 
 
 If "what to wear" or "what to eat" requires fresh thought daily, you are bleeding budget. Build defaults.
 
+### Fewer choices, more finished tasks: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, tasks marked as a priority were completed 44.5% of the time, against 28.9% for everything else. Long lists did not help either: days with nine or more tasks finished the whole list on just 1 of 198 days, while days with 6–8 tasks had the best average completion (42.7%).
+
+This is observational data, not an experiment. It fits the idea behind beating decision fatigue: decide the priority once, keep the list short, and let the plan make the rest of the choices.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### How Chrobox Reduces Decision Load
 
 Chrobox is designed to minimize decision fatigue:
@@ -1574,7 +1654,7 @@ That is what decision-fatigue freedom feels like.
 
 ## Task Batching + Time-Boxing: The Ultimate Productivity Combo
 
-Source: https://chrobox.net/blog/task-batching-productivity · Updated: 2026-08-09
+Source: https://chrobox.net/blog/task-batching-productivity · Updated: 2026-10-07
 
 ### The Hidden Cost of Switching Tasks
 
@@ -1611,6 +1691,16 @@ Batching reduces friction from switching. Time-boxing prevents overruns. Togethe
 3. **Communicate boundaries** — let colleagues know your focused work windows.
 4. **Start with two batches** — email and deep work. Add more as you improve.
 
+### Batch size and block length: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, completion was steady for time boxes up to 90 minutes (between 48.6% and 53.6%) and fell to 45.0% for 91–120 minutes and 44.0% beyond 120 minutes.
+
+For batching, that suggests capping a batch at about 90 minutes and starting a new block for whatever is left. Marking the batch as a priority also helped in the data: priority tasks were completed 44.5% of the time, against 28.9% for the rest.
+
+This is observational data, not an experiment, so treat it as a guide rather than a rule.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### Chrobox as Your Batching Assistant
 
 Chrobox's time-blocking feature is built for this. Create recurring time blocks for each task category. Its visual calendar makes it easy to see how your day is structured at a glance, and the cross-platform sync ensures your batched schedule travels with you everywhere.
@@ -1625,7 +1715,7 @@ Task batching and time-boxing are individually powerful. Together they are a pro
 
 ## Productivity for Beginners: Start with Time-Boxing
 
-Source: https://chrobox.net/blog/productivity-for-beginners · Updated: 2026-08-09
+Source: https://chrobox.net/blog/productivity-for-beginners · Updated: 2026-10-07
 
 ### Why Time-Boxing Is the Best First Productivity Technique
 
@@ -1660,6 +1750,16 @@ Time-boxing has one fundamental insight: tasks will consume however much time yo
 
 **You're skipping the review.** At the end of each day, spend 5 minutes reviewing what you completed versus what you planned. This single habit, more than any other, drives rapid improvement.
 
+### Start smaller than you think: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, the median planned day had 5 tasks. Days with 6–8 tasks had the best average completion (42.7%), while days with nine or more tasks finished everything on only 1 of 198 days.
+
+Giving a task a time slot helped more than anything else in the data: time-boxed tasks were completed 48.1% of the time, against 17.6% for tasks left on a list. Tasks marked as a priority were completed 44.5% of the time, against 28.9% for the rest.
+
+This is observational data, not an experiment. For a beginner, the takeaway is a short list, a time for each item, and one clear priority.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### Getting Started with Chrobox
 
 Chrobox is designed specifically for time-boxing beginners and experts alike. The app guides you through creating your first time boxes, tracks your actual time automatically, and provides weekly insights about your patterns. Available on iOS and macOS with real-time sync, so your plan is always with you.
@@ -1670,7 +1770,7 @@ Start with three time boxes tomorrow: one for your most important task, one for 
 
 ## How to Do a Time Audit: Find Where Your Hours Really Go
 
-Source: https://chrobox.net/blog/time-audit-guide · Updated: 2025-03-06
+Source: https://chrobox.net/blog/time-audit-guide · Updated: 2026-10-07
 
 Do you ever wonder where your day went? You started with good intentions, but by 5 PM, your to-do list barely moved. The problem is not laziness — it is a lack of awareness about how you actually spend your time.
 
@@ -1728,6 +1828,23 @@ Use your audit findings to time-box your ideal day:
 - Batch shallow tasks together
 - Eliminate or delegate time wasters
 - Add buffer time for unexpected tasks
+
+### How long should a block be? What Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, half of all time boxes (50.8%) were exactly 60 minutes, and the median box was 60 minutes. Completion barely changed with length up to 90 minutes, then dropped.
+
+| Box length | Completed |
+|---|---|
+| 16–30 minutes | 48.7% |
+| 31–45 minutes | 53.6% |
+| 46–60 minutes | 48.7% |
+| 61–90 minutes | 50.4% |
+| 91–120 minutes | 45.0% |
+| More than 120 minutes | 44.0% |
+
+If your audit shows tasks that regularly run past 90 minutes, splitting them into shorter blocks is the change most likely to pay off. Short boxes were not easier to finish than hour-long ones.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Time Audit with Chrobox
 
@@ -1945,7 +2062,7 @@ Smarter studying starts with knowing exactly how your time is being spent.
 
 ## Time-Boxing for Creative Professionals: Structure + Creativity
 
-Source: https://chrobox.net/blog/time-boxing-for-creative-professionals · Updated: 2026-08-09
+Source: https://chrobox.net/blog/time-boxing-for-creative-professionals · Updated: 2026-10-07
 
 ### The Creative Professional's Dilemma
 
@@ -1979,6 +2096,14 @@ Creative ideas do not follow schedules. When inspiration strikes during an admin
 
 Review your capture list at the start of each creative block. Often the ideas that survive until your next creative session are the genuinely good ones, while impulses that seemed urgent in the moment fade on reflection.
 
+### Long creative sessions: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes up to 90 minutes were completed about as often as each other (48.6–53.6%). Boxes of 91–120 minutes were completed 45.0% of the time, and boxes longer than 120 minutes 44.0%.
+
+This is observational data, not an experiment. For creative work it suggests that a long session is fine, but a 90-minute block followed by a fresh one is slightly more likely to end with the task checked off.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### Using Chrobox for Creative Project Management
 
 Chrobox supports creative workflows by letting you create project-level groupings of time blocks. A design project might have blocks for research, concept development, execution, and client review, each with different durations. Chrobox schedules these across your calendar based on deadlines and your available capacity, giving you a complete view of when creative work will happen without requiring you to manually plan each session.
@@ -1989,7 +2114,7 @@ The platform also tracks which blocks you extend, helping you understand which c
 
 ## Time-Boxing for Side Projects: How to Ship Without Burning Out
 
-Source: https://chrobox.net/blog/time-boxing-for-side-projects · Updated: 2026-04-15
+Source: https://chrobox.net/blog/time-boxing-for-side-projects · Updated: 2026-10-07
 
 You have a brilliant side project idea. You start nights and weekends. Three months in, you have shipped nothing, your sleep is wrecked, and your day job is suffering.
 
@@ -2080,6 +2205,14 @@ You will miss boxes. Sick kid, work crisis, exhaustion. Do not catastrophize.
 
 **Never "make up" lost hours by binge sessions.** Six hours on Sunday after missing Tuesday and Thursday will burn you out by week three. Stick to your weekly cap.
 
+### Evening slots versus morning slots: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes that started between 18:00 and 20:59 were completed 40.0% of the time, and boxes after 21:00 33.2%. Boxes that started between 5:00 and 8:59 were completed 62.3% of the time. Short boxes were not easier to finish: 16–30 minute boxes were completed 48.7% of the time, the same as hour-long ones.
+
+This is observational data, not an experiment. If your side project only gets evening time, expect more slippage and plan for it — and if you can move even one session a week into the morning, the data suggests it is more likely to happen.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+
 ### Time-Boxing Side Projects with Chrobox
 
 Chrobox is purpose-built for side-project rhythm:
@@ -2101,7 +2234,7 @@ Start tomorrow. Schedule one 90-minute box. Show up for it. Repeat.
 
 ## Time-Boxing for Working Parents: Reclaim Your Day Without Guilt
 
-Source: https://chrobox.net/blog/time-boxing-for-working-parents · Updated: 2026-04-22
+Source: https://chrobox.net/blog/time-boxing-for-working-parents · Updated: 2026-10-07
 
 Working parents face a cruel scheduling math: full workload, full parenting load, plus the basics of being human. The hours never add up. Most parents end each day feeling like they failed at everything.
 
@@ -2218,6 +2351,14 @@ Some weeks, the schedule will explode. Sick kid, work crisis, school event chaos
 **The 48-hour reset rule:** Skip the system for up to 48 hours during a true crisis. On day three, force a return to normal boxes — even if shrunken. The longer you skip, the harder restart becomes.
 
 **Weekend recovery boxes:** Build a Sunday afternoon "weekly reset" box (60-90 min). Use it to plan the upcoming week, restock household basics, and pre-stage Monday morning.
+
+### Early mornings versus late catch-up: what Chrobox data shows
+
+In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes that started between 5:00 and 8:59 were completed 62.3% of the time. Boxes that started after 21:00 — the classic after-bedtime catch-up slot — were completed 33.2% of the time.
+
+This is observational data, not an experiment, and early risers may simply be more consistent. Still, if you can, a short block before the household wakes is a more reliable place for important work than the end of the day.
+
+Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Time-Boxing for Parents with Chrobox
 
