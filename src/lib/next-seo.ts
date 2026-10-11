@@ -223,5 +223,17 @@ export function usageDatasetSchema(input: {
     variableMeasured: USAGE_STATS_VARIABLES,
     measurementTechnique: `Aggregated, anonymized task records from the Chrobox app (${USAGE_STATS.tasks} tasks, ${USAGE_STATS.people} signed-in accounts, extracted ${USAGE_STATS.extracted})`,
     isAccessibleForFree: true,
+    // 데이터셋이 1차 소스로 인용되려면 라이선스와 기계가 받아갈 배포본이 있어야
+    // 한다 — 둘 중 하나라도 없으면 구글 데이터셋 검색이 리치 결과에서 제외하고,
+    // 생성엔진도 "원출처"로 취급하지 않는다. 배포 파일은 scripts/generate-dataset-json.mjs
+    // 가 usageStats.ts 에서 생성하므로 글의 수치와 어긋날 수 없다.
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    distribution: [
+      {
+        '@type': 'DataDownload',
+        encodingFormat: 'application/json',
+        contentUrl: absoluteUrl('/data/timeboxing-completion.json'),
+      },
+    ],
   };
 }

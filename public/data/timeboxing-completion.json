@@ -1,0 +1,42 @@
+{
+  "name": "Chrobox timeboxing completion dataset",
+  "description": "Aggregated, anonymized task-completion figures from the Chrobox timeboxing app. Published as the primary source for the completion rates quoted on chrobox.net.",
+  "source": "https://chrobox.net/blog/does-timeboxing-work",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Chrobox (chrobox.net)",
+  "extracted": "2026-09-30",
+  "temporalCoverage": {
+    "start": "2025-12-03",
+    "end": "2026-09-29"
+  },
+  "method": "Production task records from signed-in accounts, tasks dated before the extraction day. Excludes calendar-imported events, operator/test accounts and deleted accounts. Aggregates only; groups under 30 tasks are not reported.",
+  "sample": {
+    "tasks": 5077,
+    "people": 250,
+    "plannedDays": 799
+  },
+  "variablesMeasured": [
+    "Task completion rate, time-boxed vs unscheduled tasks",
+    "Time box length distribution and completion by length",
+    "Completion rate by time box start time",
+    "Tasks planned per day and share of days fully completed",
+    "Completion rate of priority-marked tasks",
+    "Completion rate by day of week"
+  ],
+  "findings": {
+    "completionRatePercent": {
+      "timeBoxedTasks": 48.1,
+      "unscheduledTasks": 17.6,
+      "priorityTasks": 44.5,
+      "nonPriorityTasks": 28.9,
+      "boxesStarting0500to0859": 62.3,
+      "boxesStarting2100to2359": 33.2
+    },
+    "withinPersonComparison": {
+      "peopleWithBothTaskTypes": 41,
+      "peopleWhereTimeBoxedCompletedMore": 35
+    },
+    "medianTimeBoxMinutes": 60,
+    "medianTasksPlannedPerDay": 5
+  }
+}
