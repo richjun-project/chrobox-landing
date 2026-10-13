@@ -123,6 +123,20 @@ function extractBlogEntries(relativePaths) {
   return [...entries].map(([slug, dates]) => ({ slug, ...dates }));
 }
 
+// Each cluster with its member posts, read the same way as the slugs below.
+function extractCategoryMembers() {
+  const source = readProjectFile(TAXONOMY_SOURCE);
+  const starts = [...source.matchAll(/\bid:\s*['"`][\w-]+['"`]/g)].map((match) => match.index);
+  return starts
+    .map((start, index) => {
+      const block = source.slice(start, starts[index + 1] ?? source.length);
+      const slug = block.match(/slug:\s*['"`]([^'"`]+)['"`]/)?.[1];
+      const list = block.match(/members:\s*\[([\s\S]*?)\]/)?.[1] ?? '';
+      return { slug, members: [...list.matchAll(/['"`]([^'"`]+)['"`]/g)].map((match) => match[1]) };
+    })
+    .filter((cluster) => cluster.slug);
+}
+
 function extractCategorySlugs() {
   const source = readProjectFile(TAXONOMY_SOURCE);
   const slugs = [];
@@ -284,6 +298,9 @@ export function htmlLangForLocale(localeCode) {
 
 export function getSeoRouteGroups() {
   const blogLastmod = latestSourceDate(BLOG_SOURCES);
+  const taxonomyLastmod = latestSourceDate([TAXONOMY_SOURCE]);
+  const blogEntryBySlug = new Map(extractBlogEntries(BLOG_SOURCES).map((entry) => [entry.slug, entry]));
+  const latestDate = (dates) => dates.filter(Boolean).sort().pop();
   const templateLastmod = latestSourceDate([TEMPLATE_SOURCE, 'src/screens/ScheduleTemplate.tsx']);
   const comparisonLastmod = latestSourceDate([COMPARISON_SOURCE, 'src/screens/ComparisonPage.tsx']);
   const siteLastmod = latestSourceDate([
@@ -300,14 +317,20 @@ export function getSeoRouteGroups() {
     routeGroup('/blog', { changefreq: 'weekly', priority: '0.9', lastmod: blogLastmod, section: 'pages' }),
     routeGroup('/templates', { changefreq: 'weekly', priority: '0.9', lastmod: templateLastmod, section: 'pages' }),
     routeGroup('/compare', { changefreq: 'monthly', priority: '0.85', lastmod: comparisonLastmod, section: 'pages' }),
-    ...extractCategorySlugs().map((slug) => (
-      routeGroup(`/blog/category/${slug}`, {
+    // A category page lists its member posts, so it changes when one of them does —
+    // not whenever any blog source file is committed (which moved all 120 at once).
+    ...extractCategoryMembers().map(({ slug, members }) => {
+      const entries = members.map((member) => blogEntryBySlug.get(member)).filter(Boolean);
+      const lastmod = latestDate([taxonomyLastmod, ...entries.map((entry) => entry.date)]) ?? blogLastmod;
+      const localesDate = latestDate([taxonomyLastmod, ...entries.map((entry) => entry.localesDate)]);
+      return routeGroup(`/blog/category/${slug}`, {
         changefreq: 'weekly',
         priority: '0.85',
-        lastmod: blogLastmod,
+        lastmod,
+        localeLastmod: localesDate && localesDate !== lastmod ? localesDate : undefined,
         section: 'categories',
-      })
-    )),
+      });
+    }),
     ...extractBlogEntries(BLOG_SOURCES).map(({ slug, date, localesDate }) => {
       // Priority pages: those already earning impressions in Search Console, plus the
       // new app-blocking cluster we want crawled and ranked first. Raised crawl priority
