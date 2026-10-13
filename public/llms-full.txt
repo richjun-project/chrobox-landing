@@ -207,13 +207,24 @@ There's no universally "better" technique—only what works better for you. Expe
 
 ---
 
-## Time-Blocking vs Time-Boxing: What's the Difference?
+## Time Blocking vs Timeboxing: What's the Difference?
 
-Source: https://chrobox.net/blog/time-blocking-vs-time-boxing · Updated: 2026-08-09
+Source: https://chrobox.net/blog/time-blocking-vs-time-boxing · Updated: 2026-10-13
 
 ### Two Powerful Techniques, One Crucial Difference
 
 Time-blocking and time-boxing are frequently used interchangeably, but they operate on fundamentally different principles. Understanding the distinction helps you choose the right tool for each situation—and combine them powerfully when needed.
+
+**Short answer:** time blocking reserves *when* you work on something; timeboxing limits *how long* one task gets, and you stop when the box ends. Use time blocking to shape the day, and timeboxing for the tasks inside it.
+
+| | Time blocking | Timeboxing |
+|---|---|---|
+| What is fixed | A slot on your calendar | The time limit for one task |
+| When time runs out | Extend or move the block | Stop and review, finished or not |
+| Unit of planning | A kind of work ("writing", "meetings") | A specific task ("draft the intro") |
+| Main strength | Protects time from other demands | Creates urgency and limits perfectionism |
+| Main risk | Work expands to fill the block | Estimates set too tight |
+| Best for | Shaping a whole day or week | Tasks that tend to drag on |
 
 ### What Is Time-Blocking?
 
@@ -261,7 +272,7 @@ For example, time-block Monday morning for "product development." Within that bl
 
 ### Using Chrobox for Both Approaches
 
-Chrobox supports both techniques elegantly. Create broad category blocks for time-blocking, then add specific task boxes within them. The visual timeline makes it easy to see your day structured at both levels simultaneously.
+In Chrobox, every task you place on the timeline gets a start time and a duration, so each one works as a time box. For the time-blocking layer, turn the fixed parts of your week into routines — a daily deep-work slot, a Friday review — and give related tasks the same color, so the day reads as blocks of one kind of work with specific boxes inside them.
 
 ### The Bottom Line
 
@@ -2377,13 +2388,24 @@ Start tomorrow. Pick three time slots: one work box, one family box, one self bo
 
 ---
 
-## How to Block Distracting Apps and Win Back Your Focus (2026 Guide)
+## How to Block Distracting Apps: Benefits and 10-Minute Setup
 
-Source: https://chrobox.net/blog/how-to-block-distracting-apps · Updated: 2026-07-20
+Source: https://chrobox.net/blog/how-to-block-distracting-apps · Updated: 2026-10-13
 
 You sit down to work. Thirty seconds later, without deciding to, you are scrolling. This is not a willpower failure — it is an app designed by hundreds of engineers to interrupt exactly this kind of intention. If you want your focus back, blocking distracting apps is the single highest-leverage change you can make, and it takes about 10 minutes to set up properly.
 
 This guide covers why app blocking works, how it differs between iOS and Android, how to combine it with timeboxed focus sessions, and a practical walkthrough to get started today.
+
+### The Benefits of Blocking Distracting Apps
+
+Blocking distracting apps during planned work means fewer switches away from the task, less of the stress that interruptions add, and more of your working time spent on what you planned. The benefit comes from removing the decision to check, not from trying harder.
+
+- **Fewer switches, less attention residue.** After you check an app and come back, part of your attention stays on what you just saw (Leroy, 2009). Blocking stops the switch instead of asking you to recover from it.
+- **Less interruption stress.** In a lab study of interrupted email work, people finished their tasks no slower, but reported more stress, frustration, time pressure and effort (Mark, Gudith and Klocke, 2008).
+- **Less pull from a phone you are not using.** In experiments by Ward and colleagues (2017), people whose phones were in another room scored higher on a test of available working memory than people whose phones were on the desk. Later replications have found smaller or no effects, so treat this one as suggestive.
+- **More planned work gets done.** In Chrobox, blocking runs inside time boxes. Across 5,077 tasks planned by 250 people, tasks given a time box were completed 48.1% of the time, against 17.6% for tasks left unscheduled. That measures time boxing as a whole, not blocking on its own, and it is observational data, not an experiment. Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work).
+
+The sections below explain why these effects happen and how to set blocking up so that you keep using it.
 
 ### Why App Blocking Actually Works
 
