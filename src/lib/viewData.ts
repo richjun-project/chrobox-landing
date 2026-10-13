@@ -24,12 +24,15 @@ import { htmlLangForLocale, type ContentLanguage } from './seo';
 // get discovered. Curated: the first-party data post, pages that already earn
 // non-brand impressions in Search Console (app blocking, time blocking vs boxing),
 // and the 2026-09-30 guides that URL Inspection still reported as unknown on 10-07.
+// The pillar guide (PILLAR_GUIDE) was itself unknown to Google on 10-07 despite
+// being the entry point of the method: the home page is its strongest link.
+const PILLAR_GUIDE = 'what-is-time-boxing';
 const HOME_FEATURED_SLUGS = [
   'does-timeboxing-work',
+  PILLAR_GUIDE,
   'how-to-block-distracting-apps',
-  'how-to-lock-apps-on-iphone',
   'time-blocking-vs-time-boxing',
-  'best-time-boxing-apps',
+  'how-to-lock-apps-on-iphone',
   'reduce-phone-addiction',
 ];
 
@@ -295,8 +298,11 @@ export function comparisonGuides(slug: string, lang: ContentLanguage): BlogPostM
   return postsBySlug(['best-time-boxing-apps', ...(COMPARISON_GUIDES[slug] ?? [])], lang);
 }
 
+// Template visitors are often new to the method, so every template starts its guide
+// list with the pillar. Kept out of TEMPLATE_GUIDES, which also drives the reverse
+// links (a post's "related templates"), so the pillar does not list all 20 templates.
 export function templateGuides(slug: string, lang: ContentLanguage): BlogPostMeta[] {
-  return postsBySlug(TEMPLATE_GUIDES[slug] ?? [], lang);
+  return postsBySlug([PILLAR_GUIDE, ...(TEMPLATE_GUIDES[slug] ?? [])], lang);
 }
 
 export function postCrossLinks(postSlug: string, lang: ContentLanguage): PostCrossLinks {
