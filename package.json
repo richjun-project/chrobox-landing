@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
-    "build": "npm run generate:sitemap && npm run generate:dataset && npm run generate:llms && npm run generate:feeds && next build && node scripts/postbuild-html-lang.mjs",
+    "build": "npm run generate:sitemap && npm run generate:dataset && npm run generate:ics && npm run generate:llms && npm run generate:feeds && next build && node scripts/postbuild-html-lang.mjs",
     "build:prerender": "npm run build",
     "audit:seo": "node scripts/audit-seo.mjs",
     "lint": "eslint .",
@@ -16,7 +16,8 @@
     "indexnow": "node scripts/indexnow-submit.mjs",
     "generate:llms": "node scripts/generate-llms-txt.mjs",
     "generate:feeds": "node scripts/generate-feeds.mjs",
-    "generate:dataset": "node scripts/generate-dataset-json.mjs"
+    "generate:dataset": "node scripts/generate-dataset-json.mjs",
+    "generate:ics": "node scripts/generate-template-ics.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

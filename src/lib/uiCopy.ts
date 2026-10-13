@@ -84,6 +84,8 @@ export interface UiCopy {
   whyChooseCompetitor: string;
   /** Contains a {profession} placeholder. */
   templateHeroTitle: string;
+  addToCalendar: string;
+  addToCalendarHint: string;
   /** Contains a {profession} placeholder. */
   templateExpertAdvice: string;
   /** Contains a {profession} placeholder. */
@@ -163,6 +165,8 @@ export const EN_UI_COPY: UiCopy = {
   comparisonFaqSubtitle: 'Common questions about Chrobox vs {competitor}',
   whyChooseCompetitor: 'Why Choose {competitor}',
   templateHeroTitle: '{profession} Daily Schedule Template',
+  addToCalendar: 'Add to your calendar (.ics)',
+  addToCalendarHint: 'Repeats every weekday at these times. Import it into Google Calendar, Apple Calendar or Outlook.',
   templateExpertAdvice: 'Expert advice for {profession}',
   templateCtaTitle: 'Start your {profession} schedule with Chrobox',
   professionDailySchedule: '{profession} Daily Schedule',
@@ -239,6 +243,8 @@ export const KO_UI_COPY: UiCopy = {
   comparisonFaqSubtitle: 'Chrobox와 {competitor} 비교에 대한 주요 질문',
   whyChooseCompetitor: '{competitor}의 장점',
   templateHeroTitle: '{profession} 하루 일정 템플릿',
+  addToCalendar: '내 캘린더에 추가 (.ics)',
+  addToCalendarHint: '평일마다 이 시간에 반복됩니다. Google 캘린더, Apple 캘린더, Outlook으로 가져올 수 있습니다.',
   templateExpertAdvice: '{profession}를 위한 전문가 조언',
   templateCtaTitle: 'Chrobox로 {profession} 스케줄을 시작하세요',
   professionDailySchedule: '{profession} 하루 일정',

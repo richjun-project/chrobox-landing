@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Box, Container, Text, Group, Badge, SimpleGrid, Card, Button, Breadcrumbs, Anchor } from '@mantine/core';
-import { IconArrowLeft, IconArrowRight, IconBulb, IconChevronRight } from '@tabler/icons-react';
+import { IconArrowLeft, IconArrowRight, IconBulb, IconCalendarPlus, IconChevronRight } from '@tabler/icons-react';
 import { tokens } from '../theme';
 import { categoryColors } from '../data/templateCategories';
 import type { TemplateViewData } from '../lib/viewData';
@@ -179,9 +179,26 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
             >
               {ui.dailyTimeline}
             </Text>
-            <Text style={{ color: tokens.colors.gray500, marginBottom: '40px' }}>
+            <Text style={{ color: tokens.colors.gray500, marginBottom: '16px' }}>
               {ui.hourByHourPlan}
             </Text>
+            {/* The same plan as an iCalendar file (scripts/generate-template-ics.mjs). nofollow:
+                400 calendar files are not pages, and crawl budget is better spent on pages. */}
+            <Group gap="sm" align="center" style={{ marginBottom: '40px' }}>
+              <Button
+                component="a"
+                href={`${localizedPath(locale, `/templates/${slug}`)}.ics`}
+                download={`${slug}.ics`}
+                rel="nofollow"
+                variant="light"
+                leftSection={<IconCalendarPlus size={18} />}
+              >
+                {ui.addToCalendar}
+              </Button>
+              <Text size="sm" style={{ color: tokens.colors.gray500 }}>
+                {ui.addToCalendarHint}
+              </Text>
+            </Group>
           </motion.div>
 
           <Box style={{ position: 'relative' }}>

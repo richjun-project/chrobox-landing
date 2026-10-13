@@ -31,3 +31,7 @@ client_secret_*.json
 
 # translation cache
 scripts/.i18n-cache/
+
+# Schedule template calendars, generated at build time (scripts/generate-template-ics.mjs)
+public/templates/*.ics
+public/*/templates/*.ics
