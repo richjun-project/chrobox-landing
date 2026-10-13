@@ -3,12 +3,13 @@ import type { BlogPostMeta } from '../types/blog';
 export const enBatch8: BlogPostMeta[] = [
   {
     slug: 'how-to-block-distracting-apps',
-    title: 'How to Block Distracting Apps and Win Back Your Focus (2026 Guide)',
+    title: 'How to Block Distracting Apps: Benefits and 10-Minute Setup',
     date: '2026-07-20',
+    updated: '2026-10-13',
     author: 'Chrobox Team',
     category: 'Productivity',
     tags: ['app-blocker', 'block-distracting-apps', 'focus-mode', 'screen-time', 'digital-detox'],
-    excerpt: 'Blocking distracting apps is the single highest-leverage change you can make to your focus. Learn why it works, how iOS and Android differ, and how to set it up in 10 minutes.',
+    excerpt: 'The benefits of blocking distracting apps and the research behind them, how blocking differs on iOS and Android, and a 10-minute setup you will keep using.',
     image: '/screenshots/en/8.webp',
     readTime: 9,
     lang: 'en',
@@ -138,12 +139,13 @@ export const enBatch8: BlogPostMeta[] = [
 export const koBatch8: BlogPostMeta[] = [
   {
     slug: 'how-to-block-distracting-apps',
-    title: '집중을 지키는 앱 차단 방법: 산만함을 끊는 2026 가이드',
+    title: '앱 차단 방법과 효과: 집중을 지키는 2026 가이드',
     date: '2026-07-20',
+    updated: '2026-10-13',
     author: 'Chrobox Team',
     category: '생산성',
     tags: ['앱 차단', '집중 모드', '스크린타임', '디지털 디톡스', '집중력 앱'],
-    excerpt: '산만한 앱을 차단하는 것은 집중력을 되찾기 위해 할 수 있는 가장 효과적인 변화입니다. 왜 효과가 있는지, iOS와 안드로이드는 어떻게 다른지, 10분 만에 설정하는 방법을 알아보세요.',
+    excerpt: '산만한 앱을 차단하면 무엇이 좋아지는지 연구와 크로박스 데이터로 정리하고, iOS와 안드로이드의 차이, 10분 만에 끝내는 설정법을 안내합니다.',
     image: '/screenshots/ko/8.webp',
     readTime: 9,
     lang: 'ko',
@@ -278,6 +280,17 @@ export const contentBatch8: Record<string, Record<string, string>> = {
 You sit down to work. Thirty seconds later, without deciding to, you are scrolling. This is not a willpower failure — it is an app designed by hundreds of engineers to interrupt exactly this kind of intention. If you want your focus back, blocking distracting apps is the single highest-leverage change you can make, and it takes about 10 minutes to set up properly.
 
 This guide covers why app blocking works, how it differs between iOS and Android, how to combine it with timeboxed focus sessions, and a practical walkthrough to get started today.
+
+## The Benefits of Blocking Distracting Apps
+
+Blocking distracting apps during planned work means fewer switches away from the task, less of the stress that interruptions add, and more of your working time spent on what you planned. The benefit comes from removing the decision to check, not from trying harder.
+
+- **Fewer switches, less attention residue.** After you check an app and come back, part of your attention stays on what you just saw (Leroy, 2009). Blocking stops the switch instead of asking you to recover from it.
+- **Less interruption stress.** In a lab study of interrupted email work, people finished their tasks no slower, but reported more stress, frustration, time pressure and effort (Mark, Gudith and Klocke, 2008).
+- **Less pull from a phone you are not using.** In experiments by Ward and colleagues (2017), people whose phones were in another room scored higher on a test of available working memory than people whose phones were on the desk. Later replications have found smaller or no effects, so treat this one as suggestive.
+- **More planned work gets done.** In Chrobox, blocking runs inside time boxes. Across 5,077 tasks planned by 250 people, tasks given a time box were completed 48.1% of the time, against 17.6% for tasks left unscheduled. That measures time boxing as a whole, not blocking on its own, and it is observational data, not an experiment. Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work).
+
+The sections below explain why these effects happen and how to set blocking up so that you keep using it.
 
 ## Why App Blocking Actually Works
 
@@ -459,6 +472,17 @@ A digital detox that survives contact with real life is not the one that removes
 일하려고 자리에 앉습니다. 30초 후, 결정한 적도 없는데 스크롤을 하고 있습니다. 이것은 의지력 부족이 아닙니다 — 수백 명의 엔지니어가 정확히 이런 의도를 방해하도록 설계한 앱 때문입니다. 집중력을 되찾고 싶다면, 산만한 앱을 차단하는 것이 할 수 있는 가장 효과적인 변화이며, 제대로 설정하는 데는 약 10분이면 충분합니다.
 
 이 가이드는 앱 차단이 왜 효과가 있는지, iOS와 안드로이드가 어떻게 다른지, 타임박싱된 집중 세션과 어떻게 결합하는지, 그리고 오늘 바로 시작할 수 있는 실전 설정 방법을 다룹니다.
+
+## 산만한 앱을 차단하면 좋은 점
+
+계획한 작업 시간에 산만한 앱을 차단하면 작업에서 벗어나는 횟수가 줄고, 방해가 더하는 스트레스가 줄고, 일하는 시간 중 계획한 일에 쓰는 몫이 늘어납니다. 효과는 더 애쓰는 데서가 아니라 "확인할까?"라는 결정 자체를 없애는 데서 나옵니다.
+
+- **전환이 줄어 주의 잔류가 줄어듭니다.** 앱을 확인하고 돌아와도 주의의 일부는 방금 본 것에 남아 있습니다(Leroy, 2009). 차단은 전환에서 회복하라고 요구하는 대신 전환 자체를 막습니다.
+- **방해로 인한 스트레스가 줄어듭니다.** 이메일 업무 중 방해를 받는 실험에서 사람들은 작업을 더 느리게 끝내지는 않았지만, 스트레스·좌절감·시간 압박·노력을 더 크게 보고했습니다(Mark, Gudith and Klocke, 2008).
+- **쓰지 않는 휴대폰에 끌리는 힘이 줄어듭니다.** Ward 연구팀(2017)의 실험에서는 휴대폰을 다른 방에 둔 사람이 책상 위에 둔 사람보다 가용 작업 기억 검사에서 더 높은 점수를 받았습니다. 이후 재현 연구에서는 효과가 더 작거나 나타나지 않았으므로 참고 정도로 보세요.
+- **계획한 일을 더 많이 끝냅니다.** 크로박스에서 앱 차단은 타임박스 안에서 작동합니다. 250명이 계획한 할 일 5,077개를 보면, 시간을 배치한 할 일은 48.1%가 완료됐고 시간을 정하지 않은 할 일은 17.6%였습니다. 이는 차단만의 효과가 아니라 타임박싱 전체의 결과이며, 실험이 아닌 관찰 데이터입니다. 출처: [타임박싱, 정말 효과 있을까? 할 일 5,077개의 완료율 데이터](/ko/blog/does-timeboxing-work)
+
+아래에서는 이런 효과가 왜 생기는지, 그리고 계속 쓰게 되는 차단 설정법을 설명합니다.
 
 ## 앱 차단이 실제로 효과가 있는 이유
 

@@ -2146,6 +2146,17 @@ Karar yorgunluğundan kurtulmanın hissi tam olarak budur.
 
 Bu rehberde, uygulama engellemenin neden işe yaradığını, iOS ve Android arasındaki teknik farkları, bu yöntemi zaman bloklama odaklanma seanslarıyla nasıl birleştireceğinizi ve bugün başlamanızı sağlayacak pratik bir yol haritasını ele alacağız.
 
+## Dikkat Dağıtan Uygulamaları Engellemenin Faydaları
+
+Planlı çalışma sırasında dikkat dağıtan uygulamaları engellemek, işten daha az kopmak, kesintilerin getirdiği stresin azalması ve çalışma zamanınızın daha büyük bölümünü planladığınız işe harcamak demektir. Fayda, daha çok çabalamaktan değil, "bir bakayım" kararını ortadan kaldırmaktan gelir.
+
+- **Daha az geçiş, daha az dikkat kalıntısı.** Bir uygulamaya bakıp işinize döndüğünüzde, dikkatinizin bir kısmı az önce gördüğünüz şeyde kalır (Leroy, 2009). Engelleme, geçişten toparlanmanızı beklemek yerine geçişin kendisini önler.
+- **Kesintiden doğan stres azalır.** E-posta işi sırasında kesintiye uğratılan kişilerle yapılan bir laboratuvar çalışmasında, katılımcılar görevlerini daha yavaş bitirmedi, ancak daha fazla stres, hayal kırıklığı, zaman baskısı ve çaba bildirdi (Mark, Gudith ve Klocke, 2008).
+- **Kullanmadığınız telefonun çekim gücü azalır.** Ward ve meslektaşlarının (2017) deneylerinde, telefonu başka bir odada olan kişiler, telefonu masada duran kişilere göre kullanılabilir çalışma belleği testinde daha yüksek puan aldı. Sonraki tekrar çalışmalarında etki daha küçük çıktı ya da hiç görülmedi; bu yüzden bunu kesin bir sonuç değil, işaret olarak değerlendirin.
+- **Planlanan işin daha büyük kısmı tamamlanır.** Chrobox'ta engelleme zaman kutularının içinde çalışır. 250 kişinin planladığı 5,077 görevde, zaman kutusu verilen görevler %48.1 oranında tamamlanırken, zamanlanmadan bırakılan görevlerde bu oran %17.6 oldu. Bu, tek başına engellemeyi değil time-boxing'in bütününü ölçer ve bir deney değil, gözlemsel veridir. Kaynak: [Time Boxing Gerçekten İşe Yarıyor mu? 5,077 Planlanmış Görevden Elde Edilen Tamamlanma Verileri](/tr/blog/does-timeboxing-work).
+
+Aşağıdaki bölümler bu etkilerin neden ortaya çıktığını ve engellemeyi kullanmaya devam edeceğiniz şekilde nasıl kuracağınızı anlatıyor.
+
 ## Uygulama Engelleme Neden Gerçekten İşe Yarar?
 
 ### Dikkat Kalıntısı
@@ -2887,6 +2898,17 @@ Chrobox, haftalık planlamayı görsel ve sezgisel hale getirir. Haftalık gör�
 
 Time-blocking ve time-boxing sık sık birbirinin yerine kullanılır, ancak temelde farklı ilkeler üzerinde çalışırlar. Aradaki farkı anlamak, her durum için doğru aracı seçmenize — ve gerektiğinde ikisini güçlü bir şekilde birleştirmenize yardımcı olur.
 
+**Kısa cevap:** time-blocking, bir işi *ne zaman* yapacağınızı ayırır; time-boxing ise tek bir göreve *ne kadar* süre verileceğini sınırlar ve kutu bittiğinde durursunuz. Günün çerçevesini time-blocking ile, bu çerçevenin içindeki görevleri time-boxing ile kurun.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Sabit olan | Takvimdeki bir zaman dilimi | Tek bir görevin süre sınırı |
+| Süre dolduğunda | Blok uzatılır veya taşınır | Bitmiş olsun olmasın durulur ve gözden geçirilir |
+| Planlama birimi | Bir iş türü ("yazma", "toplantılar") | Belirli bir görev ("girişin taslağı") |
+| Ana güçlü yanı | Zamanı diğer taleplerden korur | Aciliyet yaratır, mükemmeliyetçiliği sınırlar |
+| Ana risk | İş, bloğu dolduracak kadar uzar | Tahminlerin çok sıkı belirlenmesi |
+| En uygun olduğu durum | Bütün bir günü veya haftayı yapılandırmak | Uzayıp gitmeye eğilimli görevler |
+
 ## Time-Blocking Nedir?
 
 Time-blocking, belirli görevleri veya iş kategorilerini takviminizde tanımlanmış zaman dilimlerine atamak anlamına gelir. Bu bir planlama aracıdır.
@@ -2933,7 +2955,7 @@ En etkili yaklaşım ikisini birlikte kullanır:
 
 ## Her İki Yaklaşım İçin Chrobox Kullanımı
 
-Chrobox her iki tekniği de zarif bir şekilde destekler. Time-blocking için geniş kategori blokları oluşturun, ardından bunların içine belirli görev kutuları ekleyin. Görsel zaman tüneli, gününüzün her iki düzeyde aynı anda nasıl yapılandırıldığını görmeyi kolaylaştırır.
+Chrobox'ta zaman tünelinize yerleştirdiğiniz her görevin bir başlangıç saati ve süresi vardır, bu yüzden her biri bir zaman kutusu işlevi görür. Time-blocking katmanı için haftanızın sabit parçalarını rutinlere dönüştürün — her gün bir derin çalışma dilimi, cuma günü bir değerlendirme gibi — ve ilişkili görevlere aynı rengi verin; böylece gün, tek tür işten oluşan bloklar ve onların içindeki belirli kutular olarak okunur.
 
 ## Sonuç
 

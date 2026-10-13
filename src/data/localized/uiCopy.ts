@@ -78,6 +78,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: '{profession}のためのエキスパートのアドバイス',
     templateCtaTitle: 'Chroboxで{profession}のスケジュールを始めましょう',
     professionDailySchedule: '{profession}の1日のスケジュール',
+    addToCalendar: 'カレンダーに追加（.ics）',
+    addToCalendarHint: '平日の同じ時間に繰り返されます。Googleカレンダー、Appleカレンダー、Outlookに読み込めます。',
   },
   'zh-CN': {
     home: '首页',
@@ -153,6 +155,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: '针对 {profession} 的专家建议',
     templateCtaTitle: '使用 Chrobox 开启您的 {profession} 日程',
     professionDailySchedule: '{profession}每日日程',
+    addToCalendar: '添加到日历（.ics）',
+    addToCalendarHint: '每个工作日在这些时间重复。可导入 Google 日历、Apple 日历或 Outlook。',
   },
   'zh-TW': {
     home: '首頁',
@@ -228,6 +232,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: '給 {profession} 的專家建議',
     templateCtaTitle: '使用 Chrobox 開始您的 {profession} 日程規劃',
     professionDailySchedule: '{profession}每日日程',
+    addToCalendar: '加入行事曆（.ics）',
+    addToCalendarHint: '每個工作日在這些時間重複。可匯入 Google 日曆、Apple 行事曆或 Outlook。',
   },
   es: {
     home: 'Inicio',
@@ -303,6 +309,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Consejos de expertos para {profession}',
     templateCtaTitle: 'Empieza tu horario de {profession} con Chrobox',
     professionDailySchedule: 'Horario diario de {profession',
+    addToCalendar: 'Añadir a tu calendario (.ics)',
+    addToCalendarHint: 'Se repite cada día laborable a estas horas. Impórtalo en Google Calendar, Apple Calendar u Outlook.',
   },
   fr: {
     home: 'Accueil',
@@ -378,6 +386,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Conseils d\'experts pour {profession}',
     templateCtaTitle: 'Commencez votre planning de {profession} avec Chrobox',
     professionDailySchedule: 'Emploi du temps quotidien : {profession}',
+    addToCalendar: 'Ajouter à votre agenda (.ics)',
+    addToCalendarHint: 'Se répète chaque jour de semaine à ces horaires. Importez-le dans Google Agenda, Calendrier Apple ou Outlook.',
   },
   de: {
     home: 'Startseite',
@@ -453,6 +463,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Expertentipps für {profession}',
     templateCtaTitle: 'Starte deinen {profession}-Zeitplan mit Chrobox',
     professionDailySchedule: 'Tagesplan für {profession}',
+    addToCalendar: 'Zum Kalender hinzufügen (.ics)',
+    addToCalendarHint: 'Wiederholt sich an jedem Werktag zu diesen Zeiten. Importiere die Datei in Google Kalender, Apple Kalender oder Outlook.',
   },
   'pt-BR': {
     home: 'Início',
@@ -528,6 +540,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Conselhos de especialistas para {profession}',
     templateCtaTitle: 'Comece seu cronograma de {profession} com o Chrobox',
     professionDailySchedule: 'Cronograma Diário para {profession}',
+    addToCalendar: 'Adicionar à sua agenda (.ics)',
+    addToCalendarHint: 'Repete em todos os dias úteis nesses horários. Importe no Google Agenda, no Calendário da Apple ou no Outlook.',
   },
   it: {
     home: 'Home',
@@ -603,6 +617,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Consigli degli esperti per {profession}',
     templateCtaTitle: 'Inizia il tuo programma per {profession} con Chrobox',
     professionDailySchedule: 'Programma giornaliero per {profession}',
+    addToCalendar: 'Aggiungi al tuo calendario (.ics)',
+    addToCalendarHint: 'Si ripete ogni giorno feriale a questi orari. Importalo in Google Calendar, Calendario di Apple o Outlook.',
   },
   nl: {
     home: 'Home',
@@ -678,6 +694,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Deskundig advies voor {profession}',
     templateCtaTitle: 'Start je planning voor {profession} met Chrobox',
     professionDailySchedule: 'Dagplanning voor {profession}',
+    addToCalendar: 'Toevoegen aan je agenda (.ics)',
+    addToCalendarHint: 'Herhaalt zich elke werkdag op deze tijden. Importeer het in Google Agenda, Apple Agenda of Outlook.',
   },
   pl: {
     home: 'Strona główna',
@@ -753,6 +771,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Porady ekspertów dla: {profession}',
     templateCtaTitle: 'Zacznij swój harmonogram ({profession}) z Chrobox',
     professionDailySchedule: 'Dzienny harmonogram: {profession}',
+    addToCalendar: 'Dodaj do kalendarza (.ics)',
+    addToCalendarHint: 'Powtarza się w każdy dzień roboczy o tych godzinach. Zaimportuj do Kalendarza Google, Kalendarza Apple lub Outlooka.',
   },
   tr: {
     home: 'Ana Sayfa',
@@ -828,6 +848,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: '{profession} için uzman tavsiyeleri',
     templateCtaTitle: 'Chrobox ile {profession} programınızı başlatın',
     professionDailySchedule: '{profession} Günlük Programı',
+    addToCalendar: 'Takvime ekle (.ics)',
+    addToCalendarHint: 'Her hafta içi bu saatlerde tekrarlanır. Google Takvim, Apple Takvim veya Outlook\'a aktarılabilir.',
   },
   id: {
     home: 'Beranda',
@@ -903,6 +925,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Saran ahli untuk {profession}',
     templateCtaTitle: 'Mulai jadwal {profession} Anda dengan Chrobox',
     professionDailySchedule: 'Jadwal Harian {profession',
+    addToCalendar: 'Tambahkan ke kalender (.ics)',
+    addToCalendarHint: 'Berulang setiap hari kerja pada jam-jam ini. Impor ke Google Kalender, Apple Kalender, atau Outlook.',
   },
   vi: {
     home: 'Trang chủ',
@@ -978,6 +1002,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Lời khuyên từ chuyên gia dành cho {profession}',
     templateCtaTitle: 'Bắt đầu lịch trình {profession} của bạn với Chrobox',
     professionDailySchedule: 'Lịch trình hàng ngày cho {profession}',
+    addToCalendar: 'Thêm vào lịch (.ics)',
+    addToCalendarHint: 'Lặp lại vào mỗi ngày làm việc theo các khung giờ này. Nhập vào Google Lịch, Lịch Apple hoặc Outlook.',
   },
   th: {
     home: 'หน้าแรก',
@@ -1053,6 +1079,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'คำแนะนำจากผู้เชี่ยวชาญสำหรับ {profession}',
     templateCtaTitle: 'เริ่มจัดตารางเวลาสำหรับ {profession} ด้วย Chrobox',
     professionDailySchedule: 'ตารางเวลารายวันสำหรับ {profession}',
+    addToCalendar: 'เพิ่มลงในปฏิทิน (.ics)',
+    addToCalendarHint: 'ทำซ้ำทุกวันทำงานในเวลาเหล่านี้ นำเข้าไปยัง Google ปฏิทิน ปฏิทิน Apple หรือ Outlook ได้',
   },
   hi: {
     home: 'होम',
@@ -1128,6 +1156,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: '{profession} के लिए विशेषज्ञ सलाह',
     templateCtaTitle: 'Chrobox के साथ अपना {profession} शेड्यूल शुरू करें',
     professionDailySchedule: '{profession} दैनिक शेड्यूल',
+    addToCalendar: 'अपने कैलेंडर में जोड़ें (.ics)',
+    addToCalendarHint: 'हर कार्यदिवस इन्हीं समयों पर दोहराया जाता है। इसे Google Calendar, Apple Calendar या Outlook में इंपोर्ट करें।',
   },
   ar: {
     home: 'الرئيسية',
@@ -1203,6 +1233,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'نصائح الخبراء لـ {profession}',
     templateCtaTitle: 'ابدأ جدول {profession} الخاص بك مع Chrobox',
     professionDailySchedule: 'الجدول اليومي لـ {profession}',
+    addToCalendar: 'أضِف إلى التقويم (.ics)',
+    addToCalendarHint: 'يتكرر في كل يوم عمل في هذه الأوقات. استورده إلى تقويم Google أو تقويم Apple أو Outlook.',
   },
   ru: {
     home: 'Главная',
@@ -1278,6 +1310,8 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Советы экспертов для роли: {profession}',
     templateCtaTitle: 'Создайте расписание для роли {profession} в Chrobox',
     professionDailySchedule: 'Ежедневное расписание: {profession}',
+    addToCalendar: 'Добавить в календарь (.ics)',
+    addToCalendarHint: 'Повторяется каждый будний день в это время. Импортируйте в Google Календарь, Календарь Apple или Outlook.',
   },
   ms: {
     home: 'Laman Utama',
@@ -1353,5 +1387,7 @@ export const UI_COPY_TRANSLATIONS: Partial<Record<ContentLanguage, Partial<UiCop
     templateExpertAdvice: 'Nasihat pakar untuk {profession}',
     templateCtaTitle: 'Mula jadual {profession} anda dengan Chrobox',
     professionDailySchedule: 'Jadual Harian {profession}',
+    addToCalendar: 'Tambah ke kalendar anda (.ics)',
+    addToCalendarHint: 'Berulang setiap hari bekerja pada waktu ini. Import ke Kalendar Google, Kalendar Apple atau Outlook.',
   },
 };

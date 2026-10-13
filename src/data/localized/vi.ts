@@ -2001,6 +2001,17 @@ Bạn ngồi vào bàn làm việc. Chỉ 30 giây sau, dù không hề chủ ý
 
 Hướng dẫn này sẽ giải thích lý do tại sao việc chặn ứng dụng lại thực sự hiệu quả, sự khác biệt giữa iOS và Android, cách kết hợp tính năng này với các phiên tập trung được phân bổ thời gian (timebox), và các bước thực hành chi tiết để bạn bắt đầu ngay hôm nay.
 
+## Lợi ích của việc chặn các ứng dụng gây xao nhãng
+
+Chặn các ứng dụng gây xao nhãng trong giờ làm việc đã lên kế hoạch nghĩa là ít phải rời khỏi nhiệm vụ hơn, bớt căng thẳng do bị gián đoạn, và dành nhiều thời gian làm việc hơn cho những gì bạn đã định làm. Lợi ích đến từ việc loại bỏ quyết định "kiểm tra thử", chứ không phải từ việc cố gắng nhiều hơn.
+
+- **Ít chuyển đổi hơn, ít tồn dư chú ý hơn.** Sau khi bạn kiểm tra một ứng dụng rồi quay lại, một phần sự chú ý vẫn còn dừng ở thứ bạn vừa xem (Leroy, 2009). Việc chặn ngăn chính sự chuyển đổi đó, thay vì bắt bạn phải hồi phục sau nó.
+- **Bớt căng thẳng do gián đoạn.** Trong một nghiên cứu phòng thí nghiệm về công việc email bị gián đoạn, mọi người hoàn thành nhiệm vụ không chậm hơn, nhưng báo cáo nhiều căng thẳng, bực bội, áp lực thời gian và nỗ lực hơn (Mark, Gudith và Klocke, 2008).
+- **Bớt bị chiếc điện thoại bạn không dùng kéo đi.** Trong các thí nghiệm của Ward và cộng sự (2017), những người để điện thoại ở phòng khác đạt điểm cao hơn trong bài kiểm tra bộ nhớ làm việc khả dụng so với những người để điện thoại trên bàn. Các nghiên cứu lặp lại sau đó cho thấy hiệu ứng nhỏ hơn hoặc không có, vì vậy hãy xem đây chỉ là gợi ý.
+- **Hoàn thành nhiều việc đã lên kế hoạch hơn.** Trong Chrobox, việc chặn chạy bên trong các hộp thời gian. Trong 5.077 nhiệm vụ do 250 người lên kế hoạch, các nhiệm vụ được gán hộp thời gian được hoàn thành 48,1% số lần, so với 17,6% ở các nhiệm vụ không được xếp lịch. Con số này đo lường time-boxing nói chung chứ không riêng việc chặn, và đây là dữ liệu quan sát, không phải một thí nghiệm. Nguồn: [Time-Boxing Có Thực Sự Hiệu Quả? Dữ Liệu Hoàn Thành Từ 5.077 Nhiệm Vụ Đã Lên Kế Hoạch](/vi/blog/does-timeboxing-work).
+
+Các phần dưới đây giải thích vì sao những hiệu ứng này xảy ra và cách thiết lập việc chặn để bạn duy trì sử dụng nó.
+
 ## Tại sao việc chặn ứng dụng thực sự hiệu quả
 
 ### Sự tồn dư chú ý
@@ -2893,6 +2904,17 @@ Buổi lập kế hoạch hàng tuần đầu tiên sẽ cảm thấy hơi gư�
 
 Time-blocking và time-boxing thường được sử dụng thay thế cho nhau, nhưng chúng vận hành trên những nguyên lý hoàn toàn khác nhau. Hiểu rõ sự khác biệt này giúp bạn chọn đúng công cụ cho từng tình huống — và kết hợp chúng một cách mạnh mẽ khi cần thiết.
 
+**Trả lời ngắn gọn:** time-blocking dành sẵn *khi nào* bạn làm một việc; time-boxing giới hạn *bao lâu* cho một nhiệm vụ, và bạn dừng lại khi hộp kết thúc. Dùng time-blocking để định hình cả ngày, và time-boxing cho các nhiệm vụ bên trong.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Điều được cố định | Một khung giờ trên lịch | Giới hạn thời gian cho một nhiệm vụ |
+| Khi hết giờ | Kéo dài hoặc dời khối | Dừng lại và xem xét, dù xong hay chưa |
+| Đơn vị lập kế hoạch | Một loại công việc ("viết lách", "họp hành") | Một nhiệm vụ cụ thể ("viết nháp phần mở đầu") |
+| Điểm mạnh chính | Bảo vệ thời gian khỏi các yêu cầu khác | Tạo cảm giác cấp bách và hạn chế chủ nghĩa cầu toàn |
+| Rủi ro chính | Công việc giãn ra cho đầy khối | Ước lượng thời gian đặt quá chặt |
+| Phù hợp nhất cho | Định hình cả ngày hoặc cả tuần | Những nhiệm vụ hay bị kéo dài |
+
 ## Time-Blocking là gì?
 
 Time-blocking nghĩa là gán các nhiệm vụ cụ thể hoặc các danh mục công việc vào những khung giờ xác định trên lịch của bạn. Đây là một công cụ lập lịch.
@@ -2939,7 +2961,7 @@ Ví dụ, time-block sáng Thứ Hai cho "phát triển sản phẩm". Trong kh�
 
 ## Dùng Chrobox cho cả hai cách tiếp cận
 
-Chrobox hỗ trợ cả hai kỹ thuật một cách tinh tế. Tạo các khối danh mục rộng cho time-blocking, sau đó thêm các hộp nhiệm vụ cụ thể bên trong chúng. Dòng thời gian trực quan giúp bạn dễ dàng thấy được ngày của mình được cấu trúc ở cả hai cấp độ cùng lúc.
+Trong Chrobox, mỗi nhiệm vụ bạn đặt lên dòng thời gian đều có giờ bắt đầu và thời lượng, nên từng nhiệm vụ hoạt động như một hộp thời gian. Với lớp time-blocking, hãy biến những phần cố định trong tuần của bạn thành thói quen lặp lại — một khung giờ làm việc sâu mỗi ngày, buổi đánh giá vào thứ Sáu — và gán cùng một màu cho các nhiệm vụ liên quan, để ngày của bạn hiện ra như những khối công việc cùng loại với các hộp cụ thể nằm bên trong.
 
 ## Kết luận
 

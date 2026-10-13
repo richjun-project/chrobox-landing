@@ -1609,6 +1609,17 @@ Du setzt dich hin, um zu arbeiten. Dreißig Sekunden später scrollst du, ohne d
 
 Dieser Guide erklärt, warum App-Blocking funktioniert, wie sich iOS und Android unterscheiden, wie du es mit getimeboxten Fokus-Sessions kombinierst, und liefert eine praktische Schritt-für-Schritt-Anleitung für den Einstieg.
 
+## Die Vorteile, ablenkende Apps zu blockieren
+
+Wenn du ablenkende Apps während geplanter Arbeitszeit blockierst, wechselst du seltener von der Aufgabe weg, hast weniger von dem Stress, den Unterbrechungen mit sich bringen, und verbringst mehr deiner Arbeitszeit mit dem, was du geplant hast. Der Nutzen kommt daher, dass die Entscheidung zum Nachsehen wegfällt – nicht daher, dass du dich mehr anstrengst.
+
+- **Weniger Wechsel, weniger Attention Residue.** Nachdem du eine App gecheckt hast und zurückkehrst, bleibt ein Teil deiner Aufmerksamkeit bei dem hängen, was du gerade gesehen hast (Leroy, 2009). App-Blocking verhindert den Wechsel, statt von dir zu verlangen, dich davon zu erholen.
+- **Weniger Unterbrechungsstress.** In einer Laborstudie zu unterbrochener E-Mail-Arbeit waren die Teilnehmenden mit ihren Aufgaben nicht langsamer fertig, berichteten aber von mehr Stress, Frust, Zeitdruck und Anstrengung (Mark, Gudith und Klocke, 2008).
+- **Weniger Sog durch ein Handy, das du gar nicht benutzt.** In Experimenten von Ward und Kolleg:innen (2017) erzielten Personen, deren Handy in einem anderen Raum lag, in einem Test zur verfügbaren Arbeitsgedächtniskapazität höhere Werte als Personen, deren Handy auf dem Schreibtisch lag. Spätere Replikationen fanden kleinere oder keine Effekte – sieh das hier also als Hinweis.
+- **Mehr geplante Arbeit wird erledigt.** In Chrobox läuft das Blockieren innerhalb von Timeboxen. Von 5.077 Aufgaben, die 250 Personen geplant haben, wurden Aufgaben mit Timebox zu 48,1 % erledigt, Aufgaben ohne Zeitfenster dagegen nur zu 17,6 %. Das misst Timeboxing insgesamt, nicht das Blockieren allein, und es sind Beobachtungsdaten, kein Experiment. Quelle: [Funktioniert Timeboxing wirklich? Abschlussdaten aus 5.077 geplanten Aufgaben](/de/blog/does-timeboxing-work)
+
+Die folgenden Abschnitte erklären, warum diese Effekte auftreten und wie du das Blockieren so einrichtest, dass du dabei bleibst.
+
 ## Warum App-Blocking wirklich funktioniert
 
 ### Aufmerksamkeitsrückstand (Attention Residue)
@@ -2893,6 +2904,17 @@ Die erste Wochenplanung fühlt sich ungewohnt an. In der dritten oder vierten Wo
 
 Timeblocking und Timeboxing werden oft synonym verwendet, funktionieren aber nach grundlegend verschiedenen Prinzipien. Wer den Unterschied versteht, wählt für jede Situation das richtige Werkzeug – und kann beide bei Bedarf wirkungsvoll kombinieren.
 
+**Kurz gesagt:** Timeblocking reserviert, *wann* du an etwas arbeitest; Timeboxing begrenzt, *wie lange* eine Aufgabe bekommt, und wenn die Box endet, hörst du auf. Nutze Timeblocking, um den Tag zu gliedern, und Timeboxing für die Aufgaben darin.
+
+| | Timeblocking | Timeboxing |
+|---|---|---|
+| Was festgelegt wird | Ein Zeitfenster in deinem Kalender | Das Zeitlimit für eine Aufgabe |
+| Wenn die Zeit abläuft | Block verlängern oder verschieben | Aufhören und auswerten, fertig oder nicht |
+| Planungseinheit | Eine Art von Arbeit („Schreiben“, „Meetings“) | Eine konkrete Aufgabe („Einleitung entwerfen“) |
+| Größte Stärke | Schützt Zeit vor anderen Ansprüchen | Erzeugt Dringlichkeit und bremst Perfektionismus |
+| Größtes Risiko | Arbeit dehnt sich aus, bis sie den Block füllt | Zu knapp angesetzte Schätzungen |
+| Am besten für | Einen ganzen Tag oder eine Woche gliedern | Aufgaben, die sich gern in die Länge ziehen |
+
 ## Was ist Timeblocking?
 
 Timeblocking bedeutet, bestimmte Aufgaben oder Arbeitskategorien festen Zeitfenstern in deinem Kalender zuzuweisen. Es ist ein Planungswerkzeug.
@@ -2939,7 +2961,7 @@ Blocke zum Beispiel den Montagvormittag für „Produktentwicklung". Innerhalb d
 
 ## Chrobox für beide Ansätze
 
-Chrobox unterstützt beide Techniken elegant. Lege breite Kategorieblöcke für das Timeblocking an und füge darin konkrete Aufgaben-Boxen hinzu. Die visuelle Timeline zeigt dir deinen Tag auf beiden Ebenen gleichzeitig strukturiert.
+In Chrobox bekommt jede Aufgabe, die du auf die Timeline legst, eine Startzeit und eine Dauer – damit funktioniert jede als Timebox. Für die Timeblocking-Ebene machst du die festen Teile deiner Woche zu Routinen – ein tägliches Deep-Work-Fenster, ein Review am Freitag – und gibst zusammengehörigen Aufgaben dieselbe Farbe, sodass sich der Tag wie Blöcke einer Arbeitsart mit konkreten Boxen darin liest.
 
 ## Das Fazit
 

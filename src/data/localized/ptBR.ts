@@ -1609,6 +1609,17 @@ Você senta para trabalhar. Trinta segundos depois, sem nem decidir, você já e
 
 Este guia explica por que o bloqueio de apps funciona, como ele difere entre iOS e Android, como combiná-lo com sessões de foco em timeboxing e traz um passo a passo prático para começar hoje mesmo.
 
+## Os Benefícios de Bloquear Apps que Tiram o Foco
+
+Bloquear apps que distraem durante o trabalho planejado significa menos saídas da tarefa, menos do estresse que as interrupções trazem e mais do seu tempo de trabalho dedicado ao que você planejou. O benefício vem de eliminar a decisão de ir conferir, não de se esforçar mais.
+
+- **Menos trocas, menos resíduo de atenção.** Depois que você confere um app e volta, parte da sua atenção continua no que acabou de ver (Leroy, 2009). O bloqueio impede a troca em vez de pedir que você se recupere dela.
+- **Menos estresse com interrupções.** Em um estudo de laboratório sobre trabalho com e-mail interrompido, as pessoas terminaram as tarefas sem ficar mais lentas, mas relataram mais estresse, frustração, pressão de tempo e esforço (Mark, Gudith e Klocke, 2008).
+- **Menos atração de um celular que você nem está usando.** Em experimentos de Ward e colegas (2017), quem deixou o celular em outro cômodo teve pontuação maior em um teste de memória de trabalho disponível do que quem o deixou sobre a mesa. Réplicas posteriores encontraram efeitos menores ou nenhum, então encare este ponto como um indício.
+- **Mais trabalho planejado é concluído.** No Chrobox, o bloqueio funciona dentro das caixas de tempo. Em 5.077 tarefas planejadas por 250 pessoas, as tarefas com caixa de tempo foram concluídas em 48,1% das vezes, contra 17,6% das tarefas sem horário. Isso mede o timeboxing como um todo, não o bloqueio sozinho, e são dados observacionais, não um experimento. Fonte: [O Timeboxing Funciona? Dados de Conclusão de 5.077 Tarefas Planejadas](/pt-br/blog/does-timeboxing-work)
+
+As seções a seguir explicam por que esses efeitos acontecem e como configurar o bloqueio para que você continue usando.
+
 ## Por Que o Bloqueio de Apps Realmente Funciona
 
 ### Resíduo de Atenção
@@ -2888,6 +2899,17 @@ A primeira sessão de planejamento semanal parece estranha. Na terceira ou quart
 
 Time blocking e timeboxing costumam ser usados como sinônimos, mas funcionam com princípios fundamentalmente diferentes. Entender a distinção ajuda você a escolher a ferramenta certa para cada situação — e a combiná-las com força quando necessário.
 
+**Resposta curta:** o time blocking reserva *quando* você trabalha em algo; o timeboxing limita *quanto tempo* uma tarefa recebe, e você para quando a caixa termina. Use o time blocking para dar forma ao dia e o timeboxing para as tarefas dentro dele.
+
+| | Time blocking | Timeboxing |
+|---|---|---|
+| O que é fixado | Um intervalo na sua agenda | O limite de tempo de uma tarefa |
+| Quando o tempo acaba | Estende ou move o bloco | Você para e revisa, concluída ou não |
+| Unidade de planejamento | Um tipo de trabalho ("escrita", "reuniões") | Uma tarefa específica ("rascunhar a introdução") |
+| Principal ponto forte | Protege o tempo de outras demandas | Cria urgência e limita o perfeccionismo |
+| Principal risco | O trabalho se expande até preencher o bloco | Estimativas apertadas demais |
+| Ideal para | Dar forma a um dia ou semana inteira | Tarefas que costumam se arrastar |
+
 ## O Que É Time Blocking?
 
 Time blocking significa atribuir tarefas específicas ou categorias de trabalho a intervalos de tempo definidos na sua agenda. É uma ferramenta de agendamento.
@@ -2934,7 +2956,7 @@ Por exemplo, reserve a manhã de segunda-feira com time blocking para "desenvolv
 
 ## Usando o Chrobox para as Duas Abordagens
 
-O Chrobox oferece suporte elegante às duas técnicas. Crie blocos amplos por categoria para o time blocking e, em seguida, adicione caixas de tarefas específicas dentro deles. A linha do tempo visual facilita ver o seu dia estruturado nos dois níveis ao mesmo tempo.
+No Chrobox, cada tarefa que você coloca na linha do tempo recebe um horário de início e uma duração, então cada uma funciona como uma caixa de tempo. Para a camada de time blocking, transforme as partes fixas da sua semana em rotinas — um intervalo diário de deep work, uma revisão na sexta — e dê a mesma cor às tarefas relacionadas, para que o dia seja lido como blocos de um mesmo tipo de trabalho com caixas específicas dentro deles.
 
 ## Conclusão
 

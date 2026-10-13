@@ -1884,6 +1884,17 @@ Je gaat zitten om te werken. Dertig seconden later ben je, zonder dat je dat bew
 
 Deze gids legt uit waarom het blokkeren van apps werkt, wat de verschillen zijn tussen iOS en Android, hoe je het combineert met gefocuste timebox-sessies, en biedt een praktisch stappenplan om vandaag nog aan de slag te gaan.
 
+## De voordelen van afleidende apps blokkeren
+
+Als je afleidende apps blokkeert tijdens geplande werktijd, schakel je minder vaak weg van je taak, heb je minder last van de stress die onderbrekingen veroorzaken en besteed je meer van je werktijd aan wat je gepland had. Het voordeel komt doordat de keuze om te kijken wegvalt, niet doordat je harder je best doet.
+
+- **Minder wisselen, minder aandachtsresidu.** Nadat je een app hebt gecheckt en terugkeert, blijft een deel van je aandacht hangen bij wat je net zag (Leroy, 2009). Blokkeren voorkomt het wisselen, in plaats van van je te vragen ervan te herstellen.
+- **Minder stress door onderbrekingen.** In een laboratoriumonderzoek naar onderbroken e-mailwerk waren mensen niet langzamer klaar met hun taken, maar meldden ze meer stress, frustratie, tijdsdruk en inspanning (Mark, Gudith en Klocke, 2008).
+- **Minder aantrekkingskracht van een telefoon die je niet gebruikt.** In experimenten van Ward en collega's (2017) scoorden mensen met hun telefoon in een andere kamer hoger op een test voor beschikbaar werkgeheugen dan mensen met hun telefoon op het bureau. Latere replicaties vonden kleinere of geen effecten, dus zie dit als een aanwijzing.
+- **Meer geplande taken worden afgerond.** In Chrobox werkt blokkeren binnen timeboxen. Van 5.077 taken die 250 mensen hadden gepland, werden taken met een timebox in 48,1% van de gevallen afgerond, tegen 17,6% van de taken zonder tijdslot. Dat meet time-boxing als geheel, niet het blokkeren op zichzelf, en het zijn observationele data, geen experiment. Bron: [Werkt Timeboxing? Voltooiingsdata van 5.077 Geplande Taken](/nl/blog/does-timeboxing-work)
+
+In de volgende onderdelen lees je waarom deze effecten optreden en hoe je blokkeren zo instelt dat je het blijft gebruiken.
+
 ## Waarom het blokkeren van apps echt werkt
 
 ### Aandachtsresidu
@@ -2893,6 +2904,17 @@ De eerste weekplanningssessie voelt onwennig. Na de derde of vierde week wordt h
 
 Time-blocking en time-boxing worden vaak door elkaar gebruikt, maar ze werken volgens fundamenteel verschillende principes. Als je het verschil begrijpt, kies je voor elke situatie het juiste hulpmiddel — en combineer je ze krachtig wanneer dat nodig is.
 
+**Kort antwoord:** time-blocking reserveert *wanneer* je aan iets werkt; time-boxing begrenst *hoe lang* een taak krijgt, en je stopt als de box afloopt. Gebruik time-blocking om je dag vorm te geven en time-boxing voor de taken erbinnen.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Wat vastligt | Een tijdslot in je agenda | De tijdslimiet van één taak |
+| Als de tijd om is | Het blok verlengen of verplaatsen | Stoppen en terugblikken, af of niet |
+| Planningseenheid | Een soort werk ("schrijven", "vergaderingen") | Een specifieke taak ("inleiding opzetten") |
+| Grootste kracht | Beschermt tijd tegen andere eisen | Creëert urgentie en beperkt perfectionisme |
+| Grootste risico | Werk dijt uit tot het het blok vult | Te krappe inschattingen |
+| Het best voor | Een hele dag of week vormgeven | Taken die de neiging hebben uit te lopen |
+
 ## Wat is time-blocking?
 
 Time-blocking betekent dat je specifieke taken of categorieën werk toewijst aan vaste tijdsloten in je agenda. Het is een planningsinstrument.
@@ -2939,7 +2961,7 @@ Time-block bijvoorbeeld maandagochtend voor "productontwikkeling". Time-box binn
 
 ## Chrobox gebruiken voor beide aanpakken
 
-Chrobox ondersteunt beide technieken op een elegante manier. Maak brede categorieblokken voor time-blocking en voeg daarbinnen specifieke taakboxen toe. Dankzij de visuele tijdlijn zie je je dag gelijktijdig op beide niveaus gestructureerd.
+In Chrobox krijgt elke taak die je op de tijdlijn zet een starttijd en een duur, dus elke taak werkt als een timebox. Voor de time-blocking-laag maak je van de vaste onderdelen van je week routines — een dagelijks deep-work-slot, een review op vrijdag — en geef je verwante taken dezelfde kleur, zodat je dag leest als blokken van één soort werk met specifieke boxen erin.
 
 ## De conclusie
 

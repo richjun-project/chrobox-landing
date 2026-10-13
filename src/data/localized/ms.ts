@@ -2146,6 +2146,17 @@ Anda duduk untuk mula bekerja. Tiga puluh saat kemudian, tanpa sedar, anda sedan
 
 Panduan ini merangkumi sebab mengapa penyekatan aplikasi benar-benar berkesan, perbezaannya antara iOS dan Android, cara menggabungkannya dengan sesi fokus berkotak masa, serta panduan langkah demi langkah yang praktikal untuk bermula hari ini.
 
+## Manfaat Menyekat Aplikasi yang Mengganggu
+
+Menyekat aplikasi yang mengganggu semasa kerja yang dirancang bermakna kurang beralih daripada tugasan, kurang tekanan yang ditambah oleh gangguan, dan lebih banyak masa bekerja digunakan untuk perkara yang anda rancang. Manfaatnya datang daripada menghapuskan keputusan untuk "menyemak", bukan daripada berusaha lebih gigih.
+
+- **Kurang peralihan, kurang sisa perhatian.** Selepas anda menyemak sesebuah aplikasi dan kembali, sebahagian perhatian anda masih tertinggal pada apa yang baru anda lihat (Leroy, 2009). Penyekatan menghentikan peralihan itu, bukannya meminta anda pulih daripadanya.
+- **Kurang tekanan akibat gangguan.** Dalam satu kajian makmal tentang kerja e-mel yang diganggu, peserta menyiapkan tugasan mereka tidak lebih perlahan, tetapi melaporkan lebih banyak tekanan, kekecewaan, tekanan masa dan usaha (Mark, Gudith dan Klocke, 2008).
+- **Kurang tarikan daripada telefon yang tidak anda gunakan.** Dalam eksperimen oleh Ward dan rakan-rakannya (2017), orang yang telefonnya berada di bilik lain mendapat skor lebih tinggi dalam ujian memori kerja yang tersedia berbanding orang yang telefonnya berada di atas meja. Replikasi kemudian mendapati kesan yang lebih kecil atau tiada kesan, jadi anggaplah dapatan ini sebagai petunjuk sahaja.
+- **Lebih banyak kerja yang dirancang dapat disiapkan.** Dalam Chrobox, penyekatan berjalan di dalam kotak masa. Daripada 5,077 tugasan yang dirancang oleh 250 orang, tugasan yang diberi kotak masa disiapkan 48.1% daripada masa, berbanding 17.6% bagi tugasan yang dibiarkan tanpa jadual. Ini mengukur time-boxing secara keseluruhan, bukan penyekatan semata-mata, dan ia merupakan data pemerhatian, bukan eksperimen. Sumber: [Adakah Timeboxing Benar-benar Berkesan? Data Penyelesaian daripada 5,077 Tugasan yang Dirancang](/ms/blog/does-timeboxing-work).
+
+Bahagian di bawah menerangkan mengapa kesan ini berlaku dan cara menyediakan penyekatan supaya anda terus menggunakannya.
+
 ## Mengapa Penyekat Aplikasi Benar-benar Berkesan
 
 ### Sisa Perhatian (Attention Residue)
@@ -2893,6 +2904,17 @@ Sesi perancangan mingguan pertama terasa janggal. Menjelang minggu ketiga atau k
 
 Time-blocking dan time-boxing sering digunakan secara bertukar ganti, tetapi kedua-duanya beroperasi berdasarkan prinsip yang berbeza secara mendasar. Memahami perbezaan ini membantu anda memilih alat yang betul untuk setiap situasi — dan menggabungkan kedua-duanya secara berkuasa apabila diperlukan.
 
+**Jawapan ringkas:** time-blocking memperuntukkan *bila* anda mengerjakan sesuatu; time-boxing menghadkan *berapa lama* satu tugasan diberi masa, dan anda berhenti apabila kotak tamat. Gunakan time-blocking untuk membentuk hari anda, dan time-boxing untuk tugasan di dalamnya.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Apa yang ditetapkan | Satu slot dalam kalendar | Had masa untuk satu tugasan |
+| Apabila masa tamat | Blok dipanjangkan atau dialihkan | Berhenti dan semak, siap atau tidak |
+| Unit perancangan | Jenis kerja ("menulis", "mesyuarat") | Tugasan khusus ("draf pengenalan") |
+| Kekuatan utama | Melindungi masa daripada tuntutan lain | Mewujudkan kesegeraan dan mengekang perfeksionisme |
+| Risiko utama | Kerja berkembang memenuhi blok | Anggaran masa ditetapkan terlalu ketat |
+| Paling sesuai untuk | Membentuk sehari atau seminggu penuh | Tugasan yang cenderung berlarutan |
+
 ## Apakah Time-Blocking?
 
 Time-blocking bermaksud memperuntukkan tugasan tertentu atau kategori kerja kepada slot masa yang ditetapkan dalam kalendar anda. Ia adalah alat penjadualan.
@@ -2939,7 +2961,7 @@ Sebagai contoh, time-block Isnin pagi untuk "pembangunan produk." Dalam blok ter
 
 ## Menggunakan Chrobox untuk Kedua-dua Pendekatan
 
-Chrobox menyokong kedua-dua teknik dengan elegan. Cipta blok kategori luas untuk time-blocking, kemudian tambah kotak tugasan tertentu di dalamnya. Garis masa visual memudahkan anda melihat hari anda tersusun pada kedua-dua tahap secara serentak.
+Dalam Chrobox, setiap tugasan yang anda letakkan pada garis masa mempunyai masa mula dan tempoh, jadi setiap satu berfungsi sebagai kotak masa. Untuk lapisan time-blocking, jadikan bahagian tetap dalam minggu anda sebagai rutin — slot kerja mendalam setiap hari, semakan hari Jumaat — dan beri warna yang sama kepada tugasan yang berkaitan, supaya hari anda kelihatan sebagai blok satu jenis kerja dengan kotak khusus di dalamnya.
 
 ## Intipatinya
 

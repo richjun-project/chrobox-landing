@@ -2146,6 +2146,17 @@ Anda duduk untuk bekerja. Tiga puluh detik kemudian, tanpa disadari, Anda sudah 
 
 Panduan ini membahas mengapa pemblokiran aplikasi sangat efektif, perbedaannya antara iOS dan Android, cara memadukannya dengan sesi fokus berjangka waktu (timeboxed), serta panduan praktis untuk memulainya hari ini.
 
+## Manfaat Memblokir Aplikasi yang Mengganggu
+
+Memblokir aplikasi yang mengganggu selama waktu kerja yang direncanakan berarti lebih sedikit berpindah dari tugas, lebih sedikit stres akibat interupsi, dan lebih banyak waktu kerja yang dipakai untuk hal yang Anda rencanakan. Manfaatnya datang dari menghilangkan keputusan untuk "mengecek", bukan dari berusaha lebih keras.
+
+- **Lebih sedikit perpindahan, lebih sedikit residu perhatian.** Setelah Anda mengecek sebuah aplikasi lalu kembali, sebagian perhatian Anda masih tertinggal pada apa yang baru saja dilihat (Leroy, 2009). Pemblokiran menghentikan perpindahan itu, alih-alih menyuruh Anda pulih darinya.
+- **Lebih sedikit stres akibat interupsi.** Dalam studi laboratorium tentang pekerjaan email yang diinterupsi, orang menyelesaikan tugas mereka tidak lebih lambat, tetapi melaporkan lebih banyak stres, frustrasi, tekanan waktu, dan usaha (Mark, Gudith dan Klocke, 2008).
+- **Lebih sedikit tarikan dari ponsel yang tidak Anda gunakan.** Dalam eksperimen Ward dan rekan-rekannya (2017), orang yang ponselnya berada di ruangan lain mendapat skor lebih tinggi pada tes memori kerja yang tersedia dibandingkan orang yang ponselnya ada di meja. Replikasi berikutnya menemukan efek yang lebih kecil atau tidak ada sama sekali, jadi anggap temuan ini sebagai petunjuk saja.
+- **Lebih banyak pekerjaan terencana yang selesai.** Di Chrobox, pemblokiran berjalan di dalam kotak waktu. Dari 5.077 tugas yang direncanakan oleh 250 orang, tugas yang diberi kotak waktu selesai 48,1% dari waktu, dibandingkan 17,6% untuk tugas yang dibiarkan tanpa jadwal. Angka ini mengukur time-boxing secara keseluruhan, bukan pemblokiran saja, dan merupakan data observasional, bukan eksperimen. Sumber: [Apakah Timeboxing Benar-Benar Efektif? Data Penyelesaian dari 5.077 Tugas yang Direncanakan](/id/blog/does-timeboxing-work).
+
+Bagian-bagian berikut menjelaskan mengapa efek ini terjadi dan cara mengatur pemblokiran agar Anda terus menggunakannya.
+
 ## Mengapa Pemblokiran Aplikasi Benar-Benar Efektif
 
 ### Residu Perhatian
@@ -2893,6 +2904,17 @@ Sesi perencanaan mingguan pertama terasa canggung. Pada minggu ketiga atau keemp
 
 Time-blocking dan time-boxing sering digunakan secara bergantian, tetapi keduanya beroperasi berdasarkan prinsip yang fundamental berbeda. Memahami perbedaannya membantu Anda memilih alat yang tepat untuk setiap situasi—dan menggabungkannya secara ampuh saat dibutuhkan.
 
+**Jawaban singkat:** time-blocking mencadangkan *kapan* Anda mengerjakan sesuatu; time-boxing membatasi *berapa lama* satu tugas diberi waktu, dan Anda berhenti saat kotak waktunya habis. Gunakan time-blocking untuk membentuk hari Anda, dan time-boxing untuk tugas-tugas di dalamnya.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Yang ditetapkan | Satu slot di kalender | Batas waktu untuk satu tugas |
+| Saat waktu habis | Blok diperpanjang atau dipindah | Berhenti dan tinjau, selesai atau tidak |
+| Unit perencanaan | Jenis pekerjaan ("menulis", "rapat") | Tugas spesifik ("menulis draf pendahuluan") |
+| Kekuatan utama | Melindungi waktu dari tuntutan lain | Menciptakan urgensi dan membatasi perfeksionisme |
+| Risiko utama | Pekerjaan melebar hingga memenuhi blok | Estimasi waktu dibuat terlalu ketat |
+| Paling cocok untuk | Menyusun satu hari atau satu minggu | Tugas yang cenderung berlarut-larut |
+
 ## Apa Itu Time-Blocking?
 
 Time-blocking berarti menetapkan tugas atau kategori pekerjaan tertentu ke slot waktu yang telah ditentukan di kalender Anda. Ini adalah alat penjadwalan.
@@ -2939,7 +2961,7 @@ Sebagai contoh, time-block Senin pagi untuk "pengembangan produk." Di dalam blok
 
 ## Menggunakan Chrobox untuk Kedua Pendekatan
 
-Chrobox mendukung kedua teknik ini dengan elegan. Buat blok kategori luas untuk time-blocking, lalu tambahkan kotak tugas tertentu di dalamnya. Timeline visual memudahkan Anda melihat hari Anda terstruktur pada kedua level secara bersamaan.
+Di Chrobox, setiap tugas yang Anda tempatkan di timeline memiliki waktu mulai dan durasi, sehingga masing-masing berfungsi sebagai kotak waktu. Untuk lapisan time-blocking, ubah bagian tetap dari minggu Anda menjadi rutinitas—slot kerja mendalam setiap hari, tinjauan hari Jumat—dan beri warna yang sama pada tugas-tugas yang berkaitan, sehingga hari Anda terbaca sebagai blok-blok satu jenis pekerjaan dengan kotak-kotak spesifik di dalamnya.
 
 ## Kesimpulan
 

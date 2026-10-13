@@ -2146,6 +2146,17 @@ Siadasz do pracy. Trzydzieści sekund później, bezwiednie, przewijasz ekran. T
 
 Ten przewodnik wyjaśnia, dlaczego blokowanie aplikacji działa, czym różni się na systemach iOS i Android, jak połączyć je z sesjami skupienia opartymi na timeboxingu oraz zawiera praktyczną instrukcję krok po kroku, jak zacząć już dziś.
 
+## Korzyści z blokowania rozpraszających aplikacji
+
+Blokowanie rozpraszających aplikacji podczas zaplanowanej pracy oznacza mniej odrywania się od zadania, mniej stresu, który wnoszą przerwania, i więcej czasu pracy poświęconego temu, co zaplanowałeś. Korzyść bierze się z wyeliminowania samej decyzji „sprawdzę”, a nie z tego, że bardziej się starasz.
+
+- **Mniej przełączeń, mniej pozostałości uwagi.** Gdy sprawdzisz aplikację i wrócisz do zadania, część Twojej uwagi zostaje przy tym, co przed chwilą zobaczyłeś (Leroy, 2009). Blokowanie zatrzymuje samo przełączenie, zamiast kazać Ci dochodzić do siebie po nim.
+- **Mniej stresu związanego z przerwaniami.** W laboratoryjnym badaniu pracy z e-mailami, w której przerywano uczestnikom, ludzie kończyli zadania nie wolniej, ale zgłaszali więcej stresu, frustracji, presji czasu i wysiłku (Mark, Gudith i Klocke, 2008).
+- **Mniejsze przyciąganie ze strony telefonu, z którego nie korzystasz.** W eksperymentach Warda i współpracowników (2017) osoby, których telefony leżały w innym pomieszczeniu, uzyskiwały wyższe wyniki w teście dostępnej pamięci roboczej niż osoby, których telefony leżały na biurku. Późniejsze próby replikacji wykazały mniejsze efekty lub ich brak, więc potraktuj to jako wskazówkę, a nie pewnik.
+- **Więcej zaplanowanej pracy zostaje wykonane.** W Chrobox blokowanie działa w obrębie bloków czasu (time boxów). Wśród 5077 zadań zaplanowanych przez 250 osób zadania z przypisanym blokiem czasu były ukończone w 48,1% przypadków, wobec 17,6% dla zadań bez przydzielonego czasu. To mierzy time-boxing jako całość, a nie samo blokowanie, i są to dane obserwacyjne, a nie eksperyment. Źródło: [Czy timeboxing działa? Dane o ukończeniu 5077 zaplanowanych zadań](/pl/blog/does-timeboxing-work).
+
+Poniższe sekcje wyjaśniają, dlaczego te efekty występują i jak skonfigurować blokowanie tak, abyś naprawdę z niego korzystał.
+
 ## Dlaczego blokowanie aplikacji naprawdę działa
 
 ### Pozostałość uwagi
@@ -2887,6 +2898,17 @@ Pierwsza sesja cotygodniowego planowania wydaje się niezręczna. Do trzeciego c
 
 Time-blocking i time-boxing są często używane zamiennie, ale opierają się na zasadniczo różnych zasadach. Zrozumienie tej różnicy pomaga wybrać odpowiednie narzędzie do każdej sytuacji — i skutecznie łączyć obie techniki, gdy zajdzie taka potrzeba.
 
+**Krótka odpowiedź:** time-blocking rezerwuje, *kiedy* pracujesz nad czymś, a time-boxing ogranicza, *jak długo* trwa jedno zadanie, i kończysz, gdy blok czasu się skończy. Użyj time-blockingu, by uformować dzień, a time-boxingu do zadań w jego ramach.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Co jest stałe | Przedział w kalendarzu | Limit czasu na jedno zadanie |
+| Gdy czas się kończy | Wydłużasz lub przesuwasz blok | Przerywasz i podsumowujesz, niezależnie od tego, czy zadanie jest skończone |
+| Jednostka planowania | Rodzaj pracy („pisanie”, „spotkania”) | Konkretne zadanie („szkic wstępu”) |
+| Główna zaleta | Chroni czas przed innymi wymaganiami | Tworzy poczucie pilności i ogranicza perfekcjonizm |
+| Główne ryzyko | Praca rozrasta się, by wypełnić blok | Zbyt ciasno ustawione szacunki |
+| Najlepsze do | Zaplanowania całego dnia lub tygodnia | Zadań, które lubią się przeciągać |
+
 ## Czym jest time-blocking?
 
 Time-blocking oznacza przypisywanie konkretnych zadań lub kategorii pracy do określonych przedziałów czasowych w kalendarzu. To narzędzie planowania.
@@ -2933,7 +2955,7 @@ Na przykład zablokuj poniedziałkowy poranek na „rozwój produktu”. W ramac
 
 ## Wykorzystanie Chrobox do obu podejść
 
-Chrobox elegancko wspiera obie techniki. Twórz szerokie bloki kategorii dla time-blockingu, a następnie dodawaj w ich ramach konkretne bloki zadań. Wizualna oś czasu ułatwia jednoczesne zobaczenie struktury dnia na obu poziomach.
+W Chrobox każde zadanie umieszczone na osi czasu ma godzinę rozpoczęcia i czas trwania, więc każde działa jak time-box. Do warstwy time-blockingu zamień stałe elementy swojego tygodnia w rutyny — codzienne okno głębokiej pracy, piątkowe podsumowanie — i nadaj powiązanym zadaniom ten sam kolor, aby dzień wyglądał jak bloki jednego rodzaju pracy z konkretnymi boxami w środku.
 
 ## Podsumowanie
 

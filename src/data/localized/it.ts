@@ -2001,6 +2001,17 @@ Ti siedi per lavorare. Trenta secondi dopo, senza averlo deciso, stai facendo sc
 
 Questa guida spiega perché il blocco delle app funziona, in cosa differisce tra iOS e Android, come combinarlo con sessioni di concentrazione timeboxed e offre una guida pratica per iniziare oggi stesso.
 
+## I vantaggi di bloccare le app che distraggono
+
+Bloccare le app che distraggono durante il lavoro pianificato significa meno uscite dall'attività, meno dello stress che le interruzioni aggiungono e più del tuo tempo di lavoro dedicato a ciò che avevi pianificato. Il vantaggio nasce dall'eliminare la decisione di controllare, non dall'impegnarti di più.
+
+- **Meno passaggi, meno residuo di attenzione.** Dopo aver controllato un'app e ripreso il lavoro, una parte della tua attenzione resta su ciò che hai appena visto (Leroy, 2009). Il blocco impedisce il passaggio invece di chiederti di riprenderti da esso.
+- **Meno stress da interruzioni.** In uno studio di laboratorio sul lavoro interrotto con le email, le persone hanno completato le attività senza essere più lente, ma hanno riferito più stress, frustrazione, pressione temporale e fatica (Mark, Gudith e Klocke, 2008).
+- **Meno attrazione da un telefono che non stai usando.** Negli esperimenti di Ward e colleghi (2017), le persone con il telefono in un'altra stanza hanno ottenuto punteggi più alti in un test sulla memoria di lavoro disponibile rispetto a quelle con il telefono sulla scrivania. Repliche successive hanno trovato effetti più piccoli o nulli, quindi considera questo punto un indizio.
+- **Si completa più lavoro pianificato.** In Chrobox il blocco funziona dentro i time box. Su 5.077 attività pianificate da 250 persone, quelle con un time box sono state completate nel 48,1% dei casi, contro il 17,6% di quelle senza fascia oraria. Questo misura il time-boxing nel suo insieme, non il blocco da solo, e sono dati osservazionali, non un esperimento. Fonte: [Il timeboxing funziona davvero? Dati di completamento su 5.077 attività pianificate](/it/blog/does-timeboxing-work)
+
+Le sezioni seguenti spiegano perché questi effetti si verificano e come impostare il blocco in modo da continuare a usarlo.
+
 ## Perché il blocco delle app funziona davvero
 
 ### Residuo di attenzione
@@ -2893,6 +2904,17 @@ La prima sessione di pianificazione settimanale sembra scomoda. Alla terza o qua
 
 Time-blocking e time-boxing vengono spesso usati come sinonimi, ma funzionano secondo principi fondamentalmente diversi. Capire la distinzione ti aiuta a scegliere lo strumento giusto per ogni situazione, e a combinarli in modo efficace quando serve.
 
+**In breve:** il time-blocking riserva *quando* lavori a qualcosa; il time-boxing limita *quanto tempo* riceve un'attività, e ti fermi quando il box finisce. Usa il time-blocking per dare forma alla giornata e il time-boxing per le attività al suo interno.
+
+| | Time-blocking | Time-boxing |
+|---|---|---|
+| Cosa si fissa | Una fascia oraria nel tuo calendario | Il limite di tempo di un'attività |
+| Quando il tempo finisce | Prolunghi o sposti il blocco | Ti fermi e fai il punto, a prescindere dal completamento |
+| Unità di pianificazione | Un tipo di lavoro ("scrittura", "riunioni") | Un'attività specifica ("abbozzare l'introduzione") |
+| Punto di forza | Protegge il tempo dalle altre richieste | Crea urgenza e limita il perfezionismo |
+| Rischio principale | Il lavoro si espande fino a riempire il blocco | Stime troppo strette |
+| Ideale per | Dare forma a un'intera giornata o settimana | Attività che tendono a trascinarsi |
+
 ## Cos'è il Time-Blocking?
 
 Il time-blocking consiste nell'assegnare compiti specifici o categorie di lavoro a fasce orarie definite nel tuo calendario. È uno strumento di pianificazione.
@@ -2939,7 +2961,7 @@ Per esempio, riserva con il time-blocking il lunedì mattina allo "sviluppo del 
 
 ## Usare Chrobox per entrambi gli approcci
 
-Chrobox supporta con eleganza entrambe le tecniche. Crea blocchi ampi per categoria per il time-blocking, poi aggiungi box specifici per i compiti al loro interno. La timeline visiva rende facile vedere la tua giornata strutturata contemporaneamente su entrambi i livelli.
+In Chrobox ogni attività che metti sulla timeline riceve un orario di inizio e una durata, quindi ognuna funziona come un time box. Per il livello del time-blocking, trasforma le parti fisse della tua settimana in routine: una fascia quotidiana di deep work, una revisione il venerdì. Dai poi lo stesso colore alle attività collegate, così la giornata si legge come blocchi di un unico tipo di lavoro con box specifici al loro interno.
 
 ## In conclusione
 
