@@ -178,9 +178,11 @@ export function softwareApplicationSchema(description: string) {
       absoluteUrl('/screenshots/en/8.webp'),
       absoluteUrl('/screenshots/en/6.webp'),
     ],
-    // No free offer: without Pro the app stops at the paywall. Monthly and yearly
+    // Free plan (no time limit; since app 1.2.36) plus Pro. Pro adds app blocking,
+    // widgets/Live Activity, AI, and detailed statistics. Monthly and yearly Pro
     // start with a store free trial; prices are the US App Store's.
     offers: [
+      { '@type': 'Offer', name: 'Free', price: 0, priceCurrency: 'USD' },
       { '@type': 'Offer', name: 'Pro Monthly', price: PRO_PRICES_USD.monthly, priceCurrency: 'USD' },
       { '@type': 'Offer', name: 'Pro Yearly', price: PRO_PRICES_USD.yearly, priceCurrency: 'USD' },
       { '@type': 'Offer', name: 'Pro Lifetime', price: PRO_PRICES_USD.lifetime, priceCurrency: 'USD' },

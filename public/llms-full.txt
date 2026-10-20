@@ -10,13 +10,13 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 ## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
-- Pricing: free to download; using the app requires Chrobox Pro (there is no free plan). Monthly and yearly plans start with a 3-day free trial for new subscribers
+- Pricing: free to download, with a free plan (no time limit) and Chrobox Pro. Free: tasks, priorities, time boxes on the day timeline, focus timer and reminders, routines, daily reflection, phone calendar events. Pro adds app blocking, home-screen and lock-screen widgets with the iOS Live Activity, AI features, and detailed statistics. Monthly and yearly Pro plans start with a 3-day free trial for new subscribers
 - Chrobox Pro prices (US App Store): $3.99/month, $29.99/year, or a one-time $39.99 lifetime purchase; Google Play and other countries may differ
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
 - App interface languages: 54; this website: 20 locales
 - Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
-- Facts last reviewed: 2026-09-30
+- Facts last reviewed: 2026-10-20
 
 ## First-party data
 
@@ -39,7 +39,7 @@ Chrobox is a timeboxing planner app for iOS and Android that combines daily plan
 
 ### Is Chrobox free?
 
-Not after the trial. Chrobox is free to download, and the monthly and yearly plans start with a 3-day free trial for new subscribers. After that, Chrobox Pro costs $3.99/month, $29.99/year, or a one-time $39.99 for lifetime access (US App Store prices; Google Play and other countries may differ). If you decide not to continue, cancel in your App Store or Google Play settings before the trial ends.
+Yes — you can plan for free. Chrobox is free to download, and the free plan has no time limit: write tasks, set priorities, place them into time boxes on your day timeline, use the focus timer and reminders, build routines, write a daily reflection, and see your phone calendar events. Chrobox Pro adds app blocking during time boxes, home-screen and lock-screen widgets (including the iOS Live Activity), AI features, and detailed statistics. Pro costs $3.99/month, $29.99/year, or a one-time $39.99 for lifetime access (US App Store prices; Google Play and other countries may differ), and the monthly and yearly plans start with a 3-day free trial for new subscribers. After you sign in, the app offers Pro once; tap “Continue for free” to go straight in. To stop a trial, cancel in your App Store or Google Play settings before it ends.
 
 ### How is timeboxing different from time blocking and Pomodoro?
 
@@ -2808,7 +2808,7 @@ Chrobox is built around the full timeboxing loop rather than a calendar with ext
 
 **Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 54 languages
 **Weaknesses:** mobile-only (no desktop app), no team features
-**Pricing:** 3-day free trial; Pro subscription or one-time lifetime purchase
+**Pricing:** free plan; Pro (3-day free trial) adds app blocking, widgets, and AI — subscription or one-time lifetime purchase
 
 #### 2. Sunsama — best for calendar-heavy professionals (Web, desktop, mobile)
 
@@ -2870,7 +2870,7 @@ Todoist's calendar view and Google Calendar two-way sync let checklist devotees 
 
 | App | Core loop | App blocking | Review/retrospective | Free tier | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | 3-day trial | iOS, Android |
+| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | Free + Pro (3-day trial) | iOS, Android |
 | Sunsama | Daily planning | ❌ | ✅ shutdown ritual | trial only | Web, desktop, mobile |
 | Motion | AI scheduling | ❌ | ❌ | trial only | Web, mobile |
 | TickTick | Task list + timeline | ❌ | ❌ | ✅ | All |

@@ -30,7 +30,7 @@ const en = JSON.parse(readFileSync(join(ROOT, 'src/i18n/en.json'), 'utf8'));
 
 // Bump when the "Facts" block below changes. Not the build date: a date that
 // moves on every deploy says nothing about when the facts were last checked.
-const FACTS_REVIEWED = '2026-09-30';
+const FACTS_REVIEWED = '2026-10-20';
 
 const postBySlug = new Map(enBlogPosts.map((post) => [post.slug, post]));
 const contentUpdated = enBlogPosts
@@ -44,7 +44,7 @@ const faq = faqKeys.map((key) => en.homeFaq.items[key]);
 const facts = `## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
-- Pricing: free to download; using the app requires Chrobox Pro (there is no free plan). Monthly and yearly plans start with a ${PRO_TRIAL_DAYS}-day free trial for new subscribers
+- Pricing: free to download, with a free plan (no time limit) and Chrobox Pro. Free: tasks, priorities, time boxes on the day timeline, focus timer and reminders, routines, daily reflection, phone calendar events. Pro adds app blocking, home-screen and lock-screen widgets with the iOS Live Activity, AI features, and detailed statistics. Monthly and yearly Pro plans start with a ${PRO_TRIAL_DAYS}-day free trial for new subscribers
 - Chrobox Pro prices (US App Store): $${PRO_PRICES_USD.monthly}/month, $${PRO_PRICES_USD.yearly}/year, or a one-time $${PRO_PRICES_USD.lifetime} lifetime purchase; Google Play and other countries may differ
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
 - App interface languages: ${APP_LANGUAGE_COUNT}; this website: ${SEO_LOCALES.length} locales

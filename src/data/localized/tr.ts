@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Chrobox ile karşılaştırıldığında Any.do ücretsiz mi?',
-          answer: 'Hem Any.do hem de Chrobox ücretsiz deneme süreleri sunar. Any.do temel özelliklere sahip ücretsiz bir sürüme sahipken, Chrobox satın almadan önce tüm zaman bloklama özelliklerini deneyimlemeniz için bir deneme süresi sunar.',
+          answer: 'Hem Any.do hem de Chrobox\'ın ücretsiz bir planı var. Any.do\'nun ücretsiz planında temel özellikler bulunurken Chrobox\'ın ücretsiz planı planlama, zaman kutuları, odaklanma zamanlayıcısı, rutinler ve günlük değerlendirmeyi kapsar; uygulama engelleme, widget\'lar ve yapay zeka özellikleri ücretsiz deneme ile başlayan Chrobox Pro gerektirir.',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox vs Structured: Uygulama Engelleme ile Apple Ekosistemi Zaman Çizelgesi',
-      description: 'Structured, Apple cihazlarına derinlemesine bağlı, ücretsiz bir katmanı ve Pro\'da AI otomatik zamanlama özelliği olan gösterişli bir görsel zaman çizelgesi planlayıcısıdır. Chrobox ise her zaman kutusu sırasında otomatik uygulama engelleme ekleyen, yalnızca telefonda çalışan bir timeboxing uygulamasıdır, ancak ücretsiz planı ve Mac, Watch veya web uygulaması yoktur.',
+      description: 'Structured, Apple cihazlarına derinlemesine bağlı, ücretsiz bir katmanı ve Pro\'da AI otomatik zamanlama özelliği olan gösterişli bir görsel zaman çizelgesi planlayıcısıdır. Chrobox ise yalnızca telefonda çalışan, planlama için ücretsiz bir planı ve her zaman kutusu sırasında otomatik uygulama engelleme ekleyen bir Pro planı olan bir timeboxing uygulamasıdır, ancak Mac, Watch veya web uygulaması yoktur.',
       metaDescription: 'Chrobox vs Structured: her zaman kutusunda uygulama engelleme ile AI zamanlamalı, ücretsiz bir Apple ekosistemi zaman çizelgesi planlayıcısı. Gerçek artı ve eksileri görün.',
       featureNames: [
         'Uygulama Engelleme',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox, Structured\'a iyi bir alternatif mi?',
-          answer: 'Structured\'dan istediğiniz şey zaman çizelgesi artı Structured\'ın yapmadığı bir şeyse — her zaman kutusu sırasında dikkat dağıtıcı uygulamaları otomatik olarak engellemek — Chrobox iyi bir alternatiftir. Structured\'ın ücretsiz katmanına veya Mac, Apple Watch ya da web uygulamalarına ihtiyacınız varsa yerini tutmaz, çünkü Chrobox yalnızca telefonda ve yalnızca Pro\'da çalışır.',
+          answer: 'Structured\'dan istediğiniz şey zaman çizelgesi artı Structured\'ın yapmadığı bir şeyse — her zaman kutusu sırasında dikkat dağıtıcı uygulamaları otomatik olarak engellemek — Chrobox iyi bir alternatiftir. Structured\'ın Mac, Apple Watch ya da web uygulamalarına ihtiyacınız varsa yerini tutmaz, çünkü Chrobox yalnızca telefonda çalışır; ücretsiz planı planlamayı kapsar, ancak uygulama engelleme Chrobox Pro gerektirir.',
         },
         {
           question: 'Chrobox ile Structured arasındaki fark nedir?',
-          answer: 'Structured, Apple ekosistemine (Mac, Apple Watch, Vision Pro) derinlemesine entegre edilmiş, Pro katmanında AI zamanlama sunan ücretsiz, çoklu platform bir zaman çizelgesi planlayıcısıdır. Chrobox ise yalnızca telefonda çalışan, yalnızca abonelikle kullanılabilen bir timeboxing uygulamasıdır; planlanmış zaman blokları seçilen uygulamaları da otomatik olarak engelleyebilir ve rutin serileri ile günlük ruh hali retrospektifi ekler.',
+          answer: 'Structured, Apple ekosistemine (Mac, Apple Watch, Vision Pro) derinlemesine entegre edilmiş, Pro katmanında AI zamanlama sunan ücretsiz, çoklu platform bir zaman çizelgesi planlayıcısıdır. Chrobox ise yalnızca telefonda çalışan, planlamayı, rutinleri ve günlük ruh hali retrospektifini kapsayan ücretsiz bir planı olan bir timeboxing uygulamasıdır; Pro planı ise planlanmış zaman blokları sırasında seçilen uygulamaların otomatik engellenmesini, ayrıca widget\'ları ve AI özelliklerini ekler.',
         },
         {
           question: 'Structured, Chrobox gibi dikkat dağıtıcı uygulamaları engelliyor mu?',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox vs Tiimo: Uygulama Engelleme ile Nörodivergent Odaklı Planlama',
-      description: 'Tiimo, özellikle DEHB ve otizm yönetici işlev desteği için tasarlanmış, piktogram tabanlı bir AI planlayıcısıdır ve Apple\'ın 2025 iPhone Yılın Uygulaması seçilmiştir. Chrobox ise her zaman kutusu sırasında otomatik uygulama engelleme ekleyen, telefonlar için genel amaçlı bir timeboxing uygulamasıdır, ancak Tiimo\'nun DEHB\'ye özgü tasarımına veya ücretsiz katmanına sahip değildir.',
+      description: 'Tiimo, özellikle DEHB ve otizm yönetici işlev desteği için tasarlanmış, piktogram tabanlı bir AI planlayıcısıdır ve Apple\'ın 2025 iPhone Yılın Uygulaması seçilmiştir. Chrobox ise her zaman kutusu sırasında otomatik uygulama engelleme ekleyen, telefonlar için genel amaçlı bir timeboxing uygulamasıdır, ancak Tiimo\'nun DEHB\'ye özgü tasarımına sahip değildir. Planlama için ücretsiz bir planı vardır ve uygulama engelleme Pro\'ya dahildir.',
       metaDescription: 'Chrobox vs Tiimo: uygulama engellemeli timeboxing ile AI destekli, DEHB/otizm odaklı bir görsel planlayıcı. Geçmeden önce özellikleri dürüstçe karşılaştırın.',
       featureNames: [
         'Uygulama Engelleme',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox, Tiimo\'ya iyi bir alternatif mi?',
-          answer: 'Tiimo uygulamaları engellemediği için, otomatik uygulama engellemeli genel timeboxing istiyorsanız Chrobox makul bir alternatiftir. Chrobox\'ta bulunmayan Tiimo\'nun DEHB/otizme özgü görsel tasarımının, ücretsiz katmanının veya Mac ve Apple Watch uygulamalarının yerini tutmaz.',
+          answer: 'Tiimo uygulamaları engellemediği için, otomatik uygulama engellemeli genel timeboxing istiyorsanız Chrobox makul bir alternatiftir. Chrobox\'ta bulunmayan Tiimo\'nun DEHB/otizme özgü görsel tasarımının veya Mac ve Apple Watch uygulamalarının yerini tutmaz. Chrobox\'ın ücretsiz planı planlamayı kapsar, ancak uygulama engelleme Pro\'ya dahildir.',
         },
         {
           question: 'Chrobox ile Tiimo arasındaki fark nedir?',
-          answer: 'Tiimo, nörodivergent yönetici işlev desteği için özel olarak tasarlanmış, piktogram tabanlı görsel bir planlayıcıdır; sınırlı bir ücretsiz katmanı ve Mac, Apple Watch, Vision Pro ve web\'de uygulamaları vardır. Chrobox ise yalnızca telefonda, yalnızca abonelikle çalışan bir timeboxing uygulamasıdır ve ana yapısal farkı her planlanmış zaman kutusuna bağlı otomatik uygulama engellemedir.',
+          answer: 'Tiimo, nörodivergent yönetici işlev desteği için özel olarak tasarlanmış, piktogram tabanlı görsel bir planlayıcıdır; sınırlı bir ücretsiz katmanı ve Mac, Apple Watch, Vision Pro ve web\'de uygulamaları vardır. Chrobox ise yalnızca telefonda çalışan, ücretsiz ve Pro planları olan bir timeboxing uygulamasıdır; ana yapısal farkı her planlanmış zaman kutusuna bağlı otomatik uygulama engellemedir (Pro).',
         },
         {
           question: 'Tiimo, Chrobox gibi dikkat dağıtıcı uygulamaları engelliyor mu?',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox vs Opal: Zamanlanmış Engelleme ile Her Zaman Açık Ekran Süresi Kontrolü',
-      description: 'Opal, oturum ortasında kapatamayacağınız sıkı bir Hard Mode\'a ve ücretsiz bir katmana sahip, özel bir ekran süresi ve uygulama engelleme aracıdır. Chrobox ise öncelikle bir timeboxing uygulamasıdır ve seçtiğiniz uygulamaları yalnızca planladığınız zaman kutuları sırasında engeller; Opal\'ın her zaman açık Hard Mode\'una eşdeğer bir şeyi ve ücretsiz planı yoktur.',
+      description: 'Opal, oturum ortasında kapatamayacağınız sıkı bir Hard Mode\'a ve ücretsiz bir katmana sahip, özel bir ekran süresi ve uygulama engelleme aracıdır. Chrobox ise öncelikle bir timeboxing uygulamasıdır ve seçtiğiniz uygulamaları yalnızca planladığınız zaman kutuları sırasında engeller; Opal\'ın her zaman açık Hard Mode\'una eşdeğer bir şeyi yoktur. Chrobox planlama için ücretsizdir, ancak uygulama engelleme Chrobox Pro gerektirir; Opal\'ın ücretsiz planı ise temel engelleme kurallarını içerir.',
       metaDescription: 'Chrobox vs Opal: tam günlük planlayıcılı, zamana dayalı uygulama engelleme ile ücretsiz katmanlı, her zaman açık, özel bir engelleyici.',
       featureNames: [
         'Tam Gün Zaman Çizelgesi / Planlayıcı',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox, Opal\'a iyi bir alternatif mi?',
-          answer: 'Gerçekten istediğiniz şey özel bir engelleyici değil de planlanmış iş sırasında uygulamaları da engelleyen bir planlayıcıysa Chrobox iyi bir alternatiftir. Oturum ortasında devre dışı bırakılamayan ve Chrobox\'ın sunduğu her şeyden daha sıkı olan Opal\'ın Hard Mode\'unun yerini tutmaz ve Opal\'ın aksine Chrobox\'ın ücretsiz bir planı yoktur.',
+          answer: 'Gerçekten istediğiniz şey özel bir engelleyici değil de planlanmış iş sırasında uygulamaları da engelleyen bir planlayıcıysa Chrobox iyi bir alternatiftir. Oturum ortasında devre dışı bırakılamayan ve Chrobox\'ın sunduğu her şeyden daha sıkı olan Opal\'ın Hard Mode\'unun yerini tutmaz; ayrıca Opal\'ın ücretsiz planı uygulama engellemeyi içerirken Chrobox\'ta uygulama engelleme Pro gerektirir (planlamanın kendisi ücretsizdir).',
         },
         {
           question: 'Chrobox ile Opal arasındaki fark nedir?',
-          answer: 'Opal, ücretsiz bir planı ve başladıktan sonra kapatılamayan bir Hard Mode\'u olan özel bir ekran süresi engelleyicisidir. Chrobox ise uygulama engellemenin görevler ve rutinler için planladığınız zaman kutularına bağlı olduğu bir timeboxing planlayıcısıdır ve görev planlama, rutinler ve AI analiziyle birlikte çalışır, ancak yalnızca Pro\'da kullanılabilir.',
+          answer: 'Opal, ücretsiz bir planı ve başladıktan sonra kapatılamayan bir Hard Mode\'u olan özel bir ekran süresi engelleyicisidir. Chrobox ise görevler, rutinler ve değerlendirme için ücretsiz bir planı olan bir timeboxing planlayıcısıdır; Pro planı, görevler ve rutinler için planladığınız zaman kutularına bağlı uygulama engellemeyi ve AI analizini ekler.',
         },
         {
           question: 'Chrobox\'ın Opal gibi bir Hard Mode\'u var mı?',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox vs Forest: Tüm Gün Timeboxing ile Oyunlaştırılmış Odaklanma Seansları',
-      description: 'Forest, telefonunuzdan uzak durduğunuzda sanal bir ağaç büyüten, ücretsiz katmanında uygulama engelleme ve grup odaklanma seansları bulunan ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır. Chrobox, tüm gününüzü rutinler ve değerlendirmeyle birlikte zaman kutularına planlar ve bu kutulara bağlı uygulamaları engeller, ancak oyunlaştırma ve ücretsiz planı yoktur.',
+      description: 'Forest, telefonunuzdan uzak durduğunuzda sanal bir ağaç büyüten, ücretsiz katmanında uygulama engelleme ve grup odaklanma seansları bulunan ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır. Chrobox, tüm gününüzü rutinler ve değerlendirmeyle birlikte zaman kutularına planlar ve Pro planında bu kutulara bağlı uygulamaları engeller. Ücretsiz planı planlamayı kapsar, ancak oyunlaştırması yoktur.',
       metaDescription: 'Chrobox vs Forest: uygulama engellemeli tam gün timeboxing ile grup seansları ve gerçek ağaçlarla ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısı.',
       featureNames: [
         'Ücretsiz Plan',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox, Forest\'a iyi bir alternatif mi?',
-          answer: 'Bağımsız bir seans zamanlayıcısı yerine tam bir günlük görev planlamasının parçası olarak uygulama engelleme istiyorsanız Chrobox iyi bir alternatiftir. Chrobox\'ta bulunmayan Forest\'ın ücretsiz katmanının, oyunlaştırılmış ağaç büyütme motivasyonunun veya grup odaklanma seanslarının yerini tutmaz.',
+          answer: 'Bağımsız bir seans zamanlayıcısı yerine tam bir günlük görev planlamasının parçası olarak uygulama engelleme istiyorsanız Chrobox iyi bir alternatiftir. Chrobox\'ta bulunmayan Forest\'ın oyunlaştırılmış ağaç büyütme motivasyonunun veya grup odaklanma seanslarının yerini tutmaz; ayrıca Forest\'ın ücretsiz katmanı uygulama engellemeyi içerirken Chrobox\'ın engellemesi Pro gerektirir.',
         },
         {
           question: 'Chrobox ile Forest arasındaki fark nedir?',
-          answer: 'Forest, telefondan uzak durmanın sanal bir ağaç büyüttüğü ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır ve ücretsiz katmanında uygulama engelleme ile grup seansları bulunur. Chrobox ise tüm gününüzü zaman kutularına planlayan, uygulama engellemeyi bu kutulara ve rutinlere bağlayan, AI planlama ve günlük bir ruh hali retrospektifi ekleyen, ancak oyunlaştırma veya grup özellikleri olmayan, yalnızca telefonda ve yalnızca Pro\'da çalışan bir planlayıcıdır.',
+          answer: 'Forest, telefondan uzak durmanın sanal bir ağaç büyüttüğü ücretsiz, oyunlaştırılmış bir odaklanma zamanlayıcısıdır ve ücretsiz katmanında uygulama engelleme ile grup seansları bulunur. Chrobox ise yalnızca telefonda çalışan, ücretsiz bir planı olan, tüm gününüzü zaman kutularına planlayan ve rutinler ile günlük bir ruh hali retrospektifi içeren bir planlayıcıdır; Pro planı uygulama engellemeyi bu kutulara ve rutinlere bağlar ve AI planlama ekler. Oyunlaştırma veya grup özellikleri yoktur.',
         },
         {
           question: 'Chrobox\'ın Forest gibi ücretsiz bir planı var mı?',
-          answer: 'Hayır. Chrobox indirmesi ücretsizdir ancak kullanmak için Chrobox Pro gerektirir; yeni aboneler için aylık veya yıllık planlarda 3 günlük ücretsiz denemeyle başlar. Forest, odaklanma zamanlayıcısı ve Deep Focus uygulama engellemesi dahil gerçekten ücretsiz bir temel deneyim sunar.',
+          answer: 'Evet, ancak sınırlarla. Chrobox\'ı indirmek ücretsizdir ve ücretsiz planın süre sınırı yoktur: görevler, gün zaman çizelgesindeki zaman kutuları, odaklanma zamanlayıcısı, hatırlatıcılar, rutinler ve günlük değerlendirme. Uygulama engelleme, widget\'lar, AI özellikleri ve ayrıntılı istatistikler Chrobox Pro gerektirir; Pro, yeni aboneler için aylık veya yıllık planlarda 3 günlük ücretsiz denemeyle başlar. Forest, odaklanma zamanlayıcısı ve Deep Focus uygulama engellemesi dahil gerçekten ücretsiz bir temel deneyim sunar.',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'En iyi ücretsiz zaman bloklama uygulaması hangisidir?',
-          answer: 'Chrobox\'ın ücretsiz bir planı yoktur — indirmesi ücretsizdir ancak 3 günlük ücretsiz deneme ile başlayan Chrobox Pro\'yu gerektirir. Tamamen ücretsiz bir zaman bloklama seçeneği istiyorsanız, Google Takvim\'in manuel zaman bloklaması ücretsizdir, ancak Chrobox\'ın görev yakalama, odaklanma zamanlayıcısı ve uygulama engelleme özelliklerinden yoksundur.',
+          answer: 'Chrobox\'ın süre sınırı olmayan ücretsiz bir planı vardır — görevler, günlük zaman çizelgesinde zaman kutuları, odaklanma zamanlayıcısı, rutinler ve günlük değerlendirme. Uygulama engelleme, widget\'lar ve AI özellikleri, 3 günlük ücretsiz deneme ile başlayan Chrobox Pro gerektirir. Tamamen ücretsiz bir zaman bloklama seçeneği istiyorsanız, Google Takvim\'in manuel zaman bloklaması ücretsizdir, ancak Chrobox\'ın görev yakalama, odaklanma zamanlayıcısı ve uygulama engelleme özelliklerinden yoksundur.',
         },
         {
           question: 'Hangi zaman bloklama uygulaması hem iPhone hem de Android ile uyumludur?',
@@ -2756,7 +2756,7 @@ Chrobox, ekstra özellikli bir takvim yerine tam time-boxing döngüsü etrafın
 
 **Güçlü yönleri:** tam plan→odak→inceleme döngüsü, kutulara bağlı uygulama engelleme, widget'lar ve Live Activity zamanlayıcı, 54 dil
 **Zayıf yönleri:** yalnızca mobil (masaüstü uygulaması yok), takım özellikleri yok
-**Fiyatlandırma:** 3 günlük ücretsiz deneme; Pro abonelik veya tek seferlik ömür boyu satın alma
+**Fiyatlandırma:** ücretsiz plan; Pro (3 günlük ücretsiz deneme) uygulama engelleme, widget'lar ve AI ekler — abonelik veya tek seferlik ömür boyu satın alma
 
 ### 2. Sunsama — takvim yoğun profesyoneller için en iyisi (Web, masaüstü, mobil)
 
@@ -2818,7 +2818,7 @@ Todoist'in takvim görünümü ve Google Takvim ile çift yönlü senkronizasyon
 
 | Uygulama | Ana döngü | Uygulama engelleme | İnceleme/retrospektif | Ücretsiz plan | Platformlar |
 |---|---|---|---|---|---|
-| Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | 3 günlük deneme | iOS, Android |
+| Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | Ücretsiz + Pro (3 günlük deneme) | iOS, Android |
 | Sunsama | Günlük planlama | ❌ | ✅ kapanış ritüeli | yalnızca deneme | Web, masaüstü, mobil |
 | Motion | AI planlama | ❌ | ❌ | yalnızca deneme | Web, mobil |
 | TickTick | Görev listesi + zaman tüneli | ❌ | ❌ | ✅ | Tümü |

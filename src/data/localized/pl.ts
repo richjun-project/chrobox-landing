@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Czy Any.do jest darmowe w porównaniu do Chrobox?',
-          answer: 'Zarówno Any.do, jak i Chrobox oferują bezpłatne okresy próbne. Any.do udostępnia darmową wersję z podstawowymi funkcjami, natomiast Chrobox oferuje okres próbny, który pozwala przetestować pełen zestaw funkcji time-boxingu przed podjęciem decyzji o zakupie.',
+          answer: 'Zarówno Any.do, jak i Chrobox mają darmowy plan. Darmowy plan Any.do zawiera podstawowe funkcje, a darmowy plan Chrobox obejmuje planowanie, bloki czasu, timer skupienia, rutyny i codzienną refleksję; blokowanie aplikacji, widżety i funkcje AI wymagają Chrobox Pro, który zaczyna się od bezpłatnego okresu próbnego.',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox vs Structured: blokowanie aplikacji kontra oś czasu w ekosystemie Apple',
-      description: 'Structured to dopracowany, wizualny planer osi czasu głęboko zintegrowany z urządzeniami Apple, z darmowym planem i automatycznym planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon, która dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma darmowego planu ani aplikacji na Maca, Watcha czy w wersji webowej.',
+      description: 'Structured to dopracowany, wizualny planer osi czasu głęboko zintegrowany z urządzeniami Apple, z darmowym planem i automatycznym planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon z darmowym planem do planowania i planem Pro, który dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma aplikacji na Maca, Watcha ani w wersji webowej.',
       metaDescription: 'Chrobox vs Structured: blokowanie aplikacji przy każdym bloku czasu kontra darmowy planer osi czasu w ekosystemie Apple z planowaniem AI. Zobacz realne kompromisy.',
       featureNames: [
         'Blokowanie aplikacji',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Czy Chrobox to dobra alternatywa dla Structured?',
-          answer: 'Chrobox jest dobrą alternatywą, jeśli to, czego szukasz w Structured, to oś czasu plus coś, czego Structured nie robi: automatyczne blokowanie rozpraszających aplikacji podczas każdego bloku czasu. Nie jest zamiennikiem, jeśli potrzebujesz darmowego planu Structured lub jego aplikacji na Maca, Apple Watch czy w wersji webowej, ponieważ Chrobox działa wyłącznie na telefonie i wymaga wersji Pro.',
+          answer: 'Chrobox jest dobrą alternatywą, jeśli to, czego szukasz w Structured, to oś czasu plus coś, czego Structured nie robi: automatyczne blokowanie rozpraszających aplikacji podczas każdego bloku czasu. Nie jest zamiennikiem, jeśli potrzebujesz aplikacji Structured na Maca, Apple Watch czy w wersji webowej, ponieważ Chrobox działa wyłącznie na telefonie; jego darmowy plan obejmuje planowanie, ale blokowanie aplikacji wymaga Chrobox Pro.',
         },
         {
           question: 'Jaka jest różnica między Chrobox a Structured?',
-          answer: 'Structured to darmowy, wieloplatformowy planer osi czasu głęboko zintegrowany z ekosystemem Apple (Mac, Apple Watch, Vision Pro), z planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon i wyłącznie w subskrypcji, której zaplanowane bloki czasu mogą również automatycznie blokować wybrane aplikacje, a dodatkowo oferuje serie rutyn i codzienną retrospektywę nastroju.',
+          answer: 'Structured to darmowy, wieloplatformowy planer osi czasu głęboko zintegrowany z ekosystemem Apple (Mac, Apple Watch, Vision Pro), z planowaniem AI w wersji Pro. Chrobox to aplikacja do timeboxingu wyłącznie na telefon z darmowym planem obejmującym planowanie, rutyny i codzienną retrospektywę nastroju; plan Pro dodaje automatyczne blokowanie wybranych aplikacji podczas zaplanowanych bloków czasu, a także widżety i funkcje AI.',
         },
         {
           question: 'Czy Structured blokuje rozpraszające aplikacje tak jak Chrobox?',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox vs Tiimo: blokowanie aplikacji kontra planowanie ukierunkowane na neuroróżnorodność',
-      description: 'Tiimo to wizualny planer AI oparty na piktogramach, stworzony specjalnie z myślą o wsparciu funkcji wykonawczych w ADHD i autyzmie, uznany Aplikacją Roku na iPhone\'a 2025 przez Apple. Chrobox to uniwersalna aplikacja do timeboxingu na telefon, która dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma specjalistycznego projektu dla ADHD ani darmowego planu Tiimo.',
+      description: 'Tiimo to wizualny planer AI oparty na piktogramach, stworzony specjalnie z myślą o wsparciu funkcji wykonawczych w ADHD i autyzmie, uznany Aplikacją Roku na iPhone\'a 2025 przez Apple. Chrobox to uniwersalna aplikacja do timeboxingu na telefon, która dodaje automatyczne blokowanie aplikacji podczas każdego bloku czasu, ale nie ma specjalistycznego projektu Tiimo dla ADHD. Ma darmowy plan do planowania, a blokowanie aplikacji jest częścią Pro.',
       metaDescription: 'Chrobox vs Tiimo: timeboxing z blokowaniem aplikacji kontra wizualny planer AI skierowany do osób z ADHD/autyzmem. Porównaj funkcje uczciwie przed zmianą.',
       featureNames: [
         'Blokowanie aplikacji',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Czy Chrobox to dobra alternatywa dla Tiimo?',
-          answer: 'Chrobox to rozsądna alternatywa, jeśli chcesz ogólnego timeboxingu z automatycznym blokowaniem aplikacji, ponieważ Tiimo nie blokuje aplikacji. Nie jest zamiennikiem wizualnego projektu Tiimo skierowanego do osób z ADHD/autyzmem, jego darmowego planu ani aplikacji na Maca i Apple Watch, których Chrobox nie posiada.',
+          answer: 'Chrobox to rozsądna alternatywa, jeśli chcesz ogólnego timeboxingu z automatycznym blokowaniem aplikacji, ponieważ Tiimo nie blokuje aplikacji. Nie jest zamiennikiem wizualnego projektu Tiimo skierowanego do osób z ADHD/autyzmem ani jego aplikacji na Maca i Apple Watch, których Chrobox nie posiada. Darmowy plan Chrobox obejmuje planowanie, ale blokowanie aplikacji jest częścią Pro.',
         },
         {
           question: 'Jaka jest różnica między Chrobox a Tiimo?',
-          answer: 'Tiimo to wizualny planer oparty na piktogramach, zaprojektowany specjalnie z myślą o wsparciu funkcji wykonawczych osób neuroatypowych, z ograniczonym darmowym planem i aplikacjami na Maca, Apple Watch, Vision Pro i w wersji webowej. Chrobox to aplikacja do timeboxingu wyłącznie na telefon i wyłącznie w subskrypcji, której główną różnicą strukturalną jest automatyczne blokowanie aplikacji powiązane z każdym zaplanowanym blokiem czasu.',
+          answer: 'Tiimo to wizualny planer oparty na piktogramach, zaprojektowany specjalnie z myślą o wsparciu funkcji wykonawczych osób neuroatypowych, z ograniczonym darmowym planem i aplikacjami na Maca, Apple Watch, Vision Pro i w wersji webowej. Chrobox to aplikacja do timeboxingu wyłącznie na telefon z darmowym planem i planem Pro; jego główną różnicą strukturalną jest automatyczne blokowanie aplikacji (Pro) powiązane z każdym zaplanowanym blokiem czasu.',
         },
         {
           question: 'Czy Tiimo blokuje rozpraszające aplikacje tak jak Chrobox?',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox vs Opal: blokowanie według harmonogramu kontra stała kontrola czasu przed ekranem',
-      description: 'Opal to dedykowane narzędzie do zarządzania czasem przed ekranem i blokowania aplikacji, z restrykcyjnym Trybem Hard Mode, którego nie można wyłączyć w trakcie sesji, oraz darmowym planem. Chrobox to przede wszystkim aplikacja do timeboxingu, która blokuje wybrane przez Ciebie aplikacje tylko podczas zaplanowanych bloków czasu, bez odpowiednika stałego Trybu Hard Mode Opala i bez darmowego planu.',
+      description: 'Opal to dedykowane narzędzie do zarządzania czasem przed ekranem i blokowania aplikacji, z restrykcyjnym Trybem Hard Mode, którego nie można wyłączyć w trakcie sesji, oraz darmowym planem. Chrobox to przede wszystkim aplikacja do timeboxingu, która blokuje wybrane przez Ciebie aplikacje tylko podczas zaplanowanych bloków czasu, bez odpowiednika stałego Trybu Hard Mode Opala. Chrobox jest darmowy do planowania, ale blokowanie aplikacji wymaga Chrobox Pro, podczas gdy darmowy plan Opala obejmuje podstawowe reguły blokowania.',
       metaDescription: 'Chrobox vs Opal: blokowanie aplikacji oparte na harmonogramie z pełnym planerem dnia kontra dedykowany, stale aktywny bloker z darmowym planem.',
       featureNames: [
         'Pełna oś czasu / planer dnia',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Czy Chrobox to dobra alternatywa dla Opala?',
-          answer: 'Chrobox to dobra alternatywa, jeśli tak naprawdę chcesz planera, który dodatkowo blokuje aplikacje podczas zaplanowanej pracy, a nie dedykowanego blokera. Nie jest zamiennikiem Trybu Hard Mode Opala, którego nie można wyłączyć w trakcie sesji i który jest bardziej restrykcyjny niż cokolwiek oferowane przez Chrobox, a Chrobox nie ma darmowego planu, podczas gdy Opal go ma.',
+          answer: 'Chrobox to dobra alternatywa, jeśli tak naprawdę chcesz planera, który dodatkowo blokuje aplikacje podczas zaplanowanej pracy, a nie dedykowanego blokera. Nie jest zamiennikiem Trybu Hard Mode Opala, którego nie można wyłączyć w trakcie sesji i który jest bardziej restrykcyjny niż cokolwiek oferowane przez Chrobox, a darmowy plan Opala obejmuje blokowanie aplikacji, podczas gdy w Chrobox blokowanie aplikacji wymaga Pro (samo planowanie jest darmowe).',
         },
         {
           question: 'Jaka jest różnica między Chrobox a Opalem?',
-          answer: 'Opal to dedykowany bloker czasu przed ekranem z darmowym planem i Trybem Hard Mode, którego nie można wyłączyć po rozpoczęciu. Chrobox to planer oparty na timeboxingu, w którym blokowanie aplikacji jest powiązane z blokami czasu zaplanowanymi dla zadań i rutyn, i działa równolegle z planowaniem zadań, rutynami oraz analizą AI, ale wymaga wersji Pro.',
+          answer: 'Opal to dedykowany bloker czasu przed ekranem z darmowym planem i Trybem Hard Mode, którego nie można wyłączyć po rozpoczęciu. Chrobox to planer oparty na timeboxingu z darmowym planem na zadania, rutyny i refleksję; plan Pro dodaje blokowanie aplikacji powiązane z blokami czasu zaplanowanymi dla zadań i rutyn oraz analizę AI.',
         },
         {
           question: 'Czy Chrobox ma Tryb Hard Mode tak jak Opal?',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox vs Forest: timeboxing całego dnia kontra grywalizowane sesje skupienia',
-      description: 'Forest to darmowy, grywalizowany timer skupienia, w którym podczas trzymania się z dala od telefonu rośnie wirtualne drzewo, a blokowanie aplikacji i wspólne sesje skupienia są wbudowane w darmowy plan. Chrobox planuje cały Twój dzień w blokach czasu z rutynami i refleksją oraz blokuje aplikacje powiązane z tymi blokami, ale nie ma grywalizacji ani darmowego planu.',
+      description: 'Forest to darmowy, grywalizowany timer skupienia, w którym podczas trzymania się z dala od telefonu rośnie wirtualne drzewo, a blokowanie aplikacji i wspólne sesje skupienia są wbudowane w darmowy plan. Chrobox planuje cały Twój dzień w blokach czasu z rutynami i refleksją, a w planie Pro blokuje aplikacje powiązane z tymi blokami. Jego darmowy plan obejmuje planowanie, ale nie ma grywalizacji.',
       metaDescription: 'Chrobox vs Forest: timeboxing całego dnia z blokowaniem aplikacji kontra darmowy, grywalizowany timer skupienia ze wspólnymi sesjami i prawdziwymi drzewami.',
       featureNames: [
         'Darmowy plan',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Czy Chrobox to dobra alternatywa dla Forest?',
-          answer: 'Chrobox to dobra alternatywa, jeśli chcesz blokowania aplikacji jako elementu planowania całego dnia zadań, a nie jako samodzielnego timera sesji. Nie jest zamiennikiem darmowego planu Forest, grywalizowanej motywacji w postaci rosnącego drzewa ani wspólnych sesji skupienia, których Chrobox nie posiada.',
+          answer: 'Chrobox to dobra alternatywa, jeśli chcesz blokowania aplikacji jako elementu planowania całego dnia zadań, a nie jako samodzielnego timera sesji. Nie jest zamiennikiem grywalizowanej motywacji Forest w postaci rosnącego drzewa ani wspólnych sesji skupienia, których Chrobox nie posiada, a darmowy plan Forest zawiera blokowanie aplikacji, podczas gdy w Chrobox blokowanie wymaga Pro.',
         },
         {
           question: 'Jaka jest różnica między Chrobox a Forest?',
-          answer: 'Forest to darmowy, grywalizowany timer skupienia, w którym trzymanie się z dala od telefonu powoduje wzrost wirtualnego drzewa, a blokowanie aplikacji i sesje grupowe są zawarte w darmowym planie. Chrobox to planer wyłącznie na telefon i wyłącznie w wersji Pro, który planuje cały Twój dzień w blokach czasu, wiąże blokowanie aplikacji z tymi blokami i rutynami oraz dodaje planowanie AI i codzienną retrospektywę nastroju, ale nie ma grywalizacji ani funkcji grupowych.',
+          answer: 'Forest to darmowy, grywalizowany timer skupienia, w którym trzymanie się z dala od telefonu powoduje wzrost wirtualnego drzewa, a blokowanie aplikacji i sesje grupowe są zawarte w darmowym planie. Chrobox to planer wyłącznie na telefon z darmowym planem, który planuje cały Twój dzień w blokach czasu i zawiera rutyny oraz codzienną retrospektywę nastroju; plan Pro wiąże blokowanie aplikacji z tymi blokami i rutynami oraz dodaje planowanie AI. Nie ma grywalizacji ani funkcji grupowych.',
         },
         {
           question: 'Czy Chrobox ma darmowy plan tak jak Forest?',
-          answer: 'Nie. Chrobox jest darmowy do pobrania, ale do korzystania wymaga Chrobox Pro, zaczynając od 3-dniowego darmowego okresu próbnego dla nowych subskrybentów w planie miesięcznym lub rocznym. Forest oferuje naprawdę darmową podstawową wersję, obejmującą timer skupienia i blokowanie aplikacji Deep Focus.',
+          answer: 'Tak, z ograniczeniami. Chrobox jest darmowy do pobrania, a jego darmowy plan nie ma limitu czasowego: zadania, bloki czasu na osi czasu dnia, timer skupienia, przypomnienia, rutyny i codzienna refleksja. Blokowanie aplikacji, widżety, funkcje AI i szczegółowe statystyki wymagają Chrobox Pro, który zaczyna się od 3-dniowego darmowego okresu próbnego dla nowych subskrybentów w planie miesięcznym lub rocznym. Forest oferuje naprawdę darmową podstawową wersję, obejmującą timer skupienia i blokowanie aplikacji Deep Focus.',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Jaka jest najlepsza darmowa aplikacja do timeboxingu?',
-          answer: 'Chrobox nie ma darmowego planu — pobranie aplikacji jest bezpłatne, ale wymaga Chrobox Pro, które zaczyna się od 3-dniowego bezpłatnego okresu próbnego. Jeśli szukasz zupełnie darmowej opcji do time-boxingu, ręczne blokowanie czasu w Kalendarzu Google nic nie kosztuje, choć brakuje mu przechwytywania zadań, minutnika skupienia i blokowania aplikacji, które ma Chrobox.',
+          answer: 'Chrobox ma darmowy plan bez limitu czasowego: zadania, bloki czasu na osi czasu dnia, minutnik skupienia, rutyny i codzienną refleksję. Blokowanie aplikacji, widżety i funkcje AI wymagają Chrobox Pro, który zaczyna się od 3-dniowego bezpłatnego okresu próbnego. Jeśli szukasz zupełnie darmowej opcji do time-boxingu, ręczne blokowanie czasu w Kalendarzu Google nic nie kosztuje, choć brakuje mu przechwytywania zadań, minutnika skupienia i blokowania aplikacji, które ma Chrobox.',
         },
         {
           question: 'Która aplikacja do timeboxingu działa na iPhone i Androidzie?',
@@ -2756,7 +2756,7 @@ Chrobox jest zbudowany wokół całej pętli time-boxingu, a nie kalendarza z do
 
 **Mocne strony:** kompletna pętla plan→skupienie→przegląd, blokowanie aplikacji powiązane z blokami, widżety i minutnik Live Activity, 54 języki
 **Słabe strony:** tylko mobilnie (brak aplikacji desktopowej), brak funkcji zespołowych
-**Cena:** 3-dniowy bezpłatny okres próbny; subskrypcja Pro lub jednorazowy zakup dożywotni
+**Cena:** darmowy plan; Pro (3-dniowy bezpłatny okres próbny) dodaje blokowanie aplikacji, widżety i AI — subskrypcja lub jednorazowy zakup dożywotni
 
 ### 2. Sunsama — najlepsza dla profesjonalistów żyjących w kalendarzu (Web, desktop, mobile)
 
@@ -2818,7 +2818,7 @@ Widok kalendarza w Todoist i dwukierunkowa synchronizacja z Google Kalendarzem p
 
 | Aplikacja | Główna pętla | Blokowanie aplikacji | Przegląd/retrospektywa | Plan darmowy | Platformy |
 |---|---|---|---|---|---|
-| Chrobox | Pełny time-boxing | ✅ | ✅ retrospektywa AI | 3-dniowy trial | iOS, Android |
+| Chrobox | Pełny time-boxing | ✅ | ✅ retrospektywa AI | Za darmo + Pro (3-dniowy trial) | iOS, Android |
 | Sunsama | Codzienne planowanie | ❌ | ✅ rytuał zamknięcia dnia | tylko trial | Web, desktop, mobile |
 | Motion | Planowanie AI | ❌ | ❌ | tylko trial | Web, mobile |
 | TickTick | Lista zadań + oś czasu | ❌ | ❌ | ✅ | Wszystkie |

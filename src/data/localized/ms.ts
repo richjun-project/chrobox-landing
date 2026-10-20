@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Adakah Any.do percuma berbanding Chrobox?',
-          answer: 'Kedua-dua Any.do dan Chrobox menawarkan percubaan percuma. Any.do mempunyai pelan percuma dengan ciri asas, manakala Chrobox menawarkan tempoh percubaan untuk merasai set ciri penjadualan blok masa yang lengkap sebelum membuat komitmen.',
+          answer: 'Kedua-dua Any.do dan Chrobox mempunyai pelan percuma. Pelan percuma Any.do mempunyai ciri asas, manakala pelan percuma Chrobox merangkumi perancangan, time box, pemasa fokus, rutin, dan refleksi harian; penyekatan aplikasi, widget, dan ciri AI memerlukan Chrobox Pro, yang bermula dengan percubaan percuma.',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox lwn Structured: Penyekatan Aplikasi lwn Garis Masa Ekosistem Apple',
-      description: 'Structured ialah perancang garis masa visual yang kemas dan terikat rapat dengan peranti Apple, dengan pelan percuma dan penjadualan automatik AI pada Pro. Chrobox ialah aplikasi timeboxing khusus telefon yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada pelan percuma dan tiada aplikasi Mac, Watch atau web.',
+      description: 'Structured ialah perancang garis masa visual yang kemas dan terikat rapat dengan peranti Apple, dengan pelan percuma dan penjadualan automatik AI pada Pro. Chrobox ialah aplikasi timeboxing khusus telefon dengan pelan percuma untuk perancangan dan pelan Pro yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada aplikasi Mac, Watch atau web.',
       metaDescription: 'Chrobox lwn Structured: penyekatan aplikasi pada setiap kotak masa lwn perancang garis masa ekosistem Apple yang percuma dengan penjadualan AI. Lihat perbandingan sebenar.',
       featureNames: [
         'Penyekatan Aplikasi',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Adakah Chrobox alternatif yang baik untuk Structured?',
-          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda mahukan daripada Structured ialah garis masa ditambah sesuatu yang tidak dilakukan oleh Structured: menyekat aplikasi yang mengganggu secara automatik semasa setiap kotak masa. Ia bukan pengganti jika anda memerlukan pelan percuma Structured atau aplikasi Mac, Apple Watch atau webnya, kerana Chrobox hanya untuk telefon dan hanya Pro.',
+          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda mahukan daripada Structured ialah garis masa ditambah sesuatu yang tidak dilakukan oleh Structured: menyekat aplikasi yang mengganggu secara automatik semasa setiap kotak masa. Ia bukan pengganti jika anda memerlukan aplikasi Mac, Apple Watch atau web Structured, kerana Chrobox hanya untuk telefon; pelan percumanya merangkumi perancangan, tetapi penyekatan aplikasi memerlukan Chrobox Pro.',
         },
         {
           question: 'Apakah perbezaan antara Chrobox dan Structured?',
-          answer: 'Structured ialah perancang garis masa pelbagai platform yang percuma dan terbina rapat dalam ekosistem Apple (Mac, Apple Watch, Vision Pro) dengan penjadualan AI pada peringkat Pro. Chrobox ialah aplikasi timeboxing khusus telefon dan hanya langganan, di mana blok masa yang dirancang juga boleh menyekat aplikasi pilihan secara automatik, serta menambah rentetan rutin dan retrospektif mood harian.',
+          answer: 'Structured ialah perancang garis masa pelbagai platform yang percuma dan terbina rapat dalam ekosistem Apple (Mac, Apple Watch, Vision Pro) dengan penjadualan AI pada peringkat Pro. Chrobox ialah aplikasi timeboxing khusus telefon dengan pelan percuma yang merangkumi perancangan, rutin dan retrospektif mood harian; pelan Pro menambah penyekatan automatik aplikasi pilihan semasa blok masa yang dirancang, serta widget dan ciri AI.',
         },
         {
           question: 'Adakah Structured menyekat aplikasi yang mengganggu seperti Chrobox?',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox lwn Tiimo: Penyekatan Aplikasi lwn Perancangan Berfokus Neurodivergen',
-      description: 'Tiimo ialah perancang AI visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif ADHD dan autisme, dan dinamakan Apple\'s 2025 iPhone App of the Year. Chrobox ialah aplikasi timeboxing serba guna untuk telefon yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada reka bentuk khusus ADHD atau pelan percuma seperti Tiimo.',
+      description: 'Tiimo ialah perancang AI visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif ADHD dan autisme, dan dinamakan Apple\'s 2025 iPhone App of the Year. Chrobox ialah aplikasi timeboxing serba guna untuk telefon yang menambah penyekatan aplikasi automatik semasa setiap kotak masa, tetapi tiada reka bentuk khusus ADHD seperti Tiimo. Ia mempunyai pelan percuma untuk perancangan, dan penyekatan aplikasi adalah sebahagian daripada Pro.',
       metaDescription: 'Chrobox lwn Tiimo: timeboxing dengan penyekatan aplikasi lwn perancang visual berfokus ADHD/autisme dengan AI. Bandingkan ciri secara jujur sebelum bertukar.',
       featureNames: [
         'Penyekatan Aplikasi',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Adakah Chrobox alternatif yang baik untuk Tiimo?',
-          answer: 'Chrobox ialah alternatif yang munasabah jika anda mahukan timeboxing umum dengan penyekatan aplikasi automatik, kerana Tiimo tidak menyekat aplikasi. Ia bukan pengganti untuk reka bentuk visual khusus ADHD/autisme, peringkat percuma, atau aplikasi Mac dan Apple Watch milik Tiimo, yang tiada pada Chrobox.',
+          answer: 'Chrobox ialah alternatif yang munasabah jika anda mahukan timeboxing umum dengan penyekatan aplikasi automatik, kerana Tiimo tidak menyekat aplikasi. Ia bukan pengganti untuk reka bentuk visual khusus ADHD/autisme atau aplikasi Mac dan Apple Watch milik Tiimo, yang tiada pada Chrobox. Pelan percuma Chrobox merangkumi perancangan, tetapi penyekatan aplikasinya adalah sebahagian daripada Pro.',
         },
         {
           question: 'Apakah perbezaan antara Chrobox dan Tiimo?',
-          answer: 'Tiimo ialah perancang visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif neurodivergen, dengan peringkat percuma terhad dan aplikasi merentasi Mac, Apple Watch, Vision Pro dan web. Chrobox ialah aplikasi timeboxing khusus telefon dan hanya langganan, dengan perbezaan struktur utama ialah penyekatan aplikasi automatik yang dikaitkan dengan setiap kotak masa yang dirancang.',
+          answer: 'Tiimo ialah perancang visual berasaskan piktogram yang dibina khusus untuk sokongan fungsi eksekutif neurodivergen, dengan peringkat percuma terhad dan aplikasi merentasi Mac, Apple Watch, Vision Pro dan web. Chrobox ialah aplikasi timeboxing khusus telefon dengan pelan percuma dan pelan Pro; perbezaan struktur utamanya ialah penyekatan aplikasi automatik (Pro) yang dikaitkan dengan setiap kotak masa yang dirancang.',
         },
         {
           question: 'Adakah Tiimo menyekat aplikasi yang mengganggu seperti Chrobox?',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox lwn Opal: Penyekatan Berjadual lwn Kawalan Screen Time Sentiasa Aktif',
-      description: 'Opal ialah alat screen time dan penyekatan aplikasi khusus dengan Hard Mode yang ketat dan tidak boleh dimatikan pada pertengahan sesi, ditambah pelan percuma. Chrobox ialah aplikasi timeboxing terlebih dahulu, dan hanya menyekat aplikasi pilihan anda semasa kotak masa yang anda jadualkan, tanpa padanan untuk Hard Mode Opal yang sentiasa aktif dan tiada pelan percuma.',
+      description: 'Opal ialah alat screen time dan penyekatan aplikasi khusus dengan Hard Mode yang ketat dan tidak boleh dimatikan pada pertengahan sesi, ditambah pelan percuma. Chrobox ialah aplikasi timeboxing terlebih dahulu, dan hanya menyekat aplikasi pilihan anda semasa kotak masa yang anda jadualkan, tanpa padanan untuk Hard Mode Opal yang sentiasa aktif. Chrobox percuma untuk perancangan, tetapi penyekatan aplikasinya memerlukan Chrobox Pro, manakala pelan percuma Opal merangkumi peraturan penyekatan asas.',
       metaDescription: 'Chrobox lwn Opal: penyekatan aplikasi berasaskan jadual dengan perancang sehari penuh lwn penyekat khusus yang sentiasa aktif dengan pelan percuma.',
       featureNames: [
         'Garis Masa / Perancang Sehari Penuh',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Adakah Chrobox alternatif yang baik untuk Opal?',
-          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda benar-benar mahukan ialah perancang yang turut menyekat aplikasi semasa kerja berjadual, berbanding penyekat khusus. Ia bukan pengganti untuk Hard Mode Opal, yang tidak boleh dilumpuhkan pada pertengahan sesi dan lebih ketat daripada apa jua yang ditawarkan Chrobox, dan Chrobox tiada pelan percuma manakala Opal ada.',
+          answer: 'Chrobox ialah alternatif yang baik jika apa yang anda benar-benar mahukan ialah perancang yang turut menyekat aplikasi semasa kerja berjadual, berbanding penyekat khusus. Ia bukan pengganti untuk Hard Mode Opal, yang tidak boleh dilumpuhkan pada pertengahan sesi dan lebih ketat daripada apa jua yang ditawarkan Chrobox, dan pelan percuma Opal merangkumi penyekatan aplikasi manakala penyekatan aplikasi pada Chrobox memerlukan Pro (perancangan itu sendiri percuma).',
         },
         {
           question: 'Apakah perbezaan antara Chrobox dan Opal?',
-          answer: 'Opal ialah penyekat screen time khusus dengan pelan percuma dan Hard Mode yang tidak boleh dimatikan sebaik sahaja bermula. Chrobox ialah perancang timeboxing di mana penyekatan aplikasi dikaitkan dengan kotak masa yang anda jadualkan untuk tugasan dan rutin, dan berjalan bersama perancangan tugasan, rutin dan analisis AI, tetapi hanya untuk Pro.',
+          answer: 'Opal ialah penyekat screen time khusus dengan pelan percuma dan Hard Mode yang tidak boleh dimatikan sebaik sahaja bermula. Chrobox ialah perancang timeboxing dengan pelan percuma untuk tugasan, rutin dan refleksi; pelan Pro menambah penyekatan aplikasi yang dikaitkan dengan kotak masa yang anda jadualkan untuk tugasan dan rutin, bersama analisis AI.',
         },
         {
           question: 'Adakah Chrobox mempunyai Hard Mode seperti Opal?',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox lwn Forest: Timeboxing Sepanjang Hari lwn Sesi Fokus Bergamifikasi',
-      description: 'Forest ialah pemasa fokus percuma dan bergamifikasi yang menumbuhkan pokok maya semasa anda menjauhi telefon, dengan penyekatan aplikasi dan sesi fokus berkumpulan terbina dalam peringkat percumanya. Chrobox merancang keseluruhan hari anda ke dalam kotak masa dengan rutin dan refleksi, serta menyekat aplikasi yang dikaitkan dengan kotak masa tersebut, tetapi tiada gamifikasi dan tiada pelan percuma.',
+      description: 'Forest ialah pemasa fokus percuma dan bergamifikasi yang menumbuhkan pokok maya semasa anda menjauhi telefon, dengan penyekatan aplikasi dan sesi fokus berkumpulan terbina dalam peringkat percumanya. Chrobox merancang keseluruhan hari anda ke dalam kotak masa dengan rutin dan refleksi, dan pada pelan Pro menyekat aplikasi yang dikaitkan dengan kotak masa tersebut. Pelan percumanya merangkumi perancangan, tetapi tiada gamifikasi.',
       metaDescription: 'Chrobox lwn Forest: timeboxing sehari penuh dengan penyekatan aplikasi lwn pemasa fokus percuma bergamifikasi dengan sesi berkumpulan dan pokok sebenar.',
       featureNames: [
         'Pelan Percuma',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Adakah Chrobox alternatif yang baik untuk Forest?',
-          answer: 'Chrobox ialah alternatif yang baik jika anda mahukan penyekatan aplikasi sebagai sebahagian daripada perancangan sehari penuh tugasan berbanding sebagai pemasa sesi berasingan. Ia bukan pengganti untuk peringkat percuma Forest, motivasi bergamifikasi menumbuhkan pokok, atau sesi fokus berkumpulan, yang semuanya tiada pada Chrobox.',
+          answer: 'Chrobox ialah alternatif yang baik jika anda mahukan penyekatan aplikasi sebagai sebahagian daripada perancangan sehari penuh tugasan berbanding sebagai pemasa sesi berasingan. Ia bukan pengganti untuk motivasi bergamifikasi menumbuhkan pokok atau sesi fokus berkumpulan Forest, yang kedua-duanya tiada pada Chrobox, dan peringkat percuma Forest merangkumi penyekatan aplikasi manakala penyekatan Chrobox memerlukan Pro.',
         },
         {
           question: 'Apakah perbezaan antara Chrobox dan Forest?',
-          answer: 'Forest ialah pemasa fokus percuma dan bergamifikasi di mana menjauhi telefon menumbuhkan pokok maya, dan merangkumi penyekatan aplikasi serta sesi berkumpulan dalam peringkat percumanya. Chrobox ialah perancang khusus telefon dan hanya untuk Pro yang menjadualkan keseluruhan hari anda ke dalam kotak masa, mengaitkan penyekatan aplikasi dengan kotak masa dan rutin tersebut, serta menambah perancangan AI dan retrospektif mood harian, tetapi tiada gamifikasi atau ciri berkumpulan.',
+          answer: 'Forest ialah pemasa fokus percuma dan bergamifikasi di mana menjauhi telefon menumbuhkan pokok maya, dan merangkumi penyekatan aplikasi serta sesi berkumpulan dalam peringkat percumanya. Chrobox ialah perancang khusus telefon dengan pelan percuma yang menjadualkan keseluruhan hari anda ke dalam kotak masa serta merangkumi rutin dan retrospektif mood harian; pelan Pro mengaitkan penyekatan aplikasi dengan kotak masa dan rutin tersebut serta menambah perancangan AI. Ia tiada gamifikasi atau ciri berkumpulan.',
         },
         {
           question: 'Adakah Chrobox mempunyai pelan percuma seperti Forest?',
-          answer: 'Tidak. Chrobox percuma untuk dimuat turun tetapi memerlukan Chrobox Pro untuk digunakan, bermula dengan percubaan percuma 3 hari untuk pelanggan baharu pada pelan bulanan atau tahunan. Forest menawarkan pengalaman teras yang benar-benar percuma termasuk pemasa fokus dan penyekatan aplikasi Deep Focus.',
+          answer: 'Ya, dengan had. Chrobox percuma untuk dimuat turun dan pelan percumanya tiada had masa: tugasan, kotak masa pada garis masa harian, pemasa fokus, peringatan, rutin dan refleksi harian. Penyekatan aplikasi, widget, ciri AI dan statistik terperinci memerlukan Chrobox Pro, yang bermula dengan percubaan percuma 3 hari untuk pelanggan baharu pada pelan bulanan atau tahunan. Forest menawarkan pengalaman teras yang benar-benar percuma termasuk pemasa fokus dan penyekatan aplikasi Deep Focus.',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Apakah aplikasi time-boxing percuma yang terbaik?',
-          answer: 'Chrobox tiada pelan percuma — ia percuma untuk dimuat turun tetapi memerlukan Chrobox Pro, yang bermula dengan percubaan percuma 3 hari. Jika anda mahukan pilihan timeboxing yang sepenuhnya percuma, pemblokan masa manual dalam Google Calendar tidak dikenakan sebarang kos, walaupun ia tiada penangkapan tugasan, pemasa fokus, dan penyekatan aplikasi seperti Chrobox.',
+          answer: 'Chrobox mempunyai pelan percuma tanpa had masa — tugasan, kotak masa pada garis masa harian, pemasa fokus, rutin dan refleksi harian. Penyekatan aplikasi, widget dan ciri AI memerlukan Chrobox Pro, yang bermula dengan percubaan percuma 3 hari. Jika anda mahukan pilihan timeboxing yang sepenuhnya percuma, pemblokan masa manual dalam Google Calendar tidak dikenakan sebarang kos, walaupun ia tiada penangkapan tugasan, pemasa fokus, dan penyekatan aplikasi seperti Chrobox.',
         },
         {
           question: 'Aplikasi time-boxing manakah yang boleh digunakan pada iPhone dan Android?',
@@ -2760,7 +2760,7 @@ Chrobox dibina berdasarkan keseluruhan gelung timeboxing dan bukannya sekadar ka
 
 **Kekuatan:** gelung lengkap rancang→fokus→semak, penyekatan aplikasi terikat kepada kotak, widget dan pemasa Live Activity, 54 bahasa
 **Kelemahan:** hanya untuk mudah alih (tiada aplikasi desktop), tiada ciri pasukan
-**Harga:** percubaan percuma 3 hari; langganan Pro atau pembelian seumur hidup sekali sahaja
+**Harga:** pelan percuma; Pro (percubaan percuma 3 hari) menambah penyekatan aplikasi, widget dan AI — langganan atau pembelian seumur hidup sekali sahaja
 
 ### 2. Sunsama — terbaik untuk profesional yang bergantung berat pada kalendar (Web, desktop, mudah alih)
 
@@ -2822,7 +2822,7 @@ Paparan kalendar Todoist dan penyegerakan dua hala dengan Google Calendar membol
 
 | Aplikasi | Gelung teras | Penyekatan aplikasi | Semakan/retrospektif | Peringkat percuma | Platform |
 |---|---|---|---|---|---|
-| Chrobox | Timeboxing penuh | ✅ | ✅ retrospektif AI | Percubaan 3 hari | iOS, Android |
+| Chrobox | Timeboxing penuh | ✅ | ✅ retrospektif AI | Percuma + Pro (percubaan 3 hari) | iOS, Android |
 | Sunsama | Perancangan harian | ❌ | ✅ ritual penutupan | percubaan sahaja | Web, desktop, mudah alih |
 | Motion | Penjadualan AI | ❌ | ❌ | percubaan sahaja | Web, mudah alih |
 | TickTick | Senarai tugasan + garis masa | ❌ | ❌ | ✅ | Semua |

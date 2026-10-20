@@ -12,13 +12,13 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 ## Facts
 
 - Platforms: iPhone (iOS) and Android phones — native apps
-- Pricing: free to download; using the app requires Chrobox Pro (there is no free plan). Monthly and yearly plans start with a 3-day free trial for new subscribers
+- Pricing: free to download, with a free plan (no time limit) and Chrobox Pro. Free: tasks, priorities, time boxes on the day timeline, focus timer and reminders, routines, daily reflection, phone calendar events. Pro adds app blocking, home-screen and lock-screen widgets with the iOS Live Activity, AI features, and detailed statistics. Monthly and yearly Pro plans start with a 3-day free trial for new subscribers
 - Chrobox Pro prices (US App Store): $3.99/month, $29.99/year, or a one-time $39.99 lifetime purchase; Google Play and other countries may differ
 - App blocking: iOS Screen Time (Family Controls) and Android, tied to the planned focus blocks
 - App interface languages: 54; this website: 20 locales
 - Operator: silverithm (Seoul, South Korea) — contact ggprgrkjh@naver.com
 - Official accounts: [Threads @chrobox](https://www.threads.com/@chrobox), [App Store](https://apps.apple.com/app/id6755880209), [Google Play](https://play.google.com/store/apps/details?id=com.richjunproject.chrobox)
-- Facts last reviewed: 2026-09-30
+- Facts last reviewed: 2026-10-20
 
 ## First-party data
 
@@ -124,11 +124,11 @@ Chrobox publishes aggregate completion data from its own app. Source page:
 
 ## Comparisons (15)
 
-- [Chrobox vs Structured](https://chrobox.net/compare/chrobox-vs-structured): Structured is a polished visual timeline planner deeply tied to Apple devices, with a free tier and AI auto-scheduling on Pro. Chrobox is a phone-only timeboxing app that adds automatic app blocking during each time box, but has no free plan and no Mac, Watch, or web app.
-- [Chrobox vs Tiimo](https://chrobox.net/compare/chrobox-vs-tiimo): Tiimo is a visual, pictogram-based AI planner built specifically for ADHD and autism executive-function support, and was named Apple's 2025 iPhone App of the Year. Chrobox is a general-purpose timeboxing app for phones that adds automatic app blocking during each time box, but does not have Tiimo's ADHD-specific design or free tier.
+- [Chrobox vs Structured](https://chrobox.net/compare/chrobox-vs-structured): Structured is a polished visual timeline planner deeply tied to Apple devices, with a free tier and AI auto-scheduling on Pro. Chrobox is a phone-only timeboxing app with a free plan for planning and a Pro plan that adds automatic app blocking during each time box, but has no Mac, Watch, or web app.
+- [Chrobox vs Tiimo](https://chrobox.net/compare/chrobox-vs-tiimo): Tiimo is a visual, pictogram-based AI planner built specifically for ADHD and autism executive-function support, and was named Apple's 2025 iPhone App of the Year. Chrobox is a general-purpose timeboxing app for phones that adds automatic app blocking during each time box, but does not have Tiimo's ADHD-specific design. It has a free plan for planning, and app blocking is part of Pro.
 - [Chrobox vs Sunsama](https://chrobox.net/compare/chrobox-vs-sunsama): Sunsama is a web-first daily planner for professionals that pulls tasks in from tools like Asana, Notion, Slack, and Gmail, with genuine two-way calendar sync and a structured daily shutdown ritual. Chrobox is a phone-only timeboxing app with no task-tool integrations or calendar sync, but it adds automatic app blocking and a focus timer tied to each time box.
-- [Chrobox vs Opal](https://chrobox.net/compare/chrobox-vs-opal): Opal is a dedicated screen-time and app-blocking tool with a strict Hard Mode you cannot switch off mid-session, plus a free tier. Chrobox is a timeboxing app first, and blocks the apps you choose only during the time boxes you schedule, with no equivalent to Opal's always-on Hard Mode and no free plan.
-- [Chrobox vs Forest](https://chrobox.net/compare/chrobox-vs-forest): Forest is a free, gamified focus timer that grows a virtual tree while you stay off your phone, with app blocking and group focus sessions built into its free tier. Chrobox plans your whole day into time boxes with routines and reflection, and blocks apps tied to those boxes, but has no gamification and no free plan.
+- [Chrobox vs Opal](https://chrobox.net/compare/chrobox-vs-opal): Opal is a dedicated screen-time and app-blocking tool with a strict Hard Mode you cannot switch off mid-session, plus a free tier. Chrobox is a timeboxing app first, and blocks the apps you choose only during the time boxes you schedule, with no equivalent to Opal's always-on Hard Mode. Chrobox is free for planning, but its app blocking requires Chrobox Pro, while Opal's free plan includes basic blocking rules.
+- [Chrobox vs Forest](https://chrobox.net/compare/chrobox-vs-forest): Forest is a free, gamified focus timer that grows a virtual tree while you stay off your phone, with app blocking and group focus sessions built into its free tier. Chrobox plans your whole day into time boxes with routines and reflection, and, on its Pro plan, blocks apps tied to those boxes. Its free plan covers the planning, but it has no gamification.
 - [Chrobox vs Todoist](https://chrobox.net/compare/chrobox-vs-todoist): Chrobox and Todoist both help you manage tasks, but they take fundamentally different approaches. Chrobox uses time-boxing to schedule every task into a specific time block, while Todoist focuses on prioritized task lists. Discover which app fits your productivity style.
 - [Chrobox vs Google Calendar](https://chrobox.net/compare/chrobox-vs-google-calendar): Google Calendar is the world's most popular calendar app, great for scheduling meetings and events. Chrobox goes further by combining time-boxing with a task manager so you can plan deep work blocks alongside your calendar commitments.
 - [Chrobox vs Notion](https://chrobox.net/compare/chrobox-vs-notion): Notion is a powerful all-in-one workspace for notes, databases, and projects. Chrobox is a dedicated time-boxing app built for daily scheduling and focused productivity. Learn which tool is right for your workflow.

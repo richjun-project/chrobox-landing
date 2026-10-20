@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: '與 Chrobox 相比，Any.do 是免費的嗎？',
-          answer: 'Any.do 和 Chrobox 皆提供免費試用。Any.do 設有包含基本功能的免費版本，而 Chrobox 則提供試用期，讓您在訂閱前能完整體驗所有的時間區塊規劃功能。',
+          answer: 'Any.do 與 Chrobox 都有免費方案。Any.do 的免費方案提供基本功能，而 Chrobox 的免費方案涵蓋規劃、時間箱、專注計時器、例行事項與每日回顧；App 封鎖、小工具與 AI 功能需要 Chrobox Pro，Pro 以免費試用開始。',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox vs Structured：App 封鎖 vs Apple 生態系時間軸',
-      description: 'Structured 是一款深度整合 Apple 裝置的精緻視覺化時間軸規劃工具，提供免費方案，Pro 版本則有 AI 自動排程功能。Chrobox 則是一款純手機專用的時間箱 App，能在每個時間箱期間自動封鎖 App，但沒有免費方案，也沒有 Mac、Watch 或網頁版 App。',
+      description: 'Structured 是一款深度整合 Apple 裝置的精緻視覺化時間軸規劃工具，提供免費方案，Pro 版本則有 AI 自動排程功能。Chrobox 則是一款純手機專用的時間箱 App，規劃功能可在免費方案中使用，Pro 方案則會在每個時間箱期間自動封鎖 App，但沒有 Mac、Watch 或網頁版 App。',
       metaDescription: 'Chrobox vs Structured：每個時間箱都能封鎖 App，對比免費、Apple 生態系整合且具備 AI 排程的時間軸規劃工具。看清真正的取捨。',
       featureNames: [
         'App 封鎖',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox 是 Structured 的好替代方案嗎？',
-          answer: '如果你想從 Structured 得到的是時間軸功能，再加上 Structured 沒有的功能——在每個時間箱期間自動封鎖分心 App——那麼 Chrobox 就是不錯的替代方案。但如果你需要 Structured 的免費方案，或是它的 Mac、Apple Watch 或網頁版 App，Chrobox 無法取代，因為 Chrobox 僅限手機使用，且僅提供 Pro 方案。',
+          answer: '如果你想從 Structured 得到的是時間軸功能，再加上 Structured 沒有的功能——在每個時間箱期間自動封鎖分心 App——那麼 Chrobox 就是不錯的替代方案。但如果你需要 Structured 的 Mac、Apple Watch 或網頁版 App，Chrobox 無法取代，因為 Chrobox 僅限手機使用；它的免費方案涵蓋規劃功能，但 App 封鎖需要 Chrobox Pro。',
         },
         {
           question: 'Chrobox 與 Structured 有什麼不同？',
-          answer: 'Structured 是一款免費、跨平台的時間軸規劃工具，深度整合進 Apple 生態系（Mac、Apple Watch、Vision Pro），並在 Pro 方案中提供 AI 排程。Chrobox 則是一款僅限手機使用、僅提供訂閱方案的時間箱 App，其規劃好的時間區塊還能自動封鎖選定的 App，並新增了例行事項連續紀錄與每日心情回顧功能。',
+          answer: 'Structured 是一款免費、跨平台的時間軸規劃工具，深度整合進 Apple 生態系（Mac、Apple Watch、Vision Pro），並在 Pro 方案中提供 AI 排程。Chrobox 則是一款僅限手機使用的時間箱 App，規劃、例行事項與每日心情回顧都可在免費方案中使用；其 Pro 方案會在規劃好的時間區塊期間自動封鎖選定的 App，並新增小工具與 AI 功能。',
         },
         {
           question: 'Structured 也會像 Chrobox 一樣封鎖分心的 App 嗎？',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox vs Tiimo：App 封鎖 vs 針對神經多樣性使用者的規劃工具',
-      description: 'Tiimo 是一款以圖像化為主、搭載 AI 的視覺化規劃工具，專為 ADHD 與自閉症使用者的執行功能支援而設計，並曾獲選 Apple 2025 年度 iPhone App。Chrobox 則是一款泛用型的手機時間箱 App，能在每個時間箱期間自動封鎖 App，但沒有 Tiimo 針對 ADHD 設計的特色，也沒有免費方案。',
+      description: 'Tiimo 是一款以圖像化為主、搭載 AI 的視覺化規劃工具，專為 ADHD 與自閉症使用者的執行功能支援而設計，並曾獲選 Apple 2025 年度 iPhone App。Chrobox 則是一款泛用型的手機時間箱 App，能在每個時間箱期間自動封鎖 App，但沒有 Tiimo 針對 ADHD 設計的特色。它的規劃功能有免費方案，App 封鎖則屬於 Pro。',
       metaDescription: 'Chrobox vs Tiimo：具備 App 封鎖的時間箱工具，對比專為 ADHD／自閉症設計、搭載 AI 的視覺化規劃工具。轉換前先誠實比較功能。',
       featureNames: [
         'App 封鎖',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox 是 Tiimo 的好替代方案嗎？',
-          answer: '如果你想要的是搭配自動 App 封鎖的一般性時間箱功能，Chrobox 是合理的替代方案，因為 Tiimo 並不會封鎖 App。但它無法取代 Tiimo 針對 ADHD／自閉症設計的視覺化介面、免費方案，或 Mac 與 Apple Watch App，這些都是 Chrobox 沒有的。',
+          answer: '如果你想要的是搭配自動 App 封鎖的一般性時間箱功能，Chrobox 是合理的替代方案，因為 Tiimo 並不會封鎖 App。但它無法取代 Tiimo 針對 ADHD／自閉症設計的視覺化介面，也無法取代 Mac 與 Apple Watch App，這些都是 Chrobox 沒有的。Chrobox 的免費方案涵蓋規劃功能，但 App 封鎖屬於 Pro。',
         },
         {
           question: 'Chrobox 與 Tiimo 有什麼不同？',
-          answer: 'Tiimo 是一款以圖像為基礎的視覺化規劃工具，專為神經多樣性使用者的執行功能支援打造，提供有限度的免費方案，並有 Mac、Apple Watch、Vision Pro 與網頁版 App。Chrobox 則是一款僅限手機、僅提供訂閱方案的時間箱 App，其主要的結構性差異在於將自動 App 封鎖與每個規劃好的時間箱綁定。',
+          answer: 'Tiimo 是一款以圖像為基礎的視覺化規劃工具，專為神經多樣性使用者的執行功能支援打造，提供有限度的免費方案，並有 Mac、Apple Watch、Vision Pro 與網頁版 App。Chrobox 則是一款僅限手機的時間箱 App，設有免費方案與 Pro 方案；其主要的結構性差異在於將自動 App 封鎖（Pro）與每個規劃好的時間箱綁定。',
         },
         {
           question: 'Tiimo 也會像 Chrobox 一樣封鎖分心的 App 嗎？',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox vs Opal：排程式封鎖 vs 全天候螢幕使用時間管控',
-      description: 'Opal 是一款專門的螢幕使用時間與 App 封鎖工具，具備無法在使用中途關閉的嚴格「Hard Mode」，並提供免費方案。Chrobox 則首先是一款時間箱 App，只在你排定的時間箱期間封鎖你選擇的 App，沒有等同於 Opal 的全天候 Hard Mode，也沒有免費方案。',
+      description: 'Opal 是一款專門的螢幕使用時間與 App 封鎖工具，具備無法在使用中途關閉的嚴格「Hard Mode」，並提供免費方案。Chrobox 則首先是一款時間箱 App，只在你排定的時間箱期間封鎖你選擇的 App，沒有等同於 Opal 的全天候 Hard Mode。Chrobox 的規劃功能免費，但 App 封鎖需要 Chrobox Pro，而 Opal 的免費方案包含基本封鎖規則。',
       metaDescription: 'Chrobox vs Opal：以完整規劃搭配排程驅動的 App 封鎖，對比具備免費方案、全天候運作的專屬封鎖工具。',
       featureNames: [
         '全天時間軸／規劃工具',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox 是 Opal 的好替代方案嗎？',
-          answer: '如果你真正想要的是一款能在排定的工作時段內順便封鎖 App 的規劃工具，而不是一個專門的封鎖工具，那麼 Chrobox 是不錯的替代方案。但它無法取代 Opal 的 Hard Mode——這個功能在使用中途無法停用，比 Chrobox 提供的任何選項都更嚴格——而且 Chrobox 沒有免費方案，Opal 則有。',
+          answer: '如果你真正想要的是一款能在排定的工作時段內順便封鎖 App 的規劃工具，而不是一個專門的封鎖工具，那麼 Chrobox 是不錯的替代方案。但它無法取代 Opal 的 Hard Mode——這個功能在使用中途無法停用，比 Chrobox 提供的任何選項都更嚴格——而且 Opal 的免費方案就包含 App 封鎖，Chrobox 的 App 封鎖則需要 Pro（規劃功能本身免費）。',
         },
         {
           question: 'Chrobox 與 Opal 有什麼不同？',
-          answer: 'Opal 是一款專門的螢幕使用時間封鎖工具，提供免費方案，以及一經啟動就無法關閉的 Hard Mode。Chrobox 則是一款時間箱規劃工具，App 封鎖與你為任務及例行事項排定的時間箱綁定在一起，並與任務規劃、例行事項與 AI 分析一同運作，但僅提供 Pro 方案。',
+          answer: 'Opal 是一款專門的螢幕使用時間封鎖工具，提供免費方案，以及一經啟動就無法關閉的 Hard Mode。Chrobox 則是一款時間箱規劃工具，任務、例行事項與回顧都可在免費方案中使用；其 Pro 方案會增加與你為任務及例行事項排定的時間箱綁定的 App 封鎖，以及 AI 分析。',
         },
         {
           question: 'Chrobox 也有像 Opal 那樣的 Hard Mode 嗎？',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox vs Forest：全天時間箱規劃 vs 遊戲化專注時段',
-      description: 'Forest 是一款免費、遊戲化的專注計時器，在你遠離手機時種出一棵虛擬的樹，免費方案就內建了 App 封鎖與群組專注時段。Chrobox 則會把你整天規劃成一個個時間箱，搭配例行事項與回顧功能，並將 App 封鎖與這些時間箱綁定，但沒有遊戲化元素，也沒有免費方案。',
+      description: 'Forest 是一款免費、遊戲化的專注計時器，在你遠離手機時種出一棵虛擬的樹，免費方案就內建了 App 封鎖與群組專注時段。Chrobox 則會把你整天規劃成一個個時間箱，搭配例行事項與回顧功能，並在 Pro 方案中將 App 封鎖與這些時間箱綁定。它的規劃功能有免費方案，但沒有遊戲化元素。',
       metaDescription: 'Chrobox vs Forest：具備 App 封鎖的全天時間箱規劃，對比免費、遊戲化且有群組專注時段與真樹回饋的專注計時器。',
       featureNames: [
         '免費方案',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox 是 Forest 的好替代方案嗎？',
-          answer: '如果你想要的 App 封鎖是規劃一整天任務時的一部分，而不是一個獨立的時段計時器，那麼 Chrobox 是不錯的替代方案。但它無法取代 Forest 的免費方案、遊戲化的種樹激勵機制，或群組專注時段，這些都是 Chrobox 沒有的功能。',
+          answer: '如果你想要的 App 封鎖是規劃一整天任務時的一部分，而不是一個獨立的時段計時器，那麼 Chrobox 是不錯的替代方案。但它無法取代 Forest 遊戲化的種樹激勵機制或群組專注時段，這些都是 Chrobox 沒有的功能；而且 Forest 的免費方案就包含 App 封鎖，Chrobox 的封鎖功能則需要 Pro。',
         },
         {
           question: 'Chrobox 與 Forest 有什麼不同？',
-          answer: 'Forest 是一款免費、遊戲化的專注計時器，只要遠離手機就能種出一棵虛擬的樹，免費方案就包含 App 封鎖與群組時段。Chrobox 則是一款僅提供 Pro 方案、僅限手機使用的規劃工具，能把你整天規劃成一個個時間箱，將 App 封鎖與這些時間箱及例行事項綁定，並新增 AI 規劃與每日心情回顧，但沒有遊戲化或群組功能。',
+          answer: 'Forest 是一款免費、遊戲化的專注計時器，只要遠離手機就能種出一棵虛擬的樹，免費方案就包含 App 封鎖與群組時段。Chrobox 則是一款僅限手機使用的規劃工具，能把你整天規劃成一個個時間箱，並在免費方案中提供例行事項與每日心情回顧；其 Pro 方案將 App 封鎖與這些時間箱及例行事項綁定，並新增 AI 規劃。它沒有遊戲化或群組功能。',
         },
         {
           question: 'Chrobox 也有像 Forest 那樣的免費方案嗎？',
-          answer: '沒有。Chrobox 可以免費下載，但需要 Chrobox Pro 才能使用，新訂閱者無論選擇月繳或年繳方案，都可享有 3 天免費試用。Forest 則提供真正免費的核心體驗，包括它的專注計時器與 Deep Focus App 封鎖功能。',
+          answer: '有，但有限制。Chrobox 可以免費下載，免費方案沒有時間限制：任務、當天時間軸上的時間箱、專注計時器、提醒、例行事項與每日回顧。App 封鎖、小工具、AI 功能與詳細統計需要 Chrobox Pro，月繳或年繳方案的新訂閱者可享有 3 天免費試用。Forest 則提供真正免費的核心體驗，包括它的專注計時器與 Deep Focus App 封鎖功能。',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: '最推薦的免費時間箱 App 是哪一款？',
-          answer: 'Chrobox 沒有免費方案——它可以免費下載，但需要 Chrobox Pro 才能使用，新訂閱者可享有 3 天免費試用。如果你想要完全免費的時間箱選項，Google Calendar 的手動時間區塊規劃不需要任何費用，只是缺少 Chrobox 的任務擷取、專注計時器與 App 封鎖功能。',
+          answer: 'Chrobox 有沒有時間限制的免費方案——任務、當天時間軸上的時間箱、專注計時器、例行事項與每日回顧都可以使用。App 封鎖、小工具與 AI 功能需要 Chrobox Pro，Pro 提供 3 天免費試用。如果你想要完全免費的時間箱選項，Google Calendar 的手動時間區塊規劃不需要任何費用，只是缺少 Chrobox 的任務擷取、專注計時器與 App 封鎖功能。',
         },
         {
           question: '哪款時間箱 App 同時支援 iPhone 與 Android？',
@@ -2760,7 +2760,7 @@ Chrobox 是圍繞完整的時間箱循環打造的，而不是一個附加了額
 
 **優點：** 完整的規劃→專注→回顧循環、App 封鎖與時間箱連動、小工具與 Live Activity 計時器、支援 54 種語言
 **缺點：** 僅限行動裝置（沒有桌面版 App）、沒有團隊功能
-**價格：** 3 天免費試用；提供 Pro 訂閱制或一次性買斷的終身方案
+**價格：** 免費方案；Pro（3 天免費試用）增加 App 封鎖、小工具與 AI——可選訂閱制或一次性買斷
 
 ### 2. Sunsama：最適合仰賴行事曆的專業人士（網頁、桌面、行動裝置）
 
@@ -2822,7 +2822,7 @@ Todoist 的日曆檢視和 Google 日曆雙向同步，讓清單愛好者不必�
 
 | App | 核心循環 | App 封鎖 | 回顧／檢討 | 免費方案 | 平台 |
 |---|---|---|---|---|---|
-| Chrobox | 完整時間箱 | ✅ | ✅ AI 回顧 | 3 天試用 | iOS、Android |
+| Chrobox | 完整時間箱 | ✅ | ✅ AI 回顧 | 免費 + Pro（3 天試用） | iOS、Android |
 | Sunsama | 每日規劃 | ❌ | ✅ 收工儀式 | 僅限試用 | 網頁、桌面、行動裝置 |
 | Motion | AI 排程 | ❌ | ❌ | 僅限試用 | 網頁、行動裝置 |
 | TickTick | 任務清單＋時間軸 | ❌ | ❌ | ✅ | 全平台 |

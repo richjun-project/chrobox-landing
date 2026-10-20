@@ -88,7 +88,7 @@
   },
   "pricing": {
     "title": "Tarification simple",
-    "subtitle": "Découvrez toutes les fonctionnalités Pro avec un essai gratuit de 3 jours",
+    "subtitle": "Planifiez gratuitement. Essayez Pro — blocage d'applications, widgets et IA — gratuitement pendant 3 jours",
     "trialBadge": "Essai gratuit de 3 jours",
     "trialDescription": "Résiliable à tout moment dans les réglages de l'App Store ou de Google Play",
     "priceNote": "Prix de l'App Store américain. Les prix sur Google Play et dans d'autres pays peuvent différer.",
@@ -97,11 +97,11 @@
       "price": "$3.99",
       "period": "/mois",
       "features": [
-        "Tâches illimitées",
+        "Blocage des applications",
         "Analyses propulsées par l'IA",
         "Statistiques avancées",
         "Widget d'accueil",
-        "Expérience sans publicité"
+        "Tout ce qui est inclus dans le plan gratuit"
       ],
       "cta": "Démarrer l'essai gratuit"
     },
@@ -112,11 +112,11 @@
       "badge": "-37%",
       "monthlyPrice": "$2.50/mois",
       "features": [
-        "Tâches illimitées",
+        "Blocage des applications",
         "Analyses propulsées par l'IA",
         "Statistiques avancées",
         "Widget d'accueil",
-        "Expérience sans publicité"
+        "Tout ce qui est inclus dans le plan gratuit"
       ],
       "cta": "Démarrer l'essai gratuit"
     },
@@ -126,12 +126,12 @@
       "period": "paiement unique",
       "badge": "Meilleur rapport qualité-prix",
       "features": [
-        "Tâches illimitées",
+        "Blocage des applications",
         "Analyses propulsées par l'IA",
         "Statistiques avancées",
         "Widget d'accueil",
         "Mises à jour à vie",
-        "Expérience sans publicité"
+        "Tout ce qui est inclus dans le plan gratuit"
       ],
       "cta": "Obtenir l'accès à vie"
     }
@@ -184,7 +184,7 @@
       },
       "isFree": {
         "question": "Chrobox est-il gratuit ?",
-        "answer": "Pas après l'essai. Chrobox se télécharge gratuitement, et les abonnements mensuel et annuel commencent par un essai gratuit de 3 jours pour les nouveaux abonnés. Ensuite, Chrobox Pro coûte 3,99 $/mois, 29,99 $/an, ou 39,99 $ en achat unique pour un accès à vie (prix de l'App Store américain ; ils peuvent différer sur Google Play et dans d'autres pays). Si vous ne souhaitez pas continuer, résiliez dans les réglages de l'App Store ou de Google Play avant la fin de l'essai."
+        "answer": "Oui — vous pouvez planifier gratuitement. Chrobox se télécharge gratuitement, et le plan gratuit n'a pas de limite de durée : notez vos tâches, définissez des priorités, placez-les dans des blocs de temps sur la chronologie de votre journée, utilisez le minuteur de concentration et les rappels, créez des routines, rédigez un bilan quotidien et consultez les événements du calendrier de votre téléphone. Chrobox Pro ajoute le blocage des applications pendant les blocs de temps, les widgets d'écran d'accueil et d'écran verrouillé (y compris la Live Activity iOS), les fonctionnalités d'IA et les statistiques détaillées. Pro coûte 3,99 $/mois, 29,99 $/an, ou 39,99 $ en achat unique pour un accès à vie (prix de l'App Store américain ; ils peuvent différer sur Google Play et dans d'autres pays), et les abonnements mensuel et annuel commencent par un essai gratuit de 3 jours pour les nouveaux abonnés. Après votre connexion, l'application vous propose Pro une seule fois ; touchez « Continuer gratuitement » pour entrer directement. Pour arrêter un essai, résiliez dans les réglages de l'App Store ou de Google Play avant sa fin."
       },
       "vsTimeBlocking": {
         "question": "En quoi le timeboxing diffère-t-il du time blocking et de la méthode Pomodoro ?",

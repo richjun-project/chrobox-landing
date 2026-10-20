@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Is Any.do gratis in vergelijking met Chrobox?',
-          answer: 'Zowel Any.do als Chrobox bieden gratis proefperioden aan. Any.do heeft een gratis versie met basisfuncties, terwijl Chrobox een proefperiode biedt om alle timeboxing-functies te ervaren voordat je een abonnement afsluit.',
+          answer: 'Zowel Any.do als Chrobox heeft een gratis plan. Het gratis plan van Any.do bevat basisfuncties, terwijl het gratis plan van Chrobox planning, tijdsblokken, de focustimer, routines en de dagelijkse terugblik omvat; app-blokkering, widgets en AI-functies vereisen Chrobox Pro, dat begint met een gratis proefperiode.',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox vs Structured: App-blokkering vs Apple-ecosysteemtijdlijn',
-      description: 'Structured vormt een gepolijste visuele tijdlijnplanner die diep verweven zit met Apple-apparaten, met een gratis niveau en AI-autoplanning op Pro. Chrobox werkt alleen op de telefoon en voegt automatische app-blokkering toe tijdens elk tijdsblok, maar heeft geen gratis plan en geen Mac-, Watch- of webapp.',
+      description: 'Structured vormt een gepolijste visuele tijdlijnplanner die diep verweven zit met Apple-apparaten, met een gratis niveau en AI-autoplanning op Pro. Chrobox werkt alleen op de telefoon, heeft een gratis plan om te plannen en een Pro-plan dat automatische app-blokkering tijdens elk tijdsblok toevoegt, maar heeft geen Mac-, Watch- of webapp.',
       metaDescription: 'Chrobox vs Structured: app-blokkering op elk tijdsblok versus een gratis Apple-ecosysteemtijdlijnplanner met AI-planning. Bekijk de echte afwegingen.',
       featureNames: [
         'App-blokkering',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Vormt Chrobox een goed alternatief voor Structured?',
-          answer: 'Chrobox vormt een goed alternatief als je van Structured de tijdlijn wilt plus iets wat Structured niet doet: automatisch afleidende apps blokkeren tijdens elk tijdsblok. Het vervangt Structured niet als je het gratis niveau daarvan nodig hebt of de Mac-, Apple Watch- of webapps ervan, aangezien Chrobox alleen op de telefoon werkt en alleen voor Pro bedoeld is.',
+          answer: 'Chrobox vormt een goed alternatief als je van Structured de tijdlijn wilt plus iets wat Structured niet doet: automatisch afleidende apps blokkeren tijdens elk tijdsblok. Het vervangt Structured niet als je de Mac-, Apple Watch- of webapps ervan nodig hebt, aangezien Chrobox alleen op de telefoon werkt; het gratis plan dekt het plannen, maar voor app-blokkering is Chrobox Pro nodig.',
         },
         {
           question: 'Waarin verschillen Chrobox en Structured?',
-          answer: 'Structured vormt een gratis, platformoverstijgende tijdlijnplanner die diep ingebed zit in het Apple-ecosysteem (Mac, Apple Watch, Vision Pro) met AI-planning in het Pro-niveau. Chrobox draait alleen op de telefoon en alleen op abonnement, waarbij de geplande tijdsblokken ook automatisch gekozen apps kunnen blokkeren, en voegt routinereeksen en een dagelijkse stemmingsretrospectief toe.',
+          answer: 'Structured vormt een gratis, platformoverstijgende tijdlijnplanner die diep ingebed zit in het Apple-ecosysteem (Mac, Apple Watch, Vision Pro) met AI-planning in het Pro-niveau. Chrobox draait alleen op de telefoon, met een gratis plan voor planning, routines en een dagelijks stemmingsretrospectief; het Pro-plan voegt automatische blokkering van gekozen apps tijdens geplande tijdsblokken toe, plus widgets en AI-functies.',
         },
         {
           question: 'Blokkeert Structured afleidende apps zoals Chrobox?',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox vs Tiimo: App-blokkering vs Planning gericht op Neurodivergentie',
-      description: 'Tiimo is een visuele, pictogramgebaseerde AI-planner die specifiek is gebouwd voor ondersteuning bij ADHD en autisme op het gebied van executieve functies, en werd uitgeroepen tot Apples iPhone App van het Jaar 2025. Chrobox is een timeboxing-app voor algemeen gebruik op telefoons die automatische app-blokkering toevoegt tijdens elk tijdsblok, maar mist het ADHD-specifieke ontwerp en gratis niveau van Tiimo.',
+      description: 'Tiimo is een visuele, pictogramgebaseerde AI-planner die specifiek is gebouwd voor ondersteuning bij ADHD en autisme op het gebied van executieve functies, en werd uitgeroepen tot Apples iPhone App van het Jaar 2025. Chrobox is een timeboxing-app voor algemeen gebruik op telefoons die automatische app-blokkering toevoegt tijdens elk tijdsblok, maar mist het ADHD-specifieke ontwerp van Tiimo. Er is een gratis plan om te plannen, en app-blokkering is onderdeel van Pro.',
       metaDescription: 'Chrobox vs Tiimo: timeboxing met app-blokkering versus een op ADHD/autisme gerichte visuele planner met AI. Vergelijk functies eerlijk voordat je overstapt.',
       featureNames: [
         'App-blokkering',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Is Chrobox een goed alternatief voor Tiimo?',
-          answer: 'Chrobox is een redelijk alternatief als je algemene timeboxing wilt met automatische app-blokkering, aangezien Tiimo geen apps blokkeert. Het is geen vervanging voor het ADHD/autisme-specifieke visuele ontwerp, het gratis niveau, of de Mac- en Apple Watch-apps van Tiimo, die Chrobox niet heeft.',
+          answer: 'Chrobox is een redelijk alternatief als je algemene timeboxing wilt met automatische app-blokkering, aangezien Tiimo geen apps blokkeert. Het is geen vervanging voor het ADHD/autisme-specifieke visuele ontwerp of de Mac- en Apple Watch-apps van Tiimo, die Chrobox niet heeft. Het gratis plan van Chrobox dekt het plannen, maar app-blokkering is onderdeel van Pro.',
         },
         {
           question: 'Wat is het verschil tussen Chrobox en Tiimo?',
-          answer: 'Tiimo is een pictogramgebaseerde visuele planner die speciaal is gebouwd voor ondersteuning van neurodivergente executieve functies, met een beperkt gratis niveau en apps op Mac, Apple Watch, Vision Pro en het web. Chrobox is een timeboxing-app die alleen op de telefoon en alleen op abonnement werkt, waarvan het belangrijkste structurele verschil automatische app-blokkering is, gekoppeld aan elk gepland tijdsblok.',
+          answer: 'Tiimo is een pictogramgebaseerde visuele planner die speciaal is gebouwd voor ondersteuning van neurodivergente executieve functies, met een beperkt gratis niveau en apps op Mac, Apple Watch, Vision Pro en het web. Chrobox is een timeboxing-app die alleen op de telefoon werkt, met een gratis plan en een Pro-plan; het belangrijkste structurele verschil is automatische app-blokkering (Pro), gekoppeld aan elk gepland tijdsblok.',
         },
         {
           question: 'Blokkeert Tiimo afleidende apps zoals Chrobox?',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox vs Opal: Geplande Blokkering vs Altijd-Actieve Schermtijdcontrole',
-      description: 'Opal vormt een speciale tool voor schermtijd en app-blokkering met een strikte Hard Mode die je midden in een sessie niet kunt uitschakelen, plus een gratis niveau. Chrobox draait in de eerste plaats om timeboxing en blokkeert de apps die je kiest alleen tijdens de tijdsblokken die je inplant, zonder equivalent van Opals altijd-actieve Hard Mode en zonder gratis plan.',
+      description: 'Opal vormt een speciale tool voor schermtijd en app-blokkering met een strikte Hard Mode die je midden in een sessie niet kunt uitschakelen, plus een gratis niveau. Chrobox draait in de eerste plaats om timeboxing en blokkeert de apps die je kiest alleen tijdens de tijdsblokken die je inplant, zonder equivalent van Opals altijd-actieve Hard Mode. Chrobox is gratis om te plannen, maar de app-blokkering vereist Chrobox Pro, terwijl het gratis plan van Opal basisregels voor blokkering bevat.',
       metaDescription: 'Chrobox vs Opal: schemagestuurde app-blokkering met een volledige dagplanner versus een speciale, altijd-actieve blokkeerder met een gratis niveau.',
       featureNames: [
         'Volledige dagtijdlijn / planner',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Vormt Chrobox een goed alternatief voor Opal?',
-          answer: 'Chrobox vormt een goed alternatief als je eigenlijk een planner wilt die ook apps blokkeert tijdens gepland werk, in plaats van een speciale blokkeerder. Het vervangt de Hard Mode van Opal niet, die niet kan worden uitgeschakeld midden in een sessie en strikter aanvoelt dan alles wat Chrobox biedt, en Chrobox heeft geen gratis plan terwijl Opal dat wel heeft.',
+          answer: 'Chrobox vormt een goed alternatief als je eigenlijk een planner wilt die ook apps blokkeert tijdens gepland werk, in plaats van een speciale blokkeerder. Het vervangt de Hard Mode van Opal niet, die niet kan worden uitgeschakeld midden in een sessie en strikter aanvoelt dan alles wat Chrobox biedt, en het gratis plan van Opal bevat app-blokkering, terwijl app-blokkering bij Chrobox Pro vereist (het plannen zelf is gratis).',
         },
         {
           question: 'Waarin verschillen Chrobox en Opal?',
-          answer: 'Opal vormt een speciale schermtijdblokkeerder met een gratis plan en een Hard Mode die niet kan worden uitgeschakeld zodra hij eenmaal gestart is. Chrobox vormt een timeboxing-planner waarbij app-blokkering gekoppeld zit aan de tijdsblokken die je inplant voor taken en routines, en die samengaat met taakplanning, routines en AI-analyse, maar alleen voor Pro bedoeld is.',
+          answer: 'Opal vormt een speciale schermtijdblokkeerder met een gratis plan en een Hard Mode die niet kan worden uitgeschakeld zodra hij eenmaal gestart is. Chrobox vormt een timeboxing-planner met een gratis plan voor taken, routines en terugblik; het Pro-plan voegt app-blokkering toe die gekoppeld zit aan de tijdsblokken die je inplant voor taken en routines, plus AI-analyse.',
         },
         {
           question: 'Heeft Chrobox een Hard Mode zoals Opal?',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox vs Forest: Timeboxing voor de Hele Dag vs Gegamificeerde Focussessies',
-      description: 'Forest vormt een gratis, gegamificeerde focustimer die een virtuele boom laat groeien terwijl je van je telefoon wegblijft, met app-blokkering en groepsfocussessies ingebouwd in het gratis niveau. Chrobox plant je hele dag in tijdsblokken met routines en reflectie, en blokkeert apps die aan die blokken gekoppeld zitten, maar heeft geen gamification en geen gratis plan.',
+      description: 'Forest vormt een gratis, gegamificeerde focustimer die een virtuele boom laat groeien terwijl je van je telefoon wegblijft, met app-blokkering en groepsfocussessies ingebouwd in het gratis niveau. Chrobox plant je hele dag in tijdsblokken met routines en reflectie en blokkeert in het Pro-plan apps die aan die blokken gekoppeld zitten. Het gratis plan dekt het plannen, maar er is geen gamification.',
       metaDescription: 'Chrobox vs Forest: timeboxing voor de hele dag met app-blokkering versus een gratis, gegamificeerde focustimer met groepssessies en echte bomen.',
       featureNames: [
         'Gratis plan',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Vormt Chrobox een goed alternatief voor Forest?',
-          answer: 'Chrobox vormt een goed alternatief als je app-blokkering wilt als onderdeel van het plannen van een volledige dag met taken, in plaats van als een losstaande sessietimer. Het vervangt het gratis niveau van Forest niet, noch de gegamificeerde boom-groei-motivatie, noch de groepsfocussessies, waarvan Chrobox er geen heeft.',
+          answer: 'Chrobox vormt een goed alternatief als je app-blokkering wilt als onderdeel van het plannen van een volledige dag met taken, in plaats van als een losstaande sessietimer. Het vervangt de gegamificeerde boom-groei-motivatie of de groepsfocussessies van Forest niet, waarvan Chrobox er geen heeft, en het gratis niveau van Forest bevat app-blokkering, terwijl blokkering bij Chrobox Pro vereist.',
         },
         {
           question: 'Waarin verschillen Chrobox en Forest?',
-          answer: 'Forest vormt een gratis, gegamificeerde focustimer waarbij van je telefoon wegblijven een virtuele boom laat groeien, en het bevat app-blokkering en groepssessies in het gratis niveau. Chrobox vormt een planner die alleen voor Pro en alleen op de telefoon werkt, je hele dag in tijdsblokken indeelt, app-blokkering koppelt aan die blokken en routines, en AI-planning en een dagelijkse stemmingsretrospectief toevoegt, maar heeft geen gamification of groepsfuncties.',
+          answer: 'Forest vormt een gratis, gegamificeerde focustimer waarbij van je telefoon wegblijven een virtuele boom laat groeien, en het bevat app-blokkering en groepssessies in het gratis niveau. Chrobox is een planner die alleen op de telefoon werkt, met een gratis plan dat je hele dag in tijdsblokken indeelt en routines en een dagelijks stemmingsretrospectief bevat; het Pro-plan koppelt app-blokkering aan die blokken en routines en voegt AI-planning toe. Er is geen gamification of groepsfuncties.',
         },
         {
           question: 'Heeft Chrobox een gratis plan zoals Forest?',
-          answer: 'Nee. Chrobox kun je gratis downloaden, maar het vereist Chrobox Pro om te gebruiken, te beginnen met een gratis proefperiode van 3 dagen voor nieuwe abonnees op maand- of jaarplannen. Forest biedt een echt gratis kernervaring, inclusief de focustimer en Deep Focus app-blokkering.',
+          answer: 'Ja, met beperkingen. Chrobox kun je gratis downloaden en het gratis plan heeft geen tijdslimiet: taken, tijdsblokken op de dagtijdlijn, de focustimer, herinneringen, routines en dagelijkse reflectie. App-blokkering, widgets, AI-functies en gedetailleerde statistieken vereisen Chrobox Pro, dat begint met een gratis proefperiode van 3 dagen voor nieuwe abonnees op maand- of jaarplannen. Forest biedt een echt gratis kernervaring, inclusief de focustimer en Deep Focus app-blokkering.',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Wat is de beste gratis time-boxing-app?',
-          answer: 'Chrobox heeft geen gratis abonnement — de app is gratis te downloaden, maar vereist Chrobox Pro, dat begint met een gratis proefperiode van 3 dagen. Wil je een volledig gratis time-boxing-optie, dan kost handmatig time-blocking in Google Calendar niets, al mist het de taakregistratie, focustimer en appblokkering van Chrobox.',
+          answer: 'Chrobox heeft een gratis plan zonder tijdslimiet: taken, tijdsblokken op een dagtijdlijn, focustimer, routines en dagelijkse reflectie. App-blokkering, widgets en AI-functies vereisen Chrobox Pro, dat begint met een gratis proefperiode van 3 dagen. Wil je een volledig gratis time-boxing-optie, dan kost handmatig time-blocking in Google Calendar niets, al mist het de taakregistratie, focustimer en appblokkering van Chrobox.',
         },
         {
           question: 'Welke time-boxing-app werkt op zowel iPhone als Android?',
@@ -2760,7 +2760,7 @@ Chrobox is gebouwd rond de volledige time-boxingcyclus in plaats van rond een ag
 
 **Sterke punten:** complete cyclus plannen→focussen→terugblikken, appblokkering gekoppeld aan boxen, widgets en Live Activity-timer, 54 talen
 **Zwakke punten:** alleen mobiel (geen desktop-app), geen teamfuncties
-**Prijs:** gratis proefperiode van 3 dagen; Pro-abonnement of eenmalige lifetime-aankoop
+**Prijs:** gratis plan; Pro (gratis proefperiode van 3 dagen) voegt app-blokkering, widgets en AI toe — abonnement of eenmalige lifetime-aankoop
 
 ### 2. Sunsama — beste voor professionals met een volle agenda (web, desktop, mobiel)
 
@@ -2822,7 +2822,7 @@ Met de agendaweergave van Todoist en de tweerichtingssynchronisatie met Google C
 
 | App | Kerncyclus | Appblokkering | Terugblik/retrospectief | Gratis versie | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Volledige time-boxing | ✅ | ✅ AI-terugblik | proefperiode van 3 dagen | iOS, Android |
+| Chrobox | Volledige time-boxing | ✅ | ✅ AI-terugblik | Gratis + Pro (proefperiode van 3 dagen) | iOS, Android |
 | Sunsama | Dagplanning | ❌ | ✅ afsluitritueel | alleen proefperiode | Web, desktop, mobiel |
 | Motion | AI-planning | ❌ | ❌ | alleen proefperiode | Web, mobiel |
 | TickTick | Takenlijst + tijdlijn | ❌ | ❌ | ✅ | Alle |

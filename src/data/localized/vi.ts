@@ -387,7 +387,7 @@ export const pack: LocalizedContentPack = {
         },
         {
           question: 'Any.do có miễn phí so với Chrobox không?',
-          answer: 'Cả Any.do và Chrobox đều cung cấp các bản dùng thử miễn phí. Any.do có gói miễn phí với các tính năng cơ bản, trong khi Chrobox cung cấp một khoảng thời gian dùng thử để bạn trải nghiệm toàn bộ tính năng Time-Boxing trước khi quyết định đăng ký.',
+          answer: 'Cả Any.do và Chrobox đều có gói miễn phí. Gói miễn phí của Any.do có các tính năng cơ bản, còn gói miễn phí của Chrobox gồm lập kế hoạch, khung thời gian, bộ đếm giờ tập trung, thói quen và đánh giá hằng ngày; chặn ứng dụng, widget và các tính năng AI cần Chrobox Pro, bắt đầu bằng bản dùng thử miễn phí.',
         },
       ],
     },
@@ -437,7 +437,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-structured': {
       competitor: 'Structured',
       tagline: 'Chrobox so với Structured: Chặn Ứng Dụng so với Dòng Thời Gian Hệ Sinh Thái Apple',
-      description: 'Structured là một trình lập kế hoạch dòng thời gian trực quan, tinh tế, gắn bó sâu sắc với các thiết bị Apple, có gói miễn phí và tính năng tự động lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có gói miễn phí và không có ứng dụng Mac, Watch hay web.',
+      description: 'Structured là một trình lập kế hoạch dòng thời gian trực quan, tinh tế, gắn bó sâu sắc với các thiết bị Apple, có gói miễn phí và tính năng tự động lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, có gói miễn phí cho việc lập kế hoạch và gói Pro bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có ứng dụng Mac, Watch hay web.',
       metaDescription: 'Chrobox so với Structured: chặn ứng dụng trên mọi hộp thời gian so với một trình lập kế hoạch dòng thời gian miễn phí, gắn với hệ sinh thái Apple và có lên lịch bằng AI. Xem những đánh đổi thực sự.',
       featureNames: [
         'Chặn Ứng Dụng',
@@ -465,11 +465,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Structured không?',
-          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn muốn từ Structured là dòng thời gian cộng với một thứ mà Structured không làm được: tự động chặn các ứng dụng gây xao nhãng trong mỗi hộp thời gian. Nhưng nó không thể thay thế nếu bạn cần gói miễn phí của Structured hoặc các ứng dụng Mac, Apple Watch hay web của nó, vì Chrobox chỉ dành cho điện thoại và chỉ dành cho người dùng Pro.',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn muốn từ Structured là dòng thời gian cộng với một thứ mà Structured không làm được: tự động chặn các ứng dụng gây xao nhãng trong mỗi hộp thời gian. Nhưng nó không thể thay thế nếu bạn cần các ứng dụng Mac, Apple Watch hay web của Structured, vì Chrobox chỉ dành cho điện thoại; gói miễn phí của Chrobox đủ cho việc lập kế hoạch, nhưng chặn ứng dụng cần Chrobox Pro.',
         },
         {
           question: 'Sự khác biệt giữa Chrobox và Structured là gì?',
-          answer: 'Structured là một trình lập kế hoạch dòng thời gian đa nền tảng, miễn phí, gắn bó sâu sắc vào hệ sinh thái Apple (Mac, Apple Watch, Vision Pro) với tính năng lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, chỉ hoạt động qua đăng ký trả phí, mà các khối thời gian đã lên kế hoạch của nó cũng có thể tự động chặn các ứng dụng bạn chọn, đồng thời bổ sung chuỗi thói quen liên tục và đánh giá tâm trạng hàng ngày.',
+          answer: 'Structured là một trình lập kế hoạch dòng thời gian đa nền tảng, miễn phí, gắn bó sâu sắc vào hệ sinh thái Apple (Mac, Apple Watch, Vision Pro) với tính năng lên lịch bằng AI ở bản Pro. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, có gói miễn phí gồm lập kế hoạch, thói quen và đánh giá tâm trạng hàng ngày; gói Pro bổ sung tính năng tự động chặn các ứng dụng bạn chọn trong các khối thời gian đã lên kế hoạch, cùng widget và các tính năng AI.',
         },
         {
           question: 'Structured có chặn các ứng dụng gây xao nhãng như Chrobox không?',
@@ -480,7 +480,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-tiimo': {
       competitor: 'Tiimo',
       tagline: 'Chrobox so với Tiimo: Chặn Ứng Dụng so với Lập Kế Hoạch Dành Riêng Cho Người Thần Kinh Đa Dạng',
-      description: 'Tiimo là một trình lập kế hoạch AI trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho ADHD và tự kỷ, và đã được vinh danh là Ứng Dụng iPhone Của Năm 2025 của Apple. Chrobox là một ứng dụng time-boxing đa dụng cho điện thoại, bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có thiết kế chuyên biệt cho ADHD như Tiimo hay gói miễn phí.',
+      description: 'Tiimo là một trình lập kế hoạch AI trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho ADHD và tự kỷ, và đã được vinh danh là Ứng Dụng iPhone Của Năm 2025 của Apple. Chrobox là một ứng dụng time-boxing đa dụng cho điện thoại, bổ sung tính năng tự động chặn ứng dụng trong mỗi hộp thời gian, nhưng không có thiết kế chuyên biệt cho ADHD như Tiimo. Chrobox có gói miễn phí cho việc lập kế hoạch, còn chặn ứng dụng nằm trong gói Pro.',
       metaDescription: 'Chrobox so với Tiimo: time-boxing có chặn ứng dụng so với một trình lập kế hoạch trực quan tập trung vào ADHD/tự kỷ với AI. So sánh trung thực các tính năng trước khi chuyển đổi.',
       featureNames: [
         'Chặn Ứng Dụng',
@@ -508,11 +508,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Tiimo không?',
-          answer: 'Chrobox là một lựa chọn thay thế hợp lý nếu bạn muốn time-boxing đa dụng với tính năng tự động chặn ứng dụng, vì Tiimo không chặn ứng dụng. Nó không thể thay thế thiết kế trực quan chuyên biệt cho ADHD/tự kỷ, gói miễn phí, hay các ứng dụng Mac và Apple Watch của Tiimo, những thứ mà Chrobox không có.',
+          answer: 'Chrobox là một lựa chọn thay thế hợp lý nếu bạn muốn time-boxing đa dụng với tính năng tự động chặn ứng dụng, vì Tiimo không chặn ứng dụng. Nó không thể thay thế thiết kế trực quan chuyên biệt cho ADHD/tự kỷ hay các ứng dụng Mac và Apple Watch của Tiimo, những thứ mà Chrobox không có. Gói miễn phí của Chrobox đủ cho việc lập kế hoạch, nhưng chặn ứng dụng nằm trong gói Pro.',
         },
         {
           question: 'Sự khác biệt giữa Chrobox và Tiimo là gì?',
-          answer: 'Tiimo là một trình lập kế hoạch trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho người thần kinh đa dạng, có gói miễn phí giới hạn và ứng dụng trên Mac, Apple Watch, Vision Pro và web. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, chỉ hoạt động qua đăng ký trả phí, với khác biệt cấu trúc chính là tính năng tự động chặn ứng dụng gắn liền với mỗi hộp thời gian đã lên kế hoạch.',
+          answer: 'Tiimo là một trình lập kế hoạch trực quan dựa trên hình ảnh biểu tượng, được xây dựng riêng để hỗ trợ chức năng điều hành cho người thần kinh đa dạng, có gói miễn phí giới hạn và ứng dụng trên Mac, Apple Watch, Vision Pro và web. Chrobox là một ứng dụng time-boxing chỉ dành cho điện thoại, có gói miễn phí và gói Pro; khác biệt cấu trúc chính là tính năng tự động chặn ứng dụng (Pro) gắn liền với mỗi hộp thời gian đã lên kế hoạch.',
         },
         {
           question: 'Tiimo có chặn các ứng dụng gây xao nhãng như Chrobox không?',
@@ -566,7 +566,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-opal': {
       competitor: 'Opal',
       tagline: 'Chrobox so với Opal: Chặn Theo Lịch so với Kiểm Soát Thời Gian Sử Dụng Màn Hình Luôn Bật',
-      description: 'Opal là một công cụ chuyên biệt cho thời gian sử dụng màn hình và chặn ứng dụng, có Hard Mode nghiêm ngặt mà bạn không thể tắt giữa chừng phiên làm việc, cùng một gói miễn phí. Chrobox trước hết là một ứng dụng time-boxing, chỉ chặn các ứng dụng bạn chọn trong những hộp thời gian bạn đã lên lịch, không có tính năng tương đương với Hard Mode luôn bật của Opal và không có gói miễn phí.',
+      description: 'Opal là một công cụ chuyên biệt cho thời gian sử dụng màn hình và chặn ứng dụng, có Hard Mode nghiêm ngặt mà bạn không thể tắt giữa chừng phiên làm việc, cùng một gói miễn phí. Chrobox trước hết là một ứng dụng time-boxing, chỉ chặn các ứng dụng bạn chọn trong những hộp thời gian bạn đã lên lịch, không có tính năng tương đương với Hard Mode luôn bật của Opal. Chrobox miễn phí cho việc lập kế hoạch, nhưng chặn ứng dụng cần Chrobox Pro, trong khi gói miễn phí của Opal đã có các quy tắc chặn cơ bản.',
       metaDescription: 'Chrobox so với Opal: chặn ứng dụng theo lịch trình với một trình lập kế hoạch trọn ngày so với một công cụ chặn chuyên biệt, luôn bật, có gói miễn phí.',
       featureNames: [
         'Dòng Thời Gian / Bộ Lập Kế Hoạch Trọn Ngày',
@@ -594,11 +594,11 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Opal không?',
-          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn thực sự muốn là một trình lập kế hoạch cũng chặn ứng dụng trong thời gian làm việc đã lên lịch, thay vì một công cụ chặn chuyên biệt. Nó không thể thay thế Hard Mode của Opal, vốn không thể tắt giữa chừng phiên làm việc và nghiêm ngặt hơn bất cứ điều gì Chrobox cung cấp, và Chrobox không có gói miễn phí trong khi Opal có.',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu điều bạn thực sự muốn là một trình lập kế hoạch cũng chặn ứng dụng trong thời gian làm việc đã lên lịch, thay vì một công cụ chặn chuyên biệt. Nó không thể thay thế Hard Mode của Opal, vốn không thể tắt giữa chừng phiên làm việc và nghiêm ngặt hơn bất cứ điều gì Chrobox cung cấp; ngoài ra, gói miễn phí của Opal đã có chặn ứng dụng, còn ở Chrobox chặn ứng dụng cần Pro (bản thân việc lập kế hoạch thì miễn phí).',
         },
         {
           question: 'Sự khác biệt giữa Chrobox và Opal là gì?',
-          answer: 'Opal là một công cụ chặn thời gian sử dụng màn hình chuyên biệt, có gói miễn phí và Hard Mode không thể tắt một khi đã bắt đầu. Chrobox là một trình lập kế hoạch time-boxing, trong đó việc chặn ứng dụng được gắn với các hộp thời gian bạn lên lịch cho nhiệm vụ và thói quen, hoạt động song song với lập kế hoạch nhiệm vụ, thói quen và phân tích bằng AI, nhưng chỉ dành cho người dùng Pro.',
+          answer: 'Opal là một công cụ chặn thời gian sử dụng màn hình chuyên biệt, có gói miễn phí và Hard Mode không thể tắt một khi đã bắt đầu. Chrobox là một trình lập kế hoạch time-boxing có gói miễn phí cho nhiệm vụ, thói quen và đánh giá; gói Pro bổ sung tính năng chặn ứng dụng gắn với các hộp thời gian bạn lên lịch cho nhiệm vụ và thói quen, cùng phân tích bằng AI.',
         },
         {
           question: 'Chrobox có Hard Mode như Opal không?',
@@ -609,7 +609,7 @@ export const pack: LocalizedContentPack = {
     'chrobox-vs-forest': {
       competitor: 'Forest',
       tagline: 'Chrobox so với Forest: Time-Boxing Trọn Ngày so với Các Phiên Tập Trung Được Game Hóa',
-      description: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, giúp trồng một cái cây ảo trong khi bạn không dùng điện thoại, với tính năng chặn ứng dụng và các phiên tập trung nhóm có sẵn trong gói miễn phí. Chrobox lên kế hoạch cả ngày của bạn thành các hộp thời gian với thói quen và đánh giá, và chặn ứng dụng gắn liền với các hộp đó, nhưng không có yếu tố game hóa và không có gói miễn phí.',
+      description: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, giúp trồng một cái cây ảo trong khi bạn không dùng điện thoại, với tính năng chặn ứng dụng và các phiên tập trung nhóm có sẵn trong gói miễn phí. Chrobox lên kế hoạch cả ngày của bạn thành các hộp thời gian với thói quen và đánh giá, và ở gói Pro thì chặn ứng dụng gắn liền với các hộp đó. Gói miễn phí của Chrobox đủ cho việc lập kế hoạch, nhưng không có yếu tố game hóa.',
       metaDescription: 'Chrobox so với Forest: time-boxing trọn ngày có chặn ứng dụng so với một bộ đếm giờ tập trung miễn phí, được game hóa, có phiên nhóm và trồng cây thật.',
       featureNames: [
         'Gói Miễn Phí',
@@ -637,15 +637,15 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'Chrobox có phải là một lựa chọn thay thế tốt cho Forest không?',
-          answer: 'Chrobox là một lựa chọn thay thế tốt nếu bạn muốn tính năng chặn ứng dụng như một phần của việc lên kế hoạch cho cả ngày nhiệm vụ, thay vì một bộ đếm giờ phiên độc lập. Nó không thể thay thế gói miễn phí, động lực trồng cây được game hóa, hay các phiên tập trung nhóm của Forest, những thứ mà Chrobox không có.',
+          answer: 'Chrobox là một lựa chọn thay thế tốt nếu bạn muốn tính năng chặn ứng dụng như một phần của việc lên kế hoạch cho cả ngày nhiệm vụ, thay vì một bộ đếm giờ phiên độc lập. Nó không thể thay thế động lực trồng cây được game hóa hay các phiên tập trung nhóm của Forest, những thứ mà Chrobox không có; và gói miễn phí của Forest đã bao gồm chặn ứng dụng, trong khi chặn ứng dụng của Chrobox cần Pro.',
         },
         {
           question: 'Sự khác biệt giữa Chrobox và Forest là gì?',
-          answer: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, nơi việc tránh xa điện thoại giúp một cái cây ảo lớn lên, và gói miễn phí của nó bao gồm cả tính năng chặn ứng dụng lẫn các phiên nhóm. Chrobox là một trình lập kế hoạch chỉ dành cho người dùng Pro, chỉ dành cho điện thoại, lên lịch cả ngày của bạn thành các hộp thời gian, gắn tính năng chặn ứng dụng với các hộp đó và các thói quen, đồng thời bổ sung lập kế hoạch bằng AI và đánh giá tâm trạng hàng ngày, nhưng không có game hóa hay tính năng nhóm.',
+          answer: 'Forest là một bộ đếm giờ tập trung được game hóa, miễn phí, nơi việc tránh xa điện thoại giúp một cái cây ảo lớn lên, và gói miễn phí của nó bao gồm cả tính năng chặn ứng dụng lẫn các phiên nhóm. Chrobox là một trình lập kế hoạch chỉ dành cho điện thoại, có gói miễn phí, lên lịch cả ngày của bạn thành các hộp thời gian, gồm cả thói quen và đánh giá tâm trạng hàng ngày; gói Pro gắn tính năng chặn ứng dụng với các hộp đó và các thói quen, đồng thời bổ sung lập kế hoạch bằng AI. Chrobox không có game hóa hay tính năng nhóm.',
         },
         {
           question: 'Chrobox có gói miễn phí như Forest không?',
-          answer: 'Không. Chrobox có thể tải miễn phí, nhưng cần Chrobox Pro để sử dụng, bắt đầu bằng 3 ngày dùng thử miễn phí cho người đăng ký mới trên gói theo tháng hoặc theo năm. Forest cung cấp một trải nghiệm cốt lõi thực sự miễn phí, bao gồm bộ đếm giờ tập trung và tính năng chặn ứng dụng Deep Focus.',
+          answer: 'Có, nhưng có giới hạn. Chrobox tải về miễn phí và gói miễn phí không giới hạn thời gian: nhiệm vụ, hộp thời gian trên dòng thời gian trong ngày, bộ đếm giờ tập trung, lời nhắc, thói quen và đánh giá hằng ngày. Chặn ứng dụng, widget, các tính năng AI và thống kê chi tiết cần Chrobox Pro, bắt đầu bằng 3 ngày dùng thử miễn phí cho người đăng ký mới trên gói theo tháng hoặc theo năm. Forest cung cấp một trải nghiệm cốt lõi thực sự miễn phí, bao gồm bộ đếm giờ tập trung và tính năng chặn ứng dụng Deep Focus.',
         },
       ],
     },
@@ -783,7 +783,7 @@ export const pack: LocalizedContentPack = {
       faqs: [
         {
           question: 'App time-boxing miễn phí nào tốt nhất?',
-          answer: 'Chrobox không có gói miễn phí — ứng dụng có thể tải miễn phí, nhưng cần Chrobox Pro để sử dụng, bắt đầu bằng 3 ngày dùng thử miễn phí. Nếu bạn muốn một lựa chọn time-boxing hoàn toàn miễn phí, tính năng chia khối thời gian thủ công của Google Calendar không mất phí, dù nó thiếu tính năng ghi nhận nhiệm vụ, bộ đếm giờ tập trung và chặn ứng dụng của Chrobox.',
+          answer: 'Chrobox có gói miễn phí không giới hạn thời gian — công việc, hộp thời gian trên dòng thời gian trong ngày, bộ đếm giờ tập trung, thói quen và đánh giá hằng ngày. Chặn ứng dụng, widget và các tính năng AI cần Chrobox Pro, bắt đầu bằng 3 ngày dùng thử miễn phí. Nếu bạn muốn một lựa chọn time-boxing hoàn toàn miễn phí, tính năng chia khối thời gian thủ công của Google Calendar không mất phí, dù nó thiếu tính năng ghi nhận nhiệm vụ, bộ đếm giờ tập trung và chặn ứng dụng của Chrobox.',
         },
         {
           question: 'Ứng dụng time-boxing nào hoạt động trên cả iPhone và Android?',
@@ -2760,7 +2760,7 @@ Chrobox được xây dựng xoay quanh toàn bộ vòng lặp timeboxing, thay 
 
 **Điểm mạnh:** vòng lặp hoàn chỉnh lập kế hoạch → tập trung → đánh giá, chặn ứng dụng gắn với các box, widget và bộ đếm giờ Live Activity, 54 ngôn ngữ
 **Điểm yếu:** chỉ có trên di động (không có ứng dụng desktop), không có tính năng cho nhóm
-**Giá:** 3 ngày dùng thử miễn phí; Pro có gói đăng ký hoặc mua trọn đời một lần
+**Giá:** gói miễn phí; Pro (dùng thử miễn phí 3 ngày) bổ sung chặn ứng dụng, widget và AI — đăng ký hoặc mua trọn đời một lần
 
 ### 2. Sunsama — tốt nhất cho dân chuyên nghiệp bận rộn với lịch (Web, desktop, di động)
 
@@ -2822,7 +2822,7 @@ Chế độ xem lịch của Todoist và đồng bộ hai chiều với Google C
 
 | Ứng dụng | Vòng lặp cốt lõi | Chặn ứng dụng | Đánh giá/hồi tưởng | Gói miễn phí | Nền tảng |
 |---|---|---|---|---|---|
-| Chrobox | Timeboxing đầy đủ | ✅ | ✅ Hồi tưởng AI | Dùng thử 3 ngày | iOS, Android |
+| Chrobox | Timeboxing đầy đủ | ✅ | ✅ Hồi tưởng AI | Miễn phí + Pro (dùng thử 3 ngày) | iOS, Android |
 | Sunsama | Lập kế hoạch hàng ngày | ❌ | ✅ nghi thức kết ngày | chỉ dùng thử | Web, desktop, di động |
 | Motion | Lập lịch bằng AI | ❌ | ❌ | chỉ dùng thử | Web, di động |
 | TickTick | Danh sách nhiệm vụ + dòng thời gian | ❌ | ❌ | ✅ | Mọi nền tảng |

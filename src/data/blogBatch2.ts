@@ -19,8 +19,8 @@ export const enBatch2: BlogPostMeta[] = [
       {
         question: 'What is the best free time-boxing app?',
         questionKo: '최고의 무료 타임박싱 앱은 무엇인가요?',
-        answer: "Chrobox doesn't have a free plan — it's free to download but requires Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
-        answerKo: 'Chrobox는 무료 플랜이 없습니다 — 앱은 무료로 다운로드할 수 있지만 이용하려면 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
+        answer: "Chrobox has a free plan with no time limit — tasks, time boxes on a day timeline, a focus timer, routines, and daily reflection. App blocking, widgets, and AI features require Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
+        answerKo: 'Chrobox에는 기간 제한 없는 무료 플랜이 있습니다 — 할 일, 하루 타임라인의 타임박스, 집중 타이머, 루틴, 일일 회고를 쓸 수 있습니다. 앱 차단·위젯·AI 기능은 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
       },
       {
         question: 'Which time-boxing app works across iPhone and Android?',
@@ -158,8 +158,8 @@ export const koBatch2: BlogPostMeta[] = [
       {
         question: 'What is the best free time-boxing app?',
         questionKo: '최고의 무료 타임박싱 앱은 무엇인가요?',
-        answer: "Chrobox doesn't have a free plan — it's free to download but requires Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
-        answerKo: 'Chrobox는 무료 플랜이 없습니다 — 앱은 무료로 다운로드할 수 있지만 이용하려면 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
+        answer: "Chrobox has a free plan with no time limit — tasks, time boxes on a day timeline, a focus timer, routines, and daily reflection. App blocking, widgets, and AI features require Chrobox Pro, which starts with a 3-day free trial. If you want a completely free time-boxing option, Google Calendar's manual time-blocking costs nothing, though it lacks Chrobox's task capture, focus timer, and app blocking.",
+        answerKo: 'Chrobox에는 기간 제한 없는 무료 플랜이 있습니다 — 할 일, 하루 타임라인의 타임박스, 집중 타이머, 루틴, 일일 회고를 쓸 수 있습니다. 앱 차단·위젯·AI 기능은 Chrobox Pro가 필요하며, 3일 무료 체험으로 시작합니다. 완전히 무료인 타임박싱 옵션을 원한다면 Google 캘린더의 수동 타임블로킹이 비용 없이 가능하지만, Chrobox의 작업 수집·집중 타이머·앱 차단 기능은 없습니다.',
       },
       {
         question: 'Which time-boxing app works across iPhone and Android?',
@@ -298,7 +298,7 @@ Chrobox is built around the full timeboxing loop rather than a calendar with ext
 
 **Strengths:** complete plan→focus→review loop, app blocking tied to boxes, widgets and Live Activity timer, 54 languages
 **Weaknesses:** mobile-only (no desktop app), no team features
-**Pricing:** 3-day free trial; Pro subscription or one-time lifetime purchase
+**Pricing:** free plan; Pro (3-day free trial) adds app blocking, widgets, and AI — subscription or one-time lifetime purchase
 
 ### 2. Sunsama — best for calendar-heavy professionals (Web, desktop, mobile)
 
@@ -360,7 +360,7 @@ Todoist's calendar view and Google Calendar two-way sync let checklist devotees 
 
 | App | Core loop | App blocking | Review/retrospective | Free tier | Platforms |
 |---|---|---|---|---|---|
-| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | 3-day trial | iOS, Android |
+| Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | Free + Pro (3-day trial) | iOS, Android |
 | Sunsama | Daily planning | ❌ | ✅ shutdown ritual | trial only | Web, desktop, mobile |
 | Motion | AI scheduling | ❌ | ❌ | trial only | Web, mobile |
 | TickTick | Task list + timeline | ❌ | ❌ | ✅ | All |
@@ -400,7 +400,7 @@ The honest bottom line: any of these apps beats no system at all. Pick the one w
 
 **강점:** 계획→집중→회고 루프 완결, 박스 연동 앱 차단, 위젯·Live Activity 타이머, 54개 언어
 **약점:** 모바일 전용(데스크톱 없음), 팀 기능 없음
-**가격:** 3일 무료 체험; Pro 구독 또는 평생 이용권 단건 구매
+**가격:** 무료 플랜; Pro(3일 무료 체험)는 앱 차단·위젯·AI 추가 — 구독 또는 평생 이용권 단건 구매
 
 ### 2. Sunsama — 캘린더 중심 직장인에게 최적 (웹, 데스크톱, 모바일)
 
@@ -462,7 +462,7 @@ Todoist의 캘린더 뷰와 Google 캘린더 양방향 동기화 덕분에, 체�
 
 | 앱 | 핵심 루프 | 앱 차단 | 회고 | 무료 플랜 | 플랫폼 |
 |---|---|---|---|---|---|
-| 크로박스 | 타임박싱 전체 | ✅ | ✅ AI 회고 | 3일 체험 | iOS, Android |
+| 크로박스 | 타임박싱 전체 | ✅ | ✅ AI 회고 | 무료 + Pro(3일 체험) | iOS, Android |
 | Sunsama | 데일리 플래닝 | ❌ | ✅ 마감 의식 | 체험판만 | 웹, 데스크톱, 모바일 |
 | Motion | AI 스케줄링 | ❌ | ❌ | 체험판만 | 웹, 모바일 |
 | TickTick | 할 일 + 타임라인 | ❌ | ❌ | ✅ | 전체 |
