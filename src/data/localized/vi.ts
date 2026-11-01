@@ -3995,6 +3995,48 @@ Bản thân mẫu ít quan trọng hơn việc xuất hiện với bất kỳ m�
         'Cập nhật lộ trình & tinh chỉnh backlog',
         'Tổng kết ngày & chuẩn bị ngày mai',
       ],
+      weeklyTitle: 'Ví dụ lịch làm việc hằng tuần của quản lý sản phẩm',
+      weekly: [
+        {
+          day: 'Thứ Hai',
+          theme: 'Lập kế hoạch sprint',
+          blocks: 'Lập kế hoạch sprint, ưu tiên trong tuần, rà soát backlog',
+        },
+        {
+          day: 'Thứ Ba',
+          theme: 'Tìm hiểu khách hàng',
+          blocks: 'Phỏng vấn người dùng, xem phản hồi và yêu cầu hỗ trợ',
+        },
+        {
+          day: 'Thứ Tư',
+          theme: 'Ngày tập trung sáng tạo',
+          blocks: 'Viết PRD và đặc tả trong các khối tập trung dài; không họp định kỳ',
+        },
+        {
+          day: 'Thứ Năm',
+          theme: 'Thống nhất với các bên liên quan',
+          blocks: 'Rà soát lộ trình; đồng bộ với thiết kế, marketing và kinh doanh',
+        },
+        {
+          day: 'Thứ Sáu',
+          theme: 'Đo lường và làm mới',
+          blocks: 'Rà soát KPI, demo hoặc retro sprint, 3 ưu tiên cho tuần sau',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Lịch làm việc hằng ngày của một quản lý sản phẩm trông như thế nào?',
+          answer: 'Trong mẫu này, một ngày kéo dài từ 08:00 đến 17:00 với 9 khối thời gian: khoảng 3 giờ họp (họp đứng và lập kế hoạch sprint, họp với các bên liên quan hoặc phỏng vấn người dùng, đồng bộ liên phòng ban), 2 giờ làm việc sâu được bảo vệ vào buổi sáng để viết PRD và đặc tả, 3 giờ việc hành chính như xem chỉ số, xử lý tin nhắn Slack và cập nhật lộ trình cùng backlog, và 1 giờ nghỉ trưa.',
+        },
+        {
+          question: 'Quản lý sản phẩm nên lên kế hoạch cho cả tuần như thế nào?',
+          answer: 'Đặt cho mỗi ngày làm việc một chủ đề để các cuộc họp không chia nhỏ mọi ngày: thứ Hai lập kế hoạch sprint, thứ Ba trò chuyện với khách hàng, giữ thứ Tư là ngày tập trung sáng tạo không họp để viết đặc tả, thứ Năm thống nhất với các bên liên quan và thứ Sáu xem lại các chỉ số. Trong mỗi ngày, gom các cuộc họp vào buổi chiều để buổi sáng dành cho công việc tập trung.',
+        },
+        {
+          question: 'Dùng mẫu lịch làm việc cho quản lý sản phẩm này như thế nào?',
+          answer: 'Tải tệp .ics ở trên và nhập vào Google Lịch, Lịch Apple hoặc Outlook — mỗi khối sẽ lặp lại vào cùng giờ trong mọi ngày làm việc. Để thực hiện ngày làm việc dưới dạng time box trên điện thoại, hãy thêm các khối đó thành nhiệm vụ trong Chrobox: gói miễn phí có dòng thời gian trong ngày, bộ hẹn giờ tập trung, lời nhắc và thói quen, còn Chrobox Pro bổ sung tính năng chặn ứng dụng trong các khối tập trung.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Nhà thiết kế đồ họa',
@@ -4367,6 +4409,48 @@ Bản thân mẫu ít quan trọng hơn việc xuất hiện với bất kỳ m�
         'Đánh giá phòng ban & xử lý sự vụ',
         'Nhân sự: tuyển dụng, hiệu suất & văn hóa',
         'Giao tiếp: duyệt văn bản & phản hồi',
+      ],
+      weeklyTitle: 'Ví dụ lịch làm việc hằng tuần của lãnh đạo và CEO',
+      weekly: [
+        {
+          day: 'Thứ Hai',
+          theme: 'Định hướng',
+          blocks: 'Họp ban lãnh đạo, ưu tiên trong tuần, chỉ số chính',
+        },
+        {
+          day: 'Thứ Ba',
+          theme: 'Phát triển con người',
+          blocks: 'Gặp 1:1 với cấp dưới trực tiếp, rà soát tuyển dụng và hiệu suất',
+        },
+        {
+          day: 'Thứ Tư',
+          theme: 'Nhìn xa',
+          blocks: 'Buổi sáng không họp dành cho chiến lược và kế hoạch dài hạn',
+        },
+        {
+          day: 'Thứ Năm',
+          theme: 'Gặp gỡ bên ngoài',
+          blocks: 'Khách hàng, thành viên hội đồng quản trị, nhà đầu tư hoặc đối tác',
+        },
+        {
+          day: 'Thứ Sáu',
+          theme: 'Tổng kết và truyền đạt',
+          blocks: 'Rà soát các phòng ban, cập nhật bằng văn bản cho toàn công ty, nhật ký quyết định',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Lịch làm việc hằng ngày của một CEO trông như thế nào?',
+          answer: 'Trong mẫu này, một ngày kéo dài từ 06:00 đến 17:00: thói quen buổi sáng trước cuộc họp đầu tiên, khoảng 4 giờ họp (ban lãnh đạo hoặc 1:1, hội đồng quản trị, nhà đầu tư hoặc khách hàng, rà soát phòng ban), một khối 2 giờ suy nghĩ chiến lược không bị gián đoạn từ 09:00 và khoảng 2,5 giờ cho việc xem chỉ số, nhân sự và giao tiếp bằng văn bản. Trong một nghiên cứu của Trường Kinh doanh Harvard với 27 CEO (Porter và Nohria, 2018), các cuộc họp chiếm 72% thời gian làm việc của họ, vì vậy khối thời gian để suy nghĩ được xếp lịch trước tiên.',
+        },
+        {
+          question: 'Lãnh đạo bảo vệ thời gian dành cho chiến lược như thế nào?',
+          answer: 'Hãy coi khối thời gian suy nghĩ mỗi ngày như một cuộc hẹn cố định — mẫu này dành 09:00–11:00 cho hoạch định chiến lược và các quyết định quan trọng — và thêm một buổi sáng không họp mỗi tuần. Gom việc ra quyết định vào những khung giờ cố định, ủy quyền mọi việc không cần đến phán đoán của bạn và chia sẻ quyết định bằng văn bản để bớt những cuộc họp chỉ nhằm truyền đạt lại.',
+        },
+        {
+          question: 'Dùng mẫu lịch làm việc cho lãnh đạo này như thế nào?',
+          answer: 'Tải tệp .ics ở trên và nhập vào Google Lịch, Lịch Apple hoặc Outlook — mỗi khối sẽ lặp lại vào cùng giờ trong mọi ngày làm việc, để đội ngũ của bạn có thể sắp lịch xoay quanh. Để thực hiện ngày làm việc dưới dạng time box trên điện thoại, hãy thêm các khối đó thành nhiệm vụ trong Chrobox: gói miễn phí có dòng thời gian trong ngày, bộ hẹn giờ tập trung, lời nhắc và thói quen, còn Chrobox Pro bổ sung tính năng chặn ứng dụng trong các khối tập trung.',
+        },
       ],
     },
     'parent-working-from-home': {

@@ -3995,6 +3995,48 @@ Het sjabloon maakt minder uit dan de meeste avonden opdagen met welk sjabloon da
         'Roadmap bijwerken & backlog-grooming',
         'Dagafsluiting & voorbereiding volgende dag',
       ],
+      weeklyTitle: 'Voorbeeld van een weekplanning voor een productmanager',
+      weekly: [
+        {
+          day: 'Maandag',
+          theme: 'Sprint plannen',
+          blocks: 'Sprintplanning, weekprioriteiten, backlog doorlopen',
+        },
+        {
+          day: 'Dinsdag',
+          theme: 'Klantonderzoek',
+          blocks: 'Gebruikersinterviews, feedback en supporttickets doornemen',
+        },
+        {
+          day: 'Woensdag',
+          theme: 'Makersdag',
+          blocks: 'PRD\'s en specificaties in lange focusblokken; geen terugkerende meetings',
+        },
+        {
+          day: 'Donderdag',
+          theme: 'Stakeholders afstemmen',
+          blocks: 'Roadmapreview; afstemming met design, marketing en sales',
+        },
+        {
+          day: 'Vrijdag',
+          theme: 'Meten en resetten',
+          blocks: 'KPI-review, sprintdemo of retro, top 3 voor volgende week',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Hoe ziet de dagplanning van een productmanager eruit?',
+          answer: 'In dit sjabloon loopt de dag van 08:00 tot 17:00 in 9 tijdblokken: ongeveer 3 uur meetings (stand-up en sprintplanning, een stakeholdermeeting of gebruikersinterview, een afstemming tussen teams), 2 uur beschermd deep work in de ochtend voor PRD\'s en specificaties, 3 uur administratief werk zoals metrics bekijken, Slack-berichten afhandelen en de roadmap en backlog bijwerken, en 1 uur lunch.',
+        },
+        {
+          question: 'Hoe plant een productmanager de week?',
+          answer: 'Geef elke werkdag één thema, zodat meetings niet elke dag versnipperen: plan de sprint op maandag, spreek klanten op dinsdag, houd woensdag vrij als meetingvrije makersdag voor specificaties, stem op donderdag af met stakeholders en bekijk de metrics op vrijdag. Bundel binnen elke dag de meetings in de middag, zodat de ochtenden vrij blijven voor geconcentreerd werk.',
+        },
+        {
+          question: 'Hoe gebruik ik dit planningssjabloon voor productmanagers?',
+          answer: 'Download het .ics-bestand hierboven en importeer het in Google Agenda, Apple Agenda of Outlook: elk blok herhaalt zich elke werkdag op hetzelfde tijdstip. Wil je de dag op je telefoon als timeboxes uitvoeren, voeg de blokken dan als taken toe in Chrobox: het gratis abonnement bevat de dagtijdlijn, de focustimer, herinneringen en routines, en Chrobox Pro voegt het blokkeren van apps toe tijdens je focusblokken.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Grafisch ontwerper',
@@ -4367,6 +4409,48 @@ Het sjabloon maakt minder uit dan de meeste avonden opdagen met welk sjabloon da
         'Afdelingsreviews & organisatiebrede kwesties',
         'Talent: sollicitatiegesprekken, prestaties & cultuur',
         'Communicatie: schriftelijke besluiten & teamberichten',
+      ],
+      weeklyTitle: 'Voorbeeld van een weekplanning voor een executive of CEO',
+      weekly: [
+        {
+          day: 'Maandag',
+          theme: 'Richting geven',
+          blocks: 'Overleg met het managementteam, weekprioriteiten, belangrijkste cijfers',
+        },
+        {
+          day: 'Dinsdag',
+          theme: 'Mensen ontwikkelen',
+          blocks: '1-op-1\'s met directe medewerkers, werving en beoordelingen',
+        },
+        {
+          day: 'Woensdag',
+          theme: 'Vooruitdenken',
+          blocks: 'Meetingvrije ochtend voor strategie en langetermijnplanning',
+        },
+        {
+          day: 'Donderdag',
+          theme: 'Externe afspraken',
+          blocks: 'Klanten, commissarissen, investeerders of partners',
+        },
+        {
+          day: 'Vrijdag',
+          theme: 'Evalueren en communiceren',
+          blocks: 'Afdelingsreviews, schriftelijke update voor het bedrijf, besluitenlog',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Hoe ziet de dagplanning van een CEO eruit?',
+          answer: 'In dit sjabloon loopt de dag van 06:00 tot 17:00: een ochtendroutine vóór de eerste meeting, ongeveer 4 uur meetings (managementteam of 1-op-1\'s, raad van commissarissen, investeerders of klanten, afdelingsreviews), een blok van 2 uur ongestoord strategisch nadenken vanaf 09:00 en ongeveer 2,5 uur voor de cijferreview, talent en schriftelijke communicatie. In een onderzoek van Harvard Business School onder 27 CEO\'s (Porter en Nohria, 2018) namen meetings 72% van hun werktijd in beslag; daarom wordt het denkblok als eerste ingepland.',
+        },
+        {
+          question: 'Hoe beschermen leidinggevenden hun tijd voor strategie?',
+          answer: 'Behandel een dagelijks denkblok als een vaste afspraak — dit sjabloon reserveert 09:00–11:00 voor strategische planning en cruciale besluiten — en voeg één meetingvrije ochtend per week toe. Bundel beslissingen op vaste momenten, delegeer alles wat jouw oordeel niet nodig heeft en deel besluiten schriftelijk, zodat er minder meetings nodig zijn om ze door te geven.',
+        },
+        {
+          question: 'Hoe gebruik ik dit planningssjabloon voor leidinggevenden?',
+          answer: 'Download het .ics-bestand hierboven en importeer het in Google Agenda, Apple Agenda of Outlook: elk blok herhaalt zich elke werkdag op hetzelfde tijdstip, zodat je team eromheen kan plannen. Wil je de dag op je telefoon als timeboxes uitvoeren, voeg de blokken dan als taken toe in Chrobox: het gratis abonnement bevat de dagtijdlijn, de focustimer, herinneringen en routines, en Chrobox Pro voegt het blokkeren van apps toe tijdens je focusblokken.',
+        },
       ],
     },
     'parent-working-from-home': {

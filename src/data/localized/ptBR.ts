@@ -3976,6 +3976,48 @@ O modelo importa menos do que aparecer com algum modelo, na maioria das noites, 
         'Atualizações do roadmap e refinamento do backlog',
         'Encerramento do dia e preparação para amanhã',
       ],
+      weeklyTitle: 'Exemplo de agenda semanal de um product manager',
+      weekly: [
+        {
+          day: 'Segunda-feira',
+          theme: 'Planejar a sprint',
+          blocks: 'Planejamento da sprint, prioridades da semana, revisão do backlog',
+        },
+        {
+          day: 'Terça-feira',
+          theme: 'Descoberta com clientes',
+          blocks: 'Entrevistas com usuários, revisão de feedback e tickets de suporte',
+        },
+        {
+          day: 'Quarta-feira',
+          theme: 'Dia de criação',
+          blocks: 'PRDs e especificações em blocos longos de foco; sem reuniões recorrentes',
+        },
+        {
+          day: 'Quinta-feira',
+          theme: 'Alinhamento com stakeholders',
+          blocks: 'Revisão do roadmap; alinhamento com design, marketing e vendas',
+        },
+        {
+          day: 'Sexta-feira',
+          theme: 'Medir e recomeçar',
+          blocks: 'Revisão de KPIs, demo ou retrospectiva da sprint, 3 prioridades da próxima semana',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Como é a agenda diária de um product manager?',
+          answer: 'Neste modelo, o dia vai das 08:00 às 17:00 em 9 blocos de tempo: cerca de 3 horas de reuniões (stand-up e planejamento da sprint, uma reunião com stakeholders ou entrevista com usuários, um alinhamento entre áreas), 2 horas de trabalho focado protegido pela manhã para PRDs e especificações, 3 horas de tarefas administrativas como revisar métricas, organizar o Slack e atualizar o roadmap e o backlog, e 1 hora de almoço.',
+        },
+        {
+          question: 'Como um product manager deve planejar a semana?',
+          answer: 'Dê um tema a cada dia útil para que as reuniões não fragmentem todos os dias: planeje a sprint na segunda, converse com clientes na terça, reserve a quarta como dia de criação sem reuniões para escrever especificações, alinhe os stakeholders na quinta e revise as métricas na sexta. Dentro de cada dia, agrupe as reuniões à tarde para deixar as manhãs livres para o trabalho focado.',
+        },
+        {
+          question: 'Como usar este modelo de agenda de product manager?',
+          answer: 'Baixe o arquivo .ics acima e importe-o no Google Agenda, no Calendário da Apple ou no Outlook: cada bloco se repete em todos os dias úteis no mesmo horário. Para executar o dia como blocos de tempo no celular, adicione os blocos como tarefas no Chrobox: o plano gratuito inclui a linha do tempo do dia, o timer de foco, os lembretes e as rotinas, e o Chrobox Pro adiciona o bloqueio de apps durante seus blocos de foco.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Designer Gráfico',
@@ -4348,6 +4390,48 @@ O modelo importa menos do que aparecer com algum modelo, na maioria das noites, 
         'Revisão de departamentos e alinhamento geral',
         'Talentos: contratações, desempenho e cultura',
         'Comunicação: decisões escritas e mensagens à equipe',
+      ],
+      weeklyTitle: 'Exemplo de agenda semanal de um executivo ou CEO',
+      weekly: [
+        {
+          day: 'Segunda-feira',
+          theme: 'Definir a direção',
+          blocks: 'Reunião da diretoria, prioridades da semana, métricas-chave',
+        },
+        {
+          day: 'Terça-feira',
+          theme: 'Desenvolver pessoas',
+          blocks: 'Reuniões 1:1 com liderados diretos, revisões de contratação e desempenho',
+        },
+        {
+          day: 'Quarta-feira',
+          theme: 'Pensar à frente',
+          blocks: 'Manhã sem reuniões para estratégia e planejamento de longo prazo',
+        },
+        {
+          day: 'Quinta-feira',
+          theme: 'Reuniões externas',
+          blocks: 'Clientes, conselheiros, investidores ou parceiros',
+        },
+        {
+          day: 'Sexta-feira',
+          theme: 'Revisar e comunicar',
+          blocks: 'Revisões das áreas, atualização por escrito para a empresa, registro de decisões',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Como é a agenda diária de um CEO?',
+          answer: 'Neste modelo, o dia vai das 06:00 às 17:00: uma rotina matinal antes da primeira reunião, cerca de 4 horas de reuniões (diretoria ou 1:1, conselho, investidores ou clientes, revisões das áreas), um bloco de 2 horas de pensamento estratégico sem interrupções a partir das 09:00 e cerca de 2,5 horas para a revisão de métricas, gestão de talentos e comunicação por escrito. Em um estudo da Harvard Business School com 27 CEOs (Porter e Nohria, 2018), as reuniões ocupavam 72% do tempo de trabalho, por isso o bloco para pensar é agendado primeiro.',
+        },
+        {
+          question: 'Como os executivos protegem o tempo para a estratégia?',
+          answer: 'Trate um bloco diário para pensar como um compromisso fixo — este modelo reserva das 09:00 às 11:00 para planejamento estratégico e decisões críticas — e acrescente uma manhã sem reuniões por semana. Agrupe as decisões em horários fixos, delegue tudo o que não precisa do seu julgamento e compartilhe as decisões por escrito para que sejam necessárias menos reuniões para repassá-las.',
+        },
+        {
+          question: 'Como usar este modelo de agenda para executivos?',
+          answer: 'Baixe o arquivo .ics acima e importe-o no Google Agenda, no Calendário da Apple ou no Outlook: cada bloco se repete em todos os dias úteis no mesmo horário, para que sua equipe possa se organizar em torno dele. Para executar o dia como blocos de tempo no celular, adicione os blocos como tarefas no Chrobox: o plano gratuito inclui a linha do tempo do dia, o timer de foco, os lembretes e as rotinas, e o Chrobox Pro adiciona o bloqueio de apps durante seus blocos de foco.',
+        },
       ],
     },
     'parent-working-from-home': {

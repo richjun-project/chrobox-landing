@@ -3975,6 +3975,48 @@ Bu dört şablondan herhangi birini kağıt üzerinde, bir not uygulamasında ve
         'Yol haritası güncellemeleri ve backlog düzenleme',
         'Günlük kapanış ve ertesi güne hazırlık',
       ],
+      weeklyTitle: 'Ürün yöneticisi için haftalık program örneği',
+      weekly: [
+        {
+          day: 'Pazartesi',
+          theme: 'Sprinti planla',
+          blocks: 'Sprint planlama, haftanın öncelikleri, backlog kontrolü',
+        },
+        {
+          day: 'Salı',
+          theme: 'Müşteriyi anlama',
+          blocks: 'Kullanıcı görüşmeleri, geri bildirim ve destek taleplerinin incelenmesi',
+        },
+        {
+          day: 'Çarşamba',
+          theme: 'Üretim günü',
+          blocks: 'Uzun odak bloklarında PRD ve spesifikasyon yazımı; düzenli toplantı yok',
+        },
+        {
+          day: 'Perşembe',
+          theme: 'Paydaşlarla uyum',
+          blocks: 'Yol haritası incelemesi; tasarım, pazarlama ve satışla senkronizasyon',
+        },
+        {
+          day: 'Cuma',
+          theme: 'Ölç ve sıfırla',
+          blocks: 'KPI incelemesi, sprint demosu veya retrosu, gelecek haftanın ilk 3 önceliği',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Bir ürün yöneticisinin günlük programı nasıl görünür?',
+          answer: 'Bu şablonda gün 08:00–17:00 arasında 9 zaman bloğundan oluşur: yaklaşık 3 saat toplantı (stand-up ve sprint planlama, bir paydaş toplantısı veya kullanıcı görüşmesi, ekipler arası senkronizasyon), sabah PRD ve spesifikasyonlar için korunan 2 saat derin çalışma, metrik incelemesi, Slack mesajlarını düzenleme ve yol haritası ile backlog güncellemesi gibi 3 saat idari iş ve 1 saat öğle arası.',
+        },
+        {
+          question: 'Bir ürün yöneticisi haftasını nasıl planlamalı?',
+          answer: 'Her iş gününe bir tema verin; böylece toplantılar her günü parçalamaz: pazartesi sprinti planlayın, salı müşterilerle konuşun, çarşambayı spesifikasyonlar için toplantısız bir üretim günü olarak ayırın, perşembe paydaşlarla uyum sağlayın ve cuma metrikleri gözden geçirin. Her gün içinde toplantıları öğleden sonraya toplayın ki sabahlar odaklı çalışmaya kalsın.',
+        },
+        {
+          question: 'Bu ürün yöneticisi program şablonunu nasıl kullanırım?',
+          answer: 'Yukarıdaki .ics dosyasını indirip Google Takvim, Apple Takvim veya Outlook\'a aktarın; her blok her iş günü aynı saatte tekrarlanır. Günü telefonunuzda zaman kutuları olarak uygulamak için blokları Chrobox\'a görev olarak ekleyin: ücretsiz plan günlük zaman çizelgesini, odak zamanlayıcısını, hatırlatıcıları ve rutinleri içerir; Chrobox Pro ise odak bloklarınız sırasında uygulama engelleme ekler.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Grafik Tasarımcı',
@@ -4347,6 +4389,48 @@ Bu dört şablondan herhangi birini kağıt üzerinde, bir not uygulamasında ve
         'Departman değerlendirmeleri ve şirket genelindeki konular',
         'Yetenek yönetimi: işe alım, performans ve kültür',
         'İletişim: yazılı kararlar ve ekip mesajları',
+      ],
+      weeklyTitle: 'Üst düzey yönetici ve CEO için haftalık program örneği',
+      weekly: [
+        {
+          day: 'Pazartesi',
+          theme: 'Yönü belirle',
+          blocks: 'Yönetim ekibi toplantısı, haftanın öncelikleri, temel metrikler',
+        },
+        {
+          day: 'Salı',
+          theme: 'İnsanları geliştir',
+          blocks: 'Doğrudan bağlı çalışanlarla birebir görüşmeler, işe alım ve performans değerlendirmeleri',
+        },
+        {
+          day: 'Çarşamba',
+          theme: 'İleriyi düşün',
+          blocks: 'Strateji ve uzun vadeli planlama için toplantısız sabah',
+        },
+        {
+          day: 'Perşembe',
+          theme: 'Dış görüşmeler',
+          blocks: 'Müşteriler, yönetim kurulu üyeleri, yatırımcılar veya iş ortakları',
+        },
+        {
+          day: 'Cuma',
+          theme: 'Değerlendir ve paylaş',
+          blocks: 'Departman incelemeleri, şirkete yazılı güncelleme, karar kaydı',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Bir CEO\'nun günlük programı nasıl görünür?',
+          answer: 'Bu şablonda gün 06:00–17:00 arasındadır: ilk toplantıdan önce bir sabah rutini, yaklaşık 4 saat toplantı (yönetim ekibi veya birebir görüşmeler, yönetim kurulu, yatırımcı veya müşteri toplantıları, departman incelemeleri), 09:00\'dan itibaren 2 saatlik kesintisiz stratejik düşünme bloğu ve metrik incelemesi, yetenek yönetimi ve yazılı iletişim için yaklaşık 2,5 saat. Harvard Business School\'un 27 CEO üzerinde yaptığı bir çalışmada (Porter ve Nohria, 2018) toplantılar çalışma sürelerinin %72\'sini kaplıyordu; bu yüzden düşünme bloğu ilk sırada planlanır.',
+        },
+        {
+          question: 'Yöneticiler strateji için ayırdıkları zamanı nasıl korur?',
+          answer: 'Günlük düşünme bloğunu değiştirilemez bir randevu gibi ele alın — bu şablon 09:00–11:00\'ı stratejik planlama ve kritik kararlara ayırır — ve haftada bir toplantısız sabah ekleyin. Kararları belirli saatlerde toplu verin, sizin muhakemenizi gerektirmeyen her şeyi devredin ve kararları yazılı paylaşın; böylece yalnızca aktarmak için yapılan toplantılar azalır.',
+        },
+        {
+          question: 'Bu yönetici program şablonunu nasıl kullanırım?',
+          answer: 'Yukarıdaki .ics dosyasını indirip Google Takvim, Apple Takvim veya Outlook\'a aktarın; her blok her iş günü aynı saatte tekrarlanır, böylece ekibiniz planlamasını buna göre yapabilir. Günü telefonunuzda zaman kutuları olarak uygulamak için blokları Chrobox\'a görev olarak ekleyin: ücretsiz plan günlük zaman çizelgesini, odak zamanlayıcısını, hatırlatıcıları ve rutinleri içerir; Chrobox Pro ise odak bloklarınız sırasında uygulama engelleme ekler.',
+        },
       ],
     },
     'parent-working-from-home': {

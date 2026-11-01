@@ -3995,6 +3995,48 @@ Templat itu kurang penting berbanding hadir dengan mana-mana templat sekalipun, 
         'Kemas kini pelan hala tuju & pengemasan backlog',
         'Rumusan harian & persediaan hari esok',
       ],
+      weeklyTitle: 'Contoh jadual mingguan pengurus produk',
+      weekly: [
+        {
+          day: 'Isnin',
+          theme: 'Rancang sprint',
+          blocks: 'Perancangan sprint, keutamaan minggu ini, semakan backlog',
+        },
+        {
+          day: 'Selasa',
+          theme: 'Memahami pelanggan',
+          blocks: 'Temu bual pengguna, semakan maklum balas dan tiket sokongan',
+        },
+        {
+          day: 'Rabu',
+          theme: 'Hari mencipta',
+          blocks: 'PRD dan spesifikasi dalam blok fokus panjang; tiada mesyuarat berulang',
+        },
+        {
+          day: 'Khamis',
+          theme: 'Penjajaran pihak berkepentingan',
+          blocks: 'Semakan peta jalan; penyelarasan dengan reka bentuk, pemasaran dan jualan',
+        },
+        {
+          day: 'Jumaat',
+          theme: 'Ukur dan tetapkan semula',
+          blocks: 'Semakan KPI, demo atau retrospektif sprint, 3 keutamaan minggu depan',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Bagaimanakah rupa jadual harian seorang pengurus produk?',
+          answer: 'Dalam templat ini, hari berjalan dari 08:00 hingga 17:00 dalam 9 blok masa: kira-kira 3 jam mesyuarat (stand-up dan perancangan sprint, mesyuarat pihak berkepentingan atau temu bual pengguna, penyelarasan antara pasukan), 2 jam kerja mendalam yang dilindungi pada waktu pagi untuk PRD dan spesifikasi, 3 jam kerja pentadbiran seperti menyemak metrik, mengemas mesej Slack serta mengemas kini peta jalan dan backlog, dan 1 jam makan tengah hari.',
+        },
+        {
+          question: 'Bagaimanakah pengurus produk patut merancang minggunya?',
+          answer: 'Berikan satu tema kepada setiap hari bekerja supaya mesyuarat tidak memecahkan setiap hari: rancang sprint pada hari Isnin, bercakap dengan pelanggan pada hari Selasa, kekalkan Rabu sebagai hari mencipta tanpa mesyuarat untuk menulis spesifikasi, selaraskan pihak berkepentingan pada hari Khamis dan semak metrik pada hari Jumaat. Dalam setiap hari, kumpulkan mesyuarat pada waktu petang supaya pagi kekal kosong untuk kerja berfokus.',
+        },
+        {
+          question: 'Bagaimanakah cara menggunakan templat jadual pengurus produk ini?',
+          answer: 'Muat turun fail .ics di atas dan importnya ke Google Calendar, Apple Calendar atau Outlook — setiap blok berulang setiap hari bekerja pada masa yang sama. Untuk menjalankan hari itu sebagai kotak masa di telefon, tambahkan blok-blok tersebut sebagai tugasan dalam Chrobox: pelan percuma merangkumi garis masa harian, pemasa fokus, peringatan dan rutin, manakala Chrobox Pro menambah sekatan aplikasi semasa blok fokus anda.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Pereka Grafik',
@@ -4367,6 +4409,48 @@ Templat itu kurang penting berbanding hadir dengan mana-mana templat sekalipun, 
         'Semakan jabatan & isu seluruh syarikat',
         'Bakat: semakan pengambilan, prestasi, budaya',
         'Komunikasi: keputusan bertulis & mesej pasukan',
+      ],
+      weeklyTitle: 'Contoh jadual mingguan eksekutif dan CEO',
+      weekly: [
+        {
+          day: 'Isnin',
+          theme: 'Tetapkan hala tuju',
+          blocks: 'Mesyuarat pasukan kepimpinan, keutamaan minggu ini, metrik utama',
+        },
+        {
+          day: 'Selasa',
+          theme: 'Membangunkan orang',
+          blocks: 'Sesi 1:1 dengan orang bawahan langsung, semakan pengambilan dan prestasi',
+        },
+        {
+          day: 'Rabu',
+          theme: 'Berfikir ke hadapan',
+          blocks: 'Pagi tanpa mesyuarat untuk strategi dan perancangan jangka panjang',
+        },
+        {
+          day: 'Khamis',
+          theme: 'Mesyuarat luar',
+          blocks: 'Pelanggan, ahli lembaga pengarah, pelabur atau rakan kongsi',
+        },
+        {
+          day: 'Jumaat',
+          theme: 'Semak dan sampaikan',
+          blocks: 'Semakan jabatan, kemas kini bertulis kepada syarikat, log keputusan',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Bagaimanakah rupa jadual harian seorang CEO?',
+          answer: 'Dalam templat ini, hari berjalan dari 06:00 hingga 17:00: rutin pagi sebelum mesyuarat pertama, kira-kira 4 jam mesyuarat (pasukan kepimpinan atau 1:1, lembaga pengarah, pelabur atau pelanggan, semakan jabatan), blok 2 jam untuk pemikiran strategik tanpa gangguan mulai 09:00, dan kira-kira 2.5 jam untuk semakan metrik, urusan bakat dan komunikasi bertulis. Dalam kajian Harvard Business School terhadap 27 CEO (Porter dan Nohria, 2018), mesyuarat mengambil 72% masa kerja mereka, jadi blok untuk berfikir dijadualkan dahulu.',
+        },
+        {
+          question: 'Bagaimanakah eksekutif melindungi masa untuk strategi?',
+          answer: 'Anggap blok berfikir harian sebagai temu janji tetap — templat ini memperuntukkan 09:00–11:00 untuk perancangan strategik dan keputusan kritikal — dan tambahkan satu pagi tanpa mesyuarat setiap minggu. Kumpulkan keputusan pada waktu yang ditetapkan, wakilkan semua perkara yang tidak memerlukan pertimbangan anda, dan kongsikan keputusan secara bertulis supaya lebih sedikit mesyuarat diperlukan untuk menyampaikannya.',
+        },
+        {
+          question: 'Bagaimanakah cara menggunakan templat jadual eksekutif ini?',
+          answer: 'Muat turun fail .ics di atas dan importnya ke Google Calendar, Apple Calendar atau Outlook — setiap blok berulang setiap hari bekerja pada masa yang sama, jadi pasukan anda boleh merancang di sekelilingnya. Untuk menjalankan hari itu sebagai kotak masa di telefon, tambahkan blok-blok tersebut sebagai tugasan dalam Chrobox: pelan percuma merangkumi garis masa harian, pemasa fokus, peringatan dan rutin, manakala Chrobox Pro menambah sekatan aplikasi semasa blok fokus anda.',
+        },
       ],
     },
     'parent-working-from-home': {

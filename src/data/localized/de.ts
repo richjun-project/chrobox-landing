@@ -3995,6 +3995,48 @@ Die Vorlage zählt weniger, als überhaupt mit irgendeiner Vorlage aufzutauchen,
         'Roadmap-Updates & Backlog-Pflege',
         'Tagesabschluss & Vorbereitung für morgen',
       ],
+      weeklyTitle: 'Beispiel für einen Wochenplan als Produktmanager',
+      weekly: [
+        {
+          day: 'Montag',
+          theme: 'Sprint planen',
+          blocks: 'Sprint-Planung, Wochenprioritäten, Backlog-Check',
+        },
+        {
+          day: 'Dienstag',
+          theme: 'Kundenverständnis',
+          blocks: 'Nutzerinterviews, Feedback und Support-Tickets sichten',
+        },
+        {
+          day: 'Mittwoch',
+          theme: 'Maker-Tag',
+          blocks: 'PRDs und Spezifikationen in langen Fokusblöcken; keine regelmäßigen Meetings',
+        },
+        {
+          day: 'Donnerstag',
+          theme: 'Stakeholder abstimmen',
+          blocks: 'Roadmap-Review; Abstimmung mit Design, Marketing und Vertrieb',
+        },
+        {
+          day: 'Freitag',
+          theme: 'Messen und neu ausrichten',
+          blocks: 'KPI-Review, Sprint-Demo oder Retro, Top 3 für nächste Woche',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Wie sieht der Tagesablauf eines Produktmanagers aus?',
+          answer: 'In dieser Vorlage läuft der Tag von 08:00 bis 17:00 in 9 Zeitblöcken: etwa 3 Stunden Meetings (Stand-up und Sprint-Planung, ein Stakeholder-Meeting oder Nutzerinterview, eine teamübergreifende Abstimmung), 2 Stunden geschützte Deep Work am Vormittag für PRDs und Spezifikationen, 3 Stunden Organisatorisches wie Kennzahlen prüfen, Slack sortieren sowie Roadmap und Backlog aktualisieren, und 1 Stunde Mittagspause.',
+        },
+        {
+          question: 'Wie sollte ein Produktmanager seine Woche planen?',
+          answer: 'Gib jedem Wochentag ein Thema, damit Meetings nicht jeden Tag zerstückeln: Am Montag den Sprint planen, am Dienstag mit Kunden sprechen, den Mittwoch als meetingfreien Maker-Tag für Spezifikationen freihalten, am Donnerstag Stakeholder abstimmen und am Freitag die Kennzahlen prüfen. Innerhalb eines Tages bündelst du Meetings am Nachmittag, damit der Vormittag für konzentrierte Arbeit frei bleibt.',
+        },
+        {
+          question: 'Wie nutze ich diese Zeitplan-Vorlage für Produktmanager?',
+          answer: 'Lade die .ics-Datei oben herunter und importiere sie in Google Kalender, Apple Kalender oder Outlook – jeder Block wiederholt sich an jedem Werktag zur gleichen Zeit. Um den Tag auf dem Smartphone als Time Boxes umzusetzen, lege die Blöcke als Aufgaben in Chrobox an: Der kostenlose Plan umfasst die Tagestimeline, den Fokus-Timer, Erinnerungen und Routinen, und Chrobox Pro ergänzt App-Blocking während deiner Fokusblöcke.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Grafikdesigner',
@@ -4367,6 +4409,48 @@ Die Vorlage zählt weniger, als überhaupt mit irgendeiner Vorlage aufzutauchen,
         'Abteilungs-Reviews & unternehmensweite Themen',
         'Talent-Management: Recruiting, Performance & Kultur',
         'Kommunikation: Schriftliche Entscheidungen & Team-Nachrichten',
+      ],
+      weeklyTitle: 'Beispiel für einen Wochenplan als Führungskraft oder CEO',
+      weekly: [
+        {
+          day: 'Montag',
+          theme: 'Richtung vorgeben',
+          blocks: 'Führungsteam-Meeting, Wochenprioritäten, wichtige Kennzahlen',
+        },
+        {
+          day: 'Dienstag',
+          theme: 'Menschen entwickeln',
+          blocks: '1:1-Gespräche mit direkten Mitarbeitenden, Recruiting und Leistungsbeurteilungen',
+        },
+        {
+          day: 'Mittwoch',
+          theme: 'Vorausdenken',
+          blocks: 'Meetingfreier Vormittag für Strategie und langfristige Planung',
+        },
+        {
+          day: 'Donnerstag',
+          theme: 'Externe Termine',
+          blocks: 'Kunden, Aufsichtsrat, Investoren oder Partner',
+        },
+        {
+          day: 'Freitag',
+          theme: 'Bilanz ziehen und kommunizieren',
+          blocks: 'Bereichsreviews, schriftliches Update an das Unternehmen, Entscheidungsprotokoll',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Wie sieht der Tagesablauf eines CEO aus?',
+          answer: 'In dieser Vorlage läuft der Tag von 06:00 bis 17:00: eine Morgenroutine vor dem ersten Meeting, etwa 4 Stunden Meetings (Führungsteam oder 1:1s, Aufsichtsrat, Investoren oder Kunden, Bereichsreviews), ein 2-stündiger Block für ungestörtes strategisches Denken ab 09:00 und etwa 2,5 Stunden für das Kennzahlen-Review, Personalthemen und schriftliche Kommunikation. In einer Studie der Harvard Business School mit 27 CEOs (Porter und Nohria, 2018) nahmen Meetings 72 % ihrer Arbeitszeit ein – deshalb wird der Denkblock zuerst eingeplant.',
+        },
+        {
+          question: 'Wie schützen Führungskräfte ihre Zeit für Strategie?',
+          answer: 'Behandle einen täglichen Denkblock wie einen festen Termin – diese Vorlage reserviert 09:00–11:00 für strategische Planung und kritische Entscheidungen – und plane einen meetingfreien Vormittag pro Woche ein. Bündle Entscheidungen auf feste Zeiten, delegiere alles, was nicht dein Urteil braucht, und teile Entscheidungen schriftlich, damit weniger Meetings nötig sind, um sie weiterzugeben.',
+        },
+        {
+          question: 'Wie nutze ich diese Zeitplan-Vorlage für Führungskräfte?',
+          answer: 'Lade die .ics-Datei oben herunter und importiere sie in Google Kalender, Apple Kalender oder Outlook – jeder Block wiederholt sich an jedem Werktag zur gleichen Zeit, sodass dein Team darum herum planen kann. Um den Tag auf dem Smartphone als Time Boxes umzusetzen, lege die Blöcke als Aufgaben in Chrobox an: Der kostenlose Plan umfasst die Tagestimeline, den Fokus-Timer, Erinnerungen und Routinen, und Chrobox Pro ergänzt App-Blocking während deiner Fokusblöcke.',
+        },
       ],
     },
     'parent-working-from-home': {

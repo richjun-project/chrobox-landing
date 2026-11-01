@@ -3995,6 +3995,48 @@ Il template conta meno del presentarsi con un template qualsiasi, la maggior par
         'Aggiornamento roadmap e gestione backlog',
         'Chiusura giornata e pianificazione domani',
       ],
+      weeklyTitle: 'Esempio di agenda settimanale di un product manager',
+      weekly: [
+        {
+          day: 'Lunedì',
+          theme: 'Pianificare lo sprint',
+          blocks: 'Sprint planning, priorità della settimana, controllo del backlog',
+        },
+        {
+          day: 'Martedì',
+          theme: 'Ascolto dei clienti',
+          blocks: 'Interviste agli utenti, revisione di feedback e ticket di supporto',
+        },
+        {
+          day: 'Mercoledì',
+          theme: 'Giornata di produzione',
+          blocks: 'PRD e specifiche in lunghi blocchi di concentrazione; nessuna riunione ricorrente',
+        },
+        {
+          day: 'Giovedì',
+          theme: 'Allineamento con gli stakeholder',
+          blocks: 'Revisione della roadmap; allineamenti con design, marketing e vendite',
+        },
+        {
+          day: 'Venerdì',
+          theme: 'Misurare e ripartire',
+          blocks: 'Revisione dei KPI, demo o retrospettiva dello sprint, 3 priorità della settimana successiva',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Com\'è la giornata tipo di un product manager?',
+          answer: 'In questo modello la giornata va dalle 08:00 alle 17:00 in 9 blocchi di tempo: circa 3 ore di riunioni (stand-up e sprint planning, una riunione con gli stakeholder o un\'intervista agli utenti, un allineamento tra team), 2 ore di lavoro profondo protetto al mattino per PRD e specifiche, 3 ore di attività amministrative come la revisione delle metriche, la gestione di Slack e l\'aggiornamento di roadmap e backlog, e 1 ora di pranzo.',
+        },
+        {
+          question: 'Come dovrebbe pianificare la settimana un product manager?',
+          answer: 'Assegna un tema a ogni giorno lavorativo, così le riunioni non frammentano tutte le giornate: pianifica lo sprint il lunedì, parla con i clienti il martedì, tieni il mercoledì come giornata di produzione senza riunioni per le specifiche, allinea gli stakeholder il giovedì e rivedi le metriche il venerdì. All\'interno di ogni giornata, concentra le riunioni nel pomeriggio così le mattine restano libere per il lavoro concentrato.',
+        },
+        {
+          question: 'Come si usa questo modello di agenda per product manager?',
+          answer: 'Scarica il file .ics qui sopra e importalo in Google Calendar, Calendario di Apple o Outlook: ogni blocco si ripete tutti i giorni lavorativi alla stessa ora. Per seguire la giornata in time-boxing sullo smartphone, aggiungi i blocchi come attività in Chrobox: il piano gratuito include la timeline della giornata, il timer di concentrazione, i promemoria e le routine, e Chrobox Pro aggiunge il blocco delle app durante i tuoi blocchi di concentrazione.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Graphic Designer',
@@ -4367,6 +4409,48 @@ Il template conta meno del presentarsi con un template qualsiasi, la maggior par
         'Revisione dei dipartimenti e questioni aziendali',
         'Gestione talenti: assunzioni, performance e cultura',
         'Comunicazione: decisioni scritte e messaggi al team',
+      ],
+      weeklyTitle: 'Esempio di agenda settimanale di un dirigente o CEO',
+      weekly: [
+        {
+          day: 'Lunedì',
+          theme: 'Dare la direzione',
+          blocks: 'Riunione del team di direzione, priorità della settimana, metriche chiave',
+        },
+        {
+          day: 'Martedì',
+          theme: 'Far crescere le persone',
+          blocks: '1:1 con i collaboratori diretti, revisioni di assunzioni e performance',
+        },
+        {
+          day: 'Mercoledì',
+          theme: 'Guardare avanti',
+          blocks: 'Mattina senza riunioni per strategia e pianificazione a lungo termine',
+        },
+        {
+          day: 'Giovedì',
+          theme: 'Incontri esterni',
+          blocks: 'Clienti, consiglieri, investitori o partner',
+        },
+        {
+          day: 'Venerdì',
+          theme: 'Rivedere e comunicare',
+          blocks: 'Revisioni dei reparti, aggiornamento scritto all\'azienda, registro delle decisioni',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Com\'è la giornata tipo di un CEO?',
+          answer: 'In questo modello la giornata va dalle 06:00 alle 17:00: una routine mattutina prima della prima riunione, circa 4 ore di riunioni (team di direzione o 1:1, consiglio di amministrazione, investitori o clienti, revisioni dei reparti), un blocco di 2 ore di pensiero strategico senza interruzioni dalle 09:00 e circa 2,5 ore per la revisione delle metriche, le persone e la comunicazione scritta. In uno studio della Harvard Business School su 27 CEO (Porter e Nohria, 2018), le riunioni occupavano il 72% del loro tempo di lavoro: per questo il blocco per pensare viene fissato per primo.',
+        },
+        {
+          question: 'Come proteggono i dirigenti il tempo per la strategia?',
+          answer: 'Tratta un blocco quotidiano per pensare come un appuntamento fisso — questo modello riserva le 09:00–11:00 alla pianificazione strategica e alle decisioni critiche — e aggiungi una mattina senza riunioni a settimana. Raggruppa le decisioni in orari fissi, delega tutto ciò che non richiede il tuo giudizio e condividi le decisioni per iscritto, così servono meno riunioni per comunicarle.',
+        },
+        {
+          question: 'Come si usa questo modello di agenda per dirigenti?',
+          answer: 'Scarica il file .ics qui sopra e importalo in Google Calendar, Calendario di Apple o Outlook: ogni blocco si ripete tutti i giorni lavorativi alla stessa ora, così il tuo team può organizzarsi di conseguenza. Per seguire la giornata in time-boxing sullo smartphone, aggiungi i blocchi come attività in Chrobox: il piano gratuito include la timeline della giornata, il timer di concentrazione, i promemoria e le routine, e Chrobox Pro aggiunge il blocco delle app durante i tuoi blocchi di concentrazione.',
+        },
       ],
     },
     'parent-working-from-home': {

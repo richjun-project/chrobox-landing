@@ -92,6 +92,9 @@ export interface UiCopy {
   templateCtaTitle: string;
   /** Contains a {profession} placeholder. */
   professionDailySchedule: string;
+  weekDay: string;
+  weekTheme: string;
+  weekBlocks: string;
 }
 
 export const EN_UI_COPY: UiCopy = {
@@ -146,20 +149,20 @@ export const EN_UI_COPY: UiCopy = {
   blogSectionSubtitle: 'Tips and strategies for time-boxing and effective time management.',
   blogListSubtitle: 'Insights, tips, and strategies on time-boxing and productivity.',
   blogPostCtaTitle: 'Start Time-Boxing with Chrobox Today',
-  blogPostCtaSubtitle: 'Transform your productivity with a 3-day free trial.',
+  blogPostCtaSubtitle: 'Free to use — Pro starts with a 3-day free trial.',
   comparisonListTitle: 'Chrobox vs Popular Productivity Apps',
   comparisonListSubtitle: 'See how time-boxing stacks up against other task management apps. Find the right tool for your workflow.',
   comparisonListCtaTitle: 'Try Chrobox for Yourself',
-  comparisonListCtaSubtitle: 'Transform your productivity with intelligent time-boxing. Start with a 3-day free trial.',
+  comparisonListCtaSubtitle: 'Transform your productivity with intelligent time-boxing. Free to use — Pro starts with a 3-day free trial.',
   strengthsAtAGlance: 'The strengths of each app at a glance',
   comparisonCtaTitle: 'Ready to Try Chrobox?',
-  comparisonCtaSubtitle: 'Transform your productivity with intelligent time-boxing. Start with a 3-day free trial.',
+  comparisonCtaSubtitle: 'Transform your productivity with intelligent time-boxing. Free to use — Pro starts with a 3-day free trial.',
   hourByHourPlan: 'Hour-by-hour plan for peak productivity',
   similarProfessionTemplates: 'Schedule templates for similar professions',
   templatesListTitle: 'Daily Schedule Templates for Every Profession',
   templatesListSubtitle: 'Optimize your day with proven time-boxing plans crafted for your specific role.',
   templatesCtaTitle: 'Put These Templates to Work with Chrobox',
-  templatesCtaSubtitle: 'The time-boxing app that turns plans into results. Start with a 3-day free trial.',
+  templatesCtaSubtitle: 'The time-boxing app that turns plans into results. Free to use — Pro starts with a 3-day free trial.',
   comparisonSideBySide: 'Side-by-side comparison of Chrobox and {competitor}',
   comparisonWhichChoose: 'Chrobox vs {competitor}: Which Should You Choose?',
   comparisonFaqSubtitle: 'Common questions about Chrobox vs {competitor}',
@@ -170,6 +173,9 @@ export const EN_UI_COPY: UiCopy = {
   templateExpertAdvice: 'Expert advice for {profession}',
   templateCtaTitle: 'Start your {profession} schedule with Chrobox',
   professionDailySchedule: '{profession} Daily Schedule',
+  weekDay: 'Day',
+  weekTheme: 'Theme',
+  weekBlocks: 'Main blocks',
 };
 
 export const KO_UI_COPY: UiCopy = {
@@ -224,20 +230,20 @@ export const KO_UI_COPY: UiCopy = {
   blogSectionSubtitle: '타임박싱과 효과적인 시간 관리에 대한 팁과 전략을 공유합니다.',
   blogListSubtitle: '타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다.',
   blogPostCtaTitle: '지금 Chrobox로 타임박싱을 시작하세요',
-  blogPostCtaSubtitle: '3일 무료 체험으로 생산성을 혁신하세요.',
+  blogPostCtaSubtitle: '무료로 사용할 수 있고, Pro는 3일 무료 체험으로 시작할 수 있습니다.',
   comparisonListTitle: 'Chrobox vs 다른 생산성 앱',
   comparisonListSubtitle: '타임박싱이 다른 작업 관리 앱과 어떻게 다른지 비교해보세요. 당신의 워크플로우에 맞는 앱을 찾으세요.',
   comparisonListCtaTitle: 'Chrobox를 직접 사용해보세요',
-  comparisonListCtaSubtitle: '타임박싱으로 생산성을 혁신하세요. 3일 무료 체험으로 시작하세요.',
+  comparisonListCtaSubtitle: '타임박싱으로 생산성을 혁신하세요. 무료로 사용할 수 있고, Pro는 3일 무료 체험으로 시작할 수 있습니다.',
   strengthsAtAGlance: '각 앱의 강점을 살펴보세요',
   comparisonCtaTitle: 'Chrobox로 타임박싱을 시작하세요',
-  comparisonCtaSubtitle: '타임박싱 앱으로 생산성을 혁신하세요. 3일 무료 체험으로 시작하세요.',
+  comparisonCtaSubtitle: '타임박싱 앱으로 생산성을 혁신하세요. 무료로 사용할 수 있고, Pro는 3일 무료 체험으로 시작할 수 있습니다.',
   hourByHourPlan: '최고의 생산성을 위한 시간별 계획',
   similarProfessionTemplates: '비슷한 직업을 위한 스케줄 템플릿',
   templatesListTitle: '모든 직업을 위한 하루 일정 템플릿',
   templatesListSubtitle: '전문가들이 검증한 타임박싱 플랜으로 당신의 하루를 최적화하세요.',
   templatesCtaTitle: 'Chrobox로 이 템플릿을 실제로 사용해보세요',
-  templatesCtaSubtitle: '계획을 결과로 바꾸는 타임박싱 앱. 3일 무료 체험으로 시작하세요.',
+  templatesCtaSubtitle: '계획을 결과로 바꾸는 타임박싱 앱. 무료로 사용할 수 있고, Pro는 3일 무료 체험으로 시작할 수 있습니다.',
   comparisonSideBySide: 'Chrobox와 {competitor}의 핵심 기능을 비교해보세요',
   comparisonWhichChoose: 'Chrobox vs {competitor}: 어떤 앱을 선택해야 할까요?',
   comparisonFaqSubtitle: 'Chrobox와 {competitor} 비교에 대한 주요 질문',
@@ -248,6 +254,9 @@ export const KO_UI_COPY: UiCopy = {
   templateExpertAdvice: '{profession}를 위한 전문가 조언',
   templateCtaTitle: 'Chrobox로 {profession} 스케줄을 시작하세요',
   professionDailySchedule: '{profession} 하루 일정',
+  weekDay: '요일',
+  weekTheme: '주제',
+  weekBlocks: '주요 블록',
 };
 
 const uiCopyCache = new Map<ContentLanguage, UiCopy>();

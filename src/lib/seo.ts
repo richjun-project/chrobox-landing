@@ -721,10 +721,33 @@ export function blogArticleSeo(locale: SiteLocale, title: string, excerpt: strin
   };
 }
 
-export function templateArticleSeo(locale: SiteLocale, profession: string, description: string) {
+export function templateArticleSeo(
+  locale: SiteLocale,
+  profession: string,
+  description: string,
+  override?: { title?: string; description?: string },
+) {
   return {
-    title: fitTitle(fillTemplate(seoCopy(locale).templateArticleTitle, { profession })),
-    description,
+    title: fitTitle(
+      override?.title
+        ? `${override.title}${TITLE_SEPARATOR}Chrobox`
+        : fillTemplate(seoCopy(locale).templateArticleTitle, { profession }),
+    ),
+    description: override?.description ?? description,
+  };
+}
+
+/** FAQPage LD from the same items the template page renders (ScheduleTemplate.tsx). */
+export function templateFaqSchema(faqs: { question: string; answer: string }[] | undefined) {
+  if (!faqs || faqs.length === 0) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+    })),
   };
 }
 

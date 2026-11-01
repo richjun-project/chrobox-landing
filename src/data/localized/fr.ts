@@ -3994,6 +3994,48 @@ Le modèle compte moins que le fait de s'y tenir avec n'importe quel modèle, la
         'Mise à jour roadmap & tri du backlog',
         'Bilan de la journée et préparation du lendemain',
       ],
+      weeklyTitle: 'Exemple de semaine type d\'un product manager',
+      weekly: [
+        {
+          day: 'Lundi',
+          theme: 'Planifier le sprint',
+          blocks: 'Planification du sprint, priorités de la semaine, revue du backlog',
+        },
+        {
+          day: 'Mardi',
+          theme: 'Découverte client',
+          blocks: 'Entretiens utilisateurs, retours et tickets de support',
+        },
+        {
+          day: 'Mercredi',
+          theme: 'Journée de production',
+          blocks: 'PRD et spécifications en longs blocs de concentration ; aucune réunion récurrente',
+        },
+        {
+          day: 'Jeudi',
+          theme: 'Alignement des parties prenantes',
+          blocks: 'Revue de la roadmap ; points avec le design, le marketing et les ventes',
+        },
+        {
+          day: 'Vendredi',
+          theme: 'Mesurer et repartir',
+          blocks: 'Revue des KPI, démo ou rétrospective du sprint, 3 priorités de la semaine suivante',
+        },
+      ],
+      faqs: [
+        {
+          question: 'À quoi ressemble la journée type d\'un product manager ?',
+          answer: 'Dans ce modèle, la journée va de 08:00 à 17:00 en 9 blocs de temps : environ 3 heures de réunions (stand-up et planification du sprint, réunion avec les parties prenantes ou entretien utilisateur, point transverse), 2 heures de travail profond protégé le matin pour les PRD et les spécifications, 3 heures de tâches administratives comme la revue des indicateurs, le tri de Slack et la mise à jour de la roadmap et du backlog, et 1 heure de déjeuner.',
+        },
+        {
+          question: 'Comment un product manager doit-il planifier sa semaine ?',
+          answer: 'Donnez un thème à chaque jour ouvré pour que les réunions ne fragmentent pas toutes vos journées : planifiez le sprint le lundi, parlez aux clients le mardi, gardez le mercredi comme journée de production sans réunion pour les spécifications, alignez les parties prenantes le jeudi et passez en revue les indicateurs le vendredi. Dans chaque journée, regroupez les réunions l\'après-midi pour garder les matinées pour le travail concentré.',
+        },
+        {
+          question: 'Comment utiliser ce modèle d\'emploi du temps de product manager ?',
+          answer: 'Téléchargez le fichier .ics ci-dessus et importez-le dans Google Agenda, Apple Calendrier ou Outlook : chaque bloc se répète tous les jours ouvrés à la même heure. Pour suivre la journée en time-boxing sur votre téléphone, ajoutez les blocs comme tâches dans Chrobox : le forfait gratuit comprend la timeline de la journée, le minuteur de concentration, les rappels et les routines, et Chrobox Pro ajoute le blocage d\'applications pendant vos blocs de concentration.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Graphiste',
@@ -4366,6 +4408,48 @@ Le modèle compte moins que le fait de s'y tenir avec n'importe quel modèle, la
         'Revues de service et enjeux globaux',
         'Talents : recrutement, performance et culture',
         'Communication : décisions écrites et messages d\'équipe',
+      ],
+      weeklyTitle: 'Exemple de semaine type d\'un dirigeant ou CEO',
+      weekly: [
+        {
+          day: 'Lundi',
+          theme: 'Donner le cap',
+          blocks: 'Comité de direction, priorités de la semaine, indicateurs clés',
+        },
+        {
+          day: 'Mardi',
+          theme: 'Faire grandir les équipes',
+          blocks: 'Entretiens individuels avec les collaborateurs directs, recrutement et évaluations',
+        },
+        {
+          day: 'Mercredi',
+          theme: 'Prendre du recul',
+          blocks: 'Matinée sans réunion pour la stratégie et la planification à long terme',
+        },
+        {
+          day: 'Jeudi',
+          theme: 'Rendez-vous externes',
+          blocks: 'Clients, administrateurs, investisseurs ou partenaires',
+        },
+        {
+          day: 'Vendredi',
+          theme: 'Faire le point et communiquer',
+          blocks: 'Revues des départements, point écrit à toute l\'entreprise, journal des décisions',
+        },
+      ],
+      faqs: [
+        {
+          question: 'À quoi ressemble la journée type d\'un CEO ?',
+          answer: 'Dans ce modèle, la journée va de 06:00 à 17:00 : une routine matinale avant la première réunion, environ 4 heures de réunions (comité de direction ou entretiens individuels, conseil d\'administration, investisseurs ou clients, revues des départements), un bloc de 2 heures de réflexion stratégique sans interruption à partir de 09:00, et environ 2,5 heures pour la revue des indicateurs, les talents et la communication écrite. Dans une étude de la Harvard Business School portant sur 27 CEO (Porter et Nohria, 2018), les réunions occupaient 72 % de leur temps de travail ; c\'est pourquoi le bloc de réflexion est planifié en premier.',
+        },
+        {
+          question: 'Comment les dirigeants protègent-ils leur temps de réflexion stratégique ?',
+          answer: 'Traitez un bloc de réflexion quotidien comme un rendez-vous fixe (ce modèle réserve 09:00–11:00 à la planification stratégique et aux décisions critiques) et ajoutez une matinée sans réunion par semaine. Regroupez les décisions sur des créneaux fixes, déléguez tout ce qui ne nécessite pas votre jugement et partagez les décisions par écrit pour réduire les réunions qui ne servent qu\'à les transmettre.',
+        },
+        {
+          question: 'Comment utiliser ce modèle d\'emploi du temps de dirigeant ?',
+          answer: 'Téléchargez le fichier .ics ci-dessus et importez-le dans Google Agenda, Apple Calendrier ou Outlook : chaque bloc se répète tous les jours ouvrés à la même heure, ce qui permet à votre équipe de planifier autour. Pour suivre la journée en time-boxing sur votre téléphone, ajoutez les blocs comme tâches dans Chrobox : le forfait gratuit comprend la timeline de la journée, le minuteur de concentration, les rappels et les routines, et Chrobox Pro ajoute le blocage d\'applications pendant vos blocs de concentration.',
+        },
       ],
     },
     'parent-working-from-home': {

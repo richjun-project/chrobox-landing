@@ -612,7 +612,7 @@ export function BlogPost({ post, content, related, crossLinks, directAnswer, ui,
                     textDecoration: 'none',
                   }}
                 >
-                  {ui.startFreeTrial}
+                  {ui.downloadOnAppStore}
                 </Button>
               </Box>
             </Box>

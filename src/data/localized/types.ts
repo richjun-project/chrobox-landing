@@ -30,6 +30,10 @@ export interface LocalizedTemplateCopy {
   tips: string[];
   /** Must match the order and length of the template's `schedule` array. */
   scheduleTasks: string[];
+  /** Only templates with a weekly view / FAQ carry these (see ScheduleTemplate.weekly). */
+  weeklyTitle?: string;
+  weekly?: { day: string; theme: string; blocks: string }[];
+  faqs?: LocalizedFaq[];
 }
 
 export interface LocalizedClusterCopy {

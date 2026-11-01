@@ -8,6 +8,17 @@ export interface TimeBlock {
   category: 'focus' | 'meeting' | 'break' | 'admin' | 'creative' | 'learning';
 }
 
+export interface WeekdayPlan {
+  day: string;
+  theme: string;
+  blocks: string;
+}
+
+export interface TemplateFaq {
+  question: string;
+  answer: string;
+}
+
 export interface ScheduleTemplate {
   slug: string;
   profession: string;
@@ -19,6 +30,21 @@ export interface ScheduleTemplate {
   tips: string[];
   tipsKo: string[];
   relatedSlugs: string[];
+  /**
+   * English-only search title and meta description, for templates where Search
+   * Console shows a query the generic "{profession} Daily Schedule Template"
+   * title does not match (2026-11-01: "product manager schedule template",
+   * "executive schedule"). Other locales keep the generic title.
+   */
+  seoTitle?: string;
+  seoDescription?: string;
+  /** Optional weekly view and FAQ. Answers must only restate this template's own blocks. */
+  weeklyTitle?: string;
+  weeklyTitleKo?: string;
+  weekly?: WeekdayPlan[];
+  weeklyKo?: WeekdayPlan[];
+  faqs?: TemplateFaq[];
+  faqsKo?: TemplateFaq[];
 }
 
 /** A template with every localizable field already resolved to one locale. */
@@ -100,6 +126,59 @@ export const scheduleTemplates: ScheduleTemplate[] = [
       '비동기 팀이 정렬을 유지할 수 있도록 결정 사항을 서면으로 전달하세요.',
     ],
     relatedSlugs: ['software-developer', 'ux-designer', 'project-manager', 'startup-founder'],
+    seoTitle: 'Product Manager Schedule Template: Daily & Weekly Example',
+    seoDescription:
+      'A product manager schedule template with an hour-by-hour example day and a weekly plan for sprints, user interviews, and spec writing. Free .ics download.',
+    weeklyTitle: 'Weekly product manager schedule example',
+    weeklyTitleKo: '프로덕트 매니저 주간 스케줄 예시',
+    weekly: [
+      { day: 'Monday', theme: 'Plan the sprint', blocks: 'Sprint planning, weekly priorities, backlog check' },
+      { day: 'Tuesday', theme: 'Customer discovery', blocks: 'User interviews, feedback and support-ticket review' },
+      { day: 'Wednesday', theme: 'Maker day', blocks: 'PRDs and specs in long focus blocks; no recurring meetings' },
+      { day: 'Thursday', theme: 'Stakeholder alignment', blocks: 'Roadmap review; design, marketing, and sales syncs' },
+      { day: 'Friday', theme: 'Measure and reset', blocks: "KPI review, sprint demo or retro, next week's top 3" },
+    ],
+    weeklyKo: [
+      { day: '월요일', theme: '스프린트 계획', blocks: '스프린트 플래닝, 주간 우선순위, 백로그 점검' },
+      { day: '화요일', theme: '고객 탐색', blocks: '사용자 인터뷰, 피드백·고객 문의 검토' },
+      { day: '수요일', theme: '메이커 데이', blocks: '긴 집중 블록으로 PRD·기획서 작성, 정기 회의 없음' },
+      { day: '목요일', theme: '이해관계자 정렬', blocks: '로드맵 리뷰, 디자인·마케팅·영업 싱크' },
+      { day: '금요일', theme: '측정과 정리', blocks: 'KPI 리뷰, 스프린트 데모 또는 회고, 다음 주 상위 3가지' },
+    ],
+    faqs: [
+      {
+        question: "What does a product manager's daily schedule look like?",
+        answer:
+          'In this template the day runs 08:00–17:00 in nine time blocks: about 3 hours of meetings (stand-up and sprint planning, a stakeholder meeting or user interview, a cross-functional sync), 2 hours of protected deep work on PRDs and specs in the morning, 3 hours of admin such as metrics review, Slack triage, and roadmap and backlog updates, and a 1-hour lunch.',
+      },
+      {
+        question: 'How should a product manager plan the week?',
+        answer:
+          "Give each weekday one theme so meetings don't fragment every day: plan the sprint on Monday, talk to customers on Tuesday, keep Wednesday as a meeting-free maker day for specs, align stakeholders on Thursday, and review metrics on Friday. Within each day, batch meetings into the afternoon so mornings stay free for focused work.",
+      },
+      {
+        question: 'How do I use this product manager schedule template?',
+        answer:
+          'Download the .ics file above and import it into Google Calendar, Apple Calendar, or Outlook — each block repeats every weekday at the same time. To run the day as time boxes on your phone, add the blocks as tasks in Chrobox: the free plan includes the day timeline, focus timer, reminders, and routines, and Chrobox Pro adds app blocking during your focus blocks.',
+      },
+    ],
+    faqsKo: [
+      {
+        question: '프로덕트 매니저의 하루 스케줄은 어떻게 짜나요?',
+        answer:
+          '이 템플릿에서 하루는 08:00–17:00, 9개 시간 블록입니다. 회의 약 3시간(스탠드업·스프린트 플래닝, 이해관계자 미팅 또는 사용자 인터뷰, 부서 간 싱크), 오전에 PRD와 기획서를 쓰는 딥 워크 2시간, 지표 확인·슬랙 정리·로드맵과 백로그 업데이트 같은 운영 업무 3시간, 점심 1시간으로 구성됩니다.',
+      },
+      {
+        question: '프로덕트 매니저는 한 주를 어떻게 계획하나요?',
+        answer:
+          '요일마다 주제를 하나씩 정하면 회의가 매일 하루를 쪼개지 않습니다. 월요일엔 스프린트를 계획하고, 화요일엔 고객을 만나고, 수요일은 회의 없는 메이커 데이로 기획서에 쓰고, 목요일엔 이해관계자와 방향을 맞추고, 금요일엔 지표를 돌아봅니다. 하루 안에서는 회의를 오후로 모아 오전을 집중 업무에 남겨 두세요.',
+      },
+      {
+        question: '이 프로덕트 매니저 스케줄 템플릿은 어떻게 쓰나요?',
+        answer:
+          '위의 .ics 파일을 내려받아 구글 캘린더, 애플 캘린더, 아웃룩에 가져오면 각 블록이 평일마다 같은 시간에 반복됩니다. 휴대폰에서 하루를 타임박스로 실행하려면 블록을 Chrobox에 할 일로 넣으세요. 무료 플랜에 하루 타임라인, 집중 타이머, 알림, 루틴이 있고, Chrobox Pro는 집중 블록 동안 앱 차단을 더합니다.',
+      },
+    ],
   },
   {
     slug: 'graphic-designer',
@@ -711,6 +790,59 @@ export const scheduleTemplates: ScheduleTemplate[] = [
       '전략적 사고를 위한 시간을 보호하세요 — 이것이 가장 높은 레버리지 활동입니다.',
     ],
     relatedSlugs: ['startup-founder', 'project-manager', 'product-manager', 'lawyer'],
+    seoTitle: 'Executive Schedule Template: CEO Daily & Weekly Example',
+    seoDescription:
+      'An executive and CEO daily schedule template: an hour-by-hour example day with protected strategy time, plus a weekly plan for 1:1s and board meetings.',
+    weeklyTitle: 'Weekly executive and CEO schedule example',
+    weeklyTitleKo: '임원·CEO 주간 스케줄 예시',
+    weekly: [
+      { day: 'Monday', theme: 'Set direction', blocks: 'Leadership team meeting, weekly priorities, key metrics' },
+      { day: 'Tuesday', theme: 'Develop people', blocks: '1:1s with direct reports, hiring and performance reviews' },
+      { day: 'Wednesday', theme: 'Think ahead', blocks: 'Meeting-free morning for strategy and long-range planning' },
+      { day: 'Thursday', theme: 'External meetings', blocks: 'Customers, board members, investors, or partners' },
+      { day: 'Friday', theme: 'Review and communicate', blocks: 'Department reviews, written company update, decision log' },
+    ],
+    weeklyKo: [
+      { day: '월요일', theme: '방향 설정', blocks: '경영진 회의, 주간 우선순위, 핵심 지표' },
+      { day: '화요일', theme: '사람 키우기', blocks: '직속 보고자와 1:1, 채용·성과 리뷰' },
+      { day: '수요일', theme: '멀리 보기', blocks: '회의 없는 오전에 전략과 장기 계획' },
+      { day: '목요일', theme: '외부 미팅', blocks: '고객, 이사회, 투자자, 파트너' },
+      { day: '금요일', theme: '점검과 공유', blocks: '부서 리뷰, 전사 서면 업데이트, 의사결정 기록' },
+    ],
+    faqs: [
+      {
+        question: "What does a CEO's daily schedule look like?",
+        answer:
+          'In this template the day runs 06:00–17:00: a morning routine before the first meeting, about 4 hours of meetings (leadership team or 1:1s, board, investor or client meetings, department reviews), a 2-hour block of uninterrupted strategic thinking from 09:00, and about 2.5 hours for the metrics review, talent, and written communication. In a Harvard Business School study of 27 CEOs (Porter and Nohria, 2018), meetings took 72% of their work time, so the thinking block is scheduled first.',
+      },
+      {
+        question: 'How do executives protect time for strategy?',
+        answer:
+          'Treat a daily thinking block as a fixed appointment — this template keeps 09:00–11:00 for strategic planning and critical decisions — and add one meeting-free morning a week. Batch decisions into set times, delegate anything that does not need your judgment, and share decisions in writing so fewer meetings are needed to pass them on.',
+      },
+      {
+        question: 'How do I use this executive schedule template?',
+        answer:
+          'Download the .ics file above and import it into Google Calendar, Apple Calendar, or Outlook — each block repeats every weekday at the same time, so your team can schedule around it. To run the day as time boxes on your phone, add the blocks as tasks in Chrobox: the free plan includes the day timeline, focus timer, reminders, and routines, and Chrobox Pro adds app blocking during your focus blocks.',
+      },
+    ],
+    faqsKo: [
+      {
+        question: 'CEO의 하루 스케줄은 어떻게 생겼나요?',
+        answer:
+          '이 템플릿에서 하루는 06:00–17:00입니다. 첫 회의 전에 아침 루틴을 두고, 회의 약 4시간(경영진 회의 또는 1:1, 이사회·투자자·고객 미팅, 부서 리뷰), 09:00부터 방해받지 않는 전략 사고 2시간, 지표 확인·인재·서면 커뮤니케이션 약 2.5시간으로 구성됩니다. 하버드 경영대학원이 CEO 27명을 조사한 연구(Porter·Nohria, 2018)에서 회의가 업무 시간의 72%를 차지했기 때문에 사고 블록을 가장 먼저 잡아 둡니다.',
+      },
+      {
+        question: '임원은 전략을 위한 시간을 어떻게 지키나요?',
+        answer:
+          '매일의 사고 블록을 바꿀 수 없는 약속처럼 다루세요. 이 템플릿은 09:00–11:00을 전략 수립과 중요한 결정에 씁니다. 여기에 일주일에 한 번 회의 없는 오전을 더하세요. 결정은 정해진 시간에 몰아서 내리고, 내 판단이 필요 없는 일은 위임하고, 결정을 글로 공유해 전달용 회의를 줄이세요.',
+      },
+      {
+        question: '이 임원 스케줄 템플릿은 어떻게 쓰나요?',
+        answer:
+          '위의 .ics 파일을 내려받아 구글 캘린더, 애플 캘린더, 아웃룩에 가져오면 각 블록이 평일마다 같은 시간에 반복되어 팀이 그 시간을 피해 일정을 잡을 수 있습니다. 휴대폰에서 하루를 타임박스로 실행하려면 블록을 Chrobox에 할 일로 넣으세요. 무료 플랜에 하루 타임라인, 집중 타이머, 알림, 루틴이 있고, Chrobox Pro는 집중 블록 동안 앱 차단을 더합니다.',
+      },
+    ],
   },
   {
     slug: 'parent-working-from-home',
@@ -776,6 +908,9 @@ export function localizeScheduleTemplate(
     profession: copy?.profession || (isKorean ? template.professionKo : template.profession),
     description: copy?.description || (isKorean ? template.descriptionKo : template.description),
     tips: copy?.tips?.length ? copy.tips : (isKorean ? template.tipsKo : template.tips),
+    weeklyTitle: copy?.weeklyTitle || (isKorean ? template.weeklyTitleKo : undefined) || template.weeklyTitle,
+    weekly: copy?.weekly?.length ? copy.weekly : (isKorean ? template.weeklyKo : undefined) ?? template.weekly,
+    faqs: copy?.faqs?.length ? copy.faqs : (isKorean ? template.faqsKo : undefined) ?? template.faqs,
     schedule: template.schedule.map((block, index) => ({
       ...block,
       // ko is a source language for the i18n pipeline, so its rows live in scheduleTasksKo.ts.

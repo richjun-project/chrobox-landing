@@ -12,6 +12,7 @@ import {
   localizedPath,
   seoCopy,
   templateArticleSeo,
+  templateFaqSchema,
 } from '../../../../lib/seo';
 import { formatCopy, uiCopy } from '../../../../lib/uiCopy';
 import { templateViewData } from '../../../../lib/viewData';
@@ -56,8 +57,9 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
 
   const lang = contentLanguageForLocale(locale);
   const copy = seoCopy(locale);
-  const { profession, description } = localizeScheduleTemplate(template, lang);
+  const { profession, description, faqs } = localizeScheduleTemplate(template, lang);
   const seo = templateArticleSeo(locale, profession, description);
+  const faqSchema = templateFaqSchema(faqs);
   const canonicalUrl = absoluteUrl(localizedPath(locale, `/templates/${template.slug}`));
 
   return (
@@ -89,6 +91,7 @@ export default async function Page({ params }: { params: LocalizedSlugParam }) {
           publisher: organizationRef(),
         }}
       />
+      {faqSchema && <JsonLd data={faqSchema} />}
       <ScheduleTemplate data={templateViewData(template.slug, contentLanguageForLocale(locale))!} ui={uiCopy(contentLanguageForLocale(locale))} locale={locale} />
     </>
   );

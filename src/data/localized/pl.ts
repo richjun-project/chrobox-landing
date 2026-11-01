@@ -3975,6 +3975,48 @@ Szablon ma mniejsze znaczenie niż samo pojawianie się z jakimkolwiek szablonem
         'Aktualizacja roadmapy i porządkowanie backlogu',
         'Podsumowanie dnia i planowanie jutra',
       ],
+      weeklyTitle: 'Przykładowy tygodniowy plan product managera',
+      weekly: [
+        {
+          day: 'Poniedziałek',
+          theme: 'Planowanie sprintu',
+          blocks: 'Planowanie sprintu, priorytety tygodnia, przegląd backlogu',
+        },
+        {
+          day: 'Wtorek',
+          theme: 'Poznawanie klientów',
+          blocks: 'Wywiady z użytkownikami, przegląd opinii i zgłoszeń do supportu',
+        },
+        {
+          day: 'Środa',
+          theme: 'Dzień tworzenia',
+          blocks: 'PRD i specyfikacje w długich blokach skupienia; bez cyklicznych spotkań',
+        },
+        {
+          day: 'Czwartek',
+          theme: 'Uzgodnienia z interesariuszami',
+          blocks: 'Przegląd roadmapy; synchronizacja z designem, marketingiem i sprzedażą',
+        },
+        {
+          day: 'Piątek',
+          theme: 'Pomiar i reset',
+          blocks: 'Przegląd KPI, demo lub retrospektywa sprintu, 3 priorytety na kolejny tydzień',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Jak wygląda dzienny plan product managera?',
+          answer: 'W tym szablonie dzień trwa od 08:00 do 17:00 i składa się z 9 bloków czasu: około 3 godzin spotkań (stand-up i planowanie sprintu, spotkanie z interesariuszami lub wywiad z użytkownikiem, synchronizacja międzyzespołowa), 2 godzin chronionej pracy głębokiej rano nad PRD i specyfikacjami, 3 godzin spraw administracyjnych, takich jak przegląd metryk, porządkowanie Slacka oraz aktualizacja roadmapy i backlogu, oraz 1 godziny przerwy na lunch.',
+        },
+        {
+          question: 'Jak product manager powinien planować tydzień?',
+          answer: 'Nadaj każdemu dniowi roboczemu jeden temat, żeby spotkania nie rozbijały każdego dnia: w poniedziałek zaplanuj sprint, we wtorek rozmawiaj z klientami, środę zostaw jako dzień tworzenia bez spotkań na specyfikacje, w czwartek uzgadniaj kierunek z interesariuszami, a w piątek przeglądaj metryki. W ciągu dnia zbieraj spotkania po południu, żeby poranki zostały na skupioną pracę.',
+        },
+        {
+          question: 'Jak korzystać z tego szablonu planu dnia product managera?',
+          answer: 'Pobierz powyższy plik .ics i zaimportuj go do Kalendarza Google, Kalendarza Apple lub Outlooka — każdy blok powtarza się w każdy dzień roboczy o tej samej godzinie. Aby realizować dzień jako bloki czasu w telefonie, dodaj bloki jako zadania w Chrobox: darmowy plan obejmuje oś czasu dnia, minutnik skupienia, przypomnienia i rutyny, a Chrobox Pro dodaje blokowanie aplikacji podczas bloków skupienia.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Grafik',
@@ -4347,6 +4389,48 @@ Szablon ma mniejsze znaczenie niż samo pojawianie się z jakimkolwiek szablonem
         'Przeglądy działów i sprawy ogólnofirmowe',
         'Zarządzanie talentami: rekrutacja, wyniki, kultura',
         'Komunikacja: decyzje pisemne i wiadomości do zespołu',
+      ],
+      weeklyTitle: 'Przykładowy tygodniowy plan członka zarządu lub CEO',
+      weekly: [
+        {
+          day: 'Poniedziałek',
+          theme: 'Wyznaczanie kierunku',
+          blocks: 'Spotkanie zarządu, priorytety tygodnia, kluczowe wskaźniki',
+        },
+        {
+          day: 'Wtorek',
+          theme: 'Rozwój ludzi',
+          blocks: 'Spotkania 1:1 z bezpośrednimi podwładnymi, przeglądy rekrutacji i ocen',
+        },
+        {
+          day: 'Środa',
+          theme: 'Myślenie strategiczne',
+          blocks: 'Poranek bez spotkań na strategię i planowanie długoterminowe',
+        },
+        {
+          day: 'Czwartek',
+          theme: 'Spotkania zewnętrzne',
+          blocks: 'Klienci, członkowie rady nadzorczej, inwestorzy lub partnerzy',
+        },
+        {
+          day: 'Piątek',
+          theme: 'Podsumowanie i komunikacja',
+          blocks: 'Przeglądy działów, pisemna aktualizacja dla firmy, rejestr decyzji',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Jak wygląda dzienny plan CEO?',
+          answer: 'W tym szablonie dzień trwa od 06:00 do 17:00: poranna rutyna przed pierwszym spotkaniem, około 4 godzin spotkań (zarząd lub spotkania 1:1, rada nadzorcza, inwestorzy lub klienci, przeglądy działów), 2-godzinny blok niezakłóconego myślenia strategicznego od 09:00 i około 2,5 godziny na przegląd wskaźników, sprawy kadrowe i komunikację pisemną. W badaniu Harvard Business School obejmującym 27 CEO (Porter i Nohria, 2018) spotkania zajmowały 72% ich czasu pracy, dlatego blok na myślenie planuje się jako pierwszy.',
+        },
+        {
+          question: 'Jak członkowie zarządu chronią czas na strategię?',
+          answer: 'Traktuj codzienny blok na myślenie jak stałe spotkanie — ten szablon rezerwuje 09:00–11:00 na planowanie strategiczne i kluczowe decyzje — i dodaj jeden poranek bez spotkań w tygodniu. Zbieraj decyzje w stałych porach, deleguj wszystko, co nie wymaga twojej oceny, i przekazuj decyzje na piśmie, żeby potrzeba było mniej spotkań tylko po to, by je przekazać.',
+        },
+        {
+          question: 'Jak korzystać z tego szablonu planu dnia dla kadry zarządzającej?',
+          answer: 'Pobierz powyższy plik .ics i zaimportuj go do Kalendarza Google, Kalendarza Apple lub Outlooka — każdy blok powtarza się w każdy dzień roboczy o tej samej godzinie, więc zespół może planować wokół niego. Aby realizować dzień jako bloki czasu w telefonie, dodaj bloki jako zadania w Chrobox: darmowy plan obejmuje oś czasu dnia, minutnik skupienia, przypomnienia i rutyny, a Chrobox Pro dodaje blokowanie aplikacji podczas bloków skupienia.',
+        },
       ],
     },
     'parent-working-from-home': {

@@ -3995,6 +3995,48 @@ Templatnya kurang penting dibandingkan dengan tampil dengan templat apa pun, seb
         'Pembaruan roadmap & perapian backlog',
         'Evaluasi harian & persiapan hari berikutnya',
       ],
+      weeklyTitle: 'Contoh jadwal mingguan product manager',
+      weekly: [
+        {
+          day: 'Senin',
+          theme: 'Merencanakan sprint',
+          blocks: 'Sprint planning, prioritas minggu ini, cek backlog',
+        },
+        {
+          day: 'Selasa',
+          theme: 'Memahami pelanggan',
+          blocks: 'Wawancara pengguna, tinjauan masukan dan tiket dukungan',
+        },
+        {
+          day: 'Rabu',
+          theme: 'Hari berkarya',
+          blocks: 'PRD dan spesifikasi dalam blok fokus panjang; tanpa rapat rutin',
+        },
+        {
+          day: 'Kamis',
+          theme: 'Menyelaraskan pemangku kepentingan',
+          blocks: 'Tinjauan roadmap; sinkronisasi dengan desain, pemasaran, dan penjualan',
+        },
+        {
+          day: 'Jumat',
+          theme: 'Ukur dan atur ulang',
+          blocks: 'Tinjauan KPI, demo atau retrospektif sprint, 3 prioritas minggu depan',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Seperti apa jadwal harian seorang product manager?',
+          answer: 'Dalam templat ini, hari berjalan pukul 08:00–17:00 dalam 9 blok waktu: sekitar 3 jam rapat (stand-up dan sprint planning, rapat pemangku kepentingan atau wawancara pengguna, sinkronisasi lintas tim), 2 jam deep work yang dilindungi di pagi hari untuk PRD dan spesifikasi, 3 jam pekerjaan administratif seperti meninjau metrik, merapikan Slack, serta memperbarui roadmap dan backlog, dan 1 jam makan siang.',
+        },
+        {
+          question: 'Bagaimana product manager sebaiknya merencanakan minggunya?',
+          answer: 'Beri setiap hari kerja satu tema agar rapat tidak memecah setiap hari: rencanakan sprint pada hari Senin, bicara dengan pelanggan pada hari Selasa, jadikan Rabu hari berkarya tanpa rapat untuk menulis spesifikasi, selaraskan pemangku kepentingan pada hari Kamis, dan tinjau metrik pada hari Jumat. Dalam setiap hari, kumpulkan rapat di sore hari agar pagi tetap kosong untuk kerja fokus.',
+        },
+        {
+          question: 'Bagaimana cara memakai templat jadwal product manager ini?',
+          answer: 'Unduh file .ics di atas lalu impor ke Google Kalender, Apple Kalender, atau Outlook — setiap blok berulang setiap hari kerja pada jam yang sama. Untuk menjalankan hari sebagai time box di ponsel, tambahkan blok-blok itu sebagai tugas di Chrobox: paket gratis mencakup linimasa harian, timer fokus, pengingat, dan rutinitas, sementara Chrobox Pro menambahkan pemblokiran aplikasi selama blok fokus Anda.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Desainer Grafis',
@@ -4367,6 +4409,48 @@ Templatnya kurang penting dibandingkan dengan tampil dengan templat apa pun, seb
         'Tinjauan departemen & masalah perusahaan',
         'Talenta: tinjauan rekrutmen, kinerja, budaya',
         'Komunikasi: keputusan tertulis & pesan tim',
+      ],
+      weeklyTitle: 'Contoh jadwal mingguan eksekutif dan CEO',
+      weekly: [
+        {
+          day: 'Senin',
+          theme: 'Menetapkan arah',
+          blocks: 'Rapat tim pimpinan, prioritas minggu ini, metrik utama',
+        },
+        {
+          day: 'Selasa',
+          theme: 'Mengembangkan orang',
+          blocks: '1:1 dengan bawahan langsung, tinjauan rekrutmen dan kinerja',
+        },
+        {
+          day: 'Rabu',
+          theme: 'Berpikir jauh ke depan',
+          blocks: 'Pagi tanpa rapat untuk strategi dan perencanaan jangka panjang',
+        },
+        {
+          day: 'Kamis',
+          theme: 'Pertemuan eksternal',
+          blocks: 'Pelanggan, anggota dewan, investor, atau mitra',
+        },
+        {
+          day: 'Jumat',
+          theme: 'Meninjau dan berkomunikasi',
+          blocks: 'Tinjauan departemen, pembaruan tertulis untuk perusahaan, log keputusan',
+        },
+      ],
+      faqs: [
+        {
+          question: 'Seperti apa jadwal harian seorang CEO?',
+          answer: 'Dalam templat ini, hari berjalan pukul 06:00–17:00: rutinitas pagi sebelum rapat pertama, sekitar 4 jam rapat (tim pimpinan atau 1:1, dewan, investor atau klien, tinjauan departemen), blok 2 jam untuk berpikir strategis tanpa gangguan mulai pukul 09:00, dan sekitar 2,5 jam untuk tinjauan metrik, urusan talenta, dan komunikasi tertulis. Dalam studi Harvard Business School terhadap 27 CEO (Porter dan Nohria, 2018), rapat menyita 72% waktu kerja mereka, sehingga blok untuk berpikir dijadwalkan lebih dulu.',
+        },
+        {
+          question: 'Bagaimana eksekutif melindungi waktu untuk strategi?',
+          answer: 'Perlakukan blok berpikir harian sebagai janji tetap — templat ini menyediakan 09:00–11:00 untuk perencanaan strategis dan keputusan penting — dan tambahkan satu pagi tanpa rapat setiap minggu. Kumpulkan pengambilan keputusan di waktu tertentu, delegasikan semua yang tidak membutuhkan penilaian Anda, dan bagikan keputusan secara tertulis agar lebih sedikit rapat yang diperlukan untuk menyampaikannya.',
+        },
+        {
+          question: 'Bagaimana cara memakai templat jadwal eksekutif ini?',
+          answer: 'Unduh file .ics di atas lalu impor ke Google Kalender, Apple Kalender, atau Outlook — setiap blok berulang setiap hari kerja pada jam yang sama, sehingga tim Anda bisa menjadwalkan di sekitarnya. Untuk menjalankan hari sebagai time box di ponsel, tambahkan blok-blok itu sebagai tugas di Chrobox: paket gratis mencakup linimasa harian, timer fokus, pengingat, dan rutinitas, sementara Chrobox Pro menambahkan pemblokiran aplikasi selama blok fokus Anda.',
+        },
       ],
     },
     'parent-working-from-home': {

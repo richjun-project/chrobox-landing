@@ -110,6 +110,8 @@ function unitsFor(kind) {
           description: template.description,
           tips: template.tips,
           scheduleTasks: template.schedule.map((block) => block.task),
+          ...(template.weekly ? { weeklyTitle: template.weeklyTitle, weekly: template.weekly } : {}),
+          ...(template.faqs ? { faqs: template.faqs } : {}),
         },
       }));
     case 'comparisons':
@@ -152,7 +154,7 @@ const kinds = kindFilter.length ? kindFilter : ALL_KINDS;
 const KIND_INSTRUCTIONS = {
   ui: 'These are short UI labels for a productivity web app (breadcrumbs, buttons, section headings). Keep them short enough to fit a button or badge — never translate into a full sentence. "min" and "min read" are duration abbreviations shown next to a number. "article"/"articles" are singular/plural nouns shown after a count; if the language has no plural distinction use the same word for both.',
   clusters: 'This is a blog category page: a short name, a one-line description, and an array of long introduction paragraphs. Preserve the paragraph count and order exactly. Write the intro as a native marketing writer would — natural, specific, and not a word-for-word calque.',
-  templates: 'This is a daily schedule template for one profession. `scheduleTasks` are calendar block labels shown in a timeline; keep them terse (2-8 words), imperative or noun phrases, never full sentences. Preserve array order and length exactly.',
+  templates: 'This is a daily schedule template for one profession. `scheduleTasks` are calendar block labels shown in a timeline; keep them terse (2-8 words), imperative or noun phrases, never full sentences. Preserve array order and length exactly. `weekly` rows (when present) are table cells: translate the weekday name and keep `theme`/`blocks` short. In `faqs`, keep every time, number, study author and year exactly.',
   comparisons: 'This is a product comparison page. `featureNames` are table row labels: keep them short noun phrases. Preserve every array order and length exactly. Stay factual and neutral about the competitor.',
   blogMeta: 'This is blog post metadata. The title is an SEO headline — make it read like a native headline in the target language, keep it under roughly 60 half-width characters (about 30 characters for CJK), and keep the main keyword near the front. The excerpt is a meta description.',
   blogBodies: 'This is a full blog article in Markdown. Preserve the Markdown structure exactly: heading levels, list markers, bold/italic, tables, blockquotes, code spans and link syntax. Translate link text but never the URLs. Keep numbers, times and units. Do not add or remove sections. Localize idioms rather than translating them literally.',

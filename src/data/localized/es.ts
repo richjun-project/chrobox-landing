@@ -3995,6 +3995,48 @@ La plantilla importa menos que presentarte con cualquier plantilla, la mayoría 
         'Actualización del roadmap y refinamiento del backlog',
         'Cierre del día y preparación del siguiente',
       ],
+      weeklyTitle: 'Ejemplo de agenda semanal de un product manager',
+      weekly: [
+        {
+          day: 'Lunes',
+          theme: 'Planificar el sprint',
+          blocks: 'Planificación del sprint, prioridades de la semana, revisión del backlog',
+        },
+        {
+          day: 'Martes',
+          theme: 'Descubrimiento de clientes',
+          blocks: 'Entrevistas con usuarios, revisión de feedback y tickets de soporte',
+        },
+        {
+          day: 'Miércoles',
+          theme: 'Día de creación',
+          blocks: 'PRD y especificaciones en bloques largos de enfoque; sin reuniones recurrentes',
+        },
+        {
+          day: 'Jueves',
+          theme: 'Alineación con stakeholders',
+          blocks: 'Revisión del roadmap; sincronización con diseño, marketing y ventas',
+        },
+        {
+          day: 'Viernes',
+          theme: 'Medir y reajustar',
+          blocks: 'Revisión de KPI, demo o retrospectiva del sprint, 3 prioridades de la próxima semana',
+        },
+      ],
+      faqs: [
+        {
+          question: '¿Cómo es la agenda diaria de un product manager?',
+          answer: 'En esta plantilla el día va de 08:00 a 17:00 en 9 bloques de tiempo: unas 3 horas de reuniones (stand-up y planificación del sprint, una reunión con stakeholders o una entrevista con usuarios, una sincronización entre equipos), 2 horas de trabajo profundo protegido por la mañana para PRD y especificaciones, 3 horas de tareas administrativas como revisar métricas, ordenar Slack y actualizar el roadmap y el backlog, y 1 hora para comer.',
+        },
+        {
+          question: '¿Cómo debería planificar la semana un product manager?',
+          answer: 'Da a cada día laborable un tema para que las reuniones no fragmenten todos los días: planifica el sprint el lunes, habla con clientes el martes, reserva el miércoles como día de creación sin reuniones para escribir especificaciones, alinea a los stakeholders el jueves y revisa las métricas el viernes. Dentro de cada día, agrupa las reuniones por la tarde para que las mañanas queden libres para el trabajo concentrado.',
+        },
+        {
+          question: '¿Cómo uso esta plantilla de agenda de product manager?',
+          answer: 'Descarga el archivo .ics de arriba e impórtalo en Google Calendar, Apple Calendar u Outlook: cada bloque se repite todos los días laborables a la misma hora. Para ejecutar el día como bloques de tiempo en tu móvil, añade los bloques como tareas en Chrobox: el plan gratuito incluye la línea de tiempo del día, el temporizador de enfoque, los recordatorios y las rutinas, y Chrobox Pro añade el bloqueo de apps durante tus bloques de enfoque.',
+        },
+      ],
     },
     'graphic-designer': {
       profession: 'Diseñador gráfico',
@@ -4367,6 +4409,48 @@ La plantilla importa menos que presentarte con cualquier plantilla, la mayoría 
         'Revisión de departamentos y asuntos de la empresa',
         'Gestión del talento: contratación, rendimiento y cultura',
         'Comunicación: decisiones por escrito y mensajes al equipo',
+      ],
+      weeklyTitle: 'Ejemplo de agenda semanal de un ejecutivo o CEO',
+      weekly: [
+        {
+          day: 'Lunes',
+          theme: 'Marcar el rumbo',
+          blocks: 'Reunión del equipo directivo, prioridades de la semana, métricas clave',
+        },
+        {
+          day: 'Martes',
+          theme: 'Desarrollar personas',
+          blocks: 'Reuniones 1:1 con reportes directos, revisiones de contratación y desempeño',
+        },
+        {
+          day: 'Miércoles',
+          theme: 'Pensar a largo plazo',
+          blocks: 'Mañana sin reuniones para estrategia y planificación a largo plazo',
+        },
+        {
+          day: 'Jueves',
+          theme: 'Reuniones externas',
+          blocks: 'Clientes, consejeros, inversores o socios',
+        },
+        {
+          day: 'Viernes',
+          theme: 'Revisar y comunicar',
+          blocks: 'Revisiones de departamentos, actualización escrita para la empresa, registro de decisiones',
+        },
+      ],
+      faqs: [
+        {
+          question: '¿Cómo es la agenda diaria de un CEO?',
+          answer: 'En esta plantilla el día va de 06:00 a 17:00: una rutina matinal antes de la primera reunión, unas 4 horas de reuniones (equipo directivo o 1:1, consejo, inversores o clientes, revisiones de departamentos), un bloque de 2 horas de pensamiento estratégico sin interrupciones desde las 09:00 y unas 2,5 horas para revisar métricas, gestionar talento y comunicar por escrito. En un estudio de Harvard Business School con 27 CEO (Porter y Nohria, 2018), las reuniones ocupaban el 72 % de su tiempo de trabajo; por eso el bloque para pensar se agenda primero.',
+        },
+        {
+          question: '¿Cómo protegen los ejecutivos su tiempo para la estrategia?',
+          answer: 'Trata un bloque diario para pensar como una cita fija —esta plantilla reserva de 09:00 a 11:00 para planificación estratégica y decisiones críticas— y añade una mañana sin reuniones a la semana. Agrupa las decisiones en horarios fijos, delega todo lo que no necesite tu criterio y comparte las decisiones por escrito para que hagan falta menos reuniones para transmitirlas.',
+        },
+        {
+          question: '¿Cómo uso esta plantilla de agenda para ejecutivos?',
+          answer: 'Descarga el archivo .ics de arriba e impórtalo en Google Calendar, Apple Calendar u Outlook: cada bloque se repite todos los días laborables a la misma hora, así tu equipo puede organizarse alrededor de él. Para ejecutar el día como bloques de tiempo en tu móvil, añade los bloques como tareas en Chrobox: el plan gratuito incluye la línea de tiempo del día, el temporizador de enfoque, los recordatorios y las rutinas, y Chrobox Pro añade el bloqueo de apps durante tus bloques de enfoque.',
+        },
       ],
     },
     'parent-working-from-home': {

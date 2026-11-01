@@ -5,7 +5,7 @@ import { JsonLd } from '../../../components/JsonLd';
 import { getScheduleTemplate } from '../../../data/scheduleTemplates';
 import { templateSlugParams, type SlugParam } from '../../_route-helpers';
 import { pageMetadata, organizationRef } from '../../../lib/next-seo';
-import { absoluteUrl, htmlLangForLocale, localizedPath, seoCopy, templateArticleSeo } from '../../../lib/seo';
+import { absoluteUrl, htmlLangForLocale, localizedPath, seoCopy, templateArticleSeo, templateFaqSchema } from '../../../lib/seo';
 import { uiCopy } from '../../../lib/uiCopy';
 import { templateViewData } from '../../../lib/viewData';
 
@@ -24,7 +24,10 @@ export async function generateMetadata({ params }: { params: SlugParam }): Promi
     notFound();
   }
 
-  const seo = templateArticleSeo('en', template.profession, template.description);
+  const seo = templateArticleSeo('en', template.profession, template.description, {
+    title: template.seoTitle,
+    description: template.seoDescription,
+  });
 
   return pageMetadata({
     locale: 'en',
@@ -44,8 +47,12 @@ export default async function Page({ params }: { params: SlugParam }) {
   }
 
   const copy = seoCopy('en');
-  const seo = templateArticleSeo('en', template.profession, template.description);
+  const seo = templateArticleSeo('en', template.profession, template.description, {
+    title: template.seoTitle,
+    description: template.seoDescription,
+  });
   const canonicalUrl = absoluteUrl(localizedPath('en', `/templates/${template.slug}`));
+  const faqSchema = templateFaqSchema(template.faqs);
 
   return (
     <>
@@ -71,6 +78,7 @@ export default async function Page({ params }: { params: SlugParam }) {
           publisher: organizationRef(),
         }}
       />
+      {faqSchema && <JsonLd data={faqSchema} />}
       <ScheduleTemplate data={templateViewData(template.slug, 'en')!} ui={uiCopy('en')} locale="en" />
     </>
   );

@@ -50,7 +50,7 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
     window.scrollTo(0, 0);
   }, [slug]);
 
-  const { profession, description, tips } = localized;
+  const { profession, description, tips, weeklyTitle, weekly, faqs } = localized;
 
   return (
     <Box style={{ minHeight: '100vh', background: tokens.colors.background }}>
@@ -329,6 +329,41 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
         </motion.div>
       </Container>
 
+      {/* Weekly view — only templates whose search queries ask for a week (scheduleTemplates.ts `weekly`) */}
+      {weekly && weekly.length > 0 && (
+        <Container size="lg" pb={80}>
+          <Text
+            component="h2"
+            style={{ fontSize: '28px', fontWeight: 700, color: tokens.colors.gray900, marginBottom: '24px' }}
+          >
+            {weeklyTitle}
+          </Text>
+          <Box style={{ overflowX: 'auto' }}>
+            <Box
+              component="table"
+              style={{ borderCollapse: 'collapse', width: '100%', minWidth: '520px', fontSize: '15px', color: tokens.colors.gray700 }}
+            >
+              <thead>
+                <tr style={{ borderBottom: `2px solid ${tokens.colors.gray200}`, textAlign: 'start' }}>
+                  <th style={{ padding: '10px 16px 10px 0', textAlign: 'start', color: tokens.colors.gray900 }}>{ui.weekDay}</th>
+                  <th style={{ padding: '10px 16px 10px 0', textAlign: 'start', color: tokens.colors.gray900 }}>{ui.weekTheme}</th>
+                  <th style={{ padding: '10px 0', textAlign: 'start', color: tokens.colors.gray900 }}>{ui.weekBlocks}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {weekly.map((row) => (
+                  <tr key={row.day} style={{ borderBottom: `1px solid ${tokens.colors.gray100}` }}>
+                    <td style={{ padding: '12px 16px 12px 0', fontWeight: 700, color: tokens.colors.gray900, whiteSpace: 'nowrap' }}>{row.day}</td>
+                    <td style={{ padding: '12px 16px 12px 0', fontWeight: 600 }}>{row.theme}</td>
+                    <td style={{ padding: '12px 0', lineHeight: 1.5 }}>{row.blocks}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </Box>
+          </Box>
+        </Container>
+      )}
+
       {/* Tips */}
       <Box style={{ background: tokens.colors.backgroundAlt, paddingTop: '80px', paddingBottom: '80px' }}>
         <Container size="lg">
@@ -390,6 +425,40 @@ export function ScheduleTemplate({ data, ui, locale = 'en' }: ScheduleTemplatePr
           </motion.div>
         </Container>
       </Box>
+
+      {/* FAQ — the template routes emit the same items as FAQPage LD */}
+      {faqs && faqs.length > 0 && (
+        <Container size="lg" pt={80}>
+          <Text
+            component="h2"
+            style={{ fontSize: '28px', fontWeight: 700, color: tokens.colors.gray900, marginBottom: '24px' }}
+          >
+            {ui.frequentlyAskedQuestions}
+          </Text>
+          <Box style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            {faqs.map((faq) => (
+              <Box
+                key={faq.question}
+                style={{
+                  padding: '24px',
+                  borderRadius: '16px',
+                  background: 'white',
+                  border: `1px solid ${tokens.colors.border}`,
+                  boxShadow: tokens.shadows.card,
+                }}
+              >
+                <Text
+                  component="h3"
+                  style={{ fontSize: '16px', fontWeight: 600, color: tokens.colors.gray900, marginBottom: '10px' }}
+                >
+                  {faq.question}
+                </Text>
+                <Text style={{ color: tokens.colors.gray600, lineHeight: 1.7 }}>{faq.answer}</Text>
+              </Box>
+            ))}
+          </Box>
+        </Container>
+      )}
 
       {/* CTA */}
       <Container size="lg" py={80}>
