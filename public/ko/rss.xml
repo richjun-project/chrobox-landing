@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>수능 2주 전 하루 계획표: 실제 시험 시간표에 맞춘 시간 배치</title>
+      <link>https://chrobox.net/ko/blog/suneung-2-weeks-daily-plan</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/suneung-2-weeks-daily-plan</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>수능 2주 전부터는 하루를 실제 수능 시간표에 맞춰 짜는 것이 핵심입니다. 08:40 국어부터 17:45 제2외국어까지 교시 시각 그대로 푸는 하루 계획표와 남은 14일 배분표를 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>타임박싱, 정말 효과 있을까? 할 일 5,077개의 완료율 데이터</title>
       <link>https://chrobox.net/ko/blog/does-timeboxing-work</link>
