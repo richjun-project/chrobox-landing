@@ -60,10 +60,24 @@ function discoverBlogSources() {
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     .map((filename) => `src/data/${filename}`);
 
-  return ['src/data/blogPosts.ts', ...blogBatchSources];
+  return ['src/data/blogPosts.ts', ...blogBatchSources, 'src/data/blogDaily.ts'];
 }
 
 const BLOG_SOURCES = discoverBlogSources();
+
+// Daily posts are written in en, ko, or both (src/data/blogDaily.ts) and have no
+// page in the other locales, so their route groups carry only those languages.
+function extractDailyLanguages() {
+  const source = readFileSync(join(PROJECT_ROOT, 'src', 'data', 'blogDaily.ts'), 'utf8');
+  const koStart = source.indexOf('export const koDaily');
+  const contentStart = source.indexOf('export const contentDaily');
+  const slugsIn = (text) => [...text.matchAll(/slug:\s*['"`]([^'"`]+)['"`]/g)].map((match) => match[1]);
+  const languages = new Map();
+  for (const [lang, text] of [['en', source.slice(0, koStart)], ['ko', source.slice(koStart, contentStart)]]) {
+    for (const slug of slugsIn(text)) languages.set(slug, [...(languages.get(slug) ?? []), lang]);
+  }
+  return languages;
+}
 
 const TEMPLATE_SOURCE = 'src/data/scheduleTemplates.ts';
 const COMPARISON_SOURCE = 'src/data/comparisons.ts';
@@ -260,11 +274,14 @@ function pathMap(enPath) {
 }
 
 function routeGroup(enPath, options = {}) {
-  const paths = pathMap(enPath);
+  const allPaths = pathMap(enPath);
+  const paths = options.locales
+    ? Object.fromEntries(Object.entries(allPaths).filter(([code]) => options.locales.includes(code)))
+    : allPaths;
 
   return {
     enPath,
-    koPath: paths.ko,
+    koPath: allPaths.ko,
     paths,
     // Sitemap section this group belongs to; drives sitemap-<section>.xml.
     section: options.section ?? 'pages',
@@ -300,6 +317,7 @@ export function getSeoRouteGroups() {
   const blogLastmod = latestSourceDate(BLOG_SOURCES);
   const taxonomyLastmod = latestSourceDate([TAXONOMY_SOURCE]);
   const blogEntryBySlug = new Map(extractBlogEntries(BLOG_SOURCES).map((entry) => [entry.slug, entry]));
+  const dailyLanguages = extractDailyLanguages();
   const latestDate = (dates) => dates.filter(Boolean).sort().pop();
   const templateLastmod = latestSourceDate([TEMPLATE_SOURCE, 'src/screens/ScheduleTemplate.tsx']);
   const comparisonLastmod = latestSourceDate([COMPARISON_SOURCE, 'src/screens/ComparisonPage.tsx']);
@@ -341,6 +359,7 @@ export function getSeoRouteGroups() {
         priority: isPriority ? '0.9' : '0.8',
         lastmod: date ?? blogLastmod,
         localeLastmod: localesDate && localesDate !== date ? localesDate : undefined,
+        locales: dailyLanguages.get(slug),
         section: 'blog',
       });
     }),

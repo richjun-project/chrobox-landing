@@ -642,6 +642,9 @@ export function hreflangAlternates(englishPath: string, locales?: readonly SiteL
     href: absoluteUrl(localizedPath(locale.code, path)),
   }));
 
+  // A post written only in Korean has no English page for x-default to point at.
+  if (allowed && !allowed.has(DEFAULT_LOCALE)) return alternates;
+
   return [
     ...alternates,
     { hrefLang: 'x-default', href: absoluteUrl(localizedPath(DEFAULT_LOCALE, path)) },

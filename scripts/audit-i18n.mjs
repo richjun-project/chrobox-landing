@@ -11,6 +11,8 @@ const ROOT = new URL('..', import.meta.url).pathname;
 
 const { SEO_LOCALES } = await jiti.import(`${ROOT}src/lib/seo.ts`);
 const { enBlogPosts, blogContents } = await jiti.import(`${ROOT}src/data/blogPosts.ts`);
+// Daily posts are written in one language on purpose (src/data/blogDaily.ts).
+const { DAILY_SLUGS } = await jiti.import(`${ROOT}src/data/blogDaily.ts`);
 const { comparisons } = await jiti.import(`${ROOT}src/data/comparisons.ts`);
 const { scheduleTemplates } = await jiti.import(`${ROOT}src/data/scheduleTemplates.ts`);
 const { BLOG_CLUSTERS } = await jiti.import(`${ROOT}src/lib/blogTaxonomy.ts`);
@@ -20,8 +22,8 @@ const { UI_COPY_TRANSLATIONS } = await jiti.import(`${ROOT}src/data/localized/ui
 
 const totals = {
   comparisons: comparisons.length,
-  blogPosts: enBlogPosts.length,
-  blogContents: Object.keys(blogContents.en ?? {}).length,
+  blogPosts: enBlogPosts.filter((post) => !DAILY_SLUGS.has(post.slug)).length,
+  blogContents: Object.keys(blogContents.en ?? {}).filter((slug) => !DAILY_SLUGS.has(slug)).length,
   templates: scheduleTemplates.length,
   clusters: BLOG_CLUSTERS.length,
   ui: Object.keys(EN_UI_COPY).length,

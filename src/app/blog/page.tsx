@@ -3,7 +3,7 @@ import { BlogList } from '../../screens/BlogList';
 import { JsonLd } from '../../components/JsonLd';
 import { pageMetadata } from '../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../lib/seo';
-import { getBlogPosts } from '../../data/blogPosts';
+import { getBlogPostsNewestFirst } from '../../data/blogPosts';
 import { clusterLinks } from '../../lib/viewData';
 import { uiCopy } from '../../lib/uiCopy';
 
@@ -36,7 +36,7 @@ export default function Page() {
           ],
         }}
       />
-      <BlogList posts={getBlogPosts('en')} clusters={clusterLinks('en')} ui={uiCopy('en')} locale="en" />
+      <BlogList posts={getBlogPostsNewestFirst('en')} clusters={clusterLinks('en')} ui={uiCopy('en')} locale="en" />
     </>
   );
 }

@@ -7,6 +7,7 @@
  * down as props. Client code may only `import type` from this module.
  */
 import { getBlogPost, getBlogPosts, getBlogPostsByCluster } from '../data/blogPosts';
+import { DAILY_SLUGS } from '../data/blogDaily';
 import { getComparisons } from '../data/comparisons';
 import {
   getScheduleTemplate,
@@ -42,7 +43,15 @@ export function homeBlogPosts(lang: ContentLanguage): BlogPostMeta[] {
     .map((slug) => allPosts.find((post) => post.slug === slug))
     .filter((post): post is BlogPostMeta => Boolean(post));
 
-  return featured.length ? featured : allPosts.slice(0, HOME_FEATURED_SLUGS.length);
+  if (!featured.length) return allPosts.slice(0, HOME_FEATURED_SLUGS.length);
+
+  // The two newest daily posts lead the grid: the home page is the most crawled
+  // page, so a link from here is how a new post gets discovered within days.
+  const latestDaily = allPosts
+    .filter((post) => DAILY_SLUGS.has(post.slug))
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, 2);
+  return [...latestDaily, ...featured.slice(0, HOME_FEATURED_SLUGS.length - latestDaily.length)];
 }
 
 // Direct competitors first (the 2026-09-30 comparisons), then the general tools people

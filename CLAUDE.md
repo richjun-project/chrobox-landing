@@ -47,6 +47,17 @@ GEMINI_API_KEY=... npm run i18n:translate -- --kinds=ui   # 특정 종류만
 - `EN_UI_COPY` 나 카테고리 인트로에 **키/문단을 추가하면** 해당 kind 캐시를 지우고
   다시 돌려야 한다(형태가 달라진 캐시는 그대로 재사용되어 새 키가 영문으로 남는다).
 
+## 하루 글 (`src/data/blogDaily.ts`)
+
+2026-11-04부터 블로그 글이 하루 한 편씩 자동으로 추가된다. 레포 밖의 게시기가 매일 아침
+`src/data/blogDaily.ts`에 글을 넣고 사이트맵·피드·llms를 다시 만들어 `main`에 직접 푸시한다.
+
+- **푸시하기 전에 항상 `git pull --rebase`.** `main`이 매일 앞서 나간다.
+- 하루 글은 쓴 언어(en, ko, 또는 둘 다)로만 존재한다. 18개 언어 페이지·사이트맵·hreflang에 넣지 않는다.
+  번역되지 않은 복제본은 색인 제외 페이지만 늘려 크롤링 예산을 쓰기 때문이다(`seo-routes.mjs`의 `extractDailyLanguages`).
+- `// @daily-*` 표식은 게시기가 찾는 자리다. 지우거나 옮기지 않는다.
+- 블로그 목록은 최신 글이 맨 위(`getBlogPostsNewestFirst`)이고, 홈의 글 6칸 중 앞 2칸은 최신 하루 글이다.
+
 ## 하드코딩 금지
 
 `lang === 'ko' ? '한국어' : 'English'` 형태의 삼항은 **쓰지 않는다.** 18개 로케일이

@@ -88,13 +88,22 @@ for (const route of getPrerenderRoutes()) {
   const alternates = findTags(html, /<link\s+[^>]*rel="alternate"[^>]*hreflang="[^"]+"[^>]*>/gi);
   const alternateMap = new Map(alternates.map((tag) => [attr(tag, 'hreflang'), attr(tag, 'href')]));
   for (const locale of SEO_LOCALES) {
+    // A daily post exists only in the languages it was written in (group.paths).
+    if (!group.paths[locale.code]) {
+      record(`${routeLabel(route)} has no ${locale.code} hreflang (no such page)`, !alternateMap.has(locale.code), alternateMap.get(locale.code));
+      continue;
+    }
     record(
       `${routeLabel(route)} has ${locale.code} hreflang`,
       sameUrl(alternateMap.get(locale.code) ?? '', urlForPath(group.paths[locale.code])),
       alternateMap.get(locale.code) ?? 'missing',
     );
   }
-  record(`${routeLabel(route)} has x-default hreflang`, sameUrl(alternateMap.get('x-default') ?? '', urlForPath(group.enPath)), alternateMap.get('x-default') ?? 'missing');
+  if (group.paths.en) {
+    record(`${routeLabel(route)} has x-default hreflang`, sameUrl(alternateMap.get('x-default') ?? '', urlForPath(group.enPath)), alternateMap.get('x-default') ?? 'missing');
+  } else {
+    record(`${routeLabel(route)} has no x-default without an English page`, !alternateMap.has('x-default'), alternateMap.get('x-default'));
+  }
 
   for (const key of ['og:title', 'og:description', 'og:url', 'twitter:title', 'twitter:description']) {
     const metaTags = key.startsWith('og:')

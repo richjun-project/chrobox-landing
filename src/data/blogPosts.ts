@@ -11,6 +11,7 @@ import { enBatch6, koBatch6, contentBatch6 } from './blogBatch6';
 import { enBatch7, koBatch7, contentBatch7 } from './blogBatch7';
 import { enBatch8, koBatch8, contentBatch8 } from './blogBatch8';
 import { enBatch9, koBatch9, contentBatch9 } from './blogBatch9';
+import { enDaily, koDaily, contentDaily, DAILY_SLUGS } from './blogDaily';
 import {
   getClusterBySlug,
   clusterCategoryName,
@@ -115,6 +116,7 @@ export const enBlogPosts: BlogPostMeta[] = [
     ],
   },
   ...enBatch1, ...enBatch2, ...enBatch3, ...enBatch4, ...enBatch5, ...enBatch6, ...enBatch7, ...enBatch8, ...enBatch9,
+  ...enDaily,
 ];
 
 // Korean blog posts
@@ -216,6 +218,7 @@ export const koBlogPosts: BlogPostMeta[] = [
     ],
   },
   ...koBatch1, ...koBatch2, ...koBatch3, ...koBatch4, ...koBatch5, ...koBatch6, ...koBatch7, ...koBatch8, ...koBatch9,
+  ...koDaily,
 ];
 
 function enrichWithCluster(post: BlogPostMeta): BlogPostMeta {
@@ -264,9 +267,11 @@ export const getBlogPosts = (lang: ContentLanguage): BlogPostMeta[] => {
   if (cached) return cached;
 
   const pack = LOCALIZED_CONTENT[lang];
+  // Daily posts exist only in the language they were written in (see blogDaily.ts).
+  const sourcePosts = enBlogPostsEnriched.filter((post) => !DAILY_SLUGS.has(post.slug) || pack?.blogContents[post.slug]);
   const posts = !pack
-    ? enBlogPostsEnriched
-    : enBlogPostsEnriched.map((post) => {
+    ? sourcePosts
+    : sourcePosts.map((post) => {
       const copy = pack.blogPosts[post.slug];
       if (!copy) return post;
 
@@ -284,6 +289,10 @@ export const getBlogPosts = (lang: ContentLanguage): BlogPostMeta[] => {
   localizedBlogPostsCache.set(lang, posts);
   return posts;
 };
+
+// Blog index order: newest first, so each day's post sits at the top of /blog.
+export const getBlogPostsNewestFirst = (lang: ContentLanguage): BlogPostMeta[] =>
+  [...getBlogPosts(lang)].sort((a, b) => b.date.localeCompare(a.date));
 
 export const getBlogPost = (slug: string, lang: ContentLanguage): BlogPostMeta | undefined => {
   return getBlogPosts(lang).find((post) => post.slug === slug);
@@ -314,7 +323,7 @@ const asLangFirst = (
 
 const normalizedBatches = [
   contentBatch1, contentBatch2, contentBatch3, contentBatch4,
-  contentBatch5, contentBatch6, contentBatch7, contentBatch8, contentBatch9,
+  contentBatch5, contentBatch6, contentBatch7, contentBatch8, contentBatch9, contentDaily,
 ].map(asLangFirst);
 
 // Blog post content (markdown)

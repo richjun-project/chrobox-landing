@@ -5,7 +5,7 @@ import { JsonLd } from '../../../components/JsonLd';
 import { pageMetadata } from '../../../lib/next-seo';
 import { absoluteUrl, localizedPath, seoCopy } from '../../../lib/seo';
 import { type LocaleParam, localeFromParam, localizedLocaleParams } from '../../_route-helpers';
-import { getBlogPosts } from '../../../data/blogPosts';
+import { getBlogPostsNewestFirst } from '../../../data/blogPosts';
 import { clusterLinks } from '../../../lib/viewData';
 import { uiCopy } from '../../../lib/uiCopy';
 import { contentLanguageForLocale } from '../../../lib/seo';
@@ -59,7 +59,7 @@ export default async function Page({ params }: { params: LocaleParam }) {
         }}
       />
       <BlogList
-        posts={getBlogPosts(contentLanguageForLocale(locale))}
+        posts={getBlogPostsNewestFirst(contentLanguageForLocale(locale))}
         clusters={clusterLinks(contentLanguageForLocale(locale))}
         ui={uiCopy(contentLanguageForLocale(locale))}
         locale={locale}

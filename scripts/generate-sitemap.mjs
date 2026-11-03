@@ -52,7 +52,8 @@ function renderUrlEntry(path, group, localeCode) {
     ...SEO_LOCALES.filter((locale) => localeAllowed(group, locale.code)).map(
       (locale) => [locale.code, urlForPath(group.paths[locale.code])],
     ),
-    ['x-default', urlForPath(group.enPath)],
+    // A post written only in Korean has no English page for x-default to point at.
+    ...(localeAllowed(group, 'en') ? [['x-default', urlForPath(group.enPath)]] : []),
   ];
 
   return `  <url>
