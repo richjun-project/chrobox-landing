@@ -21299,4 +21299,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/suneung-2-weeks-daily-plan"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/daily-plan-template-30-minute</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/daily-plan-template-30-minute"/>
+  </url>
+
 </urlset>
