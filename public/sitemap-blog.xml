@@ -21316,4 +21316,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/daily-plan-template-30-minute"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/how-to-use-study-planner</loc>
+    <lastmod>2026-11-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/how-to-use-study-planner"/>
+  </url>
+
 </urlset>

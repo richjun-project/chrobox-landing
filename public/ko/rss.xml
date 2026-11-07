@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>스터디플래너 쓰는 법: 계획 칸과 실제 공부 시간 칸 나눠 적기</title>
+      <link>https://chrobox.net/ko/blog/how-to-use-study-planner</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/how-to-use-study-planner</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>스터디플래너는 계획한 시간과 실제로 공부한 시간을 다른 칸에 나눠 적어야 쓸모가 생깁니다. 한 쪽 구성, 작성 예시, 주간 합계로 계획을 고치는 법까지 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>하루 계획표 양식: 30분 칸으로 짜는 법과 예시 3가지</title>
       <link>https://chrobox.net/ko/blog/daily-plan-template-30-minute</link>
