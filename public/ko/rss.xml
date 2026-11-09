@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>미라클모닝 시간표: 새벽 5시가 아니어도 지켜지는 아침 1시간</title>
+      <link>https://chrobox.net/ko/blog/miracle-morning-schedule</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/miracle-morning-schedule</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>미라클모닝 시간표는 새벽 5시가 아니라 집을 나서는 시각에서 거꾸로 짜야 오래 지켜집니다. 기상·취침 시각 계산표와 아침 1시간을 나누는 표를 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>스터디플래너 쓰는 법: 계획 칸과 실제 공부 시간 칸 나눠 적기</title>
       <link>https://chrobox.net/ko/blog/how-to-use-study-planner</link>
