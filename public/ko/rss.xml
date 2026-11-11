@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>다이어리 플래너 고르는 법: 종이와 앱을 나눠 쓰는 2027 기준</title>
+      <link>https://chrobox.net/ko/blog/diary-planner-paper-vs-app</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/diary-planner-paper-vs-app</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>다이어리 플래너는 한 권에 모든 것을 담기보다, 시각이 정해진 일은 앱에, 한 달 흐름과 손으로 남길 기록은 종이에 나눠 적을 때 오래 씁니다. 고르는 기준과 2027년 연휴표를 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>미라클모닝 시간표: 새벽 5시가 아니어도 지켜지는 아침 1시간</title>
       <link>https://chrobox.net/ko/blog/miracle-morning-schedule</link>
