@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Thu, 12 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>생활계획표 만들기: 원형 대신 시간 칸 표로 짜는 법과 양식</title>
+      <link>https://chrobox.net/ko/blog/daily-life-schedule-template</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/daily-life-schedule-template</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>생활계획표는 동그란 원형보다 시간이 위에서 아래로 내려가는 칸 표로 만들어야 지켜집니다. 만드는 다섯 단계, 나이별 수면 시간, 초등학생·중고등학생·직장인 양식 예시를 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>다이어리 플래너 고르는 법: 종이와 앱을 나눠 쓰는 2027 기준</title>
       <link>https://chrobox.net/ko/blog/diary-planner-paper-vs-app</link>
