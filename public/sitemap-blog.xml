@@ -21319,6 +21319,15 @@
   </url>
 
   <url>
+    <loc>https://chrobox.net/blog/weekly-review-template</loc>
+    <lastmod>2026-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/blog/weekly-review-template"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/blog/weekly-review-template"/>
+  </url>
+
+  <url>
     <loc>https://chrobox.net/ko/blog/suneung-2-weeks-daily-plan</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
