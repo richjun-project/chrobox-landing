@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Timeboxing Nedir? Zaman Yönetimi İçin Kapsamlı Rehber',
-      excerpt: 'Timeboxing\'in üretkenliğinizi nasıl dönüştüreceğini keşfedin. Bu tekniğin arkasındaki bilimi ve günlük rutininize nasıl uygulayacağınızı öğrenin.',
+      title: 'Timeboxing nedir? Tanım, örnek gün ve nasıl başlanır',
+      excerpt: 'Timeboxing, bir göreve takvimde sabit bir başlangıç saati ve süre verip kutu bitince durmaktır. Örnek bir gün, kanıtlar ve nasıl başlanacağı.',
       faqs: [
         {
-          question: 'Timeboxing nedir ve yapılacaklar listesinden farkı nelerdir?',
-          answer: 'Timeboxing, işe başlamadan önce her göreve sabit bir süre atar; böylece bir görevi "bitirene kadar" çalışmak yerine belirlenmiş bir zaman sınırı içinde çalışırsınız. Yapılacaklar listesi size ne yapacağınızı söyler; timeboxing ise bunu ne zaman ve ne kadar süreyle yapacağınızı belirterek ucu açık çalışmayı önler ve erteleme alışkanlığını azaltır.',
+          question: 'Timeboxing basitçe nedir?',
+          answer: 'Timeboxing, bir göreve başlangıç ve bitiş saati olan sabit bir zaman dilimi verip dilim bittiğinde durmaktır. Bir işi bitti gibi hissedene kadar sürdürmek yerine, ona ne kadar zaman ayıracağınıza ve bunu ne zaman yapacağınıza önceden karar verirsiniz.',
         },
         {
-          question: 'Bir timebox süresi ne kadar olmalıdır?',
-          answer: 'Tek bir doğru süre yoktur. Çoğu kişi odaklanarak çalışmak için 25-90 dakikalık süreleri etkili bulur. Daha kısa süreler (15-30 dk) idari işler için uygunken, daha uzun süreler (60-90 dk) derin yaratıcı veya analitik çalışmalar için idealdir. 30 dakikalık sürelerle başlayıp odaklanma sürenize göre ayarlama yapabilirsiniz.',
+          question: 'Timeboxing ile zaman bloklama arasındaki fark nedir?',
+          answer: 'Zaman bloklama, takvimde her sabah yazı yazmak gibi bir iş türü için zaman ayırır. Timeboxing ise tek bir görev için bir başlangıç ve kesin bir bitiş belirler. Birçok kişi ikisini birlikte kullanır: bloklar günü şekillendirir, kutular da blokların içindeki her görevi sınırlar.',
         },
         {
-          question: 'Süre bittiğinde görev henüz tamamlanmamışsa ne yapmalıyım?',
-          answer: 'Çalışmayı bırakın, nerede kaldığınızı kaydedin ve kalan iş için yeni bir timebox planlayın. Bu alışkanlık, zamanla görev sürelerini daha doğru tahmin etmenizi sağlar ve tek bir görevin tüm gününüzü tüketmesini engeller.',
+          question: 'Bir zaman kutusu ne kadar uzun olmalı?',
+          answer: 'Odaklanılan işler için 60 dakikayla, e-posta ve idari işler için 15 ila 30 dakikayla başlayın. Chrobox verilerinde ortanca kutu 60 dakikaydı ve tamamlanma oranları 15 ile 90 dakika arasındaki kutularda birbirine yakındı; bu yüzden kusursuz bir sayı yerine koruyabileceğiniz bir süre seçin.',
         },
       ],
     },
@@ -2330,89 +2330,97 @@ Bunun çözümü teknik değil, zihniyetle ilgili bir kuraldır: Bozulmuş bir s
 Gerçek hayatla temas ettiğinde ayakta kalan bir dijital detoks, en çok şeyi en hızlı şekilde hayatınızdan çıkaran detoks değildir. Geciktirilmiş bir sabah, korunan bir akşam, kısa bir haftalık değerlendirme ve yargılamadan ziyade bir geri bildirim olarak kabul ettiğiniz bir seriden oluşan az sayıda dayanıklı rutin üzerine kurulu olandır. Bu hafta dördüyle birden değil, sadece tek bir rutinle başlayın. Hedef mükemmel bir hafta geçirmek değil; üç ay sonra hala uyguluyor olacağınız bir sisteme sahip olmaktır.
 `,
     'what-is-time-boxing': `
-# Time-Boxing Nedir? Zamanınıza Hükmetmek İçin Kapsamlı Rehber
+# Timeboxing nedir? Tanım, örnek gün ve nasıl başlanır
 
-Tüm gün meşgul olmanıza rağmen hiçbir şey başaramamış gibi hissederek bir iş gününü bitirdiğiniz oldu mu? Yalnız değilsiniz. Her an bağlantıda olduğumuz günümüz dünyasında dikkat dağıtıcı unsurlar her yerde ve anlamlı işlere odaklanmak her zamankinden daha zor.
+**Timeboxing, bir göreve takvimde başlangıç saati ve süresi olan sabit bir zaman dilimi verdiğiniz ve görev bitmiş de olsa bitmemiş de olsa dilim sona erdiğinde durduğunuz bir zaman yönetimi yöntemidir.** Yapılacaklar listesi neyi yapacağınızı söyler. Bir zaman kutusu ise ne zaman ve ne kadar süreyle yapacağınızı da söyler. Marc Zao-Sanders, Harvard Business Review'de 2018'de yayımlanan bir makalede timeboxing'i yapılacaklar listenizi takviminize taşımak olarak tanımladı ve 100 verimlilik yöntemiyle yapılan bir ankette bunun en yararlı yöntem seçildiğini bildirdi. Aşağıda örnek bir gün, timeboxing'in benzer yöntemlerden farkı, kanıtların ne söylediği ve yarın nasıl başlayacağınız yer alıyor.
 
-İşte tam bu noktada devreye **time-boxing** (zaman kutulama) giriyor; dünyanın en üretken insanlarının zamanlarını yönetme şeklini dönüştüren, basit ama son derece güçlü bir teknik.
+## Tek kuralla timeboxing ve örnek bir gün
 
-## Time-Boxing'i Anlamak
+Yöntemin tamamı tek bir kurala sığar: **bugün yapmayı düşündüğünüz her görev saatte bir yer alır.** Timeboxing uygulanan bir iş günü şöyle görünebilir:
 
-Time-boxing, planlanmış bir aktiviteye "zaman kutusu" adı verilen sabit bir zaman dilimi ayırdığınız bir zaman yönetimi yöntemidir. Bir iş üzerinde o iş tamamlanana kadar çalışmak yerine, yalnızca belirlenen süre boyunca çalışırsınız.
+| Saat | Kutu | Süre |
+|---|---|---|
+| 08:30–08:45 | Günü planla | 15 dk |
+| 08:45–09:45 | Proje teklifini yaz (öncelikli) | 60 dk |
+| 09:45–10:00 | Mola | 15 dk |
+| 10:00–11:00 | Bütçe tablosunu gözden geçir | 60 dk |
+| 11:00–11:30 | E-posta ve mesajlar | 30 dk |
+| 11:30–12:30 | Ekip toplantısı | 60 dk |
+| 12:30–13:30 | Öğle yemeği | 60 dk |
+| 13:30–14:30 | Teklifi düzelt ve gönder | 60 dk |
+| 14:30–15:00 | İdari işler ve küçük görevler | 30 dk |
+| 15:00–16:00 | Taşan işler için tampon | 60 dk |
+| 16:00–16:30 | E-posta ve yarının planı | 30 dk |
 
-### Nasıl Çalışır?
+Üç ayrıntı kesin saatlerden daha önemlidir. En önemli görev günün ilk uzun kutusunu alır. E-postanın her saate yayılmak yerine iki sabit kutusu vardır. Ve bir saat bilerek boş bırakılır; böylece süresini aşan bir görev günün geri kalanını ileri itmez.
 
-1. Üzerinde çalışmak istediğiniz **bir görev seçin**
-2. **Belirli bir süre sınırı koyun** (örneğin 30 dakika, 1 saat, 2 saat)
-3. Zaman kutusu boyunca **yalnızca bu görev üzerinde çalışın**
-4. Görevin tamamlanıp tamamlanmadığına bakmaksızın, **süre dolduğunda durun**
-5. **İlerlemenizi değerlendirin** ve sonraki adımları planlayın
+## Timeboxing, yapılacaklar listesi, zaman bloklama ve Pomodoro
 
-## Time-Boxing'in Arkasındaki Bilim
+| | Yapılacaklar listesi | Zaman bloklama | Timeboxing | Pomodoro Tekniği |
+|---|---|---|---|---|
+| Neye karar verirsiniz | Ne yapılacağına | Bir iş türünün ne zaman yapılacağına | Tek bir görevin ne zaman ve ne kadar süreyle yapılacağına | 25 dakikalık aralıklarla ve kısa molalarla çalışmaya |
+| Birim | Görev | "Yazı yazma" gibi bir takvim bloğu | Başı ve sonu olan tek bir görev | Aralık |
+| Süre dolduğunda | Hiçbir şey olmaz | Blok çoğu zaman uzatılır veya kaydırılır | Durursunuz ve sıradaki işe karar verirsiniz | Kısa mola, ardından sonraki aralık |
+| En çok neye yarar | Her şeyi not etmeye | Haftayı şekillendirmeye | Belirli görevleri bitirmeye | Zor bir göreve başlamaya |
 
-Time-boxing işe yarar çünkü birkaç psikolojik ilkeyi temel alır:
+İnsanlar "zaman bloklama" ve "timeboxing" terimlerini çoğunlukla eş anlamlı kullanır ve ikisi birlikte iyi çalışır: bloklar günü şekillendirir, kutu ise bir bloğun içindeki her göreve sınır koyar. [Zaman bloklama ve timeboxing](/tr/blog/time-blocking-vs-time-boxing) farkı ayrıntılı anlatır, [timeboxing ve Pomodoro](/tr/blog/time-boxing-vs-pomodoro) ise sabit aralıkların görev boyutundaki kutulardan ne zaman daha çok işe yaradığını açıklar.
 
-### Parkinson Yasası
+## Timeboxing neden işe yarar
 
-"Bir iş, tamamlanması için ayrılan sürenin tamamını kapsayacak şekilde genişler." Katı zaman sınırları belirleyerek, kendinizi gerçekten önemli olan şeylere odaklanmaya zorlar ve mükemmeliyetçiliği ortadan kaldırırsınız.
+İki tür kanıt aynı yönü gösteriyor.
 
-### Zeigarnik Etkisi
+**Ne zaman harekete geçeceğinize önceden karar vermek.** Psikologlar, bir şeyi ne zaman ve nerede yapacağınızı belirten plana uygulama niyeti der. Gollwitzer ve Sheeran'ın (2006) 94 bağımsız testi kapsayan bir meta-analizi, hedeflere ulaşma üzerinde orta ile büyük arasında bir etki buldu (d = .65). Sheeran, Listrom ve Gollwitzer'ın (2025) 642 testi kapsayan daha büyük meta-analizinde etkiler d = .27 ile d = .66 arasındaydı; planlar "eğer-o zaman" biçiminde olduğunda, insanlar çok motive olduğunda ve planı zihinlerinde prova ettiklerinde etkiler daha büyüktü. Zaman kutusu, tek bir görev için uygulama niyetidir: "08:45'te teklifi yazıyorum."
 
-Tamamlanmamış görevler, zihinsel bir gerilim yaratarak aktif belleğimizde kalmaya devam eder. Time-boxing, birden fazla alanda ilerleme kaydetmenize yardımcı olarak bu bilişsel yükü azaltır.
+**Zaman kutusuna alınan görevlere pratikte ne olur.** Bir timeboxing uygulaması geliştiriyoruz; bu yüzden insanların gerçekte neleri bitirdiğine bakabiliyoruz. Aralık 2025 ile Eylül 2026 arasında 250 kişinin planladığı 5,077 görevi kapsayan Chrobox kullanım verileri şunu gösteriyor:
 
-### Akış (Flow) Durumunun Aktivasyonu
+| Bulgu | Sonuç |
+|---|---|
+| Başlangıç saati ve süresi olan görevler ile listede bırakılan görevler | %48.1 ile %17.6 tamamlandı |
+| Aynı kişi, iki yöntemle (41 kişi) | 35 kişi zaman kutusuna aldığı görevlerin daha fazlasını bitirdi |
+| 05:00–08:59 arasında başlayan kutular ile 21:00–23:59 arasında başlayanlar | %62.3 ile %33.2 tamamlandı |
+| Öncelikli işaretlenen görevler ile işaretlenmeyenler | %44.5 ile %28.9 tamamlandı |
+| Ortanca kutu süresi | 60 dakika |
+| Günde planlanan ortanca görev sayısı | 5 |
 
-Sınırlı zamanınız olduğunu bilmek, akış durumuna daha hızlı girmenize yardımcı olabilecek sağlıklı bir aciliyet hissi yaratır.
+Bunlar bir deney değil, gözlem verileridir. İnsanlar zaten yapmayı düşündükleri görevlere zaman dilimi vermiş olabilir ve bir zaman dilimi aynı zamanda hatırlatıcı işlevi görür. Aynı kişiyle yapılan karşılaştırma örüntüyü başka bir şekilde açıklamayı zorlaştırır, ama bu yine de bir ilişkidir, nedenin kanıtı değildir. [Timeboxing işe yarıyor mu?](/tr/blog/does-timeboxing-work) yazısında yöntemin tamamı, tüm dışlamalar ve daha az iyi görünen sonuçlar yer alıyor.
 
-## Time-Boxing'in Faydaları
+## Bir zaman kutusu ne kadar uzun olmalı?
 
-### 1. Artan Üretkenlik
+Tek bir doğru süre yoktur. Chrobox verilerinde ortanca kutu 60 dakikaydı; bunun bir nedeni, zaman çizelgesine bırakılan bir görevin bir saatlik kutu olarak başlamasıdır. Tamamlanma oranları da 15 ile 90 dakika arasındaki kutularda birbirine yakındı. Koruyabileceğiniz bir süre, kusursuz bir sayıdan daha önemlidir. Makul başlangıç noktaları şunlardır:
 
-Görevler için ayrılan süreyi sınırlayarak, doğal olarak daha odaklanmış ve verimli hale gelirsiniz. Araştırmalar, zaman kısıtlamalarının üretkenliği %30'a kadar artırabildiğini gösteriyor.
+| İş türü | Başlangıç süresi |
+|---|---|
+| E-posta, idari işler, küçük görevler | 15–30 dakika |
+| Yazma, analiz veya çalışma gibi odaklanılan işler | 60 dakika |
+| Zor yaratıcı veya teknik işler | 90 dakika, ardından mola |
+| Toplantılar ve dersler | Etkinlik ne kadar sürerse |
 
-### 2. Daha İyi İş-Yaşam Dengesi
+## Yarın timeboxing'e nasıl başlanır
 
-İşinizin tam olarak ne zaman biteceğini bildiğinizde, zihninizi işten tamamen uzaklaştırabilir ve suçluluk duymadan kişisel zamanınızın tadını çıkarabilirsiniz.
+1. **Yarın bitirmek istediğiniz üç görevi seçin** ve birini öncelikli olarak işaretleyin.
+2. **Her birini dakika olarak tahmin edin** ve yukarı yuvarlayın. İlk tahminler genellikle kısa olur.
+3. **Önce güne sabit etkinlikleri yerleştirin:** toplantılar, dersler, yolculuk.
+4. **Öncelikli görevi ilk uzun boşluğa koyun,** tercihen sabaha.
+5. **Öğleden sonraya bir boş tampon kutusu bırakın.**
+6. **Bir kutu bittiğinde durun ve karar verin:** bitti, daha sonra yeni bir kutu ya da yeterince iyi.
 
-### 3. Daha Az Erteleme
+İlk hafta kutuların süreyi aşmasını bekleyin. Bu işe yarar: birkaç gün sonra görevlerinizin gerçekte ne kadar sürdüğünü bilirsiniz ve tahminleriniz iyileşir. Mesleklere göre hazır gün düzenleri için [günlük program şablonlarına](/tr/templates) bakın. Bütün bir haftayı planlamak için [haftalık planlama rehberi](/tr/blog/weekly-planning-guide) adım adım gösteriyor.
 
-30 dakikalık bir göreve başlamak, ucu açık bir projeye başlamaktan çok daha az korkutucu hissettirir. Time-boxing, işe koyulma eşiğini düşürür.
+## Kutu bittiğinde ve görev bitmediğinde
 
-## Bugün Time-Boxing'e Nasıl Başlanır?
+Yine de durun. Nerede olduğunuzu tek satırla yazın, sonra üç seçenekten birini seçin: göreve bugün daha sonra yeni bir kutu vermek, yarına ertelemek ya da mevcut hâlinin yeterince iyi olduğuna karar vermek. Durmak ilk birkaç seferde yanlış hissettirir, ama tek bir görevin bütün günü ele geçirmesini engelleyen budur ve gerçek görev sürelerinizi bu şekilde öğrenirsiniz.
 
-### 1. Adım: Görevlerinizi Listeleyin
+## Timeboxing'de sık yapılan hatalar
 
-Tamamlamanız gereken her şeyi yazın. Henüz filtreleme veya önceliklendirme yapmayın; sadece hepsini kağıda dökün.
+- **Her dakikayı kutulamak.** Hiç boş kutusu olmayan bir gün, ilk süre aşımında dağılır.
+- **Bitirilemeyecek kadar büyük kutular.** "Tez, 3 saat" bir bloktur, kutu değil. Bunun yerine sonucu adlandırın: "2. bölümün taslağı".
+- **Zor görevi sona bırakmak.** Chrobox verilerinde saat 09:00'dan önce başlayan kutular, gece geç saatte başlayanlardan çok daha sık tamamlandı.
+- **Hiç geriye bakmamak.** Gün sonunda iki dakikalık bir kontrol, hangi kutuların kaydığını ve nedenini gösterir.
 
-### 2. Adım: Gereken Süreyi Tahmin Edin
+## Chrobox'ta timeboxing
 
-Her bir görev için ne kadar odaklanmış zaman gerektiğini tahmin edin. Gerçekçi olun ama kendinizi biraz da zorlayın.
-
-### 3. Adım: Zaman Kutularını Atayın
-
-Görevlerinizi uygun zaman dilimlerinize dağıtın. Gün içindeki enerji seviyenizi göz önünde bulundurun.
-
-### 4. Adım: Uygulayın ve Düzenleyin
-
-Zaman kutularınızı teker teker uygulayın. Bir görev bitmediyse, onun için başka bir zaman kutusu planlayın.
-
-## Chrobox ile Time-Boxing
-
-Chrobox, time-boxing yöntemini sezgisel ve keyifli hale getirir. Sunulan özelliklerden bazıları:
-
-- **Akıllı Planlama Akışı** — 6 adımlı rehberli iş akışı
-- **Görsel Zaman Tüneli** — Tüm gününüzü bir bakışta görün
-- **AI Destekli Analizler** — Kişiselleştirilmiş öneriler alın
-- **Günlük Değerlendirme** — Ruh halinizi ve üretkenliğinizi takip edin
-
-Daha iyi bir zaman yönetimi yolculuğuna bugün 3 günlük ücretsiz deneme ile başlayın.
-
-## Sonuç
-
-Time-boxing, sadece bir üretkenlik ipucundan daha fazlasıdır; bilinçli bir yaşam felsefesidir. Zamanınızı nasıl harcayacağınıza bilinçli olarak karar vererek gününüzün ve nihayetinde hayatınızın kontrolünü elinize alırsınız.
-
-Time-boxing'e başlamak için en iyi zaman şimdidir. 30 dakikalık bir zaman kutusu belirleyin ve ilk görevinize başlayın. Ne kadar çok şey başarabileceğinize şaşırabilirsiniz.
-    `,
+Chrobox, iPhone ve Android için bir timeboxing uygulamasıdır. Bir görevi başlangıç saati ve süreyle eklersiniz, görev günün zaman çizelgesinde görünür ve bir uyarı kutunun ne zaman başladığını söyler. Odak zamanlayıcısı, geçerli kutunun süresini bir kez geri sayar; gün sonundaki kısa bir değerlendirme ise nelerin ilerlediğini kaydeder. Görevler, öncelikler, zaman çizelgesi, odak zamanlayıcısı, uyarılar, rutinler ve günlük değerlendirmeler ücretsizdir; bir kutu sırasında dikkat dağıtan uygulamaları engelleme, ana ekran ve kilit ekranı widget'ları, yapay zekâ ile planlama ve ayrıntılı istatistikler Pro'nun parçasıdır.
+`,
     '5-time-boxing-strategies': `
 # En Başarılı CEO'lar ve Girişimciler Tarafından Kullanılan 5 Zaman Kutulama (Time-Boxing) Stratejisi
 

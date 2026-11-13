@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Wat is timeboxing? De ultieme gids voor timemanagement',
-      excerpt: 'Ontdek hoe timeboxing je productiviteit kan transformeren. Leer de wetenschap achter deze techniek en hoe je het toepast in je dagelijkse routine.',
+      title: 'Wat is timeboxing? Definitie, voorbeelddag en hoe je begint',
+      excerpt: 'Timeboxing is een taak een vaste starttijd en duur in je agenda geven en stoppen als de box afloopt. Een voorbeelddag, het bewijs en hoe je begint.',
       faqs: [
         {
-          question: 'Wat is timeboxing en wat is het verschil met een to-dolijst?',
-          answer: 'Bij timeboxing wijs je vooraf een vaste duur toe aan elke taak. Je werkt dus binnen een duidelijke tijdslimiet in plaats van door te gaan tot een taak \'af\' is. Een to-dolijst vertelt je wát je moet doen; timeboxing vertelt je wanneer en hoe lang. Dit voorkomt eindeloos doorwerken en vermindert uitstelgedrag.',
+          question: 'Wat is timeboxing in simpele woorden?',
+          answer: 'Timeboxing betekent dat je een taak een vast tijdslot geeft, met een starttijd en een eindtijd, en stopt als het slot voorbij is. In plaats van aan iets te werken tot het af voelt, bepaal je van tevoren hoeveel tijd het krijgt en wanneer.',
+        },
+        {
+          question: 'Wat is het verschil tussen timeboxing en time-blocking?',
+          answer: 'Bij time-blocking reserveer je tijd in je agenda voor een soort werk, zoals elke ochtend schrijven. Bij timeboxing leg je voor één specifieke taak een start en een harde einde vast. Veel mensen gebruiken beide: blokken geven de dag vorm en boxen begrenzen elke taak daarbinnen.',
         },
         {
           question: 'Hoe lang moet een timebox zijn?',
-          answer: 'Er is geen vaste ideale lengte. De meeste mensen vinden 25 tot 90 minuten het prettigst voor gefocust werk. Kortere blokken (15–30 min) zijn ideaal voor administratieve taken, terwijl langere blokken (60–90 min) beter passen bij diepgaand creatief of analytisch werk. Begin met blokken van 30 minuten en pas dit aan op basis van je concentratieboog.',
-        },
-        {
-          question: 'Wat moet ik doen als een taak niet af is wanneer de timebox eindigt?',
-          answer: 'Stop met werken, noteer waar je bent gebleven en plan een nieuwe timebox in voor het resterende werk. Dit helpt je om op den duur de benodigde tijd voor taken beter in te schatten en voorkomt dat één taak je hele dag opslokt.',
+          answer: 'Begin met 60 minuten voor geconcentreerd werk en 15 tot 30 minuten voor e-mail en administratie. In de Chrobox-data was de mediane box 60 minuten en lagen de voltooiingspercentages dicht bij elkaar voor boxen tussen 15 en 90 minuten, dus kies een duur die je kunt bewaken in plaats van een perfect getal.',
         },
       ],
     },
@@ -1956,89 +1956,97 @@ Bekijk hoeveel sessies je hebt voltooid met actieve blokkering versus hoeveel se
 Het blokkeren van apps is geen straf — het is het sluiten van een open deur waar je eigenlijk nooit doorheen had willen lopen. Gecombineerd met een concreet plan voor de tijd die je hiermee vrijmaakt, verandert "ik zou me meer moeten focussen" van een vaag voornemen in een automatische standaardinstelling. Stel vandaag nog je eerste geblokkeerde focussessie in, al is het maar een korte, en ervaar zelf hoe anders 45 minuten onverdeelde aandacht voelt in vergelijking met 45 minuten waarin je telefoon op slechts één blik afstand ligt.
     `,
     'what-is-time-boxing': `
-# Wat is time-boxing? De ultieme gids om meester te worden over je tijd
+# Wat is timeboxing? Definitie, voorbeelddag en hoe je begint
 
-Heb je wel eens een werkdag afgesloten met het gevoel dat je niets hebt bereikt, hoewel je de hele dag druk bent geweest? Je bent niet de enige. In onze hyper-verbonden wereld liggen afleidingen overal op de loer en is gefocust blijven op betekenisvol werk lastiger dan ooit.
+**Timeboxing is een timemanagementmethode waarbij je een taak een vast blok in je agenda geeft, met een starttijd en een duur, en stopt als het blok voorbij is, of de taak nu af is of niet.** Een to-dolijst vertelt je wat je moet doen. Een timebox vertelt je ook wanneer en hoe lang. In een artikel in Harvard Business Review uit 2018 beschreef Marc Zao-Sanders timeboxing als het verplaatsen van je to-dolijst naar je agenda, en hij meldde dat het in een enquête onder 100 productiviteitstrucs als het nuttigste werd beoordeeld. Hieronder vind je een voorbeelddag, het verschil met vergelijkbare methoden, wat het bewijs zegt en hoe je morgen begint.
 
-Maak kennis met **time-boxing** — een eenvoudige maar krachtige techniek die de manier waarop 's werelds meest productieve mensen hun tijd indelen, compleet heeft veranderd.
+## Timeboxing in één regel en een voorbeelddag
 
-## Wat is time-boxing?
+De hele methode past in één regel: **elke taak die je vandaag wilt doen krijgt een plek op de klok.** Zo kan een getimeboxte werkdag eruitzien:
 
-Time-boxing is een timemanagementmethode waarbij je een vaste periode, een zogenaamde "timebox", toewijst aan een geplande activiteit. In plaats van aan een taak te werken tot deze af is, werk je er alleen gedurende de vooraf bepaalde tijd aan.
+| Tijd | Box | Duur |
+|---|---|---|
+| 08:30–08:45 | De dag plannen | 15 min |
+| 08:45–09:45 | Het projectvoorstel schrijven (prioriteit) | 60 min |
+| 09:45–10:00 | Pauze | 15 min |
+| 10:00–11:00 | Het budgetoverzicht nalopen | 60 min |
+| 11:00–11:30 | E-mail en berichten | 30 min |
+| 11:30–12:30 | Teamoverleg | 60 min |
+| 12:30–13:30 | Lunch | 60 min |
+| 13:30–14:30 | Het voorstel herzien en versturen | 60 min |
+| 14:30–15:00 | Administratie en kleine taken | 30 min |
+| 15:00–16:00 | Buffer voor alles wat uitliep | 60 min |
+| 16:00–16:30 | E-mail en plan voor morgen | 30 min |
 
-### Hoe het werkt
+Drie details zijn belangrijker dan de exacte tijden. De belangrijkste taak krijgt de eerste lange box van de dag. E-mail krijgt twee vaste boxen in plaats van in elk uur door te sijpelen. En één uur blijft met opzet leeg, zodat een taak die uitloopt de rest van de dag niet later schuift.
 
-1. **Kies een taak** waar je aan wilt werken
-2. **Stel een specifieke tijdslimiet in** (bijv. 30 minuten, 1 uur, 2 uur)
-3. **Werk uitsluitend aan die taak** tijdens de timebox
-4. **Stop als de tijd om is**, of de taak nu af is of niet
-5. **Evalueer je voortgang** en plan de volgende stappen
+## Timeboxing vs een to-dolijst, time-blocking en Pomodoro
 
-## De wetenschap achter time-boxing
+| | To-dolijst | Time-blocking | Timeboxing | Pomodoro-techniek |
+|---|---|---|---|---|
+| Wat je bepaalt | Wat je doet | Wanneer je een soort werk doet | Wanneer en hoe lang je aan één taak werkt | Werken in intervallen van 25 minuten met korte pauzes |
+| Eenheid | Taak | Agendablok, zoals „schrijven” | Eén taak met een begin en een einde | Interval |
+| Als de tijd om is | Er gebeurt niets | Het blok wordt vaak verlengd of verplaatst | Je stopt en beslist wat er daarna komt | Korte pauze, dan het volgende interval |
+| Het nuttigst voor | Alles vastleggen | De week vormgeven | Specifieke taken afmaken | Op gang komen met een lastige taak |
 
-Time-boxing werkt omdat het gebruikmaakt van verschillende psychologische principes:
+Mensen gebruiken „time-blocking” en „timeboxing” vaak als synoniemen, en de twee werken goed samen: blokken geven de dag vorm, en een box begrenst elke taak binnen een blok. [Time-blocking vs time-boxing](/nl/blog/time-blocking-vs-time-boxing) legt het verschil uitgebreid uit, en [timeboxing vs Pomodoro](/nl/blog/time-boxing-vs-pomodoro) legt uit wanneer vaste intervallen beter helpen dan boxen op taakformaat.
 
-### De wet van Parkinson
+## Waarom timeboxing werkt
 
-"Werk dijt uit tot het de tijd vult die beschikbaar is voor de voltooiing ervan." Door strikte tijdslimieten te stellen, dwing je jezelf om je te focussen op wat er echt toe doet en reken je af met perfectionisme.
+Twee soorten bewijs wijzen dezelfde kant op.
 
-### Het Zeigarnik-effect
+**Van tevoren beslissen wanneer je actie onderneemt.** Psychologen noemen een plan dat vastlegt wanneer en waar je iets gaat doen een implementatie-intentie. Een meta-analyse van Gollwitzer en Sheeran (2006) van 94 onafhankelijke toetsen vond een middelgroot tot groot effect op het bereiken van doelen (d = .65). Een grotere meta-analyse van Sheeran, Listrom en Gollwitzer (2025), met 642 toetsen, vond effecten tussen d = .27 en d = .66, met grotere effecten wanneer plannen een als-dan-vorm hadden, wanneer mensen sterk gemotiveerd waren en wanneer ze het plan oefenden. Een timebox is een implementatie-intentie voor één taak: „om 08:45 schrijf ik het voorstel.”
 
-Onvoltooide taken zorgen voor mentale spanning, waardoor ze in ons actieve geheugen blijven hangen. Time-boxing helpt je om op meerdere fronten vooruitgang te boeken, wat deze cognitieve belasting vermindert.
+**Wat er in de praktijk gebeurt met getimeboxte taken.** Wij bouwen een timeboxing-app, dus we kunnen kijken wat mensen daadwerkelijk afmaken. Gebruiksdata van Chrobox over 5.077 taken die 250 mensen tussen december 2025 en september 2026 planden, laat zien:
 
-### Activering van de flowstaat
+| Bevinding | Resultaat |
+|---|---|
+| Taken met een starttijd en duur vs taken die op de lijst bleven staan | 48,1% vs 17,6% voltooid |
+| Dezelfde persoon, op beide manieren (41 mensen) | 35 maakten meer van hun getimeboxte taken af |
+| Boxen die starten om 05:00–08:59 vs 21:00–23:59 | 62,3% vs 33,2% voltooid |
+| Taken gemarkeerd als prioriteit vs niet gemarkeerd | 44,5% vs 28,9% voltooid |
+| Mediane boxduur | 60 minuten |
+| Mediaan geplande taken per dag | 5 |
 
-Weten dat je beperkte tijd hebt, zorgt voor een gezonde dosis gezonde druk waardoor je sneller in een flowstaat raakt.
+Dit zijn observationele data, geen experiment. Mensen geven tijdsloten misschien aan de taken die ze al van plan waren te doen, en een tijdslot werkt ook als herinnering. Door dezelfde persoon met zichzelf te vergelijken is het patroon moeilijker weg te verklaren, maar het blijft een verband en geen bewijs van oorzaak. [Werkt timeboxing?](/nl/blog/does-timeboxing-work) bevat de volledige methode, elke uitsluiting en de resultaten die minder goed uitpakken.
 
-## De voordelen van time-boxing
+## Hoe lang moet een timebox zijn?
 
-### 1. Hogere productiviteit
+Er is geen enkele juiste duur. De mediane box in de Chrobox-data was 60 minuten, deels omdat een taak die je op de tijdlijn laat vallen begint als een box van een uur, en de voltooiingspercentages lagen dicht bij elkaar voor boxen van 15 tot 90 minuten. Een duur die je kunt bewaken is belangrijker dan een perfect getal. Dit zijn redelijke beginpunten:
 
-Door de beschikbare tijd voor taken te beperken, word je vanzelf gefocuster en efficiënter. Onderzoek toont aan dat tijdsbeperkingen de productiviteit met wel 30% kunnen verhogen.
+| Soort werk | Beginduur |
+|---|---|
+| E-mail, administratie, kleine taken | 15–30 minuten |
+| Geconcentreerd werk zoals schrijven, analyse of studeren | 60 minuten |
+| Lastig creatief of technisch werk | 90 minuten, met daarna een pauze |
+| Overleggen en lessen | Zo lang als de afspraak duurt |
 
-### 2. Een betere balans tussen werk en privé
+## Zo begin je morgen met timeboxing
 
-Als je precies weet wanneer je werkdag eindigt, kun je de boel echt loslaten en zonder schuldgevoel van je vrije tijd genieten.
+1. **Kies drie taken** die je morgen af wilt hebben en markeer er één als prioriteit.
+2. **Schat elke taak** in minuten en rond naar boven af. Eerste schattingen vallen meestal te kort uit.
+3. **Zet eerst de vaste afspraken in de dag:** overleggen, lessen, reistijd.
+4. **Zet de prioriteit in het eerste lange gat,** bij voorkeur 's ochtends.
+5. **Laat één lege bufferbox** in de middag.
+6. **Als een box afloopt, stop dan en beslis:** af, een nieuwe box later of goed genoeg.
 
-### 3. Minder uitstelgedrag
+Verwacht dat boxen in de eerste week uitlopen. Dat is nuttig: na een paar dagen weet je hoe lang je taken echt duren, en worden je schattingen beter. Voor kant-en-klare dagindelingen per beroep, zie de [sjablonen voor dagplanningen](/nl/templates). Om een hele week te plannen, loopt de [gids voor weekplanning](/nl/blog/weekly-planning-guide) je erdoorheen.
 
-Beginnen aan een taak van 30 minuten voelt veel minder overweldigend dan starten met een ongedefinieerd project. Time-boxing verlaagt de drempel om te beginnen.
+## Als de box afloopt en de taak niet af is
 
-## Vandaag nog beginnen met time-boxing
+Stop toch. Schrijf één regel op over waar je staat en kies dan uit drie opties: geef de taak later vandaag een nieuwe box, verplaats hem naar morgen, of besluit dat de huidige versie goed genoeg is. Stoppen voelt de eerste keren verkeerd, maar het voorkomt dat één taak de hele dag overneemt, en zo leer je hoe lang je taken echt duren.
 
-### Stap 1: Maak een lijst van je taken
+## Veelgemaakte timeboxing-fouten
 
-Schrijf alles op wat je moet doen. Ga nog niet filteren of prioriteren — schrijf het gewoon allemaal van je af.
+- **Elke minuut boxen.** Een dag zonder lege box valt uit elkaar bij de eerste overschrijding.
+- **Boxen die te groot zijn om af te maken.** „Scriptie, 3 uur” is een blok, geen box. Benoem liever het resultaat: „paragraaf 2 in concept”.
+- **De lastige taak voor het laatst bewaren.** In de Chrobox-data werden boxen die voor 09:00 begonnen veel vaker voltooid dan boxen laat in de avond.
+- **Nooit terugkijken.** Een check van twee minuten aan het eind van de dag laat zien welke boxen zijn verschoven en waarom.
 
-### Stap 2: Schat de benodigde tijd in
+## Timeboxing in Chrobox
 
-Schat voor elke taak in hoeveel gefocuste tijd je ervoor nodig hebt. Wees realistisch, maar daag jezelf een beetje uit.
-
-### Stap 3: Wijs timeboxen toe
-
-Verdeel je taken over je beschikbare tijdsloten. Houd hierbij rekening met je energieniveau gedurende de dag.
-
-### Stap 4: Voer uit en pas aan
-
-Werk je timeboxen één voor één af. Als een taak niet af is, plan er dan simpelweg een nieuwe timebox voor in.
-
-## Time-boxing met Chrobox
-
-Chrobox maakt time-boxing intuïtief en leuk. Met functies zoals:
-
-- **Slimme planningsflow** — een begeleide workflow in 6 stappen
-- **Visuele tijdlijn** — Bekijk je hele dag in één oogopslag
-- **AI-gestuurde inzichten** — Ontvang gepersonaliseerde aanbevelingen
-- **Dagelijkse terugblik** — Houd je stemming en productiviteit bij
-
-Begin vandaag nog aan je reis naar beter timemanagement met een gratis proefperiode van 3 dagen.
-
-## Conclusie
-
-Time-boxing is meer dan alleen een productiviteitshack — het is een filosofie van bewust leven. Door bewust te beslissen hoe je je tijd besteedt, neem je de controle over je dag en, uiteindelijk, over je leven.
-
-Het beste moment om te beginnen met time-boxing is nu. Stel een timebox van 30 minuten in en begin aan je eerste taak. Je zult er versteld van staan hoeveel je kunt bereiken.
-    `,
+Chrobox is een timeboxing-app voor iPhone en Android. Je voegt een taak toe met een starttijd en een duur, hij verschijnt op de tijdlijn van de dag en een melding laat je weten wanneer de box begint. De focustimer telt één keer de duur van de huidige box af, en een korte reflectie aan het eind van de dag legt vast wat er vooruit is gegaan. Taken, prioriteiten, de tijdlijn, de focustimer, meldingen, routines en dagelijkse reflecties zijn gratis; het blokkeren van afleidende apps tijdens een box, widgets voor het start- en toegangsscherm, AI-planning en gedetailleerde statistieken horen bij Pro.
+`,
     '5-time-boxing-strategies': `
 # 5 timeboxing-strategieën van top-CEO's en ondernemers
 

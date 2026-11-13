@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Teknik Time-Boxing: Panduan Lengkap Kuasai Masa Anda',
-      excerpt: 'Ketahui bagaimana teknik time-boxing mampu melonjakkan produktiviti anda. Fahami sains di sebalik kaedah ini dan cara mengamalkannya dalam rutin harian.',
+      title: 'Apa itu time-boxing? Definisi, contoh hari dan cara bermula',
+      excerpt: 'Time-boxing ialah memberi tugasan masa mula dan tempoh tetap dalam kalendar, lalu berhenti apabila kotak tamat. Contoh satu hari, bukti dan cara bermula.',
       faqs: [
         {
-          question: 'Apakah itu time-boxing dan bagaimanakah ia berbeza daripada senarai tugas?',
-          answer: 'Time-boxing menetapkan tempoh masa yang tetap untuk setiap tugasan sebelum anda bermula, jadi anda bekerja dalam had masa yang ditetapkan dan bukannya bekerja sehingga tugasan itu "selesai". Senarai tugas memberitahu anda apa yang perlu dibuat; manakala time-boxing menetapkan bila dan berapa lama, sekali gus menghapuskan kerja tanpa had masa dan mengurangkan tabiat menangguh kerja.',
+          question: 'Apakah time-boxing dalam bahasa mudah?',
+          answer: 'Time-boxing bermaksud memberi tugasan satu slot masa tetap, dengan masa mula dan masa tamat, dan berhenti apabila slot itu tamat. Daripada mengerjakan sesuatu sehingga terasa siap, anda memutuskan lebih awal berapa lama masa yang diberikan dan bila.',
         },
         {
-          question: 'Berapakah tempoh masa yang ideal untuk satu blok masa?',
-          answer: 'Tiada satu tempoh khusus yang betul untuk semua orang. Kebanyakan orang mendapati 25–90 minit adalah berkesan untuk kerja yang fokus. Blok yang lebih pendek (15–30 minit) sesuai untuk tugas pentadbiran, manakala blok yang lebih lama (60–90 minit) sesuai untuk kerja kreatif atau analitikal yang mendalam. Mulakan dengan blok 30 minit dan selaraskannya mengikut tahap tumpuan anda.',
+          question: 'Apakah perbezaan antara time-boxing dan time-blocking?',
+          answer: 'Time-blocking menempah masa dalam kalendar untuk sejenis kerja, seperti menulis setiap pagi. Time-boxing menetapkan permulaan dan pengakhiran yang tegas untuk satu tugasan tertentu. Ramai orang menggunakan kedua-duanya: blok membentuk hari, dan kotak menghadkan setiap tugasan di dalamnya.',
         },
         {
-          question: 'Apakah yang perlu saya lakukan jika tugasan belum selesai apabila blok masa tamat?',
-          answer: 'Berhenti bekerja, catat setakat mana perkembangan anda, dan jadualkan blok masa baharu untuk baki kerja tersebut. Amalan ini melatih anda untuk menganggar tempoh tugasan dengan tepat dari semasa ke semasa dan mengelakkan satu tugasan daripada memakan masa sepanjang hari anda.',
+          question: 'Berapa lama sepatutnya satu kotak masa?',
+          answer: 'Mulakan dengan 60 minit untuk kerja berfokus dan 15 hingga 30 minit untuk e-mel dan pentadbiran. Dalam data Chrobox, kotak median ialah 60 minit, dan kadar penyelesaian hampir sama antara kotak 15 hingga 90 minit, jadi pilih tempoh yang boleh anda pertahankan dan bukannya nombor yang sempurna.',
         },
       ],
     },
@@ -2330,89 +2330,97 @@ Penyelesaiannya adalah peraturan minda, bukannya teknikal: rekod konsistensi yan
 Detoks digital yang mampu bertahan dalam kehidupan sebenar bukanlah detoks yang membuang paling banyak perkara dengan paling cepat. Ia adalah detoks yang dibina daripada sebilangan kecil rutin yang tahan lama — pagi yang ditangguhkan daripada telefon, malam yang dilindungi, ulasan mingguan yang singkat, dan rekod konsistensi yang anda anggap sebagai maklum balas dan bukannya penghakiman. Mulakan dengan satu rutin minggu ini, bukan keempat-empatnya sekali. Matlamatnya bukanlah minggu yang sempurna; ia adalah sistem yang masih anda jalankan dalam masa tiga bulan akan datang.
     `,
     'what-is-time-boxing': `
-# Apa itu Time-Boxing? Panduan Utama untuk Menguasai Masa Anda
+# Apa itu time-boxing? Definisi, contoh hari dan cara bermula
 
-Pernahkah anda mengakhiri hari bekerja dengan perasaan seolah-olah anda tidak mencapai apa-apa walaupun sibuk sepanjang hari? Anda tidak bersendirian. Dalam dunia kita yang serba terhubung ini, gangguan ada di mana-mana sahaja, dan untuk kekal fokus pada kerja yang bermakna adalah lebih sukar daripada biasa.
+**Time-boxing ialah kaedah pengurusan masa yang memberikan sesuatu tugasan satu slot tetap dalam kalendar anda, dengan masa mula dan tempoh, dan anda berhenti apabila slot itu tamat, sama ada tugasan itu sudah siap atau belum.** Senarai tugasan memberitahu anda apa yang perlu dibuat. Satu kotak masa memberitahu anda bila dan untuk berapa lama juga. Dalam artikel Harvard Business Review pada 2018, Marc Zao-Sanders menerangkan time-boxing sebagai memindahkan senarai tugasan anda ke dalam kalendar dan melaporkan bahawa dalam satu tinjauan terhadap 100 helah produktiviti, kaedah ini disenaraikan sebagai yang paling berguna. Di bawah ini ialah contoh satu hari, perbezaan time-boxing daripada kaedah yang serupa, apa kata bukti, dan cara bermula esok.
 
-Kenali **time-boxing** — satu teknik mudah tetapi berkesan yang telah mengubah cara orang paling produktif di dunia menguruskan masa mereka.
+## Time-boxing dalam satu peraturan dan satu contoh hari
 
-## Memahami Time-Boxing
+Seluruh kaedah ini muat dalam satu peraturan: **setiap tugasan yang anda berniat untuk buat hari ini mendapat tempat pada jam.** Beginilah rupa hari bekerja yang menggunakan time-boxing:
 
-Time-boxing ialah kaedah pengurusan masa di mana anda memperuntukkan tempoh masa yang tetap, dipanggil "kotak masa" (time box), untuk aktiviti yang dirancang. Alih-alih melakukan sesuatu tugasan sehingga selesai, anda hanya mengerjakannya dalam tempoh masa yang telah ditetapkan sahaja.
+| Masa | Kotak | Tempoh |
+|---|---|---|
+| 08:30–08:45 | Rancang hari | 15 min |
+| 08:45–09:45 | Tulis cadangan projek (keutamaan) | 60 min |
+| 09:45–10:00 | Rehat | 15 min |
+| 10:00–11:00 | Semak lembaran bajet | 60 min |
+| 11:00–11:30 | E-mel dan mesej | 30 min |
+| 11:30–12:30 | Mesyuarat pasukan | 60 min |
+| 12:30–13:30 | Makan tengah hari | 60 min |
+| 13:30–14:30 | Semak semula dan hantar cadangan | 60 min |
+| 14:30–15:00 | Urusan pentadbiran dan tugasan kecil | 30 min |
+| 15:00–16:00 | Ruang penampan untuk apa-apa yang terlebih masa | 60 min |
+| 16:00–16:30 | E-mel dan rancangan esok | 30 min |
 
-### Cara Ia Berfungsi
+Tiga perkara lebih penting daripada masa yang tepat. Tugasan paling penting mendapat kotak panjang pertama pada hari itu. E-mel mempunyai dua kotak tetap dan tidak meresap ke setiap jam. Dan satu jam dibiarkan kosong dengan sengaja, supaya tugasan yang terlebih masa tidak menolak baki hari itu ke belakang.
 
-1. **Pilih tugasan** yang ingin anda lakukan
-2. **Tetapkan had masa yang khusus** (cth., 30 minit, 1 jam, 2 jam)
-3. **Fokus sepenuhnya pada tugasan tersebut** sepanjang tempoh kotak masa
-4. **Berhenti apabila masa tamat**, tidak kira sama ada tugasan itu selesai atau tidak
-5. **Nilai kemajuan anda** dan rancang langkah seterusnya
+## Time-boxing berbanding senarai tugasan, time-blocking dan Pomodoro
 
-## Sains di Sebalik Time-Boxing
+| | Senarai tugasan | Time-blocking | Time-boxing | Teknik Pomodoro |
+|---|---|---|---|---|
+| Apa yang anda tentukan | Apa yang perlu dibuat | Bila melakukan sejenis kerja | Bila dan berapa lama untuk satu tugasan | Bekerja dalam sela 25 minit dengan rehat singkat |
+| Unit | Tugasan | Blok kalendar, seperti "menulis" | Satu tugasan dengan permulaan dan pengakhiran | Sela |
+| Apabila masa tamat | Tiada apa-apa berlaku | Blok selalunya dilanjutkan atau dialihkan | Anda berhenti dan menentukan apa yang seterusnya | Rehat singkat, kemudian sela seterusnya |
+| Paling berguna untuk | Mencatat segala-galanya | Membentuk minggu | Menyiapkan tugasan tertentu | Memulakan tugasan yang sukar |
 
-Time-boxing berkesan kerana ia memanfaatkan beberapa prinsip psikologi:
+Orang sering menggunakan "time-blocking" dan "time-boxing" sebagai sinonim, dan kedua-duanya berfungsi baik bersama: blok membentuk hari, dan kotak meletakkan had pada setiap tugasan di dalam blok. [Time-blocking berbanding time-boxing](/ms/blog/time-blocking-vs-time-boxing) menerangkan perbezaannya dengan terperinci, dan [time-boxing berbanding Pomodoro](/ms/blog/time-boxing-vs-pomodoro) menjelaskan bila sela tetap lebih membantu daripada kotak sebesar tugasan.
 
-### Hukum Parkinson
+## Mengapa time-boxing berkesan
 
-"Kerja akan berkembang untuk memenuhi masa yang ada untuk menyiapkannya." Dengan menetapkan had masa yang ketat, anda memaksa diri anda untuk fokus pada perkara yang benar-benar penting dan mengikis sikap mahukan kesempurnaan (perfectionism).
+Dua jenis bukti menunjuk ke arah yang sama.
 
-### Kesan Zeigarnik
+**Memutuskan lebih awal bila anda akan bertindak.** Ahli psikologi memanggil pelan yang menyatakan bila dan di mana anda akan melakukan sesuatu sebagai niat pelaksanaan (implementation intention). Satu meta-analisis oleh Gollwitzer dan Sheeran (2006) terhadap 94 ujian bebas mendapati kesan sederhana hingga besar terhadap pencapaian matlamat (d = .65). Satu meta-analisis yang lebih besar oleh Sheeran, Listrom dan Gollwitzer (2025), meliputi 642 ujian, mendapati kesan antara d = .27 dan d = .66, dengan kesan lebih besar apabila pelan berbentuk "jika-maka", apabila orang sangat bermotivasi, dan apabila mereka melatih pelan itu. Satu kotak masa ialah niat pelaksanaan untuk satu tugasan: "pada 08:45, saya menulis cadangan."
 
-Tugasan yang tidak selesai mewujudkan ketegangan mental yang menyimpannya dalam memori aktif kita. Time-boxing membantu anda membuat kemajuan dalam pelbagai aspek, sekali gus mengurangkan beban kognitif ini.
+**Apa yang berlaku kepada tugasan berkotak masa dalam praktik.** Kami membina aplikasi time-boxing, jadi kami boleh melihat apa yang sebenarnya disiapkan orang. Data penggunaan Chrobox yang meliputi 5,077 tugasan yang dirancang oleh 250 orang antara Disember 2025 dan September 2026 menunjukkan:
 
-### Pengaktifan Keadaan Minda "Flow" (Flow State)
+| Dapatan | Keputusan |
+|---|---|
+| Tugasan dengan masa mula dan tempoh berbanding tugasan yang ditinggalkan dalam senarai | 48.1% berbanding 17.6% selesai |
+| Orang yang sama, kedua-dua cara (41 orang) | 35 menyiapkan lebih banyak tugasan berkotak masa mereka |
+| Kotak bermula 05:00–08:59 berbanding 21:00–23:59 | 62.3% berbanding 33.2% selesai |
+| Tugasan bertanda keutamaan berbanding yang tidak bertanda | 44.5% berbanding 28.9% selesai |
+| Median tempoh kotak | 60 minit |
+| Median tugasan yang dirancang sehari | 5 |
 
-Mengetahui bahawa anda mempunyai masa yang terhad akan mewujudkan rasa kesegeraan yang sihat, yang dapat membantu anda memasuki keadaan minda yang fokus sepenuhnya (flow state) dengan lebih cepat.
+Ini data pemerhatian, bukan eksperimen. Orang mungkin memberikan slot masa kepada tugasan yang memang sudah mereka niatkan untuk dibuat, dan slot juga berfungsi sebagai peringatan. Perbandingan orang yang sama menyukarkan corak ini dijelaskan dengan cara lain, tetapi ia tetap satu perkaitan, bukan bukti sebab. [Adakah time-boxing berkesan?](/ms/blog/does-timeboxing-work) mengandungi kaedah penuh, setiap pengecualian, dan keputusan yang kelihatan kurang baik.
 
-## Manfaat Time-Boxing
+## Berapa lama sepatutnya satu kotak masa?
 
-### 1. Produktiviti yang Meningkat
+Tiada satu tempoh yang betul. Kotak median dalam data Chrobox ialah 60 minit, sebahagiannya kerana tugasan yang diletakkan pada garis masa bermula sebagai kotak satu jam, dan kadar penyelesaian hampir sama antara kotak 15 hingga 90 minit. Tempoh yang boleh anda pertahankan lebih penting daripada nombor yang sempurna. Berikut ialah titik permulaan yang munasabah:
 
-Dengan mengehadkan masa yang ada untuk tugasan, anda secara semula jadi akan menjadi lebih fokus dan cekap. Kajian menunjukkan bahawa kekangan masa boleh meningkatkan produktiviti sehingga 30%.
+| Jenis kerja | Tempoh permulaan |
+|---|---|
+| E-mel, pentadbiran, tugasan kecil | 15–30 minit |
+| Kerja berfokus seperti menulis, analisis atau belajar | 60 minit |
+| Kerja kreatif atau teknikal yang sukar | 90 minit, diikuti rehat |
+| Mesyuarat dan kelas | Selama mana acara itu mengambil masa |
 
-### 2. Keseimbangan Kerja-Kehidupan yang Lebih Baik
+## Cara memulakan time-boxing esok
 
-Apabila anda tahu dengan tepat bila waktu kerja anda berakhir, anda boleh memutuskan sambungan sepenuhnya daripada kerja dan menikmati masa peribadi anda tanpa rasa bersalah.
+1. **Pilih tiga tugasan** yang anda mahu siapkan esok dan tandakan satu sebagai keutamaan.
+2. **Anggarkan setiap satu** dalam minit dan bundarkan ke atas. Anggaran pertama biasanya terlalu singkat.
+3. **Letakkan acara tetap pada hari itu dahulu:** mesyuarat, kelas, perjalanan.
+4. **Letakkan keutamaan dalam ruang panjang pertama,** sebaik-baiknya pada waktu pagi.
+5. **Biarkan satu kotak penampan kosong** pada waktu petang.
+6. **Apabila kotak tamat, berhenti dan tentukan:** siap, kotak baharu kemudian, atau cukup baik.
 
-### 3. Mengurangkan Sikap Suka Menangguh Kerja
+Jangkakan kotak akan terlebih masa pada minggu pertama. Itu berguna: selepas beberapa hari anda tahu berapa lama tugasan anda sebenarnya mengambil masa, dan anggaran anda bertambah baik. Untuk susun atur hari yang siap mengikut profesion, lihat [templat jadual harian](/ms/templates). Untuk merancang seminggu penuh, [panduan perancangan mingguan](/ms/blog/weekly-planning-guide) menerangkan langkah demi langkah.
 
-Memulakan tugasan selama 30 minit terasa jauh lebih ringan daripada memulakan projek yang tidak jelas destinasinya. Time-boxing merendahkan halangan untuk anda mula bertindak.
+## Apabila kotak tamat dan tugasan belum siap
 
-## Cara Memulakan Time-Boxing Hari Ini
+Berhenti juga. Tulis satu baris tentang di mana anda berada, kemudian pilih satu daripada tiga pilihan: beri tugasan itu kotak baharu lewat hari ini, alihkan ke esok, atau putuskan versi semasa sudah cukup baik. Berhenti terasa salah beberapa kali pertama, tetapi itulah yang menghalang satu tugasan daripada menguasai seluruh hari, dan itulah cara anda mengetahui tempoh sebenar tugasan anda.
 
-### Langkah 1: Senaraikan Tugasan Anda
+## Kesilapan biasa dalam time-boxing
 
-Tuliskan semua perkara yang perlu anda selesaikan. Jangan tapis atau tetapkan keutamaan lagi — keluarkan sahaja semuanya daripada minda anda.
+- **Mengotakkan setiap minit.** Hari tanpa kotak kosong akan berkecai pada kali pertama terlebih masa.
+- **Kotak terlalu besar untuk disiapkan.** "Tesis, 3 jam" ialah blok, bukan kotak. Namakan hasilnya sebaliknya: "draf bahagian 2".
+- **Meninggalkan tugasan sukar untuk akhir.** Dalam data Chrobox, kotak yang bermula sebelum 09:00 disiapkan jauh lebih kerap daripada kotak lewat malam.
+- **Tidak pernah menoleh ke belakang.** Semakan dua minit pada penghujung hari menunjukkan kotak mana yang tergelincir dan mengapa.
 
-### Langkah 2: Anggarkan Masa yang Diperlukan
+## Time-boxing dalam Chrobox
 
-Untuk setiap tugasan, anggarkan berapa banyak masa fokus yang diperlukan. Bersikap realistik tetapi sedikit agresif.
-
-### Langkah 3: Agihkan Kotak Masa
-
-Agihkan tugasan anda ke dalam slot masa yang ada. Ambil kira tahap tenaga anda sepanjang hari.
-
-### Langkah 4: Laksanakan dan Laraskan
-
-Selesaikan kotak masa anda satu demi satu. Jika tugasan belum selesai, jadualkan satu lagi kotak masa untuknya.
-
-## Time-Boxing dengan Chrobox
-
-Chrobox menjadikan time-boxing sesuatu yang intuitif dan menyeronokkan. Dengan ciri-ciri seperti:
-
-- **Aliran Perancangan Pintar** — Aliran kerja berpandu 6 langkah
-- **Garis Masa Visual** — Lihat keseluruhan hari anda sepintas lalu
-- **Wawasan Dikuasakan AI** — Dapatkan pengesyoran yang diperibadikan
-- **Retrospektif Harian** — Jejak mood dan produktiviti anda
-
-Mulakan perjalanan anda ke arah pengurusan masa yang lebih baik hari ini dengan percubaan percuma selama 3 hari.
-
-## Kesimpulan
-
-Time-boxing adalah lebih daripada sekadar helah produktiviti — ia adalah falsafah hidup yang penuh dengan niat dan tujuan. Dengan memutuskan secara sedar bagaimana untuk meluangkan masa anda, anda mengambil alih kawalan ke atas hari anda dan, akhirnya, kehidupan anda.
-
-Masa terbaik untuk memulakan time-boxing adalah sekarang. Tetapkan kotak masa selama 30 minit dan mulakan tugasan pertama anda. Anda mungkin akan terkejut dengan jumlah perkara yang mampu anda selesaikan.
-    `,
+Chrobox ialah aplikasi time-boxing untuk iPhone dan Android. Anda menambah tugasan dengan masa mula dan tempoh, ia muncul pada garis masa hari itu, dan satu amaran memberitahu anda apabila kotak bermula. Pemasa fokus mengira detik ke belakang tempoh kotak semasa sekali sahaja, dan satu refleksi ringkas pada penghujung hari merekodkan apa yang bergerak. Tugasan, keutamaan, garis masa, pemasa fokus, amaran, rutin dan refleksi harian adalah percuma; menyekat aplikasi yang mengganggu semasa kotak, widget skrin utama dan skrin kunci, perancangan AI dan statistik terperinci adalah sebahagian daripada Pro.
+`,
     '5-time-boxing-strategies': `
 # 5 Strategi Time-Boxing yang Digunakan oleh CEO dan Usahawan Terkemuka
 

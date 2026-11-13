@@ -35,6 +35,8 @@ const jiti = createJiti(import.meta.url, { interopDefault: true });
 
 const { SEO_LOCALES } = await jiti.import(`${ROOT}/src/lib/seo.ts`);
 const { enBlogPosts, blogContents } = await jiti.import(`${ROOT}/src/data/blogPosts.ts`);
+// Daily posts exist only in the language they were written in (see CLAUDE.md "하루 글") — never translate them.
+const { DAILY_SLUGS } = await jiti.import(`${ROOT}/src/data/blogDaily.ts`);
 const { comparisons } = await jiti.import(`${ROOT}/src/data/comparisons.ts`);
 const { scheduleTemplates } = await jiti.import(`${ROOT}/src/data/scheduleTemplates.ts`);
 const { BLOG_CLUSTERS } = await jiti.import(`${ROOT}/src/lib/blogTaxonomy.ts`);
@@ -130,7 +132,7 @@ function unitsFor(kind) {
         },
       }));
     case 'blogMeta':
-      return enBlogPosts.map((post) => ({
+      return enBlogPosts.filter((post) => !DAILY_SLUGS.has(post.slug)).map((post) => ({
         id: post.slug,
         payload: {
           title: post.title,
@@ -139,7 +141,7 @@ function unitsFor(kind) {
         },
       }));
     case 'blogBodies':
-      return Object.entries(blogContents.en ?? {}).map(([slug, markdown]) => ({
+      return Object.entries(blogContents.en ?? {}).filter(([slug]) => !DAILY_SLUGS.has(slug)).map(([slug, markdown]) => ({
         id: slug,
         payload: { markdown },
       }));

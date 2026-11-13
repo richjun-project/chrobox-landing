@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Time-boxing là gì? Bí quyết làm chủ thời gian hiệu quả',
-      excerpt: 'Khám phá cách time-boxing thay đổi hiệu suất của bạn. Tìm hiểu cơ sở khoa học của phương pháp này và cách áp dụng vào thói quen hàng ngày.',
+      title: 'Time-boxing là gì? Định nghĩa, ví dụ và cách bắt đầu',
+      excerpt: 'Time-boxing là gán cho một việc giờ bắt đầu và độ dài cố định trên lịch, rồi dừng khi hộp thời gian kết thúc. Kèm ví dụ một ngày, bằng chứng và cách bắt đầu.',
       faqs: [
         {
-          question: 'Time-boxing là gì và khác gì so với danh sách việc cần làm?',
-          answer: 'Time-boxing phân bổ một khoảng thời gian cố định cho mỗi công việc trước khi bắt đầu, giúp bạn làm việc trong một giới hạn thời gian xác định thay vì làm cho đến khi xong. Danh sách việc cần làm chỉ cho bạn biết cần làm gì; còn time-boxing cho biết khi nào làm và làm trong bao lâu, giúp loại bỏ việc kéo dài thời gian vô hạn và giảm trì hoãn.',
+          question: 'Nói đơn giản, time-boxing là gì?',
+          answer: 'Time-boxing là gán cho một việc một khung giờ cố định, có giờ bắt đầu và giờ kết thúc, rồi dừng lại khi khung giờ đó hết. Thay vì làm cho đến khi cảm thấy xong, bạn quyết định trước việc đó được bao nhiêu thời gian và vào lúc nào.',
         },
         {
-          question: 'Một khung time-box nên kéo dài bao lâu?',
-          answer: 'Không có một con số chuẩn xác duy nhất. Hầu hết mọi người thấy 25–90 phút là hiệu quả nhất để tập trung làm việc. Các khung thời gian ngắn hơn (15–30 phút) phù hợp cho việc hành chính, trong khi các khung dài hơn (60–90 phút) sẽ thích hợp cho công việc sáng tạo hoặc phân tích chuyên sâu. Hãy bắt đầu với các khung 30 phút và điều chỉnh theo khả năng tập trung của bạn.',
+          question: 'Time-boxing khác time-blocking như thế nào?',
+          answer: 'Time-blocking dành sẵn thời gian trên lịch cho một loại công việc, chẳng hạn viết lách mỗi buổi sáng. Time-boxing đặt giờ bắt đầu và giờ kết thúc cứng cho một việc cụ thể. Nhiều người dùng cả hai: các khối định hình cả ngày, còn các hộp giới hạn từng việc bên trong.',
         },
         {
-          question: 'Tôi nên làm gì nếu chưa hoàn thành công việc khi hết giờ?',
-          answer: 'Hãy dừng lại, ghi nhận tiến độ hiện tại và lên lịch một khung time-box mới cho phần việc còn lại. Thói quen này giúp bạn rèn luyện khả năng ước lượng thời gian chính xác hơn và tránh để một công việc duy nhất chiếm hết cả ngày của bạn.',
+          question: 'Một hộp thời gian nên dài bao lâu?',
+          answer: 'Hãy bắt đầu với 60 phút cho công việc cần tập trung và 15 đến 30 phút cho email và việc hành chính. Trong dữ liệu của Chrobox, hộp thời gian có độ dài trung vị là 60 phút, và tỷ lệ hoàn thành của các hộp từ 15 đến 90 phút xấp xỉ nhau, nên hãy chọn một độ dài bạn giữ được thay vì tìm con số hoàn hảo.',
         },
       ],
     },
@@ -2122,89 +2122,97 @@ Cách khắc phục nằm ở quy tắc tư duy chứ không phải kỹ thuật
 Một đợt cai nghiện kỹ thuật số tồn tại được trong cuộc sống thực tế không phải là đợt loại bỏ nhiều nhất, nhanh nhất. Đó là đợt được xây dựng từ một số lượng nhỏ các thói quen bền vững — một buổi sáng trì hoãn dùng điện thoại, một buổi tối được bảo vệ, một buổi đánh giá ngắn hàng tuần, và một chuỗi ngày mà bạn coi là phản hồi thay vì sự phán xét. Hãy bắt đầu với một thói quen trong tuần này, không phải cả bốn. Mục tiêu không phải là một tuần hoàn hảo; đó là một hệ thống mà bạn vẫn đang vận hành sau ba tháng nữa.
     `,
     'what-is-time-boxing': `
-# Time-Boxing là gì? Cẩm nang toàn diện để làm chủ thời gian của bạn
+# Time-boxing là gì? Định nghĩa, ví dụ và cách bắt đầu
 
-Đã bao giờ bạn kết thúc một ngày làm việc với cảm giác mình chẳng hoàn thành được việc gì dù bận rộn tối tăm mặt mũi cả ngày chưa? Bạn không cô đơn đâu. Trong một thế giới siêu kết nối như hiện nay, sự xao nhãng luôn bủa vây khắp nơi, và việc duy trì sự tập trung vào những công việc thực sự có ý nghĩa đang trở nên khó khăn hơn bao giờ hết.
+**Time-boxing là phương pháp quản lý thời gian trong đó bạn gán cho một việc một khung cố định trên lịch, gồm giờ bắt đầu và độ dài, rồi dừng khi khung đó kết thúc, dù việc đã xong hay chưa.** Danh sách việc cần làm cho bạn biết cần làm gì. Một hộp thời gian còn cho biết làm khi nào và trong bao lâu. Trong một bài viết năm 2018 trên Harvard Business Review, Marc Zao-Sanders mô tả time-boxing là chuyển danh sách việc cần làm vào lịch của bạn, và cho biết trong một khảo sát 100 mẹo tăng năng suất, nó được xếp hạng là hữu ích nhất. Dưới đây là một ngày ví dụ, sự khác biệt giữa time-boxing và các phương pháp tương tự, bằng chứng hiện có, và cách bắt đầu từ ngày mai.
 
-Hãy làm quen với **time-boxing** — một phương pháp đơn giản nhưng vô cùng mạnh mẽ, đã và đang thay đổi hoàn toàn cách những người làm việc hiệu quả nhất thế giới quản lý thời gian của họ.
+## Time-boxing trong một quy tắc và một ngày ví dụ
 
-## Hiểu rõ về Time-Boxing
+Toàn bộ phương pháp gói gọn trong một quy tắc: **mọi việc bạn định làm hôm nay đều có một chỗ trên đồng hồ.** Đây là một ngày làm việc theo time-boxing có thể trông như thế nào:
 
-Time-boxing là một phương pháp quản lý thời gian, trong đó bạn phân bổ một khoảng thời gian cố định, gọi là "hộp thời gian" (time box), cho một hoạt động đã lên kế hoạch. Thay vì làm một việc cho đến khi xong hẳn, bạn chỉ làm việc đó trong đúng khoảng thời gian đã định sẵn.
+| Thời gian | Hộp | Độ dài |
+|---|---|---|
+| 08:30–08:45 | Lên kế hoạch cho ngày | 15 phút |
+| 08:45–09:45 | Viết đề xuất dự án (ưu tiên) | 60 phút |
+| 09:45–10:00 | Nghỉ giải lao | 15 phút |
+| 10:00–11:00 | Xem lại bảng ngân sách | 60 phút |
+| 11:00–11:30 | Email và tin nhắn | 30 phút |
+| 11:30–12:30 | Họp nhóm | 60 phút |
+| 12:30–13:30 | Ăn trưa | 60 phút |
+| 13:30–14:30 | Chỉnh sửa và gửi đề xuất | 60 phút |
+| 14:30–15:00 | Việc hành chính và việc nhỏ | 30 phút |
+| 15:00–16:00 | Khoảng đệm cho việc bị kéo dài | 60 phút |
+| 16:00–16:30 | Email và kế hoạch ngày mai | 30 phút |
 
-### Cách thức hoạt động
+Ba chi tiết quan trọng hơn giờ giấc chính xác. Việc quan trọng nhất có hộp dài đầu tiên của ngày. Email có hai hộp cố định thay vì len vào mọi giờ. Và một giờ được cố ý để trống, để việc nào kéo dài cũng không đẩy phần còn lại của ngày muộn đi.
 
-1. **Chọn một nhiệm vụ** bạn muốn thực hiện
-2. **Đặt giới hạn thời gian cụ thể** (ví dụ: 30 phút, 1 giờ, 2 giờ)
-3. **Chỉ tập trung duy nhất vào nhiệm vụ đó** trong suốt hộp thời gian
-4. **Dừng lại khi hết giờ**, bất kể công việc đã hoàn thành hay chưa
-5. **Đánh giá tiến độ** và lên kế hoạch cho các bước tiếp theo
+## Time-boxing so với danh sách việc cần làm, time-blocking và Pomodoro
 
-## Cơ sở khoa học đằng sau Time-Boxing
+| | Danh sách việc cần làm | Time-blocking | Time-boxing | Phương pháp Pomodoro |
+|---|---|---|---|---|
+| Bạn quyết định | Làm gì | Khi nào làm một loại công việc | Khi nào và trong bao lâu cho một việc | Làm việc theo từng quãng 25 phút, xen nghỉ ngắn |
+| Đơn vị | Việc | Khối trên lịch, chẳng hạn "viết lách" | Một việc có giờ bắt đầu và giờ kết thúc | Quãng |
+| Khi hết giờ | Không có gì xảy ra | Khối thường bị kéo dài hoặc dời đi | Bạn dừng lại và quyết định bước tiếp theo | Nghỉ ngắn, rồi sang quãng tiếp theo |
+| Hữu ích nhất để | Ghi lại mọi thứ | Định hình cả tuần | Hoàn thành những việc cụ thể | Bắt tay vào một việc khó |
 
-Time-boxing mang lại hiệu quả vượt trội nhờ tận dụng một số nguyên lý tâm lý học:
+Mọi người thường dùng "time-blocking" và "time-boxing" như từ đồng nghĩa, và hai phương pháp kết hợp rất tốt: các khối định hình cả ngày, còn một hộp đặt giới hạn cho từng việc bên trong khối. [Time-blocking và time-boxing](/vi/blog/time-blocking-vs-time-boxing) trình bày chi tiết sự khác biệt, còn [time-boxing và Pomodoro](/vi/blog/time-boxing-vs-pomodoro) giải thích khi nào các quãng cố định hữu ích hơn các hộp vừa cỡ một việc.
 
-### Định luật Parkinson
+## Vì sao time-boxing hiệu quả
 
-"Công việc luôn tự bành trướng để lấp đầy khoảng thời gian được ấn định cho nó." Bằng cách thiết lập các giới hạn thời gian nghiêm ngặt, bạn sẽ buộc bản thân phải tập trung vào những gì thực sự quan trọng và loại bỏ chủ nghĩa hoàn hảo.
+Hai loại bằng chứng cùng chỉ về một hướng.
 
-### Hiệu ứng Zeigarnik
+**Quyết định trước khi nào bạn sẽ hành động.** Các nhà tâm lý học gọi một kế hoạch nêu rõ khi nào và ở đâu bạn sẽ làm điều gì là ý định thực hiện (implementation intention). Một phân tích tổng hợp của Gollwitzer và Sheeran (2006) trên 94 thử nghiệm độc lập cho thấy hiệu ứng từ trung bình đến lớn đối với việc đạt mục tiêu (d = .65). Một phân tích tổng hợp lớn hơn của Sheeran, Listrom và Gollwitzer (2025), bao gồm 642 thử nghiệm, cho thấy hiệu ứng nằm trong khoảng d = .27 đến d = .66, với hiệu ứng lớn hơn khi kế hoạch có dạng nếu-thì, khi người ta có động lực cao, và khi họ diễn tập kế hoạch. Một hộp thời gian là ý định thực hiện cho một việc đơn lẻ: "lúc 08:45, tôi viết đề xuất."
 
-Những công việc chưa hoàn thành thường tạo ra một sự căng thẳng tâm lý, khiến chúng luôn lẩn quẩn trong tâm trí chúng ta. Time-boxing giúp bạn tiến triển trên nhiều phương diện, từ đó giảm bớt gánh nặng nhận thức này.
+**Điều xảy ra với các việc dùng hộp thời gian trong thực tế.** Chúng tôi xây dựng một ứng dụng time-boxing, nên có thể xem người ta thực sự hoàn thành những gì. Dữ liệu sử dụng Chrobox gồm 5.077 việc do 250 người lên kế hoạch từ tháng 12 năm 2025 đến tháng 9 năm 2026 cho thấy:
 
-### Kích hoạt trạng thái dòng chảy (Flow State)
+| Phát hiện | Kết quả |
+|---|---|
+| Việc có giờ bắt đầu và độ dài so với việc để trên danh sách | Hoàn thành 48,1% so với 17,6% |
+| Cùng một người, làm cả hai cách (41 người) | 35 người hoàn thành nhiều hơn các việc dùng hộp thời gian |
+| Hộp bắt đầu 05:00–08:59 so với 21:00–23:59 | Hoàn thành 62,3% so với 33,2% |
+| Việc đánh dấu ưu tiên so với việc không đánh dấu | Hoàn thành 44,5% so với 28,9% |
+| Độ dài hộp trung vị | 60 phút |
+| Số việc lên kế hoạch mỗi ngày (trung vị) | 5 |
 
-Việc biết mình chỉ có một khoảng thời gian giới hạn sẽ tạo ra một cảm giác cấp bách tích cực, giúp bạn dễ dàng bước vào trạng thái dòng chảy nhanh hơn.
+Đây là dữ liệu quan sát, không phải thử nghiệm. Người ta có thể dành khung giờ cho những việc vốn đã định làm, và một khung giờ cũng đóng vai trò nhắc nhở. So sánh trên cùng một người khiến quy luật này khó bị gạt đi hơn, nhưng đó vẫn là mối liên hệ, không phải bằng chứng về quan hệ nhân quả. [Time-boxing có hiệu quả không?](/vi/blog/does-timeboxing-work) có đầy đủ phương pháp, mọi trường hợp loại trừ và cả những kết quả trông kém đẹp hơn.
 
-## Lợi ích của Time-Boxing
+## Một hộp thời gian nên dài bao lâu?
 
-### 1. Tăng cường năng suất
+Không có độ dài đúng duy nhất. Hộp có độ dài trung vị trong dữ liệu Chrobox là 60 phút, một phần vì một việc thả lên dòng thời gian bắt đầu là hộp một giờ, và tỷ lệ hoàn thành của các hộp từ 15 đến 90 phút xấp xỉ nhau. Một độ dài bạn giữ được quan trọng hơn một con số hoàn hảo. Đây là những điểm xuất phát hợp lý:
 
-Bằng cách giới hạn thời gian cho mỗi công việc, bạn sẽ tự khắc tập trung và làm việc hiệu quả hơn. Các nghiên cứu chỉ ra rằng việc giới hạn thời gian có thể tăng năng suất lên tới 30%.
+| Loại công việc | Độ dài khởi điểm |
+|---|---|
+| Email, việc hành chính, việc nhỏ | 15–30 phút |
+| Công việc cần tập trung như viết, phân tích hoặc học | 60 phút |
+| Công việc sáng tạo hoặc kỹ thuật khó | 90 phút, nghỉ sau đó |
+| Cuộc họp và lớp học | Theo thời lượng của sự kiện |
 
-### 2. Cân bằng cuộc sống và công việc tốt hơn
+## Cách bắt đầu time-boxing từ ngày mai
 
-Khi biết chính xác thời điểm công việc kết thúc, bạn có thể hoàn toàn ngắt kết nối và tận hưởng thời gian cá nhân mà không cảm thấy tội lỗi.
+1. **Chọn ba việc** bạn muốn hoàn thành vào ngày mai và đánh dấu một việc là ưu tiên.
+2. **Ước lượng từng việc** theo phút và làm tròn lên. Ước lượng đầu tiên thường ngắn.
+3. **Đặt các sự kiện cố định vào ngày trước:** cuộc họp, lớp học, di chuyển.
+4. **Đặt việc ưu tiên vào khoảng trống dài đầu tiên,** tốt nhất là buổi sáng.
+5. **Để lại một hộp đệm trống** vào buổi chiều.
+6. **Khi một hộp kết thúc, hãy dừng và quyết định:** xong, một hộp mới vào lúc khác, hoặc đủ tốt rồi.
 
-### 3. Giảm thiểu sự trì hoãn
+Hãy chuẩn bị tinh thần rằng các hộp sẽ bị kéo dài trong tuần đầu. Điều đó có ích: sau vài ngày bạn biết các việc của mình thật sự mất bao lâu, và ước lượng sẽ tốt hơn. Để xem các cách sắp xếp ngày làm sẵn theo nghề nghiệp, hãy xem [mẫu lịch trình hằng ngày](/vi/templates). Để lên kế hoạch cho cả tuần, [hướng dẫn lập kế hoạch tuần](/vi/blog/weekly-planning-guide) sẽ đi qua từng bước.
 
-Bắt đầu một nhiệm vụ kéo dài 30 phút bao giờ cũng bớt nản hơn là lao vào một dự án mông lung không rõ điểm dừng. Time-boxing giúp hạ thấp rào cản tâm lý khi bắt tay vào việc.
+## Khi hộp kết thúc mà việc chưa xong
 
-## Cách bắt đầu Time-Boxing ngay hôm nay
+Vẫn dừng lại. Viết một dòng về việc bạn đang ở đâu, rồi chọn một trong ba hướng: cho việc đó một hộp mới vào cuối ngày hôm nay, chuyển sang ngày mai, hoặc quyết định rằng phiên bản hiện tại đã đủ tốt. Vài lần đầu dừng lại sẽ thấy sai sai, nhưng chính điều đó giữ cho một việc không chiếm hết cả ngày, và đó là cách bạn biết thời lượng thật của từng việc.
 
-### Bước 1: Liệt kê các nhiệm vụ của bạn
+## Những lỗi time-boxing thường gặp
 
-Hãy viết ra tất cả những gì bạn cần hoàn thành. Đừng vội lọc hay sắp xếp thứ tự ưu tiên — cứ viết hết ra đã.
+- **Lấp đầy từng phút bằng hộp.** Một ngày không có hộp trống sẽ sụp đổ ngay lần kéo dài đầu tiên.
+- **Hộp quá lớn để hoàn thành.** "Luận văn, 3 giờ" là một khối, không phải một hộp. Hãy đặt tên theo kết quả: "viết nháp phần 2".
+- **Để việc khó lại sau cùng.** Trong dữ liệu Chrobox, các hộp bắt đầu trước 09:00 được hoàn thành thường xuyên hơn nhiều so với các hộp bắt đầu vào cuối buổi tối.
+- **Không bao giờ nhìn lại.** Hai phút xem lại cuối ngày cho thấy hộp nào bị trượt và vì sao.
 
-### Bước 2: Ước lượng thời gian cần thiết
+## Time-boxing trong Chrobox
 
-Với mỗi nhiệm vụ, hãy ước tính xem bạn cần bao nhiêu thời gian tập trung để hoàn thành. Hãy thực tế nhưng cũng nên đặt ra một chút thử thách.
-
-### Bước 3: Phân bổ các hộp thời gian
-
-Phân chia các nhiệm vụ vào các khung giờ trống trong ngày của bạn. Hãy cân nhắc đến mức năng lượng của bản thân ở từng thời điểm khác nhau.
-
-### Bước 4: Thực hiện và điều chỉnh
-
-Giải quyết từng hộp thời gian một. Nếu công việc vẫn chưa xong, hãy lên lịch cho một hộp thời gian khác để tiếp tục.
-
-## Thực hành Time-Boxing cùng Chrobox
-
-Chrobox giúp việc thực hành time-boxing trở nên trực quan và thú vị hơn bao giờ hết. Với các tính năng nổi bật như:
-
-- **Smart Planning Flow** — Quy trình lập kế hoạch 6 bước có hướng dẫn
-- **Visual Timeline** — Nhìn tổng quan toàn bộ ngày của bạn trong nháy mắt
-- **AI-Powered Insights** — Nhận các đề xuất cá nhân hóa từ AI
-- **Daily Retrospective** — Theo dõi tâm trạng và năng suất hàng ngày
-
-Bắt đầu hành trình quản lý thời gian hiệu quả hơn ngay hôm nay với 3 ngày dùng thử miễn phí.
-
-## Kết luận
-
-Time-boxing không chỉ đơn thuần là một mẹo tăng năng suất — đó là một triết lý sống có chủ đích. Bằng cách chủ động quyết định cách sử dụng thời gian, bạn sẽ làm chủ được một ngày của mình và xa hơn là làm chủ cuộc sống của chính mình.
-
-Thời điểm tốt nhất để bắt đầu time-boxing chính là ngay bây giờ. Hãy thiết lập một hộp thời gian 30 phút và bắt tay vào nhiệm vụ đầu tiên. Bạn sẽ phải ngạc nhiên trước những gì mình có thể hoàn thành đấy.
-    `,
+Chrobox là ứng dụng time-boxing cho iPhone và Android. Bạn thêm một việc với giờ bắt đầu và độ dài, việc đó xuất hiện trên dòng thời gian của ngày, và một thông báo cho bạn biết khi hộp bắt đầu. Bộ hẹn giờ tập trung đếm ngược đúng độ dài của hộp hiện tại một lần, và một bản nhìn lại ngắn cuối ngày ghi lại những gì đã tiến triển. Việc, mức ưu tiên, dòng thời gian, bộ hẹn giờ tập trung, thông báo, thói quen định kỳ và phần nhìn lại hằng ngày là miễn phí; chặn các ứng dụng gây xao nhãng trong lúc có hộp, tiện ích trên màn hình chính và màn hình khóa, lập kế hoạch bằng AI và thống kê chi tiết thuộc về Pro.
+`,
     '5-time-boxing-strategies': `
 # 5 chiến lược time-boxing được các CEO và doanh nhân hàng đầu áp dụng
 

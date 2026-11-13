@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Timeboxing: La Guida Definitiva per Gestire il Tempo',
-      excerpt: 'Scopri come il timeboxing può trasformare la tua produttività. Comprendi la scienza alla base di questa tecnica e come integrarla nella tua routine quotidiana.',
+      title: 'Cos\'è il timeboxing? Definizione, esempio e come iniziare',
+      excerpt: 'Il timeboxing consiste nel dare a un\'attività orario di inizio e durata fissi nel calendario e fermarsi quando il box finisce. Esempio, prove e come iniziare.',
       faqs: [
         {
-          question: 'Cos\'è il timeboxing e in cosa si differenzia da una lista di cose da fare?',
-          answer: 'Il timeboxing assegna una durata fissa a ogni attività prima di iniziare, così lavorerai entro un limite di tempo definito anziché procedere finché il compito non è "finito". Una lista di cose da fare ti dice cosa fare; il timeboxing ti dice quando e per quanto tempo, eliminando il lavoro senza scadenze precise e riducendo la procrastinazione.',
+          question: 'Cos\'è il timeboxing in parole semplici?',
+          answer: 'Il timeboxing consiste nel dare a un\'attività una fascia di tempo fissa, con un orario di inizio e uno di fine, e fermarsi quando finisce. Invece di lavorare a qualcosa finché sembra concluso, decidi in anticipo quanto tempo ha e quando.',
+        },
+        {
+          question: 'Qual è la differenza tra timeboxing e time blocking?',
+          answer: 'Il time blocking riserva tempo nel calendario a un tipo di lavoro, come scrivere ogni mattina. Il timeboxing stabilisce un inizio e una fine rigida per una singola attività. Molte persone usano entrambi: i blocchi danno forma alla giornata e i box limitano ogni attività al loro interno.',
         },
         {
           question: 'Quanto dovrebbe durare un time box?',
-          answer: 'Non esiste una durata unica e corretta. La maggior parte delle persone trova efficaci sessioni di 25-90 minuti per il lavoro concentrato. I blocchi più brevi (15-30 min) sono ideali per le attività amministrative, mentre quelli più lunghi (60-90 min) si adattano meglio a lavori creativi o analitici profondi. Inizia con blocchi di 30 minuti e regolati in base alla tua soglia di attenzione.',
-        },
-        {
-          question: 'Cosa devo fare se non finisco un\'attività prima della fine del time box?',
-          answer: 'Fermati, annota a che punto sei e pianifica un nuovo time box per il lavoro rimanente. Questa pratica ti aiuta a stimare con precisione la durata delle attività nel tempo ed evita che un singolo compito assorba l\'intera giornata.',
+          answer: 'Parti da 60 minuti per il lavoro di concentrazione e da 15 a 30 minuti per email e pratiche amministrative. Nei dati di Chrobox il box mediano è stato di 60 minuti e i tassi di completamento erano vicini tra loro per box da 15 a 90 minuti, quindi scegli una durata che puoi difendere invece di un numero perfetto.',
         },
       ],
     },
@@ -2185,89 +2185,97 @@ La soluzione è una regola di mentalità, non tecnica: una serie interrotta è s
 Un digital detox che sopravvive alla prova della vita reale non è quello che elimina più cose nel minor tempo possibile. È quello costruito su un piccolo numero di routine durature: una mattina posticipata, una sera protetta, una breve analisi settimanale e una serie consecutiva considerata come un feedback anziché come un giudizio. Questa settimana inizia con una sola routine, non con tutte e quattro. L'obiettivo non è una settimana perfetta, ma un sistema che utilizzerai ancora tra tre mesi.
     `,
     'what-is-time-boxing': `
-# Cos'è il Time-Boxing? La guida definitiva per padroneggiare il tuo tempo
+# Cos'è il timeboxing? Definizione, esempio e come iniziare
 
-Ti è mai capitato di finire una giornata di lavoro con la sensazione di non aver concluso nulla, nonostante tu sia stato impegnato tutto il giorno? Non sei l'unico. Nel nostro mondo iperconnesso, le distrazioni sono ovunque e rimanere concentrati sul lavoro che conta davvero è più difficile che mai.
+**Il timeboxing è un metodo di gestione del tempo in cui assegni a un'attività una fascia fissa nel calendario, con un orario di inizio e una durata, e ti fermi quando la fascia finisce, che l'attività sia conclusa o no.** Una lista di cose da fare ti dice cosa fare. Un time box ti dice anche quando e per quanto tempo. In un articolo della Harvard Business Review del 2018, Marc Zao-Sanders descriveva il timeboxing come lo spostare la lista delle cose da fare nel calendario e riferiva che, in un sondaggio su 100 trucchi di produttività, era stato classificato come il più utile. Di seguito trovi una giornata di esempio, come il timeboxing si differenzia da metodi simili, cosa dicono le prove e come iniziare domani.
 
-Ecco che entra in gioco il **time-boxing**: una tecnica semplice ma potente che ha trasformato il modo in cui le persone più produttive al mondo gestiscono il proprio tempo.
+## Il timeboxing in una regola e una giornata di esempio
 
-## Comprendere il Time-Boxing
+L'intero metodo sta in una regola: **ogni attività che intendi fare oggi ha un posto sull'orologio.** Ecco come può essere una giornata di lavoro con il timeboxing:
 
-Il time-boxing è un metodo di gestione del tempo che consiste nell'assegnare un periodo di tempo fisso, chiamato "time box" (blocco di tempo), a un'attività pianificata. Invece di lavorare a un compito fino a quando non è finito, ci si lavora solo per il periodo di tempo stabilito.
+| Orario | Box | Durata |
+|---|---|---|
+| 08:30–08:45 | Pianificare la giornata | 15 min |
+| 08:45–09:45 | Scrivere la proposta di progetto (priorità) | 60 min |
+| 09:45–10:00 | Pausa | 15 min |
+| 10:00–11:00 | Controllare il foglio del budget | 60 min |
+| 11:00–11:30 | Email e messaggi | 30 min |
+| 11:30–12:30 | Riunione di team | 60 min |
+| 12:30–13:30 | Pranzo | 60 min |
+| 13:30–14:30 | Rivedere e inviare la proposta | 60 min |
+| 14:30–15:00 | Pratiche amministrative e piccole attività | 30 min |
+| 15:00–16:00 | Margine per tutto ciò che ha sforato | 60 min |
+| 16:00–16:30 | Email e piano di domani | 30 min |
 
-### Come funziona
+Tre dettagli contano più degli orari esatti. L'attività più importante riceve il primo box lungo della giornata. Le email hanno due box fissi invece di infiltrarsi in ogni ora. E un'ora resta vuota di proposito, così un'attività che sfora non spinge più in là il resto della giornata.
 
-1. **Scegli un compito** su cui vuoi lavorare
-2. **Imposta un limite di tempo specifico** (es. 30 minuti, 1 ora, 2 ore)
-3. **Lavora esclusivamente su quel compito** durante il time box
-4. **Fermati quando il tempo è scaduto**, indipendentemente dal fatto che tu abbia finito o meno
-5. **Valuta i tuoi progressi** e pianifica i passaggi successivi
+## Timeboxing, lista di cose da fare, time blocking e Pomodoro
 
-## La scienza dietro al Time-Boxing
+| | Lista di cose da fare | Time blocking | Timeboxing | Tecnica del Pomodoro |
+|---|---|---|---|---|
+| Cosa decidi | Cosa fare | Quando fare un tipo di lavoro | Quando e per quanto tempo fare un'attività | Lavorare a intervalli di 25 minuti con brevi pause |
+| Unità | Attività | Blocco del calendario, ad esempio «scrittura» | Un'attività con un inizio e una fine | Intervallo |
+| Quando il tempo è scaduto | Non succede nulla | Il blocco viene spesso esteso o spostato | Ti fermi e decidi cosa fare dopo | Breve pausa, poi l'intervallo successivo |
+| Più utile per | Annotare tutto | Dare forma alla settimana | Concludere attività specifiche | Iniziare un'attività difficile |
 
-Il time-boxing funziona perché sfrutta diversi principi psicologici:
+Spesso «time blocking» e «timeboxing» vengono usati come sinonimi, e i due funzionano bene insieme: i blocchi danno forma alla giornata, e un box pone un limite a ogni attività all'interno di un blocco. [Time blocking e time boxing a confronto](/it/blog/time-blocking-vs-time-boxing) spiega la differenza nel dettaglio, e [timeboxing e Pomodoro](/it/blog/time-boxing-vs-pomodoro) spiega quando gli intervalli fissi aiutano più dei box a misura di attività.
 
-### La legge di Parkinson
+## Perché il timeboxing funziona
 
-"Il lavoro si espande fino a occupare tutto il tempo disponibile per il suo completamento." Impostando limiti di tempo rigidi, ti costringi a concentrarti su ciò che conta davvero, eliminando il perfezionismo.
+Due tipi di prove vanno nella stessa direzione.
 
-### L'effetto Zeigarnik
+**Decidere in anticipo quando agirai.** Gli psicologi chiamano intenzione di implementazione un piano che indica quando e dove farai qualcosa. Una meta-analisi di Gollwitzer e Sheeran (2006) su 94 test indipendenti ha trovato un effetto da medio a grande sul raggiungimento degli obiettivi (d = .65). Una meta-analisi più ampia di Sheeran, Listrom e Gollwitzer (2025), che copre 642 test, ha trovato effetti tra d = .27 e d = .66, con effetti maggiori quando i piani avevano la forma «se… allora», quando le persone erano molto motivate e quando provavano il piano. Un time box è un'intenzione di implementazione per una singola attività: «alle 08:45 scrivo la proposta».
 
-I compiti non completati creano una tensione mentale che li mantiene attivi nella nostra memoria. Il time-boxing ti aiuta a fare progressi su più fronti, riducendo questo carico cognitivo.
+**Cosa succede in pratica alle attività con il timeboxing.** Costruiamo un'app di timeboxing, quindi possiamo vedere cosa completano davvero le persone. I dati d'uso di Chrobox, che riguardano 5.077 attività pianificate da 250 persone tra dicembre 2025 e settembre 2026, mostrano:
 
-### Attivazione dello stato di flow
+| Risultato | Esito |
+|---|---|
+| Attività con orario di inizio e durata contro attività rimaste nella lista | 48,1% contro 17,6% completate |
+| Stessa persona, in entrambi i modi (41 persone) | 35 hanno completato più attività con il timeboxing |
+| Box che iniziano alle 05:00–08:59 contro 21:00–23:59 | 62,3% contro 33,2% completate |
+| Attività segnate come priorità contro non segnate | 44,5% contro 28,9% completate |
+| Durata mediana di un box | 60 minuti |
+| Mediana di attività pianificate al giorno | 5 |
 
-Sapere di avere un tempo limitato crea un sano senso di urgenza che può aiutarti a entrare nello stato di flow più rapidamente.
+Sono dati osservazionali, non un esperimento. Le persone potrebbero assegnare una fascia oraria alle attività che avevano già intenzione di fare, e una fascia oraria funziona anche da promemoria. Il confronto sulla stessa persona rende lo schema più difficile da liquidare, ma resta un'associazione, non la prova di una causa. [Il timeboxing funziona davvero?](/it/blog/does-timeboxing-work) contiene il metodo completo, ogni esclusione e i risultati meno buoni.
 
-## I vantaggi del Time-Boxing
+## Quanto dovrebbe durare un time box?
 
-### 1. Maggiore produttività
+Non esiste una durata giusta unica. Il box mediano nei dati di Chrobox è stato di 60 minuti, in parte perché un'attività trascinata sulla timeline parte come un box di un'ora, e i tassi di completamento erano vicini tra loro per box da 15 a 90 minuti. Una durata che puoi difendere conta più di un numero perfetto. Questi sono punti di partenza ragionevoli:
 
-Limitando il tempo a disposizione per i singoli compiti, diventi naturalmente più concentrato ed efficiente. Gli studi dimostrano che i vincoli di tempo possono aumentare la produttività fino al 30%.
+| Tipo di lavoro | Durata iniziale |
+|---|---|
+| Email, pratiche amministrative, piccole attività | 15–30 minuti |
+| Lavoro di concentrazione come scrittura, analisi o studio | 60 minuti |
+| Lavoro creativo o tecnico impegnativo | 90 minuti, con una pausa dopo |
+| Riunioni e lezioni | Quanto dura l'evento |
 
-### 2. Un migliore equilibrio tra lavoro e vita privata
+## Come iniziare con il timeboxing domani
 
-Quando sai esattamente quando finisce la tua giornata lavorativa, puoi staccare completamente la spina e goderti il tuo tempo libero senza sensi di colpa.
+1. **Scegli tre attività** che vuoi aver finito domani e segnane una come priorità.
+2. **Stima ciascuna** in minuti e arrotonda per eccesso. Le prime stime sono di solito troppo brevi.
+3. **Inserisci prima gli impegni fissi nella giornata:** riunioni, lezioni, spostamenti.
+4. **Metti la priorità nel primo spazio libero lungo,** meglio se al mattino.
+5. **Lascia un box cuscinetto vuoto** nel pomeriggio.
+6. **Quando un box finisce, fermati e decidi:** fatto, un nuovo box più tardi o abbastanza buono.
 
-### 3. Meno procrastinazione
+Aspettati che i box sforino nella prima settimana. È utile: dopo qualche giorno sai quanto durano davvero le tue attività e le tue stime migliorano. Per giornate già pronte divise per professione, vedi i [modelli di programma giornaliero](/it/templates). Per pianificare un'intera settimana, la [guida alla pianificazione settimanale](/it/blog/weekly-planning-guide) ti accompagna passo dopo passo.
 
-Iniziare un compito di 30 minuti sembra molto meno scoraggiante rispetto ad avviare un progetto indefinito. Il time-boxing abbassa la barriera d'ingresso per iniziare.
+## Quando il box finisce e l'attività non è conclusa
 
-## Come iniziare con il Time-Boxing oggi stesso
+Fermati comunque. Scrivi una riga su a che punto sei, poi scegli una di tre opzioni: dare all'attività un nuovo box più tardi oggi, spostarla a domani o decidere che la versione attuale è abbastanza buona. Fermarsi sembra sbagliato le prime volte, ma è ciò che impedisce a una singola attività di prendersi tutta la giornata, ed è così che impari la durata reale delle tue attività.
 
-### Passo 1: Elenca i tuoi compiti
+## Errori comuni nel timeboxing
 
-Scrivi tutto ciò che devi portare a termine. Non fare ancora filtri o priorità: metti semplicemente tutto nero su bianco.
+- **Assegnare un box a ogni minuto.** Una giornata senza un box vuoto crolla al primo sforamento.
+- **Box troppo grandi per essere conclusi.** «Tesi, 3 ore» è un blocco, non un box. Indica invece il risultato: «bozza della sezione 2».
+- **Lasciare l'attività difficile per ultima.** Nei dati di Chrobox, i box iniziati prima delle 09:00 sono stati completati molto più spesso di quelli della tarda serata.
+- **Non guardare mai indietro.** Un controllo di due minuti a fine giornata mostra quali box sono slittati e perché.
 
-### Passo 2: Stima il tempo necessario
+## Il timeboxing in Chrobox
 
-Per ogni attività, stima quanto tempo di concentrazione richiede. Sii realista ma leggermente ambizioso.
-
-### Passo 3: Assegna i time box
-
-Distribuisci le tue attività nelle fasce orarie disponibili. Tieni conto dei tuoi livelli di energia nel corso della giornata.
-
-### Passo 4: Esegui e adatta
-
-Affronta i tuoi time box uno alla volta. Se un compito non è finito, pianifica un altro blocco di tempo per completarlo.
-
-## Fare Time-Boxing con Chrobox
-
-Chrobox rende il time-boxing intuitivo e piacevole. Con funzionalità come:
-
-- **Smart Planning Flow** — Flusso di lavoro guidato in 6 passaggi
-- **Visual Timeline** — Guarda l'intera giornata a colpo d'occhio
-- **AI-Powered Insights** — Ricevi consigli personalizzati
-- **Daily Retrospective** — Monitora il tuo umore e la tua produttività
-
-Inizia oggi stesso il tuo percorso verso una migliore gestione del tempo con una prova gratuita di 3 giorni.
-
-## Conclusione
-
-Il time-boxing è molto più di un semplice trucco di produttività: è una filosofia di vita intenzionale. Decidendo consapevolmente come spendere il tuo tempo, prendi il controllo della tua giornata e, in ultima analisi, della tua vita.
-
-Il momento migliore per iniziare con il time-boxing è adesso. Imposta un time box di 30 minuti e comincia la tua prima attività. Potresti rimanere sorpreso da quanto riesci a concludere.
-    `,
+Chrobox è un'app di timeboxing per iPhone e Android. Aggiungi un'attività con un orario di inizio e una durata, compare sulla timeline del giorno e un avviso ti dice quando inizia il box. Il timer di concentrazione conta una volta alla rovescia la durata del box in corso, e una breve riflessione a fine giornata registra cosa è andato avanti. Attività, priorità, timeline, timer di concentrazione, avvisi, routine e riflessioni giornaliere sono gratuiti; il blocco delle app che distraggono durante un box, i widget per la schermata Home e di blocco, la pianificazione con IA e le statistiche dettagliate fanno parte di Pro.
+`,
     '5-time-boxing-strategies': `
 # 5 strategie di time-boxing utilizzate dai migliori CEO e imprenditori
 

@@ -652,20 +652,20 @@ export const pack: LocalizedContentPack = {
   },
   blogPosts: {
     'what-is-time-boxing': {
-      title: 'Apa Itu Timeboxing? Panduan Utama Menguasai Waktu',
-      excerpt: 'Temukan bagaimana metode timeboxing dapat mengubah produktivitas Anda. Pelajari sains di balik teknik ini dan cara menerapkannya dalam rutinitas harian.',
+      title: 'Apa Itu Timeboxing? Definisi, Contoh Sehari, dan Cara Mulai',
+      excerpt: 'Timeboxing adalah memberi tugas jam mulai dan durasi tetap di kalender, lalu berhenti saat kotak waktunya habis. Ada contoh sehari, bukti, dan cara memulai.',
       faqs: [
         {
-          question: 'Apa itu timeboxing dan apa bedanya dengan daftar tugas?',
-          answer: 'Timeboxing menetapkan durasi tetap untuk setiap tugas sebelum Anda mulai, sehingga Anda bekerja dalam batas waktu yang jelas, bukan sekadar bekerja sampai tugas itu "selesai". Daftar tugas memberi tahu apa yang harus dikerjakan, sedangkan timeboxing menentukan kapan dan berapa lama Anda harus mengerjakannya. Hal ini mencegah pekerjaan yang berlarut-larut dan mengurangi kebiasaan menunda-nunda.',
+          question: 'Apa itu timeboxing secara sederhana?',
+          answer: 'Timeboxing berarti memberi tugas slot waktu tetap, dengan waktu mulai dan waktu selesai, lalu berhenti saat slot itu habis. Alih-alih mengerjakan sesuatu sampai terasa selesai, Anda menentukan lebih dulu berapa lama waktu yang diberikan dan kapan.',
         },
         {
-          question: 'Berapa lama durasi ideal untuk satu sesi timebox?',
-          answer: 'Tidak ada satu durasi yang mutlak benar. Kebanyakan orang merasa 25–90 menit adalah waktu yang efektif untuk fokus bekerja. Sesi yang lebih pendek (15–30 menit) cocok untuk tugas administratif, sementara sesi yang lebih lama (60–90 menit) ideal untuk pekerjaan kreatif atau analitis yang mendalam. Mulailah dengan sesi 30 menit dan sesuaikan dengan rentang konsentrasi Anda.',
+          question: 'Apa perbedaan timeboxing dan time blocking?',
+          answer: 'Time blocking menyisihkan waktu di kalender untuk satu jenis pekerjaan, misalnya menulis setiap pagi. Timeboxing menetapkan waktu mulai dan batas akhir yang tegas untuk satu tugas tertentu. Banyak orang memakai keduanya: blok membentuk hari, dan kotak membatasi setiap tugas di dalamnya.',
         },
         {
-          question: 'Apa yang harus saya lakukan jika tugas belum selesai saat sesi timebox berakhir?',
-          answer: 'Berhentilah bekerja, catat progres terakhir Anda, dan jadwalkan sesi timebox baru untuk sisa pekerjaan tersebut. Kebiasaan ini akan melatih Anda memperkirakan durasi tugas secara akurat seiring berjalannya waktu dan mencegah satu tugas menyita seluruh hari Anda.',
+          question: 'Berapa lama sebaiknya satu kotak waktu?',
+          answer: 'Mulailah dengan 60 menit untuk pekerjaan yang butuh fokus dan 15 sampai 30 menit untuk email dan urusan administrasi. Dalam data Chrobox, median kotak waktu adalah 60 menit, dan tingkat penyelesaian kotak berdurasi 15 sampai 90 menit saling berdekatan, jadi pilih durasi yang bisa Anda jaga, bukan angka yang sempurna.',
         },
       ],
     },
@@ -2330,89 +2330,97 @@ Solusinya adalah aturan pola pikir, bukan teknis: *streak* yang terputus adalah 
 Detoks digital yang mampu bertahan dalam kehidupan nyata bukanlah detoks yang menghilangkan hal paling banyak dengan cara tercepat. Melainkan detoks yang dibangun dari sejumlah kecil rutinitas yang tahan lama — pagi hari yang bebas ponsel di awal, malam hari yang terlindungi, tinjauan mingguan yang singkat, dan *streak* yang Anda anggap sebagai umpan balik alih-alih penghakiman. Mulailah dengan satu rutinitas minggu ini, bukan keempatnya sekaligus. Targetnya bukanlah minggu yang sempurna; melainkan sebuah sistem yang masih terus Anda jalankan dalam tiga bulan ke depan.
     `,
     'what-is-time-boxing': `
-# Apa itu Time-Boxing? Panduan Lengkap untuk Menguasai Waktu Anda
+# Apa Itu Timeboxing? Definisi, Contoh Sehari, dan Cara Mulai
 
-Pernahkah Anda mengakhiri hari kerja dengan perasaan seolah tidak menyelesaikan apa pun meskipun sibuk seharian? Anda tidak sendirian. Di dunia kita yang sangat saling terhubung ini, gangguan ada di mana-mana, dan tetap fokus pada pekerjaan yang berarti menjadi lebih sulit dari sebelumnya.
+**Timeboxing adalah metode manajemen waktu di mana Anda memberi satu tugas slot tetap di kalender, dengan waktu mulai dan durasi, lalu berhenti saat slot itu berakhir, baik tugasnya sudah selesai maupun belum.** Daftar tugas memberi tahu apa yang harus dikerjakan. Sebuah kotak waktu juga memberi tahu kapan dan berapa lama. Dalam artikel Harvard Business Review tahun 2018, Marc Zao-Sanders menggambarkan timeboxing sebagai memindahkan daftar tugas Anda ke kalender, dan melaporkan bahwa dalam survei terhadap 100 trik produktivitas, timeboxing diberi peringkat paling berguna. Berikut contoh satu hari, perbedaan timeboxing dengan metode serupa, bukti yang ada, dan cara memulainya besok.
 
-Perkenalkan **time-boxing** — sebuah teknik sederhana namun ampuh yang telah mengubah cara orang-orang paling produktif di dunia dalam mengelola waktu mereka.
+## Timeboxing dalam satu aturan dan satu contoh hari
 
-## Memahami Time-Boxing
+Seluruh metode ini muat dalam satu aturan: **setiap tugas yang ingin Anda kerjakan hari ini mendapat tempat di jam.** Beginilah kira-kira hari kerja dengan timeboxing:
 
-Time-boxing adalah metode manajemen waktu di mana Anda mengalokasikan jangka waktu tetap, yang disebut "kotak waktu" (time box), untuk aktivitas yang direncanakan. Alih-alih mengerjakan suatu tugas hingga selesai, Anda hanya mengerjakannya selama jangka waktu yang telah ditentukan.
+| Waktu | Kotak | Durasi |
+|---|---|---|
+| 08:30–08:45 | Merencanakan hari | 15 menit |
+| 08:45–09:45 | Menulis proposal proyek (prioritas) | 60 menit |
+| 09:45–10:00 | Istirahat | 15 menit |
+| 10:00–11:00 | Meninjau lembar anggaran | 60 menit |
+| 11:00–11:30 | Email dan pesan | 30 menit |
+| 11:30–12:30 | Rapat tim | 60 menit |
+| 12:30–13:30 | Makan siang | 60 menit |
+| 13:30–14:30 | Merevisi dan mengirim proposal | 60 menit |
+| 14:30–15:00 | Administrasi dan tugas kecil | 30 menit |
+| 15:00–16:00 | Cadangan untuk tugas yang molor | 60 menit |
+| 16:00–16:30 | Email dan rencana besok | 30 menit |
 
-### Cara Kerjanya
+Tiga hal ini lebih penting daripada jam persisnya. Tugas terpenting mendapat kotak panjang pertama hari itu. Email punya dua kotak tetap, bukan menyelip di setiap jam. Dan satu jam sengaja dibiarkan kosong, sehingga tugas yang molor tidak mendorong sisa hari menjadi lebih terlambat.
 
-1. **Pilih tugas** yang ingin Anda kerjakan
-2. **Tetapkan batas waktu tertentu** (misalnya, 30 menit, 1 jam, 2 jam)
-3. **Bekerjalah secara eksklusif pada tugas tersebut** selama kotak waktu berlangsung
-4. **Berhentilah saat waktu habis**, terlepas dari apakah tugas tersebut sudah selesai atau belum
-5. **Evaluasi kemajuan Anda** dan rencanakan langkah berikutnya
+## Timeboxing vs daftar tugas, time blocking, dan Pomodoro
 
-## Sains di Balik Time-Boxing
+| | Daftar tugas | Time blocking | Timeboxing | Teknik Pomodoro |
+|---|---|---|---|---|
+| Yang Anda tentukan | Apa yang dikerjakan | Kapan mengerjakan satu jenis pekerjaan | Kapan dan berapa lama untuk satu tugas | Bekerja dalam interval 25 menit dengan istirahat singkat |
+| Satuan | Tugas | Blok kalender, seperti "menulis" | Satu tugas dengan awal dan akhir | Interval |
+| Saat waktu habis | Tidak terjadi apa-apa | Blok sering diperpanjang atau dipindah | Anda berhenti dan memutuskan langkah berikutnya | Istirahat singkat, lalu interval berikutnya |
+| Paling berguna untuk | Mencatat semuanya | Membentuk minggu | Menyelesaikan tugas tertentu | Memulai tugas yang sulit |
 
-Time-boxing berhasil karena memanfaatkan beberapa prinsip psikologis:
+Orang sering memakai "time blocking" dan "timeboxing" sebagai sinonim, dan keduanya cocok digabung: blok membentuk hari, dan kotak memberi batas pada setiap tugas di dalam blok. [Time blocking vs timeboxing](/id/blog/time-blocking-vs-time-boxing) membahas perbedaannya secara rinci, dan [timeboxing vs Pomodoro](/id/blog/time-boxing-vs-pomodoro) menjelaskan kapan interval tetap lebih membantu daripada kotak seukuran tugas.
 
-### Hukum Parkinson
+## Mengapa timeboxing efektif
 
-"Pekerjaan akan berkembang hingga memenuhi waktu yang tersedia untuk menyelesaikannya." Dengan menetapkan batas waktu yang ketat, Anda memaksa diri sendiri untuk fokus pada hal yang benar-benar penting dan menghilangkan perfeksionisme.
+Dua jenis bukti menunjuk ke arah yang sama.
 
-### Efek Zeigarnik
+**Memutuskan lebih dulu kapan Anda akan bertindak.** Para psikolog menyebut rencana yang menyebutkan kapan dan di mana Anda akan melakukan sesuatu sebagai implementation intention (niat implementasi). Sebuah meta-analisis oleh Gollwitzer dan Sheeran (2006) terhadap 94 pengujian independen menemukan efek sedang hingga besar pada pencapaian tujuan (d = .65). Meta-analisis yang lebih besar oleh Sheeran, Listrom, dan Gollwitzer (2025), mencakup 642 pengujian, menemukan efek antara d = .27 dan d = .66, dengan efek lebih besar ketika rencana berbentuk jika-maka, ketika orang sangat termotivasi, dan ketika mereka melatih rencananya. Sebuah kotak waktu adalah niat implementasi untuk satu tugas: "pukul 08:45, saya menulis proposal."
 
-Tugas yang belum selesai menciptakan ketegangan mental yang membuatnya tetap berada dalam memori aktif kita. Time-boxing membantu Anda membuat kemajuan di berbagai bidang, sehingga mengurangi beban kognitif ini.
+**Apa yang terjadi pada tugas ber-timebox dalam praktik.** Kami membangun aplikasi timeboxing, jadi kami bisa melihat apa yang benar-benar diselesaikan orang. Data penggunaan Chrobox yang mencakup 5.077 tugas yang direncanakan oleh 250 orang antara Desember 2025 dan September 2026 menunjukkan:
 
-### Aktivasi Kondisi Flow
+| Temuan | Hasil |
+|---|---|
+| Tugas dengan waktu mulai dan durasi vs tugas yang dibiarkan di daftar | 48,1% vs 17,6% selesai |
+| Orang yang sama, dua cara (41 orang) | 35 orang menyelesaikan lebih banyak tugas ber-timebox |
+| Kotak mulai 05:00–08:59 vs 21:00–23:59 | 62,3% vs 33,2% selesai |
+| Tugas bertanda prioritas vs tanpa tanda | 44,5% vs 28,9% selesai |
+| Median durasi kotak | 60 menit |
+| Median tugas yang direncanakan per hari | 5 |
 
-Mengetahui bahwa Anda memiliki waktu terbatas menciptakan rasa urgensi yang sehat yang dapat membantu Anda memasuki kondisi flow dengan lebih cepat.
+Ini adalah data observasional, bukan eksperimen. Orang mungkin memberi slot waktu pada tugas yang memang sudah ingin mereka kerjakan, dan slot waktu juga berfungsi sebagai pengingat. Perbandingan pada orang yang sama membuat pola ini lebih sulit disangkal, tetapi tetap berupa asosiasi, bukan bukti sebab-akibat. [Apakah timeboxing efektif?](/id/blog/does-timeboxing-work) memuat metode lengkap, setiap pengecualian, dan hasil yang tampak kurang bagus.
 
-## Manfaat Time-Boxing
+## Berapa lama sebaiknya satu kotak waktu?
 
-### 1. Produktivitas yang Meningkat
+Tidak ada satu durasi yang benar. Median kotak dalam data Chrobox adalah 60 menit, sebagian karena tugas yang dijatuhkan ke linimasa dimulai sebagai kotak satu jam, dan tingkat penyelesaian kotak berdurasi 15 sampai 90 menit saling berdekatan. Durasi yang bisa Anda jaga lebih penting daripada angka yang sempurna. Berikut titik awal yang masuk akal:
 
-Dengan membatasi waktu yang tersedia untuk tugas-tugas, Anda secara alami menjadi lebih fokus dan efisien. Penelitian menunjukkan bahwa batasan waktu dapat meningkatkan produktivitas hingga 30%.
+| Jenis pekerjaan | Durasi awal |
+|---|---|
+| Email, administrasi, tugas kecil | 15–30 menit |
+| Pekerjaan fokus seperti menulis, analisis, atau belajar | 60 menit |
+| Pekerjaan kreatif atau teknis yang sulit | 90 menit, dengan istirahat setelahnya |
+| Rapat dan kelas | Sesuai lama acaranya |
 
-### 2. Keseimbangan Kerja-Hidup yang Lebih Baik
+## Cara mulai timeboxing besok
 
-Ketika Anda tahu persis kapan pekerjaan Anda berakhir, Anda dapat sepenuhnya melepaskan diri dari pekerjaan dan menikmati waktu pribadi Anda tanpa rasa bersalah.
+1. **Pilih tiga tugas** yang ingin Anda selesaikan besok dan tandai satu sebagai prioritas.
+2. **Perkirakan masing-masing** dalam menit dan bulatkan ke atas. Perkiraan pertama biasanya terlalu singkat.
+3. **Masukkan acara tetap ke hari itu lebih dulu:** rapat, kelas, perjalanan.
+4. **Tempatkan prioritas di celah panjang pertama,** idealnya di pagi hari.
+5. **Sisakan satu kotak cadangan yang kosong** di sore hari.
+6. **Saat kotak berakhir, berhenti dan putuskan:** selesai, kotak baru nanti, atau sudah cukup baik.
 
-### 3. Mengurangi Prokrastinasi
+Perkirakan kotak akan molor di minggu pertama. Itu berguna: setelah beberapa hari Anda tahu berapa lama tugas Anda sebenarnya, dan perkiraan Anda membaik. Untuk contoh susunan hari siap pakai berdasarkan profesi, lihat [template jadwal harian](/id/templates). Untuk merencanakan satu minggu penuh, [panduan perencanaan mingguan](/id/blog/weekly-planning-guide) menjelaskannya langkah demi langkah.
 
-Memulai tugas berdurasi 30 menit terasa jauh lebih ringan daripada memulai proyek yang tidak jelas batasannya. Time-boxing menurunkan hambatan untuk mulai melangkah.
+## Saat kotak berakhir dan tugas belum selesai
 
-## Cara Memulai Time-Boxing Hari Ini
+Tetap berhenti. Tulis satu baris tentang sampai di mana Anda, lalu pilih satu dari tiga opsi: beri tugas itu kotak baru nanti hari ini, pindahkan ke besok, atau putuskan bahwa versi saat ini sudah cukup baik. Berhenti terasa aneh beberapa kali pertama, tetapi itulah yang mencegah satu tugas menguasai seluruh hari, dan begitulah cara Anda mengetahui durasi tugas yang sebenarnya.
 
-### Langkah 1: Buat Daftar Tugas Anda
+## Kesalahan umum dalam timeboxing
 
-Tuliskan semua hal yang perlu Anda selesaikan. Jangan menyaring atau memprioritaskannya terlebih dahulu—keluarkan saja semuanya.
+- **Mengisi setiap menit dengan kotak.** Hari tanpa kotak kosong akan berantakan pada kemolotan pertama.
+- **Kotak terlalu besar untuk diselesaikan.** "Skripsi, 3 jam" adalah blok, bukan kotak. Namai dengan hasilnya: "draf bagian 2".
+- **Menyisakan tugas sulit untuk terakhir.** Dalam data Chrobox, kotak yang dimulai sebelum 09:00 jauh lebih sering selesai daripada kotak larut malam.
+- **Tidak pernah menengok ke belakang.** Pemeriksaan dua menit di akhir hari menunjukkan kotak mana yang meleset dan mengapa.
 
-### Langkah 2: Perkirakan Waktu yang Dibutuhkan
+## Timeboxing di Chrobox
 
-Untuk setiap tugas, perkirakan berapa banyak waktu fokus yang dibutuhkan. Bersikaplah realistis namun sedikit agresif.
-
-### Langkah 3: Alokasikan Kotak Waktu
-
-Distribusikan tugas-tugas Anda ke dalam slot waktu yang tersedia. Pertimbangkan tingkat energi Anda sepanjang hari.
-
-### Langkah 4: Eksekusi dan Sesuaikan
-
-Kerjakan kotak waktu Anda satu per satu. Jika suatu tugas belum selesai, jadwalkan kotak waktu lain untuk tugas tersebut.
-
-## Time-Boxing dengan Chrobox
-
-Chrobox membuat time-boxing menjadi intuitif dan menyenangkan. Dengan fitur-fitur seperti:
-
-- **Smart Planning Flow** — alur kerja terpandu 6 langkah
-- **Visual Timeline** — lihat seluruh hari Anda dalam sekilas pandang
-- **AI-Powered Insights** — dapatkan rekomendasi yang dipersonalisasi
-- **Daily Retrospective** — pantau suasana hati dan produktivitas Anda
-
-Mulailah perjalanan Anda menuju manajemen waktu yang lebih baik hari ini dengan uji coba gratis selama 3 hari.
-
-## Kesimpulan
-
-Time-boxing lebih dari sekadar trik produktivitas—ini adalah filosofi hidup yang disengaja. Dengan secara sadar memutuskan bagaimana Anda menghabiskan waktu, Anda memegang kendali atas hari Anda dan, pada akhirnya, hidup Anda.
-
-Waktu terbaik untuk memulai time-boxing adalah sekarang. Tetapkan kotak waktu 30 menit dan mulailah tugas pertama Anda. Anda mungkin akan terkejut dengan seberapa banyak yang dapat Anda selesaikan.
-    `,
+Chrobox adalah aplikasi timeboxing untuk iPhone dan Android. Anda menambahkan tugas dengan waktu mulai dan durasi, tugas itu muncul di linimasa hari tersebut, dan sebuah notifikasi memberi tahu saat kotak dimulai. Timer fokus menghitung mundur durasi kotak saat ini satu kali, dan refleksi singkat di akhir hari mencatat apa yang bergerak. Tugas, prioritas, linimasa, timer fokus, notifikasi, rutinitas, dan refleksi harian gratis; memblokir aplikasi yang mengganggu selama kotak, widget layar utama dan layar kunci, perencanaan AI, dan statistik terperinci adalah bagian dari Pro.
+`,
     '5-time-boxing-strategies': `
 # 5 Strategi Time-Boxing yang Digunakan oleh CEO dan Pengusaha Top
 
