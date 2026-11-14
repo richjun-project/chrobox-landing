@@ -21375,4 +21375,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/daily-life-schedule-template"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/todo-list-with-times</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/todo-list-with-times"/>
+  </url>
+
 </urlset>
