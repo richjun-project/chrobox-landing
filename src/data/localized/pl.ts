@@ -2744,9 +2744,11 @@ Celem bloku pracy głębokiej nie jest siedzenie przy biurku przez dwie godziny 
 Chrobox sprawia, że bloki pracy głębokiej są widoczne obok wszystkich innych zobowiązań w Twoim dniu. Wizualny dziennik czasu pozwala zweryfikować, czy zaplanowana praca głęboka faktycznie się odbyła — a nie tylko czy siedziałeś przy biurku. Z czasem te dane pomogą Ci znaleźć wzorce planowania, które dają Ci najlepsze efekty.
 
 Chroń swoje głębokie godziny. Wszystko inne może poczekać.`,
-    'best-time-boxing-apps': `## Dlaczego warto zaufać temu porównaniu?
+    'best-time-boxing-apps': `Krótka odpowiedź: do całego cyklu planowania, skupienia i przeglądu na telefonie — Chrobox; do przenoszenia pracy z poczty, Slacka i narzędzi projektowych do dziennego planu — Sunsama; do tego, by AI układało zadania w kalendarzu — Motion; do listy zadań z osią czasu — TickTick lub Todoist; do najprostszego wizualnego dnia — Structured; do wizualnych rutyn przyjaznych osobom z ADHD — Tiimo; a jeśli nie chcesz nic wydawać — Google Kalendarz.
 
-Tworzymy Chrobox, aplikację do time-boxingu — więc tak, ona też znajduje się na tej liście. Ale porównanie, które chwali wyłącznie własny produkt, jest dla Ciebie bezużyteczne. Poniżej każda aplikacja jest oceniana według tych samych pięciu kryteriów, z uczciwymi uwagami o tym, gdzie każda z nich przewyższa pozostałe — w tym miejsca, w których konkurenci przewyższają Chrobox.
+## Dlaczego warto zaufać temu porównaniu?
+
+Tworzymy Chrobox, aplikację do time-boxingu — więc tak, ona też znajduje się na tej liście. Ale porównanie, które chwali wyłącznie własny produkt, jest dla Ciebie bezużyteczne. Poniżej każda aplikacja jest oceniana według tych samych pięciu kryteriów, z uczciwymi uwagami o tym, gdzie każda z nich przewyższa pozostałe — w tym miejsca, w których konkurenci przewyższają Chrobox. Ceny sprawdziliśmy na stronie z cennikiem każdej firmy lub w jej karcie aplikacji w sklepie 14 listopada 2026 r., w dolarach amerykańskich. Ceny w App Store lub Google Play w Twoim kraju mogą się różnić, a firmy je zmieniają, więc sprawdź je przed zakupem.
 
 ## Co sprawia, że aplikacja do time-boxingu jest naprawdę dobra?
 
@@ -2766,21 +2768,21 @@ Chrobox jest zbudowany wokół całej pętli time-boxingu, a nie kalendarza z do
 **Słabe strony:** tylko mobilnie (brak aplikacji desktopowej), brak funkcji zespołowych
 **Cena:** darmowy plan; Pro (3-dniowy bezpłatny okres próbny) dodaje blokowanie aplikacji, widżety i AI — subskrypcja lub jednorazowy zakup dożywotni
 
-### 2. Sunsama — najlepsza dla profesjonalistów żyjących w kalendarzu (Web, desktop, mobile)
+### 2. Sunsama — najlepsza dla profesjonalistów żyjących w kalendarzu (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama błyszczy, przenosząc zadania z Gmaila, Slacka, Trello i Asany do dziennego planu, który przeciągasz na swój kalendarz. Jej prowadzony rytuał codziennego planowania jest doskonały. Kompromisem jest cena — jest skierowana do profesjonalistów, za których płaci pracodawca.
+Sunsama błyszczy, przenosząc zadania z Gmaila, Slacka, Trello, Asany i innych narzędzi pracy do dziennego planu, który przeciągasz na swój kalendarz. Jej prowadzony rytuał codziennego planowania i zamykanie dnia są doskonałe. Kompromisem jest cena — jest skierowana do profesjonalistów, za których płaci pracodawca.
 
 **Mocne strony:** integracje najwyższej klasy, spokojne, prowadzone planowanie
-**Słabe strony:** ok. 16–20 USD/miesiąc, brak darmowego planu poza okresem próbnym
-**Cena:** wyłącznie subskrypcja
+**Słabe strony:** $22/miesiąc przy płatności miesięcznej lub $17/miesiąc przy płatności rocznej, brak darmowego planu
+**Cena:** wyłącznie subskrypcja, z 14-dniowym darmowym trialem
 
-### 3. Motion — najlepsza do automatycznego planowania z AI (Web, mobile)
+### 3. Motion — najlepsza do automatycznego planowania z AI (web, desktop, mobile)
 
 Motion odwraca ten model: podajesz zadania i terminy, a AI automatycznie planuje Twój dzień, przekładając go, gdy zmieniają się spotkania. Świetna przy chaotycznych kalendarzach, ale rezygnujesz ze świadomego aktu planowania — co dla wielu osób stanowi połowę sensu time-boxingu.
 
 **Mocne strony:** automatyczne przeplanowanie, świetna przy tygodniach pełnych spotkań
 **Słabe strony:** droga, mniej świadoma niż ręczny time-boxing
-**Cena:** subskrypcja premium, ok. 30 USD/miesiąc rozliczane co miesiąc
+**Cena:** brak darmowego planu; na stronie z cennikiem są Pro AI za $19 i Business AI za $29 za stanowisko miesięcznie, z darmowym trialem
 
 ### 4. TickTick — najlepsza lista zadań z doczepionym time-boxingiem (wszystkie platformy)
 
@@ -2788,23 +2790,23 @@ TickTick to przede wszystkim menedżer zadań, ale jego widok osi czasu i wbudow
 
 **Mocne strony:** doskonałe zarządzanie zadaniami, przystępna wersja premium, każda platforma
 **Słabe strony:** time-boxing jest funkcją drugorzędną; brak rytuału planowania czy pętli przeglądu
-**Cena:** solidny plan darmowy; premium ok. 36 USD/rok
+**Cena:** plan darmowy (do 9 list po 99 zadań każda); Premium $49.99/rok
 
-### 5. Structured — najlepsza wizualna prostota (iOS, Android, Mac, Watch, Web)
+### 5. Structured — najlepsza wizualna prostota (iPhone, Android, Apple Watch, web)
 
 Structured zamienia Twój dzień w przejrzystą pionową oś czasu i jest uwielbiana za łagodną krzywą uczenia się. Świetna dla studentów i osób myślących wizualnie; mniej kompletna, gdy chcesz statystyk lub egzekwowania.
 
-**Mocne strony:** piękna oś czasu, łatwy start, przyjazne opcje płatności jednorazowej
+**Mocne strony:** piękna oś czasu, łatwy start, działa na telefonie i komputerze
 **Słabe strony:** skromna analityka, brak blokowania aplikacji
-**Cena:** plan darmowy; subskrypcja Pro lub licencja dożywotnia
+**Cena:** darmowy start; Pro to płatny upgrade (cenę dla Twojego kraju widać w sklepie z aplikacjami)
 
-### 6. Tiimo — najlepsza dla ADHD i osób neuroróżnorodnych (iOS, Android, Mac, Watch)
+### 6. Tiimo — najlepsza dla ADHD i osób neuroróżnorodnych (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo zostało zaprojektowane z myślą o użytkownikach neuroróżnorodnych i dla nich: wizualne harmonogramy, rutyny oparte na ikonach oraz łagodne alerty o przejściu zamiast wywołujących poczucie winy oznaczeń przeterminowania. Jeśli konwencjonalne aplikacje planujące zawodziły Cię wielokrotnie, zacznij tutaj lub od trybu skupienia w Chrobox.
+Tiimo zostało stworzone przez osoby neuroróżnorodne i dla nich: wizualna oś czasu, rutyny, codzienne zapisy nastroju oraz timer skupienia, który ma ułatwiać przechodzenie między zadaniami, zamiast wywołujących poczucie winy oznaczeń przeterminowania. Jeśli konwencjonalne aplikacje planujące zawodziły Cię wielokrotnie, zacznij tutaj lub od trybu skupienia w Chrobox.
 
 **Mocne strony:** naprawdę inkluzywny design, wizualizacja rutyn
 **Słabe strony:** skromniejsza klasyczna analityka produktywności
-**Cena:** ograniczony plan darmowy; roczna subskrypcja Pro zawiera 7-dniowy trial (miesięczna bez triala)
+**Cena:** plan darmowy z wybranymi narzędziami do planowania (tylko aplikacje mobilne); roczna subskrypcja Pro zawiera 7-dniowy darmowy trial (miesięczna bez triala)
 
 ### 7. Google Kalendarz — najlepsza darmowa opcja, którą już masz (wszystkie platformy)
 
@@ -2816,22 +2818,22 @@ Ręczny time-boxing w Google Kalendarzu działa: twórz bloki, koloruj je, ustaw
 
 ### 8. Todoist — najlepszy dla użytkowników GTD dodających bloki czasu (wszystkie platformy)
 
-Widok kalendarza w Todoist i dwukierunkowa synchronizacja z Google Kalendarzem pozwalają fanom checklist eksperymentować z blokowaniem czasu bez opuszczania menedżera zadań. Podobnie jak w TickTick, warstwa time-boxingu jest cienka — ale leżący u jej podstaw system zadań jest prawdopodobnie jednym z najlepszych w swojej klasie.
+Todoist pokazuje wydarzenia z Google Kalendarza lub Kalendarza Outlook obok zadań w widokach „Dziś” i „Nadchodzące”, a zadania powiązane z wydarzeniami kalendarza synchronizują się w obie strony, więc fani checklist mogą eksperymentować z blokowaniem czasu bez opuszczania menedżera zadań. Podobnie jak w TickTick, warstwa time-boxingu jest cienka — ale leżący u jej podstaw system zadań jest prawdopodobnie jednym z najlepszych w swojej klasie.
 
 **Mocne strony:** przechwytywanie i organizacja zadań światowej klasy
 **Słabe strony:** time-boxing to dodatek, a nie główna pętla
-**Cena:** plan darmowy; Pro ok. 4–5 USD/miesiąc
+**Cena:** darmowy plan Beginner; Pro $5/miesiąc przy płatności rocznej ($60) lub $7 przy płatności miesięcznej
 
 ## Tabela porównawcza
 
 | Aplikacja | Główna pętla | Blokowanie aplikacji | Przegląd/retrospektywa | Plan darmowy | Platformy |
 |---|---|---|---|---|---|
 | Chrobox | Pełny time-boxing | ✅ | ✅ retrospektywa AI | Za darmo + Pro (3-dniowy trial) | iOS, Android |
-| Sunsama | Codzienne planowanie | ❌ | ✅ rytuał zamknięcia dnia | tylko trial | Web, desktop, mobile |
-| Motion | Planowanie AI | ❌ | ❌ | tylko trial | Web, mobile |
+| Sunsama | Codzienne planowanie | ❌ | ✅ rytuał zamknięcia dnia | tylko 14-dniowy trial | Desktop, iPhone, Android |
+| Motion | Planowanie AI | ❌ | ❌ | tylko trial | Web, desktop, mobile |
 | TickTick | Lista zadań + oś czasu | ❌ | ❌ | ✅ | Wszystkie |
-| Structured | Wizualna oś czasu | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Wizualne rutyny | ❌ | ✅ nastrój/refleksja | Ograniczony darmowy | iOS, Android, Mac, Watch |
+| Structured | Wizualna oś czasu | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, Web |
+| Tiimo | Wizualne rutyny | ❌ | ✅ nastrój/refleksja | Ograniczony darmowy (mobile) | iPhone, iPad, Android, Mac, Apple Watch, Web |
 | Google Kalendarz | Ręczne bloki | ❌ | ❌ | ✅ | Wszystkie |
 | Todoist | Zadania + kalendarz | ❌ | ❌ | ✅ | Wszystkie |
 

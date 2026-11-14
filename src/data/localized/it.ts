@@ -2748,9 +2748,11 @@ Chrobox rende i blocchi di deep work visibili accanto a ogni altro impegno della
 
 Proteggi le tue ore di deep work. Tutto il resto può aspettare.
 `,
-    'best-time-boxing-apps': `## Perché fidarti di questo confronto?
+    'best-time-boxing-apps': `In breve: per l'intero ciclo di piano, concentrazione e revisione sul telefono, Chrobox; per portare il lavoro da email, Slack e strumenti di progetto in un piano giornaliero, Sunsama; per lasciare che l'AI metta i compiti nel tuo calendario, Motion; per una lista di cose da fare con una timeline, TickTick o Todoist; per la giornata visiva più semplice, Structured; per routine visive adatte all'ADHD, Tiimo; e per non spendere nulla, Google Calendar.
 
-Noi creiamo Chrobox, un'app di timeboxing, quindi sì: compare in questa lista. Ma un confronto che elogia solo il proprio prodotto non ti serve a nulla. Qui sotto, ogni app è valutata secondo gli stessi cinque criteri, con note oneste su dove ciascuna supera le altre, compresi i casi in cui i concorrenti battono Chrobox.
+## Perché fidarti di questo confronto?
+
+Noi creiamo Chrobox, un'app di timeboxing, quindi sì: compare in questa lista. Ma un confronto che elogia solo il proprio prodotto non ti serve a nulla. Qui sotto, ogni app è valutata secondo gli stessi cinque criteri, con note oneste su dove ciascuna supera le altre, compresi i casi in cui i concorrenti battono Chrobox. I prezzi sono stati controllati il 14 novembre 2026 sulla pagina dei prezzi o sulla scheda dello store di ciascuna azienda, in dollari statunitensi. I prezzi nell'App Store o su Google Play del tuo paese possono essere diversi, e le aziende li cambiano, quindi controllali prima di pagare.
 
 ## Cosa rende ottima un'app di timeboxing?
 
@@ -2770,21 +2772,21 @@ Chrobox è costruita attorno al ciclo completo del timeboxing anziché essere un
 **Punti deboli:** solo mobile (nessuna app desktop), nessuna funzione per i team
 **Prezzo:** piano gratuito; Pro (prova gratuita di 3 giorni) aggiunge blocco delle app, widget e IA — abbonamento o acquisto unico a vita
 
-### 2. Sunsama — la migliore per i professionisti con calendari fitti (Web, desktop, mobile)
+### 2. Sunsama — la migliore per i professionisti con calendari fitti (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama eccelle nel portare compiti da Gmail, Slack, Trello e Asana in un piano giornaliero che trascini sul calendario. Il suo rituale guidato di pianificazione quotidiana è eccellente. Il compromesso è il prezzo: è pensata per professionisti il cui datore di lavoro paga.
+Sunsama eccelle nel portare compiti da Gmail, Slack, Trello, Asana e altri strumenti di lavoro in un piano giornaliero che trascini sul calendario. Il suo rituale guidato di pianificazione quotidiana e la chiusura di fine giornata sono eccellenti. Il compromesso è il prezzo: è pensata per professionisti il cui datore di lavoro paga.
 
 **Punti di forza:** integrazioni ai massimi livelli, pianificazione guidata e rilassante
-**Punti deboli:** circa 16–20 $/mese, nessun piano gratuito oltre alla prova
-**Prezzo:** solo abbonamento
+**Punti deboli:** $22/mese con fatturazione mensile o $17/mese con fatturazione annuale, nessun piano gratuito
+**Prezzo:** solo abbonamento, con una prova gratuita di 14 giorni
 
-### 3. Motion — la migliore per la pianificazione automatica con l'AI (Web, mobile)
+### 3. Motion — la migliore per la pianificazione automatica con l'AI (Web, desktop, mobile)
 
 Motion ribalta il modello: le fornisci compiti e scadenze e la sua AI pianifica automaticamente la tua giornata, riprogrammando quando le riunioni si spostano. Potente per i calendari caotici, ma rinunci all'atto deliberato di pianificare, che per molti è metà del senso del timeboxing.
 
 **Punti di forza:** riprogrammazione automatica, ottima per le settimane piene di riunioni
 **Punti deboli:** costosa, meno intenzionale del timeboxing manuale
-**Prezzo:** abbonamento premium, circa 30 $/mese con fatturazione mensile
+**Prezzo:** nessun piano gratuito; la pagina dei prezzi indica Pro AI a $19 e Business AI a $29 per utente al mese, con una prova gratuita
 
 ### 4. TickTick — la migliore lista di cose da fare con il timeboxing integrato (tutte le piattaforme)
 
@@ -2792,23 +2794,23 @@ TickTick è soprattutto un task manager, ma la vista timeline e il timer Pomodor
 
 **Punti di forza:** eccellente gestione dei compiti, premium conveniente, tutte le piattaforme
 **Punti deboli:** il timeboxing è secondario; nessun rituale di pianificazione né ciclo di revisione
-**Prezzo:** solido piano gratuito; premium circa 36 $/anno
+**Prezzo:** piano gratuito (fino a 9 liste da 99 compiti ciascuna); Premium $49.99/anno
 
-### 5. Structured — la migliore per semplicità visiva (iOS, Android, Mac, Watch, Web)
+### 5. Structured — la migliore per semplicità visiva (iPhone, Android, Apple Watch, web)
 
 Structured trasforma la tua giornata in una pulita timeline verticale ed è amata per la sua curva di apprendimento dolce. Ottima per studenti e pensatori visivi; meno completa se vuoi statistiche o applicazione delle regole.
 
-**Punti di forza:** timeline bellissima, avvio facile, opzioni di prezzo adatte anche a un acquisto unico
+**Punti di forza:** timeline bellissima, avvio facile, funziona su telefono e computer
 **Punti deboli:** poche analisi, nessun blocco delle app
-**Prezzo:** piano gratuito; abbonamento Pro o a vita
+**Prezzo:** gratuita per iniziare; Pro è un aggiornamento a pagamento (il prezzo per il tuo paese è mostrato nello store delle app)
 
-### 6. Tiimo — la migliore per ADHD e pianificatori neurodivergenti (iOS, Android, Mac, Watch)
+### 6. Tiimo — la migliore per ADHD e pianificatori neurodivergenti (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo è stata progettata con e per utenti neurodivergenti: agende visive, routine basate su icone e avvisi di transizione gentili al posto di segnalazioni di ritardo che generano sensi di colpa. Se i planner convenzionali ti hanno deluso più volte, parti da qui o dalla modalità concentrazione di Chrobox.
+Tiimo è stata creata da e per persone neurodivergenti: una timeline visiva, routine, check-in dell'umore e un timer di concentrazione pensato per rendere più facili le transizioni, al posto di segnalazioni di ritardo che generano sensi di colpa. Se i planner convenzionali ti hanno deluso più volte, parti da qui o dalla modalità concentrazione di Chrobox.
 
 **Punti di forza:** design davvero inclusivo, visualizzazione delle routine
 **Punti deboli:** più leggera sulle analisi di produttività classiche
-**Prezzo:** livello gratuito limitato; l'abbonamento Pro annuale include una prova di 7 giorni (quello mensile non prevede prova)
+**Prezzo:** livello gratuito con alcuni strumenti di pianificazione (solo nelle app mobile); l'abbonamento Pro annuale include una prova gratuita di 7 giorni (quello mensile non prevede prova)
 
 ### 7. Google Calendar — la migliore opzione gratuita che hai già (tutte le piattaforme)
 
@@ -2820,22 +2822,22 @@ Il timeboxing manuale in Google Calendar funziona: crei blocchi, li colori, impo
 
 ### 8. Todoist — il migliore per chi usa GTD e aggiunge blocchi di tempo (tutte le piattaforme)
 
-La vista calendario di Todoist e la sincronizzazione bidirezionale con Google Calendar permettono ai devoti delle checklist di sperimentare il time blocking senza uscire dal proprio task manager. Come per TickTick, lo strato di timeboxing è sottile, ma il sistema di compiti sottostante è probabilmente il migliore della categoria.
+Todoist mostra gli eventi di Google Calendar o di Outlook accanto ai tuoi compiti nelle viste «Oggi» e «In arrivo», e i compiti collegati agli eventi del calendario si sincronizzano in entrambe le direzioni, così i devoti delle checklist possono sperimentare il time blocking senza uscire dal proprio task manager. Come per TickTick, lo strato di timeboxing è sottile, ma il sistema di compiti sottostante è probabilmente il migliore della categoria.
 
 **Punti di forza:** raccolta e organizzazione dei compiti di livello mondiale
 **Punti deboli:** il timeboxing è un componente aggiuntivo, non il ciclo centrale
-**Prezzo:** piano gratuito; Pro circa 4–5 $/mese
+**Prezzo:** piano gratuito Beginner; Pro $5/mese con fatturazione annuale ($60) o $7 con fatturazione mensile
 
 ## Tabella di confronto
 
 | App | Ciclo centrale | Blocco delle app | Revisione/retrospettiva | Piano gratuito | Piattaforme |
 |---|---|---|---|---|---|
 | Chrobox | Timeboxing completo | ✅ | ✅ Retrospettiva AI | Gratis + Pro (prova di 3 giorni) | iOS, Android |
-| Sunsama | Pianificazione giornaliera | ❌ | ✅ rituale di chiusura | solo prova | Web, desktop, mobile |
-| Motion | Pianificazione AI | ❌ | ❌ | solo prova | Web, mobile |
+| Sunsama | Pianificazione giornaliera | ❌ | ✅ rituale di chiusura | solo prova di 14 giorni | Desktop, iPhone, Android |
+| Motion | Pianificazione AI | ❌ | ❌ | solo prova | Web, desktop, mobile |
 | TickTick | Lista compiti + timeline | ❌ | ❌ | ✅ | Tutte |
-| Structured | Timeline visiva | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Routine visive | ❌ | ✅ umore/riflessione | Gratuito limitato | iOS, Android, Mac, Watch |
+| Structured | Timeline visiva | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, web |
+| Tiimo | Routine visive | ❌ | ✅ umore/riflessione | Gratuito limitato (mobile) | iPhone, iPad, Android, Mac, Apple Watch, web |
 | Google Calendar | Blocchi manuali | ❌ | ❌ | ✅ | Tutte |
 | Todoist | Compiti + calendario | ❌ | ❌ | ✅ | Tutte |
 

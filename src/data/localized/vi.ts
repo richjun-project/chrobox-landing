@@ -2748,9 +2748,11 @@ Chrobox giúp các khối deep work hiển thị rõ ràng bên cạnh mọi cam
 
 Hãy bảo vệ những giờ sâu của bạn. Mọi thứ khác đều có thể chờ.
 `,
-    'best-time-boxing-apps': `## Vì sao nên tin tưởng bảng so sánh này?
+    'best-time-boxing-apps': `Trả lời ngắn: cho cả vòng lặp lập kế hoạch, tập trung và đánh giá ngay trên điện thoại, hãy chọn Chrobox; để kéo công việc từ email, Slack và các công cụ dự án vào một kế hoạch hàng ngày, chọn Sunsama; để AI đặt nhiệm vụ lên lịch của bạn, chọn Motion; cho danh sách việc cần làm có dòng thời gian, chọn TickTick hoặc Todoist; cho một ngày trực quan đơn giản nhất, chọn Structured; cho các thói quen trực quan thân thiện với ADHD, chọn Tiimo; và nếu bạn không muốn tốn đồng nào, chọn Google Calendar.
 
-Chúng tôi xây dựng Chrobox, một ứng dụng timeboxing — vậy nên đúng, nó có mặt trong danh sách này. Nhưng một bảng so sánh chỉ ca ngợi sản phẩm của chính mình thì chẳng có giá trị gì với bạn cả. Dưới đây, mọi ứng dụng đều được đánh giá theo cùng năm tiêu chí, với những ghi chú trung thực về nơi mỗi ứng dụng vượt trội hơn các ứng dụng khác, kể cả những nơi đối thủ vượt trội hơn Chrobox.
+## Vì sao nên tin tưởng bảng so sánh này?
+
+Chúng tôi xây dựng Chrobox, một ứng dụng timeboxing — vậy nên đúng, nó có mặt trong danh sách này. Nhưng một bảng so sánh chỉ ca ngợi sản phẩm của chính mình thì chẳng có giá trị gì với bạn cả. Dưới đây, mọi ứng dụng đều được đánh giá theo cùng năm tiêu chí, với những ghi chú trung thực về nơi mỗi ứng dụng vượt trội hơn các ứng dụng khác, kể cả những nơi đối thủ vượt trội hơn Chrobox. Giá được kiểm tra trên trang giá hoặc trang cửa hàng của chính từng công ty vào ngày 14 tháng 11 năm 2026, tính bằng đô la Mỹ. Giá trên App Store hoặc Google Play ở nước bạn có thể khác, và các công ty cũng có thể đổi giá, nên hãy kiểm tra trước khi thanh toán.
 
 ## Điều gì tạo nên một ứng dụng timeboxing tuyệt vời?
 
@@ -2770,21 +2772,21 @@ Chrobox được xây dựng xoay quanh toàn bộ vòng lặp timeboxing, thay 
 **Điểm yếu:** chỉ có trên di động (không có ứng dụng desktop), không có tính năng cho nhóm
 **Giá:** gói miễn phí; Pro (dùng thử miễn phí 3 ngày) bổ sung chặn ứng dụng, widget và AI — đăng ký hoặc mua trọn đời một lần
 
-### 2. Sunsama — tốt nhất cho dân chuyên nghiệp bận rộn với lịch (Web, desktop, di động)
+### 2. Sunsama — tốt nhất cho dân chuyên nghiệp bận rộn với lịch (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama nổi bật ở khả năng kéo các nhiệm vụ từ Gmail, Slack, Trello và Asana vào một kế hoạch hàng ngày mà bạn kéo thả lên lịch. Nghi thức lập kế hoạch hàng ngày có hướng dẫn của nó rất xuất sắc. Đánh đổi là giá cả — nó được định vị cho những người chuyên nghiệp mà công ty trả tiền hộ.
+Sunsama nổi bật ở khả năng kéo các nhiệm vụ từ Gmail, Slack, Trello, Asana và các công cụ làm việc khác vào một kế hoạch hàng ngày mà bạn kéo thả lên lịch. Nghi thức lập kế hoạch hàng ngày có hướng dẫn và phần khép lại ngày làm việc của nó rất xuất sắc. Đánh đổi là giá cả — nó được định vị cho những người chuyên nghiệp mà công ty trả tiền hộ.
 
 **Điểm mạnh:** tích hợp hàng đầu thị trường, lập kế hoạch có hướng dẫn nhẹ nhàng
-**Điểm yếu:** khoảng 16–20 đô la/tháng, không có gói miễn phí ngoài bản dùng thử
-**Giá:** chỉ có gói trả phí
+**Điểm yếu:** $22/tháng nếu thanh toán theo tháng hoặc $17/tháng nếu thanh toán theo năm, không có gói miễn phí
+**Giá:** chỉ có gói trả phí, kèm 14 ngày dùng thử miễn phí
 
-### 3. Motion — tốt nhất cho tự động lập lịch bằng AI (Web, di động)
+### 3. Motion — tốt nhất cho tự động lập lịch bằng AI (web, desktop, di động)
 
 Motion đảo ngược mô hình: bạn cung cấp nhiệm vụ và deadline, AI của nó sẽ tự động lên lịch cho ngày của bạn, lên lịch lại khi cuộc họp thay đổi. Mạnh mẽ đối với những lịch trình hỗn loạn, nhưng bạn phải từ bỏ hành động lập kế hoạch có chủ đích — vốn là một nửa ý nghĩa của timeboxing đối với nhiều người.
 
 **Điểm mạnh:** tự động lên lịch lại, mạnh cho những tuần dày đặc cuộc họp
 **Điểm yếu:** đắt, kém chủ động hơn so với timeboxing thủ công
-**Giá:** gói trả phí cao cấp, khoảng 30 đô la/tháng thanh toán theo tháng
+**Giá:** không có gói miễn phí; trang giá liệt kê Pro AI giá $19 và Business AI giá $29 mỗi người dùng mỗi tháng, kèm dùng thử miễn phí
 
 ### 4. TickTick — danh sách công việc tốt nhất có gắn thêm timeboxing (mọi nền tảng)
 
@@ -2792,23 +2794,23 @@ TickTick chủ yếu là một trình quản lý nhiệm vụ, nhưng chế đ�
 
 **Điểm mạnh:** quản lý nhiệm vụ xuất sắc, gói cao cấp giá phải chăng, có mặt trên mọi nền tảng
 **Điểm yếu:** timeboxing chỉ là tính năng phụ; không có nghi thức lập kế hoạch hay vòng lặp đánh giá
-**Giá:** gói miễn phí ổn; gói cao cấp khoảng 36 đô la/năm
+**Giá:** gói miễn phí (tối đa 9 danh sách, mỗi danh sách 99 nhiệm vụ); Premium $49.99/năm
 
-### 5. Structured — đơn giản trực quan tốt nhất (iOS, Android, Mac, Watch, Web)
+### 5. Structured — đơn giản trực quan tốt nhất (iPhone, Android, Apple Watch, web)
 
 Structured biến ngày của bạn thành một dòng thời gian dọc gọn gàng và được yêu thích vì đường cong học tập nhẹ nhàng. Tuyệt vời cho học sinh, sinh viên và những người tư duy trực quan; kém hoàn thiện hơn khi bạn muốn có thống kê hoặc tính năng thực thi.
 
-**Điểm mạnh:** dòng thời gian đẹp mắt, dễ bắt đầu, có tùy chọn giá thân thiện trả một lần
+**Điểm mạnh:** dòng thời gian đẹp mắt, dễ bắt đầu, chạy trên điện thoại và máy tính
 **Điểm yếu:** phân tích còn hạn chế, không có tính năng chặn ứng dụng
-**Giá:** gói miễn phí; gói Pro trả phí định kỳ hoặc trọn đời
+**Giá:** bắt đầu miễn phí; Pro là bản nâng cấp trả phí (giá cho nước bạn hiển thị trong cửa hàng ứng dụng)
 
-### 6. Tiimo — tốt nhất cho ADHD và người có thần kinh khác biệt (iOS, Android, Mac, Watch)
+### 6. Tiimo — tốt nhất cho ADHD và người có thần kinh khác biệt (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo được thiết kế cùng với và dành cho người dùng có thần kinh khác biệt: lịch trình trực quan, thói quen dựa trên biểu tượng, và cảnh báo chuyển tiếp nhẹ nhàng thay vì những cờ báo quá hạn gây cảm giác tội lỗi. Nếu các ứng dụng lập kế hoạch thông thường liên tục khiến bạn thất bại, hãy bắt đầu ở đây hoặc với chế độ tập trung của Chrobox.
+Tiimo được tạo ra bởi và dành cho người có thần kinh khác biệt: dòng thời gian trực quan, thói quen, check-in tâm trạng, và bộ hẹn giờ tập trung giúp việc chuyển đổi dễ dàng hơn, thay vì những cờ báo quá hạn gây cảm giác tội lỗi. Nếu các ứng dụng lập kế hoạch thông thường liên tục khiến bạn thất bại, hãy bắt đầu ở đây hoặc với chế độ tập trung của Chrobox.
 
 **Điểm mạnh:** thiết kế thực sự hòa nhập, trực quan hóa thói quen
 **Điểm yếu:** phân tích năng suất kiểu cổ điển còn nhẹ
-**Giá:** có gói miễn phí giới hạn; Pro theo năm kèm 7 ngày dùng thử (theo tháng không có dùng thử)
+**Giá:** có gói miễn phí với một số công cụ lập kế hoạch chọn lọc (chỉ ứng dụng di động); Pro theo năm kèm 7 ngày dùng thử miễn phí (theo tháng không có dùng thử)
 
 ### 7. Google Calendar — lựa chọn miễn phí tốt nhất mà bạn đã có sẵn (mọi nền tảng)
 
@@ -2820,22 +2822,22 @@ Timeboxing thủ công trong Google Calendar vẫn hiệu quả: tạo khối, �
 
 ### 8. Todoist — tốt nhất cho người dùng GTD muốn thêm time block (mọi nền tảng)
 
-Chế độ xem lịch của Todoist và đồng bộ hai chiều với Google Calendar cho phép những tín đồ checklist thử nghiệm time blocking mà không cần rời khỏi trình quản lý nhiệm vụ của họ. Giống như TickTick, lớp timeboxing khá mỏng — nhưng hệ thống nhiệm vụ nền tảng có thể nói là tốt nhất trong phân khúc.
+Todoist hiển thị các sự kiện Google Calendar hoặc Outlook Calendar của bạn bên cạnh nhiệm vụ trong các chế độ xem “Hôm nay” và “Sắp tới”, và các nhiệm vụ liên kết với sự kiện lịch được đồng bộ hai chiều, nên những tín đồ checklist có thể thử nghiệm time blocking mà không cần rời khỏi trình quản lý nhiệm vụ của họ. Giống như TickTick, lớp timeboxing khá mỏng — nhưng hệ thống nhiệm vụ nền tảng có thể nói là tốt nhất trong phân khúc.
 
 **Điểm mạnh:** bắt và tổ chức nhiệm vụ đẳng cấp thế giới
 **Điểm yếu:** timeboxing chỉ là tính năng bổ sung, không phải vòng lặp cốt lõi
-**Giá:** gói miễn phí; Pro khoảng 4–5 đô la/tháng
+**Giá:** gói Beginner miễn phí; Pro $5/tháng nếu thanh toán theo năm ($60) hoặc $7 nếu thanh toán theo tháng
 
 ## Bảng so sánh
 
 | Ứng dụng | Vòng lặp cốt lõi | Chặn ứng dụng | Đánh giá/hồi tưởng | Gói miễn phí | Nền tảng |
 |---|---|---|---|---|---|
 | Chrobox | Timeboxing đầy đủ | ✅ | ✅ Hồi tưởng AI | Miễn phí + Pro (dùng thử 3 ngày) | iOS, Android |
-| Sunsama | Lập kế hoạch hàng ngày | ❌ | ✅ nghi thức kết ngày | chỉ dùng thử | Web, desktop, di động |
-| Motion | Lập lịch bằng AI | ❌ | ❌ | chỉ dùng thử | Web, di động |
+| Sunsama | Lập kế hoạch hàng ngày | ❌ | ✅ nghi thức kết ngày | chỉ dùng thử 14 ngày | Desktop, iPhone, Android |
+| Motion | Lập lịch bằng AI | ❌ | ❌ | chỉ dùng thử | Web, desktop, di động |
 | TickTick | Danh sách nhiệm vụ + dòng thời gian | ❌ | ❌ | ✅ | Mọi nền tảng |
-| Structured | Dòng thời gian trực quan | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Lịch trình trực quan | ❌ | ✅ tâm trạng/đánh giá | Miễn phí giới hạn | iOS, Android, Mac, Watch |
+| Structured | Dòng thời gian trực quan | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, Web |
+| Tiimo | Lịch trình trực quan | ❌ | ✅ tâm trạng/đánh giá | Miễn phí giới hạn (di động) | iPhone, iPad, Android, Mac, Apple Watch, Web |
 | Google Calendar | Khối thủ công | ❌ | ❌ | ✅ | Mọi nền tảng |
 | Todoist | Nhiệm vụ + lịch | ❌ | ❌ | ✅ | Mọi nền tảng |
 

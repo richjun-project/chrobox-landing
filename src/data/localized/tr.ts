@@ -2744,9 +2744,11 @@ Bir derin çalışma bloğunun amacı iki saat masada oturmak değildir; belirli
 Chrobox, derin çalışma bloklarınızı gününüzdeki diğer tüm taahhütlerin yanında görünür kılar. Görsel zaman günlüğü, sadece masanızda olduğunuzu değil, planladığınız derin çalışmanın gerçekten gerçekleştiğini doğrulamanızı sağlar. Zamanla bu veriler, size en iyi işinizi üreten planlama örüntülerini bulmanıza yardımcı olur.
 
 Derin saatlerinizi koruyun. Gerisi bekleyebilir.`,
-    'best-time-boxing-apps': `## Bu Karşılaştırmaya Neden Güvenmelisiniz?
+    'best-time-boxing-apps': `Kısa cevap: planlama, odak ve gözden geçirme döngüsünün tamamı telefonunuzda olsun istiyorsanız Chrobox; e-posta, Slack ve proje araçlarındaki işleri günlük bir plana çekmek için Sunsama; görevleri yapay zekânın takviminize yerleştirmesi için Motion; zaman çizelgeli bir yapılacaklar listesi için TickTick veya Todoist; en sade görsel gün için Structured; DEHB dostu görsel rutinler için Tiimo; hiçbir şey harcamak istemiyorsanız Google Takvim.
 
-Chrobox'u biz geliştiriyoruz, bir time-boxing uygulaması — yani evet, bu listede o da var. Ama yalnızca kendi ürününü öven bir karşılaştırma size hiçbir fayda sağlamaz. Aşağıda her uygulama aynı beş kritere göre değerlendirilmiştir; her birinin diğerlerini nerede geçtiğine dair dürüst notlarla birlikte — rakiplerin Chrobox'u geçtiği noktalar da dahil.
+## Bu Karşılaştırmaya Neden Güvenmelisiniz?
+
+Chrobox'u biz geliştiriyoruz, bir time-boxing uygulaması — yani evet, bu listede o da var. Ama yalnızca kendi ürününü öven bir karşılaştırma size hiçbir fayda sağlamaz. Aşağıda her uygulama aynı beş kritere göre değerlendirilmiştir; her birinin diğerlerini nerede geçtiğine dair dürüst notlarla birlikte — rakiplerin Chrobox'u geçtiği noktalar da dahil. Fiyatlar, 14 Kasım 2026 tarihinde her şirketin kendi fiyatlandırma sayfasından veya mağaza sayfasından ABD doları cinsinden kontrol edildi. Ülkenizdeki App Store veya Google Play fiyatları farklı olabilir, şirketler de fiyatları değiştirir; bu yüzden ödeme yapmadan önce kontrol edin.
 
 ## Harika Bir Time-Boxing Uygulamasını Ne Yapar?
 
@@ -2766,21 +2768,21 @@ Chrobox, ekstra özellikli bir takvim yerine tam time-boxing döngüsü etrafın
 **Zayıf yönleri:** yalnızca mobil (masaüstü uygulaması yok), takım özellikleri yok
 **Fiyatlandırma:** ücretsiz plan; Pro (3 günlük ücretsiz deneme) uygulama engelleme, widget'lar ve AI ekler — abonelik veya tek seferlik ömür boyu satın alma
 
-### 2. Sunsama — takvim yoğun profesyoneller için en iyisi (Web, masaüstü, mobil)
+### 2. Sunsama — takvim yoğun profesyoneller için en iyisi (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama, Gmail, Slack, Trello ve Asana'dan görevleri çekip takviminize sürükleyebileceğiniz günlük bir plana dönüştürmede parlıyor. Rehberli günlük planlama ritüeli mükemmel. Bunun bedeli fiyat; işvereninin ödediği profesyoneller için konumlandırılmış.
+Sunsama, Gmail, Slack, Trello, Asana ve diğer iş araçlarından görevleri çekip takviminize sürükleyebileceğiniz günlük bir plana dönüştürmede parlıyor. Rehberli günlük planlama ritüeli ve gün sonu kapanışı mükemmel. Bunun bedeli fiyat; işvereninin ödediği profesyoneller için konumlandırılmış.
 
 **Güçlü yönleri:** sınıfının en iyisi entegrasyonlar, sakin rehberli planlama
-**Zayıf yönleri:** ayda yaklaşık 16-20 dolar, deneme dışında ücretsiz plan yok
-**Fiyatlandırma:** yalnızca abonelik
+**Zayıf yönleri:** aylık faturalandırmada ayda $22 veya yıllık faturalandırmada ayda $17, ücretsiz plan yok
+**Fiyatlandırma:** yalnızca abonelik, 14 günlük ücretsiz deneme ile
 
-### 3. Motion — AI otomatik planlama için en iyisi (Web, mobil)
+### 3. Motion — AI otomatik planlama için en iyisi (web, masaüstü, mobil)
 
 Motion modeli tersine çevirir: ona görevler ve son tarihler verirsiniz, AI gününüzü otomatik olarak planlar, toplantılar değiştiğinde yeniden düzenler. Kaotik takvimler için güçlüdür ama birçok kişi için time-boxing'in amacının yarısı olan bilinçli planlama eylemini bırakmanız gerekir.
 
 **Güçlü yönleri:** otomatik yeniden planlama, toplantı yoğun haftalarda güçlü
 **Zayıf yönleri:** pahalı, manuel time-boxing'den daha az bilinçli
-**Fiyatlandırma:** premium abonelik, aylık faturalandırmada ayda yaklaşık 30 dolar
+**Fiyatlandırma:** ücretsiz plan yok; fiyatlandırma sayfasında Pro AI kullanıcı başına ayda $19, Business AI ayda $29 olarak listeleniyor, ücretsiz deneme var
 
 ### 4. TickTick — üzerine time-boxing eklenmiş en iyi yapılacaklar listesi (tüm platformlar)
 
@@ -2788,23 +2790,23 @@ TickTick öncelikle bir görev yöneticisidir ama zaman tüneli görünümü ve 
 
 **Güçlü yönleri:** mükemmel görev yönetimi, uygun fiyatlı premium, her platform
 **Zayıf yönleri:** time-boxing ikincil; planlama ritüeli veya inceleme döngüsü yok
-**Fiyatlandırma:** sağlam ücretsiz plan; premium yılda yaklaşık 36 dolar
+**Fiyatlandırma:** ücretsiz plan (her biri 99 görevlik en fazla 9 liste); Premium yılda $49.99
 
-### 5. Structured — en iyi görsel sadelik (iOS, Android, Mac, Watch, Web)
+### 5. Structured — en iyi görsel sadelik (iPhone, Android, Apple Watch, web)
 
 Structured, gününüzü temiz bir dikey zaman tüneline dönüştürür ve yumuşak öğrenme eğrisiyle sevilir. Öğrenciler ve görsel düşünenler için harika; istatistik veya zorlama istediğinizde daha az eksiksiz.
 
-**Güçlü yönleri:** güzel zaman tüneli, kolay başlangıç, tek seferlik ödeme dostu fiyatlandırma seçenekleri
+**Güçlü yönleri:** güzel zaman tüneli, kolay başlangıç, telefonda ve bilgisayarda çalışır
 **Zayıf yönleri:** analitik açısından zayıf, uygulama engelleme yok
-**Fiyatlandırma:** ücretsiz plan; Pro abonelik veya ömür boyu
+**Fiyatlandırma:** ücretsiz başlanır; Pro ücretli bir yükseltmedir (ülkenizdeki fiyat uygulama mağazasında gösterilir)
 
-### 6. Tiimo — DEHB ve nörodiverjan planlayıcılar için en iyisi (iOS, Android, Mac, Watch)
+### 6. Tiimo — DEHB ve nörodiverjan planlayıcılar için en iyisi (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo, nörodiverjan kullanıcılarla ve onlar için tasarlandı: görsel programlar, ikon tabanlı rutinler ve suçluluk uyandıran gecikme işaretleri yerine nazik geçiş uyarıları. Geleneksel planlayıcılar sizi tekrar tekrar hayal kırıklığına uğrattıysa, buradan veya Chrobox'un odak modundan başlayın.
+Tiimo, nörodiverjan insanlar tarafından ve onlar için geliştirildi: görsel bir zaman tüneli, rutinler, ruh hali check-in'leri ve suçluluk uyandıran gecikme işaretleri yerine geçişleri kolaylaştırmayı amaçlayan bir odak zamanlayıcısı. Geleneksel planlayıcılar sizi tekrar tekrar hayal kırıklığına uğrattıysa, buradan veya Chrobox'un odak modundan başlayın.
 
 **Güçlü yönleri:** gerçekten kapsayıcı tasarım, rutin görselleştirme
 **Zayıf yönleri:** klasik üretkenlik analitiğinde daha hafif
-**Fiyatlandırma:** sınırlı ücretsiz katman; Pro yıllık planda 7 günlük deneme var (aylıkta deneme yok)
+**Fiyatlandırma:** seçili planlama araçlarıyla ücretsiz katman (yalnızca mobil uygulamalar); Pro yıllık planda 7 günlük ücretsiz deneme var (aylıkta deneme yok)
 
 ### 7. Google Takvim — zaten sahip olduğunuz en iyi ücretsiz seçenek (tüm platformlar)
 
@@ -2816,22 +2818,22 @@ Google Takvim'de manuel time-boxing işe yarar: bloklar oluşturun, renk kodlay�
 
 ### 8. Todoist — zaman blokları ekleyen GTD kullanıcıları için en iyisi (tüm platformlar)
 
-Todoist'in takvim görünümü ve Google Takvim ile çift yönlü senkronizasyonu, kontrol listesi tutkunlarının görev yöneticilerinden ayrılmadan zaman bloklama denemesi yapmasını sağlar. TickTick gibi, time-boxing katmanı ince kalır — ama altındaki görev sistemi muhtemelen sınıfının en iyisidir.
+Todoist, Google veya Outlook Takvim etkinliklerinizi “Bugün” ve “Yaklaşan” görünümlerinde görevlerinizin yanında gösterir ve takvim etkinliklerine bağlı görevler çift yönlü senkronize olur; böylece kontrol listesi tutkunları görev yöneticilerinden ayrılmadan zaman bloklama denemesi yapabilir. TickTick gibi, time-boxing katmanı ince kalır — ama altındaki görev sistemi muhtemelen sınıfının en iyisidir.
 
 **Güçlü yönleri:** dünya standartlarında görev yakalama ve organizasyon
 **Zayıf yönleri:** time-boxing bir ek özelliktir, ana döngü değil
-**Fiyatlandırma:** ücretsiz plan; Pro ayda yaklaşık 4-5 dolar
+**Fiyatlandırma:** ücretsiz Beginner planı; Pro yıllık faturalandırmada ayda $5 (yılda $60) veya aylık faturalandırmada $7
 
 ## Karşılaştırma Tablosu
 
 | Uygulama | Ana döngü | Uygulama engelleme | İnceleme/retrospektif | Ücretsiz plan | Platformlar |
 |---|---|---|---|---|---|
 | Chrobox | Tam time-boxing | ✅ | ✅ AI retrospektifi | Ücretsiz + Pro (3 günlük deneme) | iOS, Android |
-| Sunsama | Günlük planlama | ❌ | ✅ kapanış ritüeli | yalnızca deneme | Web, masaüstü, mobil |
-| Motion | AI planlama | ❌ | ❌ | yalnızca deneme | Web, mobil |
+| Sunsama | Günlük planlama | ❌ | ✅ kapanış ritüeli | yalnızca 14 günlük deneme | Masaüstü, iPhone, Android |
+| Motion | AI planlama | ❌ | ❌ | yalnızca deneme | Web, masaüstü, mobil |
 | TickTick | Görev listesi + zaman tüneli | ❌ | ❌ | ✅ | Tümü |
-| Structured | Görsel zaman tüneli | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Görsel rutinler | ❌ | ✅ ruh hali/değerlendirme | Sınırlı ücretsiz | iOS, Android, Mac, Watch |
+| Structured | Görsel zaman tüneli | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, Web |
+| Tiimo | Görsel rutinler | ❌ | ✅ ruh hali/değerlendirme | Sınırlı ücretsiz (mobil) | iPhone, iPad, Android, Mac, Apple Watch, Web |
 | Google Takvim | Manuel bloklar | ❌ | ❌ | ✅ | Tümü |
 | Todoist | Görevler + takvim | ❌ | ❌ | ✅ | Tümü |
 

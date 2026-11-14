@@ -2748,9 +2748,11 @@ Chrobox maakt deep-workblokken zichtbaar naast alle andere afspraken in je dag. 
 
 Bescherm je deep-workuren. De rest kan wachten.
 `,
-    'best-time-boxing-apps': `## Waarom kun je deze vergelijking vertrouwen?
+    'best-time-boxing-apps': `Kort gezegd: voor de hele lus van plan, focus en terugblik op je telefoon Chrobox; om werk uit e-mail, Slack en projecttools in een dagplan te halen Sunsama; om AI taken in je agenda te laten plaatsen Motion; voor een takenlijst met tijdlijn TickTick of Todoist; voor de eenvoudigste visuele dag Structured; voor ADHD-vriendelijke visuele routines Tiimo; en om niets uit te geven Google Calendar.
 
-Wij bouwen Chrobox, een time-boxing-app — dus ja, die staat op deze lijst. Maar een vergelijking die alleen het eigen product prijst, heeft voor jou geen waarde. Hieronder wordt elke app op dezelfde vijf criteria beoordeeld, met eerlijke opmerkingen over waar elke app de andere verslaat, inclusief waar concurrenten Chrobox verslaan.
+## Waarom kun je deze vergelijking vertrouwen?
+
+Wij bouwen Chrobox, een time-boxing-app — dus ja, die staat op deze lijst. Maar een vergelijking die alleen het eigen product prijst, heeft voor jou geen waarde. Hieronder wordt elke app op dezelfde vijf criteria beoordeeld, met eerlijke opmerkingen over waar elke app de andere verslaat, inclusief waar concurrenten Chrobox verslaan. De prijzen zijn op 14 november 2026 gecontroleerd op de eigen prijspagina of winkelvermelding van elk bedrijf, in Amerikaanse dollars. Prijzen in de App Store of Google Play van jouw land kunnen afwijken, en bedrijven passen ze aan, dus controleer ze voordat je betaalt.
 
 ## Wat maakt een time-boxing-app geweldig?
 
@@ -2770,21 +2772,21 @@ Chrobox is gebouwd rond de volledige time-boxingcyclus in plaats van rond een ag
 **Zwakke punten:** alleen mobiel (geen desktop-app), geen teamfuncties
 **Prijs:** gratis plan; Pro (gratis proefperiode van 3 dagen) voegt app-blokkering, widgets en AI toe — abonnement of eenmalige lifetime-aankoop
 
-### 2. Sunsama — beste voor professionals met een volle agenda (web, desktop, mobiel)
+### 2. Sunsama — beste voor professionals met een volle agenda (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama blinkt uit in het ophalen van taken uit Gmail, Slack, Trello en Asana naar een dagplan dat je in je agenda sleept. Het begeleide dagelijkse planningsritueel is uitstekend. De keerzijde is de prijs — de app richt zich op professionals van wie de werkgever betaalt.
+Sunsama blinkt uit in het ophalen van taken uit Gmail, Slack, Trello, Asana en andere werktools naar een dagplan dat je in je agenda sleept. Het begeleide dagelijkse planningsritueel en de afsluiting aan het eind van de dag zijn uitstekend. De keerzijde is de prijs — de app richt zich op professionals van wie de werkgever betaalt.
 
 **Sterke punten:** beste integraties in zijn klasse, rustige begeleide planning
-**Zwakke punten:** ongeveer $16–20/maand, geen gratis versie buiten de proefperiode
-**Prijs:** alleen abonnement
+**Zwakke punten:** $22/maand bij maandelijkse betaling of $17/maand bij jaarlijkse betaling, geen gratis versie
+**Prijs:** alleen abonnement, met een gratis proefperiode van 14 dagen
 
-### 3. Motion — beste voor AI-automatisch plannen (web, mobiel)
+### 3. Motion — beste voor AI-automatisch plannen (web, desktop, mobiel)
 
 Motion draait het model om: jij voert taken en deadlines in en de AI plant je dag automatisch, en plant opnieuw als vergaderingen verschuiven. Krachtig bij een chaotische agenda, maar je geeft de bewuste handeling van plannen op — voor veel mensen juist de helft van de kracht van time-boxing.
 
 **Sterke punten:** automatisch herplannen, sterk in weken vol vergaderingen
 **Zwakke punten:** duur, minder bewust dan handmatig time-boxen
-**Prijs:** premium abonnement, ongeveer $30/maand bij maandelijkse betaling
+**Prijs:** geen gratis versie; de prijspagina noemt Pro AI voor $19 en Business AI voor $29 per gebruiker per maand, met een gratis proefperiode
 
 ### 4. TickTick — beste takenlijst met time-boxing als extra (alle platforms)
 
@@ -2792,23 +2794,23 @@ TickTick is in de eerste plaats een takenbeheerder, maar de tijdlijnweergave en 
 
 **Sterke punten:** uitstekend takenbeheer, betaalbare premiumversie, alle platforms
 **Zwakke punten:** time-boxing is bijzaak; geen planningsritueel of terugblikcyclus
-**Prijs:** solide gratis versie; premium ongeveer $36/jaar
+**Prijs:** gratis versie (tot 9 lijsten met elk 99 taken); Premium $49.99/jaar
 
-### 5. Structured — beste visuele eenvoud (iOS, Android, Mac, Watch, Web)
+### 5. Structured — beste visuele eenvoud (iPhone, Android, Apple Watch, web)
 
 Structured maakt van je dag een overzichtelijke verticale tijdlijn en wordt gewaardeerd om de zachte leercurve. Geweldig voor studenten en visuele denkers; minder compleet als je statistieken of afdwinging wilt.
 
-**Sterke punten:** mooie tijdlijn, makkelijk te starten, prijsopties met eenmalige betaling
+**Sterke punten:** mooie tijdlijn, makkelijk te starten, werkt op telefoon en computer
 **Zwakke punten:** weinig analyses, geen appblokkering
-**Prijs:** gratis versie; Pro-abonnement of lifetime
+**Prijs:** gratis om mee te beginnen; Pro is een betaalde upgrade (de prijs voor jouw land staat in de app store)
 
-### 6. Tiimo — beste voor planners met ADHD en neurodivergentie (iOS, Android, Mac, Watch)
+### 6. Tiimo — beste voor planners met ADHD en neurodivergentie (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo is ontworpen met en voor neurodivergente gebruikers: visuele schema's, routines op basis van iconen en zachte overgangsmeldingen in plaats van schuldgevoel oproepende vlaggen voor achterstallige taken. Als gewone planners je herhaaldelijk hebben teleurgesteld, begin dan hier of met de focusmodus van Chrobox.
+Tiimo is gebouwd door en voor neurodivergente mensen: een visuele tijdlijn, routines, stemmingscheck-ins en een focustimer die overgangen makkelijker moet maken, in plaats van schuldgevoel oproepende vlaggen voor achterstallige taken. Als gewone planners je herhaaldelijk hebben teleurgesteld, begin dan hier of met de focusmodus van Chrobox.
 
 **Sterke punten:** echt inclusief ontwerp, routinevisualisatie
 **Zwakke punten:** minder klassieke productiviteitsanalyses
-**Prijs:** beperkt gratis niveau; Pro jaarlijks inclusief proefperiode van 7 dagen (maandelijks geen proefperiode)
+**Prijs:** gratis niveau met geselecteerde planningstools (alleen in de mobiele apps); Pro jaarlijks inclusief gratis proefperiode van 7 dagen (maandelijks geen proefperiode)
 
 ### 7. Google Calendar — beste gratis optie die je al hebt (alle platforms)
 
@@ -2820,22 +2822,22 @@ Handmatig time-boxen in Google Calendar werkt: maak blokken, geef ze kleuren, st
 
 ### 8. Todoist — beste voor GTD-gebruikers die tijdblokken toevoegen (alle platforms)
 
-Met de agendaweergave van Todoist en de tweerichtingssynchronisatie met Google Calendar kunnen checklistfans experimenteren met time-blocking zonder hun takenbeheerder te verlaten. Net als bij TickTick is de time-boxinglaag dun — maar het onderliggende takensysteem is aantoonbaar het beste in zijn klasse.
+Todoist toont je afspraken uit Google Calendar of Outlook naast je taken in de weergaven “Vandaag” en “Binnenkort”, en taken die aan agenda-afspraken zijn gekoppeld worden in beide richtingen gesynchroniseerd, zodat checklistfans kunnen experimenteren met time-blocking zonder hun takenbeheerder te verlaten. Net als bij TickTick is de time-boxinglaag dun — maar het onderliggende takensysteem is aantoonbaar het beste in zijn klasse.
 
 **Sterke punten:** taken vastleggen en organiseren van wereldklasse
 **Zwakke punten:** time-boxing is een extra, niet de kerncyclus
-**Prijs:** gratis versie; Pro ongeveer $4–5/maand
+**Prijs:** gratis Beginner-versie; Pro $5/maand bij jaarlijkse betaling ($60) of $7 bij maandelijkse betaling
 
 ## Vergelijkingstabel
 
 | App | Kerncyclus | Appblokkering | Terugblik/retrospectief | Gratis versie | Platforms |
 |---|---|---|---|---|---|
 | Chrobox | Volledige time-boxing | ✅ | ✅ AI-terugblik | Gratis + Pro (proefperiode van 3 dagen) | iOS, Android |
-| Sunsama | Dagplanning | ❌ | ✅ afsluitritueel | alleen proefperiode | Web, desktop, mobiel |
-| Motion | AI-planning | ❌ | ❌ | alleen proefperiode | Web, mobiel |
+| Sunsama | Dagplanning | ❌ | ✅ afsluitritueel | alleen proefperiode van 14 dagen | Desktop, iPhone, Android |
+| Motion | AI-planning | ❌ | ❌ | alleen proefperiode | Web, desktop, mobiel |
 | TickTick | Takenlijst + tijdlijn | ❌ | ❌ | ✅ | Alle |
-| Structured | Visuele tijdlijn | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Visuele routines | ❌ | ✅ stemming/reflectie | Beperkt gratis | iOS, Android, Mac, Watch |
+| Structured | Visuele tijdlijn | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, Web |
+| Tiimo | Visuele routines | ❌ | ✅ stemming/reflectie | Beperkt gratis (mobiel) | iPhone, iPad, Android, Mac, Apple Watch, Web |
 | Google Calendar | Handmatige blokken | ❌ | ❌ | ✅ | Alle |
 | Todoist | Taken + agenda | ❌ | ❌ | ✅ | Alle |
 

@@ -2794,11 +2794,13 @@ None of these seven steps require quitting your phone or your favorite apps enti
 
 ## 8 Best Timeboxing Apps in 2026: Honest Comparison Guide
 
-Source: https://chrobox.net/blog/best-time-boxing-apps · Updated: 2026-09-30
+Source: https://chrobox.net/blog/best-time-boxing-apps · Updated: 2026-11-14
+
+Short answer: for the whole plan, focus and review loop on your phone, Chrobox; for pulling work from email, Slack and project tools into a daily plan, Sunsama; for letting AI place tasks on your calendar, Motion; for a to-do list with a timeline, TickTick or Todoist; for the simplest visual day, Structured; for ADHD-friendly visual routines, Tiimo; and for spending nothing, Google Calendar.
 
 ### Why Trust This Comparison?
 
-We build Chrobox, a timeboxing app — so yes, it appears on this list. But a comparison that only praises its own product is useless to you. Below, every app is evaluated on the same five criteria, with honest notes on where each one beats the others, including where competitors beat Chrobox.
+We build Chrobox, a timeboxing app — so yes, it appears on this list. But a comparison that only praises its own product is useless to you. Below, every app is evaluated on the same five criteria, with honest notes on where each one beats the others, including where competitors beat Chrobox. Prices were checked on each company's own pricing page or store listing on November 14, 2026, in US dollars. Prices in your country's App Store or Google Play can differ, and companies change them, so check before you pay.
 
 ### What Makes a Great Timeboxing App?
 
@@ -2818,21 +2820,21 @@ Chrobox is built around the full timeboxing loop rather than a calendar with ext
 **Weaknesses:** mobile-only (no desktop app), no team features
 **Pricing:** free plan; Pro (3-day free trial) adds app blocking, widgets, and AI — subscription or one-time lifetime purchase
 
-#### 2. Sunsama — best for calendar-heavy professionals (Web, desktop, mobile)
+#### 2. Sunsama — best for calendar-heavy professionals (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama shines at pulling tasks from Gmail, Slack, Trello, and Asana into a daily plan you drag onto your calendar. Its guided daily planning ritual is excellent. The trade-off is price — it's positioned for professionals whose employer pays.
+Sunsama shines at pulling tasks from Gmail, Slack, Trello, Asana and other work tools into a daily plan you drag onto your calendar. Its guided daily planning ritual and end-of-day shutdown are excellent. The trade-off is price — it's positioned for professionals whose employer pays.
 
 **Strengths:** best-in-class integrations, calm guided planning
-**Weaknesses:** roughly $16–20/month, no free tier beyond trial
-**Pricing:** subscription only
+**Weaknesses:** $22/month billed monthly or $17/month billed yearly, no free plan
+**Pricing:** subscription only, with a 14-day free trial
 
-#### 3. Motion — best for AI auto-scheduling (Web, mobile)
+#### 3. Motion — best for AI auto-scheduling (web, desktop, mobile)
 
 Motion flips the model: you feed it tasks and deadlines, and its AI schedules your day automatically, rescheduling when meetings move. Powerful for chaotic calendars, but you give up the deliberate act of planning — which is half the point of timeboxing for many people.
 
 **Strengths:** automatic rescheduling, strong for meeting-heavy weeks
 **Weaknesses:** expensive, less intentional than manual timeboxing
-**Pricing:** premium subscription, around $30/month billed monthly
+**Pricing:** no free plan; the pricing page lists Pro AI at $19 and Business AI at $29 per seat per month, with a free trial
 
 #### 4. TickTick — best to-do list with timeboxing bolted on (all platforms)
 
@@ -2840,23 +2842,23 @@ TickTick is primarily a task manager, but its timeline view and built-in Pomodor
 
 **Strengths:** excellent task management, affordable premium, every platform
 **Weaknesses:** timeboxing is secondary; no planning ritual or review loop
-**Pricing:** solid free tier; premium around $36/year
+**Pricing:** free plan (up to 9 lists of 99 tasks each); Premium $49.99/year
 
-#### 5. Structured — best visual simplicity (iOS, Android, Mac, Watch, Web)
+#### 5. Structured — best visual simplicity (iPhone, Android, Apple Watch, web)
 
 Structured turns your day into a clean vertical timeline and is beloved for its gentle learning curve. Great for students and visual thinkers; less complete when you want statistics or enforcement.
 
-**Strengths:** beautiful timeline, easy start, one-time-friendly pricing options
+**Strengths:** beautiful timeline, easy start, works on phone and computer
 **Weaknesses:** light on analytics, no app blocking
-**Pricing:** free tier; Pro subscription or lifetime
+**Pricing:** free to start; Pro is a paid upgrade (the price for your country is shown in the app store)
 
-#### 6. Tiimo — best for ADHD and neurodivergent planners (iOS, Android, Mac, Watch)
+#### 6. Tiimo — best for ADHD and neurodivergent planners (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo was designed with and for neurodivergent users: visual schedules, icon-based routines, and gentle transition alerts instead of guilt-inducing overdue flags. If conventional planners have repeatedly failed you, start here or with Chrobox's focus mode.
+Tiimo was built by and for neurodivergent people: a visual timeline, routines, mood check-ins, and a focus timer meant to make transitions easier, instead of guilt-inducing overdue flags. If conventional planners have repeatedly failed you, start here or with Chrobox's focus mode.
 
 **Strengths:** genuinely inclusive design, routine visualization
 **Weaknesses:** lighter on classic productivity analytics
-**Pricing:** limited free tier; Pro yearly includes a 7-day trial (monthly has no trial)
+**Pricing:** free tier with selected planning tools (mobile apps only); Pro yearly includes a 7-day free trial (monthly has no trial)
 
 #### 7. Google Calendar — best free option you already have (all platforms)
 
@@ -2868,22 +2870,22 @@ Manual timeboxing in Google Calendar works: create blocks, color-code them, set 
 
 #### 8. Todoist — best for GTD users adding time blocks (all platforms)
 
-Todoist's calendar view and Google Calendar two-way sync let checklist devotees experiment with time blocking without leaving their task manager. Like TickTick, the timeboxing layer is thin — but the underlying task system is arguably the best in class.
+Todoist shows your Google or Outlook Calendar events next to your tasks in its Today and Upcoming views, and tasks linked to calendar events sync both ways, so checklist devotees can experiment with time blocking without leaving their task manager. Like TickTick, the timeboxing layer is thin — but the underlying task system is arguably the best in class.
 
 **Strengths:** world-class task capture and organization
 **Weaknesses:** timeboxing is an add-on, not the core loop
-**Pricing:** free tier; Pro around $4–5/month
+**Pricing:** free Beginner plan; Pro $5/month billed yearly ($60) or $7 billed monthly
 
 ### Comparison Table
 
 | App | Core loop | App blocking | Review/retrospective | Free tier | Platforms |
 |---|---|---|---|---|---|
 | Chrobox | Full timeboxing | ✅ | ✅ AI retrospective | Free + Pro (3-day trial) | iOS, Android |
-| Sunsama | Daily planning | ❌ | ✅ shutdown ritual | trial only | Web, desktop, mobile |
-| Motion | AI scheduling | ❌ | ❌ | trial only | Web, mobile |
+| Sunsama | Daily planning | ❌ | ✅ shutdown ritual | 14-day trial only | Desktop, iPhone, Android |
+| Motion | AI scheduling | ❌ | ❌ | trial only | Web, desktop, mobile |
 | TickTick | Task list + timeline | ❌ | ❌ | ✅ | All |
-| Structured | Visual timeline | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Visual routines | ❌ | ✅ mood/reflection | Limited free | iOS, Android, Mac, Watch |
+| Structured | Visual timeline | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, web |
+| Tiimo | Visual routines | ❌ | ✅ mood/reflection | Limited free (mobile) | iPhone, iPad, Android, Mac, Apple Watch, web |
 | Google Calendar | Manual blocks | ❌ | ❌ | ✅ | All |
 | Todoist | Tasks + calendar | ❌ | ❌ | ✅ | All |
 

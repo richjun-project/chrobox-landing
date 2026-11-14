@@ -2748,9 +2748,11 @@ Chrobox membuat blok deep work terlihat bersama setiap komitmen lain dalam hari 
 
 Lindungi jam-jam berharga Anda. Semua yang lain bisa menunggu.
 `,
-    'best-time-boxing-apps': `## Mengapa Perbandingan Ini Bisa Dipercaya?
+    'best-time-boxing-apps': `Jawaban singkat: untuk seluruh siklus rencana, fokus, dan review di ponsel Anda, Chrobox; untuk menarik pekerjaan dari email, Slack, dan alat proyek ke dalam rencana harian, Sunsama; agar AI menempatkan tugas di kalender Anda, Motion; untuk daftar tugas dengan timeline, TickTick atau Todoist; untuk hari visual yang paling sederhana, Structured; untuk rutinitas visual yang ramah ADHD, Tiimo; dan jika Anda tidak ingin mengeluarkan biaya, Google Calendar.
 
-Kami membangun Chrobox, sebuah aplikasi timeboxing — jadi ya, aplikasi ini muncul di daftar ini. Namun perbandingan yang hanya memuji produknya sendiri tidak berguna bagi Anda. Di bawah ini, setiap aplikasi dinilai berdasarkan lima kriteria yang sama, dengan catatan jujur tentang di mana masing-masing aplikasi mengungguli yang lain, termasuk di mana kompetitor mengungguli Chrobox.
+## Mengapa Perbandingan Ini Bisa Dipercaya?
+
+Kami membangun Chrobox, sebuah aplikasi timeboxing — jadi ya, aplikasi ini muncul di daftar ini. Namun perbandingan yang hanya memuji produknya sendiri tidak berguna bagi Anda. Di bawah ini, setiap aplikasi dinilai berdasarkan lima kriteria yang sama, dengan catatan jujur tentang di mana masing-masing aplikasi mengungguli yang lain, termasuk di mana kompetitor mengungguli Chrobox. Harga diperiksa di halaman harga resmi atau halaman toko masing-masing perusahaan pada 14 November 2026, dalam dolar AS. Harga di App Store atau Google Play negara Anda bisa berbeda, dan perusahaan bisa mengubahnya, jadi periksa dulu sebelum membayar.
 
 ## Apa yang Membuat Aplikasi Timeboxing Hebat?
 
@@ -2770,21 +2772,21 @@ Chrobox dibangun di sekitar loop timeboxing penuh alih-alih kalender dengan fitu
 **Kelemahan:** hanya mobile (tanpa aplikasi desktop), tanpa fitur tim
 **Harga:** paket gratis; Pro (uji coba gratis 3 hari) menambahkan pemblokiran aplikasi, widget, dan AI — langganan atau pembelian seumur hidup satu kali
 
-### 2. Sunsama — terbaik untuk profesional dengan kalender padat (Web, desktop, mobile)
+### 2. Sunsama — terbaik untuk profesional dengan kalender padat (Mac, Windows, Linux, iPhone, Android)
 
-Sunsama unggul dalam menarik tugas dari Gmail, Slack, Trello, dan Asana ke dalam rencana harian yang Anda seret ke kalender Anda. Ritual perencanaan harian terpandunya sangat baik. Trade-off-nya adalah harga — diposisikan untuk profesional yang biayanya ditanggung perusahaan.
+Sunsama unggul dalam menarik tugas dari Gmail, Slack, Trello, Asana, dan alat kerja lainnya ke dalam rencana harian yang Anda seret ke kalender Anda. Ritual perencanaan harian terpandu dan penutupan di akhir hari sangat baik. Trade-off-nya adalah harga — diposisikan untuk profesional yang biayanya ditanggung perusahaan.
 
 **Kekuatan:** integrasi kelas terbaik, perencanaan terpandu yang tenang
-**Kelemahan:** sekitar $16–20/bulan, tanpa tingkat gratis selain uji coba
-**Harga:** hanya langganan
+**Kelemahan:** $22/bulan jika ditagih bulanan atau $17/bulan jika ditagih tahunan, tanpa paket gratis
+**Harga:** hanya langganan, dengan uji coba gratis 14 hari
 
-### 3. Motion — terbaik untuk penjadwalan otomatis AI (Web, mobile)
+### 3. Motion — terbaik untuk penjadwalan otomatis AI (web, desktop, mobile)
 
 Motion membalikkan model tersebut: Anda memasukkan tugas dan tenggat waktu, dan AI-nya menjadwalkan hari Anda secara otomatis, menjadwalkan ulang ketika rapat berpindah. Kuat untuk kalender yang kacau, tetapi Anda melepaskan tindakan perencanaan yang disengaja — yang merupakan setengah dari inti timeboxing bagi banyak orang.
 
 **Kekuatan:** penjadwalan ulang otomatis, kuat untuk minggu yang padat rapat
 **Kelemahan:** mahal, kurang disengaja dibanding timeboxing manual
-**Harga:** langganan premium, sekitar $30/bulan ditagih bulanan
+**Harga:** tanpa paket gratis; halaman harga mencantumkan Pro AI seharga $19 dan Business AI seharga $29 per pengguna per bulan, dengan uji coba gratis
 
 ### 4. TickTick — daftar tugas terbaik dengan timeboxing tambahan (semua platform)
 
@@ -2792,23 +2794,23 @@ TickTick terutama adalah pengelola tugas, tetapi tampilan timeline dan timer Pom
 
 **Kekuatan:** manajemen tugas yang sangat baik, premium terjangkau, semua platform
 **Kelemahan:** timeboxing hanya sekunder; tanpa ritual perencanaan atau loop review
-**Harga:** tingkat gratis yang solid; premium sekitar $36/tahun
+**Harga:** paket gratis (hingga 9 daftar dengan masing-masing 99 tugas); Premium $49.99/tahun
 
-### 5. Structured — kesederhanaan visual terbaik (iOS, Android, Mac, Watch, Web)
+### 5. Structured — kesederhanaan visual terbaik (iPhone, Android, Apple Watch, web)
 
 Structured mengubah hari Anda menjadi timeline vertikal yang bersih dan disukai karena kurva belajarnya yang lembut. Bagus untuk pelajar dan pemikir visual; kurang lengkap jika Anda menginginkan statistik atau penegakan.
 
-**Kekuatan:** timeline yang indah, mudah dimulai, opsi harga yang ramah untuk pembayaran sekali
+**Kekuatan:** timeline yang indah, mudah dimulai, berjalan di ponsel dan komputer
 **Kelemahan:** minim analitik, tanpa pemblokiran aplikasi
-**Harga:** tingkat gratis; langganan Pro atau seumur hidup
+**Harga:** gratis untuk memulai; Pro adalah peningkatan berbayar (harga untuk negara Anda ditampilkan di toko aplikasi)
 
-### 6. Tiimo — terbaik untuk ADHD dan perencana neurodivergen (iOS, Android, Mac, Watch)
+### 6. Tiimo — terbaik untuk ADHD dan perencana neurodivergen (iPhone, iPad, Android, Mac, Apple Watch, web)
 
-Tiimo dirancang bersama dan untuk pengguna neurodivergen: jadwal visual, rutinitas berbasis ikon, dan peringatan transisi lembut alih-alih tanda terlambat yang menimbulkan rasa bersalah. Jika perencana konvensional berulang kali gagal untuk Anda, mulailah di sini atau dengan mode fokus Chrobox.
+Tiimo dibuat oleh dan untuk orang neurodivergen: timeline visual, rutinitas, check-in suasana hati, dan timer fokus yang dimaksudkan untuk memudahkan transisi, alih-alih tanda terlambat yang menimbulkan rasa bersalah. Jika perencana konvensional berulang kali gagal untuk Anda, mulailah di sini atau dengan mode fokus Chrobox.
 
 **Kekuatan:** desain yang benar-benar inklusif, visualisasi rutinitas
 **Kelemahan:** lebih ringan pada analitik produktivitas klasik
-**Harga:** tingkat gratis terbatas; Pro tahunan menyertakan uji coba 7 hari (bulanan tanpa uji coba)
+**Harga:** tingkat gratis dengan alat perencanaan terpilih (hanya aplikasi seluler); Pro tahunan menyertakan uji coba gratis 7 hari (bulanan tanpa uji coba)
 
 ### 7. Google Calendar — opsi gratis terbaik yang sudah Anda miliki (semua platform)
 
@@ -2820,22 +2822,22 @@ Timeboxing manual di Google Calendar berfungsi: buat blok, beri kode warna, atur
 
 ### 8. Todoist — terbaik untuk pengguna GTD yang menambahkan blok waktu (semua platform)
 
-Tampilan kalender Todoist dan sinkronisasi dua arah dengan Google Calendar memungkinkan pecinta checklist bereksperimen dengan time blocking tanpa meninggalkan pengelola tugas mereka. Seperti TickTick, lapisan timeboxing-nya tipis — tetapi sistem tugas yang mendasarinya bisa dibilang terbaik di kelasnya.
+Todoist menampilkan acara Google Calendar atau Outlook Calendar Anda di samping tugas dalam tampilan “Hari Ini” dan “Mendatang”, dan tugas yang terhubung ke acara kalender tersinkronisasi dua arah, sehingga pecinta checklist bisa bereksperimen dengan time blocking tanpa meninggalkan pengelola tugas mereka. Seperti TickTick, lapisan timeboxing-nya tipis — tetapi sistem tugas yang mendasarinya bisa dibilang terbaik di kelasnya.
 
 **Kekuatan:** penangkapan dan pengorganisasian tugas kelas dunia
 **Kelemahan:** timeboxing adalah tambahan, bukan loop inti
-**Harga:** tingkat gratis; Pro sekitar $4–5/bulan
+**Harga:** paket Beginner gratis; Pro $5/bulan jika ditagih tahunan ($60) atau $7 jika ditagih bulanan
 
 ## Tabel Perbandingan
 
 | Aplikasi | Loop inti | Pemblokiran aplikasi | Review/retrospeksi | Tingkat gratis | Platform |
 |---|---|---|---|---|---|
 | Chrobox | Timeboxing penuh | ✅ | ✅ retrospeksi AI | Gratis + Pro (uji coba 3 hari) | iOS, Android |
-| Sunsama | Perencanaan harian | ❌ | ✅ ritual shutdown | hanya uji coba | Web, desktop, mobile |
-| Motion | Penjadwalan AI | ❌ | ❌ | hanya uji coba | Web, mobile |
+| Sunsama | Perencanaan harian | ❌ | ✅ ritual shutdown | hanya uji coba 14 hari | Desktop, iPhone, Android |
+| Motion | Penjadwalan AI | ❌ | ❌ | hanya uji coba | Web, desktop, mobile |
 | TickTick | Daftar tugas + timeline | ❌ | ❌ | ✅ | Semua |
-| Structured | Timeline visual | ❌ | ❌ | ✅ | iOS, Android, Mac, Watch, Web |
-| Tiimo | Rutinitas visual | ❌ | ✅ mood/refleksi | Gratis terbatas | iOS, Android, Mac, Watch |
+| Structured | Timeline visual | ❌ | ❌ | ✅ | iPhone, Android, Apple Watch, Web |
+| Tiimo | Rutinitas visual | ❌ | ✅ mood/refleksi | Gratis terbatas (mobile) | iPhone, iPad, Android, Mac, Apple Watch, Web |
 | Google Calendar | Blok manual | ❌ | ❌ | ✅ | Semua |
 | Todoist | Tugas + kalender | ❌ | ❌ | ✅ | Semua |
 
