@@ -21328,6 +21328,15 @@
   </url>
 
   <url>
+    <loc>https://chrobox.net/blog/habit-tracker-time-blocks</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://chrobox.net/blog/habit-tracker-time-blocks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://chrobox.net/blog/habit-tracker-time-blocks"/>
+  </url>
+
+  <url>
     <loc>https://chrobox.net/ko/blog/suneung-2-weeks-daily-plan</loc>
     <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>

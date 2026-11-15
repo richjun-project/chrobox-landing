@@ -5,8 +5,16 @@
     <link>https://chrobox.net/blog</link>
     <description>Insights, tips, and strategies on time-boxing and productivity. Master your day with Chrobox.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Habit Tracker That Sticks: Give Each Habit a Time Block</title>
+      <link>https://chrobox.net/blog/habit-tracker-time-blocks</link>
+      <guid isPermaLink="true">https://chrobox.net/blog/habit-tracker-time-blocks</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A habit tracker works when each habit has a set time, not just a checkbox. Turn every habit into a short daily time block and track it on a weekly grid.</description>
+      <category>Productivity</category>
+    </item>
     <item>
       <title>Weekly Review Template: 30 Minutes to Plan Next Week</title>
       <link>https://chrobox.net/blog/weekly-review-template</link>
