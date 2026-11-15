@@ -118,13 +118,39 @@ export interface RelatedPostsData {
   clusterName: string;
   hub?: BlogPostMeta;
   siblings: BlogPostMeta[];
+  /** Daily posts: heading "Related guides" and a link to the blog index instead of a category. */
+  daily?: boolean;
+}
+
+// Daily posts belong to no cluster, so they used to render no related block at all: once a
+// post dropped off the home page (it shows the two newest), its only inbound link was the
+// blog index. 2026-11-15 Search Console: 8 of 11 daily posts "Discovered – currently not
+// indexed" or unknown. Link each daily post to the scheduling hub and to the other daily
+// posts in its language (shared tags first, then newest), so crawling any one reaches the rest.
+const DAILY_HUB = 'morning-routine-scheduling';
+
+function dailyRelatedPosts(slug: string, lang: ContentLanguage, limit: number): RelatedPostsData | null {
+  const posts = getBlogPosts(lang);
+  const self = posts.find((post) => post.slug === slug);
+  if (!self) return null;
+
+  const tags = new Set((self.tags ?? []).map((tag) => tag.toLowerCase()));
+  const shared = (post: BlogPostMeta) => (post.tags ?? []).filter((tag) => tags.has(tag.toLowerCase())).length;
+  const siblings = posts
+    .filter((post) => DAILY_SLUGS.has(post.slug) && post.slug !== slug)
+    .sort((a, b) => shared(b) - shared(a) || b.date.localeCompare(a.date))
+    .slice(0, limit);
+  const hub = getBlogPost(DAILY_HUB, lang);
+
+  if (!hub && siblings.length === 0) return null;
+  return { clusterSlug: '', clusterName: '', hub, siblings, daily: true };
 }
 
 export function relatedPostsData(slug: string, lang: ContentLanguage, limit = 8): RelatedPostsData | null {
   const cluster = getClusterBySlug(slug);
 
   if (!cluster) {
-    return null;
+    return DAILY_SLUGS.has(slug) ? dailyRelatedPosts(slug, lang, 6) : null;
   }
 
   const hub = cluster.hubSlug !== slug ? getBlogPost(cluster.hubSlug, lang) : undefined;

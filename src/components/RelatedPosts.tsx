@@ -21,7 +21,7 @@ export function RelatedPosts({ data, locale, ui }: RelatedPostsProps) {
   }
 
   const { hub, siblings } = data;
-  const categoryHref = localizedPath(locale, `/blog/category/${data.clusterSlug}`);
+  const categoryHref = localizedPath(locale, data.daily ? '/blog' : `/blog/category/${data.clusterSlug}`);
 
   return (
     <Box mt={64}>
@@ -36,7 +36,7 @@ export function RelatedPosts({ data, locale, ui }: RelatedPostsProps) {
               marginBottom: '8px',
             }}
           >
-            {ui.moreFromThisSeries}
+            {data.daily ? ui.relatedGuides : ui.moreFromThisSeries}
           </Text>
           <Box
             component={Link}
@@ -51,7 +51,7 @@ export function RelatedPosts({ data, locale, ui }: RelatedPostsProps) {
               gap: '4px',
             }}
           >
-            {data.clusterName}
+            {data.daily ? ui.viewAllPosts : data.clusterName}
             <IconArrowRight size={14} />
           </Box>
         </Box>
