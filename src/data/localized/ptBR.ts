@@ -2907,8 +2907,6 @@ O Chrobox torna o planejamento semanal visual e intuitivo. A visualização sema
 A primeira sessão de planejamento semanal parece estranha. Na terceira ou quarta semana, ela se torna os 45 minutos mais valiosos da sua semana. Comece apenas com revisões no domingo à noite e planejamento na segunda de manhã. Construa a partir daí.`,
     'time-blocking-vs-time-boxing': `## Duas Técnicas Poderosas, Uma Diferença Crucial
 
-Time blocking e timeboxing costumam ser usados como sinônimos, mas funcionam com princípios fundamentalmente diferentes. Entender a distinção ajuda você a escolher a ferramenta certa para cada situação — e a combiná-las com força quando necessário.
-
 **Resposta curta:** o time blocking reserva *quando* você trabalha em algo; o timeboxing limita *quanto tempo* uma tarefa recebe, e você para quando a caixa termina. Use o time blocking para dar forma ao dia e o timeboxing para as tarefas dentro dele.
 
 | | Time blocking | Timeboxing |

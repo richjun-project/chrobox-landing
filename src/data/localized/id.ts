@@ -2912,8 +2912,6 @@ Sesi perencanaan mingguan pertama terasa canggung. Pada minggu ketiga atau keemp
 `,
     'time-blocking-vs-time-boxing': `## Dua Teknik Ampuh, Satu Perbedaan Krusial
 
-Time-blocking dan time-boxing sering digunakan secara bergantian, tetapi keduanya beroperasi berdasarkan prinsip yang fundamental berbeda. Memahami perbedaannya membantu Anda memilih alat yang tepat untuk setiap situasi—dan menggabungkannya secara ampuh saat dibutuhkan.
-
 **Jawaban singkat:** time-blocking mencadangkan *kapan* Anda mengerjakan sesuatu; time-boxing membatasi *berapa lama* satu tugas diberi waktu, dan Anda berhenti saat kotak waktunya habis. Gunakan time-blocking untuk membentuk hari Anda, dan time-boxing untuk tugas-tugas di dalamnya.
 
 | | Time-blocking | Time-boxing |

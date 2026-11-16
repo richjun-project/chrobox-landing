@@ -221,8 +221,6 @@ Source: https://chrobox.net/blog/time-blocking-vs-time-boxing · Updated: 2026-1
 
 ### Two Powerful Techniques, One Crucial Difference
 
-Time-blocking and time-boxing are frequently used interchangeably, but they operate on fundamentally different principles. Understanding the distinction helps you choose the right tool for each situation—and combine them powerfully when needed.
-
 **Short answer:** time blocking reserves *when* you work on something; timeboxing limits *how long* one task gets, and you stop when the box ends. Use time blocking to shape the day, and timeboxing for the tasks inside it.
 
 | | Time blocking | Timeboxing |

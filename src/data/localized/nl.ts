@@ -2912,8 +2912,6 @@ De eerste weekplanningssessie voelt onwennig. Na de derde of vierde week wordt h
 `,
     'time-blocking-vs-time-boxing': `## Twee krachtige technieken, één cruciaal verschil
 
-Time-blocking en time-boxing worden vaak door elkaar gebruikt, maar ze werken volgens fundamenteel verschillende principes. Als je het verschil begrijpt, kies je voor elke situatie het juiste hulpmiddel — en combineer je ze krachtig wanneer dat nodig is.
-
 **Kort antwoord:** time-blocking reserveert *wanneer* je aan iets werkt; time-boxing begrenst *hoe lang* een taak krijgt, en je stopt als de box afloopt. Gebruik time-blocking om je dag vorm te geven en time-boxing voor de taken erbinnen.
 
 | | Time-blocking | Time-boxing |

@@ -2906,8 +2906,6 @@ Chrobox, haftalık planlamayı görsel ve sezgisel hale getirir. Haftalık gör�
 İlk haftalık planlama oturumu tuhaf hissettirir. Üçüncü veya dördüncü haftaya gelindiğinde, haftanızın en değerli 45 dakikası haline gelir. Yalnızca Pazar akşamı incelemeleri ve Pazartesi sabahı planlamasıyla başlayın. Buradan itibaren geliştirin.`,
     'time-blocking-vs-time-boxing': `## İki Güçlü Teknik, Bir Kritik Fark
 
-Time-blocking ve time-boxing sık sık birbirinin yerine kullanılır, ancak temelde farklı ilkeler üzerinde çalışırlar. Aradaki farkı anlamak, her durum için doğru aracı seçmenize — ve gerektiğinde ikisini güçlü bir şekilde birleştirmenize yardımcı olur.
-
 **Kısa cevap:** time-blocking, bir işi *ne zaman* yapacağınızı ayırır; time-boxing ise tek bir göreve *ne kadar* süre verileceğini sınırlar ve kutu bittiğinde durursunuz. Günün çerçevesini time-blocking ile, bu çerçevenin içindeki görevleri time-boxing ile kurun.
 
 | | Time-blocking | Time-boxing |

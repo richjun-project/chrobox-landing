@@ -2912,8 +2912,6 @@ Buổi lập kế hoạch hàng tuần đầu tiên sẽ cảm thấy hơi gư�
 `,
     'time-blocking-vs-time-boxing': `## Hai kỹ thuật mạnh mẽ, một khác biệt then chốt
 
-Time-blocking và time-boxing thường được sử dụng thay thế cho nhau, nhưng chúng vận hành trên những nguyên lý hoàn toàn khác nhau. Hiểu rõ sự khác biệt này giúp bạn chọn đúng công cụ cho từng tình huống — và kết hợp chúng một cách mạnh mẽ khi cần thiết.
-
 **Trả lời ngắn gọn:** time-blocking dành sẵn *khi nào* bạn làm một việc; time-boxing giới hạn *bao lâu* cho một nhiệm vụ, và bạn dừng lại khi hộp kết thúc. Dùng time-blocking để định hình cả ngày, và time-boxing cho các nhiệm vụ bên trong.
 
 | | Time-blocking | Time-boxing |

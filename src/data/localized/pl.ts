@@ -2906,8 +2906,6 @@ Chrobox sprawia, że cotygodniowe planowanie jest wizualne i intuicyjne. Widok t
 Pierwsza sesja cotygodniowego planowania wydaje się niezręczna. Do trzeciego czy czwartego tygodnia stanie się najbardziej wartościowymi 45 minutami Twojego tygodnia. Zacznij od samych niedzielnych przeglądów i poniedziałkowego porannego planowania. Buduj dalej od tego punktu.`,
     'time-blocking-vs-time-boxing': `## Dwie potężne techniki, jedna kluczowa różnica
 
-Time-blocking i time-boxing są często używane zamiennie, ale opierają się na zasadniczo różnych zasadach. Zrozumienie tej różnicy pomaga wybrać odpowiednie narzędzie do każdej sytuacji — i skutecznie łączyć obie techniki, gdy zajdzie taka potrzeba.
-
 **Krótka odpowiedź:** time-blocking rezerwuje, *kiedy* pracujesz nad czymś, a time-boxing ogranicza, *jak długo* trwa jedno zadanie, i kończysz, gdy blok czasu się skończy. Użyj time-blockingu, by uformować dzień, a time-boxingu do zadań w jego ramach.
 
 | | Time-blocking | Time-boxing |

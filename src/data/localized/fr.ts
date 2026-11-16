@@ -2911,8 +2911,6 @@ La première séance de planification hebdomadaire paraît maladroite. À la tro
 `,
     'time-blocking-vs-time-boxing': `## Deux techniques puissantes, une différence cruciale
 
-Le time blocking et le time-boxing sont souvent employés indifféremment, mais ils reposent sur des principes fondamentalement différents. Comprendre la distinction vous aide à choisir le bon outil selon la situation — et à les combiner efficacement quand il le faut.
-
 **En bref :** le time blocking réserve *quand* vous travaillez sur quelque chose ; le time-boxing limite *combien de temps* reçoit une tâche, et vous vous arrêtez quand la boîte se termine. Utilisez le time blocking pour structurer la journée, et le time-boxing pour les tâches qu'elle contient.
 
 | | Time blocking | Time-boxing |

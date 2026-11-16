@@ -2912,8 +2912,6 @@ La primera sesión de planificación semanal resulta incómoda. Hacia la tercera
 `,
     'time-blocking-vs-time-boxing': `## Dos Técnicas Poderosas, una Diferencia Crucial
 
-El time blocking y el timeboxing se usan con frecuencia como sinónimos, pero funcionan según principios fundamentalmente distintos. Entender la diferencia te ayuda a elegir la herramienta adecuada para cada situación y a combinarlas con eficacia cuando haga falta.
-
 **Respuesta corta:** el time blocking reserva *cuándo* trabajas en algo; el timeboxing limita *cuánto tiempo* recibe una tarea, y paras cuando termina la caja. Usa el time blocking para dar forma al día y el timeboxing para las tareas que van dentro.
 
 | | Time blocking | Timeboxing |
