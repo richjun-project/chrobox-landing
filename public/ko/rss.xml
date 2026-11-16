@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>공부 타이머 몇 분으로 맞출까: 공부 종류·시험별 칸 길이표</title>
+      <link>https://chrobox.net/ko/blog/study-timer-length</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/study-timer-length</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <description>공부 타이머는 암기는 20~30분, 문제 풀이는 50~60분, 실전 연습은 실제 시험 시간 그대로 맞추는 것이 기본입니다. 공부 종류별·시험별·상황별 길이표와 쉬는 시간 정하는 법을 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>투두리스트가 안 끝나는 이유: 할 일마다 시각을 붙이는 법</title>
       <link>https://chrobox.net/ko/blog/todo-list-with-times</link>

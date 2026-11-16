@@ -21392,4 +21392,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/todo-list-with-times"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/study-timer-length</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/study-timer-length"/>
+  </url>
+
 </urlset>
