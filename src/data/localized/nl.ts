@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Haalt taken binnen vanuit Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello en meer',
         'Echte tweerichtingsagendasynchronisatie met Google en Outlook',
         'Werkt op het web, macOS, Windows en Linux, naast telefoons, dus niet alleen op de telefoon',
-        'Een gestructureerd dagelijks afsluitritueel met hoogtepunten en wekelijkse doelen; 20 dollar per maand of 16 dollar per maand bij jaarlijkse facturering, met een gratis proefperiode van 14 dagen (per september 2026)',
+        'Een gestructureerd dagelijks afsluitritueel met hoogtepunten en wekelijkse doelen; 22 dollar per maand of 17 dollar per maand bij jaarlijkse facturering, met een gratis proefperiode van 14 dagen (per november 2026)',
       ],
       verdict: 'Kies voor Sunsama als je werk al verspreid zit over tools zoals Notion, Slack en Asana en je tweerichtingsagendasynchronisatie op een laptop nodig hebt. Kies voor Chrobox als je vooral op je telefoon plant en wilt dat je geplande tijd ook afleidende apps blokkeert, zonder dat er integraties nodig zijn.',
       faqs: [

@@ -137,6 +137,26 @@ function extractBlogEntries(relativePaths) {
   return [...entries].map(([slug, dates]) => ({ slug, ...dates }));
 }
 
+/**
+ * Comparisons carry their own `updated` date, read the same way as blog dates:
+ * fixing one competitor's price used to bump the lastmod of all 15 comparisons.
+ */
+function extractComparisonDates() {
+  const source = readProjectFile(COMPARISON_SOURCE);
+  const dates = new Map();
+
+  for (const match of source.matchAll(/slug:\s*['"`]([^'"`]+)['"`]/g)) {
+    const after = source.slice(match.index, match.index + 200);
+    const updated = after.match(/\bupdated:\s*['"`](\d{4}-\d{2}-\d{2})['"`]/)?.[1];
+
+    if (updated) {
+      dates.set(match[1], updated);
+    }
+  }
+
+  return dates;
+}
+
 // Each cluster with its member posts, read the same way as the slugs below.
 function extractCategoryMembers() {
   const source = readProjectFile(TAXONOMY_SOURCE);
@@ -320,7 +340,12 @@ export function getSeoRouteGroups() {
   const dailyLanguages = extractDailyLanguages();
   const latestDate = (dates) => dates.filter(Boolean).sort().pop();
   const templateLastmod = latestSourceDate([TEMPLATE_SOURCE, 'src/screens/ScheduleTemplate.tsx']);
-  const comparisonLastmod = latestSourceDate([COMPARISON_SOURCE, 'src/screens/ComparisonPage.tsx']);
+  const comparisonDates = extractComparisonDates();
+  const comparisonPageLastmod = latestSourceDate(['src/screens/ComparisonPage.tsx']);
+  // The /compare list shows every comparison, so it changes when any of them does.
+  const comparisonLastmod = comparisonDates.size
+    ? latestDate([...comparisonDates.values(), latestSourceDate(['src/screens/ComparisonList.tsx'])])
+    : latestSourceDate([COMPARISON_SOURCE, 'src/screens/ComparisonPage.tsx']);
   const siteLastmod = latestSourceDate([
     'src/screens/Home.tsx',
     'src/app/page.tsx',
@@ -375,7 +400,7 @@ export function getSeoRouteGroups() {
       routeGroup(`/compare/${slug}`, {
         changefreq: 'monthly',
         priority: '0.8',
-        lastmod: comparisonLastmod,
+        lastmod: latestDate([comparisonDates.get(slug) ?? comparisonLastmod, comparisonPageLastmod]),
         section: 'compare',
       })
     )),

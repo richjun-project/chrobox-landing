@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Pobiera zadania z Asany, ClickUp, GitHub, Gmaila, Jiry, Linear, Notion, Outlooka, Slacka, Todoist, Trello i wielu innych',
         'Prawdziwa dwukierunkowa synchronizacja kalendarza z Google i Outlookiem',
         'Działa w przeglądarce oraz na macOS, Windows i Linux, a nie tylko na telefonach',
-        'Uporządkowany rytuał codziennego zamknięcia dnia z najważniejszymi punktami i celami tygodniowymi; 20 USD/miesiąc lub 16 USD/miesiąc przy rozliczeniu rocznym z 14-dniowym darmowym okresem próbnym (stan na wrzesień 2026)',
+        'Uporządkowany rytuał codziennego zamknięcia dnia z najważniejszymi punktami i celami tygodniowymi; 22 USD/miesiąc lub 17 USD/miesiąc przy rozliczeniu rocznym z 14-dniowym darmowym okresem próbnym (stan na listopad 2026)',
       ],
       verdict: 'Wybierz Sunsama, jeśli Twoja praca już toczy się w narzędziach takich jak Notion, Slack i Asana i potrzebujesz dwukierunkowej synchronizacji kalendarza na laptopie. Wybierz Chrobox, jeśli planujesz głównie z telefonu i chcesz, aby zaplanowany czas jednocześnie blokował rozpraszające aplikacje, bez potrzeby żadnych integracji.',
       faqs: [

@@ -7,6 +7,7 @@ export const comparisons: ComparisonData[] = [
   // checked 2026-09-30; Chrobox facts from the app source. Re-check before editing.
   {
     slug: 'chrobox-vs-structured',
+    updated: '2026-10-21',
     competitor: 'Structured',
     competitorKo: 'Structured',
     tagline: 'Chrobox vs Structured: App Blocking vs Apple Ecosystem Timeline',
@@ -74,6 +75,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-tiimo',
+    updated: '2026-10-21',
     competitor: 'Tiimo',
     competitorKo: 'Tiimo',
     tagline: 'Chrobox vs Tiimo: App Blocking vs Neurodivergent-Focused Planning',
@@ -141,6 +143,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-sunsama',
+    updated: '2026-11-17',
     competitor: 'Sunsama',
     competitorKo: 'Sunsama',
     tagline: 'Chrobox vs Sunsama: Phone Timeboxing vs Cross-Platform Work Hub',
@@ -175,13 +178,13 @@ export const comparisons: ComparisonData[] = [
       'Pulls tasks in from Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello, and more',
       'Genuine two-way calendar sync with Google and Outlook',
       'Runs on web, macOS, Windows, and Linux as well as phones, not phone-only',
-      'A structured daily shutdown ritual with highlights and weekly objectives; $20/month or $16/month billed yearly with a 14-day free trial (as of September 2026)',
+      'A structured daily shutdown ritual with highlights and weekly objectives; $22/month or $17/month billed yearly with a 14-day free trial (as of November 2026)',
     ],
     competitorProsKo: [
       'Asana·ClickUp·GitHub·Gmail·Jira·Linear·Notion·Outlook·Slack·Todoist·Trello 등에서 작업을 가져옴',
       'Google·Outlook과의 진짜 양방향 캘린더 동기화',
       '폰뿐 아니라 웹·macOS·Windows·Linux에서도 사용 가능',
-      '하이라이트와 주간 목표가 포함된 체계적인 하루 마감 리추얼, 2026년 9월 기준 월 20달러(연간 결제 시 월 16달러), 14일 무료 체험 제공',
+      '하이라이트와 주간 목표가 포함된 체계적인 하루 마감 리추얼, 2026년 11월 기준 월 22달러(연간 결제 시 월 17달러), 14일 무료 체험 제공',
     ],
     verdict: 'Choose Sunsama if your work already lives across tools like Notion, Slack, and Asana and you need two-way calendar sync on a laptop. Choose Chrobox if you plan mainly on your phone and want your scheduled time to also block distracting apps, with no integrations required.',
     verdictKo: '업무가 이미 Notion·Slack·Asana 같은 여러 도구에 흩어져 있고 노트북에서 양방향 캘린더 동기화가 필요하다면 Sunsama가 맞습니다. 주로 폰으로 계획하고, 연동 없이도 계획한 시간 동안 방해 앱까지 차단하고 싶다면 Chrobox가 맞습니다.',
@@ -208,6 +211,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-opal',
+    updated: '2026-10-21',
     competitor: 'Opal',
     competitorKo: 'Opal',
     tagline: 'Chrobox vs Opal: Scheduled Blocking vs Always-On Screen Time Control',
@@ -275,6 +279,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-forest',
+    updated: '2026-10-21',
     competitor: 'Forest',
     competitorKo: 'Forest',
     tagline: 'Chrobox vs Forest: Whole-Day Timeboxing vs Gamified Focus Sessions',
@@ -342,6 +347,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-todoist',
+    updated: '2026-09-24',
     competitor: 'Todoist',
     competitorKo: 'Todoist',
     tagline: 'Chrobox vs Todoist: Time-Boxing vs Task Lists',
@@ -409,6 +415,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-google-calendar',
+    updated: '2026-09-30',
     competitor: 'Google Calendar',
     competitorKo: 'Google 캘린더',
     tagline: 'Chrobox vs Google Calendar: Focused Planning vs Event Scheduling',
@@ -476,6 +483,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-notion',
+    updated: '2026-09-24',
     competitor: 'Notion',
     competitorKo: 'Notion',
     tagline: 'Chrobox vs Notion: Focused Time-Boxing vs All-in-One Workspace',
@@ -543,6 +551,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-trello',
+    updated: '2026-09-24',
     competitor: 'Trello',
     competitorKo: 'Trello',
     tagline: 'Chrobox vs Trello: Time-Boxing vs Kanban Boards',
@@ -610,6 +619,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-asana',
+    updated: '2026-09-24',
     competitor: 'Asana',
     competitorKo: 'Asana',
     tagline: 'Chrobox vs Asana: Personal Time-Boxing vs Team Project Management',
@@ -677,6 +687,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-clickup',
+    updated: '2026-09-24',
     competitor: 'ClickUp',
     competitorKo: 'ClickUp',
     tagline: 'Chrobox vs ClickUp: Simple Time-Boxing vs Feature-Rich Project Hub',
@@ -744,6 +755,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-apple-reminders',
+    updated: '2026-10-21',
     competitor: 'Apple Reminders',
     competitorKo: 'Apple 미리 알림',
     tagline: 'Chrobox vs Apple Reminders: Time-Boxing vs Simple Reminders',
@@ -811,6 +823,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-microsoft-to-do',
+    updated: '2026-10-21',
     competitor: 'Microsoft To Do',
     competitorKo: 'Microsoft To Do',
     tagline: 'Chrobox vs Microsoft To Do: Time-Boxing vs Smart Task Lists',
@@ -878,6 +891,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-any-do',
+    updated: '2026-10-21',
     competitor: 'Any.do',
     competitorKo: 'Any.do',
     tagline: 'Chrobox vs Any.do: Time-Boxing vs AI-Assisted Task Planning',
@@ -945,6 +959,7 @@ export const comparisons: ComparisonData[] = [
   },
   {
     slug: 'chrobox-vs-ticktick',
+    updated: '2026-09-30',
     competitor: 'TickTick',
     competitorKo: 'TickTick',
     tagline: 'Chrobox vs TickTick: Pure Time-Boxing vs All-in-One Task Manager',

@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Menarik tugas dari Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello, dan lainnya',
         'Sinkronisasi kalender dua arah yang sesungguhnya dengan Google dan Outlook',
         'Berjalan di web, macOS, Windows, dan Linux selain ponsel, tidak hanya di ponsel',
-        'Ritual penutupan hari yang terstruktur dengan highlight dan tujuan mingguan; $20/bulan atau $16/bulan jika ditagih tahunan dengan uji coba gratis 14 hari (per September 2026)',
+        'Ritual penutupan hari yang terstruktur dengan highlight dan tujuan mingguan; $22/bulan atau $17/bulan jika ditagih tahunan dengan uji coba gratis 14 hari (per November 2026)',
       ],
       verdict: 'Pilih Sunsama jika pekerjaan Anda sudah tersebar di berbagai alat seperti Notion, Slack, dan Asana serta Anda membutuhkan sinkronisasi kalender dua arah di laptop. Pilih Chrobox jika Anda merencanakan terutama dari ponsel dan menginginkan waktu terjadwal Anda juga memblokir aplikasi yang mengalihkan perhatian, tanpa memerlukan integrasi apa pun.',
       faqs: [

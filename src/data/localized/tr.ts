@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello ve daha fazlasından görevleri çeker',
         'Google ve Outlook ile gerçek iki yönlü takvim senkronizasyonu',
         'Sadece telefonlarda değil, web, macOS, Windows ve Linux\'ta da çalışır',
-        'Öne çıkanlar ve haftalık hedeflerle yapılandırılmış bir günlük kapanış ritüeli; ayda 20$ veya yıllık faturalandırmada ayda 16$, 14 günlük ücretsiz deneme ile (Eylül 2026 itibarıyla)',
+        'Öne çıkanlar ve haftalık hedeflerle yapılandırılmış bir günlük kapanış ritüeli; ayda 22$ veya yıllık faturalandırmada ayda 17$, 14 günlük ücretsiz deneme ile (Kasım 2026 itibarıyla)',
       ],
       verdict: 'İşiniz zaten Notion, Slack ve Asana gibi araçlar arasında yaşıyorsa ve bir dizüstü bilgisayarda iki yönlü takvim senkronizasyonuna ihtiyacınız varsa Sunsama\'yı seçin. Ağırlıklı olarak telefonunuzda planlama yapıyorsanız ve planlanmış zamanınızın entegrasyon gerekmeden dikkat dağıtıcı uygulamaları da engellemesini istiyorsanız Chrobox\'ı seçin.',
       faqs: [

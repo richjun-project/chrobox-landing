@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Asana、ClickUp、GitHub、Gmail、Jira、Linear、Notion、Outlook、Slack、Todoist、Trelloなど多数からタスクを取り込み可能',
         'GoogleおよびOutlookとの本物の双方向カレンダー同期',
         'スマホだけでなくWeb、macOS、Windows、Linuxでも動作',
-        'ハイライトと週間目標を伴う構造化されたデイリーシャットダウンの儀式。月額20ドルまたは年払いで月額16ドル、14日間の無料トライアル付き(2026年九月時点)',
+        'ハイライトと週間目標を伴う構造化されたデイリーシャットダウンの儀式。月額22ドルまたは年払いで月額17ドル、14日間の無料トライアル付き(2026年11月時点)',
       ],
       verdict: 'すでにNotion、Slack、Asanaなどのツールに仕事が分散していて、ノートPC上で双方向カレンダー同期が必要ならSunsamaを選びましょう。主にスマホで計画を立てており、予定した時間に気を散らすアプリもブロックしたい、かつ連携は不要というならChroboxを選びましょう。',
       faqs: [

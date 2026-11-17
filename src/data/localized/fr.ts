@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Récupère les tâches depuis Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello et bien d\'autres',
         'Véritable synchronisation bidirectionnelle du calendrier avec Google et Outlook',
         'Fonctionne sur le web, macOS, Windows et Linux en plus du mobile, pas seulement sur téléphone',
-        'Un rituel structuré de clôture de journée avec temps forts et objectifs hebdomadaires ; 20 $/mois ou 16 $/mois facturé annuellement avec un essai gratuit de 14 jours (en date de septembre 2026)',
+        'Un rituel structuré de clôture de journée avec temps forts et objectifs hebdomadaires ; 22 $/mois ou 17 $/mois facturé annuellement avec un essai gratuit de 14 jours (en date de novembre 2026)',
       ],
       verdict: 'Choisissez Sunsama si votre travail vit déjà à travers des outils comme Notion, Slack et Asana et que vous avez besoin d\'une synchronisation bidirectionnelle du calendrier sur ordinateur portable. Choisissez Chrobox si vous planifiez principalement depuis votre téléphone et voulez que votre temps planifié bloque aussi les applications distrayantes, sans besoin d\'intégrations.',
       faqs: [

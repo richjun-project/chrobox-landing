@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         '可從 Asana、ClickUp、GitHub、Gmail、Jira、Linear、Notion、Outlook、Slack、Todoist、Trello 等工具匯入任務',
         '與 Google 及 Outlook 皆有真正的雙向行事曆同步',
         '除了手機外，也能在網頁、macOS、Windows 與 Linux 上運作，並非僅限手機',
-        '結構化的每日收工儀式，包含重點事項與每週目標；每月 20 美元，或年繳每月 16 美元，附 14 天免費試用（截至 2026 年九月）',
+        '結構化的每日收工儀式，包含重點事項與每週目標；每月 22 美元，或年繳每月 17 美元，附 14 天免費試用（截至 2026 年十一月）',
       ],
       verdict: '如果你的工作已經橫跨 Notion、Slack、Asana 等多種工具，並需要在筆電上進行雙向行事曆同步，請選擇 Sunsama。如果你主要用手機規劃行程，並希望排定的時間也能自動封鎖分心 App，且不需要任何整合功能，請選擇 Chrobox。',
       faqs: [

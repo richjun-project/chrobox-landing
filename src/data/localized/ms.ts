@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Menarik tugasan daripada Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello dan banyak lagi',
         'Penyegerakan kalendar dua hala yang tulen dengan Google dan Outlook',
         'Berjalan pada web, macOS, Windows dan Linux selain telefon, bukan khusus telefon',
-        'Ritual penutup hari yang berstruktur dengan sorotan dan objektif mingguan; $20/bulan atau $16/bulan dibilkan tahunan dengan percubaan percuma 14 hari (setakat September 2026)',
+        'Ritual penutup hari yang berstruktur dengan sorotan dan objektif mingguan; $22/bulan atau $17/bulan dibilkan tahunan dengan percubaan percuma 14 hari (setakat November 2026)',
       ],
       verdict: 'Pilih Sunsama jika kerja anda sudah tersebar merentasi alat seperti Notion, Slack dan Asana serta anda memerlukan penyegerakan kalendar dua hala pada komputer riba. Pilih Chrobox jika anda merancang terutamanya pada telefon dan mahukan masa berjadual anda turut menyekat aplikasi yang mengganggu, tanpa memerlukan sebarang integrasi.',
       faqs: [

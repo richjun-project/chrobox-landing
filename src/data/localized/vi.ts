@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         'Kéo nhiệm vụ từ Asana, ClickUp, GitHub, Gmail, Jira, Linear, Notion, Outlook, Slack, Todoist, Trello và nhiều công cụ khác',
         'Đồng bộ lịch hai chiều thực sự với Google và Outlook',
         'Chạy trên web, macOS, Windows và Linux ngoài điện thoại, không chỉ giới hạn ở điện thoại',
-        'Một nghi thức kết thúc ngày làm việc có cấu trúc với các điểm nổi bật và mục tiêu hàng tuần; 20 đô la Mỹ mỗi tháng hoặc 16 đô la Mỹ mỗi tháng nếu thanh toán theo năm, kèm 14 ngày dùng thử miễn phí (tính đến tháng chín năm 2026)',
+        'Một nghi thức kết thúc ngày làm việc có cấu trúc với các điểm nổi bật và mục tiêu hàng tuần; 22 đô la Mỹ mỗi tháng hoặc 17 đô la Mỹ mỗi tháng nếu thanh toán theo năm, kèm 14 ngày dùng thử miễn phí (tính đến tháng mười một năm 2026)',
       ],
       verdict: 'Hãy chọn Sunsama nếu công việc của bạn đã gắn liền với các công cụ như Notion, Slack và Asana, và bạn cần đồng bộ lịch hai chiều trên máy tính xách tay. Hãy chọn Chrobox nếu bạn lập kế hoạch chủ yếu trên điện thoại và muốn thời gian đã lên lịch của mình cũng chặn luôn các ứng dụng gây xao nhãng, mà không cần bất kỳ tích hợp nào.',
       faqs: [

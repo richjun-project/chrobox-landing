@@ -545,7 +545,7 @@ export const pack: LocalizedContentPack = {
         '可从 Asana、ClickUp、GitHub、Gmail、Jira、Linear、Notion、Outlook、Slack、Todoist、Trello 等工具中拉取任务',
         '与 Google 和 Outlook 之间实现真正的双向日历同步',
         '除手机外，还可在网页、macOS、Windows 和 Linux 上运行，不局限于手机',
-        '结构化的每日收工仪式，包含当日亮点与每周目标；每月 20 美元，或按年计费每月 16 美元，附 14 天免费试用（截至 2026 年九月）',
+        '结构化的每日收工仪式，包含当日亮点与每周目标；每月 22 美元，或按年计费每月 17 美元，附 14 天免费试用（截至 2026 年十一月）',
       ],
       verdict: '如果你的工作已经离不开 Notion、Slack 和 Asana 等工具，并且需要在笔记本电脑上实现双向日历同步，请选择 Sunsama。如果你主要在手机上进行规划，并希望计划好的时间也能同时屏蔽分心应用，且不需要任何工具整合，请选择 Chrobox。',
       faqs: [
