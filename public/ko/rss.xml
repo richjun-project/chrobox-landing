@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>갓생 계획표: 무리하지 않고 일주일 버티는 하루 시간표</title>
+      <link>https://chrobox.net/ko/blog/godsaeng-daily-plan</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/godsaeng-daily-plan</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <description>갓생 계획표는 하루를 새로 갈아엎는 표가 아니라, 평소 하루에서 칸 두세 개만 바꾸는 표여야 일주일을 버팁니다. 평균적인 하루 시간 배분, 직장인·대학생 시간표, 일주일 운영 규칙을 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>공부 타이머 몇 분으로 맞출까: 공부 종류·시험별 칸 길이표</title>
       <link>https://chrobox.net/ko/blog/study-timer-length</link>

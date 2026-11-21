@@ -21409,4 +21409,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/study-timer-length"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/godsaeng-daily-plan</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/godsaeng-daily-plan"/>
+  </url>
+
 </urlset>
