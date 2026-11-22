@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: '5 Estratégias de Timeboxing Usadas por Grandes CEOs e Empreendedores',
-      excerpt: 'Conheça as estratégias de timeboxing que Elon Musk, Bill Gates e outros grandes líderes usam para maximizar a produtividade e alcançar resultados extraordinários.',
+      title: '5 Estratégias de Timeboxing, com Dados de 5.077 Tarefas Reais',
+      excerpt: 'Cinco estratégias de timeboxing para começar: horário de início em toda tarefa essencial, prioridade primeiro, boxes de 60 minutos, reuniões separadas e buffer.',
       faqs: [
         {
-          question: 'O Elon Musk realmente organiza o dia em blocos de 5 minutos?',
-          answer: 'Sim. Musk já falou publicamente sobre agendar reuniões e tarefas em blocos de 5 minutos para maximizar a densidade e minimizar o tempo perdido. Embora esse nível de detalhe funcione para ele, a maioria das pessoas se beneficia de blocos um pouco mais longos (15-30 minutos), adaptados ao seu próprio ritmo.',
+          question: 'Qual é a melhor estratégia de timeboxing para começar?',
+          answer: 'Comece dando um horário de início a toda tarefa essencial. Nos dados do Chrobox, as tarefas com um horário definido foram concluídas 48,1% das vezes, contra 17,6% das tarefas deixadas em uma lista. Quando isso virar hábito, acrescente as outras estratégias uma de cada vez.',
         },
         {
-          question: 'Posso combinar dias temáticos com timeboxing?',
-          answer: 'Com certeza. Atribuir temas a cada dia (por exemplo, segunda-feira para planejamento, terça-feira para trabalho profundo) reduz a troca de contexto no nível macro, enquanto o timeboxing dentro de cada dia cuida do foco no nível micro. Essa combinação é um dos sistemas de produtividade mais eficazes que existem.',
+          question: 'Trabalho focado e reuniões devem ficar no mesmo dia?',
+          answer: 'Podem, mas mantenha-os separados dentro do dia. No ensaio de 2009 "Maker\'s Schedule, Manager\'s Schedule", Paul Graham argumentou que uma única reunião pode quebrar uma tarde em pedaços pequenos demais para trabalho difícil; por isso, agrupe as reuniões e proteja um bloco de meio dia para o trabalho focado.',
         },
         {
-          question: 'Quantos blocos de foco devo agendar por dia?',
-          answer: 'Pesquisas sobre desempenho cognitivo sugerem que 3 a 5 blocos de trabalho profundo de 60-90 minutos por dia é um teto sustentável para a maioria das pessoas. Além disso, surgem fadiga de decisão e retornos decrescentes. Agende suas tarefas mais exigentes nos dois primeiros blocos, quando a energia mental está mais alta.',
+          question: 'Quantos time boxes devo planejar por dia?',
+          answer: 'Comece com cerca de cinco tarefas mais um box de buffer vazio. A mediana de um dia planejado nos dados do Chrobox foi de 5 tarefas. Planeje menos nos dias com muitas reuniões e ajuste depois de uma semana.',
         },
       ],
     },
@@ -1474,80 +1474,75 @@ Pare mesmo assim. Escreva uma linha sobre onde você está e escolha uma de trê
 O Chrobox é um app de timeboxing para iPhone e Android. Você adiciona uma tarefa com horário de início e duração, ela aparece na linha do tempo do dia, e um alerta avisa quando a caixa começa. O timer de foco faz uma contagem regressiva única da duração da caixa atual, e uma breve reflexão no fim do dia registra o que avançou. Tarefas, prioridades, linha do tempo, timer de foco, alertas, rotinas e reflexões diárias são gratuitos; o bloqueio de apps que distraem durante uma caixa, os widgets na tela inicial e na tela de bloqueio, o planejamento com IA e as estatísticas detalhadas fazem parte do Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 Estratégias de Timeboxing Usadas por Grandes CEOs e Empreendedores
+# 5 Estratégias de Timeboxing, com Dados de 5.077 Tarefas Reais
 
-Já se perguntou como as pessoas mais bem-sucedidas do mundo conseguem realizar tanto? Embora elas tenham as mesmas 24 horas que todo mundo, a forma como gerenciam o tempo é o que as diferencia.
+**Cinco estratégias de timeboxing valem a pena para começar: dê a toda tarefa essencial um horário de início, coloque sua prioridade principal em um box logo cedo, use boxes de 60 minutos como padrão, mantenha o trabalho focado separado das reuniões e planeje cerca de cinco tarefas por dia com um box vazio para o que estourar.** Cada estratégia abaixo se apoia nos dados de uso do Chrobox (5.077 tarefas planejadas por 250 pessoas, de dezembro de 2025 a setembro de 2026) ou em uma fonte que você mesmo pode ler. Histórias famosas sobre como um determinado CEO divide o dia ficaram de fora de propósito: a maioria é recontada de segunda mão e é difícil de verificar.
 
-Muitos executivos de alto escalão contam com o timeboxing como sua arma secreta. Vamos explorar cinco estratégias comprovadas que eles usam.
+| # | Estratégia | O que fazer | Base |
+|---|---|---|---|
+| 1 | Dê a toda tarefa essencial um horário de início | Passe as tarefas da lista para o relógio | Tarefas em timebox foram concluídas 48,1% das vezes, tarefas só na lista 17,6% |
+| 2 | Prioridade primeiro, cedo | Dê à tarefa mais importante o primeiro box da manhã | Boxes que começaram entre 05:00–08:59 foram concluídos 62,3% das vezes, boxes que começaram entre 21:00–23:59 33,2% |
+| 3 | Padrão de 60 minutos | Comece cada box em uma hora cheia e divida o trabalho mais longo | O box mediano tinha 60 minutos |
+| 4 | Separe trabalho focado de reuniões | Proteja um bloco de meio dia e agrupe as reuniões | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Planeje cerca de cinco tarefas, mais um buffer | Deixe um box vazio para o que estourar | O dia planejado mediano tinha 5 tarefas |
 
-## Estratégia 1: A Regra dos 5 Minutos (Abordagem de Elon Musk)
+## 1. Dê a toda tarefa essencial um horário de início
 
-Elon Musk, CEO da Tesla e da SpaceX, é conhecido por dividir o seu dia em blocos de 5 minutos. Embora isso pareça extremo, o princípio por trás é poderoso.
+Uma lista de tarefas diz o que fazer. Um time box diz também quando e por quanto tempo, e isso acaba importando mais do que qualquer sistema engenhoso montado por cima. Nos dados do Chrobox, as tarefas que tinham horário de início e duração na linha do tempo do dia foram marcadas como feitas 48,1% das vezes. As tarefas que ficaram na lista sem um horário foram marcadas 17,6% das vezes.
 
-### Como Aplicar
+A diferença não vem só de algumas pessoas muito organizadas puxando a média para cima. Entre as 41 pessoas que planejaram tarefas suficientes dos dois jeitos para permitir a comparação, 35 concluíram mais tarefas em timebox do que tarefas sem horário. São dados observacionais, não um experimento: as pessoas podem dar horário a tarefas que já pretendiam fazer, e um horário definido também funciona como lembrete. Ainda assim, a regra prática se mantém. Se uma tarefa precisa acontecer hoje, ela precisa de um horário hoje. Se não cabe em lugar nenhum do relógio, ela nunca ia acontecer hoje, e é melhor movê-la agora do que às 22:00.
 
-- **Divida grandes tarefas em incrementos de 5 minutos** para estimativas
-- **Agende reuniões em blocos de 5 minutos**, em vez de usar o padrão de 30 ou 60 minutos
-- **Use microtimeboxes para decisões rápidas**
+## 2. Coloque sua prioridade principal no primeiro box da manhã
 
-## Estratégia 2: O Sistema de Duas Listas (Método de Warren Buffett)
+Dois números apontam na mesma direção. As tarefas marcadas como prioridade foram concluídas 44,5% das vezes, contra 28,9% de todas as outras. E os boxes que começaram entre 05:00 e 08:59 foram concluídos 62,3% das vezes, enquanto os que começaram entre 21:00 e 23:59 foram concluídos 33,2% das vezes.
 
-A abordagem de Warren Buffett foca em uma priorização implacável antes do timeboxing.
+Parte do efeito da manhã vem de quem planeja cedo: quem agenda uma tarefa para as 06:30 pode simplesmente ser mais constante. O conselho é o mesmo de qualquer forma. **Escolha uma prioridade na noite anterior e dê a ela o primeiro box longo do seu dia de trabalho**, antes que e-mail, chat ou reuniões possam reivindicar esse tempo. Se o seu dia começa às 10:00, o primeiro box é às 10:00; o ponto é ser o primeiro, não ser cedo por ser cedo.
 
-### O Processo
+## 3. Boxes de 60 minutos como padrão
 
-1. **Escreva suas 25 principais metas ou tarefas**
-2. **Circule as 5 mais importantes**
-3. **Faça timeboxing SOMENTE das 5 principais**
-4. **Evite ativamente as outras 20** — elas são distrações disfarçadas
+O time box mediano no Chrobox tinha 60 minutos. Parte disso vem do próprio app, porque uma tarefa solta sobre uma hora da linha do tempo começa como um box de 60 minutos e muita gente o mantém assim. Mesmo assim, uma hora é um padrão sensato: longa o bastante para realmente engrenar em um trabalho de verdade, curta o bastante para ser protegida de interrupções.
 
-## Estratégia 3: Dias Temáticos (Sistema de Jack Dorsey)
+Use boxes menores, de 15 a 30 minutos, para e-mails, mensagens e pequenas tarefas administrativas, e agrupe-os para que não vazem para todas as horas. Quando uma tarefa precisar de mais de cerca de 90 minutos, divida-a em dois boxes com uma pausa curta entre eles, em vez de reservar um bloco longo. Nosso [relatório de dados de conclusão](/pt-br/blog/does-timeboxing-work) traz o detalhamento completo de como a duração do box se relacionou com a conclusão.
 
-Quando Jack Dorsey comandava simultaneamente o Twitter e o Square, ele usava dias temáticos para gerenciar seu tempo.
+## 4. Mantenha separados o trabalho focado e as reuniões
 
-| Dia | Tema |
-|-----|------|
-| Segunda-feira | Gestão e Operações |
-| Terça-feira | Desenvolvimento de Produto |
-| Quarta-feira | Marketing e Crescimento |
-| Quinta-feira | Parcerias e Desenvolvimento de Negócios |
-| Sexta-feira | Cultura da Empresa e Contratações |
+Em um ensaio de julho de 2009, "Maker's Schedule, Manager's Schedule", Paul Graham descreveu duas formas de usar o tempo. Na agenda do gestor, o dia é cortado em intervalos de uma hora e você muda o que está fazendo a cada hora. Quem produz coisas, como programadores e escritores, geralmente prefere usar o tempo em unidades de pelo menos meio dia. Nessa agenda, escreveu ele, uma única reunião pode estragar uma tarde inteira ao quebrá-la em duas partes, cada uma pequena demais para se fazer qualquer coisa difícil. A solução dele foi o horário de atendimento: agrupava as conversas com fundadores no fim do seu dia de trabalho, para que nunca o interrompessem.
 
-## Estratégia 4: O Bloco de Foco de 90 Minutos
+O timeboxing facilita aplicar isso. Preencha uma metade do dia com boxes de foco e coloque as reuniões que você controla uma ao lado da outra na outra metade. Veja como pode ficar:
 
-Pesquisas mostram que o cérebro humano consegue manter o foco máximo por cerca de 90 minutos antes de precisar descansar.
+| Horário | Box | Modo |
+|---|---|---|
+| 08:30–08:45 | Planejar o dia | Gestor |
+| 08:45–09:45 | Prioridade: escrever a atualização para investidores | Criador |
+| 09:45–10:00 | Pausa | Descanso |
+| 10:00–11:00 | Rascunho da especificação do produto | Criador |
+| 11:00–12:00 | Finalizar a especificação do produto | Criador |
+| 12:00–13:00 | Almoço | Descanso |
+| 13:00–15:00 | Reuniões em sequência | Gestor |
+| 15:00–15:30 | E-mails e mensagens | Gestor |
+| 15:30–16:30 | Buffer para o que estourou | Buffer |
+| 16:30–17:00 | Revisar hoje e planejar amanhã | Gestor |
 
-### Implementação
+A manhã tem três boxes de foco seguidos com apenas uma pausa curta, e a tarde absorve todas as reuniões. Para mais formatos por função, veja o [modelo de agenda executiva](/pt-br/templates/executive).
 
-1. **Agende blocos de foco de 90 minutos** para o seu trabalho mais importante
-2. **Faça uma pausa de 20-30 minutos** entre os blocos
-3. **Limite-se a 4-5 blocos de foco por dia**
+## 5. Planeje cerca de cinco tarefas e deixe um box vazio
 
-## Estratégia 5: A Agenda do Criador (Filosofia de Paul Graham)
+O dia planejado mediano no Chrobox tinha 5 tarefas. Não é um número mágico, é o que as pessoas realmente planejaram, mas é um ponto de partida útil. Um dia com quinze boxes parece produtivo às 08:00 e parece fracasso às 18:00. Comece com cerca de cinco tarefas, planeje menos nos dias com muitas reuniões e ajuste depois de uma semana.
 
-Paul Graham distingue entre dois tipos de agenda:
+**Deixe um box vazio de propósito.** Alguma coisa vai estourar, e uma hora de buffer impede que uma tarefa atrasada empurre o resto do dia para mais tarde. Se você não precisar do buffer, puxe a próxima tarefa para a frente ou termine mais cedo. Para distribuir projetos maiores ao longo de vários dias, veja nosso [guia de planejamento semanal](/pt-br/blog/weekly-planning-guide).
 
-### Agenda do Gestor
-- Dia dividido em blocos de uma hora
-- Reuniões espalhadas ao longo do dia
+## Como começar amanhã
 
-### Agenda do Criador
-- Dia dividido em blocos de meio período
-- Longos períodos ininterruptos para trabalho criativo
+1. Hoje à noite, anote as tarefas essenciais de amanhã e marque uma como prioridade.
+2. Dê à prioridade o primeiro box longo do seu dia de trabalho.
+3. Coloque cada uma das outras tarefas essenciais no relógio, 60 minutos por padrão.
+4. Coloque as reuniões que você controla uma ao lado da outra.
+5. Deixe um box vazio e termine o dia planejando o seguinte.
 
-## Implementando Essas Estratégias com o Chrobox
+## Usando estas estratégias no Chrobox
 
-O Chrobox foi criado para apoiar todas essas estratégias de timeboxing:
-
-- **Durações flexíveis de timebox** — de 5 minutos a dias inteiros
-- **Planejamento com prioridade em primeiro lugar** — fluxo de priorização integrado
-- **Suporte a temas** — marque e categorize seus timeboxes
-- **Modo foco** — execução sem distrações
-
-## Conclusão
-
-As estratégias usadas pelos melhores desempenhos não são mágica — são sistemas comprovados que qualquer pessoa pode adotar. Comece com uma abordagem, pratique com consistência e veja sua produtividade decolar.
-    `,
+O Chrobox é um app de timeboxing para iPhone e Android. Você adiciona tarefas, marca prioridades e arrasta cada tarefa para a linha do tempo do dia, onde ela vira um box com horário de início e duração. Quando um box começa, você recebe uma notificação e pode iniciar um timer de foco que, por padrão, tem a duração do box. Tudo isso é gratuito. Bloquear apps que distraem durante um box faz parte do Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Timeboxing vs Pomodoro: Qual Técnica é Ideal para Você?
 

@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: 'Timeboxing: 5 strategii topowych CEO i przedsiębiorców',
-      excerpt: 'Poznaj skuteczne strategie timeboxingu, których Elon Musk, Bill Gates i inni liderzy używają, by zmaksymalizować produktywność i osiągać niezwykłe wyniki.',
+      title: '5 strategii timeboxingu na danych z 5077 prawdziwych zadań',
+      excerpt: 'Pięć strategii timeboxingu na start: godzina rozpoczęcia dla każdego ważnego zadania, priorytet najpierw, bloki po 60 minut, spotkania osobno, bufor.',
       faqs: [
         {
-          question: 'Czy Elon Musk naprawdę planuje swój dzień w 5-minutowych blokach?',
-          answer: 'Tak. Musk publicznie wspominał o planowaniu spotkań i zadań w 5-minutowych przedziałach czasowych, aby maksymalnie zagęścić grafik i ograniczyć marnowanie czasu. Choć taka szczegółowość sprawdza się u niego, większość osób odniesie większe korzyści z nieco dłuższych bloków (15–30 minut) dostosowanych do własnego rytmu.',
+          question: 'Od której strategii timeboxingu najlepiej zacząć?',
+          answer: 'Zacznij od nadania godziny rozpoczęcia każdemu zadaniu, które musisz zrobić. W danych Chrobox zadania z przydzielonym przedziałem czasu zostały ukończone w 48,1% przypadków, a te zostawione na liście w 17,6%. Gdy to wejdzie w nawyk, dodawaj pozostałe strategie po jednej.',
         },
         {
-          question: 'Czy mogę łączyć dni tematyczne z timeboxingiem?',
-          answer: 'Oczywiście. Przypisywanie tematów do poszczególnych dni (np. poniedziałek na planowanie, wtorek na pracę głęboką) ogranicza przełączanie kontekstu na poziomie makro, podczas gdy timeboxing w ciągu dnia pozwala skupić się na poziomie mikro. To połączenie tworzy jeden z najskuteczniejszych systemów produktywności.',
+          question: 'Czy praca w skupieniu i spotkania mogą być tego samego dnia?',
+          answer: 'Mogą, ale rozdziel je w ciągu dnia. W eseju z 2009 roku, "Maker\'s Schedule, Manager\'s Schedule", Paul Graham twierdził, że jedno spotkanie może rozbić popołudnie na kawałki zbyt małe na trudną pracę, więc zgrupuj spotkania razem i chroń blok pół dnia na pracę w skupieniu.',
         },
         {
-          question: 'Ile bloków skupienia dziennie warto zaplanować?',
-          answer: 'Badania nad wydajnością poznawczą sugerują, że od 3 do 5 bloków pracy głębokiej po 60–90 minut dziennie to dla większości ludzi optymalna, zrównoważona granica. Powyżej tej liczby pojawia się zmęczenie decyzyjne i spadek efektywności. Zaplanuj najbardziej wymagające zadania na pierwsze dwa bloki, kiedy poziom energii psychicznej jest najwyższy.',
+          question: 'Ile bloków czasu planować na dzień?',
+          answer: 'Zacznij od około pięciu zadań plus jednego pustego bloku buforowego. Mediana zaplanowanego dnia w danych Chrobox to 5 zadań. W dni z wieloma spotkaniami planuj mniej i dostosuj plan po tygodniu.',
         },
       ],
     },
@@ -2373,80 +2373,75 @@ Przerwij mimo to. Zapisz jedną linijkę o tym, na jakim etapie jesteś, a potem
 Chrobox to aplikacja do timeboxingu na iPhone'a i Androida. Dodajesz zadanie z godziną rozpoczęcia i czasem trwania, pojawia się ono na osi czasu dnia, a powiadomienie informuje, kiedy box się zaczyna. Licznik skupienia raz odlicza czas trwania bieżącego boxa, a krótka refleksja na koniec dnia zapisuje, co ruszyło do przodu. Zadania, priorytety, oś czasu, licznik skupienia, powiadomienia, rutyny i codzienne refleksje są bezpłatne; blokowanie rozpraszających aplikacji podczas boxa, widżety ekranu głównego i ekranu blokady, planowanie z AI oraz szczegółowe statystyki są częścią Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 strategii time-boxingu stosowanych przez topowych CEO i przedsiębiorców
+# 5 strategii timeboxingu na danych z 5077 prawdziwych zadań
 
-Zastanawiałeś się kiedyś, jak najlepsi ludzie sukcesu na świecie radzą sobie z realizacją tak wielu zadań? Choć mają do dyspozycji te same 24 godziny co wszyscy, ich podejście do zarządzania czasem wyróżnia ich z tłumu.
+**Od pięciu strategii timeboxingu warto zacząć: nadaj każdemu ważnemu zadaniu godzinę rozpoczęcia, wstaw najważniejszy priorytet do wczesnego bloku, przyjmij domyślnie bloki po 60 minut, oddziel pracę w skupieniu od spotkań i planuj około pięciu zadań dziennie z jednym pustym blokiem na przeciągnięcia.** Każda strategia poniżej opiera się albo na danych z użytkowania Chrobox (5077 zaplanowanych zadań od 250 osób, od grudnia 2025 do września 2026), albo na źródle, które możesz przeczytać samodzielnie. Znane opowieści o tym, jak dany prezes dzieli dzień, pominęliśmy celowo: większość jest powtarzana z drugiej ręki i trudno je sprawdzić.
 
-Wielu dyrektorów zarządzających traktuje time-boxing jako swoją tajną broń. Przyjrzyjmy się pięciu sprawdzonym strategiom, z których korzystają.
+| # | Strategia | Co zrobić | Podstawa |
+|---|---|---|---|
+| 1 | Nadaj każdemu ważnemu zadaniu godzinę rozpoczęcia | Przenieś zadania z listy na zegar | Zadania w blokach czasu zostały ukończone w 48,1% przypadków, zadania tylko na liście w 17,6% |
+| 2 | Priorytet najpierw, wcześnie | Daj jedynemu najważniejszemu zadaniu pierwszy blok poranka | Bloki zaczynające się 05:00–08:59 zostały ukończone w 62,3% przypadków, bloki zaczynające się 21:00–23:59 w 33,2% |
+| 3 | Domyślnie 60 minut | Zaczynaj każdy blok o pełnej godzinie i dziel dłuższą pracę | Mediana bloku wynosiła 60 minut |
+| 4 | Oddziel pracę w skupieniu od spotkań | Chroń blok pół dnia i zgrupuj spotkania razem | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Zaplanuj około pięciu zadań, plus bufor | Zostaw jeden blok pusty na to, co się przeciągnie | Mediana zaplanowanego dnia to 5 zadań |
 
-## Strategia 1: Reguła 5 minut (metoda Elona Muska)
+## 1. Nadaj każdemu ważnemu zadaniu godzinę rozpoczęcia
 
-Elon Musk, CEO Tesli i SpaceX, słynie z dzielenia swojego dnia na 5-minutowe bloki. Choć może się to wydawać ekstremalne, sama zasada ma ogromną moc.
+Lista zadań mówi, co masz zrobić. Blok czasu mówi też, kiedy i na jak długo, a to okazuje się ważniejsze niż jakikolwiek sprytny system zbudowany na wierzchu. W danych Chrobox zadania, które miały zarówno godzinę rozpoczęcia, jak i długość na osi dnia, zostały odhaczone w 48,1% przypadków. Zadania, które zostały na liście bez przedziału czasu, odhaczono w 17,6% przypadków.
 
-### Jak ją stosować
+Ta różnica nie wynika tylko z tego, że kilka bardzo zorganizowanych osób podnosi średnią. Spośród 41 osób, które zaplanowały dość zadań na oba sposoby, by dało się je porównać, 35 ukończyło więcej zadań w blokach czasu niż niezaplanowanych. To dane obserwacyjne, nie eksperyment: ludzie mogą nadawać godzinę zadaniom, które i tak zamierzali zrobić, a przedział czasu działa też jak przypomnienie. Praktyczna zasada mimo to pozostaje. Jeśli zadanie musi się wydarzyć dziś, potrzebuje dziś godziny. Jeśli nigdzie nie mieści się na zegarze, nigdy nie miało się dziś wydarzyć i lepiej przesunąć je teraz niż o 22:00.
 
-- **Dziel duże zadania na 5-minutowe etapy** w celu łatwiejszego szacowania
-- **Planuj spotkania w 5-minutowych blokach**, zamiast automatycznie rezerwować 30 lub 60 minut
-- **Używaj mikrobloków czasu do podejmowania szybkich decyzji**
+## 2. Wstaw najważniejszy priorytet do pierwszego bloku poranka
 
-## Strategia 2: System dwóch list (metoda Warrena Buffetta)
+Dwie liczby wskazują ten sam kierunek. Zadania oznaczone jako priorytet zostały ukończone w 44,5% przypadków, wobec 28,9% dla całej reszty. A bloki zaczynające się między 05:00 a 08:59 zostały ukończone w 62,3% przypadków, podczas gdy bloki zaczynające się między 21:00 a 23:59 w 33,2%.
 
-Podejście Warrena Buffetta opiera się na bezwzględnym ustalaniu priorytetów jeszcze przed rozpoczęciem blokowania czasu.
+Część efektu poranka wynika z tego, kto planuje wcześnie: ktoś, kto wpisuje zadanie na 06:30, może po prostu być bardziej konsekwentny. Rada jest tak czy inaczej ta sama. **Wybierz jeden priorytet poprzedniego wieczoru i daj mu pierwszy długi blok swojego dnia pracy**, zanim poczta, czat czy spotkania zdążą zająć ten czas. Jeśli twój dzień zaczyna się o 10:00, pierwszy blok jest o 10:00; chodzi o pierwszy, nie o wczesny dla samej wczesności.
 
-### Cały proces
+## 3. Domyślnie bloki po 60 minut
 
-1. **Zapisz 25 swoich najważniejszych celów lub zadań**
-2. **Zakreśl 5 absolutnie najważniejszych**
-3. **Zaplanuj w czasie (time-boxuj) TYLKO te 5 pozycji**
-4. **Aktywnie unikaj pozostałych 20** — to tylko przebrane za cele rozpraszacze
+Mediana bloku czasu w Chrobox wynosiła 60 minut. Częściowo wynika to z samej aplikacji, bo zadanie upuszczone na godzinę na osi czasu zaczyna jako blok 60-minutowy i wiele osób go tak zostawia. Mimo to godzina to rozsądna wartość domyślna: wystarczająco długa, by naprawdę wejść w poważną pracę, i wystarczająco krótka, by ochronić ją przed przerwaniami.
 
-## Strategia 3: Dni tematyczne (system Jacka Dorseya)
+Na pocztę, wiadomości i drobne sprawy administracyjne używaj krótszych bloków po 15 do 30 minut i grupuj je, żeby nie rozlewały się na każdą godzinę. Gdy zadanie wymaga więcej niż około 90 minut, podziel je na dwa bloki z krótką przerwą między nimi zamiast rezerwować jeden długi. W naszym [raporcie z danych o ukończeniu](/pl/blog/does-timeboxing-work) znajdziesz pełne zestawienie tego, jak długość bloku wiązała się z ukończeniem.
 
-Gdy Jack Dorsey zarządzał jednocześnie Twitterem i Square, używał dni tematycznych do kontrolowania swojego czasu.
+## 4. Oddziel pracę w skupieniu od spotkań
 
-| Dzień | Temat przewodni |
-|-----|-------|
-| Poniedziałek | Zarządzanie i operacje |
-| Wtorek | Rozwój produktu |
-| Środa | Marketing i wzrost |
-| Czwartek | Partnerstwa i rozwój biznesu |
-| Piątek | Kultura firmy i rekrutacja |
+W eseju z lipca 2009 roku, "Maker's Schedule, Manager's Schedule", Paul Graham opisał dwa sposoby używania czasu. W harmonogramie menedżera dzień jest pocięty na godzinne odcinki i co godzinę zmieniasz to, czym się zajmujesz. Ludzie, którzy coś tworzą, jak programiści i pisarze, zwykle wolą używać czasu w jednostkach co najmniej pół dnia. W takim harmonogramie, pisał, jedno spotkanie może zepsuć całe popołudnie, rozcinając je na dwie części, z których każda jest zbyt mała, by zrobić w niej coś trudnego. Jego własnym rozwiązaniem były godziny przyjęć: grupował spotkania z założycielami firm pod koniec swojego dnia pracy, żeby nigdy go nie przerywały.
 
-## Strategia 4: 90-minutowy blok skupienia
+Timeboxing ułatwia zastosowanie tej zasady. Wypełnij jedną połowę dnia blokami skupienia, a spotkania, na które masz wpływ, ustaw obok siebie w drugiej połowie. Oto jak to może wyglądać:
 
-Badania pokazują, że ludzki mózg potrafi utrzymać maksymalne skupienie przez około 90 minut, zanim będzie potrzebował odpoczynku.
+| Czas | Blok | Tryb |
+|---|---|---|
+| 08:30–08:45 | Zaplanować dzień | Menedżer |
+| 08:45–09:45 | Priorytet: napisać aktualizację dla inwestorów | Twórca |
+| 09:45–10:00 | Przerwa | Odpoczynek |
+| 10:00–11:00 | Szkic specyfikacji produktu | Twórca |
+| 11:00–12:00 | Dokończyć specyfikację produktu | Twórca |
+| 12:00–13:00 | Lunch | Odpoczynek |
+| 13:00–15:00 | Spotkania jedno po drugim | Menedżer |
+| 15:00–15:30 | Poczta i wiadomości | Menedżer |
+| 15:30–16:30 | Bufor na wszystko, co się przeciągnęło | Bufor |
+| 16:30–17:00 | Podsumować dziś i zaplanować jutro | Menedżer |
 
-### Wdrożenie
+Poranek ma trzy bloki skupienia z rzędu z jedną krótką przerwą, a popołudnie przyjmuje wszystkie spotkania. Więcej układów według roli znajdziesz w [szablonie harmonogramu dla kadry zarządzającej](/pl/templates/executive).
 
-1. **Zaplanuj 90-minutowe bloki skupienia** na najważniejszą pracę
-2. **Rób 20-30 minut przerwy** między blokami
-3. **Ogranicz się do 4-5 bloków skupienia dziennie**
+## 5. Zaplanuj około pięciu zadań i zostaw jeden blok pusty
 
-## Strategia 5: Harmonogram twórcy (filozofia Paula Grahama)
+Mediana zaplanowanego dnia w Chrobox to 5 zadań. To nie jest magiczna liczba, tylko to, co ludzie faktycznie planowali, ale to przydatny punkt wyjścia. Dzień z piętnastoma blokami wygląda produktywnie o 08:00, a o 18:00 przypomina porażkę. Zacznij od około pięciu zadań, w dni z wieloma spotkaniami planuj mniej i dostosuj plan po tygodniu.
 
-Paul Graham rozróżnia dwa rodzaje harmonogramów:
+**Zostaw jeden blok pusty celowo.** Coś się przeciągnie, a godzina buforu sprawia, że jedno spóźnione zadanie nie przesuwa reszty dnia. Jeśli bufor nie jest ci potrzebny, przesuń następne zadanie wcześniej albo skończ wcześniej. Jak rozłożyć większe projekty na kilka dni, opisuje nasz [przewodnik po planowaniu tygodnia](/pl/blog/weekly-planning-guide).
 
-### Harmonogram menedżera
-- Dzień podzielony na godzinne przedziały
-- Spotkania rozsiane po całym dniu
+## Jak zacząć od jutra
 
-### Harmonogram twórcy
-- Dzień podzielony na półdniowe bloki
-- Długie, nieprzerwane okresy na pracę kreatywną
+1. Dziś wieczorem zapisz ważne zadania na jutro i oznacz jedno jako priorytet.
+2. Daj priorytetowi pierwszy długi blok swojego dnia pracy.
+3. Wstaw każde inne ważne zadanie na zegar, domyślnie 60 minut.
+4. Przesuń spotkania, na które masz wpływ, tak by były obok siebie.
+5. Zostaw jeden blok pusty i zakończ dzień planowaniem następnego.
 
-## Wdrażanie tych strategii z Chrobox
+## Korzystanie z tych strategii w Chrobox
 
-Chrobox został zaprojektowany tak, aby wspierać wszystkie te strategie time-boxingu:
-
-- **Elastyczny czas trwania bloków** — od 5 minut do całych dni
-- **Planowanie oparte na priorytetach** — wbudowany proces ustalania priorytetów
-- **Obsługa motywów i tematów** — taguj i kategoryzuj swoje bloki czasu
-- **Tryb skupienia** — realizacja zadań bez rozpraszaczy
-
-## Podsumowanie
-
-Strategie stosowane przez ludzi osiągających najlepsze wyniki to nie magia — to sprawdzone systemy, które może wdrożyć każdy. Zacznij od jednej metody, praktykuj ją konsekwentnie i patrz, jak Twoja produktywność szybuje w górę.
-    `,
+Chrobox to aplikacja do timeboxingu na iPhone'a i Androida. Dodajesz zadania, oznaczasz priorytety i przeciągasz każde zadanie na oś dnia, gdzie staje się blokiem z godziną rozpoczęcia i długością. Gdy blok się zaczyna, dostajesz powiadomienie i możesz uruchomić timer skupienia, który domyślnie ma długość bloku. Wszystko to jest bezpłatne. Blokowanie rozpraszających aplikacji podczas bloku jest częścią Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Time-boxing vs Pomodoro: Która technika jest dla Ciebie odpowiednia?
 

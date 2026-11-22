@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: 'Time-Boxing: Ünlü CEO\'ların Kullandığı 5 Strateji',
-      excerpt: 'Elon Musk, Bill Gates ve diğer başarılı liderlerin üretkenliği zirveye taşımak ve olağanüstü sonuçlar elde etmek için kullandığı time-boxing stratejilerini öğrenin.',
+      title: '5 Timeboxing Stratejisi: 5,077 Gerçek Görevin Verisiyle',
+      excerpt: 'Başlamaya değer beş timeboxing stratejisi: her zorunlu göreve başlangıç saati, öncelik önce, 60 dakikalık kutular, toplantılar odak işinden ayrı, bir tampon.',
       faqs: [
         {
-          question: 'Elon Musk gerçekten gününü 5 dakikalık bloklar halinde mi planlıyor?',
-          answer: 'Evet. Musk, yoğunluğu en üst düzeye çıkarmak ve zaman kaybını en aza indirmek için toplantı ve görevlerini 5 dakikalık dilimler halinde planladığını açıkça belirtmiştir. Bu düzeyde bir detay onun için işe yarasa da çoğu insan kendi ritmine uyarlanmış biraz daha uzun bloklardan (15-30 dakika) daha fazla verim alır.',
+          question: 'Başlamak için en iyi timeboxing stratejisi hangisi?',
+          answer: 'Her zorunlu göreve bir başlangıç saati vererek başlayın. Chrobox verisinde zaman dilimi olan görevler %48.1 oranında tamamlandı; listede bırakılan görevlerde bu oran %17.6 idi. Bu bir alışkanlık olduğunda diğer stratejileri teker teker ekleyin.',
         },
         {
-          question: 'Temalı günleri time-boxing ile birleştirebilir miyim?',
-          answer: 'Kesinlikle. Her güne bir tema atamak (örneğin, pazartesi planlama, salı derin çalışma için) makro düzeyde odak noktasının sürekli değişmesini engeller; gün içindeki time-boxing ise mikro düzeyde odaklanmayı sağlar. Bu kombinasyon, kullanabileceğiniz en etkili üretkenlik sistemlerinden biridir.',
+          question: 'Odaklı iş ve toplantılar aynı güne konabilir mi?',
+          answer: 'Konabilir, ama gün içinde birbirinden ayrı tutun. 2009 tarihli "Maker\'s Schedule, Manager\'s Schedule" denemesinde Paul Graham, tek bir toplantının öğleden sonrayı zor iş için çok küçük parçalara bölebileceğini savundu; bu yüzden toplantıları yan yana toplayın ve odaklı iş için yarım günlük bir blok ayırın.',
         },
         {
-          question: 'Günde kaç tane odaklanma bloğu planlamalıyım?',
-          answer: 'Bilişsel performans üzerine yapılan araştırmalar, günde 60-90 dakikalık 3 ila 5 derin çalışma bloğunun çoğu insan için sürdürülebilir bir üst sınır olduğunu gösteriyor. Bunun ötesinde, karar yorgunluğu başlar ve verim düşer. Zihinsel enerjinizin en yüksek olduğu ilk iki bloğa en zorlu görevlerinizi planlayın.',
+          question: 'Günde kaç zaman kutusu planlamalıyım?',
+          answer: 'Yaklaşık beş görev ve bir boş tampon kutusuyla başlayın. Chrobox verisinde ortanca planlı günde 5 görev vardı. Çok toplantılı günlerde daha azını planlayın ve bir hafta sonra ayarlayın.',
         },
       ],
     },
@@ -2422,80 +2422,75 @@ Yine de durun. Nerede olduğunuzu tek satırla yazın, sonra üç seçenekten bi
 Chrobox, iPhone ve Android için bir timeboxing uygulamasıdır. Bir görevi başlangıç saati ve süreyle eklersiniz, görev günün zaman çizelgesinde görünür ve bir uyarı kutunun ne zaman başladığını söyler. Odak zamanlayıcısı, geçerli kutunun süresini bir kez geri sayar; gün sonundaki kısa bir değerlendirme ise nelerin ilerlediğini kaydeder. Görevler, öncelikler, zaman çizelgesi, odak zamanlayıcısı, uyarılar, rutinler ve günlük değerlendirmeler ücretsizdir; bir kutu sırasında dikkat dağıtan uygulamaları engelleme, ana ekran ve kilit ekranı widget'ları, yapay zekâ ile planlama ve ayrıntılı istatistikler Pro'nun parçasıdır.
 `,
     '5-time-boxing-strategies': `
-# En Başarılı CEO'lar ve Girişimciler Tarafından Kullanılan 5 Zaman Kutulama (Time-Boxing) Stratejisi
+# 5 Timeboxing Stratejisi: 5,077 Gerçek Görevin Verisiyle
 
-Dünyanın en başarılı insanlarının nasıl bu kadar çok işi başarabildiğini hiç merak ettiniz mi? Herkesle aynı 24 saate sahip olsalar da, onları farklı kılan şey zaman yönetimine olan yaklaşımlarıdır.
+**Başlamaya değer beş timeboxing stratejisi şunlar: her zorunlu göreve bir başlangıç saati verin, en önemli önceliğinizi erken bir kutuya koyun, varsayılan olarak 60 dakikalık kutular kullanın, odaklı işi toplantılardan ayrı tutun ve günde yaklaşık beş görev planlayıp taşmalar için bir kutuyu boş bırakın.** Aşağıdaki her stratejinin arkasında ya Chrobox kullanım verisi (250 kişinin planladığı 5,077 görev, Aralık 2025 – Eylül 2026) ya da kendinizin okuyabileceği bir kaynak var. Belirli bir CEO'nun gününü nasıl böldüğüne dair meşhur hikâyeleri bilerek dışarıda bıraktık: çoğu ikinci elden anlatılıyor ve doğrulanması zor.
 
-Pek çok üst düzey yönetici, gizli silahı olarak zaman kutulama (time-boxing) yöntemine güveniyor. Gelin, kullandıkları kanıtlanmış beş stratejiyi birlikte inceleyelim.
+| # | Strateji | Ne yapmalı | Dayanak |
+|---|---|---|---|
+| 1 | Her zorunlu göreve başlangıç saati verin | Görevleri listeden saate taşıyın | Zaman kutulu görevler %48.1 oranında, yalnızca listedeki görevler %17.6 oranında tamamlandı |
+| 2 | Öncelik önce, erkenden | En önemli göreve sabahın ilk kutusunu verin | 05:00–08:59 arasında başlayan kutular %62.3 oranında, 21:00–23:59 arasında başlayanlar %33.2 oranında tamamlandı |
+| 3 | Varsayılan 60 dakika | Her kutuyu tam saatte başlatın, daha uzun işleri bölün | Ortanca kutu 60 dakikaydı |
+| 4 | Odaklı işi toplantılardan ayrı tutun | Yarım günlük bir blok ayırın ve toplantıları yan yana toplayın | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Yaklaşık beş görev ve bir tampon | Taşan işler için bir kutuyu boş bırakın | Ortanca planlı günde 5 görev vardı |
 
-## Strateji 1: 5 Dakika Kuralı (Elon Musk'ın Yaklaşımı)
+## 1. Her zorunlu göreve bir başlangıç saati verin
 
-Tesla ve SpaceX'in CEO'su Elon Musk, gününü 5 dakikalık bloklara bölmesiyle tanınır. Bu kulağa aşırı gelse de, arkasındaki ilke oldukça güçlüdür.
+Yapılacaklar listesi ne yapacağınızı söyler. Zaman kutusu ise ne zaman ve ne kadar süreyle yapacağınızı da söyler; ve bu, üstüne kurulan herhangi bir akıllı sistemden daha önemli çıkıyor. Chrobox verisinde, gün zaman çizelgesinde hem başlangıç saati hem süresi olan görevler %48.1 oranında işaretlendi. Bir zaman dilimi olmadan listede kalan görevler ise %17.6 oranında işaretlendi.
 
-### Nasıl Uygulanır?
+Bu fark, ortalamayı yukarı çeken çok düzenli birkaç kişiden kaynaklanmıyor. Karşılaştırma yapacak kadar her iki türde görev planlayan 41 kişinin 35'i, zaman kutulu görevlerinin zamansız görevlerinden daha fazlasını tamamladı. Bu bir deney değil, gözlemsel veri: insanlar zaten yapmayı düşündükleri görevlere saat veriyor olabilir ve bir zaman dilimi aynı zamanda hatırlatıcı işlevi görür. Yine de pratik kural değişmiyor. Bir görevin bugün yapılması gerekiyorsa, bugün için bir saati olmalı. Saatte hiçbir yere sığmıyorsa, zaten bugün yapılmayacaktı; onu 22:00'de değil şimdi ertelemek daha iyi.
 
-- **Büyük görevleri tahmin etmek için 5 dakikalık dilimlere bölün**
-- **Toplantıları varsayılan olarak 30 veya 60 dakika yapmak yerine 5 dakikalık bloklar halinde planlayın**
-- **Hızlı kararlar almak için mikro zaman kutuları kullanın**
+## 2. En önemli önceliğinizi sabahın ilk kutusuna koyun
 
-## Strateji 2: İki Liste Sistemi (Warren Buffett'ın Yöntemi)
+İki rakam aynı yönü gösteriyor. Öncelik olarak işaretlenen görevler %44.5 oranında tamamlandı, diğer her şey ise %28.9. Ayrıca 05:00 ile 08:59 arasında başlayan kutular %62.3 oranında, 21:00 ile 23:59 arasında başlayan kutular ise %33.2 oranında tamamlandı.
 
-Warren Buffett'ın yaklaşımı, zaman kutulama işlemine geçmeden önce acımasız bir önceliklendirme yapmaya odaklanır.
+Sabah etkisinin bir kısmı, kimin erken plan yaptığından kaynaklanıyor: 06:30'a görev koyan biri belki sadece daha düzenlidir. Her iki durumda da öneri aynı. **Önceki akşam tek bir öncelik seçin ve ona çalışma gününüzün ilk uzun kutusunu verin**; e-posta, sohbet ya da toplantılar o saati almadan önce. Gününüz 10:00'da başlıyorsa ilk kutu 10:00'dadır; önemli olan erken olmak değil, ilk olmak.
 
-### Süreç
+## 3. Varsayılan olarak 60 dakikalık kutular kullanın
 
-1. **En önemli 25 hedefinizi veya görevinizi yazın**
-2. **En önemli ilk 5 tanesini daire içine alın**
-3. **YALNIZCA bu ilk 5'i zaman kutusuna alın**
-4. **Diğer 20'sinden aktif olarak kaçının** — onlar aslında kılık değiştirmiş dikkat dağıtıcılardır
+Chrobox'taki ortanca zaman kutusu 60 dakikaydı. Bunun bir kısmı uygulamanın kendisinden geliyor, çünkü zaman çizelgesinde bir saate bırakılan görev 60 dakikalık kutu olarak başlıyor ve birçok kişi bunu değiştirmiyor. Yine de bir saat mantıklı bir varsayılan: gerçek bir işe düzgünce başlamaya yetecek kadar uzun, kesintilerden korumaya yetecek kadar kısa.
 
-## Strateji 3: Temalı Günler (Jack Dorsey'nin Sistemi)
+E-posta, mesajlar ve küçük idari işler için 15 ila 30 dakikalık daha kısa kutular kullanın ve bunları her saate sızmasınlar diye gruplayın. Bir görev yaklaşık 90 dakikadan fazla gerektiriyorsa, tek uzun bir blok ayırmak yerine arasına kısa bir mola koyarak iki kutuya bölün. [Tamamlanma verisi raporumuz](/tr/blog/does-timeboxing-work), kutu uzunluğunun tamamlanmayla nasıl ilişkili olduğunun tüm dökümünü içeriyor.
 
-Jack Dorsey hem Twitter'ı hem de Square'i aynı anda yönetirken, zamanını yönetmek için temalı günlerden yararlanıyordu.
+## 4. Odaklı işi ve toplantıları ayrı tutun
 
-| Gün | Tema |
-|-----|-------|
-| Pazartesi | Yönetim ve Operasyon |
-| Salı | Ürün Geliştirme |
-| Çarşamba | Pazarlama ve Büyüme |
-| Perşembe | İş Ortaklıkları ve İş Geliştirme |
-| Cuma | Şirket Kültürü ve İşe Alım |
+Temmuz 2009 tarihli "Maker's Schedule, Manager's Schedule" (Üreticinin Takvimi, Yöneticinin Takvimi) adlı denemesinde Paul Graham zamanı kullanmanın iki yolunu anlattı. Yöneticinin takviminde gün bir saatlik aralıklara bölünür ve her saat yaptığınız işi değiştirirsiniz. Programcılar ve yazarlar gibi bir şeyler üreten insanlar ise genellikle zamanı en az yarım günlük birimlerle kullanmayı tercih eder. Yazdığına göre bu takvimde tek bir toplantı, öğleden sonrayı her biri zor bir iş yapmak için çok küçük iki parçaya bölerek tamamen mahvedebilir. Kendi çözümü ofis saatleriydi: kurucularla toplantılarını çalışma gününün sonunda topladı, böylece günü hiç bölmediler.
 
-## Strateji 4: 90 Dakikalık Odaklanma Bloğu
+Timeboxing bunu uygulamayı kolaylaştırır. Günün bir yarısını odak kutularıyla doldurun, kontrol edebildiğiniz toplantıları diğer yarıda yan yana koyun. Şöyle görünebilir:
 
-Araştırmalar, insan beyninin dinlenmeye ihtiyaç duymadan önce yaklaşık 90 dakika boyunca en yüksek odaklanma seviyesini koruyabildiğini gösteriyor.
+| Saat | Kutu | Mod |
+|---|---|---|
+| 08:30–08:45 | Günü planla | Yönetici |
+| 08:45–09:45 | Öncelik: yatırımcı güncellemesini yaz | Üretici |
+| 09:45–10:00 | Mola | Dinlenme |
+| 10:00–11:00 | Ürün şartnamesinin taslağını çıkar | Üretici |
+| 11:00–12:00 | Ürün şartnamesini bitir | Üretici |
+| 12:00–13:00 | Öğle yemeği | Dinlenme |
+| 13:00–15:00 | Arka arkaya toplantılar | Yönetici |
+| 15:00–15:30 | E-posta ve mesajlar | Yönetici |
+| 15:30–16:30 | Taşan işler için tampon | Tampon |
+| 16:30–17:00 | Bugünü gözden geçir, yarını planla | Yönetici |
 
-### Uygulama
+Sabah, yalnızca kısa bir molayla arka arkaya üç odak kutusu içeriyor; öğleden sonra ise tüm toplantıları üstleniyor. Role göre daha fazla düzen için [yönetici takvimi şablonuna](/tr/templates/executive) bakın.
 
-1. **En önemli işleriniz için 90 dakikalık odaklanma blokları planlayın**
-2. **Bloklar arasında 20-30 dakikalık bir mola verin**
-3. **Günde en fazla 4-5 odaklanma bloğu ile sınırlandırın**
+## 5. Yaklaşık beş görev planlayın ve bir kutuyu boş bırakın
 
-## Strateji 5: Üretici Programı (Paul Graham'ın Felsefesi)
+Chrobox'taki ortanca planlı günde 5 görev vardı. Bu sihirli bir sayı değil, insanların gerçekte planladığı sayı; ama yine de iyi bir başlangıç noktası. On beş kutulu bir gün 08:00'de verimli görünür, 18:00'de başarısızlık gibi hissettirir. Yaklaşık beş görevle başlayın, çok toplantılı günlerde daha azını planlayın ve bir hafta sonra ayarlayın.
 
-Paul Graham iki tür program arasında ayrım yapar:
+**Bir kutuyu bilerek boş bırakın.** Bir şey mutlaka taşacak ve tampon saat, geç kalan tek bir görevin günün geri kalanını da ötelemesini engeller. Tampona ihtiyacınız olmazsa bir sonraki görevi öne çekin ya da erken bitirin. Daha büyük projeleri birkaç güne yaymak için [haftalık planlama rehberimize](/tr/blog/weekly-planning-guide) bakın.
 
-### Yönetici Programı
-- Günün birer saatlik dilimlere bölünmesi
-- Gün içine dağılmış toplantılar
+## Yarına nasıl başlanır
 
-### Üretici Programı
-- Günün yarım günlük bloklara bölünmesi
-- Yaratıcı çalışmalar için uzun, kesintisiz süreler
+1. Bu akşam yarının zorunlu görevlerini yazın ve birini öncelik olarak işaretleyin.
+2. Önceliğe çalışma gününüzün ilk uzun kutusunu verin.
+3. Diğer tüm zorunlu görevleri saate yerleştirin, varsayılan olarak 60 dakika.
+4. Kontrol edebildiğiniz toplantıları yan yana getirin.
+5. Bir kutuyu boş bırakın ve günü bir sonrakini planlayarak bitirin.
 
-## Bu Stratejileri Chrobox ile Uygulamak
+## Bu stratejileri Chrobox'ta kullanmak
 
-Chrobox, tüm bu zaman kutulama stratejilerini destekleyecek şekilde tasarlanmıştır:
-
-- **Esnek zaman kutusu süreleri** — 5 dakikadan tam günlere kadar
-- **Öncelik odaklı planlama** — Yerleşik önceliklendirme iş akışı
-- **Tema desteği** — Zaman kutularınızı etiketleyin ve kategorilere ayırın
-- **Odaklanma modu** — Dikkat dağıtıcı unsurlardan uzak uygulama
-
-## Sonuç
-
-En başarılı kişilerin kullandığı stratejiler sihirli değnek değildir; herkesin benimseyebileceği, kanıtlanmış sistemlerdir. Tek bir yaklaşımla başlayın, bunu tutarlı bir şekilde uygulayın ve üretkenliğinizin nasıl tavan yaptığını izleyin.
-    `,
+Chrobox, iPhone ve Android için bir timeboxing uygulaması. Görev eklersiniz, öncelikleri işaretlersiniz ve her görevi gün zaman çizelgesine sürüklersiniz; görev başlangıç saati ve süresi olan bir kutuya dönüşür. Bir kutu başladığında bildirim alırsınız ve varsayılan süresi kutunun süresi olan bir odak zamanlayıcısı başlatabilirsiniz. Bunların hepsi ücretsiz. Bir kutu sırasında dikkat dağıtan uygulamaları engellemek Chrobox Pro'nun parçası.
+`,
     'time-boxing-vs-pomodoro': `
 # Time-Boxing ve Pomodoro: Hangi Teknik Sizin İçin En Uygunu?
 

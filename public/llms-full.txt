@@ -286,81 +286,76 @@ Time-blocking structures your day. Time-boxing disciplines your execution. Used 
 
 ---
 
-## 5 Time-Boxing Strategies Used by Top CEOs and Entrepreneurs
+## 5 Timeboxing Strategies, With Data From 5,077 Real Tasks
 
-Source: https://chrobox.net/blog/5-time-boxing-strategies · Updated: 2024-12-03
+Source: https://chrobox.net/blog/5-time-boxing-strategies · Updated: 2026-11-22
 
-Ever wondered how the world's most successful people manage to accomplish so much? While they have the same 24 hours as everyone else, their approach to time management sets them apart.
+**Five timeboxing strategies are worth starting with: give every must-do task a start time, put your top priority in an early box, default to 60-minute boxes, keep focused work apart from meetings, and plan about five tasks a day with one empty box for overruns.** Each strategy below is backed either by Chrobox usage data (5,077 planned tasks from 250 people, December 2025 to September 2026) or by a source you can read yourself. Famous stories about how a particular CEO splits the day are left out on purpose: most are retold second-hand and are hard to check.
 
-Many top executives rely on time-boxing as their secret weapon. Let's explore five proven strategies they use.
+| # | Strategy | What to do | Basis |
+|---|---|---|---|
+| 1 | Give every must-do a start time | Move tasks from the list onto the clock | Time-boxed tasks were completed 48.1% of the time, list-only tasks 17.6% |
+| 2 | Priority first, early | Give the one task that matters most the first box of the morning | Boxes starting 05:00–08:59 were completed 62.3% of the time, boxes starting 21:00–23:59 33.2% |
+| 3 | Default to 60 minutes | Start every box at an hour and split longer work | The median box was 60 minutes |
+| 4 | Keep focused work apart from meetings | Protect a half-day block and stack meetings together | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Plan about five tasks, plus a buffer | Leave one box empty for whatever runs over | The median planned day had 5 tasks |
 
-### Strategy 1: The 5-Minute Rule (Elon Musk's Approach)
+### 1. Give every must-do task a start time
 
-Elon Musk, CEO of Tesla and SpaceX, famously divides his day into 5-minute blocks. While this might seem extreme, the principle is powerful.
+A to-do list tells you what to do. A time box also tells you when and for how long, and that turns out to matter more than any clever system on top. In Chrobox data, tasks that had both a start time and a length on the day timeline were checked off 48.1% of the time. Tasks that stayed on the list without a slot were checked off 17.6% of the time.
 
-#### How to Apply It
+The gap is not just a few very organized people pulling up the average. Among the 41 people who planned enough tasks both ways to compare, 35 finished more of their time-boxed tasks than their unscheduled ones. This is observational data, not an experiment: people may give a time to tasks they already intend to do, and a slot also works as a reminder. The practical rule still follows. If a task has to happen today, it needs a time today. If it does not fit anywhere on the clock, it was never going to happen today, and it is better to move it now than at 22:00.
 
-- **Break large tasks into 5-minute increments** for estimation
-- **Schedule meetings in 5-minute blocks** rather than defaulting to 30 or 60 minutes
-- **Use micro time-boxes for quick decisions**
+### 2. Put your top priority in the first box of the morning
 
-### Strategy 2: The Two-List System (Warren Buffett's Method)
+Two numbers point the same way. Tasks marked as a priority were completed 44.5% of the time, against 28.9% for everything else. And boxes that started between 05:00 and 08:59 were completed 62.3% of the time, while boxes that started between 21:00 and 23:59 were completed 33.2% of the time.
 
-Warren Buffett's approach focuses on ruthless prioritization before time-boxing.
+Part of the morning effect is who plans early: someone who schedules a 06:30 task may simply be more consistent. The advice is the same either way. **Pick one priority the night before and give it the first long box of your working day**, before email, chat or meetings can claim that time. If your day starts at 10:00, the first box is at 10:00; the point is first, not early for its own sake.
 
-#### The Process
+### 3. Default to 60-minute boxes
 
-1. **Write down your top 25 goals or tasks**
-2. **Circle the top 5 most important**
-3. **Time-box ONLY the top 5**
-4. **Actively avoid the other 20** — they're distractions in disguise
+The median time box in Chrobox was 60 minutes. Part of that is the app itself, because a task dropped onto an hour on the timeline starts as a 60-minute box and many people keep it. Still, an hour is a sensible default: long enough to get properly started on real work, short enough that you can protect it from interruptions.
 
-### Strategy 3: Theme Days (Jack Dorsey's System)
+Use shorter boxes of 15 to 30 minutes for email, messages and small admin tasks, and group them so they do not leak into every hour. When a task needs more than about 90 minutes, split it into two boxes with a short break between them instead of booking one long block. Our [completion data report](/blog/does-timeboxing-work) has the full breakdown of how box length related to completion.
 
-When Jack Dorsey was running both Twitter and Square simultaneously, he used themed days to manage his time.
+### 4. Keep focused work and meetings apart
 
-| Day | Theme |
-|-----|-------|
-| Monday | Management & Operations |
-| Tuesday | Product Development |
-| Wednesday | Marketing & Growth |
-| Thursday | Partnerships & Business Development |
-| Friday | Company Culture & Hiring |
+In a July 2009 essay, "Maker's Schedule, Manager's Schedule", Paul Graham described two ways of using time. On the manager's schedule, the day is cut into one-hour intervals and you change what you are doing every hour. People who make things, such as programmers and writers, generally prefer to use time in units of half a day at least. On that schedule, he wrote, a single meeting can blow a whole afternoon by breaking it into two pieces, each too small to do anything hard in. His own fix was office hours: he clustered meetings with founders at the end of his working day, so they never interrupted it.
 
-### Strategy 4: The 90-Minute Focus Block
+Timeboxing makes this easy to apply. Fill one half of the day with focus boxes and put the meetings you control next to each other in the other half. Here is what that can look like:
 
-Research shows that the human brain can maintain peak focus for about 90 minutes before needing rest.
+| Time | Box | Mode |
+|---|---|---|
+| 08:30–08:45 | Plan the day | Manager |
+| 08:45–09:45 | Priority: write the investor update | Maker |
+| 09:45–10:00 | Break | Rest |
+| 10:00–11:00 | Draft the product spec | Maker |
+| 11:00–12:00 | Finish the product spec | Maker |
+| 12:00–13:00 | Lunch | Rest |
+| 13:00–15:00 | Meetings, back to back | Manager |
+| 15:00–15:30 | Email and messages | Manager |
+| 15:30–16:30 | Buffer for anything that ran over | Buffer |
+| 16:30–17:00 | Review today and plan tomorrow | Manager |
 
-#### Implementation
+The morning holds three focus boxes in a row with only a short break, and the afternoon absorbs every meeting. For more layouts by role, see the [executive schedule template](/templates/executive).
 
-1. **Schedule 90-minute focus blocks** for your most important work
-2. **Take a 20-30 minute break** between blocks
-3. **Limit to 4-5 focus blocks per day**
+### 5. Plan about five tasks, and leave one box empty
 
-### Strategy 5: The Maker's Schedule (Paul Graham's Philosophy)
+The median planned day in Chrobox had 5 tasks. That is not a magic number, it is what people actually planned, but it is a useful starting point. A day with fifteen boxes looks productive at 08:00 and feels like failure at 18:00. Start with about five tasks, plan fewer on days with many meetings, and adjust after a week.
 
-Paul Graham distinguishes between two types of schedules:
+**Keep one box empty on purpose.** Something will run over, and a buffer hour stops one late task from pushing the rest of the day later. If you do not need the buffer, pull the next task forward or finish early. To spread bigger projects across several days, see our [weekly planning guide](/blog/weekly-planning-guide).
 
-#### Manager's Schedule
-- Day divided into one-hour slots
-- Meetings scattered throughout
+### How to start tomorrow
 
-#### Maker's Schedule
-- Day divided into half-day blocks
-- Long, uninterrupted periods for creative work
+1. Tonight, write down tomorrow's must-do tasks and mark one as the priority.
+2. Give the priority the first long box of your working day.
+3. Put every other must-do task on the clock, 60 minutes by default.
+4. Move the meetings you control next to each other.
+5. Leave one box empty, and end the day by planning the next one.
 
-### Implementing These Strategies with Chrobox
+### Using these strategies in Chrobox
 
-Chrobox is designed to support all these time-boxing strategies:
-
-- **Flexible time-box durations** — From 5 minutes to full days
-- **Priority-first planning** — Built-in prioritization workflow
-- **Theme support** — Tag and categorize your time boxes
-- **Focus mode** — Distraction-free execution
-
-### Conclusion
-
-The strategies used by top performers aren't magic—they're proven systems that anyone can adopt. Start with one approach, practice it consistently, and watch your productivity soar.
+Chrobox is a timeboxing app for iPhone and Android. You add tasks, mark priorities and drag each task onto the day timeline, where it becomes a box with a start time and a length. When a box starts, you get a notification, and you can start a focus timer that defaults to the length of the box. All of this is free. Blocking distracting apps during a box is part of Chrobox Pro.
 
 ---
 

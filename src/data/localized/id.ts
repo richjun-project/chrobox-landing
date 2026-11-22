@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: '5 Strategi Timeboxing ala CEO & Pengusaha Sukses',
-      excerpt: 'Pelajari strategi timeboxing yang digunakan Elon Musk, Bill Gates, dan para pemimpin top lainnya untuk memaksimalkan produktivitas dan meraih hasil luar biasa.',
+      title: '5 Strategi Timeboxing, dengan Data dari 5.077 Tugas Nyata',
+      excerpt: 'Lima strategi timeboxing untuk memulai: waktu mulai tiap tugas wajib, prioritas lebih dulu, kotak 60 menit, rapat dipisah dari kerja fokus, dan satu buffer.',
       faqs: [
         {
-          question: 'Apakah Elon Musk benar-benar menjadwalkan harinya dalam blok 5 menit?',
-          answer: 'Ya. Musk secara terbuka pernah membahas tentang penjadwalan rapat dan tugas dalam slot 5 menit untuk memaksimalkan kepadatan aktivitas dan meminimalkan waktu yang terbuang. Meskipun pembagian yang sangat detail ini berhasil untuknya, kebanyakan orang lebih cocok dengan blok yang sedikit lebih panjang (15–30 menit) yang disesuaikan dengan ritme masing-masing.',
+          question: 'Strategi timeboxing apa yang paling baik untuk dimulai?',
+          answer: 'Mulailah dengan memberi setiap tugas wajib sebuah waktu mulai. Dalam data Chrobox, tugas dengan slot waktu diselesaikan 48,1% dari waktu, dibandingkan 17,6% untuk tugas yang dibiarkan di daftar. Setelah itu menjadi kebiasaan, tambahkan strategi lainnya satu per satu.',
         },
         {
-          question: 'Apakah saya bisa menggabungkan hari bertema dengan timeboxing?',
-          answer: 'Tentu saja. Menentukan tema untuk setiap hari (misalnya, Senin untuk perencanaan, Selasa untuk deep work) membatasi context-switching di tingkat makro, sementara timeboxing di dalam setiap hari mengatur fokus di tingkat mikro. Kombinasi ini adalah salah satu sistem produktivitas paling efektif yang ada.',
+          question: 'Haruskah kerja fokus dan rapat ditaruh di hari yang sama?',
+          answer: 'Boleh, tetapi pisahkan keduanya di dalam hari itu. Dalam esainya tahun 2009, "Maker\'s Schedule, Manager\'s Schedule", Paul Graham berpendapat bahwa satu rapat saja bisa memecah sore hari menjadi potongan yang terlalu kecil untuk pekerjaan sulit, jadi kumpulkan rapat berdekatan dan lindungi setengah hari untuk kerja fokus.',
         },
         {
-          question: 'Berapa banyak blok fokus yang sebaiknya saya jadwalkan setiap hari?',
-          answer: 'Penelitian tentang kinerja kognitif menunjukkan bahwa 3–5 blok deep work berdurasi 60–90 menit per hari adalah batas maksimal yang ideal bagi kebanyakan orang. Lebih dari itu, kelelahan mengambil keputusan (decision fatigue) dan penurunan produktivitas akan mulai terasa. Jadwalkan tugas-tugas tersulit Anda di dua blok pertama saat energi mental Anda masih berada di puncaknya.',
+          question: 'Berapa banyak kotak waktu yang sebaiknya saya rencanakan per hari?',
+          answer: 'Mulailah dengan sekitar lima tugas ditambah satu kotak buffer yang kosong. Median hari yang direncanakan dalam data Chrobox adalah 5 tugas. Rencanakan lebih sedikit pada hari yang banyak rapat, lalu sesuaikan setelah seminggu.',
         },
       ],
     },
@@ -2422,80 +2422,75 @@ Tetap berhenti. Tulis satu baris tentang sampai di mana Anda, lalu pilih satu da
 Chrobox adalah aplikasi timeboxing untuk iPhone dan Android. Anda menambahkan tugas dengan waktu mulai dan durasi, tugas itu muncul di linimasa hari tersebut, dan sebuah notifikasi memberi tahu saat kotak dimulai. Timer fokus menghitung mundur durasi kotak saat ini satu kali, dan refleksi singkat di akhir hari mencatat apa yang bergerak. Tugas, prioritas, linimasa, timer fokus, notifikasi, rutinitas, dan refleksi harian gratis; memblokir aplikasi yang mengganggu selama kotak, widget layar utama dan layar kunci, perencanaan AI, dan statistik terperinci adalah bagian dari Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 Strategi Time-Boxing yang Digunakan oleh CEO dan Pengusaha Top
+# 5 Strategi Timeboxing, dengan Data dari 5.077 Tugas Nyata
 
-Pernahkah Anda bertanya-tanya bagaimana orang-orang paling sukses di dunia berhasil menyelesaikan begitu banyak hal? Meskipun mereka memiliki waktu 24 jam yang sama dengan orang lain, pendekatan mereka dalam manajemen waktu yang membedakan mereka.
+**Lima strategi timeboxing ini layak dicoba lebih dulu: beri setiap tugas wajib waktu mulai, taruh prioritas utama di kotak awal, jadikan kotak 60 menit sebagai default, pisahkan kerja fokus dari rapat, dan rencanakan sekitar lima tugas per hari dengan satu kotak kosong untuk yang molor.** Setiap strategi di bawah didukung oleh data penggunaan Chrobox (5.077 tugas yang direncanakan oleh 250 orang, Desember 2025 sampai September 2026) atau oleh sumber yang bisa Anda baca sendiri. Kisah-kisah terkenal tentang cara CEO tertentu membagi harinya sengaja ditinggalkan: kebanyakan diceritakan ulang dari tangan kedua dan sulit diperiksa.
 
-Banyak eksekutif top mengandalkan time-boxing sebagai senjata rahasia mereka. Mari kita pelajari lima strategi terbukti yang mereka gunakan.
+| # | Strategi | Yang dilakukan | Dasar |
+|---|---|---|---|
+| 1 | Beri setiap tugas wajib waktu mulai | Pindahkan tugas dari daftar ke jam | Tugas time-boxed diselesaikan 48,1% dari waktu, tugas yang hanya di daftar 17,6% |
+| 2 | Prioritas dulu, lebih awal | Beri tugas terpenting kotak pertama di pagi hari | Kotak yang mulai pukul 05:00–08:59 diselesaikan 62,3% dari waktu, kotak yang mulai pukul 21:00–23:59 hanya 33,2% |
+| 3 | Default 60 menit | Mulai setiap kotak di jam tepat dan pecah pekerjaan yang lebih panjang | Median kotak adalah 60 menit |
+| 4 | Pisahkan kerja fokus dari rapat | Lindungi satu blok setengah hari dan kumpulkan rapat berdekatan | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Sekitar lima tugas, plus buffer | Sisakan satu kotak kosong untuk yang molor | Median hari yang direncanakan berisi 5 tugas |
 
-## Strategi 1: Aturan 5 Menit (Pendekatan Elon Musk)
+## 1. Beri setiap tugas wajib waktu mulai
 
-Elon Musk, CEO Tesla dan SpaceX, terkenal karena membagi harinya menjadi blok-blok berdurasi 5 menit. Meskipun ini terdengar ekstrem, prinsip di baliknya sangatlah ampuh.
+Daftar tugas memberi tahu apa yang harus dikerjakan. Kotak waktu juga memberi tahu kapan dan untuk berapa lama, dan itu ternyata lebih penting daripada sistem canggih apa pun di atasnya. Dalam data Chrobox, tugas yang memiliki waktu mulai sekaligus durasi di linimasa harian dicentang 48,1% dari waktu. Tugas yang tetap berada di daftar tanpa slot dicentang 17,6% dari waktu.
 
-### Cara Menerapkannya
+Selisih itu bukan hanya karena beberapa orang yang sangat terorganisir menaikkan rata-rata. Di antara 41 orang yang merencanakan cukup banyak tugas dalam kedua cara untuk dibandingkan, 35 orang menyelesaikan lebih banyak tugas time-boxed mereka daripada tugas yang tidak dijadwalkan. Ini data observasi, bukan eksperimen: orang mungkin memberi waktu pada tugas yang memang sudah ingin mereka kerjakan, dan slot waktu juga berfungsi sebagai pengingat. Aturan praktisnya tetap berlaku. Jika sebuah tugas harus terjadi hari ini, ia perlu waktu hari ini. Jika tidak muat di mana pun di jam, tugas itu memang tidak akan terjadi hari ini, dan lebih baik memindahkannya sekarang daripada pukul 22:00.
 
-- **Pecah tugas besar menjadi kelipatan 5 menit** untuk estimasi
-- **Jadwal rapat dalam blok 5 menit** alih-alih langsung menetapkan waktu default 30 atau 60 menit
-- **Gunakan time-box mikro untuk keputusan cepat**
+## 2. Taruh prioritas utama di kotak pertama pagi hari
 
-## Strategi 2: Sistem Dua Daftar (Metode Warren Buffett)
+Dua angka menunjuk ke arah yang sama. Tugas yang ditandai sebagai prioritas diselesaikan 44,5% dari waktu, dibandingkan 28,9% untuk semua yang lain. Dan kotak yang mulai antara pukul 05:00 dan 08:59 diselesaikan 62,3% dari waktu, sedangkan kotak yang mulai antara pukul 21:00 dan 23:59 diselesaikan 33,2% dari waktu.
 
-Pendekatan Warren Buffett berfokus pada penentuan prioritas yang ketat sebelum melakukan time-boxing.
+Sebagian efek pagi hari berasal dari siapa yang merencanakan lebih awal: orang yang menjadwalkan tugas pukul 06:30 mungkin memang lebih konsisten. Saran ini sama saja dalam kedua kasus. **Pilih satu prioritas pada malam sebelumnya dan beri ia kotak panjang pertama di hari kerja Anda**, sebelum email, obrolan, atau rapat mengambil waktu itu. Jika hari Anda dimulai pukul 10:00, kotak pertamanya pukul 10:00; intinya adalah yang pertama, bukan awal demi awal itu sendiri.
 
-### Prosesnya
+## 3. Default kotak 60 menit
 
-1. **Tuliskan 25 tujuan atau tugas utama Anda**
-2. **Lingkari 5 yang paling penting**
-3. **Lakukan time-boxing HANYA untuk 5 hal teratas tersebut**
-4. **Hindari 20 hal lainnya secara aktif** — itu semua adalah gangguan yang menyamar
+Median kotak waktu di Chrobox adalah 60 menit. Sebagian itu karena aplikasinya sendiri, sebab tugas yang dijatuhkan ke satu jam di linimasa dimulai sebagai kotak 60 menit dan banyak orang mempertahankannya. Meski begitu, satu jam adalah default yang masuk akal: cukup panjang untuk benar-benar mulai mengerjakan hal yang nyata, cukup pendek untuk dilindungi dari gangguan.
 
-## Strategi 3: Hari Bertema (Sistem Jack Dorsey)
+Gunakan kotak yang lebih pendek, 15 sampai 30 menit, untuk email, pesan, dan tugas administrasi kecil, dan kelompokkan agar tidak merembes ke setiap jam. Ketika sebuah tugas membutuhkan lebih dari sekitar 90 menit, bagi menjadi dua kotak dengan jeda singkat di antaranya, alih-alih memesan satu blok panjang. [Laporan data penyelesaian](/id/blog/does-timeboxing-work) kami memuat rincian lengkap tentang bagaimana panjang kotak berhubungan dengan penyelesaian.
 
-Ketika Jack Dorsey memimpin Twitter dan Square secara bersamaan, ia menggunakan hari bertema untuk mengelola waktunya.
+## 4. Pisahkan kerja fokus dan rapat
 
-| Hari | Tema |
-|-----|-------|
-| Senin | Manajemen & Operasional |
-| Selasa | Pengembangan Produk |
-| Rabu | Pemasaran & Pertumbuhan |
-| Kamis | Kemitraan & Pengembangan Bisnis |
-| Jumat | Budaya Perusahaan & Rekrutmen |
+Dalam esai Juli 2009, "Maker's Schedule, Manager's Schedule", Paul Graham menggambarkan dua cara memakai waktu. Pada jadwal manajer, hari dipotong menjadi interval satu jam dan Anda berganti kegiatan setiap jam. Orang yang membuat sesuatu, seperti programmer dan penulis, umumnya lebih suka memakai waktu dalam satuan setidaknya setengah hari. Pada jadwal itu, tulisnya, satu rapat saja bisa merusak seluruh sore dengan memecahnya menjadi dua bagian, masing-masing terlalu kecil untuk mengerjakan hal yang sulit. Solusinya sendiri adalah jam konsultasi: ia mengelompokkan pertemuan dengan para pendiri di akhir hari kerjanya, sehingga tidak pernah menginterupsinya.
 
-## Strategi 4: Blok Fokus 90 Menit
+Timeboxing membuat ini mudah diterapkan. Isi satu bagian hari dengan kotak fokus dan taruh rapat yang bisa Anda atur berdampingan di bagian hari yang lain. Seperti inilah contohnya:
 
-Penelitian menunjukkan bahwa otak manusia dapat mempertahankan fokus puncak selama sekitar 90 menit sebelum membutuhkan istirahat.
+| Waktu | Kotak | Mode |
+|---|---|---|
+| 08:30–08:45 | Rencanakan hari | Manajer |
+| 08:45–09:45 | Prioritas: tulis pembaruan untuk investor | Pembuat |
+| 09:45–10:00 | Istirahat | Rehat |
+| 10:00–11:00 | Susun draf spesifikasi produk | Pembuat |
+| 11:00–12:00 | Selesaikan spesifikasi produk | Pembuat |
+| 12:00–13:00 | Makan siang | Rehat |
+| 13:00–15:00 | Rapat beruntun | Manajer |
+| 15:00–15:30 | Email dan pesan | Manajer |
+| 15:30–16:30 | Buffer untuk yang molor | Buffer |
+| 16:30–17:00 | Tinjau hari ini dan rencanakan besok | Manajer |
 
-### Implementasi
+Pagi hari berisi tiga kotak fokus berturut-turut dengan hanya satu jeda singkat, dan sore hari menampung semua rapat. Untuk lebih banyak susunan menurut peran, lihat [templat jadwal eksekutif](/id/templates/executive).
 
-1. **Jadwal blok fokus 90 menit** untuk pekerjaan terpenting Anda
-2. **Ambil istirahat 20-30 menit** di antara blok
-3. **Batasi hingga 4-5 blok fokus per hari**
+## 5. Rencanakan sekitar lima tugas, dan sisakan satu kotak kosong
 
-## Strategi 5: Jadwal Pembuat (Filosofi Paul Graham)
+Median hari yang direncanakan di Chrobox berisi 5 tugas. Itu bukan angka ajaib, itu yang benar-benar direncanakan orang, tetapi itu titik awal yang berguna. Hari dengan lima belas kotak terlihat produktif pukul 08:00 dan terasa seperti kegagalan pukul 18:00. Mulailah dengan sekitar lima tugas, rencanakan lebih sedikit pada hari yang banyak rapat, dan sesuaikan setelah seminggu.
 
-Paul Graham membedakan dua jenis jadwal:
+**Sisakan satu kotak kosong dengan sengaja.** Pasti ada yang molor, dan satu jam buffer mencegah satu tugas yang terlambat mendorong sisa hari ke belakang. Jika buffer tidak terpakai, tarik tugas berikutnya ke depan atau selesai lebih awal. Untuk membagi proyek yang lebih besar ke beberapa hari, lihat [panduan perencanaan mingguan](/id/blog/weekly-planning-guide) kami.
 
-### Jadwal Pengelola
-- Hari dibagi menjadi slot satu jam
-- Rapat yang tersebar di sepanjang hari
+## Cara memulai besok
 
-### Jadwal Pembuat
-- Hari dibagi menjadi blok setengah hari
-- Periode panjang tanpa gangguan untuk pekerjaan kreatif
+1. Malam ini, tuliskan tugas wajib untuk besok dan tandai satu sebagai prioritas.
+2. Beri prioritas itu kotak panjang pertama di hari kerja Anda.
+3. Taruh setiap tugas wajib lainnya di jam, 60 menit secara default.
+4. Pindahkan rapat yang bisa Anda atur agar berdampingan.
+5. Sisakan satu kotak kosong, dan akhiri hari dengan merencanakan hari berikutnya.
 
-## Menerapkan Strategi Ini dengan Chrobox
+## Memakai strategi ini di Chrobox
 
-Chrobox dirancang untuk mendukung semua strategi time-boxing ini:
-
-- **Durasi time-box yang fleksibel** — Mulai dari 5 menit hingga satu hari penuh
-- **Perencanaan berbasis prioritas** — Alur kerja penentuan prioritas bawaan
-- **Dukungan tema** — Beri tag dan kategorikan time-box Anda
-- **Mode fokus** — Eksekusi bebas gangguan
-
-## Kesimpulan
-
-Strategi yang digunakan oleh orang-orang berkinerja tinggi ini bukanlah sihir—melainkan sistem terbukti yang dapat diterapkan oleh siapa saja. Mulailah dengan satu pendekatan, latih secara konsisten, dan lihat produktivitas Anda melonjak tinggi.
-    `,
+Chrobox adalah aplikasi timeboxing untuk iPhone dan Android. Anda menambahkan tugas, menandai prioritas, dan menyeret setiap tugas ke linimasa harian, tempat tugas itu menjadi kotak dengan waktu mulai dan durasi. Ketika sebuah kotak dimulai, Anda mendapat notifikasi, dan Anda bisa memulai timer fokus yang durasi defaultnya sama dengan kotak itu. Semua ini gratis. Memblokir aplikasi pengganggu selama kotak berjalan adalah bagian dari Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Time-Boxing vs Pomodoro: Teknik Mana yang Tepat untuk Anda?
 

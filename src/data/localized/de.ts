@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: '5 Timeboxing-Strategien von Top-CEOs und Unternehmer:innen',
-      excerpt: 'Lerne die genauen Timeboxing-Strategien, die Elon Musk, Bill Gates und andere Top-Führungskräfte nutzen, um ihre Produktivität zu maximieren und außergewöhnliche Ergebnisse zu erzielen.',
+      title: '5 Timeboxing-Strategien, mit Daten aus 5.077 Aufgaben',
+      excerpt: 'Fünf Timeboxing-Strategien für den Einstieg: Startzeit für jede Pflichtaufgabe, Priorität früh, 60-Minuten-Boxen, Meetings getrennt, ein Puffer.',
       faqs: [
         {
-          question: 'Plant Elon Musk seinen Tag wirklich in 5-Minuten-Blöcken?',
-          answer: 'Ja. Musk hat öffentlich erklärt, dass er Meetings und Aufgaben in 5-Minuten-Slots plant, um die Dichte zu maximieren und verschwendete Zeit zu minimieren. Diese Feinkörnigkeit funktioniert zwar für ihn, die meisten Menschen profitieren aber von etwas längeren Blöcken (15–30 Minuten), die an ihren eigenen Rhythmus angepasst sind.',
+          question: 'Mit welcher Timeboxing-Strategie fängt man am besten an?',
+          answer: 'Gib zuerst jeder Pflichtaufgabe eine Startzeit. In den Chrobox-Daten wurden Aufgaben mit Zeitfenster zu 48,1 % erledigt, Aufgaben auf einer bloßen Liste nur zu 17,6 %. Wenn das zur Gewohnheit geworden ist, füge die anderen Strategien nacheinander hinzu.',
         },
         {
-          question: 'Kann ich Themen-Tage mit Timeboxing kombinieren?',
-          answer: 'Auf jeden Fall. Wenn du jedem Tag ein Thema zuweist (z. B. Montag für Planung, Dienstag für Deep Work), begrenzt das den Kontextwechsel auf Makroebene, während Timeboxing innerhalb des Tages den Fokus auf Mikroebene steuert. Die Kombination gehört zu den effektivsten verfügbaren Produktivitätssystemen.',
+          question: 'Gehören Fokusarbeit und Meetings an denselben Tag?',
+          answer: 'Das geht, aber trenne sie innerhalb des Tages. In seinem Essay „Maker\'s Schedule, Manager\'s Schedule“ von 2009 argumentierte Paul Graham, dass ein einzelnes Meeting einen Nachmittag in Stücke zerlegen kann, die für schwere Arbeit zu klein sind. Bündle Meetings deshalb und schütze einen halben Tag für konzentriertes Arbeiten.',
         },
         {
-          question: 'Wie viele Fokusblöcke sollte ich pro Tag einplanen?',
-          answer: 'Forschung zur kognitiven Leistung legt nahe, dass 3–5 Deep-Work-Blöcke von 60–90 Minuten pro Tag für die meisten Menschen eine tragfähige Obergrenze sind. Darüber hinaus setzen Entscheidungsmüdigkeit und abnehmender Ertrag ein. Plane deine anspruchsvollsten Aufgaben in die ersten beiden Blöcke, wenn deine mentale Energie am höchsten ist.',
+          question: 'Wie viele Zeitboxen sollte ich pro Tag planen?',
+          answer: 'Starte mit etwa fünf Aufgaben und einer leeren Pufferbox. Der geplante Tag hatte im Median 5 Aufgaben in den Chrobox-Daten. Plane an Tagen mit vielen Meetings weniger und passe nach einer Woche an.',
         },
       ],
     },
@@ -1474,80 +1474,75 @@ Hör trotzdem auf. Schreibe eine Zeile dazu, wo du stehst, und wähle dann eine 
 Chrobox ist eine Timeboxing-App für iPhone und Android. Du fügst eine Aufgabe mit Startzeit und Dauer hinzu, sie erscheint auf der Timeline des Tages, und eine Benachrichtigung sagt dir, wann die Box beginnt. Der Fokus-Timer zählt einmal die Dauer der aktuellen Box herunter, und eine kurze Reflexion am Ende des Tages hält fest, was vorangekommen ist. Aufgaben, Prioritäten, die Timeline, der Fokus-Timer, Benachrichtigungen, Routinen und tägliche Reflexionen sind kostenlos; das Blockieren ablenkender Apps während einer Box, Widgets für Start- und Sperrbildschirm, KI-Planung und detaillierte Statistiken gehören zu Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 Timeboxing-Strategien von Top-CEOs und Unternehmer:innen
+# 5 Timeboxing-Strategien, mit Daten aus 5.077 Aufgaben
 
-Hast du dich schon mal gefragt, wie die erfolgreichsten Menschen der Welt es schaffen, so viel zu erreichen? Sie haben dieselben 24 Stunden wie alle anderen — aber ihr Umgang mit Zeitmanagement macht den Unterschied.
+**Fünf Timeboxing-Strategien sind als Einstieg empfehlenswert: Gib jeder Pflichtaufgabe eine Startzeit, setze deine wichtigste Priorität in eine frühe Box, nimm 60-Minuten-Boxen als Standard, halte Fokusarbeit und Meetings getrennt und plane etwa fünf Aufgaben pro Tag mit einer leeren Box für Überzogenes.** Jede Strategie unten stützt sich entweder auf Chrobox-Nutzungsdaten (5.077 geplante Aufgaben von 250 Personen, Dezember 2025 bis September 2026) oder auf eine Quelle, die du selbst nachlesen kannst. Berühmte Geschichten darüber, wie ein bestimmter CEO seinen Tag aufteilt, lassen wir bewusst weg: Die meisten sind aus zweiter Hand erzählt und schwer zu prüfen.
 
-Viele Top-Führungskräfte setzen auf Timeboxing als ihre Geheimwaffe. Schauen wir uns fünf bewährte Strategien an, die sie nutzen.
+| # | Strategie | Was zu tun ist | Grundlage |
+|---|---|---|---|
+| 1 | Jeder Pflichtaufgabe eine Startzeit geben | Aufgaben von der Liste auf die Uhr legen | Getimeboxte Aufgaben wurden zu 48,1 % erledigt, reine Listenaufgaben zu 17,6 % |
+| 2 | Priorität zuerst, früh | Der wichtigsten Aufgabe die erste Box am Morgen geben | Boxen mit Start zwischen 05:00–08:59 wurden zu 62,3 % erledigt, Boxen mit Start zwischen 21:00–23:59 zu 33,2 % |
+| 3 | Standard: 60 Minuten | Jede Box zur vollen Stunde beginnen und längere Arbeit teilen | Die mittlere Box dauerte 60 Minuten |
+| 4 | Fokusarbeit von Meetings trennen | Einen halben Tag schützen und Meetings bündeln | Paul Graham, „Maker's Schedule, Manager's Schedule“ (2009) |
+| 5 | Etwa fünf Aufgaben plus Puffer | Eine Box für alles Überzogene leer lassen | Der mittlere geplante Tag hatte 5 Aufgaben |
 
-## Strategie 1: Die 5-Minuten-Regel (Elon Musks Ansatz)
+## 1. Jeder Pflichtaufgabe eine Startzeit geben
 
-Elon Musk, CEO von Tesla und SpaceX, teilt seinen Tag bekanntermaßen in 5-Minuten-Blöcke auf. So extrem das klingt — das dahinterliegende Prinzip ist wirkungsvoll.
+Eine To-do-Liste sagt dir, was zu tun ist. Eine Zeitbox sagt dir zusätzlich, wann und wie lange, und das ist wichtiger als jedes clevere System obendrauf. In den Chrobox-Daten wurden Aufgaben, die auf der Tages-Timeline sowohl eine Startzeit als auch eine Länge hatten, zu 48,1 % abgehakt. Aufgaben, die ohne Zeitfenster auf der Liste blieben, wurden zu 17,6 % abgehakt.
 
-### So wendest du sie an
+Der Unterschied kommt nicht nur von ein paar sehr organisierten Personen, die den Durchschnitt hochziehen. Unter den 41 Personen, die genug Aufgaben in beiden Arten geplant hatten, um sie zu vergleichen, erledigten 35 mehr von ihren getimeboxten als von ihren ungeplanten Aufgaben. Das sind Beobachtungsdaten, kein Experiment: Vielleicht geben Menschen den Aufgaben eine Zeit, die sie ohnehin erledigen wollen, und ein Zeitfenster wirkt außerdem als Erinnerung. Die praktische Regel bleibt trotzdem: Muss eine Aufgabe heute passieren, braucht sie heute eine Uhrzeit. Passt sie nirgends auf die Uhr, wäre sie heute ohnehin nicht passiert, und du verschiebst sie besser jetzt als um 22:00.
 
-- **Teile große Aufgaben zur Schätzung in 5-Minuten-Schritte auf**
-- **Plane Meetings in 5-Minuten-Blöcken**, statt standardmäßig 30 oder 60 Minuten anzusetzen
-- **Nutze Mikro-Zeitblöcke für schnelle Entscheidungen**
+## 2. Die wichtigste Priorität in die erste Box des Morgens legen
 
-## Strategie 2: Das Zwei-Listen-System (Warren Buffetts Methode)
+Zwei Zahlen weisen in dieselbe Richtung. Als Priorität markierte Aufgaben wurden zu 44,5 % erledigt, alle anderen zu 28,9 %. Und Boxen, die zwischen 05:00 und 08:59 begannen, wurden zu 62,3 % erledigt, Boxen, die zwischen 21:00 und 23:59 begannen, zu 33,2 %.
 
-Warren Buffetts Ansatz setzt vor dem Timeboxing auf gnadenlose Priorisierung.
+Ein Teil des Morgeneffekts liegt daran, wer früh plant: Wer eine Aufgabe für 06:30 einplant, ist vielleicht einfach beständiger. Der Rat bleibt in beiden Fällen derselbe. **Wähle am Vorabend eine Priorität und gib ihr die erste lange Box deines Arbeitstags**, bevor E-Mails, Chats oder Meetings diese Zeit beanspruchen. Beginnt dein Tag um 10:00, liegt die erste Box um 10:00; es geht um „zuerst“, nicht um „früh“ um seiner selbst willen.
 
-### Der Prozess
+## 3. 60-Minuten-Boxen als Standard
 
-1. **Schreibe deine 25 wichtigsten Ziele oder Aufgaben auf**
-2. **Kreise die 5 wichtigsten davon ein**
-3. **Timeboxe NUR diese Top 5**
-4. **Vermeide die anderen 20 aktiv** — sie sind getarnte Ablenkungen
+Die mittlere Zeitbox in Chrobox dauerte 60 Minuten. Das liegt zum Teil an der App selbst, denn eine Aufgabe, die auf eine volle Stunde der Timeline gezogen wird, beginnt als 60-Minuten-Box, und viele behalten das bei. Trotzdem ist eine Stunde ein vernünftiger Standard: lang genug, um mit echter Arbeit richtig anzufangen, und kurz genug, um sie vor Unterbrechungen zu schützen.
 
-## Strategie 3: Themen-Tage (Jack Dorseys System)
+Nutze kürzere Boxen von 15 bis 30 Minuten für E-Mails, Nachrichten und kleine Verwaltungsaufgaben und fasse sie zusammen, damit sie nicht in jede Stunde hineinragen. Braucht eine Aufgabe mehr als etwa 90 Minuten, teile sie in zwei Boxen mit einer kurzen Pause dazwischen, statt einen langen Block zu buchen. In unserem [Bericht zu den Abschlussdaten](/de/blog/does-timeboxing-work) findest du die vollständige Aufschlüsselung, wie die Boxlänge mit dem Erledigen zusammenhing.
 
-Als Jack Dorsey gleichzeitig Twitter und Square leitete, nutzte er Themen-Tage, um seine Zeit zu managen.
+## 4. Fokusarbeit und Meetings trennen
 
-| Tag | Thema |
-|-----|-------|
-| Montag | Management & Betrieb |
-| Dienstag | Produktentwicklung |
-| Mittwoch | Marketing & Wachstum |
-| Donnerstag | Partnerschaften & Geschäftsentwicklung |
-| Freitag | Unternehmenskultur & Einstellungen |
+In einem Essay vom Juli 2009, „Maker's Schedule, Manager's Schedule“, beschrieb Paul Graham zwei Arten, Zeit zu nutzen. Im Terminplan der Manager wird der Tag in Stundenintervalle geschnitten, und du wechselst jede Stunde die Tätigkeit. Menschen, die etwas herstellen, etwa Programmierer und Autoren, nutzen Zeit dagegen meist in Einheiten von mindestens einem halben Tag. In diesem Rhythmus, schrieb er, kann ein einzelnes Meeting einen ganzen Nachmittag ruinieren, indem es ihn in zwei Stücke teilt, von denen keines groß genug für etwas Anspruchsvolles ist. Seine eigene Lösung waren Sprechstunden: Er legte die Treffen mit Gründern ans Ende seines Arbeitstags, sodass sie ihn nie unterbrachen.
 
-## Strategie 4: Der 90-Minuten-Fokusblock
+Timeboxing macht es leicht, das umzusetzen. Fülle eine Tageshälfte mit Fokusboxen und lege die Meetings, die du steuern kannst, in der anderen Hälfte direkt nebeneinander. So kann das aussehen:
 
-Studien zeigen, dass das menschliche Gehirn für etwa 90 Minuten maximalen Fokus aufrechterhalten kann, bevor es Erholung braucht.
+| Zeit | Box | Modus |
+|---|---|---|
+| 08:30–08:45 | Den Tag planen | Manager |
+| 08:45–09:45 | Priorität: das Investoren-Update schreiben | Maker |
+| 09:45–10:00 | Pause | Pause |
+| 10:00–11:00 | Produktspezifikation entwerfen | Maker |
+| 11:00–12:00 | Produktspezifikation fertigstellen | Maker |
+| 12:00–13:00 | Mittagessen | Pause |
+| 13:00–15:00 | Meetings hintereinander | Manager |
+| 15:00–15:30 | E-Mails und Nachrichten | Manager |
+| 15:30–16:30 | Puffer für alles, was überzogen hat | Puffer |
+| 16:30–17:00 | Heute auswerten und morgen planen | Manager |
 
-### Umsetzung
+Der Vormittag enthält drei Fokusboxen am Stück mit nur einer kurzen Pause, und der Nachmittag nimmt alle Meetings auf. Weitere Aufteilungen nach Rolle findest du in der [Vorlage für Führungskräfte](/de/templates/executive).
 
-1. **Plane 90-Minuten-Fokusblöcke** für deine wichtigste Arbeit
-2. **Mache zwischen den Blöcken eine 20–30-minütige Pause**
-3. **Beschränke dich auf 4–5 Fokusblöcke pro Tag**
+## 5. Etwa fünf Aufgaben planen und eine Box leer lassen
 
-## Strategie 5: Der Zeitplan des Machers (Paul Grahams Philosophie)
+Der mittlere geplante Tag in Chrobox hatte 5 Aufgaben. Das ist keine magische Zahl, sondern das, was Menschen tatsächlich geplant haben, aber es ist ein brauchbarer Ausgangspunkt. Ein Tag mit fünfzehn Boxen sieht um 08:00 produktiv aus und fühlt sich um 18:00 wie ein Misserfolg an. Beginne mit etwa fünf Aufgaben, plane an Tagen mit vielen Meetings weniger und passe nach einer Woche an.
 
-Paul Graham unterscheidet zwischen zwei Arten von Zeitplänen:
+**Lass bewusst eine Box leer.** Irgendetwas wird überziehen, und eine Pufferstunde verhindert, dass eine verspätete Aufgabe den Rest des Tages nach hinten schiebt. Brauchst du den Puffer nicht, ziehe die nächste Aufgabe vor oder mach früher Schluss. Wie du größere Projekte auf mehrere Tage verteilst, steht in unserem [Leitfaden zur Wochenplanung](/de/blog/weekly-planning-guide).
 
-### Der Manager-Zeitplan
-- Der Tag ist in Ein-Stunden-Slots unterteilt
-- Meetings verteilen sich über den ganzen Tag
+## So startest du morgen
 
-### Der Macher-Zeitplan
-- Der Tag ist in Halbtagesblöcke unterteilt
-- Lange, ununterbrochene Phasen für kreative Arbeit
+1. Schreibe heute Abend die Pflichtaufgaben für morgen auf und markiere eine als Priorität.
+2. Gib der Priorität die erste lange Box deines Arbeitstags.
+3. Lege jede weitere Pflichtaufgabe auf die Uhr, standardmäßig 60 Minuten.
+4. Lege die Meetings, die du steuern kannst, direkt nebeneinander.
+5. Lass eine Box leer und beende den Tag damit, den nächsten zu planen.
 
-## Diese Strategien mit Chrobox umsetzen
+## Die Strategien in Chrobox nutzen
 
-Chrobox ist darauf ausgelegt, all diese Timeboxing-Strategien zu unterstützen:
-
-- **Flexible Zeitblock-Dauer** — von 5 Minuten bis zu ganzen Tagen
-- **Priority-First-Planung** — integrierter Priorisierungs-Workflow
-- **Themen-Unterstützung** — markiere und kategorisiere deine Zeitblöcke
-- **Fokusmodus** — ablenkungsfreie Umsetzung
-
-## Fazit
-
-Die Strategien der Top-Performer sind keine Magie — es sind bewährte Systeme, die jeder übernehmen kann. Beginne mit einem Ansatz, übe ihn konsequent, und beobachte, wie deine Produktivität steigt.
-    `,
+Chrobox ist eine Timeboxing-App für iPhone und Android. Du fügst Aufgaben hinzu, markierst Prioritäten und ziehst jede Aufgabe auf die Tages-Timeline, wo sie zu einer Box mit Startzeit und Länge wird. Wenn eine Box beginnt, bekommst du eine Benachrichtigung und kannst einen Fokustimer starten, der standardmäßig so lang ist wie die Box. All das ist kostenlos. Das Blockieren ablenkender Apps während einer Box gehört zu Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Timeboxing vs Pomodoro: Welche Technik passt zu dir?
 

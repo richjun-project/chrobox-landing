@@ -54,33 +54,34 @@ export const enBlogPosts: BlogPostMeta[] = [
   },
   {
     slug: '5-time-boxing-strategies',
-    title: '5 Time-Boxing Strategies Used by Top CEOs and Entrepreneurs',
+    title: "5 Timeboxing Strategies, With Data From 5,077 Real Tasks",
     date: '2024-12-03',
+    updated: '2026-11-22',
     author: 'Chrobox Team',
-    category: 'Productivity',
-    tags: ['time-boxing', 'ceo', 'entrepreneur', 'productivity-tips', 'success'],
-    excerpt: 'Learn the exact time-boxing strategies Elon Musk, Bill Gates, and other top leaders use to maximize productivity and achieve extraordinary results.',
-    image: '/screenshots/en/2.webp',
-    readTime: 6,
+    category: "Productivity",
+    tags: ["time-boxing", "productivity-tips", "ceo", "entrepreneur", "time-management"],
+    excerpt: "Five timeboxing strategies worth starting with: a start time for every must-do, priority first, 60-minute boxes, meetings apart from focus work, and a buffer.",
+    image: "/screenshots/en/2.webp",
+    readTime: 7,
     lang: 'en',
     faqs: [
       {
-        question: 'Does Elon Musk really schedule his day in 5-minute blocks?',
-        questionKo: '일론 머스크는 정말 하루를 5분 단위로 예약하나요?',
-        answer: 'Yes. Musk has publicly discussed scheduling meetings and tasks in 5-minute slots to maximize density and minimize wasted time. While this granularity works for him, most people benefit from slightly longer blocks (15–30 minutes) adapted to their own rhythm.',
-        answerKo: '네. 머스크는 밀도를 극대화하고 낭비되는 시간을 최소화하기 위해 5분 단위로 회의와 업무를 예약한다고 공개적으로 이야기한 바 있습니다. 이 세밀한 방식이 그에게는 효과적이지만, 대부분의 사람들은 자신의 리듬에 맞게 조금 더 긴 블록(15~30분)을 사용하는 것이 좋습니다.',
+        question: "What is the best timeboxing strategy to start with?",
+        questionKo: "타임박싱은 어떤 전략부터 시작하는 게 좋나요?",
+        answer: "Start by giving every must-do task a start time. In Chrobox data, tasks with a time slot were completed 48.1% of the time, against 17.6% for tasks left on a list. Once that is a habit, add the other strategies one at a time.",
+        answerKo: "꼭 할 일마다 시작 시각을 주는 것부터 시작하세요. 크로박스 데이터에서 시간 칸이 있는 할 일은 48.1%가 완료됐고, 목록에만 있던 할 일은 17.6%였습니다. 이것이 습관이 되면 나머지 전략을 하나씩 더하면 됩니다.",
       },
       {
-        question: 'Can I combine theme days with time-boxing?',
-        questionKo: '테마 데이와 타임박싱을 결합할 수 있나요?',
-        answer: 'Absolutely. Assigning themes to each day (e.g., Monday for planning, Tuesday for deep work) limits context-switching at the macro level, while time-boxing within each day handles micro-level focus. The combination is one of the most effective productivity systems available.',
-        answerKo: '물론입니다. 각 요일에 테마를 할당하면(예: 월요일은 계획, 화요일은 딥워크) 거시적 수준에서 컨텍스트 전환을 줄이고, 하루 내 타임박싱이 미시적 수준의 집중을 처리합니다. 이 조합은 가장 효과적인 생산성 시스템 중 하나입니다.',
+        question: "Should focused work and meetings go on the same day?",
+        questionKo: "집중하는 일과 회의를 같은 날에 잡아도 되나요?",
+        answer: "They can, but keep them apart within the day. In his 2009 essay \"Maker's Schedule, Manager's Schedule\", Paul Graham argued that a single meeting can break an afternoon into pieces too small for hard work, so stack meetings together and protect a half-day block for focused work.",
+        answerKo: "같은 날이어도 괜찮지만, 하루 안에서는 떼어 놓으세요. 폴 그레이엄은 2009년 글 「메이커의 일정, 매니저의 일정」에서 회의 하나가 오후를 어려운 일을 하기엔 너무 짧은 조각으로 쪼갤 수 있다고 썼습니다. 회의는 몰아서 잡고, 집중하는 일에는 반나절을 지켜 주세요.",
       },
       {
-        question: 'How many focus blocks should I schedule per day?',
-        questionKo: '하루에 몇 개의 집중 블록을 예약해야 하나요?',
-        answer: 'Research on cognitive performance suggests 3–5 deep-work blocks of 60–90 minutes per day is a sustainable ceiling for most people. Beyond that, decision fatigue and diminishing returns set in. Schedule your most demanding tasks in the first two blocks when mental energy is highest.',
-        answerKo: '인지 수행에 관한 연구에 따르면 대부분의 사람들에게 하루 60~90분짜리 딥워크 블록 3~5개가 지속 가능한 상한선입니다. 그 이상이 되면 의사결정 피로와 수확 체감이 발생합니다. 정신 에너지가 가장 높은 처음 두 블록에 가장 요구하는 작업을 예약하세요.',
+        question: "How many time boxes should I plan per day?",
+        questionKo: "하루에 타임박스를 몇 개나 계획해야 하나요?",
+        answer: "Start with about five tasks plus one empty buffer box. The median planned day in Chrobox data had 5 tasks. Plan fewer on days with many meetings, and adjust after a week.",
+        answerKo: "할 일 다섯 개 정도와 비워 둔 여유 칸 하나로 시작하세요. 크로박스 데이터에서 계획한 하루의 할 일 수 중앙값은 5개였습니다. 회의가 많은 날은 더 줄이고, 일주일 써 본 뒤 조정하세요.",
       },
     ],
   },
@@ -157,33 +158,34 @@ export const koBlogPosts: BlogPostMeta[] = [
   },
   {
     slug: '5-time-boxing-strategies',
-    title: '세계적인 CEO들이 사용하는 5가지 타임박싱 전략',
+    title: "타임박싱 전략 5가지: 할 일 5,077개 데이터로 고른 방법",
     date: '2024-12-03',
+    updated: '2026-11-22',
     author: 'Chrobox Team',
-    category: '생산성',
-    tags: ['타임박싱', 'CEO', '기업가', '생산성팁', '성공'],
-    excerpt: '일론 머스크, 빌 게이츠 등 성공한 리더들이 생산성을 극대화하고 놀라운 성과를 달성하기 위해 사용하는 정확한 타임박싱 전략을 배워보세요.',
-    image: '/screenshots/ko/2.webp',
-    readTime: 6,
+    category: "생산성",
+    tags: ["타임박싱", "생산성팁", "CEO", "기업가", "시간관리"],
+    excerpt: "먼저 써 볼 만한 타임박싱 전략 5가지: 꼭 할 일마다 시작 시각, 우선순위는 아침 첫 칸, 칸은 60분 기본, 회의와 집중 시간 분리, 하루 할 일 다섯 개와 여유 칸 하나.",
+    image: "/screenshots/ko/2.webp",
+    readTime: 7,
     lang: 'ko',
     faqs: [
       {
-        question: 'Does Elon Musk really schedule his day in 5-minute blocks?',
-        questionKo: '일론 머스크는 정말 하루를 5분 단위로 예약하나요?',
-        answer: 'Yes. Musk has publicly discussed scheduling meetings and tasks in 5-minute slots.',
-        answerKo: '네. 머스크는 밀도를 극대화하고 낭비되는 시간을 최소화하기 위해 5분 단위로 회의와 업무를 예약한다고 공개적으로 이야기한 바 있습니다.',
+        question: "What is the best timeboxing strategy to start with?",
+        questionKo: "타임박싱은 어떤 전략부터 시작하는 게 좋나요?",
+        answer: "Start by giving every must-do task a start time. In Chrobox data, tasks with a time slot were completed 48.1% of the time, against 17.6% for tasks left on a list. Once that is a habit, add the other strategies one at a time.",
+        answerKo: "꼭 할 일마다 시작 시각을 주는 것부터 시작하세요. 크로박스 데이터에서 시간 칸이 있는 할 일은 48.1%가 완료됐고, 목록에만 있던 할 일은 17.6%였습니다. 이것이 습관이 되면 나머지 전략을 하나씩 더하면 됩니다.",
       },
       {
-        question: 'Can I combine theme days with time-boxing?',
-        questionKo: '테마 데이와 타임박싱을 결합할 수 있나요?',
-        answer: 'Absolutely. Theme days reduce context-switching at the macro level, while time-boxing handles micro-level focus.',
-        answerKo: '물론입니다. 테마 데이는 거시적 수준에서 컨텍스트 전환을 줄이고, 타임박싱이 미시적 수준의 집중을 처리합니다. 이 조합은 가장 효과적인 생산성 시스템 중 하나입니다.',
+        question: "Should focused work and meetings go on the same day?",
+        questionKo: "집중하는 일과 회의를 같은 날에 잡아도 되나요?",
+        answer: "They can, but keep them apart within the day. In his 2009 essay \"Maker's Schedule, Manager's Schedule\", Paul Graham argued that a single meeting can break an afternoon into pieces too small for hard work, so stack meetings together and protect a half-day block for focused work.",
+        answerKo: "같은 날이어도 괜찮지만, 하루 안에서는 떼어 놓으세요. 폴 그레이엄은 2009년 글 「메이커의 일정, 매니저의 일정」에서 회의 하나가 오후를 어려운 일을 하기엔 너무 짧은 조각으로 쪼갤 수 있다고 썼습니다. 회의는 몰아서 잡고, 집중하는 일에는 반나절을 지켜 주세요.",
       },
       {
-        question: 'How many focus blocks should I schedule per day?',
-        questionKo: '하루에 몇 개의 집중 블록을 예약해야 하나요?',
-        answer: '3–5 deep-work blocks of 60–90 minutes per day is a sustainable ceiling for most people.',
-        answerKo: '대부분의 사람들에게 하루 60~90분짜리 딥워크 블록 3~5개가 지속 가능한 상한선입니다. 정신 에너지가 가장 높은 처음 두 블록에 가장 요구하는 작업을 예약하세요.',
+        question: "How many time boxes should I plan per day?",
+        questionKo: "하루에 타임박스를 몇 개나 계획해야 하나요?",
+        answer: "Start with about five tasks plus one empty buffer box. The median planned day in Chrobox data had 5 tasks. Plan fewer on days with many meetings, and adjust after a week.",
+        answerKo: "할 일 다섯 개 정도와 비워 둔 여유 칸 하나로 시작하세요. 크로박스 데이터에서 계획한 하루의 할 일 수 중앙값은 5개였습니다. 회의가 많은 날은 더 줄이고, 일주일 써 본 뒤 조정하세요.",
       },
     ],
   },
@@ -425,79 +427,74 @@ Stop anyway. Write one line about where you are, then choose one of three option
 Chrobox is a timeboxing app for iPhone and Android. You add a task with a start time and a length, it appears on the day's timeline, and an alert tells you when the box begins. The focus timer counts down the length of the current box once, and a short reflection at the end of the day records what moved. Tasks, priorities, the timeline, the focus timer, alerts, routines and daily reflections are free; blocking distracting apps during a box, home and lock screen widgets, AI planning and detailed statistics are part of Pro.
     `,
     '5-time-boxing-strategies': `
-# 5 Time-Boxing Strategies Used by Top CEOs and Entrepreneurs
+# 5 Timeboxing Strategies, With Data From 5,077 Real Tasks
 
-Ever wondered how the world's most successful people manage to accomplish so much? While they have the same 24 hours as everyone else, their approach to time management sets them apart.
+**Five timeboxing strategies are worth starting with: give every must-do task a start time, put your top priority in an early box, default to 60-minute boxes, keep focused work apart from meetings, and plan about five tasks a day with one empty box for overruns.** Each strategy below is backed either by Chrobox usage data (5,077 planned tasks from 250 people, December 2025 to September 2026) or by a source you can read yourself. Famous stories about how a particular CEO splits the day are left out on purpose: most are retold second-hand and are hard to check.
 
-Many top executives rely on time-boxing as their secret weapon. Let's explore five proven strategies they use.
+| # | Strategy | What to do | Basis |
+|---|---|---|---|
+| 1 | Give every must-do a start time | Move tasks from the list onto the clock | Time-boxed tasks were completed 48.1% of the time, list-only tasks 17.6% |
+| 2 | Priority first, early | Give the one task that matters most the first box of the morning | Boxes starting 05:00–08:59 were completed 62.3% of the time, boxes starting 21:00–23:59 33.2% |
+| 3 | Default to 60 minutes | Start every box at an hour and split longer work | The median box was 60 minutes |
+| 4 | Keep focused work apart from meetings | Protect a half-day block and stack meetings together | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Plan about five tasks, plus a buffer | Leave one box empty for whatever runs over | The median planned day had 5 tasks |
 
-## Strategy 1: The 5-Minute Rule (Elon Musk's Approach)
+## 1. Give every must-do task a start time
 
-Elon Musk, CEO of Tesla and SpaceX, famously divides his day into 5-minute blocks. While this might seem extreme, the principle is powerful.
+A to-do list tells you what to do. A time box also tells you when and for how long, and that turns out to matter more than any clever system on top. In Chrobox data, tasks that had both a start time and a length on the day timeline were checked off 48.1% of the time. Tasks that stayed on the list without a slot were checked off 17.6% of the time.
 
-### How to Apply It
+The gap is not just a few very organized people pulling up the average. Among the 41 people who planned enough tasks both ways to compare, 35 finished more of their time-boxed tasks than their unscheduled ones. This is observational data, not an experiment: people may give a time to tasks they already intend to do, and a slot also works as a reminder. The practical rule still follows. If a task has to happen today, it needs a time today. If it does not fit anywhere on the clock, it was never going to happen today, and it is better to move it now than at 22:00.
 
-- **Break large tasks into 5-minute increments** for estimation
-- **Schedule meetings in 5-minute blocks** rather than defaulting to 30 or 60 minutes
-- **Use micro time-boxes for quick decisions**
+## 2. Put your top priority in the first box of the morning
 
-## Strategy 2: The Two-List System (Warren Buffett's Method)
+Two numbers point the same way. Tasks marked as a priority were completed 44.5% of the time, against 28.9% for everything else. And boxes that started between 05:00 and 08:59 were completed 62.3% of the time, while boxes that started between 21:00 and 23:59 were completed 33.2% of the time.
 
-Warren Buffett's approach focuses on ruthless prioritization before time-boxing.
+Part of the morning effect is who plans early: someone who schedules a 06:30 task may simply be more consistent. The advice is the same either way. **Pick one priority the night before and give it the first long box of your working day**, before email, chat or meetings can claim that time. If your day starts at 10:00, the first box is at 10:00; the point is first, not early for its own sake.
 
-### The Process
+## 3. Default to 60-minute boxes
 
-1. **Write down your top 25 goals or tasks**
-2. **Circle the top 5 most important**
-3. **Time-box ONLY the top 5**
-4. **Actively avoid the other 20** — they're distractions in disguise
+The median time box in Chrobox was 60 minutes. Part of that is the app itself, because a task dropped onto an hour on the timeline starts as a 60-minute box and many people keep it. Still, an hour is a sensible default: long enough to get properly started on real work, short enough that you can protect it from interruptions.
 
-## Strategy 3: Theme Days (Jack Dorsey's System)
+Use shorter boxes of 15 to 30 minutes for email, messages and small admin tasks, and group them so they do not leak into every hour. When a task needs more than about 90 minutes, split it into two boxes with a short break between them instead of booking one long block. Our [completion data report](/blog/does-timeboxing-work) has the full breakdown of how box length related to completion.
 
-When Jack Dorsey was running both Twitter and Square simultaneously, he used themed days to manage his time.
+## 4. Keep focused work and meetings apart
 
-| Day | Theme |
-|-----|-------|
-| Monday | Management & Operations |
-| Tuesday | Product Development |
-| Wednesday | Marketing & Growth |
-| Thursday | Partnerships & Business Development |
-| Friday | Company Culture & Hiring |
+In a July 2009 essay, "Maker's Schedule, Manager's Schedule", Paul Graham described two ways of using time. On the manager's schedule, the day is cut into one-hour intervals and you change what you are doing every hour. People who make things, such as programmers and writers, generally prefer to use time in units of half a day at least. On that schedule, he wrote, a single meeting can blow a whole afternoon by breaking it into two pieces, each too small to do anything hard in. His own fix was office hours: he clustered meetings with founders at the end of his working day, so they never interrupted it.
 
-## Strategy 4: The 90-Minute Focus Block
+Timeboxing makes this easy to apply. Fill one half of the day with focus boxes and put the meetings you control next to each other in the other half. Here is what that can look like:
 
-Research shows that the human brain can maintain peak focus for about 90 minutes before needing rest.
+| Time | Box | Mode |
+|---|---|---|
+| 08:30–08:45 | Plan the day | Manager |
+| 08:45–09:45 | Priority: write the investor update | Maker |
+| 09:45–10:00 | Break | Rest |
+| 10:00–11:00 | Draft the product spec | Maker |
+| 11:00–12:00 | Finish the product spec | Maker |
+| 12:00–13:00 | Lunch | Rest |
+| 13:00–15:00 | Meetings, back to back | Manager |
+| 15:00–15:30 | Email and messages | Manager |
+| 15:30–16:30 | Buffer for anything that ran over | Buffer |
+| 16:30–17:00 | Review today and plan tomorrow | Manager |
 
-### Implementation
+The morning holds three focus boxes in a row with only a short break, and the afternoon absorbs every meeting. For more layouts by role, see the [executive schedule template](/templates/executive).
 
-1. **Schedule 90-minute focus blocks** for your most important work
-2. **Take a 20-30 minute break** between blocks
-3. **Limit to 4-5 focus blocks per day**
+## 5. Plan about five tasks, and leave one box empty
 
-## Strategy 5: The Maker's Schedule (Paul Graham's Philosophy)
+The median planned day in Chrobox had 5 tasks. That is not a magic number, it is what people actually planned, but it is a useful starting point. A day with fifteen boxes looks productive at 08:00 and feels like failure at 18:00. Start with about five tasks, plan fewer on days with many meetings, and adjust after a week.
 
-Paul Graham distinguishes between two types of schedules:
+**Keep one box empty on purpose.** Something will run over, and a buffer hour stops one late task from pushing the rest of the day later. If you do not need the buffer, pull the next task forward or finish early. To spread bigger projects across several days, see our [weekly planning guide](/blog/weekly-planning-guide).
 
-### Manager's Schedule
-- Day divided into one-hour slots
-- Meetings scattered throughout
+## How to start tomorrow
 
-### Maker's Schedule
-- Day divided into half-day blocks
-- Long, uninterrupted periods for creative work
+1. Tonight, write down tomorrow's must-do tasks and mark one as the priority.
+2. Give the priority the first long box of your working day.
+3. Put every other must-do task on the clock, 60 minutes by default.
+4. Move the meetings you control next to each other.
+5. Leave one box empty, and end the day by planning the next one.
 
-## Implementing These Strategies with Chrobox
+## Using these strategies in Chrobox
 
-Chrobox is designed to support all these time-boxing strategies:
-
-- **Flexible time-box durations** — From 5 minutes to full days
-- **Priority-first planning** — Built-in prioritization workflow
-- **Theme support** — Tag and categorize your time boxes
-- **Focus mode** — Distraction-free execution
-
-## Conclusion
-
-The strategies used by top performers aren't magic—they're proven systems that anyone can adopt. Start with one approach, practice it consistently, and watch your productivity soar.
+Chrobox is a timeboxing app for iPhone and Android. You add tasks, mark priorities and drag each task onto the day timeline, where it becomes a box with a start time and a length. When a box starts, you get a notification, and you can start a focus timer that defaults to the length of the box. All of this is free. Blocking distracting apps during a box is part of Chrobox Pro.
     `,
     'time-boxing-vs-pomodoro': `
 # Time-Boxing vs Pomodoro: Which Technique is Right for You?
@@ -657,43 +654,74 @@ There's no universally "better" technique—only what works better for you. Expe
 크로박스는 아이폰과 안드로이드용 타임박싱 앱입니다. 할 일에 시작 시각과 길이를 넣으면 그날 타임라인에 박스로 놓이고, 박스가 시작될 때 알림이 옵니다. 집중 타이머는 지금 박스의 길이만큼 한 번 카운트다운하고, 하루 끝 회고에 무엇이 밀렸는지 짧게 남길 수 있습니다. 할 일, 우선순위, 타임라인, 집중 타이머, 알림, 루틴, 하루 회고는 무료이고, 박스 동안 방해되는 앱 차단, 홈·잠금 화면 위젯, AI 계획, 상세 통계는 Pro 기능입니다.
     `,
     '5-time-boxing-strategies': `
-# 세계적인 CEO들이 사용하는 5가지 타임박싱 전략
+# 타임박싱 전략 5가지: 할 일 5,077개 데이터로 고른 방법
 
-세계에서 가장 성공한 사람들이 어떻게 그렇게 많은 것을 성취하는지 궁금하신 적 있으신가요?
+**먼저 써 볼 만한 타임박싱 전략은 다섯 가지입니다. 꼭 할 일에는 모두 시작 시각을 주고, 가장 중요한 일은 이른 칸에 넣고, 칸은 60분을 기본으로 잡고, 집중하는 일과 회의를 떼어 놓고, 하루에 할 일 다섯 개 정도와 넘친 일을 받을 빈 칸 하나를 계획하는 것입니다.** 아래 전략은 모두 크로박스 사용 데이터(250명이 계획한 할 일 5,077개, 2025년 12월~2026년 9월)나 직접 읽어 볼 수 있는 출처에 기대고 있습니다. 어느 유명 CEO가 하루를 어떻게 쪼갠다는 이야기는 일부러 뺐습니다. 대부분 건너 건너 전해진 것이라 확인하기 어렵기 때문입니다.
 
-## 전략 1: 5분 규칙 (일론 머스크의 접근법)
+| # | 전략 | 할 일 | 근거 |
+|---|---|---|---|
+| 1 | 꼭 할 일에 시작 시각 주기 | 목록에 있는 할 일을 시간 위로 옮긴다 | 시간을 정한 할 일 완료율 48.1%, 목록에만 있던 할 일 17.6% |
+| 2 | 우선순위는 이른 첫 칸에 | 가장 중요한 일 하나에 아침 첫 칸을 준다 | 05:00–08:59에 시작한 칸 완료율 62.3%, 21:00–23:59에 시작한 칸 33.2% |
+| 3 | 칸 길이는 60분이 기본 | 칸은 한 시간으로 시작하고 긴 일은 나눈다 | 칸 길이 중앙값 60분 |
+| 4 | 집중하는 일과 회의 떼어 놓기 | 반나절을 지키고 회의는 몰아서 잡는다 | 폴 그레이엄, 「메이커의 일정, 매니저의 일정」(2009) |
+| 5 | 할 일 다섯 개 정도와 빈 칸 하나 | 넘친 일을 받을 칸 하나를 비워 둔다 | 계획한 하루의 할 일 수 중앙값 5개 |
 
-테슬라와 스페이스X의 CEO 일론 머스크는 하루를 5분 단위로 나누는 것으로 유명합니다.
+## 1. 꼭 할 일에는 모두 시작 시각을 준다
 
-- **큰 작업을 5분 단위로 나누어** 추정하기
-- 기본 30분이나 60분 대신 **5분 단위로 회의 예약**
+할 일 목록은 무엇을 할지만 알려 줍니다. 타임박스는 언제, 얼마 동안 할지까지 정해 줍니다. 그 위에 어떤 요령을 얹느냐보다 이 차이가 더 큽니다. 크로박스 데이터에서 하루 타임라인에 시작 시각과 길이가 모두 정해진 할 일은 48.1%가 완료 표시됐습니다. 시간 칸 없이 목록에만 있던 할 일은 17.6%였습니다.
 
-## 전략 2: 두 개의 리스트 시스템 (워렌 버핏)
+아주 꼼꼼한 몇 사람이 평균을 끌어올린 결과도 아닙니다. 두 방식을 비교할 수 있을 만큼 할 일을 계획한 41명 가운데 35명이 시간을 정하지 않은 할 일보다 시간을 정한 할 일을 더 많이 끝냈습니다. 다만 실험이 아니라 관찰한 데이터입니다. 어차피 할 생각인 일에 시간을 주는 사람이 많을 수 있고, 시간 칸 자체가 알림 역할도 합니다. 그래도 실천할 규칙은 분명합니다. 오늘 꼭 해야 하는 일이라면 오늘의 시각이 있어야 합니다. 시간표 어디에도 들어가지 않는 일은 처음부터 오늘 할 수 없던 일이니, 밤 22:00에 미루기보다 지금 다른 날로 옮기는 편이 낫습니다.
 
-1. **상위 25개 목표나 작업을 적으세요**
-2. **가장 중요한 5개에 동그라미 치세요**
-3. **상위 5개만 타임박싱하세요**
+## 2. 가장 중요한 일은 아침 첫 칸에 넣는다
 
-## 전략 3: 테마 데이 (잭 도시)
+두 숫자가 같은 쪽을 가리킵니다. 우선순위로 표시한 할 일은 44.5%가 완료됐고, 나머지는 28.9%였습니다. 그리고 05:00에서 08:59 사이에 시작한 칸은 62.3%가 완료됐지만, 21:00에서 23:59 사이에 시작한 칸은 33.2%였습니다.
 
-| 요일 | 테마 |
-|------|------|
-| 월요일 | 관리 & 운영 |
-| 화요일 | 제품 개발 |
-| 수요일 | 마케팅 & 성장 |
+아침 칸이 잘 지켜지는 데에는 일찍 계획하는 사람의 성향도 섞여 있습니다. 06:30에 할 일을 잡는 사람이 원래 더 꾸준할 수 있습니다. 그래도 조언은 같습니다. **전날 밤 우선순위 하나를 고르고, 일하는 하루의 첫 긴 칸을 그 일에 주세요.** 메일, 메신저, 회의가 그 시간을 가져가기 전에 말입니다. 하루가 10:00에 시작한다면 첫 칸은 10:00입니다. 이른 시각보다 첫 칸이라는 순서가 중요합니다.
 
-## 전략 4: 90분 집중 블록
+## 3. 칸 길이는 60분을 기본으로 한다
 
-연구에 따르면 인간의 뇌는 약 90분 동안 최고 집중을 유지할 수 있습니다.
+크로박스에서 칸 길이 중앙값은 60분이었습니다. 앱 설계의 영향도 있습니다. 할 일을 타임라인의 한 시간 칸에 끌어다 놓으면 60분짜리 칸으로 시작하고, 많은 사람이 그대로 둡니다. 그래도 한 시간은 좋은 기본값입니다. 제대로 된 일을 시작하기에 충분히 길고, 방해로부터 지켜 내기에 충분히 짧습니다.
 
-## 전략 5: 메이커의 스케줄 (폴 그레이엄)
+메일, 메시지, 작은 잡무에는 15~30분짜리 짧은 칸을 쓰고, 이것들을 한데 모아 매시간 끼어들지 않게 합니다. 90분 넘게 걸리는 일은 긴 칸 하나로 잡지 말고, 사이에 짧은 휴식을 둔 칸 두 개로 나눕니다. 칸 길이와 완료율의 관계를 자세히 보려면 [완료율 데이터 보고서](/ko/blog/does-timeboxing-work)를 참고하세요.
 
-- **오전**: 딥워크를 위한 메이커 시간
-- **오후**: 회의와 커뮤니케이션을 위한 매니저 시간
+## 4. 집중하는 일과 회의를 떼어 놓는다
 
-## Chrobox로 전략 구현하기
+폴 그레이엄은 2009년 7월에 쓴 글 「메이커의 일정, 매니저의 일정(Maker's Schedule, Manager's Schedule)」에서 시간을 쓰는 두 방식을 설명했습니다. 매니저의 일정에서는 하루가 한 시간 단위로 잘리고, 한 시간마다 하는 일이 바뀝니다. 프로그래머나 작가처럼 무언가를 만드는 사람은 보통 적어도 반나절 단위로 시간을 쓰고 싶어 합니다. 그런 일정에서는 회의 하나가 오후 전체를 날려 버릴 수 있다고 그는 썼습니다. 오후를 둘로 쪼개 어느 쪽도 어려운 일을 하기에 너무 짧아지기 때문입니다. 그가 찾은 해결책은 면담 시간이었습니다. 창업자들과의 만남을 일과가 끝날 무렵에 몰아서 잡아, 일하는 시간을 끊지 않게 했습니다.
 
-Chrobox는 이러한 모든 타임박싱 전략을 지원합니다.
+타임박싱을 쓰면 이 방법을 그대로 적용하기 쉽습니다. 하루의 절반은 집중 칸으로 채우고, 내가 정할 수 있는 회의는 나머지 절반에 붙여서 잡습니다. 예를 들면 이렇습니다.
+
+| 시각 | 칸 | 성격 |
+|---|---|---|
+| 08:30–08:45 | 하루 계획 | 매니저 |
+| 08:45–09:45 | 우선순위: 투자자 업데이트 쓰기 | 메이커 |
+| 09:45–10:00 | 휴식 | 쉼 |
+| 10:00–11:00 | 제품 기획서 초안 | 메이커 |
+| 11:00–12:00 | 제품 기획서 마무리 | 메이커 |
+| 12:00–13:00 | 점심 | 쉼 |
+| 13:00–15:00 | 회의 연달아 | 매니저 |
+| 15:00–15:30 | 메일과 메시지 | 매니저 |
+| 15:30–16:30 | 넘친 일을 받는 여유 칸 | 여유 |
+| 16:30–17:00 | 오늘 돌아보기와 내일 계획 | 매니저 |
+
+오전에는 짧은 휴식만 사이에 둔 집중 칸 세 개가 이어지고, 오후가 회의를 모두 받아 냅니다. 직무별 하루 배치를 더 보려면 [임원 일정 템플릿](/ko/templates/executive)을 참고하세요.
+
+## 5. 할 일은 다섯 개 정도, 칸 하나는 비워 둔다
+
+크로박스에서 계획한 하루의 할 일 수 중앙값은 5개였습니다. 마법의 숫자는 아니고 사람들이 실제로 계획한 양이지만, 출발점으로 쓰기 좋습니다. 칸이 열다섯 개인 하루는 아침 08:00에는 알차 보여도 저녁 18:00에는 실패처럼 느껴집니다. 할 일 다섯 개 정도로 시작하고, 회의가 많은 날은 더 줄이고, 일주일 써 본 뒤에 조정하세요.
+
+**칸 하나는 일부러 비워 둡니다.** 무언가는 꼭 길어지기 마련이고, 여유 칸 한 시간이 있으면 늦어진 일 하나가 나머지 하루를 통째로 밀어내지 않습니다. 여유 칸이 필요 없으면 다음 일을 당겨 오거나 일찍 마치면 됩니다. 큰 프로젝트를 며칠에 나눠 배치하는 방법은 [주간 계획 가이드](/ko/blog/weekly-planning-guide)에 정리해 두었습니다.
+
+## 내일 바로 시작하는 법
+
+1. 오늘 밤, 내일 꼭 할 일을 적고 그중 하나를 우선순위로 표시합니다.
+2. 우선순위에는 일하는 하루의 첫 긴 칸을 줍니다.
+3. 나머지 꼭 할 일도 모두 시간 위에 놓습니다. 기본은 60분입니다.
+4. 내가 정할 수 있는 회의는 서로 붙여서 잡습니다.
+5. 칸 하나는 비워 두고, 하루의 끝에는 다음 날을 계획합니다.
+
+## 크로박스로 이 전략 쓰기
+
+크로박스는 아이폰과 안드로이드용 타임박싱 앱입니다. 할 일을 적고 우선순위를 표시한 뒤, 할 일을 하루 타임라인에 끌어다 놓으면 시작 시각과 길이가 있는 칸이 됩니다. 칸이 시작되면 알림이 오고, 칸 길이가 기본값인 집중 타이머를 켤 수 있습니다. 여기까지는 모두 무료입니다. 칸이 진행되는 동안 방해되는 앱을 막는 앱 차단은 크로박스 Pro 기능입니다.
     `,
     'time-boxing-vs-pomodoro': `
 # 타임박싱 vs 뽀모도로: 어떤 기법이 나에게 맞을까?

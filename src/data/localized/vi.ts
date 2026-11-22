@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: '5 Chiến Lược Time-Boxing Của Các CEO Hàng Đầu',
-      excerpt: 'Khám phá các chiến lược time-boxing chuẩn xác được Elon Musk, Bill Gates và các nhà lãnh đạo hàng đầu áp dụng để tối đa hóa hiệu suất và đạt kết quả vượt trội.',
+      title: '5 chiến lược time-boxing, kèm dữ liệu từ 5.077 nhiệm vụ thật',
+      excerpt: 'Năm chiến lược time-boxing đáng bắt đầu: giờ bắt đầu cho mỗi việc phải làm, ưu tiên lên trước, khung 60 phút, họp tách khỏi việc tập trung, có khung dự phòng.',
       faqs: [
         {
-          question: 'Elon Musk có thực sự chia lịch trình theo các khối 5 phút?',
-          answer: 'Có. Musk từng chia sẻ công khai về việc lên lịch họp và làm việc theo các khung 5 phút để tối ưu hóa mật độ công việc và giảm thiểu thời gian lãng phí. Dù cách chia nhỏ này hiệu quả với ông, hầu hết mọi người sẽ hoạt động tốt hơn với các khối thời gian dài hơn một chút (15–30 phút) để phù hợp với nhịp độ của riêng mình.',
+          question: 'Nên bắt đầu với chiến lược time-boxing nào?',
+          answer: 'Hãy bắt đầu bằng việc gán giờ bắt đầu cho mọi nhiệm vụ phải làm. Trong dữ liệu của Chrobox, các nhiệm vụ có khung giờ được hoàn thành 48,1% số lần, so với 17,6% với những nhiệm vụ để trong danh sách. Khi việc này thành thói quen, hãy thêm các chiến lược còn lại từng cái một.',
         },
         {
-          question: 'Tôi có thể kết hợp ngày theo chủ đề với time-boxing không?',
-          answer: 'Hoàn toàn được. Việc gán chủ đề cho mỗi ngày (ví dụ: Thứ Hai để lập kế hoạch, Thứ Ba để làm việc sâu) giúp hạn chế chuyển đổi ngữ cảnh ở cấp độ vĩ mô, trong khi áp dụng time-boxing trong ngày sẽ giải quyết việc tập trung ở cấp độ vi mô. Sự kết hợp này là một trong những hệ thống quản lý hiệu suất hiệu quả nhất hiện nay.',
+          question: 'Việc tập trung và các cuộc họp có nên nằm cùng một ngày không?',
+          answer: 'Được, nhưng hãy tách chúng ra trong ngày. Trong bài tiểu luận năm 2009 "Maker\'s Schedule, Manager\'s Schedule", Paul Graham cho rằng một cuộc họp duy nhất có thể chia buổi chiều thành những mảnh quá nhỏ để làm việc khó, vì vậy hãy dồn các cuộc họp lại với nhau và bảo vệ một khối nửa ngày cho việc tập trung.',
         },
         {
-          question: 'Tôi nên lên lịch bao nhiêu khối tập trung mỗi ngày?',
-          answer: 'Nghiên cứu về hiệu suất nhận thức cho thấy 3–5 khối làm việc sâu (deep-work) từ 60–90 phút mỗi ngày là giới hạn bền vững cho hầu hết mọi người. Vượt quá mức đó, bạn dễ rơi vào trạng thái mệt mỏi vì phải đưa ra quyết định và hiệu quả sẽ giảm dần. Hãy lên lịch cho các công việc đòi hỏi nhiều trí óc nhất vào hai khối đầu tiên khi năng lượng tinh thần ở mức cao nhất.',
+          question: 'Mỗi ngày nên lên kế hoạch bao nhiêu khung giờ?',
+          answer: 'Hãy bắt đầu với khoảng năm nhiệm vụ cộng một khung dự phòng trống. Ngày được lên kế hoạch ở mức trung vị trong dữ liệu Chrobox có 5 nhiệm vụ. Hãy lên kế hoạch ít hơn vào những ngày nhiều cuộc họp và điều chỉnh sau một tuần.',
         },
       ],
     },
@@ -2214,80 +2214,75 @@ Vẫn dừng lại. Viết một dòng về việc bạn đang ở đâu, rồi 
 Chrobox là ứng dụng time-boxing cho iPhone và Android. Bạn thêm một việc với giờ bắt đầu và độ dài, việc đó xuất hiện trên dòng thời gian của ngày, và một thông báo cho bạn biết khi hộp bắt đầu. Bộ hẹn giờ tập trung đếm ngược đúng độ dài của hộp hiện tại một lần, và một bản nhìn lại ngắn cuối ngày ghi lại những gì đã tiến triển. Việc, mức ưu tiên, dòng thời gian, bộ hẹn giờ tập trung, thông báo, thói quen định kỳ và phần nhìn lại hằng ngày là miễn phí; chặn các ứng dụng gây xao nhãng trong lúc có hộp, tiện ích trên màn hình chính và màn hình khóa, lập kế hoạch bằng AI và thống kê chi tiết thuộc về Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 chiến lược time-boxing được các CEO và doanh nhân hàng đầu áp dụng
+# 5 chiến lược time-boxing, kèm dữ liệu từ 5.077 nhiệm vụ thật
 
-Bạn đã bao giờ tự hỏi làm thế nào những người thành công nhất thế giới có thể hoàn thành nhiều việc đến thế? Dù cũng chỉ có 24 giờ mỗi ngày như bao người khác, nhưng chính phương pháp quản lý thời gian đã tạo nên sự khác biệt của họ.
+**Năm chiến lược time-boxing đáng bắt đầu là: gán giờ bắt đầu cho mọi nhiệm vụ phải làm, đặt ưu tiên hàng đầu vào một khung giờ sớm, mặc định dùng khung 60 phút, tách việc cần tập trung khỏi các cuộc họp, và lên kế hoạch khoảng năm nhiệm vụ mỗi ngày kèm một khung giờ trống cho phần việc bị lố.** Mỗi chiến lược dưới đây dựa trên dữ liệu sử dụng của Chrobox (5.077 nhiệm vụ đã lên kế hoạch từ 250 người, từ tháng Mười Hai 2025 đến tháng Chín 2026) hoặc một nguồn mà bạn có thể tự đọc. Chúng tôi cố ý bỏ qua những câu chuyện nổi tiếng về cách một CEO nào đó chia ngày của mình: phần lớn được kể lại qua nhiều tầng và rất khó kiểm chứng.
 
-Nhiều nhà điều hành hàng đầu coi time-boxing là vũ khí bí mật của mình. Hãy cùng khám phá 5 chiến lược hiệu quả đã được chứng minh mà họ áp dụng.
+| # | Chiến lược | Cần làm gì | Cơ sở |
+|---|---|---|---|
+| 1 | Gán giờ bắt đầu cho mọi việc phải làm | Chuyển nhiệm vụ từ danh sách lên đồng hồ | Nhiệm vụ có khung giờ được hoàn thành 48,1% số lần, nhiệm vụ chỉ nằm trong danh sách 17,6% |
+| 2 | Ưu tiên trước, sớm | Dành khung giờ đầu tiên của buổi sáng cho việc quan trọng nhất | Khung bắt đầu 05:00–08:59 được hoàn thành 62,3% số lần, khung bắt đầu 21:00–23:59 là 33,2% |
+| 3 | Mặc định 60 phút | Bắt đầu mỗi khung vào đầu giờ và chia nhỏ việc dài hơn | Khung giờ trung vị dài 60 phút |
+| 4 | Tách việc tập trung khỏi cuộc họp | Bảo vệ một khối nửa ngày và dồn các cuộc họp lại với nhau | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Lên kế hoạch khoảng năm việc, kèm dự phòng | Để trống một khung cho phần việc bị lố | Ngày được lên kế hoạch ở mức trung vị có 5 nhiệm vụ |
 
-## Chiến lược 1: Quy tắc 5 phút (Phương pháp của Elon Musk)
+## 1. Gán giờ bắt đầu cho mọi nhiệm vụ phải làm
 
-Elon Musk, CEO của Tesla và SpaceX, nổi tiếng với việc chia nhỏ ngày làm việc của mình thành các khối 5 phút. Dù điều này nghe có vẻ cực đoan, nhưng nguyên lý hoạt động của nó lại vô cùng mạnh mẽ.
+Danh sách việc cần làm cho bạn biết phải làm gì. Một khung giờ còn cho biết khi nào và trong bao lâu, và điều đó hóa ra quan trọng hơn bất kỳ hệ thống thông minh nào xây thêm bên trên. Trong dữ liệu của Chrobox, các nhiệm vụ có cả giờ bắt đầu lẫn độ dài trên dòng thời gian của ngày được đánh dấu hoàn thành 48,1% số lần. Các nhiệm vụ nằm lại trong danh sách mà không có khung giờ được đánh dấu hoàn thành 17,6% số lần.
 
-### Cách áp dụng
+Khoảng cách này không chỉ do vài người cực kỳ ngăn nắp kéo điểm trung bình lên. Trong 41 người đã lên kế hoạch đủ nhiệm vụ cả hai kiểu để so sánh, 35 người hoàn thành nhiều nhiệm vụ có khung giờ hơn nhiệm vụ không xếp lịch. Đây là dữ liệu quan sát, không phải thí nghiệm: mọi người có thể gán giờ cho những việc họ vốn đã định làm, và một khung giờ cũng đóng vai trò nhắc nhở. Dù vậy, quy tắc thực tế vẫn như cũ. Nếu một việc phải xong hôm nay, nó cần có giờ hôm nay. Nếu nó không vừa vào chỗ nào trên đồng hồ, thì vốn dĩ nó sẽ không xong hôm nay, và dời nó ngay bây giờ tốt hơn là lúc 22:00.
 
-- **Chia nhỏ các nhiệm vụ lớn thành các khoảng tăng 5 phút** để dễ ước lượng
-- **Lên lịch các cuộc họp theo khối 5 phút** thay vì mặc định là 30 hoặc 60 phút
-- **Sử dụng các hộp thời gian siêu nhỏ (micro time-box) cho các quyết định nhanh**
+## 2. Đặt ưu tiên hàng đầu vào khung giờ đầu tiên của buổi sáng
 
-## Chiến lược 2: Hệ thống hai danh sách (Phương pháp của Warren Buffett)
+Hai con số cùng chỉ về một hướng. Các nhiệm vụ được đánh dấu ưu tiên được hoàn thành 44,5% số lần, so với 28,9% của mọi nhiệm vụ còn lại. Và các khung giờ bắt đầu từ 05:00 đến 08:59 được hoàn thành 62,3% số lần, trong khi các khung giờ bắt đầu từ 21:00 đến 23:59 được hoàn thành 33,2% số lần.
 
-Phương pháp của Warren Buffett tập trung vào việc ưu tiên một cách triệt để trước khi tiến hành time-boxing.
+Một phần hiệu ứng buổi sáng là do ai là người lên kế hoạch sớm: người xếp một việc lúc 06:30 có thể đơn giản là nhất quán hơn. Lời khuyên vẫn như nhau dù thế nào. **Chọn một ưu tiên từ tối hôm trước và dành cho nó khung giờ dài đầu tiên của ngày làm việc**, trước khi email, chat hay cuộc họp kịp chiếm thời gian đó. Nếu ngày của bạn bắt đầu lúc 10:00, khung đầu tiên là 10:00; điểm mấu chốt là đầu tiên, chứ không phải sớm vì sớm.
 
-### Quy trình thực hiện
+## 3. Mặc định dùng khung 60 phút
 
-1. **Viết ra 25 mục tiêu hoặc nhiệm vụ hàng đầu của bạn**
-2. **Khoanh tròn 5 mục tiêu quan trọng nhất**
-3. **Chỉ áp dụng time-boxing cho 5 mục tiêu này**
-4. **Chủ động tránh xa 20 mục tiêu còn lại** — chúng thực chất là những tác nhân gây xao nhãng ẩn mình
+Khung giờ trung vị trong Chrobox là 60 phút. Một phần là do chính ứng dụng, vì nhiệm vụ thả vào một giờ trên dòng thời gian sẽ bắt đầu là khung 60 phút và nhiều người giữ nguyên. Dù vậy, một giờ là mặc định hợp lý: đủ dài để bắt tay vào việc thật sự, đủ ngắn để bảo vệ khỏi sự gián đoạn.
 
-## Chiến lược 3: Ngày theo chủ đề (Hệ thống của Jack Dorsey)
+Dùng các khung ngắn hơn, 15 đến 30 phút, cho email, tin nhắn và việc hành chính nhỏ, và gom chúng lại để chúng không rải khắp mọi giờ. Khi một việc cần hơn khoảng 90 phút, hãy chia thành hai khung với một quãng nghỉ ngắn ở giữa thay vì đặt một khối dài. [Báo cáo dữ liệu hoàn thành](/vi/blog/does-timeboxing-work) của chúng tôi có phân tích đầy đủ về mối liên hệ giữa độ dài khung giờ và tỷ lệ hoàn thành.
 
-Khi Jack Dorsey điều hành cả Twitter và Square cùng một lúc, ông đã sử dụng các ngày theo chủ đề để quản lý thời gian của mình.
+## 4. Tách việc tập trung và cuộc họp
 
-| Ngày | Chủ đề |
-|-----|-------|
-| Thứ Hai | Quản lý & Vận hành |
-| Thứ Ba | Phát triển Sản phẩm |
-| Thứ Tư | Marketing & Tăng trưởng |
-| Thứ Năm | Quan hệ Đối tác & Phát triển Kinh doanh |
-| Thứ Sáu | Văn hóa Doanh nghiệp & Tuyển dụng |
+Trong bài tiểu luận tháng Bảy 2009 "Maker's Schedule, Manager's Schedule" (Lịch của người làm ra sản phẩm, lịch của người quản lý), Paul Graham mô tả hai cách dùng thời gian. Theo lịch của người quản lý, ngày được cắt thành các khoảng một giờ và bạn đổi việc đang làm mỗi giờ. Những người tạo ra sản phẩm, như lập trình viên và nhà văn, thường thích dùng thời gian theo đơn vị ít nhất là nửa ngày. Theo lịch đó, ông viết, một cuộc họp duy nhất có thể phá hỏng cả buổi chiều bằng cách chia nó thành hai mảnh, mỗi mảnh quá nhỏ để làm được việc khó. Cách khắc phục của chính ông là giờ tiếp khách: ông dồn các cuộc gặp với những nhà sáng lập vào cuối ngày làm việc, nên chúng không bao giờ làm gián đoạn ngày làm việc.
 
-## Chiến lược 4: Khối tập trung 90 phút
+Time-boxing giúp áp dụng điều này dễ dàng. Lấp một nửa ngày bằng các khung tập trung và đặt những cuộc họp bạn chủ động được cạnh nhau ở nửa còn lại. Đây là một ví dụ về cách bố trí:
 
-Nghiên cứu cho thấy não bộ con người có thể duy trì sự tập trung cao độ trong khoảng 90 phút trước khi cần nghỉ ngơi.
+| Giờ | Khung | Chế độ |
+|---|---|---|
+| 08:30–08:45 | Lên kế hoạch cho ngày | Quản lý |
+| 08:45–09:45 | Ưu tiên: viết bản cập nhật cho nhà đầu tư | Sáng tạo |
+| 09:45–10:00 | Nghỉ | Nghỉ ngơi |
+| 10:00–11:00 | Soạn nháp đặc tả sản phẩm | Sáng tạo |
+| 11:00–12:00 | Hoàn thiện đặc tả sản phẩm | Sáng tạo |
+| 12:00–13:00 | Ăn trưa | Nghỉ ngơi |
+| 13:00–15:00 | Các cuộc họp liên tiếp | Quản lý |
+| 15:00–15:30 | Email và tin nhắn | Quản lý |
+| 15:30–16:30 | Dự phòng cho phần việc bị lố | Dự phòng |
+| 16:30–17:00 | Xem lại hôm nay và lên kế hoạch cho ngày mai | Quản lý |
 
-### Cách triển khai
+Buổi sáng có ba khung tập trung liên tiếp chỉ với một quãng nghỉ ngắn, còn buổi chiều gánh toàn bộ các cuộc họp. Để xem thêm cách bố trí theo vai trò, hãy xem [mẫu lịch cho lãnh đạo](/vi/templates/executive).
 
-1. **Lên lịch các khối tập trung 90 phút** cho những công việc quan trọng nhất của bạn
-2. **Nghỉ ngơi từ 20-30 phút** giữa các khối
-3. **Giới hạn từ 4-5 khối tập trung mỗi ngày**
+## 5. Lên kế hoạch khoảng năm nhiệm vụ và để trống một khung
 
-## Chiến lược 5: Lịch trình của Người sáng tạo (Triết lý của Paul Graham)
+Ngày được lên kế hoạch ở mức trung vị trong Chrobox có 5 nhiệm vụ. Đó không phải con số kỳ diệu, mà là điều mọi người thực sự lên kế hoạch, nhưng là điểm khởi đầu hữu ích. Một ngày có mười lăm khung trông hiệu quả lúc 08:00 và có cảm giác như thất bại lúc 18:00. Hãy bắt đầu với khoảng năm nhiệm vụ, lên kế hoạch ít hơn vào những ngày nhiều cuộc họp và điều chỉnh sau một tuần.
 
-Paul Graham phân biệt giữa hai loại lịch trình:
+**Cố ý để trống một khung.** Chắc chắn sẽ có việc bị lố, và một giờ dự phòng giúp một việc trễ không đẩy phần còn lại của ngày muộn theo. Nếu không cần đến dự phòng, hãy kéo việc tiếp theo lên sớm hoặc kết thúc sớm. Để dàn trải các dự án lớn hơn qua nhiều ngày, hãy xem [hướng dẫn lập kế hoạch tuần](/vi/blog/weekly-planning-guide) của chúng tôi.
 
-### Lịch trình của Nhà quản lý
-- Ngày làm việc được chia thành các khung giờ một tiếng
-- Các cuộc họp nằm rải rác trong ngày
+## Cách bắt đầu từ ngày mai
 
-### Lịch trình của Người sáng tạo
-- Ngày làm việc được chia thành các khối nửa ngày
-- Những khoảng thời gian dài, không bị gián đoạn dành cho công việc sáng tạo
+1. Tối nay, viết ra những nhiệm vụ phải làm của ngày mai và đánh dấu một việc là ưu tiên.
+2. Dành cho việc ưu tiên khung giờ dài đầu tiên của ngày làm việc.
+3. Xếp mọi nhiệm vụ phải làm còn lại lên đồng hồ, mặc định 60 phút.
+4. Dời các cuộc họp bạn chủ động được lại gần nhau.
+5. Để trống một khung, và kết thúc ngày bằng việc lên kế hoạch cho ngày kế tiếp.
 
-## Triển khai các chiến lược này cùng Chrobox
+## Dùng các chiến lược này trong Chrobox
 
-Chrobox được thiết kế để hỗ trợ tất cả các chiến lược time-boxing này:
-
-- **Thời lượng hộp thời gian linh hoạt** — Từ 5 phút cho đến cả ngày
-- **Lập kế hoạch ưu tiên hàng đầu** — Quy trình thiết lập mức độ ưu tiên được tích hợp sẵn
-- **Hỗ trợ chủ đề** — Gắn thẻ và phân loại các hộp thời gian của bạn
-- **Chế độ tập trung** — Thực hiện công việc mà không bị xao nhãng
-
-## Kết luận
-
-Những chiến lược được các cá nhân xuất sắc áp dụng không phải là phép thuật — đó là những hệ thống đã được chứng minh mà bất kỳ ai cũng có thể áp dụng. Hãy bắt đầu với một phương pháp, thực hành nó một cách nhất quán và chứng kiến năng suất của bạn bứt phá.
-    `,
+Chrobox là ứng dụng time-boxing cho iPhone và Android. Bạn thêm nhiệm vụ, đánh dấu ưu tiên và kéo từng nhiệm vụ lên dòng thời gian của ngày, nơi nó trở thành một khung giờ có giờ bắt đầu và độ dài. Khi một khung bắt đầu, bạn nhận được thông báo và có thể bật bộ hẹn giờ tập trung với mặc định bằng độ dài của khung. Tất cả những điều này đều miễn phí. Chặn các ứng dụng gây xao nhãng trong lúc một khung diễn ra là một phần của Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Time-Boxing vs Pomodoro: Phương pháp nào phù hợp với bạn?
 

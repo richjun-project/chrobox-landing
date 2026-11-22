@@ -670,20 +670,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     '5-time-boxing-strategies': {
-      title: '5 Timeboxing-strategieën van top-CEO\'s en ondernemers',
-      excerpt: 'Ontdek de exacte timeboxing-strategieën die Elon Musk, Bill Gates en andere topleiders gebruiken om hun productiviteit te maximaliseren en buitengewone resultaten te behalen.',
+      title: '5 timeboxing-strategieën, met data van 5.077 echte taken',
+      excerpt: 'Vijf timeboxing-strategieën om mee te beginnen: starttijd voor elke must-do, prioriteit eerst, boxen van 60 minuten, vergaderingen apart van focuswerk, buffer.',
       faqs: [
         {
-          question: 'Plant Elon Musk zijn dag echt in blokken van 5 minuten?',
-          answer: 'Ja. Musk heeft er openlijk over gesproken dat hij vergaderingen en taken inplant in blokken van 5 minuten om de dichtheid te maximaliseren en tijdverspilling te minimaliseren. Hoewel deze mate van detail voor hem werkt, hebben de meeste mensen meer baat bij iets langere blokken (15–30 minuten) die zijn afgestemd op hun eigen ritme.',
+          question: 'Met welke timeboxing-strategie kan ik het best beginnen?',
+          answer: 'Begin met het geven van een starttijd aan elke taak die echt moet. In de data van Chrobox werden taken met een tijdslot in 48,1% van de gevallen voltooid, tegenover 17,6% voor taken die op een lijst bleven staan. Als dat een gewoonte is, voeg je de andere strategieën een voor een toe.',
         },
         {
-          question: 'Kan ik themadagen combineren met timeboxing?',
-          answer: 'Absoluut. Door elke dag een thema te geven (bijvoorbeeld maandag voor planning, dinsdag voor deep work) beperk je het wisselen van context op macroniveau, weert timeboxing binnen elke dag zorgt voor focus op microniveau. Deze combinatie is een van de meest effectieve productiviteitssystemen die er zijn.',
+          question: 'Moeten focuswerk en vergaderingen op dezelfde dag staan?',
+          answer: 'Dat kan, maar houd ze binnen de dag gescheiden. In zijn essay uit 2009, "Maker\'s Schedule, Manager\'s Schedule", betoogde Paul Graham dat één vergadering een middag kan opdelen in stukken die te klein zijn voor moeilijk werk. Zet vergaderingen daarom bij elkaar en bescherm een blok van een halve dag voor focuswerk.',
         },
         {
-          question: 'Hoeveel focusblokken moet ik per dag inplannen?',
-          answer: 'Onderzoek naar cognitieve prestaties toont aan dat 3 tot 5 deep work-blokken van 60 tot 90 minuten per dag voor de meeste mensen het maximaal haalbare is. Daarna treden beslissingsmoeheid en afnemende meeropbrengsten op. Plan je meest veeleisende taken in tijdens de eerste twee blokken, wanneer je mentale energie het hoogst is.',
+          question: 'Hoeveel timeboxen moet ik per dag plannen?',
+          answer: 'Begin met ongeveer vijf taken plus één lege bufferbox. De mediane geplande dag in de data van Chrobox had 5 taken. Plan minder op dagen met veel vergaderingen en pas na een week aan.',
         },
       ],
     },
@@ -2048,80 +2048,75 @@ Stop toch. Schrijf één regel op over waar je staat en kies dan uit drie opties
 Chrobox is een timeboxing-app voor iPhone en Android. Je voegt een taak toe met een starttijd en een duur, hij verschijnt op de tijdlijn van de dag en een melding laat je weten wanneer de box begint. De focustimer telt één keer de duur van de huidige box af, en een korte reflectie aan het eind van de dag legt vast wat er vooruit is gegaan. Taken, prioriteiten, de tijdlijn, de focustimer, meldingen, routines en dagelijkse reflecties zijn gratis; het blokkeren van afleidende apps tijdens een box, widgets voor het start- en toegangsscherm, AI-planning en gedetailleerde statistieken horen bij Pro.
 `,
     '5-time-boxing-strategies': `
-# 5 timeboxing-strategieën van top-CEO's en ondernemers
+# 5 timeboxing-strategieën, met data van 5.077 echte taken
 
-Heb je je wel eens afgevraagd hoe 's werelds meest succesvolle mensen zoveel gedaan krijgen? Hoewel ze net als iedereen maar 24 uur in een dag hebben, onderscheiden ze zich door hun aanpak van timemanagement.
+**Vijf timeboxing-strategieën zijn de moeite waard om mee te beginnen: geef elke taak die echt moet een starttijd, zet je belangrijkste prioriteit in een vroege box, gebruik standaard boxen van 60 minuten, houd focuswerk gescheiden van vergaderingen en plan ongeveer vijf taken per dag met één lege box voor uitloop.** Elke strategie hieronder wordt ondersteund door gebruiksdata van Chrobox (5.077 geplande taken van 250 mensen, december 2025 tot september 2026) of door een bron die je zelf kunt lezen. Bekende verhalen over hoe een bepaalde CEO zijn dag indeelt, hebben we bewust weggelaten: de meeste worden uit de tweede hand doorverteld en zijn moeilijk te controleren.
 
-Veel topbestuurders vertrouwen op timeboxing als hun geheime wapen. Laten we vijf beproefde strategieën bekijken die zij gebruiken.
+| # | Strategie | Wat te doen | Basis |
+|---|---|---|---|
+| 1 | Geef elke must-do een starttijd | Verplaats taken van de lijst naar de klok | Getimeboxte taken werden in 48,1% van de gevallen voltooid, taken die alleen op de lijst stonden in 17,6% |
+| 2 | Prioriteit eerst, vroeg | Geef de ene taak die het belangrijkst is de eerste box van de ochtend | Boxen die begonnen tussen 05:00–08:59 werden in 62,3% van de gevallen voltooid, boxen die begonnen tussen 21:00–23:59 in 33,2% |
+| 3 | Standaard 60 minuten | Laat elke box op een heel uur beginnen en splits langer werk | De mediane box duurde 60 minuten |
+| 4 | Houd focuswerk apart van vergaderingen | Bescherm een blok van een halve dag en bundel vergaderingen | Paul Graham, "Maker's Schedule, Manager's Schedule" (2009) |
+| 5 | Plan ongeveer vijf taken, plus een buffer | Laat één box leeg voor wat uitloopt | De mediane geplande dag had 5 taken |
 
-## Strategie 1: De 5-minutenregel (de aanpak van Elon Musk)
+## 1. Geef elke taak die echt moet een starttijd
 
-Elon Musk, CEO van Tesla en SpaceX, staat erom bekend dat hij zijn dag opdeelt in blokken van 5 minuten. Hoewel dit misschien extreem lijkt, is het achterliggende principe ijzersterk.
+Een takenlijst vertelt je wat je moet doen. Een timebox vertelt je ook wanneer en hoelang, en dat blijkt belangrijker dan elk slim systeem dat je erbovenop bouwt. In de data van Chrobox werden taken met zowel een starttijd als een lengte op de dagtijdlijn in 48,1% van de gevallen afgevinkt. Taken die zonder tijdslot op de lijst bleven staan, werden in 17,6% van de gevallen afgevinkt.
 
-### Hoe je dit toepast
+Het verschil komt niet alleen doordat een paar heel georganiseerde mensen het gemiddelde optrekken. Van de 41 mensen die genoeg taken op beide manieren planden om te kunnen vergelijken, voltooiden er 35 meer van hun getimeboxte taken dan van hun ongeplande taken. Dit zijn observatiedata, geen experiment: mensen geven misschien een tijd aan taken die ze toch al van plan waren te doen, en een tijdslot werkt ook als herinnering. De praktische regel blijft staan. Als een taak vandaag moet gebeuren, heeft ze vandaag een tijd nodig. Past ze nergens op de klok, dan zou ze vandaag nooit gebeurd zijn, en dan verplaats je haar beter nu dan om 22:00.
 
-- **Verdeel grote taken in blokken van 5 minuten** om ze beter in te schatten
-- **Plan vergaderingen in blokken van 5 minuten** in plaats van standaard 30 of 60 minuten te kiezen
-- **Gebruik micro-timeboxen voor snelle beslissingen**
+## 2. Zet je belangrijkste prioriteit in de eerste box van de ochtend
 
-## Strategie 2: Het twee-lijstensysteem (de methode van Warren Buffett)
+Twee cijfers wijzen dezelfde kant op. Taken die als prioriteit waren gemarkeerd, werden in 44,5% van de gevallen voltooid, tegenover 28,9% voor al het andere. En boxen die tussen 05:00 en 08:59 begonnen, werden in 62,3% van de gevallen voltooid, terwijl boxen die tussen 21:00 en 23:59 begonnen in 33,2% van de gevallen werden voltooid.
 
-De aanpak van Warren Buffett draait om meedogenloze prioritering nog vóór het timeboxen.
+Een deel van het ochtendeffect komt doordat vroege planners een bepaald type mens zijn: wie een taak om 06:30 inplant, is misschien gewoon consequenter. Het advies is hoe dan ook hetzelfde. **Kies de avond ervoor één prioriteit en geef die de eerste lange box van je werkdag**, voordat e-mail, chat of vergaderingen die tijd kunnen opeisen. Begint je dag om 10:00, dan is de eerste box om 10:00; het gaat om de eerste, niet om vroeg om het vroeg zijn.
 
-### Het proces
+## 3. Standaard boxen van 60 minuten
 
-1. **Schrijf je 25 belangrijkste doelen of taken op**
-2. **Omcirkel de 5 allerbelangrijkste**
-3. **Timebox ALLEEN deze top 5**
-4. **Vermijd de overige 20 actief** — dat zijn vermomde afleidingen
+De mediane timebox in Chrobox was 60 minuten. Een deel daarvan komt door de app zelf, want een taak die je op een uur van de tijdlijn zet, begint als een box van 60 minuten en veel mensen laten dat zo. Toch is een uur een verstandige standaard: lang genoeg om echt op gang te komen met serieus werk, kort genoeg om te beschermen tegen onderbrekingen.
 
-## Strategie 3: Themadagen (het systeem van Jack Dorsey)
+Gebruik kortere boxen van 15 tot 30 minuten voor e-mail, berichten en kleine administratieve taken, en groepeer ze zodat ze niet in elk uur doorlekken. Heeft een taak meer dan ongeveer 90 minuten nodig, splits haar dan in twee boxen met een korte pauze ertussen in plaats van één lang blok te boeken. In ons [rapport over voltooiingsdata](/nl/blog/does-timeboxing-work) vind je de volledige uitsplitsing van hoe de lengte van een box samenhing met voltooiing.
 
-Toen Jack Dorsey tegelijkertijd Twitter en Square leidde, gebruikte hij themadagen om zijn tijd in te delen.
+## 4. Houd focuswerk en vergaderingen apart
 
-| Dag | Thema |
-|-----|-------|
-| Maandag | Management & Bedrijfsvoering |
-| Dinsdag | Productontwikkeling |
-| Woensdag | Marketing & Groei |
-| Donderdag | Partnerships & Business Development |
-| Vrijdag | Bedrijfscultuur & Werving |
+In een essay van juli 2009, "Maker's Schedule, Manager's Schedule", beschreef Paul Graham twee manieren om tijd te gebruiken. In het schema van de manager is de dag in intervallen van een uur gesneden en wissel je elk uur van bezigheid. Mensen die dingen maken, zoals programmeurs en schrijvers, gebruiken tijd over het algemeen het liefst in eenheden van minstens een halve dag. In dat schema, schreef hij, kan één vergadering een hele middag verpesten door die in twee stukken te breken, elk te klein om iets moeilijks in te doen. Zijn eigen oplossing was een spreekuur: hij bundelde gesprekken met oprichters aan het einde van zijn werkdag, zodat ze die nooit onderbraken.
 
-## Strategie 4: Het focusblok van 90 minuten
+Timeboxing maakt dit eenvoudig toe te passen. Vul de ene helft van de dag met focusboxen en zet de vergaderingen die je zelf bepaalt naast elkaar in de andere helft. Zo kan dat eruitzien:
 
-Onderzoek toont aan dat het menselijk brein ongeveer 90 minuten lang een piekfocus kan vasthouden voordat het rust nodig heeft.
+| Tijd | Box | Modus |
+|---|---|---|
+| 08:30–08:45 | De dag plannen | Manager |
+| 08:45–09:45 | Prioriteit: de update voor investeerders schrijven | Maker |
+| 09:45–10:00 | Pauze | Rust |
+| 10:00–11:00 | Productspecificatie uitwerken | Maker |
+| 11:00–12:00 | Productspecificatie afmaken | Maker |
+| 12:00–13:00 | Lunch | Rust |
+| 13:00–15:00 | Vergaderingen achter elkaar | Manager |
+| 15:00–15:30 | E-mail en berichten | Manager |
+| 15:30–16:30 | Buffer voor alles wat uitliep | Buffer |
+| 16:30–17:00 | Vandaag terugblikken en morgen plannen | Manager |
 
-### Implementatie
+De ochtend bevat drie focusboxen achter elkaar met maar één korte pauze, en de middag vangt alle vergaderingen op. Voor meer indelingen per functie, zie het [sjabloon voor een directieschema](/nl/templates/executive).
 
-1. **Plan focusblokken van 90 minuten** in voor je belangrijkste werk
-2. **Neem 20-30 minuten pauze** tussen de blokken
-3. **Beperk jezelf tot 4-5 focusblokken per dag**
+## 5. Plan ongeveer vijf taken en laat één box leeg
 
-## Strategie 5: Het makersschema (de filosofie van Paul Graham)
+De mediane geplande dag in Chrobox had 5 taken. Dat is geen magisch getal, het is wat mensen daadwerkelijk planden, maar het is een nuttig startpunt. Een dag met vijftien boxen ziet er om 08:00 productief uit en voelt om 18:00 als mislukt. Begin met ongeveer vijf taken, plan minder op dagen met veel vergaderingen en pas na een week aan.
 
-Paul Graham maakt onderscheid tussen twee soorten schema's:
+**Laat met opzet één box leeg.** Er loopt altijd iets uit, en een bufferuur voorkomt dat één late taak de rest van de dag opschuift. Heb je de buffer niet nodig, haal dan de volgende taak naar voren of stop eerder. Om grotere projecten over meerdere dagen te spreiden, zie onze [gids voor weekplanning](/nl/blog/weekly-planning-guide).
 
-### Managersschema
-- De dag is opgedeeld in blokken van een uur
-- Vergaderingen liggen verspreid over de dag
+## Zo begin je morgen
 
-### Makersschema
-- De dag is opgedeeld in blokken van een halve dag
-- Lange, ononderbroken periodes voor creatief werk
+1. Schrijf vanavond de must-do-taken van morgen op en markeer er één als prioriteit.
+2. Geef de prioriteit de eerste lange box van je werkdag.
+3. Zet elke andere must-do-taak op de klok, standaard 60 minuten.
+4. Verplaats de vergaderingen die je zelf bepaalt naast elkaar.
+5. Laat één box leeg en sluit de dag af met het plannen van de volgende.
 
-## Deze strategieën toepassen met Chrobox
+## Deze strategieën gebruiken in Chrobox
 
-Chrobox is ontworpen om al deze timeboxing-strategieën te ondersteunen:
-
-- **Flexibele duur van timeboxen** — Van 5 minuten tot hele dagen
-- **Prioriteit-eerst planning** — Ingebouwde workflow voor prioritering
-- **Thema-ondersteuning** — Tag en categoriseer je timeboxen
-- **Focusmodus** — Werken zonder afleiding
-
-## Conclusie
-
-De strategieën van toppresteerders zijn geen magie — het zijn beproefde systemen die iedereen kan toepassen. Begin met één aanpak, oefen dit consequent en zie hoe je productiviteit omhoogschiet.
-    `,
+Chrobox is een timeboxing-app voor iPhone en Android. Je voegt taken toe, markeert prioriteiten en sleept elke taak naar de dagtijdlijn, waar die een box wordt met een starttijd en een lengte. Als een box begint, krijg je een melding en kun je een focustimer starten die standaard de lengte van de box heeft. Dit alles is gratis. Het blokkeren van afleidende apps tijdens een box is onderdeel van Chrobox Pro.
+`,
     'time-boxing-vs-pomodoro': `
 # Time-boxing vs. Pomodoro: Welke techniek past bij jou?
 
