@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>수능 끝나고 계획표: 고3 하루 시간 배치와 정시까지 일정</title>
+      <link>https://chrobox.net/ko/blog/after-suneung-daily-plan</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/after-suneung-daily-plan</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <description>수능이 끝나면 성적 통지(12월 11일)와 정시 원서 접수(1월 4~7일)를 기준으로 하루를 다시 짭니다. 기상 시각은 그대로 두고, 입시 칸·배우는 칸·쉬는 칸을 나누는 고3 계획표입니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>갓생 계획표: 무리하지 않고 일주일 버티는 하루 시간표</title>
       <link>https://chrobox.net/ko/blog/godsaeng-daily-plan</link>
