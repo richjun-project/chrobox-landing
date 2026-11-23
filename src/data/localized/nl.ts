@@ -688,20 +688,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-vs-pomodoro': {
-      title: 'Timeboxing vs. Pomodoro: Welke techniek past bij jou?',
-      excerpt: 'Een uitgebreide vergelijking tussen timeboxing en de Pomodoro-techniek. Ontdek welke methode bij jouw werkstijl past en hoe je het maximale uit beide haalt.',
+      title: 'Timeboxing vs Pomodoro: verschillen en wanneer welke',
+      excerpt: 'Pomodoro tijdt één focusblok van 25 minuten; timeboxing geeft elke taak een starttijd en duur. Wanneer je wat gebruikt, hoe je ze combineert, met echte data.',
       faqs: [
         {
-          question: 'Is de Pomodoro-techniek hetzelfde als timeboxing?',
-          answer: 'Nee. De Pomodoro-techniek is een specifieke invulling van timeboxing met vaste intervallen van 25 minuten en verplichte pauzes. Timeboxing is het bredere concept waarbij je een vaste hoeveelheid tijd aan een taak toewijst. De duur en de pauzes bepaal je helemaal zelf, wat het flexibeler maakt voor complex of wisselend werk.',
+          question: 'Is de Pomodoro-techniek een vorm van timeboxing?',
+          answer: 'Beide zetten een tijdslimiet op werk, maar op verschillende dingen. Een Pomodoro begrenst één blok focus op één activiteit, meestal 25 minuten, gevolgd door een pauze. Timeboxing geeft elke taak een starttijd en een duur in je dag. Veel mensen gebruiken Pomodoro-intervallen binnen een langere timebox.',
         },
         {
-          question: 'Welke techniek is beter voor creatief werk?',
-          answer: 'Timeboxing is over het algemeen geschikter voor creatief werk, omdat creatieve taken zich zelden laten dwingen in een rigide structuur van 25 minuten. Een timebox van 60 tot 90 minuten geeft je genoeg ruimte om zonder onderbrekingen in een flow te komen, terwijl het toch een duidelijke grens stelt om eindeloos doorgaan te voorkomen.',
+          question: 'Zijn sessies van 25 minuten makkelijker af te maken dan langere?',
+          answer: 'Niet in Chrobox-data. Boxen van 16–30 minuten en boxen van 46–60 minuten werden allebei in 48,7% van de gevallen voltooid. Het voltooiingspercentage daalde pas bij boxen langer dan 90 minuten: naar 45,0% voor 91–120 minuten en 44,0% daarboven.',
         },
         {
-          question: 'Kan ik beide technieken samen gebruiken?',
-          answer: 'Ja, en veel professionals doen dat ook. Een veelgebruikte hybride aanpak is om een timebox van 2 uur in te plannen voor een project en daarbinnen Pomodoro-intervallen (25 minuten werken + 5 minuten pauze) te gebruiken. De overkoepelende timebox houdt je planning strak, terwijl de Pomodoro\'s de vaart erin houden en mentale vermoeidheid voorkomen.',
+          question: 'Heeft Chrobox een Pomodoro-timer?',
+          answer: 'Chrobox heeft een focustimer die één keer aftelt. Als je hem vanuit een taak start, is de standaardduur die van de box, en het tabblad Focus heeft timers van 25, 50 en 90 minuten. Hij herhaalt werk- en pauzeintervallen niet automatisch, dus je start hem na een pauze zelf opnieuw.',
         },
       ],
     },
@@ -2118,67 +2118,74 @@ De mediane geplande dag in Chrobox had 5 taken. Dat is geen magisch getal, het i
 Chrobox is een timeboxing-app voor iPhone en Android. Je voegt taken toe, markeert prioriteiten en sleept elke taak naar de dagtijdlijn, waar die een box wordt met een starttijd en een lengte. Als een box begint, krijg je een melding en kun je een focustimer starten die standaard de lengte van de box heeft. Dit alles is gratis. Het blokkeren van afleidende apps tijdens een box is onderdeel van Chrobox Pro.
 `,
     'time-boxing-vs-pomodoro': `
-# Time-boxing vs. Pomodoro: Welke techniek past bij jou?
+# Timeboxing vs Pomodoro: verschillen en wanneer welke
 
-Als je je weleens hebt verdiept in productiviteitstechnieken, ben je vast en zeker zowel time-boxing als de Pomodoro-techniek tegengekomen. Hoewel ze overeenkomsten vertonen, dienen ze verschillende doelen en passen ze bij verschillende werkstijlen.
+**De Pomodoro-techniek begrenst één blok geconcentreerd werk, meestal 25 minuten, gevolgd door een pauze; timeboxing geeft elke taak een eigen starttijd en duur in je dag. Gebruik Pomodoro als het moeilijke deel het beginnen aan een taak of het erbij blijven is, en timeboxing als het moeilijke deel is dat de taken van de dag moeten passen in de uren die je hebt. Ze combineren goed: plan je dag in timeboxen en werk dan in Pomodoro-intervallen binnen een lange box.** Voor wat Pomodoro is, gebruikt deze vergelijking de officiële site van de Pomodoro-techniek en het eigen werk van Francesco Cirillo; voor hoe lang mensen hun boxen echt maken en hoe vaak ze die afronden, gebruiken we gebruiksdata van Chrobox (5.077 geplande taken van 250 mensen, december 2025 tot september 2026).
 
-## De technieken begrijpen
+| | Pomodoro-techniek | Timeboxing |
+|---|---|---|
+| Wat een tijdslimiet krijgt | Eén blok focus op één activiteit | Elke taak in je dag |
+| Gebruikelijke duur | 25 minuten | Wat de taak nodig heeft; de mediane box in Chrobox was 60 minuten |
+| Pauzes | Een pauze na elke Pomodoro | Gepland als eigen boxen, of vrijgelaten tussen boxen |
+| Vraag die het beantwoordt | Hoe blijf ik hier nu mee bezig? | Wanneer gebeurt elk van de taken van vandaag? |
+| Belangrijkste hulpmiddel | Een timer, plus papieren vellen voor planning en registratie | Een agenda of een dagtijdlijn |
 
-### Wat is de Pomodoro-techniek?
+## Wat de Pomodoro-techniek is
 
-De Pomodoro-techniek maakt gebruik van een timer om werk op te delen in intervallen van 25 minuten, "pomodoro's" genoemd, gescheiden door korte pauzes.
+Francesco Cirillo begon in de jaren 1980 met het ontwikkelen van de Pomodoro-techniek, terwijl hij zich voorbereidde op een universitair examen. Zijn eerste uitdaging aan zichzelf was zich maar 2 minuten te concentreren, gemeten met een tomaatvormige keukentimer; pomodoro is Italiaans voor tomaat. Een Pomodoro is volgens zijn beschrijving een belofte om een bepaalde tijd aan één activiteit te werken, gevolgd door een pauze. De bekende duur is 25 minuten.
 
-**Standaard Pomodoro-structuur:**
-- 25 minuten gefocust werken
-- 5 minuten korte pauze
-- Neem na 4 pomodoro's een lange pauze van 15-30 minuten
+Cirillo schrijft ook dat de techniek nooit bedoeld was als louter een manier om een dag in blokken van 25 minuten te verdelen. De officiële methode omvat het plannen van je activiteiten, het inschatten van de inspanning, het vastleggen van wat er gebeurt, het omgaan met onderbrekingen en het terugkijken op je werk, met papieren hulpmiddelen zoals een To Do Today Sheet (takenlijst voor vandaag) en een Records Sheet (registratieblad). Als je alleen een timer van 25 minuten laat lopen, gebruik je het bekendste deel van de methode, niet de hele methode.
 
-### Wat is time-boxing?
+## Wat timeboxing is
 
-Bij time-boxing wijs je een vaste periode toe aan een geplande activiteit. In tegenstelling tot de rigide structuur van Pomodoro is time-boxing flexibel: je bepaalt de duur op basis van de taak die je gaat uitvoeren.
+Een timebox is een slot in je dag met een starttijd en een duur, toegewezen aan één taak. Als de box afloopt, stop je of besluit je bewust door te gaan. De duur kies je passend bij de taak: 15 minuten voor e-mail, een uur voor een conceptrapport, twee uur voor een workshop. Timeboxing is vooral een planningsmethode. Het beantwoordt, voordat de dag begint, de vraag of de taken van de dag in de uren passen die je hebt.
 
-## Belangrijkste verschillen
+In Chrobox-data was 50,8% van de boxen precies 60 minuten en 14,9% was 30 minuten. Dat komt deels door de app zelf: een taak die je op een uur van de tijdlijn zet, begint als box van 60 minuten en veel mensen laten dat zo. Of een taak überhaupt een tijdslot had, maakte een veel groter verschil dan hoe lang het slot was: taken met een tijdslot werden in 48,1% van de gevallen voltooid, tegenover 17,6% voor taken die op een lijst bleven staan.
 
-| Aspect | Pomodoro | Time-boxing |
-|--------|----------|-------------|
-| **Duur** | Vast (25 minuten) | Variabel (jij beslist) |
-| **Pauzestructuur** | Verplicht, ingepland | Flexibel |
-| **Meest geschikt voor** | Langdurige focus | Complexe projecten |
-| **Flexibiliteit** | Laag | Hoog |
+## Zijn sessies van 25 minuten makkelijker af te maken?
 
-## Wanneer gebruik je Pomodoro?
+Een veelgenoemde reden om korte intervallen te verkiezen, is dat ze makkelijker af te maken voelen. In Chrobox-data werden korte boxen niet vaker afgemaakt dan boxen van een uur:
 
-1. **Uitstelgedrag tegengaan** — Jezelf committeren aan slechts 25 minuten voelt behapbaar
-2. **Repetitieve taken** — Gegevensinvoer, e-mailverwerking
-3. **Als je nieuw bent met timemanagement** — Een strakke structuur helpt bij het opbouwen van gewoontes
+| Duur van de box | Taken | Voltooid |
+|---|---|---|
+| 15 minuten of minder | 35 | 48,6% |
+| 16–30 minuten | 429 | 48,7% |
+| 31–45 minuten | 56 | 53,6% |
+| 46–60 minuten | 1.215 | 48,7% |
+| 61–90 minuten | 135 | 50,4% |
+| 91–120 minuten | 238 | 45,0% |
+| Meer dan 120 minuten | 209 | 44,0% |
 
-## Wanneer gebruik je time-boxing?
+Tot 90 minuten maakte de duur bijna geen verschil. Boxen langer dan 90 minuten werden minder vaak voltooid: 45,0% en 44,0%. Dit zijn observationele data, geen experiment, en het gaat om geplande taken, niet om Pomodoro-sessies. Toch wijst het op een praktische regel: **kies de duur op basis van de taak en splits alles wat langer is dan 90 minuten in twee boxen**, in plaats van alles terug te brengen tot 25 minuten. De volledige uitsplitsing staat in ons [datarapport over timeboxing](/nl/blog/does-timeboxing-work).
 
-1. **Deep work-sessies** — Creatieve taken, programmeren, schrijven
-2. **Projectplanning** — Tijd inschatten en verdelen over verschillende taken
-3. **Uiteenlopende soorten taken** — Verschillende taken vereisen verschillende hoeveelheden tijd
+## Wanneer Pomodoro beter werkt
 
-## Beide technieken combineren
+- Je blijft een taak vermijden. Je vastleggen op één kort interval is makkelijker dan je vastleggen op de hele klus.
+- De taak heeft geen natuurlijk einde, zoals een inbox leegmaken, stampen of oefenopgaven, en je wilt een ritme van werk en rust.
+- Je verliest het tijdsbesef en slaat pauzes over tijdens lange stukken werk.
+- Je wilt weten hoe lang je werk echt duurt. Als je vastlegt hoeveel inspanning elke taak kostte, heb je cijfers voor de volgende schatting.
 
-### Hybride aanpak: Pomodoro's binnen time-boxes
+## Wanneer timeboxing beter werkt
 
-Stel een time-box van 2 uur in voor een project en gebruik daarbinnen Pomodoro-intervallen:
-- 25 min. werken → 5 min. pauze → 25 min. werken → 5 min. pauze → 25 min. werken
+- Veel taken strijden om één dag en je moet zien of ze passen.
+- Je dag heeft vaste afspraken of vergaderingen en het werk moet daaromheen.
+- De taak vraagt om een lang, ononderbroken stuk, zoals schrijven of programmeren. Een box van 60 tot 90 minuten houdt dat stuk heel; zie [diepgaand werk plannen](/nl/blog/deep-work-scheduling).
+- Je plant vaak meer dan er in een dag past. Een tijdlijn maakt dat om 08:00 zichtbaar in plaats van om 18:00.
 
-## Hoe Chrobox beide methoden ondersteunt
+## Zo combineer je ze
 
-**Voor Pomodoro-gebruikers:**
-- Stel standaard time-boxes van 25 minuten in
-- Automatische pauzeherinneringen
+Timeboxing bepaalt wanneer een taak gebeurt en Pomodoro bepaalt hoe je binnen de box werkt. Een gebruikelijke manier om beide te gebruiken:
 
-**Voor time-boxing-gebruikers:**
-- Aangepaste duur voor elke taak
-- Visuele tijdlijnweergave
+1. Zet elke taak die moet gebeuren als box in je dag, met een starttijd en een duur die bij de taak past.
+2. Houd boxen op 90 minuten of korter en splits langer werk in twee boxen met een pauze ertussen.
+3. Werk binnen een lange box in intervallen van 25 minuten met na elk interval een korte pauze, als je daardoor blijft doorwerken.
+4. Als de box afloopt, stop je, of je verplaatst de rest van de taak naar een nieuwe box in plaats van het in de volgende te laten doorlopen.
+5. Noteer aan het eind van de dag welke boxen zijn uitgelopen en pas de duur aan die je morgen kiest.
 
-## Conclusie
+## Pomodoro en timeboxing in Chrobox
 
-Er is geen universeel "betere" techniek — er is alleen wat voor jou het beste werkt. Experimenteer en kies wat voor jou duurzaam en productief aanvoelt.
-    `,
+Chrobox is een timeboxing-app voor iPhone en Android. Je sleept een taak naar de dagtijdlijn, waar die een box wordt met een starttijd en een duur; boxen kunnen zo kort zijn als 5 minuten, dus een box van 25 minuten kan ook. Als een box begint, krijg je een melding. Daarna kun je een focustimer starten, die één keer aftelt en standaard de duur van de box heeft. Het tabblad Focus heeft ook timers van 25, 50 en 90 minuten die je kunt starten zonder een taak te kiezen. **Chrobox draait geen Pomodoro-cycli**: het herhaalt werk- en pauzeintervallen niet en start pauzes niet automatisch, dus na een pauze start je de timer zelf opnieuw. Plannen, meldingen en de focustimer zijn gratis. Afleidende apps blokkeren terwijl je focust, hoort bij Chrobox Pro; zie [afleidende apps blokkeren](/nl/blog/how-to-block-distracting-apps).
+`,
     'eat-the-frog-time-boxing': `
 # Eat That Frog: Hoe je de methode van Brian Tracy combineert met time-boxing
 

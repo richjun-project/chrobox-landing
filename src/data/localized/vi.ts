@@ -688,20 +688,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-vs-pomodoro': {
-      title: 'Time-boxing vs Pomodoro: Phương pháp nào dành cho bạn?',
-      excerpt: 'So sánh toàn diện giữa Time-boxing và phương pháp Pomodoro. Khám phá xem phương pháp nào phù hợp với phong cách làm việc của bạn và cách khai thác tối đa hiệu quả của chúng.',
+      title: 'Time-boxing vs Pomodoro: khác nhau và khi nào dùng',
+      excerpt: 'Pomodoro tính giờ một quãng tập trung 25 phút; time-boxing cho mỗi nhiệm vụ thời điểm bắt đầu và thời lượng. Khi nào dùng cái nào, cách kết hợp, dữ liệu thật.',
       faqs: [
         {
-          question: 'Phương pháp Pomodoro có giống với Time-boxing không?',
-          answer: 'Không. Phương pháp Pomodoro là một dạng áp dụng cụ thể của Time-boxing với các khoảng thời gian cố định 25 phút và các khoảng nghỉ bắt buộc. Trong khi đó, Time-boxing là một khái niệm rộng hơn về việc phân bổ một khoảng thời gian cố định cho một nhiệm vụ — thời lượng và cấu trúc nghỉ ngơi hoàn toàn do bạn quyết định, giúp phương pháp này linh hoạt hơn đối với các khối lượng công việc phức tạp hoặc biến động.',
+          question: 'Kỹ thuật Pomodoro có phải là một dạng time-boxing không?',
+          answer: 'Cả hai đều đặt giới hạn thời gian cho công việc, nhưng trên những thứ khác nhau. Một Pomodoro giới hạn một quãng tập trung vào một hoạt động, thường là 25 phút, rồi nghỉ. Time-boxing cho mỗi nhiệm vụ một thời điểm bắt đầu và một thời lượng trong ngày của bạn. Nhiều người dùng các quãng Pomodoro bên trong một hộp thời gian dài hơn.',
         },
         {
-          question: 'Phương pháp nào tốt hơn cho công việc sáng tạo?',
-          answer: 'Time-boxing thường phù hợp với công việc sáng tạo hơn vì các nhiệm vụ sáng tạo hiếm khi tuân theo một cấu trúc 25 phút cứng nhắc. Một hộp thời gian từ 60–90 phút sẽ cung cấp cho bạn đủ thời gian để bước vào trạng thái tập trung sâu mà không bị gián đoạn, đồng thời vẫn đặt ra một giới hạn để tránh các phiên làm việc kéo dài vô tận.',
+          question: 'Các phiên 25 phút có dễ hoàn thành hơn các phiên dài hơn không?',
+          answer: 'Không theo dữ liệu của Chrobox. Hộp 16–30 phút và hộp 46–60 phút đều được hoàn thành 48,7% số lần. Tỷ lệ hoàn thành chỉ giảm ở các hộp dài hơn 90 phút, còn 45,0% với 91–120 phút và 44,0% với hộp dài hơn nữa.',
         },
         {
-          question: 'Tôi có thể kết hợp cả hai phương pháp này không?',
-          answer: 'Có, và rất nhiều chuyên gia đang làm như vậy. Một cách tiếp cận kết hợp phổ biến là đặt một hộp thời gian 2 giờ cho một dự án và sử dụng các khoảng Pomodoro (25 phút làm việc + 5 phút nghỉ) bên trong khối thời gian đó. Hộp thời gian bên ngoài giúp đảm bảo tính toàn vẹn của lịch trình, trong khi các khoảng Pomodoro giúp duy trì đà làm việc và ngăn ngừa mệt mỏi tinh thần.',
+          question: 'Chrobox có bộ hẹn giờ Pomodoro không?',
+          answer: 'Chrobox có bộ hẹn giờ tập trung đếm ngược một lần. Khi bắt đầu từ một nhiệm vụ, nó mặc định bằng độ dài của hộp, và tab Tập trung có các bộ hẹn giờ 25, 50 và 90 phút. Nó không tự động lặp lại các quãng làm việc và nghỉ, nên bạn bắt đầu lại sau khi nghỉ.',
         },
       ],
     },
@@ -2284,67 +2284,74 @@ Ngày được lên kế hoạch ở mức trung vị trong Chrobox có 5 nhiệ
 Chrobox là ứng dụng time-boxing cho iPhone và Android. Bạn thêm nhiệm vụ, đánh dấu ưu tiên và kéo từng nhiệm vụ lên dòng thời gian của ngày, nơi nó trở thành một khung giờ có giờ bắt đầu và độ dài. Khi một khung bắt đầu, bạn nhận được thông báo và có thể bật bộ hẹn giờ tập trung với mặc định bằng độ dài của khung. Tất cả những điều này đều miễn phí. Chặn các ứng dụng gây xao nhãng trong lúc một khung diễn ra là một phần của Chrobox Pro.
 `,
     'time-boxing-vs-pomodoro': `
-# Time-Boxing vs Pomodoro: Phương pháp nào phù hợp với bạn?
+# Time-boxing vs Pomodoro: khác nhau và khi nào dùng
 
-Nếu đã từng tìm hiểu về các phương pháp tăng hiệu suất công việc, có thể bạn đã biết đến cả time-boxing và phương pháp Pomodoro. Dù có nhiều điểm tương đồng, chúng lại phục vụ các mục đích khác nhau và phù hợp với những phong cách làm việc khác nhau.
+**Kỹ thuật Pomodoro giới hạn một quãng làm việc tập trung, thường là 25 phút, rồi nghỉ; time-boxing cho mỗi nhiệm vụ một thời điểm bắt đầu và một thời lượng riêng trong ngày của bạn. Dùng Pomodoro khi phần khó là bắt tay vào nhiệm vụ hoặc giữ được sự tập trung, và dùng time-boxing khi phần khó là xếp các nhiệm vụ trong ngày vừa với số giờ bạn có. Hai cách này kết hợp tốt: chia ngày thành các hộp thời gian, rồi làm việc theo các quãng Pomodoro bên trong một hộp dài.** Bài so sánh này dùng trang chính thức của Kỹ thuật Pomodoro và các bài viết của chính Francesco Cirillo để nói Pomodoro là gì, và dùng dữ liệu sử dụng của Chrobox (5.077 nhiệm vụ đã lên kế hoạch của 250 người, từ tháng Mười Hai 2025 đến tháng Chín 2026) để xem mọi người thực sự đặt hộp dài bao nhiêu và hoàn thành chúng thường xuyên đến đâu.
 
-## Hiểu rõ các phương pháp
+| | Kỹ thuật Pomodoro | Time-boxing |
+|---|---|---|
+| Thứ được giới hạn thời gian | Một quãng tập trung vào một hoạt động | Mỗi nhiệm vụ trong ngày của bạn |
+| Thời lượng thường gặp | 25 phút | Tùy nhiệm vụ cần; hộp trung vị trong Chrobox là 60 phút |
+| Nghỉ | Nghỉ sau mỗi Pomodoro | Được lên kế hoạch như hộp riêng, hoặc để trống giữa các hộp |
+| Câu hỏi nó trả lời | Làm sao để tôi tiếp tục làm việc này ngay bây giờ? | Khi nào từng nhiệm vụ hôm nay sẽ diễn ra? |
+| Công cụ chính | Một bộ hẹn giờ, cộng với các tờ giấy để lập kế hoạch và ghi chép | Một lịch hoặc dòng thời gian trong ngày |
 
-### Phương pháp Pomodoro là gì?
+## Kỹ thuật Pomodoro là gì
 
-Phương pháp Pomodoro sử dụng đồng hồ bấm giờ để chia nhỏ công việc thành các khoảng thời gian 25 phút gọi là "pomodoro", xen kẽ bởi các khoảng nghỉ ngắn.
+Francesco Cirillo bắt đầu phát triển Kỹ thuật Pomodoro vào những năm 1980, khi đang ôn thi đại học. Thử thách đầu tiên ông đặt ra cho mình là chỉ tập trung trong 2 phút, đo bằng chiếc đồng hồ hẹn giờ nhà bếp hình quả cà chua; pomodoro trong tiếng Ý có nghĩa là cà chua. Một Pomodoro, theo cách ông mô tả, là cam kết làm một hoạt động trong một khoảng thời gian xác định, sau đó là nghỉ. Thời lượng quen thuộc là 25 phút.
 
-**Cấu trúc Pomodoro tiêu chuẩn:**
-- 25 phút tập trung làm việc
-- 5 phút nghỉ ngắn
-- Sau 4 chu kỳ pomodoro, nghỉ dài từ 15-30 phút
+Cirillo cũng viết rằng kỹ thuật này chưa bao giờ chỉ nhằm chia ngày thành các khối 25 phút. Phương pháp chính thức bao gồm lập kế hoạch cho các hoạt động, ước tính công sức, ghi lại những gì xảy ra, xử lý gián đoạn và xem lại công việc, với các công cụ trên giấy như Phiếu việc cần làm hôm nay (To Do Today Sheet) và Phiếu ghi chép (Records Sheet). Nếu bạn chỉ chạy một bộ hẹn giờ 25 phút, bạn đang dùng phần nổi tiếng nhất của phương pháp, chứ không phải toàn bộ.
 
-### Time-Boxing là gì?
+## Time-boxing là gì
 
-Time-boxing (phân bổ thời gian) là việc ấn định một khoảng thời gian cố định cho một hoạt động đã lên kế hoạch. Khác với cấu trúc nghiêm ngặt của Pomodoro, time-boxing rất linh hoạt—bạn tự thiết lập thời lượng dựa trên nhiệm vụ cần xử lý.
+Hộp thời gian là một khung trong ngày của bạn có thời điểm bắt đầu và thời lượng, dành cho một nhiệm vụ. Khi hộp kết thúc, bạn dừng lại hoặc chủ động quyết định tiếp tục. Thời lượng được chọn theo nhiệm vụ: 15 phút cho email, một giờ cho bản nháp báo cáo, hai giờ cho một buổi hội thảo. Time-boxing chủ yếu là một phương pháp lập kế hoạch. Trước khi ngày bắt đầu, nó trả lời câu hỏi các nhiệm vụ trong ngày có vừa với số giờ bạn có hay không.
 
-## Sự khác biệt cốt lõi
+Trong dữ liệu của Chrobox, 50,8% số hộp dài đúng 60 phút và 14,9% là 30 phút. Một phần là do chính ứng dụng, vì một nhiệm vụ thả vào một giờ trên dòng thời gian bắt đầu như hộp 60 phút và nhiều người giữ nguyên. Việc nhiệm vụ có khung giờ hay không tạo ra khác biệt lớn hơn nhiều so với độ dài của khung giờ: nhiệm vụ có khung giờ được hoàn thành 48,1% số lần, so với 17,6% ở nhiệm vụ để trong danh sách.
 
-| Khía cạnh | Pomodoro | Time-Boxing |
-|--------|----------|-------------|
-| **Thời lượng** | Cố định 25 phút | Linh hoạt (do bạn quyết định) |
-| **Cấu trúc nghỉ ngơi** | Bắt buộc, theo lịch trình | Linh hoạt |
-| **Phù hợp nhất cho** | Duy trì sự tập trung | Dự án phức tạp |
-| **Độ linh hoạt** | Thấp | Cao |
+## Các phiên 25 phút có dễ hoàn thành hơn không?
 
-## Khi nào nên dùng Pomodoro
+Một lý do phổ biến để thích các quãng ngắn là chúng có cảm giác dễ hoàn thành hơn. Trong dữ liệu của Chrobox, các hộp ngắn không được hoàn thành thường xuyên hơn các hộp một giờ:
 
-1. **Chống trì hoãn** — Cam kết chỉ làm việc trong 25 phút mang lại cảm giác dễ dàng, không bị quá tải
-2. **Công việc lặp đi lặp lại** — Nhập dữ liệu, xử lý email
-3. **Khi mới bắt đầu quản lý thời gian** — Cấu trúc nghiêm ngặt giúp dễ hình thành thói quen
+| Độ dài hộp | Nhiệm vụ | Hoàn thành |
+|---|---|---|
+| 15 phút trở xuống | 35 | 48,6% |
+| 16–30 phút | 429 | 48,7% |
+| 31–45 phút | 56 | 53,6% |
+| 46–60 phút | 1.215 | 48,7% |
+| 61–90 phút | 135 | 50,4% |
+| 91–120 phút | 238 | 45,0% |
+| Hơn 120 phút | 209 | 44,0% |
 
-## Khi nào nên dùng Time-Boxing
+Đến 90 phút, độ dài hầu như không tạo ra khác biệt. Các hộp dài hơn 90 phút được hoàn thành ít hơn, ở mức 45,0% và 44,0%. Đây là dữ liệu quan sát, không phải thử nghiệm, và đây là các nhiệm vụ đã lên lịch chứ không phải phiên Pomodoro. Dù vậy, nó vẫn gợi ý một quy tắc thực tế: **chọn độ dài theo nhiệm vụ, và chia mọi thứ dài hơn 90 phút thành hai hộp**, thay vì thu nhỏ mọi thứ về 25 phút. Bảng phân tích đầy đủ nằm trong [báo cáo dữ liệu time-boxing](/vi/blog/does-timeboxing-work) của chúng tôi.
 
-1. **Các phiên làm việc sâu (Deep Work)** — Sáng tạo, lập trình, viết lách
-2. **Lập kế hoạch dự án** — Ước tính và phân bổ thời gian cho từng nhiệm vụ
-3. **Các loại công việc đa dạng** — Mỗi nhiệm vụ khác nhau đòi hỏi lượng thời gian khác nhau
+## Khi nào Pomodoro hợp hơn
 
-## Kết hợp cả hai phương pháp
+- Bạn cứ né một nhiệm vụ. Cam kết một quãng ngắn dễ hơn cam kết cả công việc.
+- Nhiệm vụ không có điểm kết thúc tự nhiên, như dọn hộp thư đến, học thuộc hoặc làm bài tập, và bạn muốn có nhịp làm việc và nghỉ ngơi.
+- Bạn mất dấu thời gian và bỏ qua giờ nghỉ trong những quãng làm việc dài.
+- Bạn muốn biết công việc của mình thực sự mất bao lâu. Ghi lại công sức mỗi nhiệm vụ đã tốn cho bạn những con số cho lần ước tính sau.
 
-### Phương pháp lai: Áp dụng Pomodoro bên trong các Time-Box
+## Khi nào time-boxing hợp hơn
 
-Thiết lập một khung thời gian (time-box) 2 giờ cho một dự án, sau đó áp dụng các chu kỳ Pomodoro bên trong khung giờ đó:
-- 25 phút làm việc → 5 phút nghỉ → 25 phút làm việc → 5 phút nghỉ → 25 phút làm việc
+- Nhiều nhiệm vụ cùng tranh một ngày và bạn cần thấy chúng có vừa không.
+- Ngày của bạn có các cuộc hẹn hoặc cuộc họp cố định, và công việc phải xoay quanh chúng.
+- Nhiệm vụ cần một quãng dài không bị ngắt, như viết lách hoặc lập trình. Một hộp 60 đến 90 phút giữ quãng đó nguyên vẹn; xem [lên lịch cho công việc chuyên sâu](/vi/blog/deep-work-scheduling).
+- Bạn hay lên kế hoạch nhiều hơn một ngày chứa nổi. Dòng thời gian cho thấy điều đó lúc 08:00 thay vì lúc 18:00.
 
-## Chrobox hỗ trợ cả hai phương pháp như thế nào
+## Cách kết hợp chúng
 
-**Dành cho người dùng Pomodoro:**
-- Thiết lập các khung thời gian mặc định 25 phút
-- Tự động nhắc nhở giờ nghỉ
+Time-boxing quyết định khi nào một nhiệm vụ diễn ra, còn Pomodoro quyết định bạn làm việc thế nào bên trong hộp. Một cách phổ biến để dùng cả hai:
 
-**Dành cho người dùng Time-Boxing:**
-- Tùy chỉnh thời lượng cho từng nhiệm vụ
-- Giao diện dòng thời gian trực quan
+1. Đặt mỗi nhiệm vụ bắt buộc vào ngày của bạn thành một hộp, với thời điểm bắt đầu và thời lượng phù hợp với nhiệm vụ.
+2. Giữ các hộp ở mức 90 phút hoặc ngắn hơn, và chia công việc dài hơn thành hai hộp có giờ nghỉ ở giữa.
+3. Bên trong một hộp dài, làm việc theo các quãng 25 phút với một lần nghỉ ngắn sau mỗi quãng nếu điều đó giúp bạn tiếp tục.
+4. Khi hộp kết thúc, hãy dừng, hoặc chuyển phần còn lại của nhiệm vụ sang một hộp mới thay vì để nó tràn sang hộp kế tiếp.
+5. Cuối ngày, ghi lại những hộp nào bị quá giờ, và điều chỉnh độ dài bạn chọn vào ngày mai.
 
-## Kết luận
+## Pomodoro và time-boxing trong Chrobox
 
-Không có phương pháp nào là "tốt nhất" cho tất cả mọi người—chỉ có phương pháp phù hợp nhất với bạn. Hãy thử nghiệm và lựa chọn cách giúp bạn duy trì hiệu suất một cách bền vững nhất.
-    `,
+Chrobox là ứng dụng time-boxing cho iPhone và Android. Bạn kéo một nhiệm vụ vào dòng thời gian trong ngày, nơi nó trở thành một hộp có thời điểm bắt đầu và thời lượng; hộp có thể ngắn nhất là 5 phút, nên một hộp 25 phút cũng được. Khi một hộp bắt đầu, bạn nhận được thông báo. Sau đó bạn có thể bắt đầu bộ hẹn giờ tập trung, đếm ngược một lần và mặc định bằng độ dài của hộp. Tab Tập trung cũng có các bộ hẹn giờ 25, 50 và 90 phút mà bạn có thể bắt đầu mà không cần chọn nhiệm vụ. **Chrobox không chạy các chu kỳ Pomodoro**: nó không lặp lại các quãng làm việc và nghỉ hay tự động bắt đầu giờ nghỉ, nên sau khi nghỉ bạn tự bắt đầu lại bộ hẹn giờ. Lập kế hoạch, thông báo và bộ hẹn giờ tập trung đều miễn phí. Chặn các ứng dụng gây xao nhãng khi bạn tập trung là một phần của Chrobox Pro; xem [cách chặn ứng dụng gây xao nhãng](/vi/blog/how-to-block-distracting-apps).
+`,
     'beat-decision-fatigue': `
 # Đánh bại hội chứng mệt mỏi vì ra quyết định: Cách Time-Boxing bảo toàn năng lượng trí óc của bạn
 

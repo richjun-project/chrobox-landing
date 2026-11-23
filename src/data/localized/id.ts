@@ -688,20 +688,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-vs-pomodoro': {
-      title: 'Time-Boxing vs Pomodoro: Mana yang Cocok untuk Anda?',
-      excerpt: 'Perbandingan lengkap antara time-boxing dan Teknik Pomodoro. Temukan metode yang paling sesuai dengan gaya kerja Anda dan cara memaksimalkannya.',
+      title: 'Timeboxing vs Pomodoro: Perbedaan dan Kapan Memakainya',
+      excerpt: 'Pomodoro membatasi satu sesi fokus, biasanya 25 menit; timeboxing memberi tiap tugas waktu mulai dan durasi. Kapan memakai yang mana, dan cara menggabungkannya.',
       faqs: [
         {
-          question: 'Apakah Teknik Pomodoro sama dengan time-boxing?',
-          answer: 'Tidak. Teknik Pomodoro adalah penerapan khusus dari time-boxing dengan interval 25 menit yang pasti dan istirahat wajib. Sementara itu, time-boxing adalah konsep yang lebih luas tentang mengalokasikan waktu tertentu untuk suatu tugas—durasi dan struktur istirahatnya sepenuhnya terserah Anda, sehingga lebih fleksibel untuk beban kerja yang kompleks atau bervariasi.',
+          question: 'Apakah Teknik Pomodoro termasuk timeboxing?',
+          answer: 'Keduanya membatasi waktu kerja, tetapi pada hal yang berbeda. Satu Pomodoro membatasi satu sesi fokus pada satu aktivitas, biasanya 25 menit, lalu istirahat. Timeboxing memberi setiap tugas waktu mulai dan durasi di hari Anda. Banyak orang memakai interval Pomodoro di dalam kotak waktu yang lebih panjang.',
         },
         {
-          question: 'Teknik mana yang lebih baik untuk pekerjaan kreatif?',
-          answer: 'Time-boxing umumnya lebih cocok untuk pekerjaan kreatif karena tugas-tugas kreatif jarang bisa disesuaikan dengan struktur 25 menit yang kaku. Blok waktu 60–90 menit memberi Anda cukup ruang untuk mencapai kondisi fokus mendalam (flow state) tanpa gangguan, sekaligus tetap menetapkan batasan agar sesi kerja tidak molor tanpa batas.',
+          question: 'Apakah sesi 25 menit lebih mudah diselesaikan daripada yang lebih lama?',
+          answer: 'Tidak menurut data Chrobox. Kotak 16–30 menit dan kotak 46–60 menit sama-sama diselesaikan 48,7% dari waktu. Tingkat penyelesaian baru turun pada kotak yang lebih dari 90 menit, menjadi 45,0% untuk 91–120 menit dan 44,0% di atasnya.',
         },
         {
-          question: 'Apakah saya bisa menggunakan kedua teknik ini secara bersamaan?',
-          answer: 'Ya, dan banyak profesional yang melakukannya. Pendekatan hibrida yang umum adalah menetapkan blok waktu 2 jam untuk sebuah proyek dan menggunakan interval Pomodoro (25 menit kerja + 5 menit istirahat) di dalam blok tersebut. Blok waktu utama menjaga keteraturan jadwal, sementara interval Pomodoro menjaga momentum kerja dan mencegah kelelahan mental.',
+          question: 'Apakah Chrobox punya timer Pomodoro?',
+          answer: 'Chrobox punya timer fokus yang menghitung mundur satu kali. Jika dimulai dari sebuah tugas, durasinya secara bawaan mengikuti panjang kotak, dan tab Fokus memiliki timer 25, 50, dan 90 menit. Timer ini tidak mengulang interval kerja dan istirahat secara otomatis, jadi Anda memulainya lagi sendiri setelah istirahat.',
         },
       ],
     },
@@ -2492,67 +2492,74 @@ Median hari yang direncanakan di Chrobox berisi 5 tugas. Itu bukan angka ajaib, 
 Chrobox adalah aplikasi timeboxing untuk iPhone dan Android. Anda menambahkan tugas, menandai prioritas, dan menyeret setiap tugas ke linimasa harian, tempat tugas itu menjadi kotak dengan waktu mulai dan durasi. Ketika sebuah kotak dimulai, Anda mendapat notifikasi, dan Anda bisa memulai timer fokus yang durasi defaultnya sama dengan kotak itu. Semua ini gratis. Memblokir aplikasi pengganggu selama kotak berjalan adalah bagian dari Chrobox Pro.
 `,
     'time-boxing-vs-pomodoro': `
-# Time-Boxing vs Pomodoro: Teknik Mana yang Tepat untuk Anda?
+# Timeboxing vs Pomodoro: Perbedaan dan Kapan Memakainya
 
-Jika Anda pernah mempelajari berbagai teknik produktivitas, Anda pasti sudah tidak asing lagi dengan time-boxing dan Teknik Pomodoro. Meskipun memiliki kemiripan, keduanya memiliki tujuan yang berbeda dan cocok untuk gaya kerja yang berbeda pula.
+**Teknik Pomodoro membatasi satu sesi kerja terfokus, biasanya 25 menit, lalu istirahat; timeboxing memberi setiap tugas waktu mulai dan durasinya sendiri di hari Anda. Pakai Pomodoro ketika bagian tersulitnya adalah memulai tugas atau bertahan mengerjakannya, dan timeboxing ketika bagian tersulitnya adalah memasukkan tugas-tugas hari ini ke dalam jam yang Anda punya. Keduanya cocok digabung: susun hari dengan timebox, lalu bekerja dengan interval Pomodoro di dalam kotak yang panjang.** Perbandingan ini memakai situs resmi Teknik Pomodoro dan tulisan Francesco Cirillo sendiri untuk menjelaskan apa itu Pomodoro, serta data penggunaan Chrobox (5.077 tugas terencana dari 250 orang, Desember 2025 hingga September 2026) untuk melihat berapa lama orang membuat kotaknya dan seberapa sering mereka menyelesaikannya.
 
-## Memahami Kedua Teknik
+| | Teknik Pomodoro | Timeboxing |
+|---|---|---|
+| Yang diberi batas waktu | Satu sesi fokus pada satu aktivitas | Setiap tugas di hari Anda |
+| Durasi umum | 25 menit | Sesuai kebutuhan tugas; kotak median di Chrobox berdurasi 60 menit |
+| Istirahat | Istirahat setelah setiap Pomodoro | Direncanakan sebagai kotak tersendiri, atau dibiarkan di antara kotak |
+| Pertanyaan yang dijawab | Bagaimana saya tetap mengerjakan ini sekarang? | Kapan setiap tugas hari ini akan dikerjakan? |
+| Alat utama | Timer, plus lembar kertas untuk perencanaan dan pencatatan | Kalender atau linimasa harian |
 
-### Apa itu Teknik Pomodoro?
+## Apa itu Teknik Pomodoro
 
-Teknik Pomodoro menggunakan pengatur waktu (timer) untuk membagi pekerjaan ke dalam interval 25 menit yang disebut "pomodoro", yang diselingi dengan istirahat singkat.
+Francesco Cirillo mulai mengembangkan Teknik Pomodoro pada tahun 1980-an saat mempersiapkan ujian universitas. Tantangan pertamanya untuk dirinya sendiri adalah berkonsentrasi hanya selama 2 menit, dengan waktu dihitung memakai timer dapur berbentuk tomat; pomodoro adalah kata bahasa Italia untuk tomat. Satu Pomodoro, seperti yang ia gambarkan, adalah komitmen untuk mengerjakan satu aktivitas selama periode tertentu, lalu istirahat. Durasi yang umum dikenal adalah 25 menit.
 
-**Struktur Pomodoro Standar:**
-- 25 menit fokus bekerja
-- 5 menit istirahat singkat
-- Setelah 4 pomodoro, ambil istirahat panjang selama 15-30 menit
+Cirillo juga menulis bahwa teknik ini tidak pernah dimaksudkan hanya sebagai cara membagi hari menjadi blok 25 menit. Metode resminya mencakup merencanakan aktivitas, memperkirakan upaya, mencatat apa yang terjadi, menangani gangguan, dan meninjau hasil kerja, dengan alat kertas seperti Lembar Tugas Hari Ini (To Do Today Sheet) dan Lembar Catatan (Records Sheet). Jika Anda hanya menjalankan timer 25 menit, Anda memakai bagian metode yang paling terkenal, bukan seluruhnya.
 
-### Apa itu Time-Boxing?
+## Apa itu timeboxing
 
-Time-boxing mengalokasikan jangka waktu tetap untuk suatu aktivitas yang telah direncanakan. Berbeda dengan struktur Pomodoro yang kaku, time-boxing bersifat fleksibel—Anda menentukan sendiri durasinya berdasarkan tugas yang sedang dikerjakan.
+Kotak waktu adalah slot di hari Anda dengan waktu mulai dan durasi, yang diberikan untuk satu tugas. Ketika kotak berakhir, Anda berhenti atau memutuskan dengan sengaja untuk melanjutkan. Durasinya dipilih sesuai tugas: 15 menit untuk email, satu jam untuk draf laporan, dua jam untuk lokakarya. Timeboxing terutama adalah metode perencanaan. Ia menjawab, sebelum hari dimulai, apakah tugas-tugas hari itu muat dalam jam yang Anda punya.
 
-## Perbedaan Utama
+Dalam data Chrobox, 50,8% kotak berdurasi tepat 60 menit dan 14,9% berdurasi 30 menit. Sebagian dari itu berasal dari aplikasinya sendiri, karena tugas yang diletakkan pada satu jam di linimasa dimulai sebagai kotak 60 menit dan banyak orang mempertahankannya. Apakah sebuah tugas punya slot waktu atau tidak memberi perbedaan yang jauh lebih besar daripada panjang slotnya: tugas dengan slot waktu diselesaikan 48,1% dari waktu, dibandingkan 17,6% untuk tugas yang dibiarkan di daftar.
 
-| Aspek | Pomodoro | Time-Boxing |
-|--------|----------|-------------|
-| **Durasi** | Tetap 25 menit | Bervariasi (Anda yang menentukan) |
-| **Struktur Istirahat** | Wajib, terjadwal | Fleksibel |
-| **Paling Cocok Untuk** | Fokus berkelanjutan | Proyek kompleks |
-| **Fleksibilitas** | Rendah | Tinggi |
+## Apakah sesi 25 menit lebih mudah diselesaikan?
 
-## Kapan Harus Menggunakan Pomodoro
+Alasan umum untuk menyukai interval pendek adalah karena terasa lebih mudah diselesaikan. Dalam data Chrobox, kotak pendek tidak lebih sering diselesaikan dibandingkan kotak berdurasi satu jam:
 
-1. **Melawan Prokrastinasi** — Berkomitmen untuk fokus hanya selama 25 menit terasa jauh lebih mudah dilakukan
-2. **Tugas Berulang** — Entri data, memproses email
-3. **Saat Baru Memulai Manajemen Waktu** — Struktur yang kaku membantu membangun kebiasaan
+| Durasi kotak | Tugas | Selesai |
+|---|---|---|
+| 15 menit atau kurang | 35 | 48,6% |
+| 16–30 menit | 429 | 48,7% |
+| 31–45 menit | 56 | 53,6% |
+| 46–60 menit | 1.215 | 48,7% |
+| 61–90 menit | 135 | 50,4% |
+| 91–120 menit | 238 | 45,0% |
+| Lebih dari 120 menit | 209 | 44,0% |
 
-## Kapan Harus Menggunakan Time-Boxing
+Hingga 90 menit, durasi hampir tidak membuat perbedaan. Kotak yang lebih panjang dari 90 menit lebih jarang diselesaikan, yaitu 45,0% dan 44,0%. Ini data observasi, bukan eksperimen, dan yang diamati adalah tugas terjadwal, bukan sesi Pomodoro. Meski begitu, data ini menyarankan aturan praktis: **pilih durasi sesuai tugas, dan pecah apa pun yang lebih panjang dari 90 menit menjadi dua kotak**, alih-alih memperpendek semuanya menjadi 25 menit. Rincian lengkapnya ada di [laporan data timeboxing](/id/blog/does-timeboxing-work) kami.
 
-1. **Sesi Deep Work** — Tugas kreatif, coding, menulis
-2. **Perencanaan Proyek** — Memperkirakan dan mengalokasikan waktu untuk berbagai tugas
-3. **Jenis Tugas yang Bervariasi** — Tugas yang berbeda membutuhkan alokasi waktu yang berbeda pula
+## Kapan Pomodoro lebih cocok
 
-## Menggabungkan Kedua Teknik
+- Anda terus menghindari sebuah tugas. Berkomitmen pada satu interval pendek lebih mudah daripada berkomitmen pada seluruh pekerjaan.
+- Tugas itu tidak punya akhir alami, seperti membereskan kotak masuk, menghafal, atau mengerjakan soal latihan, dan Anda ingin ritme kerja dan istirahat.
+- Anda kehilangan jejak waktu dan melewatkan istirahat saat bekerja lama.
+- Anda ingin tahu berapa lama pekerjaan Anda sebenarnya. Mencatat upaya yang dibutuhkan setiap tugas memberi Anda angka untuk perkiraan berikutnya.
 
-### Pendekatan Hibrida: Pomodoro di Dalam Time-Box
+## Kapan timeboxing lebih cocok
 
-Tetapkan time-box selama 2 jam untuk sebuah proyek, lalu gunakan interval Pomodoro di dalamnya:
-- 25 menit kerja → 5 menit istirahat → 25 menit kerja → 5 menit istirahat → 25 menit kerja
+- Banyak tugas bersaing untuk satu hari, dan Anda perlu melihat apakah semuanya muat.
+- Hari Anda punya janji atau rapat tetap, dan pekerjaan harus disusun di sekitarnya.
+- Tugas itu butuh waktu panjang tanpa gangguan, seperti menulis atau membuat kode. Kotak 60 hingga 90 menit menjaga waktu itu tetap utuh; lihat [menjadwalkan deep work](/id/blog/deep-work-scheduling).
+- Anda cenderung merencanakan lebih banyak daripada yang bisa ditampung sehari. Linimasa membuatnya terlihat pada pukul 08:00, bukan pukul 18:00.
 
-## Bagaimana Chrobox Mendukung Kedua Metode Ini
+## Cara menggabungkannya
 
-**Untuk Pengguna Pomodoro:**
-- Atur default time-box selama 25 menit
-- Pengingat istirahat otomatis
+Timeboxing menentukan kapan sebuah tugas dikerjakan, dan Pomodoro menentukan cara Anda bekerja di dalam kotak. Salah satu cara umum memakai keduanya:
 
-**Untuk Pengguna Time-Boxing:**
-- Durasi yang dapat disesuaikan untuk setiap tugas
-- Tampilan lini masa (timeline) visual
+1. Letakkan setiap tugas wajib di hari Anda sebagai kotak, dengan waktu mulai dan durasi yang sesuai dengan tugasnya.
+2. Jaga kotak tetap 90 menit atau kurang, dan pecah pekerjaan yang lebih panjang menjadi dua kotak dengan istirahat di antaranya.
+3. Di dalam kotak yang panjang, bekerjalah dengan interval 25 menit dan istirahat singkat setelah masing-masing, jika itu membantu Anda terus berjalan.
+4. Ketika kotak berakhir, berhenti, atau pindahkan sisa tugas ke kotak baru alih-alih membiarkannya menyerobot kotak berikutnya.
+5. Di akhir hari, catat kotak mana yang melebihi waktu, dan sesuaikan durasi yang Anda pilih besok.
 
-## Kesimpulan
+## Pomodoro dan timeboxing di Chrobox
 
-Tidak ada teknik yang secara universal "lebih baik"—yang ada hanyalah apa yang bekerja lebih baik untuk Anda. Cobalah bereksperimen dan pilihlah metode yang terasa paling berkelanjutan dan produktif bagi Anda.
-    `,
+Chrobox adalah aplikasi timeboxing untuk iPhone dan Android. Anda menyeret tugas ke linimasa harian, tempat tugas itu menjadi kotak dengan waktu mulai dan durasi; kotak bisa sependek 5 menit, jadi kotak 25 menit juga bisa dibuat. Saat sebuah kotak dimulai, Anda mendapat notifikasi. Lalu Anda bisa memulai timer fokus, yang menghitung mundur satu kali dan secara bawaan mengikuti panjang kotak. Tab Fokus juga memiliki timer 25, 50, dan 90 menit yang bisa dimulai tanpa memilih tugas. **Chrobox tidak menjalankan siklus Pomodoro**: aplikasi ini tidak mengulang interval kerja dan istirahat atau memulai istirahat secara otomatis, jadi setelah istirahat Anda memulai timer lagi sendiri. Perencanaan, notifikasi, dan timer fokus gratis. Memblokir aplikasi yang mengganggu saat Anda fokus adalah bagian dari Chrobox Pro; lihat [cara memblokir aplikasi yang mengganggu](/id/blog/how-to-block-distracting-apps).
+`,
     'time-boxing-for-adhd': `# Time-Boxing untuk ADHD: Panduan Praktis Menjaga Fokus
 
 ADHD membuat sulit untuk memulai tugas, berpindah di antara tugas, dan—yang mungkin paling membuat frustrasi—berhenti mengerjakan sesuatu yang menarik untuk mengerjakan sesuatu yang penting. Time-boxing mengatasi ketiga tantangan ini dengan menciptakan batasan yang sudah ditentukan sebelumnya di sekitar setiap aktivitas.

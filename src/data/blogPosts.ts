@@ -87,33 +87,34 @@ export const enBlogPosts: BlogPostMeta[] = [
   },
   {
     slug: 'time-boxing-vs-pomodoro',
-    title: 'Time-Boxing vs Pomodoro: Which Technique is Right for You?',
+    title: "Timeboxing vs Pomodoro: Key Differences and When to Use Each",
     date: '2024-12-05',
+    updated: '2026-11-23',
     author: 'Chrobox Team',
-    category: 'Productivity',
-    tags: ['time-boxing', 'pomodoro', 'comparison', 'productivity', 'focus'],
-    excerpt: 'A comprehensive comparison of time-boxing and the Pomodoro Technique. Discover which method suits your work style and how to get the most from each.',
-    image: '/screenshots/en/3.webp',
+    category: "Productivity",
+    tags: ["time-boxing", "pomodoro", "comparison", "productivity", "focus"],
+    excerpt: "Pomodoro times one 25-minute focus stretch; timeboxing gives each task a start time and a length. When to use each, how to combine them, and real task data.",
+    image: "/screenshots/en/3.webp",
     readTime: 7,
     lang: 'en',
     faqs: [
       {
-        question: 'Is the Pomodoro Technique the same as time-boxing?',
-        questionKo: '뽀모도로 기법은 타임박싱과 같은 건가요?',
-        answer: 'No. The Pomodoro Technique is a specific implementation of time-boxing with fixed 25-minute intervals and mandatory breaks. Time-boxing is the broader concept of allocating a fixed time to a task — the duration and break structure are entirely up to you, making it more flexible for complex or variable workloads.',
-        answerKo: '아닙니다. 뽀모도로 기법은 고정된 25분 간격과 의무적인 휴식이 있는 타임박싱의 특정 구현 방식입니다. 타임박싱은 작업에 고정된 시간을 할당하는 더 넓은 개념으로, 시간과 휴식 구조는 전적으로 본인이 결정하므로 복잡하거나 가변적인 업무에 더 유연합니다.',
+        question: "Is the Pomodoro Technique a form of timeboxing?",
+        questionKo: "뽀모도로 기법도 타임박싱의 한 종류인가요?",
+        answer: "Both put a time limit on work, but on different things. A Pomodoro limits one stretch of focus on one activity, usually 25 minutes, followed by a break. Timeboxing gives each task a start time and a length on your day. Many people use Pomodoro intervals inside a longer time box.",
+        answerKo: "둘 다 일에 시간 한도를 두지만 대상이 다릅니다. 뽀모도로는 한 가지 활동에 집중하는 한 번의 시간을 보통 25분으로 정하고 그 뒤에 쉽니다. 타임박싱은 할 일마다 하루 안에서 시작 시각과 길이를 줍니다. 긴 타임박스 안에서 뽀모도로 간격으로 일하는 사람도 많습니다.",
       },
       {
-        question: 'Which technique is better for creative work?',
-        questionKo: '창의적인 작업에는 어떤 기법이 더 좋은가요?',
-        answer: 'Time-boxing generally suits creative work better because creative tasks rarely conform to a rigid 25-minute structure. A 60–90 minute time box gives you enough runway to reach a flow state without interruption, while still imposing a boundary that prevents open-ended sessions.',
-        answerKo: '타임박싱은 창의적 작업이 고정된 25분 구조를 따르는 경우가 드물기 때문에 일반적으로 창의적 작업에 더 적합합니다. 60~90분 타임박스는 방해 없이 몰입 상태에 도달하기에 충분한 여유를 제공하면서도 끝없이 이어지는 세션을 방지하는 경계를 부여합니다.',
+        question: "Are 25-minute sessions easier to finish than longer ones?",
+        questionKo: "25분짜리가 더 긴 시간보다 끝내기 쉬운가요?",
+        answer: "Not in Chrobox data. Boxes of 16–30 minutes and boxes of 46–60 minutes were both completed 48.7% of the time. Completion only fell for boxes longer than 90 minutes, to 45.0% for 91–120 minutes and 44.0% beyond that.",
+        answerKo: "크로박스 데이터에서는 아니었습니다. 16–30분 칸과 46–60분 칸 모두 48.7%가 완료됐습니다. 완료율은 90분보다 긴 칸에서만 낮아져, 91–120분은 45.0%, 그보다 긴 칸은 44.0%였습니다.",
       },
       {
-        question: 'Can I use both techniques together?',
-        questionKo: '두 기법을 함께 사용할 수 있나요?',
-        answer: 'Yes, and many professionals do. A common hybrid approach is to set a 2-hour time box for a project and use Pomodoro intervals (25 min work + 5 min break) within that block. The outer time box maintains schedule integrity while Pomodoros manage momentum and prevent mental fatigue.',
-        answerKo: '네, 많은 전문가들이 그렇게 합니다. 일반적인 하이브리드 방식은 프로젝트에 2시간 타임박스를 설정하고 그 블록 내에서 뽀모도로 간격(25분 작업 + 5분 휴식)을 사용하는 것입니다. 외부 타임박스는 일정 무결성을 유지하는 반면 뽀모도로는 추진력을 관리하고 정신적 피로를 방지합니다.',
+        question: "Does Chrobox have a Pomodoro timer?",
+        questionKo: "크로박스에 뽀모도로 타이머가 있나요?",
+        answer: "Chrobox has a focus timer that counts down once. Started from a task, it defaults to the length of the box, and the Focus tab has 25-, 50- and 90-minute timers. It does not repeat work and break intervals automatically, so you start it again after a break.",
+        answerKo: "크로박스에는 한 번 카운트다운하는 집중 타이머가 있습니다. 할 일에서 켜면 칸 길이가 기본이고, 집중 탭에는 25분·50분·90분 타이머가 있습니다. 집중과 휴식을 자동으로 반복하지는 않으니, 쉬고 나서 다시 켜면 됩니다.",
       },
     ],
   },
@@ -191,33 +192,34 @@ export const koBlogPosts: BlogPostMeta[] = [
   },
   {
     slug: 'time-boxing-vs-pomodoro',
-    title: '타임박싱 vs 뽀모도로: 어떤 기법이 나에게 맞을까?',
+    title: "타임박싱 vs 뽀모도로: 차이점과 언제 무엇을 쓸지",
     date: '2024-12-05',
+    updated: '2026-11-23',
     author: 'Chrobox Team',
-    category: '생산성',
-    tags: ['타임박싱', '뽀모도로', '비교', '생산성', '집중력'],
-    excerpt: '타임박싱과 뽀모도로 기법의 종합 비교. 어떤 생산성 방법이 당신의 업무 스타일에 맞는지 알아보고 각 접근법에서 최대 효과를 얻는 방법을 발견하세요.',
-    image: '/screenshots/ko/3.webp',
+    category: "생산성",
+    tags: ["타임박싱", "뽀모도로", "비교", "생산성", "집중력"],
+    excerpt: "뽀모도로는 25분 집중 한 번에, 타임박싱은 할 일마다 시작 시각과 길이를 줍니다. 언제 무엇이 맞는지, 함께 쓰는 법, 할 일 5,077개의 칸 길이별 완료율까지 정리했습니다.",
+    image: "/screenshots/ko/3.webp",
     readTime: 7,
     lang: 'ko',
     faqs: [
       {
-        question: 'Is the Pomodoro Technique the same as time-boxing?',
-        questionKo: '뽀모도로 기법은 타임박싱과 같은 건가요?',
-        answer: 'No. Pomodoro is a specific implementation of time-boxing with fixed 25-minute intervals.',
-        answerKo: '아닙니다. 뽀모도로 기법은 고정된 25분 간격과 의무적인 휴식이 있는 타임박싱의 특정 구현 방식입니다. 타임박싱은 더 넓은 개념으로 복잡하거나 가변적인 업무에 더 유연합니다.',
+        question: "Is the Pomodoro Technique a form of timeboxing?",
+        questionKo: "뽀모도로 기법도 타임박싱의 한 종류인가요?",
+        answer: "Both put a time limit on work, but on different things. A Pomodoro limits one stretch of focus on one activity, usually 25 minutes, followed by a break. Timeboxing gives each task a start time and a length on your day. Many people use Pomodoro intervals inside a longer time box.",
+        answerKo: "둘 다 일에 시간 한도를 두지만 대상이 다릅니다. 뽀모도로는 한 가지 활동에 집중하는 한 번의 시간을 보통 25분으로 정하고 그 뒤에 쉽니다. 타임박싱은 할 일마다 하루 안에서 시작 시각과 길이를 줍니다. 긴 타임박스 안에서 뽀모도로 간격으로 일하는 사람도 많습니다.",
       },
       {
-        question: 'Which technique is better for creative work?',
-        questionKo: '창의적인 작업에는 어떤 기법이 더 좋은가요?',
-        answer: 'Time-boxing generally suits creative work better because creative tasks rarely conform to a rigid 25-minute structure.',
-        answerKo: '타임박싱은 창의적 작업이 고정된 25분 구조를 따르는 경우가 드물기 때문에 일반적으로 창의적 작업에 더 적합합니다. 60~90분 타임박스는 방해 없이 몰입 상태에 도달하기에 충분한 여유를 제공합니다.',
+        question: "Are 25-minute sessions easier to finish than longer ones?",
+        questionKo: "25분짜리가 더 긴 시간보다 끝내기 쉬운가요?",
+        answer: "Not in Chrobox data. Boxes of 16–30 minutes and boxes of 46–60 minutes were both completed 48.7% of the time. Completion only fell for boxes longer than 90 minutes, to 45.0% for 91–120 minutes and 44.0% beyond that.",
+        answerKo: "크로박스 데이터에서는 아니었습니다. 16–30분 칸과 46–60분 칸 모두 48.7%가 완료됐습니다. 완료율은 90분보다 긴 칸에서만 낮아져, 91–120분은 45.0%, 그보다 긴 칸은 44.0%였습니다.",
       },
       {
-        question: 'Can I use both techniques together?',
-        questionKo: '두 기법을 함께 사용할 수 있나요?',
-        answer: 'Yes. Set a 2-hour time box for a project and use Pomodoro intervals within that block.',
-        answerKo: '네. 프로젝트에 2시간 타임박스를 설정하고 그 블록 내에서 뽀모도로 간격(25분 작업 + 5분 휴식)을 사용하는 것이 일반적인 하이브리드 방식입니다.',
+        question: "Does Chrobox have a Pomodoro timer?",
+        questionKo: "크로박스에 뽀모도로 타이머가 있나요?",
+        answer: "Chrobox has a focus timer that counts down once. Started from a task, it defaults to the length of the box, and the Focus tab has 25-, 50- and 90-minute timers. It does not repeat work and break intervals automatically, so you start it again after a break.",
+        answerKo: "크로박스에는 한 번 카운트다운하는 집중 타이머가 있습니다. 할 일에서 켜면 칸 길이가 기본이고, 집중 탭에는 25분·50분·90분 타이머가 있습니다. 집중과 휴식을 자동으로 반복하지는 않으니, 쉬고 나서 다시 켜면 됩니다.",
       },
     ],
   },
@@ -497,66 +499,73 @@ The median planned day in Chrobox had 5 tasks. That is not a magic number, it is
 Chrobox is a timeboxing app for iPhone and Android. You add tasks, mark priorities and drag each task onto the day timeline, where it becomes a box with a start time and a length. When a box starts, you get a notification, and you can start a focus timer that defaults to the length of the box. All of this is free. Blocking distracting apps during a box is part of Chrobox Pro.
     `,
     'time-boxing-vs-pomodoro': `
-# Time-Boxing vs Pomodoro: Which Technique is Right for You?
+# Timeboxing vs Pomodoro: Key Differences and When to Use Each
 
-If you've explored productivity techniques, you've likely encountered both time-boxing and the Pomodoro Technique. While they share similarities, they serve different purposes and suit different work styles.
+**The Pomodoro Technique limits one stretch of focused work, usually 25 minutes, followed by a break; timeboxing gives each task its own start time and length on your day. Use Pomodoro when the hard part is starting a task or staying on it, and timeboxing when the hard part is fitting the day's tasks into the hours you have. The two combine well: timebox the day, then work in Pomodoro intervals inside a long box.** This comparison uses the official Pomodoro Technique site and Francesco Cirillo's own writing for what Pomodoro is, and Chrobox usage data (5,077 planned tasks from 250 people, December 2025 to September 2026) for how long people actually make their boxes and how often they finish them.
 
-## Understanding the Techniques
+| | Pomodoro Technique | Timeboxing |
+|---|---|---|
+| What gets a time limit | One stretch of focus on one activity | Each task on your day |
+| Typical length | 25 minutes | Whatever the task needs; the median box in Chrobox was 60 minutes |
+| Breaks | A break after every Pomodoro | Planned as their own boxes, or left between boxes |
+| Question it answers | How do I keep working on this right now? | When will each of today's tasks happen? |
+| Main tool | A timer, plus paper sheets for planning and records | A calendar or a day timeline |
 
-### What is the Pomodoro Technique?
+## What the Pomodoro Technique is
 
-The Pomodoro Technique uses a timer to break work into 25-minute intervals called "pomodoros," separated by short breaks.
+Francesco Cirillo began developing the Pomodoro Technique in the 1980s while preparing for a university exam. His first challenge to himself was to concentrate for just two minutes, timed with a tomato-shaped kitchen timer; pomodoro is Italian for tomato. A Pomodoro, as he describes it, is a commitment to work on one activity for a defined period, followed by a break. The familiar length is 25 minutes.
 
-**Standard Pomodoro Structure:**
-- 25 minutes of focused work
-- 5-minute short break
-- After 4 pomodoros, take a 15-30 minute long break
+Cirillo also writes that the technique was never meant to be just a way of dividing a day into 25-minute blocks. The official method includes planning your activities, estimating effort, recording what happens, handling interruptions and reviewing your work, with paper tools such as a To Do Today Sheet and a Records Sheet. If you only run a 25-minute timer, you are using the best-known part of the method, not all of it.
 
-### What is Time-Boxing?
+## What timeboxing is
 
-Time-boxing allocates a fixed time period to a planned activity. Unlike Pomodoro's rigid structure, time-boxing is flexible—you set the duration based on the task at hand.
+A time box is a slot on your day with a start time and a length, given to one task. When the box ends, you stop or make a deliberate decision to continue. The length is chosen for the task: 15 minutes for email, an hour for a report draft, two hours for a workshop. Timeboxing is mainly a planning method. It answers whether the day's tasks fit into the hours you have, before the day starts.
 
-## Key Differences
+In Chrobox data, 50.8% of boxes were exactly 60 minutes and 14.9% were 30 minutes. Part of that is the app itself, because a task dropped onto an hour on the timeline starts as a 60-minute box and many people keep it. Whether a task had a time slot at all made a much bigger difference than how long the slot was: tasks with a time slot were completed 48.1% of the time, against 17.6% for tasks left on a list.
 
-| Aspect | Pomodoro | Time-Boxing |
-|--------|----------|-------------|
-| **Duration** | Fixed 25 minutes | Variable (you decide) |
-| **Break Structure** | Mandatory, scheduled | Flexible |
-| **Best For** | Sustained focus | Complex projects |
-| **Flexibility** | Low | High |
+## Are 25-minute sessions easier to finish?
 
-## When to Use Pomodoro
+A common reason to prefer short intervals is that they feel easier to finish. In Chrobox data, short boxes were not finished more often than hour-long ones:
 
-1. **Fighting Procrastination** — Committing to just 25 minutes feels manageable
-2. **Repetitive Tasks** — Data entry, email processing
-3. **When You're New to Time Management** — Rigid structure builds habits
+| Box length | Tasks | Completed |
+|---|---|---|
+| 15 minutes or less | 35 | 48.6% |
+| 16–30 minutes | 429 | 48.7% |
+| 31–45 minutes | 56 | 53.6% |
+| 46–60 minutes | 1,215 | 48.7% |
+| 61–90 minutes | 135 | 50.4% |
+| 91–120 minutes | 238 | 45.0% |
+| More than 120 minutes | 209 | 44.0% |
 
-## When to Use Time-Boxing
+Up to 90 minutes, length made almost no difference. Boxes longer than 90 minutes were completed less often, at 45.0% and 44.0%. This is observational data, not an experiment, and these are scheduled tasks rather than Pomodoro sessions. It still suggests a practical rule: **choose the length for the task, and split anything longer than 90 minutes into two boxes** instead of shrinking everything to 25 minutes. The full breakdown is in our [timeboxing data report](/blog/does-timeboxing-work).
 
-1. **Deep Work Sessions** — Creative tasks, coding, writing
-2. **Project Planning** — Estimate and allocate time across tasks
-3. **Variable Task Types** — Different tasks need different amounts of time
+## When Pomodoro works better
 
-## Combining Both Techniques
+- You keep avoiding a task. Committing to one short interval is easier than committing to the whole job.
+- The task has no natural end, such as clearing an inbox, memorizing or practice problems, and you want a rhythm of work and rest.
+- You lose track of time and skip breaks during long stretches.
+- You want to learn how long your work really takes. Recording the effort each task took gives you numbers for the next estimate.
 
-### Hybrid Approach: Pomodoros Within Time-Boxes
+## When timeboxing works better
 
-Set a 2-hour time-box for a project, then use Pomodoro intervals within it:
-- 25 min work → 5 min break → 25 min work → 5 min break → 25 min work
+- Many tasks compete for one day, and you need to see whether they fit.
+- Your day has fixed appointments or meetings, and work has to go around them.
+- The task needs a long, unbroken stretch, such as writing or coding. A 60- to 90-minute box keeps that stretch whole; see [scheduling deep work](/blog/deep-work-scheduling).
+- You tend to plan more than a day can hold. A timeline makes that visible at 08:00 instead of 18:00.
 
-## How Chrobox Supports Both Methods
+## How to combine them
 
-**For Pomodoro Users:**
-- Set 25-minute default time boxes
-- Automatic break reminders
+Timeboxing decides when a task happens, and Pomodoro decides how you work inside the box. A common way to use both:
 
-**For Time-Boxing Users:**
-- Custom duration for each task
-- Visual timeline view
+1. Put each must-do task on your day as a box, with a start time and a length that fits the task.
+2. Keep boxes at 90 minutes or less, and split longer work into two boxes with a break between them.
+3. Inside a long box, work in 25-minute intervals with a short break after each one if that helps you keep going.
+4. When the box ends, stop, or move the rest of the task to a new box instead of letting it run into the next one.
+5. At the end of the day, note which boxes ran over, and adjust the lengths you choose tomorrow.
 
-## Conclusion
+## Pomodoro and timeboxing in Chrobox
 
-There's no universally "better" technique—only what works better for you. Experiment and settle on what feels sustainable and productive.
+Chrobox is a timeboxing app for iPhone and Android. You drag a task onto the day timeline, where it becomes a box with a start time and a length; boxes can be as short as 5 minutes, so a 25-minute box works too. When a box starts, you get a notification. You can then start a focus timer, which counts down once and defaults to the length of the box. The Focus tab also has 25-, 50- and 90-minute timers that you can start without picking a task. **Chrobox does not run Pomodoro cycles**: it does not repeat work and break intervals or start breaks automatically, so after a break you start the timer again yourself. Planning, notifications and the focus timer are free. Blocking distracting apps while you focus is part of Chrobox Pro; see [how to block distracting apps](/blog/how-to-block-distracting-apps).
     `,
   },
   ko: {
@@ -724,39 +733,73 @@ There's no universally "better" technique—only what works better for you. Expe
 크로박스는 아이폰과 안드로이드용 타임박싱 앱입니다. 할 일을 적고 우선순위를 표시한 뒤, 할 일을 하루 타임라인에 끌어다 놓으면 시작 시각과 길이가 있는 칸이 됩니다. 칸이 시작되면 알림이 오고, 칸 길이가 기본값인 집중 타이머를 켤 수 있습니다. 여기까지는 모두 무료입니다. 칸이 진행되는 동안 방해되는 앱을 막는 앱 차단은 크로박스 Pro 기능입니다.
     `,
     'time-boxing-vs-pomodoro': `
-# 타임박싱 vs 뽀모도로: 어떤 기법이 나에게 맞을까?
+# 타임박싱 vs 뽀모도로: 차이점과 언제 무엇을 쓸지
 
-생산성 기법을 탐색해 보셨다면 타임박싱과 뽀모도로 기법을 모두 접하셨을 것입니다.
+**뽀모도로 기법은 한 번 집중하는 시간을 보통 25분으로 정하고 그 뒤에 쉬는 방법이고, 타임박싱은 할 일마다 하루 안에서 시작 시각과 길이를 정해 주는 방법입니다. 일을 시작하거나 붙잡고 있기가 어렵다면 뽀모도로를, 오늘 할 일이 가진 시간 안에 들어가는지가 문제라면 타임박싱을 쓰세요. 둘은 함께 쓰기 좋습니다. 하루는 타임박싱으로 짜고, 긴 칸 안에서는 뽀모도로 간격으로 일하면 됩니다.** 뽀모도로가 무엇인지는 공식 뽀모도로 기법 사이트와 프란체스코 시릴로가 직접 쓴 글을 기준으로 했고, 사람들이 칸을 실제로 몇 분으로 잡고 얼마나 끝내는지는 크로박스 사용 데이터(250명이 계획한 할 일 5,077개, 2025년 12월~2026년 9월)로 봤습니다.
 
-## 기법 이해하기
+| | 뽀모도로 기법 | 타임박싱 |
+|---|---|---|
+| 시간을 정하는 대상 | 한 가지 활동에 집중하는 한 번의 시간 | 하루에 놓는 할 일 하나하나 |
+| 보통 길이 | 25분 | 할 일에 필요한 만큼. 크로박스의 칸 길이 중앙값은 60분 |
+| 휴식 | 뽀모도로 한 번마다 휴식 | 따로 칸으로 잡거나 칸 사이에 둠 |
+| 답하는 질문 | 지금 이 일을 어떻게 계속할까? | 오늘 할 일을 각각 언제 할까? |
+| 주된 도구 | 타이머, 그리고 계획과 기록을 적는 종이 양식 | 캘린더나 하루 타임라인 |
 
-### 뽀모도로 기법
+## 뽀모도로 기법이란
 
-- 25분 집중 작업
-- 5분 짧은 휴식
-- 4개의 뽀모도로 후 긴 휴식
+프란체스코 시릴로는 1980년대에 대학 시험을 준비하면서 뽀모도로 기법을 만들기 시작했습니다. 처음 스스로에게 건 도전은 토마토 모양 주방 타이머로 딱 2분 동안 집중하는 것이었습니다. 뽀모도로는 이탈리아어로 토마토라는 뜻입니다. 그의 설명에 따르면 뽀모도로 한 번은 정해진 시간 동안 한 가지 활동에 집중하겠다는 약속이고, 그 뒤에는 휴식이 따릅니다. 흔히 아는 길이는 25분입니다.
 
-### 타임박싱
+시릴로는 이 기법이 하루를 25분 단위로 나누는 방법으로만 만들어진 것이 아니라고도 씁니다. 공식 방법에는 활동 계획, 노력 예상, 일어난 일 기록, 방해 다루기, 작업 돌아보기가 들어 있고, '오늘 할 일' 양식과 기록 양식 같은 종이 도구를 씁니다. 25분 타이머만 돌린다면 이 방법에서 가장 잘 알려진 부분만 쓰는 셈입니다.
 
-- 가변 기간 (30분에서 3시간 이상)
-- 작업별 시간 할당
-- 유연한 휴식 스케줄링
+## 타임박싱이란
 
-## 주요 차이점
+타임박스는 하루 안에서 할 일 하나에 준 시작 시각과 길이가 있는 칸입니다. 칸이 끝나면 멈추거나, 계속할지를 일부러 정합니다. 길이는 할 일에 맞춰 고릅니다. 메일은 15분, 보고서 초안은 한 시간, 워크숍은 두 시간처럼요. 타임박싱은 무엇보다 계획 방법입니다. 오늘 할 일이 가진 시간 안에 들어가는지를 하루가 시작되기 전에 알려 줍니다.
 
-| 측면 | 뽀모도로 | 타임박싱 |
-|------|----------|----------|
-| **기간** | 고정 25분 | 가변 |
-| **유연성** | 낮음 | 높음 |
+크로박스 데이터에서 칸의 50.8%가 정확히 60분이었고, 14.9%가 30분이었습니다. 앱 설계의 영향도 있습니다. 할 일을 타임라인의 한 시간 칸에 끌어다 놓으면 60분짜리 칸으로 시작하고, 많은 사람이 그대로 둡니다. 칸의 길이보다 시간 칸이 있느냐 없느냐가 훨씬 큰 차이를 보였습니다. 시간 칸이 있는 할 일은 48.1%가 완료됐고, 목록에만 있던 할 일은 17.6%였습니다.
 
-## 두 기법 결합하기
+## 25분은 정말 끝내기 쉬울까
 
-2시간 타임박스를 설정한 다음 그 안에서 뽀모도로 사용:
-- 25분 작업 → 5분 휴식 → 25분 작업 → 5분 휴식
+짧은 간격을 고르는 흔한 이유는 끝내기 쉽게 느껴진다는 것입니다. 크로박스 데이터에서는 짧은 칸이 한 시간짜리 칸보다 더 자주 끝나지 않았습니다.
 
-## Chrobox로 두 방법 모두 지원
+| 칸 길이 | 할 일 수 | 완료율 |
+|---|---|---|
+| 15분 이하 | 35 | 48.6% |
+| 16–30분 | 429 | 48.7% |
+| 31–45분 | 56 | 53.6% |
+| 46–60분 | 1,215 | 48.7% |
+| 61–90분 | 135 | 50.4% |
+| 91–120분 | 238 | 45.0% |
+| 120분 초과 | 209 | 44.0% |
 
-선호하는 기법과 함께 작동하도록 설계되었습니다.
+90분까지는 길이에 따른 차이가 거의 없었습니다. 90분보다 긴 칸은 45.0%와 44.0%로 덜 끝났습니다. 실험이 아니라 관찰한 데이터이고, 뽀모도로 세션이 아니라 시간을 정한 할 일입니다. 그래도 실천할 규칙은 나옵니다. **길이는 할 일에 맞춰 고르고, 90분보다 긴 일은 칸 두 개로 나누세요.** 모든 일을 25분으로 줄일 필요는 없습니다. 자세한 내용은 [타임박싱 데이터 보고서](/ko/blog/does-timeboxing-work)에 있습니다.
+
+## 뽀모도로가 더 맞을 때
+
+- 자꾸 미루는 일이 있을 때. 일 전체보다 짧은 한 번에 약속하기가 쉽습니다.
+- 메일 정리, 암기, 문제 풀이처럼 끝이 분명하지 않은 일을 일과 휴식의 리듬으로 하고 싶을 때.
+- 오래 하다 보면 시간 가는 줄 모르고 쉬는 것을 건너뛸 때.
+- 내 일이 실제로 얼마나 걸리는지 알고 싶을 때. 할 일마다 든 노력을 기록해 두면 다음 예상에 쓸 숫자가 생깁니다.
+
+## 타임박싱이 더 맞을 때
+
+- 하루에 여러 할 일이 몰려서, 모두 들어가는지 봐야 할 때.
+- 정해진 약속이나 회의가 있어서 일을 그 사이에 넣어야 할 때.
+- 글쓰기나 코딩처럼 끊기지 않는 긴 시간이 필요할 때. 60~90분 칸이 그 시간을 통째로 지켜 줍니다. [딥워크 시간 잡는 법](/ko/blog/deep-work-scheduling)을 참고하세요.
+- 하루가 감당할 수 있는 것보다 많이 계획하는 편일 때. 타임라인에 놓으면 저녁 18:00이 아니라 아침 08:00에 그게 보입니다.
+
+## 둘을 함께 쓰는 법
+
+타임박싱은 할 일을 언제 할지 정하고, 뽀모도로는 그 칸 안에서 어떻게 일할지 정합니다. 둘을 함께 쓰는 흔한 방법은 이렇습니다.
+
+1. 꼭 할 일마다 시작 시각과 할 일에 맞는 길이를 정해 하루에 칸으로 놓습니다.
+2. 칸은 90분 이하로 두고, 더 긴 일은 사이에 휴식을 둔 칸 두 개로 나눕니다.
+3. 긴 칸 안에서는 도움이 된다면 25분씩 일하고 한 번마다 짧게 쉽니다.
+4. 칸이 끝나면 멈추거나, 남은 일을 새 칸으로 옮깁니다. 다음 칸까지 끌고 가지 않습니다.
+5. 하루를 마칠 때 넘친 칸을 적어 두고, 다음 날 고르는 길이를 고칩니다.
+
+## 크로박스에서 뽀모도로와 타임박싱 쓰기
+
+크로박스는 아이폰과 안드로이드용 타임박싱 앱입니다. 할 일을 하루 타임라인에 끌어다 놓으면 시작 시각과 길이가 있는 칸이 됩니다. 칸은 5분까지 짧게 잡을 수 있어 25분 칸도 됩니다. 칸이 시작되면 알림이 오고, 그때 집중 타이머를 켜면 칸 길이를 기본으로 한 번 카운트다운합니다. 집중 탭에는 할 일을 고르지 않고 바로 시작할 수 있는 25분·50분·90분 타이머도 있습니다. **크로박스는 뽀모도로 순환을 돌리지 않습니다.** 집중과 휴식을 자동으로 반복하거나 휴식을 저절로 시작하지 않으니, 쉬고 나면 타이머를 직접 다시 켜면 됩니다. 계획, 알림, 집중 타이머는 무료입니다. 집중하는 동안 방해되는 앱을 막는 앱 차단은 크로박스 Pro 기능입니다. [방해되는 앱 차단하는 법](/ko/blog/how-to-block-distracting-apps)도 참고하세요.
     `,
   },
 };

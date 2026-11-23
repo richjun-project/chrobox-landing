@@ -688,20 +688,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-vs-pomodoro': {
-      title: 'Time-Boxing ve Pomodoro: Hangisi Size Uygun?',
-      excerpt: 'Time-boxing ve Pomodoro Tekniği karşılaştırması. Çalışma tarzınıza en uygun yöntemi keşfedin ve her iki teknikten de maksimum verim alın.',
+      title: 'Timeboxing vs Pomodoro: farklar ve ne zaman hangisi',
+      excerpt: 'Pomodoro 25 dakikalık tek bir odak dilimini sayar; timeboxing her göreve başlangıç saati ve süre verir. Ne zaman hangisi, nasıl birleştirilir, gerçek veriler.',
       faqs: [
         {
-          question: 'Pomodoro Tekniği, time-boxing ile aynı şey mi?',
-          answer: 'Hayır. Pomodoro Tekniği, 25 dakikalık sabit çalışma süreleri ve zorunlu molalar içeren, time-boxing yönteminin özel bir uygulama biçimidir. Time-boxing ise bir göreve belirli bir zaman dilimi ayırmayı hedefleyen daha geniş bir kavramdır; süre ve mola yapısı tamamen size bağlı olduğundan, karmaşık veya değişken iş yükleri için çok daha esnektir.',
+          question: 'Pomodoro Tekniği bir timeboxing türü müdür?',
+          answer: 'İkisi de işe zaman sınırı koyar ama farklı şeylere. Bir Pomodoro, tek bir etkinliğe odaklanmanın bir dilimini, genellikle 25 dakikayı sınırlar ve ardından mola gelir. Timeboxing ise gününüzde her göreve bir başlangıç saati ve süre verir. Birçok kişi Pomodoro aralıklarını daha uzun bir zaman kutusunun içinde kullanır.',
         },
         {
-          question: 'Yaratıcı işler için hangi teknik daha iyidir?',
-          answer: 'Yaratıcı işler nadiren 25 dakikalık katı bir yapıya uyum sağladığı için genellikle time-boxing bu tür çalışmalar için daha uygundur. 60-90 dakikalık bir zaman bloğu, bölünmeden odaklanma (flow) evresine geçmeniz için yeterli süreyi tanırken, ucu açık çalışma seanslarının da önüne geçer.',
+          question: '25 dakikalık oturumları bitirmek daha uzun olanlardan daha mı kolay?',
+          answer: 'Chrobox verilerinde değil. 16–30 dakikalık kutular ile 46–60 dakikalık kutuların ikisi de 48.7% oranında tamamlandı. Tamamlanma oranı yalnızca 90 dakikadan uzun kutularda düştü: 91–120 dakika için 45.0%, daha uzunlar için 44.0%.',
         },
         {
-          question: 'İki tekniği birlikte kullanabilir miyim?',
-          answer: 'Evet, pek çok profesyonel de bunu yapıyor. Sıkça tercih edilen karma bir yaklaşım, bir proje için 2 saatlik bir zaman bloğu belirlemek ve bu blok içinde Pomodoro aralıklarını (25 dk. çalışma + 5 dk. mola) uygulamaktır. Dıştaki zaman bloğu programınızın bütünlüğünü korurken, Pomodoro aralıkları çalışma ivmenizi yönetir ve zihinsel yorgunluğu önler.',
+          question: 'Chrobox\'ta Pomodoro zamanlayıcısı var mı?',
+          answer: 'Chrobox\'ta bir kez geri sayan bir odak zamanlayıcısı var. Bir görevden başlatıldığında varsayılan olarak kutunun süresini alır ve Odak sekmesinde 25, 50 ve 90 dakikalık zamanlayıcılar bulunur. Çalışma ve mola aralıklarını otomatik tekrarlamaz, bu yüzden moladan sonra yeniden başlatırsınız.',
         },
       ],
     },
@@ -2492,67 +2492,74 @@ Chrobox'taki ortanca planlı günde 5 görev vardı. Bu sihirli bir sayı değil
 Chrobox, iPhone ve Android için bir timeboxing uygulaması. Görev eklersiniz, öncelikleri işaretlersiniz ve her görevi gün zaman çizelgesine sürüklersiniz; görev başlangıç saati ve süresi olan bir kutuya dönüşür. Bir kutu başladığında bildirim alırsınız ve varsayılan süresi kutunun süresi olan bir odak zamanlayıcısı başlatabilirsiniz. Bunların hepsi ücretsiz. Bir kutu sırasında dikkat dağıtan uygulamaları engellemek Chrobox Pro'nun parçası.
 `,
     'time-boxing-vs-pomodoro': `
-# Time-Boxing ve Pomodoro: Hangi Teknik Sizin İçin En Uygunu?
+# Timeboxing vs Pomodoro: farklar ve ne zaman hangisi
 
-Üretkenlik tekniklerini araştırdıysanız, muhtemelen hem time-boxing hem de Pomodoro Tekniği ile karşılaşmışsınızdır. Benzerlikleri olsa da bu iki teknik farklı amaçlara hizmet eder ve farklı çalışma tarzlarına hitap eder.
+**Pomodoro Tekniği, odaklanmış çalışmanın tek bir dilimini, genellikle 25 dakikayı, sınırlar ve ardından mola gelir; timeboxing ise gününüzde her göreve kendi başlangıç saatini ve süresini verir. Zor olan kısım bir göreve başlamak ya da ona devam etmekse Pomodoro'yu, zor olan kısım günün görevlerini elinizdeki saatlere sığdırmaksa timeboxing'i kullanın. İkisi iyi birleşir: gününüzü kutulara bölün, sonra uzun bir kutunun içinde Pomodoro aralıklarıyla çalışın.** Bu karşılaştırma, Pomodoro'nun ne olduğu için resmî Pomodoro Tekniği sitesini ve Francesco Cirillo'nun kendi yazılarını; insanların kutularını gerçekte ne kadar uzun yaptığı ve ne sıklıkla tamamladığı için ise Chrobox kullanım verilerini (250 kişinin planladığı 5,077 görev, Aralık 2025 – Eylül 2026) kullanıyor.
 
-## Teknikleri Anlamak
+| | Pomodoro Tekniği | Timeboxing |
+|---|---|---|
+| Neye zaman sınırı konur | Tek bir etkinliğe odaklanmanın bir dilimi | Gününüzdeki her görev |
+| Tipik süre | 25 dakika | Görevin gerektirdiği kadar; Chrobox'ta ortanca kutu 60 dakikaydı |
+| Molalar | Her Pomodoro'dan sonra bir mola | Kendi kutuları olarak planlanır ya da kutular arasında bırakılır |
+| Yanıtladığı soru | Şu an bunun üzerinde çalışmaya nasıl devam ederim? | Bugünkü görevlerin her biri ne zaman yapılacak? |
+| Ana araç | Bir zamanlayıcı, artı planlama ve kayıt için kâğıt formlar | Bir takvim ya da gün zaman çizelgesi |
 
-### What is the Pomodoro Technique?
+## Pomodoro Tekniği nedir
 
-Pomodoro Tekniği, çalışmayı kısa molalarla bölünen ve "pomodoro" adı verilen 25 dakikalık aralıklara ayırmak için bir zamanlayıcı kullanır.
+Francesco Cirillo, Pomodoro Tekniği'ni 1980'lerde bir üniversite sınavına hazırlanırken geliştirmeye başladı. Kendine ilk meydan okuması, domates biçimli bir mutfak zamanlayıcısıyla ölçerek yalnızca 2 dakika konsantre olmaktı; pomodoro İtalyanca domates demek. Cirillo'nun anlattığı haliyle bir Pomodoro, tek bir etkinlik üzerinde belirli bir süre çalışma taahhüdüdür ve ardından mola gelir. Bilinen süre 25 dakikadır.
 
-**Standart Pomodoro Yapısı:**
-- 25 dakikalık odaklanmış çalışma
-- 5 dakikalık kısa mola
-- 4 pomodorodan sonra 15-30 dakikalık uzun bir mola verin
+Cirillo ayrıca tekniğin hiçbir zaman günü 25 dakikalık bloklara bölmenin bir yolu olarak tasarlanmadığını yazıyor. Resmî yöntem; etkinliklerinizi planlamayı, eforu tahmin etmeyi, olanları kaydetmeyi, kesintilerle başa çıkmayı ve çalışmanızı gözden geçirmeyi kapsar ve bunlar için Bugünün Yapılacaklar Formu (To Do Today Sheet) ve Kayıt Formu (Records Sheet) gibi kâğıt araçlar kullanılır. Yalnızca 25 dakikalık bir zamanlayıcı çalıştırıyorsanız, yöntemin en bilinen kısmını kullanıyorsunuz, tamamını değil.
 
-### What is Time-Boxing?
+## Timeboxing nedir
 
-Time-boxing, planlanmış bir faaliyete belirli bir zaman dilimi ayırmaktır. Pomodoro'nun katı yapısının aksine, time-boxing esnektir; süreyi elinizdeki göreve göre belirlersiniz.
+Zaman kutusu, gününüzde bir başlangıç saati ve süresi olan, tek bir göreve verilmiş bir dilimdir. Kutu bittiğinde durursunuz ya da bilinçli olarak devam etmeye karar verirsiniz. Süre göreve göre seçilir: e-posta için 15 dakika, rapor taslağı için bir saat, atölye çalışması için iki saat. Timeboxing esas olarak bir planlama yöntemidir. Gün başlamadan önce, günün görevlerinin elinizdeki saatlere sığıp sığmadığını yanıtlar.
 
-## Temel Farklar
+Chrobox verilerinde kutuların 50.8%'i tam 60 dakika, 14.9%'i 30 dakikaydı. Bunun bir kısmı uygulamanın kendisinden kaynaklanıyor, çünkü zaman çizelgesinde bir saatin üzerine bırakılan görev 60 dakikalık kutu olarak başlıyor ve birçok kişi bunu olduğu gibi bırakıyor. Görevin hiç zaman dilimi olup olmaması, dilimin ne kadar uzun olduğundan çok daha büyük fark yarattı: zaman dilimi olan görevler 48.1% oranında tamamlandı, listede bırakılan görevlerde bu oran 17.6% oldu.
 
-| Özellik | Pomodoro | Time-Boxing |
-|--------|----------|-------------|
-| **Süre** | Sabit 25 dakika | Değişken (siz karar verirsiniz) |
-| **Mola Yapısı** | Zorunlu, planlı | Esnek |
-| **En Uygun Olduğu Durum** | Kesintisiz odaklanma | Karmaşık projeler |
-| **Esneklik** | Düşük | Yüksek |
+## 25 dakikalık oturumları bitirmek daha mı kolay?
 
-## Pomodoro Ne Zaman Kullanılmalı?
+Kısa aralıkları tercih etmenin yaygın bir nedeni, bitirmenin daha kolay hissettirmesidir. Chrobox verilerinde kısa kutular, saatlik kutulardan daha sık tamamlanmadı:
 
-1. **Ertelemeyle Mücadele Ederken** — Sadece 25 dakika taahhüt etmek yönetilebilir hissettirir
-2. **Tekrarlayan Görevlerde** — Veri girişi, e-posta yanıtlama
-3. **Zaman Yönetimine Yeni Başladığınızda** — Katı yapı alışkanlık kazanmanıza yardımcı olur
+| Kutu süresi | Görev | Tamamlanan |
+|---|---|---|
+| 15 dakika veya daha az | 35 | 48.6% |
+| 16–30 dakika | 429 | 48.7% |
+| 31–45 dakika | 56 | 53.6% |
+| 46–60 dakika | 1,215 | 48.7% |
+| 61–90 dakika | 135 | 50.4% |
+| 91–120 dakika | 238 | 45.0% |
+| 120 dakikadan fazla | 209 | 44.0% |
 
-## Time-Boxing Ne Zaman Kullanılmalı?
+90 dakikaya kadar süre neredeyse hiç fark yaratmadı. 90 dakikadan uzun kutular daha az tamamlandı: 45.0% ve 44.0%. Bu gözlemsel veridir, deney değildir ve bunlar Pomodoro oturumları değil, planlanmış görevlerdir. Yine de pratik bir kural öneriyor: **süreyi göreve göre seçin ve 90 dakikadan uzun her şeyi iki kutuya bölün**; her şeyi 25 dakikaya küçültmek yerine. Tam döküm [timeboxing veri raporumuzda](/tr/blog/does-timeboxing-work).
 
-1. **Derin Çalışma (Deep Work) Seanslarında** — Yaratıcı görevler, kod yazma, metin yazarlığı
-2. **Proje Planlamasında** — Görevler arasında süre tahmini ve zaman tahsisi yapma
-3. **Farklı Görev Türlerinde** — Farklı görevlerin farklı süreler gerektirmesi
+## Pomodoro ne zaman daha iyi çalışır
 
-## İki Tekniği Birleştirmek
+- Bir görevden kaçınıp duruyorsunuz. Tek bir kısa aralığa söz vermek, işin tamamına söz vermekten kolaydır.
+- Görevin doğal bir sonu yok; örneğin gelen kutusunu boşaltmak, ezberlemek veya alıştırma soruları gibi, ve bir çalışma-dinlenme ritmi istiyorsunuz.
+- Uzun çalışma dönemlerinde zamanın farkını kaybedip molaları atlıyorsunuz.
+- İşinizin gerçekte ne kadar sürdüğünü öğrenmek istiyorsunuz. Her görevin ne kadar efor aldığını kaydetmek, sonraki tahmin için size sayılar verir.
 
-### Hibrit Yaklaşım: Time-Box İçinde Pomodoro
+## Timeboxing ne zaman daha iyi çalışır
 
-Bir proje için 2 saatlik bir time-box belirleyin ve ardından bu süre içinde Pomodoro aralıklarını kullanın:
-- 25 dk çalışma → 5 dk mola → 25 dk çalışma → 5 dk mola → 25 dk çalışma
+- Birçok görev tek bir gün için yarışıyor ve sığıp sığmadıklarını görmeniz gerekiyor.
+- Gününüzde sabit randevular veya toplantılar var ve iş bunların etrafına yerleşmek zorunda.
+- Görev, yazmak veya kodlamak gibi uzun, kesintisiz bir dilim gerektiriyor. 60 ila 90 dakikalık bir kutu bu dilimi bütün tutar; bkz. [derin çalışmayı planlama](/tr/blog/deep-work-scheduling).
+- Bir günün alabileceğinden fazlasını planlama eğilimindesiniz. Zaman çizelgesi bunu 18:00'de değil 08:00'de görünür kılar.
 
-## Chrobox Her İki Yöntemi de Nasıl Destekler?
+## Nasıl birleştirilir
 
-**Pomodoro Kullanıcıları İçin:**
-- 25 dakikalık varsayılan time-box'lar ayarlayın
-- Otomatik mola hatırlatıcıları
+Timeboxing bir görevin ne zaman yapılacağına, Pomodoro ise kutunun içinde nasıl çalışacağınıza karar verir. İkisini birlikte kullanmanın yaygın bir yolu:
 
-**Time-Boxing Kullanıcıları İçin:**
-- Her görev için özel süre belirleme
-- Görsel zaman çizelgesi görünümü
+1. Yapılması şart olan her görevi, başlangıç saati ve göreve uyan bir süreyle gününüze kutu olarak koyun.
+2. Kutuları 90 dakika veya daha kısa tutun, daha uzun işi aralarında mola olan iki kutuya bölün.
+3. Uzun bir kutunun içinde, devam etmenize yardımcı oluyorsa, 25 dakikalık aralıklarla çalışın ve her birinden sonra kısa bir mola verin.
+4. Kutu bittiğinde durun ya da görevin kalanını sonraki kutuya taşmasına izin vermek yerine yeni bir kutuya taşıyın.
+5. Günün sonunda hangi kutuların taştığını not edin ve yarın seçeceğiniz süreleri buna göre ayarlayın.
 
-## Sonuç
+## Chrobox'ta Pomodoro ve timeboxing
 
-Evrensel olarak "daha iyi" bir teknik yoktur; yalnızca sizin için neyin daha iyi çalıştığı önemlidir. Denemeler yapın ve sizin için sürdürülebilir ve üretken hissettiren yöntemde karar kılın.
-    `,
+Chrobox, iPhone ve Android için bir timeboxing uygulamasıdır. Bir görevi gün zaman çizelgesine sürüklersiniz; orada başlangıç saati ve süresi olan bir kutuya dönüşür; kutular 5 dakika kadar kısa olabilir, yani 25 dakikalık bir kutu da olur. Bir kutu başladığında bildirim alırsınız. Ardından, bir kez geri sayan ve varsayılan olarak kutunun süresini alan bir odak zamanlayıcısı başlatabilirsiniz. Odak sekmesinde ayrıca görev seçmeden başlatabileceğiniz 25, 50 ve 90 dakikalık zamanlayıcılar da var. **Chrobox Pomodoro döngüleri çalıştırmaz**: çalışma ve mola aralıklarını tekrarlamaz, molaları otomatik başlatmaz; bu yüzden moladan sonra zamanlayıcıyı kendiniz yeniden başlatırsınız. Planlama, bildirimler ve odak zamanlayıcısı ücretsizdir. Odaklanırken dikkat dağıtan uygulamaları engellemek Chrobox Pro'nun bir parçasıdır; bkz. [dikkat dağıtan uygulamalar nasıl engellenir](/tr/blog/how-to-block-distracting-apps).
+`,
     'time-boxing-for-adhd': `# DEHB İçin Time-Boxing: Odaklanmayı Sürdürmek İçin Pratik Bir Rehber
 
 DEHB, göreve başlamayı, görevler arasında geçiş yapmayı ve —belki de en can sıkıcısı— ilgi çekici bir şeyi bırakıp önemli bir şeyle uğraşmayı zorlaştırır. Time-boxing, her aktivite etrafına önceden belirlenmiş sınırlar çizerek bu üç zorluğa da çözüm sunar.

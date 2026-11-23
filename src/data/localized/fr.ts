@@ -688,20 +688,20 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-vs-pomodoro': {
-      title: 'Time-boxing vs Pomodoro : quelle méthode choisir ?',
-      excerpt: 'Le comparatif complet entre le time-boxing et la méthode Pomodoro. Découvrez quelle méthode correspond à votre style de travail et comment en tirer le meilleur parti.',
+      title: 'Time-boxing vs Pomodoro : différences et cas d\'usage',
+      excerpt: 'Pomodoro limite une séquence de concentration, souvent 25 minutes ; le time-boxing donne à chaque tâche une heure de début et une durée. Quand choisir lequel.',
       faqs: [
         {
-          question: 'La méthode Pomodoro est-elle identique au time-boxing ?',
-          answer: 'Non. La méthode Pomodoro est une application spécifique du time-boxing, basée sur des intervalles fixes de 25 minutes et des pauses obligatoires. Le time-boxing est un concept plus large qui consiste à allouer un temps défini à une tâche : la durée et la structure des pauses dépendent entièrement de vous, ce qui le rend plus flexible pour les charges de travail complexes ou variables.',
+          question: 'La méthode Pomodoro est-elle une forme de time-boxing ?',
+          answer: 'Les deux limitent le temps de travail, mais pas sur le même objet. Un Pomodoro limite une séquence de concentration sur une activité, en général 25 minutes, suivie d\'une pause. Le time-boxing donne à chaque tâche une heure de début et une durée dans votre journée. Beaucoup de gens utilisent des intervalles Pomodoro à l\'intérieur d\'un bloc de temps plus long.',
         },
         {
-          question: 'Quelle technique est la plus adaptée au travail créatif ?',
-          answer: 'Le time-boxing est généralement plus adapté au travail créatif, car les tâches créatives s\'intègrent rarement dans un cadre rigide de 25 minutes. Un bloc de 60 à 90 minutes vous donne le temps nécessaire pour atteindre l\'état de flow sans interruption, tout en fixant une limite pour éviter les sessions interminables.',
+          question: 'Les sessions de 25 minutes sont-elles plus faciles à terminer que les plus longues ?',
+          answer: 'Pas dans les données de Chrobox. Les blocs de 16–30 minutes et ceux de 46–60 minutes ont tous deux été terminés dans 48,7 % des cas. Le taux de complétion n\'a baissé que pour les blocs de plus de 90 minutes : 45,0 % pour 91–120 minutes et 44,0 % au-delà.',
         },
         {
-          question: 'Puis-je combiner les deux techniques ?',
-          answer: 'Oui, et c\'est d\'ailleurs le choix de nombreux professionnels. Une approche hybride courante consiste à définir un bloc de 2 heures pour un projet et à y intégrer des intervalles Pomodoro (25 min de travail + 5 min de pause). Le bloc global garantit le respect de votre emploi du temps, tandis que les sessions Pomodoro maintiennent votre élan et évitent la fatigue mentale.',
+          question: 'Chrobox a-t-il un minuteur Pomodoro ?',
+          answer: 'Chrobox propose un minuteur de concentration qui décompte une seule fois. Lancé depuis une tâche, il prend par défaut la durée du bloc, et l\'onglet Focus propose des minuteurs de 25, 50 et 90 minutes. Il ne répète pas automatiquement les intervalles de travail et de pause : vous le relancez vous-même après une pause.',
         },
       ],
     },
@@ -2491,67 +2491,74 @@ La journée planifiée médiane dans Chrobox comptait 5 tâches. Ce n'est pas un
 Chrobox est une application de time-boxing pour iPhone et Android. Vous ajoutez des tâches, marquez des priorités et faites glisser chaque tâche sur la chronologie du jour, où elle devient un bloc avec une heure de début et une durée. Quand un bloc commence, vous recevez une notification et vous pouvez lancer un minuteur de concentration dont la durée par défaut est celle du bloc. Tout cela est gratuit. Le blocage des applications qui distraient pendant un bloc fait partie de Chrobox Pro.
 `,
     'time-boxing-vs-pomodoro': `
-# Time-boxing vs Pomodoro : quelle méthode est faite pour vous ?
+# Time-boxing vs Pomodoro : différences et cas d'usage
 
-Si vous vous intéressez aux techniques de productivité, vous avez probablement déjà entendu parler du time-boxing et de la méthode Pomodoro. Bien qu'elles partagent des similitudes, elles répondent à des besoins différents et s'adaptent à des styles de travail distincts.
+**La méthode Pomodoro limite une séquence de travail concentré, en général 25 minutes, suivie d'une pause ; le time-boxing donne à chaque tâche sa propre heure de début et sa propre durée dans votre journée. Choisissez Pomodoro quand le plus dur est de commencer une tâche ou d'y rester, et le time-boxing quand le plus dur est de faire tenir les tâches du jour dans les heures dont vous disposez. Les deux se combinent bien : planifiez la journée en blocs de temps, puis travaillez par intervalles Pomodoro à l'intérieur d'un long bloc.** Cette comparaison s'appuie sur le site officiel de la méthode Pomodoro et sur les écrits de Francesco Cirillo pour définir ce qu'est Pomodoro, et sur les données d'utilisation de Chrobox (5 077 tâches planifiées par 250 personnes, de décembre 2025 à septembre 2026) pour savoir quelle durée les gens donnent réellement à leurs blocs et à quelle fréquence ils les terminent.
 
-## Comprendre ces deux méthodes
+| | Méthode Pomodoro | Time-boxing |
+|---|---|---|
+| Ce qui reçoit une limite de temps | Une séquence de concentration sur une activité | Chaque tâche de votre journée |
+| Durée habituelle | 25 minutes | Ce dont la tâche a besoin ; le bloc médian dans Chrobox durait 60 minutes |
+| Pauses | Une pause après chaque Pomodoro | Planifiées comme des blocs à part entière, ou laissées entre les blocs |
+| Question à laquelle il répond | Comment continuer à travailler là-dessus maintenant ? | Quand chacune des tâches d'aujourd'hui aura-t-elle lieu ? |
+| Outil principal | Un minuteur, plus des feuilles de papier pour planifier et noter | Un calendrier ou une chronologie du jour |
 
-### Qu'est-ce que la méthode Pomodoro ?
+## Ce qu'est la méthode Pomodoro
 
-La méthode Pomodoro utilise un minuteur pour diviser le travail en intervalles de 25 minutes appelés « pomodoros », séparés par de courtes pauses.
+Francesco Cirillo a commencé à développer la méthode Pomodoro dans les années 1980, alors qu'il préparait un examen universitaire. Son premier défi personnel était de se concentrer pendant seulement 2 minutes, chronométrées avec un minuteur de cuisine en forme de tomate ; pomodoro est le mot italien pour tomate. Un Pomodoro, tel qu'il le décrit, est l'engagement de travailler sur une activité pendant une durée définie, suivie d'une pause. La durée habituelle est de 25 minutes.
 
-**Structure standard du Pomodoro :**
-- 25 minutes de travail concentré
-- 5 minutes de pause courte
-- Après 4 pomodoros, prenez une pause longue de 15 à 30 minutes
+Cirillo écrit aussi que la méthode n'a jamais été conçue comme une simple façon de découper une journée en blocs de 25 minutes. La méthode officielle comprend la planification de vos activités, l'estimation de l'effort, l'enregistrement de ce qui se passe, la gestion des interruptions et la revue de votre travail, avec des outils papier comme la feuille des tâches du jour (To Do Today Sheet) et la feuille de relevés (Records Sheet). Si vous vous contentez de lancer un minuteur de 25 minutes, vous utilisez la partie la plus connue de la méthode, pas la méthode entière.
 
-### Qu'est-ce que le time-boxing ?
+## Ce qu'est le time-boxing
 
-Le time-boxing consiste à allouer un bloc de temps défini à une activité planifiée. Contrairement à la structure rigide du Pomodoro, le time-boxing est flexible : vous fixez la durée en fonction de la tâche à accomplir.
+Un bloc de temps est un créneau de votre journée, avec une heure de début et une durée, attribué à une seule tâche. Quand le bloc se termine, vous vous arrêtez ou vous décidez délibérément de continuer. La durée est choisie en fonction de la tâche : 15 minutes pour les e-mails, une heure pour un brouillon de rapport, deux heures pour un atelier. Le time-boxing est avant tout une méthode de planification. Il répond, avant le début de la journée, à la question de savoir si les tâches du jour tiennent dans les heures dont vous disposez.
 
-## Différences clés
+Dans les données de Chrobox, 50,8 % des blocs duraient exactement 60 minutes et 14,9 % duraient 30 minutes. Une partie de cela vient de l'application elle-même, car une tâche déposée sur une heure de la chronologie démarre comme un bloc de 60 minutes et beaucoup de gens le gardent. Le fait qu'une tâche ait ou non un créneau horaire a pesé bien plus que la durée de ce créneau : les tâches avec un créneau horaire ont été terminées dans 48,1 % des cas, contre 17,6 % pour les tâches laissées dans une liste.
 
-| Aspect | Pomodoro | Time-boxing |
-|--------|----------|-------------|
-| **Durée** | Fixe (25 minutes) | Variable (à votre guise) |
-| **Structure des pauses** | Obligatoire, planifiée | Flexible |
-| **Idéal pour** | La concentration continue | Les projets complexes |
-| **Flexibilité** | Faible | Élevée |
+## Les sessions de 25 minutes sont-elles plus faciles à terminer ?
 
-## Quand utiliser la méthode Pomodoro
+Une raison courante de préférer les intervalles courts est qu'ils paraissent plus faciles à terminer. Dans les données de Chrobox, les blocs courts n'ont pas été terminés plus souvent que ceux d'une heure :
 
-1. **Pour lutter contre la procrastination** — S'engager sur seulement 25 minutes semble tout à fait surmontable
-2. **Pour les tâches répétitives** — Saisie de données, traitement des e-mails
-3. **Pour débuter en gestion du temps** — Une structure rigide aide à créer des habitudes
+| Durée du bloc | Tâches | Terminées |
+|---|---|---|
+| 15 minutes ou moins | 35 | 48,6 % |
+| 16–30 minutes | 429 | 48,7 % |
+| 31–45 minutes | 56 | 53,6 % |
+| 46–60 minutes | 1 215 | 48,7 % |
+| 61–90 minutes | 135 | 50,4 % |
+| 91–120 minutes | 238 | 45,0 % |
+| Plus de 120 minutes | 209 | 44,0 % |
 
-## Quand utiliser le time-boxing
+Jusqu'à 90 minutes, la durée ne faisait presque aucune différence. Les blocs de plus de 90 minutes ont été terminés moins souvent, à 45,0 % et 44,0 %. Ce sont des données d'observation, pas une expérience, et il s'agit de tâches planifiées, pas de sessions Pomodoro. Cela suggère tout de même une règle pratique : **choisissez la durée en fonction de la tâche et découpez en deux blocs tout ce qui dépasse 90 minutes**, plutôt que de tout raccourcir à 25 minutes. Le détail complet figure dans notre [rapport de données sur le time-boxing](/fr/blog/does-timeboxing-work).
 
-1. **Pour les sessions de travail en profondeur (Deep Work)** — Tâches créatives, programmation, rédaction
-2. **Pour la planification de projet** — Estimer et répartir le temps entre les différentes tâches
-3. **Pour des tâches de nature variée** — Différentes tâches nécessitent des durées différentes
+## Quand Pomodoro fonctionne mieux
 
-## Combiner les deux techniques
+- Vous évitez sans cesse une tâche. S'engager sur un court intervalle est plus facile que de s'engager sur tout le travail.
+- La tâche n'a pas de fin naturelle, comme vider une boîte de réception, mémoriser ou faire des exercices, et vous voulez un rythme de travail et de repos.
+- Vous perdez la notion du temps et sautez les pauses pendant les longues séquences.
+- Vous voulez savoir combien de temps votre travail prend vraiment. Noter l'effort que chaque tâche a demandé vous donne des chiffres pour la prochaine estimation.
 
-### L'approche hybride : des Pomodoros au sein du time-boxing
+## Quand le time-boxing fonctionne mieux
 
-Définissez un bloc de temps de 2 heures pour un projet, puis utilisez les intervalles Pomodoro à l'intérieur de celui-ci :
-- 25 min de travail → 5 min de pause → 25 min de travail → 5 min de pause → 25 min de travail
+- Beaucoup de tâches se disputent une même journée et vous devez voir si elles tiennent.
+- Votre journée comporte des rendez-vous ou des réunions fixes, et le travail doit s'organiser autour.
+- La tâche demande une longue séquence sans interruption, comme écrire ou coder. Un bloc de 60 à 90 minutes préserve cette séquence d'un seul tenant ; voir [planifier le travail en profondeur](/fr/blog/deep-work-scheduling).
+- Vous avez tendance à planifier plus que ce qu'une journée peut contenir. Une chronologie le rend visible à 08:00 plutôt qu'à 18:00.
 
-## Comment Chrobox vous accompagne dans les deux méthodes
+## Comment les combiner
 
-**Pour les adeptes du Pomodoro :**
-- Définissez des blocs de temps par défaut de 25 minutes
-- Profitez de rappels de pause automatiques
+Le time-boxing décide du moment où une tâche a lieu, et Pomodoro de la façon dont vous travaillez à l'intérieur du bloc. Une manière courante d'utiliser les deux :
 
-**Pour les adeptes du time-boxing :**
-- Personnalisez la durée de chaque tâche
-- Visualisez votre journée grâce à la vue chronologique
+1. Placez chaque tâche indispensable dans votre journée sous forme de bloc, avec une heure de début et une durée adaptées à la tâche.
+2. Gardez les blocs à 90 minutes ou moins, et découpez le travail plus long en deux blocs séparés par une pause.
+3. À l'intérieur d'un long bloc, travaillez par intervalles de 25 minutes, avec une courte pause après chacun si cela vous aide à tenir.
+4. Quand le bloc se termine, arrêtez-vous, ou déplacez le reste de la tâche dans un nouveau bloc au lieu de le laisser empiéter sur le suivant.
+5. En fin de journée, notez quels blocs ont débordé et ajustez les durées que vous choisirez demain.
 
-## Conclusion
+## Pomodoro et time-boxing dans Chrobox
 
-Il n'y a pas de « meilleure » méthode absolue : il n'y a que celle qui fonctionne pour vous. Expérimentez et adoptez celle qui vous semble la plus durable et productive.
-    `,
+Chrobox est une application de time-boxing pour iPhone et Android. Vous faites glisser une tâche sur la chronologie du jour, où elle devient un bloc avec une heure de début et une durée ; les blocs peuvent ne durer que 5 minutes, un bloc de 25 minutes est donc possible aussi. Quand un bloc commence, vous recevez une notification. Vous pouvez alors lancer un minuteur de concentration, qui décompte une seule fois et prend par défaut la durée du bloc. L'onglet Focus propose aussi des minuteurs de 25, 50 et 90 minutes, que vous pouvez lancer sans choisir de tâche. **Chrobox ne gère pas de cycles Pomodoro** : il ne répète pas les intervalles de travail et de pause et ne lance pas les pauses automatiquement, donc après une pause vous relancez le minuteur vous-même. La planification, les notifications et le minuteur de concentration sont gratuits. Le blocage des applications qui distraient pendant que vous vous concentrez fait partie de Chrobox Pro ; voir [comment bloquer les applications qui distraient](/fr/blog/how-to-block-distracting-apps).
+`,
     'time-boxing-for-adhd': `# Le time-boxing et le TDAH : guide pratique pour rester concentré
 
 Le TDAH rend difficile de démarrer une tâche, de passer de l'une à l'autre et — ce qui est peut-être le plus frustrant — de s'arrêter de travailler sur quelque chose de stimulant pour s'occuper de ce qui est important. Le time-boxing répond à ces trois difficultés en fixant à l'avance des limites autour de chaque activité.
