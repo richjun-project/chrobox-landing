@@ -35,7 +35,7 @@ export const enBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'parkinsons-law-productivity',
-    title: "Parkinson's Law Explained: How to Use It to Double Your Output",
+    title: "Parkinson's Law Explained: Use It to Double Your Output",
     date: '2026-04-12',
     author: 'Chrobox Team',
     category: 'Productivity',
@@ -67,7 +67,7 @@ export const enBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'time-boxing-for-side-projects',
-    title: 'Time-Boxing for Side Projects: How to Ship Without Burning Out',
+    title: "Time-Boxing for Side Projects: Ship Without Burning Out",
     date: '2026-04-15',
     updated: '2026-10-07',
     author: 'Chrobox Team',
@@ -100,7 +100,7 @@ export const enBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'eat-the-frog-time-boxing',
-    title: "Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing",
+    title: "Eat That Frog: Pairing Brian Tracy's Method with Timeboxing",
     date: '2026-04-19',
     updated: '2026-10-07',
     author: 'Chrobox Team',
@@ -133,7 +133,7 @@ export const enBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'time-boxing-for-working-parents',
-    title: 'Time-Boxing for Working Parents: Reclaim Your Day Without Guilt',
+    title: "Time-Boxing for Working Parents: Reclaim Your Day",
     date: '2026-04-22',
     updated: '2026-10-07',
     author: 'Chrobox Team',
@@ -166,7 +166,7 @@ export const enBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'beat-decision-fatigue',
-    title: 'Beat Decision Fatigue: How Time-Boxing Saves Your Mental Energy',
+    title: "Beat Decision Fatigue: How Time-Boxing Saves Mental Energy",
     date: '2026-04-25',
     updated: '2026-10-07',
     author: 'Chrobox Team',

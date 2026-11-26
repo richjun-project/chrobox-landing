@@ -144,7 +144,7 @@ const faqs_daily_reflection_template: BlogFaq[] = [
 export const enBatch9: BlogPostMeta[] = [
   {
     slug: 'does-timeboxing-work',
-    title: 'Does Timeboxing Work? Completion Data from 5,077 Planned Tasks',
+    title: "Does Timeboxing Work? Data from 5,077 Planned Tasks",
     date: '2026-09-30',
     author: 'Chrobox Team',
     category: 'Productivity',
@@ -184,7 +184,7 @@ export const enBatch9: BlogPostMeta[] = [
   },
   {
     slug: 'reduce-phone-addiction',
-    title: "How to Reduce Phone Addiction: A 7-Step Plan to Cut Screen Time",
+    title: "How to Reduce Phone Addiction: A 7-Step Screen Time Plan",
     date: '2026-09-30',
     author: 'Chrobox Team',
     category: 'Productivity',

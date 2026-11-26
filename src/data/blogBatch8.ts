@@ -48,7 +48,7 @@ export const enBatch8: BlogPostMeta[] = [
   },
   {
     slug: 'app-blocker-plus-timeboxing',
-    title: 'App Blocker + Timeboxing: The Focus Stack That Actually Works',
+    title: "App Blocker + Timeboxing: The Focus Stack That Works",
     date: '2026-07-23',
     author: 'Chrobox Team',
     category: 'Productivity',
@@ -92,7 +92,7 @@ export const enBatch8: BlogPostMeta[] = [
   },
   {
     slug: 'digital-detox-focus-routine',
-    title: 'A Realistic Digital Detox: Build a Focus Routine You Can Keep',
+    title: "A Realistic Digital Detox: Build a Focus Routine That Lasts",
     date: '2026-07-27',
     author: 'Chrobox Team',
     category: 'Productivity',

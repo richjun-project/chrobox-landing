@@ -4,7 +4,7 @@ import type { BlogPostMeta } from '../types/blog';
 export const enBatch5: BlogPostMeta[] = [
   {
     slug: 'time-boxing-with-calendar-apps',
-    title: 'How to Time-Box with Google Calendar, Apple Calendar & Outlook',
+    title: "How to Time-Box with Google, Apple and Outlook Calendars",
     date: '2025-02-22',
     updated: '2026-08-09',
     localesUpdated: '2026-09-24',

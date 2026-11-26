@@ -4,7 +4,7 @@ import type { BlogPostMeta } from '../types/blog';
 export const enBatch3: BlogPostMeta[] = [
   {
     slug: 'meeting-management-time-boxing',
-    title: 'Meeting Management with Time-Boxing: End Unproductive Meetings',
+    title: "Meeting Management with Time-Boxing: End Long Meetings",
     date: '2025-01-29',
     updated: '2026-08-09',
     localesUpdated: '2026-09-24',
@@ -38,7 +38,7 @@ export const enBatch3: BlogPostMeta[] = [
   },
   {
     slug: 'work-life-balance-scheduling',
-    title: 'Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries',
+    title: "Work-Life Balance Scheduling: Time-Boxing for Boundaries",
     date: '2025-02-01',
     updated: '2026-10-07',
     localesUpdated: '2026-09-24',

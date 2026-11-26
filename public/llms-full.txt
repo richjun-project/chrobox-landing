@@ -21,7 +21,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 ## First-party data
 
 Chrobox publishes aggregate completion data from its own app. Source page:
-[Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
+[Does Timeboxing Work? Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
 (5,077 tasks planned by 250 people, tasks dated 2025-12-03 to 2026-09-29, extracted 2026-09-30).
 
 - Tasks given a time box were completed 48.1% of the time vs 17.6% for tasks left unscheduled
@@ -451,7 +451,7 @@ Start fresh tomorrow — pick one mistake to fix and try again with Chrobox's fr
 
 ---
 
-## Parkinson's Law Explained: How to Use It to Double Your Output
+## Parkinson's Law Explained: Use It to Double Your Output
 
 Source: https://chrobox.net/blog/parkinsons-law-productivity · Updated: 2026-04-12
 
@@ -540,7 +540,7 @@ Try it on tomorrow's most important task. Set a timer for 70% of your gut estima
 
 ---
 
-## Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing
+## Eat That Frog: Pairing Brian Tracy's Method with Timeboxing
 
 Source: https://chrobox.net/blog/eat-the-frog-time-boxing · Updated: 2026-10-07
 
@@ -669,7 +669,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, the time of da
 
 This is observational data, not an experiment — people who plan a 6:30 box may simply be more consistent. But it points the same way as eating the frog: give the task that matters most a morning box.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Eat-the-Frog with Chrobox
 
@@ -688,7 +688,7 @@ Tonight, pick tomorrow's frog. Block 90 minutes. Show up. Eat it. Then watch the
 
 ---
 
-## Does Timeboxing Work? Completion Data from 5,077 Planned Tasks
+## Does Timeboxing Work? Data from 5,077 Planned Tasks
 
 Source: https://chrobox.net/blog/does-timeboxing-work · Updated: 2026-09-30
 
@@ -934,7 +934,7 @@ The day of the week mattered too:
 
 For a weekly plan, that suggests putting the heaviest work midweek, keeping each day to about six to eight tasks, and leaving Friday and the weekend lighter.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox for Weekly Planning
 
@@ -953,7 +953,7 @@ The first weekly planning session feels awkward. By the third or fourth week, it
 
 ---
 
-## Deep Work Scheduling: How to Protect Your Most Productive Hours
+## Deep Work Scheduling: Protect Your Most Productive Hours
 
 Source: https://chrobox.net/blog/deep-work-scheduling · Updated: 2026-08-09
 
@@ -1104,7 +1104,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, the later in t
 
 This is observational data — early planners may also be more consistent people — but the slope matches what energy management predicts. Put demanding work in the first half of the day and keep evening boxes for lighter tasks.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox to Align Your Schedule
 
@@ -1192,7 +1192,7 @@ Small structural changes compound. Digital minimalism combined with time-boxing 
 
 ---
 
-## Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries
+## Work-Life Balance Scheduling: Time-Boxing for Boundaries
 
 Source: https://chrobox.net/blog/work-life-balance-scheduling · Updated: 2026-10-07
 
@@ -1228,7 +1228,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes tha
 
 This is observational data, but it supports a simple boundary: planning evenings and weekends as if they were extra workdays mostly produces unfinished tasks. Keep those slots light, and protect them on purpose.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox for Work-Life Balance
 
@@ -1242,7 +1242,7 @@ Commit to a 30-day experiment: time-box at least two personal commitments per da
 
 ---
 
-## Remote Work Scheduling: Time-Boxing Tips for WFH Productivity
+## Remote Work Scheduling: Time-Boxing Tips for WFH
 
 Source: https://chrobox.net/blog/remote-work-scheduling · Updated: 2026-08-09
 
@@ -1507,7 +1507,7 @@ The gap held within the same person: among 41 people who planned at least five t
 
 This is observational data, so it shows a strong association rather than a controlled effect. For procrastination, the practical reading is simple: a task with a time slot is far more likely to get started than a task that is only on a list.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Building Momentum Across the Day
 
@@ -1515,7 +1515,7 @@ Schedule your most avoided task first thing in the morning before your brain has
 
 ---
 
-## Beat Decision Fatigue: How Time-Boxing Saves Your Mental Energy
+## Beat Decision Fatigue: How Time-Boxing Saves Mental Energy
 
 Source: https://chrobox.net/blog/beat-decision-fatigue · Updated: 2026-10-07
 
@@ -1650,7 +1650,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, tasks marked a
 
 This is observational data, not an experiment. It fits the idea behind beating decision fatigue: decide the priority once, keep the list short, and let the plan make the rest of the choices.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### How Chrobox Reduces Decision Load
 
@@ -1718,7 +1718,7 @@ For batching, that suggests capping a batch at about 90 minutes and starting a n
 
 This is observational data, not an experiment, so treat it as a guide rather than a rule.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Chrobox as Your Batching Assistant
 
@@ -1777,7 +1777,7 @@ Giving a task a time slot helped more than anything else in the data: time-boxed
 
 This is observational data, not an experiment. For a beginner, the takeaway is a short list, a time for each item, and one clear priority.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Getting Started with Chrobox
 
@@ -1863,7 +1863,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, half of all ti
 
 If your audit shows tasks that regularly run past 90 minutes, splitting them into shorter blocks is the change most likely to pay off. Short boxes were not easier to finish than hour-long ones.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Time Audit with Chrobox
 
@@ -1883,7 +1883,7 @@ Start your time audit today with Chrobox's 3-day free trial.
 
 ---
 
-## Meeting Management with Time-Boxing: End Unproductive Meetings
+## Meeting Management with Time-Boxing: End Long Meetings
 
 Source: https://chrobox.net/blog/meeting-management-time-boxing · Updated: 2026-08-09
 
@@ -2121,7 +2121,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes up 
 
 This is observational data, not an experiment. For creative work it suggests that a long session is fine, but a 90-minute block followed by a fresh one is slightly more likely to end with the task checked off.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Using Chrobox for Creative Project Management
 
@@ -2131,7 +2131,7 @@ The platform also tracks which blocks you extend, helping you understand which c
 
 ---
 
-## Time-Boxing for Side Projects: How to Ship Without Burning Out
+## Time-Boxing for Side Projects: Ship Without Burning Out
 
 Source: https://chrobox.net/blog/time-boxing-for-side-projects · Updated: 2026-10-07
 
@@ -2230,7 +2230,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes tha
 
 This is observational data, not an experiment. If your side project only gets evening time, expect more slippage and plan for it — and if you can move even one session a week into the morning, the data suggests it is more likely to happen.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Time-Boxing Side Projects with Chrobox
 
@@ -2251,7 +2251,7 @@ Start tomorrow. Schedule one 90-minute box. Show up for it. Repeat.
 
 ---
 
-## Time-Boxing for Working Parents: Reclaim Your Day Without Guilt
+## Time-Boxing for Working Parents: Reclaim Your Day
 
 Source: https://chrobox.net/blog/time-boxing-for-working-parents · Updated: 2026-10-07
 
@@ -2377,7 +2377,7 @@ In Chrobox app data covering 5,077 planned tasks from 250 people, time boxes tha
 
 This is observational data, not an experiment, and early risers may simply be more consistent. Still, if you can, a short block before the household wakes is a more reliable place for important work than the end of the day.
 
-Source: [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
+Source: [Does Timeboxing Work? Data from 5,077 Planned Tasks](/blog/does-timeboxing-work) — Chrobox app data, December 2025 to September 2026.
 
 ### Time-Boxing for Parents with Chrobox
 
@@ -2477,7 +2477,7 @@ App blocking is not a punishment — it is closing an open door you never meant 
 
 ---
 
-## App Blocker + Timeboxing: The Focus Stack That Actually Works
+## App Blocker + Timeboxing: The Focus Stack That Works
 
 Source: https://chrobox.net/blog/app-blocker-plus-timeboxing · Updated: 2026-07-23
 
@@ -2543,7 +2543,7 @@ Blocking apps is necessary but not sufficient. Timeboxing gives blocking a purpo
 
 ---
 
-## A Realistic Digital Detox: Build a Focus Routine You Can Keep
+## A Realistic Digital Detox: Build a Focus Routine That Lasts
 
 Source: https://chrobox.net/blog/digital-detox-focus-routine · Updated: 2026-07-27
 
@@ -2709,7 +2709,7 @@ None of these three pieces, physical distance, scheduled app blocking, and fixed
 
 ---
 
-## How to Reduce Phone Addiction: A 7-Step Plan to Cut Screen Time
+## How to Reduce Phone Addiction: A 7-Step Screen Time Plan
 
 Source: https://chrobox.net/blog/reduce-phone-addiction · Updated: 2026-09-30
 
@@ -2903,7 +2903,7 @@ The honest bottom line: any of these apps beats no system at all. Pick the one w
 
 ---
 
-## How to Time-Box with Google Calendar, Apple Calendar & Outlook
+## How to Time-Box with Google, Apple and Outlook Calendars
 
 Source: https://chrobox.net/blog/time-boxing-with-calendar-apps · Updated: 2026-08-09
 

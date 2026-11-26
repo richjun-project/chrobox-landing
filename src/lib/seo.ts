@@ -158,7 +158,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     comparisonArticleDescription: '比較Chrobox與{competitor}，了解哪款生產力App更符合你的時間盒、規劃與專注工作流程。',
   },
   es: {
-    homeTitle: 'Chrobox - Planificador de Timeboxing con IA y Bloqueador de Apps',
+    homeTitle: 'Chrobox - Planificador de Timeboxing IA y Bloqueo de Apps',
     homeDescription: 'Planifica tu día con timeboxing e IA, bloquea apps que distraen en tus sesiones de enfoque, crea rachas de rutinas y síguelo todo desde widgets. Prueba gratis de 3 días en iOS y Android.',
     blogTitle: 'Blog - Consejos de time-boxing y productividad | Chrobox',
     blogDescription: 'Estrategias prácticas sobre time-boxing, enfoque y gestión del tiempo para dominar tu día con Chrobox.',
@@ -178,7 +178,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     comparisonArticleDescription: 'Compara Chrobox con {competitor} y descubre qué app se adapta mejor a tu flujo de time-boxing, planificación y enfoque.',
   },
   fr: {
-    homeTitle: 'Chrobox - Planificateur Timeboxing IA et Bloqueur d’Applications',
+    homeTitle: 'Chrobox - Planificateur Timeboxing IA et Bloqueur d’apps',
     homeDescription: 'Planifiez votre journée avec le timeboxing IA, bloquez les apps distrayantes pendant vos sessions de concentration et créez des routines durables. Essai gratuit de 3 jours sur iOS et Android.',
     blogTitle: 'Blog - Conseils de time-boxing et productivité | Chrobox',
     blogDescription: 'Des stratégies concrètes sur le time-boxing, la concentration et la gestion du temps pour mieux organiser vos journées avec Chrobox.',
@@ -298,7 +298,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     comparisonArticleDescription: 'Porównaj Chrobox z {competitor} i sprawdź, która aplikacja pasuje do Twojego time-boxingu, planowania i pracy w skupieniu.',
   },
   tr: {
-    homeTitle: 'Chrobox - Yapay Zekâlı Timeboxing Planlayıcı ve Uygulama Engelleyici',
+    homeTitle: 'Chrobox - Yapay Zekâlı Timeboxing ve Uygulama Engelleyici',
     homeDescription: 'Gününüzü yapay zekâ destekli timeboxing ile planlayın, odak seanslarında dikkat dağıtan uygulamaları engelleyin, rutin serileri oluşturun. iOS ve Android’de 3 gün ücretsiz deneme.',
     blogTitle: 'Blog - Time-boxing ve verimlilik ipuçları | Chrobox',
     blogDescription: 'Chrobox ile gününü yönetmek için time-boxing, odaklanma ve zaman yönetimi üzerine pratik stratejiler.',
@@ -398,7 +398,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     comparisonArticleDescription: 'Chrobox और {competitor} की तुलना करें और देखें कि time-boxing, planning और focus workflow के लिए कौन सा app बेहतर है।',
   },
   ar: {
-    homeTitle: 'Chrobox - مخطط تايم بوكسينغ بالذكاء الاصطناعي وحاجب التطبيقات',
+    homeTitle: 'Chrobox - مخطط تايم بوكسينغ بالذكاء الاصطناعي وحاجب تطبيقات',
     homeDescription: 'خطط يومك مع تايم بوكسينغ بالذكاء الاصطناعي، واحجب التطبيقات المشتتة أثناء جلسات التركيز، وابنِ سلاسل العادات وتابع كل شيء من ودجات شاشة القفل. تجربة مجانية لمدة 3 أيام على iOS وAndroid.',
     blogTitle: 'المدونة - نصائح time-boxing والإنتاجية | Chrobox',
     blogDescription: 'استراتيجيات عملية حول time-boxing والتركيز وإدارة الوقت لتنظيم يومك مع Chrobox.',
@@ -418,7 +418,7 @@ const SEO_COPY: Record<SiteLocale, SeoCopy> = {
     comparisonArticleDescription: 'قارن Chrobox مع {competitor} لمعرفة التطبيق الأنسب لسير عمل time-boxing والتخطيط والتركيز لديك.',
   },
   ru: {
-    homeTitle: 'Chrobox - ИИ-планировщик таймбоксинга и блокировщик приложений',
+    homeTitle: 'Chrobox - ИИ-тайм-боксинг и блокировщик приложений',
     homeDescription: 'Планируйте день с ИИ-таймбоксингом, блокируйте отвлекающие приложения во время фокус-сессий, стройте серии привычек и следите за всем с виджетов экрана блокировки. 3 дня бесплатно на iOS и Android.',
     blogTitle: 'Блог - Time-boxing и советы по продуктивности | Chrobox',
     blogDescription: 'Практические стратегии time-boxing, фокуса и управления временем, чтобы лучше организовать день с Chrobox.',

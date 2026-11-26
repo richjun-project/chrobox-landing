@@ -106,7 +106,7 @@ export const enBatch2: BlogPostMeta[] = [
   },
   {
     slug: 'remote-work-scheduling',
-    title: 'Remote Work Scheduling: Time-Boxing Tips for WFH Productivity',
+    title: "Remote Work Scheduling: Time-Boxing Tips for WFH",
     date: '2025-01-26',
     updated: '2026-08-09',
     localesUpdated: '2026-09-24',

@@ -136,7 +136,7 @@ export const enBatch1: BlogPostMeta[] = [
   },
   {
     slug: 'deep-work-scheduling',
-    title: 'Deep Work Scheduling: How to Protect Your Most Productive Hours',
+    title: "Deep Work Scheduling: Protect Your Most Productive Hours",
     date: '2025-01-14',
     updated: '2026-08-09',
     localesUpdated: '2026-09-24',

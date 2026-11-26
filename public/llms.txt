@@ -23,7 +23,7 @@ Timeboxing is a time management technique where you assign every task a fixed sl
 ## First-party data
 
 Chrobox publishes aggregate completion data from its own app. Source page:
-[Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
+[Does Timeboxing Work? Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work)
 (5,077 tasks planned by 250 people, tasks dated 2025-12-03 to 2026-09-29, extracted 2026-09-30).
 
 - Tasks given a time box were completed 48.1% of the time vs 17.6% for tasks left unscheduled
@@ -50,31 +50,31 @@ Chrobox publishes aggregate completion data from its own app. Source page:
 - [Time Blocking vs Timeboxing: What's the Difference?](https://chrobox.net/blog/time-blocking-vs-time-boxing): Time blocking reserves when you work; timeboxing limits how long a task gets. See the differences side by side, when to use each, and how to combine them.
 - [5 Timeboxing Strategies, With Data From 5,077 Real Tasks](https://chrobox.net/blog/5-time-boxing-strategies): Five timeboxing strategies worth starting with: a start time for every must-do, priority first, 60-minute boxes, meetings apart from focus work, and a buffer.
 - [10 Common Time-Boxing Mistakes (And How to Fix Them)](https://chrobox.net/blog/time-boxing-mistakes-to-avoid): Time-boxing fails for most people due to a few avoidable mistakes. Learn the 10 most common pitfalls and the exact fix so your schedule sticks.
-- [Parkinson's Law Explained: How to Use It to Double Your Output](https://chrobox.net/blog/parkinsons-law-productivity): Parkinson's Law says work expands to fill the time available. Learn to harness it with deadlines and time-boxing to ship 2x faster without burnout.
-- [Eat That Frog: How to Pair Brian Tracy's Method with Time-Boxing](https://chrobox.net/blog/eat-the-frog-time-boxing): Brian Tracy's Eat That Frog says tackle your hardest task first. Combine it with time-boxing for a morning routine that crushes key work before 10 AM.
-- [Does Timeboxing Work? Completion Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work): Tasks given a time slot were completed 48.1% of the time; tasks left on the list, 17.6%. First-party data from 5,077 tasks planned by 250 Chrobox users, with methodology and limits.
+- [Parkinson's Law Explained: Use It to Double Your Output](https://chrobox.net/blog/parkinsons-law-productivity): Parkinson's Law says work expands to fill the time available. Learn to harness it with deadlines and time-boxing to ship 2x faster without burnout.
+- [Eat That Frog: Pairing Brian Tracy's Method with Timeboxing](https://chrobox.net/blog/eat-the-frog-time-boxing): Brian Tracy's Eat That Frog says tackle your hardest task first. Combine it with time-boxing for a morning routine that crushes key work before 10 AM.
+- [Does Timeboxing Work? Data from 5,077 Planned Tasks](https://chrobox.net/blog/does-timeboxing-work): Tasks given a time slot were completed 48.1% of the time; tasks left on the list, 17.6%. First-party data from 5,077 tasks planned by 250 Chrobox users, with methodology and limits.
 
 ### Scheduling & Routines
 
 - [How to Build the Perfect Morning Routine with Time-Boxing](https://chrobox.net/blog/morning-routine-scheduling): A structured morning routine sets the tone for your entire day. Find out how time-boxing turns good intentions into reliable daily habits.
 - [The Ultimate Weekly Planning Guide Using Time-Boxing](https://chrobox.net/blog/weekly-planning-guide): Master your week with time-boxing. This step-by-step guide shows you how to plan every hour intentionally and finish each week feeling accomplished.
-- [Deep Work Scheduling: How to Protect Your Most Productive Hours](https://chrobox.net/blog/deep-work-scheduling): Deep work is your most valuable cognitive resource. Learn how deliberate scheduling with time-boxing keeps distractions away and output high.
+- [Deep Work Scheduling: Protect Your Most Productive Hours](https://chrobox.net/blog/deep-work-scheduling): Deep work is your most valuable cognitive resource. Learn how deliberate scheduling with time-boxing keeps distractions away and output high.
 - [The Daily Review Ritual: 10 Minutes to Transform Your Day](https://chrobox.net/blog/daily-review-ritual): A structured 10-minute daily review can dramatically improve your focus and output. Learn what to review, when to do it, and how to build the habit.
 - [Energy Management: Schedule Tasks by Your Natural Rhythm](https://chrobox.net/blog/energy-management-scheduling): Learn how to align your daily schedule with your natural energy cycles to maximize focus and output without burning out.
 - [Digital Minimalism Meets Time-Boxing: Reclaim Your Attention](https://chrobox.net/blog/digital-minimalism-scheduling): Combine digital minimalism principles with time-boxing to reduce digital noise, reclaim your attention, and do your best work.
-- [Work-Life Balance Scheduling: How Time-Boxing Creates Boundaries](https://chrobox.net/blog/work-life-balance-scheduling): Learn how strategic time-boxing sets firm boundaries between work and personal life, reduces burnout, and builds a sustainable schedule.
-- [Remote Work Scheduling: Time-Boxing Tips for WFH Productivity](https://chrobox.net/blog/remote-work-scheduling): Working from home blurs boundaries between work and life. Discover how time-boxing helps remote workers stay productive, focused, and balanced.
+- [Work-Life Balance Scheduling: Time-Boxing for Boundaries](https://chrobox.net/blog/work-life-balance-scheduling): Learn how strategic time-boxing sets firm boundaries between work and personal life, reduces burnout, and builds a sustainable schedule.
+- [Remote Work Scheduling: Time-Boxing Tips for WFH](https://chrobox.net/blog/remote-work-scheduling): Working from home blurs boundaries between work and life. Discover how time-boxing helps remote workers stay productive, focused, and balanced.
 - [Daily Reflection Template: 4 Ready-to-Use Formats (Including KPT)](https://chrobox.net/blog/daily-reflection-template): Four copy-ready daily reflection templates, from a 2-minute 3-line reflection to KPT and a plan-versus-actual check for time-boxed days.
 
 ### Focus & Productivity
 
 - [Focus Time Optimization: How to Enter Flow State Faster](https://chrobox.net/blog/focus-time-optimization): Unlock the science of flow state and practical strategies to enter deep focus faster, protecting your most productive hours.
 - [Beat Procrastination with Time-Boxing: Science-Backed Strategies](https://chrobox.net/blog/beat-procrastination-time-boxing): Understand the psychology of procrastination and how time-boxing counters it — research-backed strategies to start faster and finish consistently.
-- [Beat Decision Fatigue: How Time-Boxing Saves Your Mental Energy](https://chrobox.net/blog/beat-decision-fatigue): You make 35,000 decisions a day, and quality drops as it wears on. Learn how time-boxing eliminates micro-decisions to save energy for what matters.
+- [Beat Decision Fatigue: How Time-Boxing Saves Mental Energy](https://chrobox.net/blog/beat-decision-fatigue): You make 35,000 decisions a day, and quality drops as it wears on. Learn how time-boxing eliminates micro-decisions to save energy for what matters.
 - [Task Batching + Time-Boxing: The Ultimate Productivity Combo](https://chrobox.net/blog/task-batching-productivity): Discover how combining task batching with time-boxing eliminates context switching and supercharges your daily productivity.
 - [Productivity for Beginners: Start with Time-Boxing](https://chrobox.net/blog/productivity-for-beginners): New to productivity? Time-boxing is the perfect starting point. This beginner-friendly guide covers everything you need to get started today.
 - [How to Do a Time Audit: Find Where Your Hours Really Go](https://chrobox.net/blog/time-audit-guide): A time audit reveals exactly how you spend your day. Learn the step-by-step process to track, analyze, and optimize your time for maximum productivity.
-- [Meeting Management with Time-Boxing: End Unproductive Meetings](https://chrobox.net/blog/meeting-management-time-boxing): Discover how time-boxing turns unproductive meetings into focused, results-driven sessions — practical strategies to reclaim your calendar.
+- [Meeting Management with Time-Boxing: End Long Meetings](https://chrobox.net/blog/meeting-management-time-boxing): Discover how time-boxing turns unproductive meetings into focused, results-driven sessions — practical strategies to reclaim your calendar.
 
 ### Productivity for Every Role
 
@@ -82,22 +82,22 @@ Chrobox publishes aggregate completion data from its own app. Source page:
 - [Time-Boxing for ADHD: A Practical Guide to Staying Focused](https://chrobox.net/blog/time-boxing-for-adhd): Discover how time-boxing can help people with ADHD create structure, reduce overwhelm, and stay focused throughout the day.
 - [Time-Boxing for Students: How to Study Smarter, Not Harder](https://chrobox.net/blog/time-boxing-for-students): Learn how students can use time-boxing to build effective study sessions, avoid burnout, and consistently hit their academic goals.
 - [Time-Boxing for Creative Professionals: Structure + Creativity](https://chrobox.net/blog/time-boxing-for-creative-professionals): Many creatives fear rigid schedules stifle inspiration. Discover how time-boxing actually boosts creative output and protects exploration time.
-- [Time-Boxing for Side Projects: How to Ship Without Burning Out](https://chrobox.net/blog/time-boxing-for-side-projects): Most side projects die in the messy middle. Learn the time-boxing system indie hackers use to make consistent weekly progress on nights and weekends.
-- [Time-Boxing for Working Parents: Reclaim Your Day Without Guilt](https://chrobox.net/blog/time-boxing-for-working-parents): Working parents face brutal scheduling constraints. Learn how time-boxing protects deep work, family time, and personal recovery each week.
+- [Time-Boxing for Side Projects: Ship Without Burning Out](https://chrobox.net/blog/time-boxing-for-side-projects): Most side projects die in the messy middle. Learn the time-boxing system indie hackers use to make consistent weekly progress on nights and weekends.
+- [Time-Boxing for Working Parents: Reclaim Your Day](https://chrobox.net/blog/time-boxing-for-working-parents): Working parents face brutal scheduling constraints. Learn how time-boxing protects deep work, family time, and personal recovery each week.
 
 ### App Blocking & Focus
 
 - [How to Block Distracting Apps: Benefits and 10-Minute Setup](https://chrobox.net/blog/how-to-block-distracting-apps): The benefits of blocking distracting apps and the research behind them, how blocking differs on iOS and Android, and a 10-minute setup you will keep using.
-- [App Blocker + Timeboxing: The Focus Stack That Actually Works](https://chrobox.net/blog/app-blocker-plus-timeboxing): Blocking apps alone rarely sticks. Pair it with timeboxing, a pre-session ritual, and streak tracking and you get a focus stack that survives real life. Here is how it fits together.
-- [A Realistic Digital Detox: Build a Focus Routine You Can Keep](https://chrobox.net/blog/digital-detox-focus-routine): Most digital detoxes fail because they demand too much, too fast. Here is a gradual, realistic approach — phone-free routines, weekly reviews, and streaks — that actually holds up.
+- [App Blocker + Timeboxing: The Focus Stack That Works](https://chrobox.net/blog/app-blocker-plus-timeboxing): Blocking apps alone rarely sticks. Pair it with timeboxing, a pre-session ritual, and streak tracking and you get a focus stack that survives real life. Here is how it fits together.
+- [A Realistic Digital Detox: Build a Focus Routine That Lasts](https://chrobox.net/blog/digital-detox-focus-routine): Most digital detoxes fail because they demand too much, too fast. Here is a gradual, realistic approach — phone-free routines, weekly reviews, and streaks — that actually holds up.
 - [How to Lock Apps on iPhone: 3 Methods (Face ID Lock, Screen Time Limits, Scheduled Blocking)](https://chrobox.net/blog/how-to-lock-apps-on-iphone): Three real ways to lock apps on iPhone: Face ID app lock for privacy, Screen Time App Limits for daily caps, and scheduled blocking for specific hours, with a comparison table.
 - [How to Stop Checking Your Phone While Studying: A Practical Routine](https://chrobox.net/blog/how-to-stop-checking-phone-while-studying): A practical routine to stop checking your phone while studying: physical distance, scheduled app blocking, and fixed time boxes, backed by research and first-party completion data.
-- [How to Reduce Phone Addiction: A 7-Step Plan to Cut Screen Time](https://chrobox.net/blog/reduce-phone-addiction): A practical, non-clinical 7-step plan to reduce compulsive phone checking and screen time, using built-in tools plus planned focus blocks.
+- [How to Reduce Phone Addiction: A 7-Step Screen Time Plan](https://chrobox.net/blog/reduce-phone-addiction): A practical, non-clinical 7-step plan to reduce compulsive phone checking and screen time, using built-in tools plus planned focus blocks.
 
 ### Tools & Comparisons
 
 - [8 Best Timeboxing Apps in 2026: Honest Comparison Guide](https://chrobox.net/blog/best-time-boxing-apps): An honest comparison of the 8 best timeboxing apps in 2026 — Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Calendar, and Todoist — including where each one falls short.
-- [How to Time-Box with Google Calendar, Apple Calendar & Outlook](https://chrobox.net/blog/time-boxing-with-calendar-apps): Learn how to implement time-boxing in Google Calendar, Apple Calendar, and Outlook — step-by-step instructions for any calendar.
+- [How to Time-Box with Google, Apple and Outlook Calendars](https://chrobox.net/blog/time-boxing-with-calendar-apps): Learn how to implement time-boxing in Google Calendar, Apple Calendar, and Outlook — step-by-step instructions for any calendar.
 
 ## Schedule templates (20)
 
