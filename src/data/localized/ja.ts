@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'タイムボックスの長さはどのくらいが適切ですか?',
           answer: '集中作業は60分、メールや事務作業は15〜30分から始めましょう。Chroboxのデータでは、ボックスの長さの中央値は60分で、15〜90分のボックスでは完了率がどれも近い値でした。完璧な数字を探すより、守れる長さを選ぶほうが大切です。',
         },
+        {
+          question: "timeboxing、time boxing、time-boxing のどれで書きますか?",
+          answer: "三つとも同じ手法を指します。タスクに開始時刻と長さを決めておき、時間が来たら止めるという方法です。英語では一語(timeboxing)、二語(time boxing)、ハイフン付き(time-boxing)のいずれでも書かれます。本記事では一語の表記を使い、日本語では「タイムボクシング」と書いています。",
+        },
       ],
     },
     '5-time-boxing-strategies': {

@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: '¿Cuánto debe durar una caja de tiempo?',
           answer: 'Empieza con 60 minutos para el trabajo de concentración y de 15 a 30 minutos para el correo y las gestiones. En los datos de Chrobox la caja mediana fue de 60 minutos y las tasas de finalización fueron parecidas entre cajas de 15 y 90 minutos, así que elige una duración que puedas proteger en lugar de un número perfecto.',
         },
+        {
+          question: "¿Se escribe timeboxing, time boxing o time-boxing?",
+          answer: "Las tres grafías se refieren al mismo método: dar a una tarea una hora de inicio y una duración fijas y parar cuando se acaba el tiempo. En inglés se escribe como una sola palabra (timeboxing), como dos palabras (time boxing) y con guion (time-boxing). Esta guía usa la forma de una sola palabra.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

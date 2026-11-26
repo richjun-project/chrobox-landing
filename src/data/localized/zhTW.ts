@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: '一個時間箱應該多長？',
           answer: '專注工作可以從 60 分鐘開始，電子郵件與雜務則從 15 到 30 分鐘開始。在 Chrobox 的數據中，時間箱長度的中位數是 60 分鐘，15 到 90 分鐘之間的時間箱完成率彼此接近，所以請選一個你守得住的長度，而不是追求完美的數字。',
         },
+        {
+          question: "應該寫作 timeboxing、time boxing 還是 time-boxing?",
+          answer: "三種寫法指的是同一種方法:替一項任務訂下開始時間與長度,時間到了就停下來。英文裡有連寫(timeboxing)、分開寫(time boxing)和加連字號(time-boxing)三種。本文採用連寫的寫法。",
+        },
       ],
     },
     '5-time-boxing-strategies': {

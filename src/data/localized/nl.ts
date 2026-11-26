@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Hoe lang moet een timebox zijn?',
           answer: 'Begin met 60 minuten voor geconcentreerd werk en 15 tot 30 minuten voor e-mail en administratie. In de Chrobox-data was de mediane box 60 minuten en lagen de voltooiingspercentages dicht bij elkaar voor boxen tussen 15 en 90 minuten, dus kies een duur die je kunt bewaken in plaats van een perfect getal.',
         },
+        {
+          question: "Is het timeboxing, time boxing of time-boxing?",
+          answer: "Alle drie de schrijfwijzen verwijzen naar dezelfde methode: een taak een vaste starttijd en een vaste duur geven en stoppen wanneer de tijd om is. In het Engels wordt het als één woord (timeboxing), als twee woorden (time boxing) en met een koppelteken (time-boxing) geschreven. Deze gids gebruikt de vorm van één woord.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

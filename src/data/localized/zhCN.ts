@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: '一个时间盒应该多长？',
           answer: '专注工作可以从 60 分钟开始，邮件和事务性工作从 15 到 30 分钟开始。在 Chrobox 的数据中，时间盒时长的中位数是 60 分钟，15 到 90 分钟之间的时间盒完成率彼此接近，所以选一个你守得住的时长，而不是追求完美的数字。',
         },
+        {
+          question: "应该写作 timeboxing、time boxing 还是 time-boxing?",
+          answer: "三种写法指的是同一种方法:给一项任务定好开始时间和时长,时间一到就停下。英文里既有连写(timeboxing),也有分开写(time boxing)和加连字符(time-boxing)。本文使用连写的形式。",
+        },
       ],
     },
     '5-time-boxing-strategies': {

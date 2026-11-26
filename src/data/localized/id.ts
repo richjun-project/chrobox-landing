@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Berapa lama sebaiknya satu kotak waktu?',
           answer: 'Mulailah dengan 60 menit untuk pekerjaan yang butuh fokus dan 15 sampai 30 menit untuk email dan urusan administrasi. Dalam data Chrobox, median kotak waktu adalah 60 menit, dan tingkat penyelesaian kotak berdurasi 15 sampai 90 menit saling berdekatan, jadi pilih durasi yang bisa Anda jaga, bukan angka yang sempurna.',
         },
+        {
+          question: "Ditulis timeboxing, time boxing, atau time-boxing?",
+          answer: "Ketiga ejaan itu merujuk pada metode yang sama: memberi tugas waktu mulai dan durasi yang tetap, lalu berhenti saat waktunya habis. Dalam bahasa Inggris, kata ini ditulis sebagai satu kata (timeboxing), dua kata (time boxing), dan dengan tanda hubung (time-boxing). Panduan ini memakai bentuk satu kata.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

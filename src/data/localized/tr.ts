@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Bir zaman kutusu ne kadar uzun olmalı?',
           answer: 'Odaklanılan işler için 60 dakikayla, e-posta ve idari işler için 15 ila 30 dakikayla başlayın. Chrobox verilerinde ortanca kutu 60 dakikaydı ve tamamlanma oranları 15 ile 90 dakika arasındaki kutularda birbirine yakındı; bu yüzden kusursuz bir sayı yerine koruyabileceğiniz bir süre seçin.',
         },
+        {
+          question: "timeboxing mi, time boxing mı, time-boxing mi?",
+          answer: "Üç yazım da aynı yöntemi anlatır: bir göreve sabit bir başlangıç saati ve sabit bir süre vermek ve süre dolduğunda durmak. İngilizcede tek kelime (timeboxing), iki kelime (time boxing) ve kısa çizgiyle (time-boxing) yazıldığı görülür. Bu rehberde tek kelimelik yazım kullanılıyor.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

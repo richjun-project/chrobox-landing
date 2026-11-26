@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Một hộp thời gian nên dài bao lâu?',
           answer: 'Hãy bắt đầu với 60 phút cho công việc cần tập trung và 15 đến 30 phút cho email và việc hành chính. Trong dữ liệu của Chrobox, hộp thời gian có độ dài trung vị là 60 phút, và tỷ lệ hoàn thành của các hộp từ 15 đến 90 phút xấp xỉ nhau, nên hãy chọn một độ dài bạn giữ được thay vì tìm con số hoàn hảo.',
         },
+        {
+          question: "Viết là timeboxing, time boxing hay time-boxing?",
+          answer: "Cả ba cách viết đều chỉ cùng một phương pháp: giao cho một công việc thời điểm bắt đầu và độ dài cố định, rồi dừng lại khi hết giờ. Trong tiếng Anh, từ này được viết liền (timeboxing), tách thành hai từ (time boxing) và có gạch nối (time-boxing). Hướng dẫn này dùng cách viết liền.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

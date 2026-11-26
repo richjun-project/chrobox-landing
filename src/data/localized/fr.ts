@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Quelle durée donner à une boîte de temps ?',
           answer: 'Commencez par 60 minutes pour le travail de concentration et 15 à 30 minutes pour les e-mails et l\'administratif. Dans les données de Chrobox, la boîte médiane durait 60 minutes et les taux de complétion étaient proches pour des boîtes de 15 à 90 minutes : choisissez donc une durée que vous pouvez tenir plutôt qu\'un chiffre parfait.',
         },
+        {
+          question: "Écrit-on timeboxing, time boxing ou time-boxing ?",
+          answer: "Les trois graphies désignent la même méthode : donner à une tâche une heure de début et une durée fixes, puis s'arrêter quand le temps est écoulé. En anglais, on l'écrit en un mot (timeboxing), en deux mots (time boxing) ou avec un trait d'union (time-boxing). Ce guide utilise la forme en un seul mot.",
+        },
       ],
     },
     '5-time-boxing-strategies': {

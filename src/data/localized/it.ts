@@ -667,6 +667,10 @@ export const pack: LocalizedContentPack = {
           question: 'Quanto dovrebbe durare un time box?',
           answer: 'Parti da 60 minuti per il lavoro di concentrazione e da 15 a 30 minuti per email e pratiche amministrative. Nei dati di Chrobox il box mediano è stato di 60 minuti e i tassi di completamento erano vicini tra loro per box da 15 a 90 minuti, quindi scegli una durata che puoi difendere invece di un numero perfetto.',
         },
+        {
+          question: "Si scrive timeboxing, time boxing o time-boxing?",
+          answer: "Le tre grafie indicano lo stesso metodo: dare a un'attività un orario di inizio e una durata fissi e fermarsi quando il tempo finisce. In inglese si scrive come una parola sola (timeboxing), come due parole (time boxing) e con il trattino (time-boxing). Questa guida usa la forma in una parola.",
+        },
       ],
     },
     '5-time-boxing-strategies': {
