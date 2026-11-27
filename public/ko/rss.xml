@@ -5,8 +5,16 @@
     <link>https://chrobox.net/ko/blog</link>
     <description>타임박싱과 생산성에 대한 인사이트, 팁, 전략을 공유합니다. Chrobox로 더 효율적인 하루를 만드세요.</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://chrobox.net/ko/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일정관리 잘하는 법: 약속·마감·할 일을 한 줄 시간표에 놓기</title>
+      <link>https://chrobox.net/ko/blog/schedule-management-one-timeline</link>
+      <guid isPermaLink="true">https://chrobox.net/ko/blog/schedule-management-one-timeline</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
+      <description>일정관리는 약속·마감·할 일을 따로 적지 않고 한 시간표에 함께 놓을 때 꼬이지 않습니다. 약속 먼저, 마감은 거꾸로, 할 일은 빈칸에 놓는 순서와 12월 첫 주 예시, 2027년 연휴 10번을 정리했습니다.</description>
+      <category>생산성</category>
+    </item>
     <item>
       <title>12월 챌린지: 목표 하나를 매일 30분 칸으로 바꾸는 법</title>
       <link>https://chrobox.net/ko/blog/december-challenge-30-minutes</link>

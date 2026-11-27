@@ -21459,4 +21459,12 @@
     <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/december-challenge-30-minutes"/>
   </url>
 
+  <url>
+    <loc>https://chrobox.net/ko/blog/schedule-management-one-timeline</loc>
+    <lastmod>2026-11-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://chrobox.net/ko/blog/schedule-management-one-timeline"/>
+  </url>
+
 </urlset>
