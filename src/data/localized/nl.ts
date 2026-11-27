@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Telefoonverslaving Verminderen: Een Plan in 7 Stappen om je Schermtijd te Verlagen',
+      title: 'Telefoonverslaving Verminderen: Schermtijdplan in 7 Stappen',
       excerpt: 'Een praktisch, niet-klinisch plan in 7 stappen om compulsief telefoongebruik en schermtijd te verminderen, met ingebouwde tools plus geplande focusblokken.',
       faqs: [
         {

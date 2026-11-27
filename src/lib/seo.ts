@@ -492,9 +492,15 @@ const FULL_WIDTH_CHAR =
   /[ᄀ-ᅟ⺀-〾ぁ-㏿㐀-䶿一-鿿ꀀ-꓏가-힣豈-﫿︐-︙︰-﹯＀-｠￠-￦]/;
 const TRAILING_BRACKET = /\s*[[(（【][^\])）】]*[\])）】]\s*$/;
 
+// Non-spacing marks (Thai tone marks and upper/lower vowels, Devanagari virama
+// and above/below vowel signs) sit on the previous letter and take no width of
+// their own. Counting them as 1 cut Thai and Hindi titles that actually fit.
+const NON_SPACING_MARK = /\p{Mn}/u;
+
 export function titleWidth(value: string) {
   let width = 0;
   for (const char of value) {
+    if (NON_SPACING_MARK.test(char)) continue;
     width += FULL_WIDTH_CHAR.test(char) ? 2 : 1;
   }
   return width;

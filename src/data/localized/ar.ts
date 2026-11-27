@@ -998,7 +998,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-with-calendar-apps': {
-      title: 'تحديد الوقت باستخدام Google Calendar وApple Calendar وOutlook',
+      title: 'تحديد الوقت باستخدام تقويم Google وApple وOutlook',
       excerpt: 'تعرّف على كيفية تطبيق تقنية تحديد الوقت في Google Calendar وApple Calendar وOutlook — خطوات عملية ومبسطة لأي تقويم تستخدمه.',
       faqs: [
         {
@@ -1142,7 +1142,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'eat-the-frog-time-boxing': {
-      title: 'التهم هذا الضفدع: كيف تدمج طريقة برايان تريسي مع تايم بوكسينج؟',
+      title: 'التهم هذا الضفدع: طريقة برايان تريسي مع تايم بوكسينج',
       excerpt: 'تنصح طريقة "التهم هذا الضفدع" لبرايان تريسي بإنجاز أصعب مهمة أولاً. ادمجها مع تقنية تايم بوكسينج لإنشاء روتين صباحي يضمن لك إنجاز أعمالك الأساسية قبل الساعة 10 صباحاً.',
       faqs: [
         {
@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'هل يعمل تحديد الوقت (Timeboxing) فعلاً؟ بيانات الإنجاز من 5,077 مهمة مخططة',
+      title: 'هل يعمل تحديد الوقت (Timeboxing)؟ بيانات 5,077 مهمة مخططة',
       excerpt: 'المهام التي حُددت لها فترة زمنية أُنجزت بنسبة 48.1% من الوقت؛ أما المهام المتروكة في القائمة فبنسبة 17.6% فقط. بيانات أولية من 5,077 مهمة خططها 250 مستخدماً لتطبيق Chrobox، مع المنهجية والحدود.',
       faqs: [
         {

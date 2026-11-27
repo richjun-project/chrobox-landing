@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'Il timeboxing funziona davvero? Dati di completamento su 5.077 attività pianificate',
+      title: 'Il timeboxing funziona? Dati da 5.077 attività pianificate',
       excerpt: 'Le attività dotate di una fascia oraria sono state completate il 48,1% delle volte; le attività lasciate nella lista, il 17,6%. Dati proprietari su 5.077 attività pianificate da 250 utenti Chrobox, con metodologia e limiti.',
       faqs: [
         {

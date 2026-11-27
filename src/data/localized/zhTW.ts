@@ -998,7 +998,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-with-calendar-apps': {
-      title: '時間區塊規劃：Google Calendar、Apple Calendar 與 Outlook 教學',
+      title: '時間區塊規劃：Google、Apple 與 Outlook 行事曆教學',
       excerpt: '學習如何在 Google Calendar、Apple Calendar 和 Outlook 中實作時間區塊規劃——為您提供適用於任何行事曆的步驟指南。',
       faqs: [
         {

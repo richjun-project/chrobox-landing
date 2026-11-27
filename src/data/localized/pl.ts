@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'Czy timeboxing działa? Dane o ukończeniu 5077 zaplanowanych zadań',
+      title: 'Czy timeboxing działa? Dane z 5077 zaplanowanych zadań',
       excerpt: 'Zadania przypisane do konkretnego przedziału czasowego były ukończone w 48,1% przypadków; zadania pozostawione tylko na liście — w 17,6%. Dane własne z 5077 zadań zaplanowanych przez 250 użytkowników Chrobox, wraz z metodologią i ograniczeniami.',
       faqs: [
         {

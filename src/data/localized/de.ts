@@ -736,7 +736,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'app-blocker-plus-timeboxing': {
-      title: 'App-Blocker + Timeboxing: Der Fokus-Stack, der wirklich funktioniert',
+      title: 'App-Blocker + Timeboxing: Der Fokus-Stack, der funktioniert',
       excerpt: 'App-Blocking allein hält selten durch. Kombiniere es mit Timeboxing, einem Vor-Session-Ritual und Streak-Tracking, und du bekommst einen Fokus-Stack, der den echten Alltag übersteht. So passt alles zusammen.',
       faqs: [
         {
@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'Funktioniert Timeboxing wirklich? Abschlussdaten aus 5.077 geplanten Aufgaben',
+      title: 'Funktioniert Timeboxing? Daten aus 5.077 geplanten Aufgaben',
       excerpt: 'Aufgaben mit einem festen Zeitfenster wurden zu 48,1 % erledigt; Aufgaben, die nur auf der Liste standen, zu 17,6 %. Erstanbieter-Daten aus 5.077 Aufgaben von 250 Chrobox-Nutzer:innen, mit Methodik und Grenzen.',
       faqs: [
         {
@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Handysucht reduzieren: ein 7-Schritte-Plan zur Senkung der Bildschirmzeit',
+      title: 'Handysucht reduzieren: Bildschirmzeit-Plan in 7 Schritten',
       excerpt: 'Ein praktischer, nicht-klinischer 7-Schritte-Plan, um zwanghaftes Handy-Checken und Bildschirmzeit zu reduzieren, mit eingebauten Tools plus geplanten Fokusblöcken.',
       faqs: [
         {

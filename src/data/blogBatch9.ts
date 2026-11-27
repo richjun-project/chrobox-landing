@@ -227,7 +227,7 @@ export const koBatch9: BlogPostMeta[] = [
   },
   {
     slug: 'how-to-lock-apps-on-iphone',
-    title: "아이폰 앱 잠금 방법 3가지: Face ID 잠금·스크린타임 제한·시간대 차단",
+    title: "아이폰 앱 잠금 방법 3가지: Face ID·스크린타임·시간대 차단",
     date: '2026-09-30',
     author: 'Chrobox Team',
     category: '생산성',

@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'Time-Boxing Có Thực Sự Hiệu Quả? Dữ Liệu Hoàn Thành Từ 5.077 Nhiệm Vụ Đã Lên Kế Hoạch',
+      title: 'Time-Boxing Có Hiệu Quả Không? Dữ Liệu Từ 5.077 Nhiệm Vụ',
       excerpt: 'Các nhiệm vụ được gán một khung giờ có tỷ lệ hoàn thành 48,1%; các nhiệm vụ chỉ nằm trên danh sách có tỷ lệ 17,6%. Dữ liệu độc quyền từ 5.077 nhiệm vụ do 250 người dùng Chrobox lên kế hoạch, kèm phương pháp luận và giới hạn.',
       faqs: [
         {
@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Cách Giảm Nghiện Điện Thoại: Kế Hoạch 7 Bước Để Cắt Giảm Thời Gian Sử Dụng Màn Hình',
+      title: 'Cách Giảm Nghiện Điện Thoại: Kế Hoạch 7 Bước',
       excerpt: 'Một kế hoạch 7 bước thực tế, không mang tính lâm sàng, để giảm việc kiểm tra điện thoại theo thói quen cưỡng bức và thời gian sử dụng màn hình, bằng cách dùng các công cụ có sẵn cộng với các khối thời gian tập trung đã lên kế hoạch.',
       faqs: [
         {

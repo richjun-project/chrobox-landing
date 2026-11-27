@@ -299,7 +299,7 @@ export const koBatch7: BlogPostMeta[] = [
   },
   {
     slug: 'eat-the-frog-time-boxing',
-    title: '프로그 먹기 + 타임박싱: 오전 10시 전에 가장 중요한 일을 끝내는 법',
+    title: '프로그 먹기 + 타임박싱: 오전 10시 전에 중요한 일 끝내기',
     date: '2026-04-19',
     updated: '2026-10-07',
     author: 'Chrobox Team',

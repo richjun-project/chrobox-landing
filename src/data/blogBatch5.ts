@@ -243,7 +243,7 @@ export const koBatch5: BlogPostMeta[] = [
   },
   {
     slug: 'time-boxing-for-creative-professionals',
-    title: '크리에이티브 전문가를 위한 타임박싱: 창의성을 죽이지 않는 구조',
+    title: '크리에이티브 전문가를 위한 타임박싱: 창의성을 지키는 구조',
     date: '2025-03-03',
     updated: '2026-10-07',
     author: 'Chrobox Team',

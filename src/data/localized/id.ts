@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Cara Mengurangi Kecanduan Ponsel: Rencana 7 Langkah untuk Memangkas Screen Time',
+      title: 'Cara Mengurangi Kecanduan Ponsel: Rencana 7 Langkah',
       excerpt: 'Rencana 7 langkah yang praktis dan non-klinis untuk mengurangi kebiasaan kompulsif mengecek ponsel dan screen time, menggunakan alat bawaan ditambah blok fokus yang direncanakan.',
       faqs: [
         {

@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Telefon Bağımlılığı Nasıl Azaltılır: Ekran Süresini Kesmek İçin 7 Adımlık Bir Plan',
+      title: 'Telefon Bağımlılığı Nasıl Azaltılır: 7 Adımlık Plan',
       excerpt: 'Yerleşik araçlar ve planlanmış odak blokları kullanarak kompülsif telefon kontrolünü ve ekran süresini azaltmak için pratik, klinik olmayan 7 adımlık bir plan.',
       faqs: [
         {

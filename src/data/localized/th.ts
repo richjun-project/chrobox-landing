@@ -998,7 +998,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'time-boxing-with-calendar-apps': {
-      title: 'วิธีทำ Timeboxing ด้วย Google Calendar, Apple Calendar และ Outlook',
+      title: 'วิธีทำ Timeboxing ด้วยปฏิทิน Google, Apple และ Outlook',
       excerpt: 'เรียนรู้วิธีทำ Timeboxing ใน Google Calendar, Apple Calendar และ Outlook พร้อมคู่มือทีละขั้นตอนสำหรับทุกปฏิทินที่คุณใช้งาน',
       faqs: [
         {
@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'ไทม์บ็อกซิงได้ผลจริงหรือไม่? ข้อมูลอัตราความสำเร็จจากงานที่วางแผนไว้ 5,077 รายการ',
+      title: 'ไทม์บ็อกซิงได้ผลจริงหรือไม่? ข้อมูลจากงานที่วางแผนไว้ 5,077 รายการ',
       excerpt: 'งานที่ถูกกำหนดช่วงเวลาไว้มีอัตราความสำเร็จ 48.1% ในขณะที่งานที่อยู่ในรายการเฉย ๆ มีเพียง 17.6% ข้อมูลปฐมภูมิจากงาน 5,077 รายการที่วางแผนโดยผู้ใช้ Chrobox 250 คน พร้อมวิธีการเก็บข้อมูลและข้อจำกัด',
       faqs: [
         {

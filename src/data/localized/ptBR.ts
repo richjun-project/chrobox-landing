@@ -710,7 +710,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'how-to-block-distracting-apps': {
-      title: 'Como Bloquear Apps que Tiram o Foco e Recuperar sua Concentração (Guia 2026)',
+      title: 'Como Bloquear Apps que Distraem e Recuperar sua Concentração',
       excerpt: 'Bloquear apps que distraem é a mudança de maior impacto que você pode fazer pelo seu foco. Entenda por que funciona, como iOS e Android se diferenciam e como configurar em 10 minutos.',
       faqs: [
         {
@@ -736,7 +736,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'app-blocker-plus-timeboxing': {
-      title: 'Bloqueador de Apps + Timeboxing: O Combo de Foco que Realmente Funciona',
+      title: 'Bloqueador de Apps + Timeboxing: Combo de Foco que Funciona',
       excerpt: 'Bloquear apps sozinho raramente se sustenta. Combine com timeboxing, um ritual pré-sessão e o acompanhamento de sequências, e você terá um combo de foco que resiste à vida real. Veja como tudo se encaixa.',
       faqs: [
         {
@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: 'O Timeboxing Funciona? Dados de Conclusão de 5.077 Tarefas Planejadas',
+      title: 'O Timeboxing Funciona? Dados de 5.077 Tarefas Planejadas',
       excerpt: 'Tarefas com um horário definido foram concluídas 48,1% das vezes; tarefas deixadas apenas na lista, 17,6%. Dados próprios de 5.077 tarefas planejadas por 250 usuários do Chrobox, com metodologia e limitações.',
       faqs: [
         {
@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Como Reduzir o Vício em Celular: Um Plano de 7 Passos para Cortar o Tempo de Tela',
+      title: 'Como Reduzir o Vício em Celular: Plano de 7 Passos',
       excerpt: 'Um plano prático e não clínico de 7 passos para reduzir a checagem compulsiva do celular e o tempo de tela, usando ferramentas nativas somadas a blocos de foco planejados.',
       faqs: [
         {

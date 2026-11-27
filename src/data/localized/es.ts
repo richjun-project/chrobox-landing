@@ -710,7 +710,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'how-to-block-distracting-apps': {
-      title: 'Cómo Bloquear Aplicaciones Distractoras y Recuperar tu Concentración (Guía 2026)',
+      title: 'Cómo Bloquear Apps que Distraen y Recuperar tu Concentración',
       excerpt: 'Bloquear aplicaciones distractoras es el cambio de mayor impacto que puedes hacer por tu concentración. Descubre por qué funciona, en qué se diferencian iOS y Android, y cómo configurarlo en 10 minutos.',
       faqs: [
         {
@@ -736,7 +736,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'app-blocker-plus-timeboxing': {
-      title: 'Bloqueador de Apps + Timeboxing: El Combo de Concentración que Realmente Funciona',
+      title: 'Bloqueador de Apps + Timeboxing: Concentración que Funciona',
       excerpt: 'Bloquear aplicaciones por sí solo rara vez perdura. Combínalo con el timeboxing, un ritual previo a la sesión y el seguimiento de rachas, y obtendrás un sistema de concentración que sobrevive a la vida real. Así es como encaja todo.',
       faqs: [
         {
@@ -1274,7 +1274,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'does-timeboxing-work': {
-      title: '¿Funciona el Timeboxing? Datos de finalización de 5,077 tareas planificadas',
+      title: '¿Funciona el Timeboxing? Datos de 5,077 tareas planificadas',
       excerpt: 'Las tareas con un bloque de tiempo asignado se completaron el 48.1% de las veces; las que quedaron solo en la lista, el 17.6%. Datos propios de 5,077 tareas planificadas por 250 usuarios de Chrobox, con metodología y limitaciones.',
       faqs: [
         {
@@ -1340,7 +1340,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'reduce-phone-addiction': {
-      title: 'Cómo Reducir la Adicción al Móvil: Un Plan de 7 Pasos para Reducir el Tiempo de Pantalla',
+      title: 'Cómo Reducir la Adicción al Móvil: Plan de 7 Pasos',
       excerpt: 'Un plan práctico y no clínico de 7 pasos para reducir la revisión compulsiva del móvil y el tiempo de pantalla, usando herramientas integradas más bloques de concentración planificados.',
       faqs: [
         {
@@ -1362,7 +1362,7 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'daily-reflection-template': {
-      title: 'Plantilla de Retrospectiva Diaria: 4 Formatos Listos para Usar (Incluyendo KPT)',
+      title: 'Plantilla de Retrospectiva Diaria: 4 Formatos (Incluye KPT)',
       excerpt: 'Cuatro plantillas de retrospectiva diaria listas para copiar, desde una reflexión de 3 líneas de 2 minutos hasta KPT y una comprobación de plan frente a lo real para días con bloques de tiempo.',
       faqs: [
         {
