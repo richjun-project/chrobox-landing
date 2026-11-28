@@ -782,8 +782,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: 'أفضل 10 تطبيقات تقسيم الوقت في 2025: دليل مقارنة شامل',
-      excerpt: 'هل تبحث عن أفضل تطبيق لتقسيم الوقت؟ نستعرض مقارنة لأفضل 10 خيارات في عام 2025، تشمل الميزات والأسعار والتطبيق الأنسب لأسلوب عملك.',
+      title: 'أفضل 8 تطبيقات لتحديد الوقت في 2026: مقارنة صادقة',
+      excerpt: 'مقارنة صادقة لأفضل 8 تطبيقات لتحديد الوقت في 2026 — Chrobox وSunsama وMotion وTickTick وStructured وTiimo وGoogle Calendar وTodoist — مع نقاط ضعف كل تطبيق.',
       faqs: [
         {
           question: 'ما هو أفضل تطبيق مجاني لتقسيم الوقت؟',

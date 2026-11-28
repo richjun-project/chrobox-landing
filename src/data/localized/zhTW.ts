@@ -782,8 +782,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: '2025年10款最佳時間箱 App推薦：完整評比指南',
-      excerpt: '正在尋找最適合的時間箱 App 嗎？本文完整評比 2025 年最熱門的 10 款選擇，包含功能特色、價格方案，助你找到最契合個人工作流程的生產力工具。',
+      title: '2026 年最佳 8 款時間箱 App：誠實評比指南',
+      excerpt: '誠實評比 2026 年最佳的 8 款時間箱 App——Chrobox、Sunsama、Motion、TickTick、Structured、Tiimo、Google 日曆與 Todoist，連各自的不足之處也一併說明。',
       faqs: [
         {
           question: '最推薦的免費時間箱 App 是哪一款？',

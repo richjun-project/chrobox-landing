@@ -782,8 +782,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: '10 Aplikasi Time-Boxing Terbaik 2025: Panduan Lengkap',
-      excerpt: 'Mencari aplikasi time-boxing terbaik? Kami membandingkan 10 pilihan teratas di tahun 2025, termasuk fitur, harga, dan mana yang paling cocok dengan alur kerja Anda.',
+      title: '8 Aplikasi Timeboxing Terbaik di 2026: Perbandingan Jujur',
+      excerpt: 'Perbandingan jujur 8 aplikasi timeboxing terbaik di 2026 — Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Calendar, dan Todoist — termasuk kekurangan masing-masing.',
       faqs: [
         {
           question: 'Apa aplikasi time-boxing gratis terbaik?',

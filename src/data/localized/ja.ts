@@ -834,8 +834,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: 'タイムボクシングアプリおすすめ10選【2025年最新比較】',
-      excerpt: '最適なタイムボクシングアプリをお探しですか？本記事では2025年最新のおすすめ10選を徹底比較。機能や料金、あなたのワークフローに最適なツールの選び方を紹介します。',
+      title: 'タイムボクシングアプリおすすめ8選【2026年・正直比較】',
+      excerpt: '2026年のおすすめタイムボクシングアプリ8選(Chrobox、Sunsama、Motion、TickTick、Structured、Tiimo、Google Calendar、Todoist)を、それぞれの弱点も含めて正直に比較します。',
       faqs: [
         {
           question: '無料で使えるおすすめのタイムボクシングアプリは？',

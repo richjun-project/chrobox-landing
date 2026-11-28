@@ -782,8 +782,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: 'Top 10 App Time-Boxing Tốt Nhất 2025: So Sánh Chi Tiết',
-      excerpt: 'Bạn đang tìm kiếm app time-boxing tốt nhất? Cùng so sánh 10 lựa chọn hàng đầu năm 2025 về tính năng, giá cả và tìm ra công cụ phù hợp nhất với quy trình làm việc của bạn.',
+      title: '8 ứng dụng Timeboxing tốt nhất năm 2026: So sánh thẳng thắn',
+      excerpt: 'So sánh thẳng thắn 8 ứng dụng timeboxing tốt nhất năm 2026 — Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Calendar và Todoist — kèm điểm yếu của từng ứng dụng.',
       faqs: [
         {
           question: 'App time-boxing miễn phí nào tốt nhất?',

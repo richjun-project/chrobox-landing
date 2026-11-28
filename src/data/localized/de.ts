@@ -834,8 +834,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: 'Timeboxing-Apps 2025: Die 10 besten im Vergleich',
-      excerpt: 'Auf der Suche nach der besten Timeboxing-App? Wir vergleichen die 10 besten Optionen im Jahr 2025 – inklusive Funktionen, Preisen und Workflow-Eignung.',
+      title: 'Die 8 besten Timeboxing-Apps 2026: Ehrlicher Vergleich',
+      excerpt: 'Ein ehrlicher Vergleich der 8 besten Timeboxing-Apps 2026 – Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Calendar und Todoist – inklusive ihrer Schwächen.',
       faqs: [
         {
           question: 'Was ist die beste kostenlose Timeboxing-App?',

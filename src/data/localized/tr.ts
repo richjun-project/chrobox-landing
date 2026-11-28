@@ -782,8 +782,8 @@ export const pack: LocalizedContentPack = {
       ],
     },
     'best-time-boxing-apps': {
-      title: 'En İyi 10 Zaman Bloklama Uygulaması: 2025 Karşılaştırması',
-      excerpt: 'En iyi zaman bloklama uygulamasını mı arıyorsunuz? Özellikleri, fiyatları ve iş akışınıza en uygun seçeneğiyle 2025\'in en iyi 10 uygulamasını karşılaştırdık.',
+      title: '2026\'nın En İyi 8 Time-Boxing Uygulaması: Karşılaştırma',
+      excerpt: '2026\'nın en iyi 8 time-boxing uygulamasının dürüst karşılaştırması — Chrobox, Sunsama, Motion, TickTick, Structured, Tiimo, Google Takvim ve Todoist — her birinin zayıf yanlarıyla.',
       faqs: [
         {
           question: 'En iyi ücretsiz zaman bloklama uygulaması hangisidir?',
